@@ -1,0 +1,9 @@
+﻿;pred_AccordoSindacale;pred_Decreto;pred_DeliberaConsiglio;pred_DeliberaGiunta;pred_Determina;pred_Ordinanza;pred_Regolamento;pred_Statuto
+vero_AccordoSindacale;15;0;0;0;1;0;0;0
+vero_Decreto;0;11;0;0;0;0;3;2
+vero_DeliberaConsiglio;0;0;15;1;0;0;0;0
+vero_DeliberaGiunta;0;0;1;14;0;0;1;0
+vero_Determina;1;1;0;0;12;0;2;0
+vero_Ordinanza;1;2;0;0;0;13;0;0
+vero_Regolamento;0;0;0;0;0;0;16;0
+vero_Statuto;0;0;0;0;0;0;0;16

@@ -1,0 +1,23 @@
+COMUNE DI CALVIZZANO
+Città Metropolitana di Napoli
+(Edilizia - Urbanistica - SUAP - Commercio)
+REGOLAMENTO URBANISTICO EDILIZIO COMUNALE
+del COMUNE DI CALVIZZANO-RUEC-2024
+
+PARTE I - PRINCIPI GENERALI E DISCIPLINA GENERALE DELL'ATTIVITA' EDILIZIA
+
+Art. 1 Natura del Regolamento Urbanistico Edilizio Comunale
+Art. 2 Oggetto del Regolamento Urbanistico Edilizio Comunale
+Art. 3 Coordinamento con il Piano Urbanistico Comunale
+Art. 4 Definizioni dei parametri urbanistici ed edilizi
+
+Protocollo:
+St - Superficie territoriale (mq) 12
+It - Indice di fabbricabilità teritoriale (mc/mq) 12
+If - Indice di fabbricabilità fondiaria (mc/mq)
+VE - Volume massimo realizzabile (mc)
+Ut - Indice di utilizzazione territoriale (mq/mq)
+Uf - Indice di utilizzazione fondiaria (mq/mq)
+Jc - Indice capitario (mc/ab)
+Sm - Superficie minima di intervento (mq)
+SI - Superficie minima del lotto (mq)

@@ -1,0 +1,86 @@
+Risultati training modelli ML
+=============================
+
+Generato il: 2026-06-09 04:14:58
+Dataset: C:\Users\Ciro\OneDrive - Università di Napoli Federico II\Desktop\Tirocinio\Output\Golden\Golden128\gemma3_4b_pipeline_A\dataset_atti_gemma3_4b_pulizia.csv
+Cartella risultati: C:\Users\Ciro\OneDrive - Università di Napoli Federico II\Desktop\Tirocinio\Output\Golden\Golden128\gemma3_4b_pipeline_A\risultati_training_gemma3_4b_A
+X usata: testo_completo_llm
+Y usata: golden_label
+
+Classi:
+AccordoSindacale, Decreto, DeliberaConsiglio, DeliberaGiunta, Determina, Ordinanza, Regolamento, Statuto
+
+Distribuzione golden_label:
+golden_label
+Decreto              16
+DeliberaGiunta       16
+DeliberaConsiglio    16
+Determina            16
+Regolamento          16
+Statuto              16
+AccordoSindacale     16
+Ordinanza            16
+
+Metriche su test set:
+            modello  accuracy  precision_macro  recall_macro  f1_macro  f1_weighted
+logistic_regression     96.88            97.50         96.88     96.83        96.83
+        naive_bayes     93.75            95.00         93.75     93.65        93.65
+         linear_svm     90.62            93.33         90.62     90.16        90.16
+
+Metriche cross-validation:
+            modello  cv_n_splits  accuracy_mean  accuracy_std  precision_macro_mean  precision_macro_std  recall_macro_mean  recall_macro_std  f1_macro_mean  f1_macro_std  f1_weighted_mean  f1_weighted_std
+        naive_bayes            5          92.18          5.62                 93.79                 4.59              92.50              5.94          92.14          5.77             92.15             5.50
+logistic_regression            5          96.83          4.66                 97.75                 3.18              96.67              4.86          96.66          4.83             96.83             4.63
+         linear_svm            5          96.83          4.66                 97.75                 3.18              96.67              4.86          96.66          4.83             96.83             4.63
+
+File generati nella cartella risultati:
+- training_set.csv
+- test_set.csv
+- risultati_test_ml.csv
+- sintesi_metriche_test_set.csv
+- tabella_riassuntiva_metriche_modelli.csv
+- confusion_matrix_*
+- classification_report_*
+
+<!-- AUDIT_PIPELINE_START -->
+
+Audit pipeline LLM
+==================
+
+Generato il: 2026-06-09 04:15:40
+Dataset/pipeline: C:\Users\Ciro\OneDrive - Università di Napoli Federico II\Desktop\Tirocinio\Output\Golden\Golden128\gemma3_4b_pipeline_A
+Audit CSV: C:\Users\Ciro\OneDrive - Università di Napoli Federico II\Desktop\Tirocinio\Output\Golden\Golden128\gemma3_4b_pipeline_A\audit_log_gemma3_4b_pulizia.csv
+Modello: gemma3:4b
+Pipeline: pipeline_A (pulizia)
+
+Volumi:
+- Record audit: 128
+- OCR usati: 49 (38.28%)
+- Fallback locale: 0 (0.0%)
+- Errori tecnici: 0
+- Chunk LLM totali: 128
+
+Token:
+- Input token totali: 89683
+- Output token totali: 35191
+- Total token totali: 124874
+- Input token medi per record: 700.65
+- Output token medi per record: 274.93
+- Total token medi per record: 975.58
+
+Costi registrati:
+- Costo input totale: 0.0
+- Costo output totale: 0.0
+- Costo totale: 0.0
+
+Timestamp:
+- Inizio osservato: 2026-06-08 13:44:26
+- Fine osservata: 2026-06-08 15:31:57
+- Durata osservata: 01:47:31
+- Secondi medi per record: 50.4
+
+Nota:
+La durata osservata deriva dai timestamp dell'audit, quindi misura l'intervallo tra
+primo e ultimo record scritto. Non e' una misura precisa della singola chiamata LLM/OCR.
+
+<!-- AUDIT_PIPELINE_END -->

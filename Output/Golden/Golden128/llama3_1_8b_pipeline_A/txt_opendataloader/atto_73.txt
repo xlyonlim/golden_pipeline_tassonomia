@@ -1,0 +1,155 @@
+
+COMUNE DI POGGIBONSI
+
+PROVINCIA DI SIENA
+
+Deliberazione della Giunta Comunale
+
+N. 55 Data 24/02/2015	Oggetto: “ISTITUZIONE DELLE Z.T.L. (ZONE A TRAFFICO LIMITATO) E DELLA A.P.U. (AREA PEDONALE URBANA) - ISTITUZIONE DEL SISTEMA DI CONTROLLO ELETTRONICO DEGLI ACCESSI ALLA Z.T.L. 0/24 ED ALLA Z.T.L. 14/20 APPROVAZIONE DEL DISCIPLINARE DELLE Z.T.L. E DELLA A.P.U. ”
+
+L’anno (2015) il giorno ventiquattro del mese di Febbraio alle ore 15:30 nei modi di legge, si è riunita nell’apposita sala la Giunta Comunale con l’intervento dei Signori:
+
+PRESENTE
+BUSSAGLI DAVID	Sindaco	NO
+BECATTELLI SILVANO	Vice Sindaco	SI
+CARROZZINO FABIO	Assessore	SI
+BERTI NICOLA	Assessore	SI
+CONVERTITO FILOMENA	Assessore	SI
+SALVADORI SUSANNA	Assessore	SI
+
+Totale Presenti: 5 Totale assenti: 1
+
+Assiste il Segretario Generale Dott. DOTTORI ROBERTO
+
+Il VICE SINDACO, constatato che gli intervenuti sono in numero legale, dichiara aperta la riunione ed invita i convocati a deliberare sull’oggetto sopraindicato.
+
+La Giunta Comunale
+
+Premesso che con precedenti deliberazioni e provvedimenti attuativi, nel tempo, questo Ente ha provveduto a disporre in ordine all’istituzione, modifica e disciplina delle ZTL (Zone a Traffico Limitato) e delle APU (Aree Pedonali Urbane) del centro storico del Comune di Poggibonsi ed in particolare richiamate:
+
+
+Considerato che:
+
+
+
+Ricordato che:
+
+ La Regione Toscana, con delibera GR n. 704 del 01/08/2011, ha individuato gli indirizzi per l’accelerazione della programmazione della spesa del Programma Operativo regionale “Competitività regionale e Occupazione” 2007-2013, indicando, quali priorità di intervento dell’Asse IV “accessibilità ai servizi di trasporto e di telecomunicazioni”, gli obiettivi operativi e le conseguenti attività, interessanti anche i Comuni, come di seguito riportato:
+
+
+ Con delibera G.R.T. n. 341 del 23/04/2012, la Regione Toscana ha individuato le risorse da destinare ai Comuni, con un impegno di cofinanziamento almeno pari al 50% delle spese totali ammissibili;
+
+ Con successivo Decreto n. 2613 del 23/05/2012 la Regione toscana ha approvato l’avviso rivolto ai Comuni per la selezione dei progetti in ambito di infomobilità corredato della scheda di proposta progettuale;
+
+ Il Comune di Poggibonsi, con la propria deliberazione G.C. n. 245 del 20/09/2012, ha approvato quindi la proposta progettuale denominata “Poggibonsi – i mobility” da presentare alla Regione Toscana per la concessione di un contributo nell’ambito del suddetto Programma operativo Regionale “POR - FESR 2007-2013, Asse IV Accessibilità ai servizi di trasporto e di telecomunicazioni. Attività IV . 4”, individuando il dirigente del Settore Polizia Municipale, responsabile del progetto/RUP
+
+ Con successivo Decreto dirigenziale n. 6362 del 28/12/2012, pubblicato sul Burt n. 4 – Parte terza del 23/01/2013, la Regione Toscana ha approvato la graduatoria relativa ai progetti di infomobilità, nella quale il progetto “Poggibonsi – I – Mobility” presentato da questo Comune risulta ammesso a cofinanziamento, provvedendo alla successiva sottoscrizione con questo Ente, della convenzione contenente gli impegni per la gestione del contributo (obblighi di monitoraggio e rendicontazione, modalità e tempi di erogazione, ecc) assegnato per la realizzazione del progetto;
+
+ E’ emersa successivamente la necessità di apportare alcune modifiche all’originario progetto, e quindi, con deliberazione G.C. n. 161 del 20/05/2014, il Comune di Poggibonsi ha approvato la nuova scheda progettuale denominata “Poggibonsi – i mobility” il cui schema funzionale prevede la suddivisione in varie azioni di intervento tra le quali rientra la realizzazione di un “SISTEMA DI CONTROLLO DEGLI ACCESSI ALLA ZONA A TRAFFICO LIMITATO (ZTL) DEL COMUNE DI POGGIBONSI” da realizzarsi attraverso la fornitura e posa in opera di varchi
+
+elettronici e di tutto quanto necessario per il loro corretto funzionamento, approvando il relativo piano di spesa;
+
+ Il nuovo progetto di informobilità in questione, ha previsto la suddivisione delle azioni che lo compongono, in due successive fasi, da realizzarsi consecutivamente: tra le azioni che prevedono una tempistica di realizzazione distinta in due fasi, rientrava anche il “sistema di controllo automatizzato degli accessi alla Zona a Traffico limitato” con particolare riferimento alla diversa articolazione oraria in ZTL 0/24 (I° fase) e ZTL 14/20 (II° fase). Nello specifico per la realizzazione della seconda fase era necessario valutare previamente un modesto ampliamento della ZTL 14/20;
+
+ Con nota prot. n. 16261 del 29/05/2014, integrata con nota prot. n. 17556 del 13/06/2014, il nuovo progetto così approvato, veniva inviato alla Regione Toscana, che autorizzava le modifiche progettuali con successiva nota prot. n. 22264 del 29/07/2014
+
+ Con direttiva G.C. n. 104 del 23/10/2014, questo organo, vista l’unitarietà del sistema di controllo degli accessi, l’opportunità di procedere con speditezza alla fornitura del sistema alla luce della tempistica del progetto “Poggibonsi I – Mobility”, nonché la stretta correlazione delle prestazioni contrattuali, che per ragioni tecniche e di buon funzionamento dell’infrastruttura, richiedono una gestione organica, ha ritenuto necessario disporre l’ampliamento della ZTL 14/20 alla Via S. Martini ed all’intera Via San Francesco, con l’obiettivo di procedere, fin da subito, ad un appalto unitario della fornitura e posa in opera del sistema;
+
+ A seguito di tale atto di indirizzo, il Dirigente del Settore Polizia Municipale con propria determinazione n. 45/PM del 28/10/2014 ha indetto apposita procedura negoziata tramite RDO sul Mercato Elettronico della Pubblica Amministrazione (MEPA) ai sensi dell’art. 125 comma 1, lett. b) e comma 4 del D.lgs 163/2006 e s.m.ei. nonché dell’art. 10, comma 1 lettera q) del Regolamento dei Contratti dell’ Ente , per la fornitura e posa in opera di un sistema di controllo automatizzato degli accessi alla zona a traffico limitato del centro cittadino, provvedendo contestualmente, all’approvazione del relativo progetto, redatto a cura del Settore Polizia Municipale e che prevede la realizzazione di un sistema di controllo telematico ZTL mediante l’installazione di n. 7 (sette) varchi elettronici di lettura delle targhe per il monitoraggio della corsia di ingresso alle ZTL 0/24 e 14/20 per come delineate nei pregressi provvedimenti, completi eti di tutte le apparecchiature hardware, di tutti i componenti software e di tutti gli accessori necessari al loro corretto funzionamento (postazione Centrale di Controllo, segnaletica stradale, pannelli informativi per l’informazione all’utenza dello stato in tempo reale della ZTL - varco attivo/varco non attivo - e relativi orologi indicante l’ora locale ) in corrispondenza dei seguenti siti:
+
+ZTL 0/24
+
+
+n. 5 - L.go Gramsci ZTL 14/20
+
+n. 6 - Via Borgo Marturi ( parte alta) angolo P.zza Matteotti n. 7 - Via San Francesco
+
+ Con RDO n.645127 (CIG 5988951EB2) pubblicata in data 31/10/2014, è stata attivata la suddetta procedura negoziata;
+
+ Con successiva determinazione dirigenziale n. 132/EU del 11/12/2014, a seguito dell’esame delle offerte pervenute da parte della Commissione Giudicatrice, nominata con determinazione dirigenziale n. 49/PM del 12/11/2014, è stata affidata alla ditta Sismic Sistemi SRL con sede legale in Firenze, via Maria Malibran, 49/51 (P.Iva
+
+04403120480) la fornitura e posa in opera del sistema di controllo telematico degli accessi ZTL mediante l’installazione di n. 7 (sette) varchi elettronici denominati “S.A.R.T./2”, sistema regolarmente omologato con Decreto del Ministero delle Infrastrutture e dei Trasporti - Dipartimento per i trasporti, la navigazione, gli affari generali ed il personale – Direzione generale per la sicurezza stradale prot. n. 4684 del 03/10/2014, rilasciato alla Società Sismic Sistemi Srl, allegato alla presente deliberazione sub lett.A) onde costituirne parte integrante e sostanziale;
+
+Ritenuto dunque, alla luce di quanto sopra illustrato:
+
+
+A) APU con divieto di transito e sosta dalle ore 0.00 alle ore 24.00 a tutti i veicoli, ad eccezione delle categorie esentate e/o autorizzate, nelle seguenti vie e piazze:
+
+
+
+
+
+Precisato che il sistema di controllo elettronico degli accessi, nella zona a traffico limitato del Comune di Poggibonsi (SI), che costituisce parte del più ampio progetto “Poggibonsi IMobility”, ha la finalità di consentire:
+
+
+Atteso dunque che tale Sistema concorre pertanto a perseguire gli obiettivi insiti nell’istituzione delle ZTL ed APU e quindi:
+
+
+Evidenziato che i suddetti sistemi omologati “S.A.R.T./2” di SISMIC SISTEMI SRL (Decreto del Ministero delle Infrastrutture e dei Trasporti - Dipartimento per i trasporti, la navigazione, gli affari generali ed il personale – Direzione generale per la sicurezza stradale prot. n. 4684 del 03/10/2014) verranno installati, per le finalità e con gli obbiettivi sopra illustrati, nei principali varchi di ingresso alla ZTL 0/24 ed alla ZTL 14/20 ed in particolare nei punti di sorveglianza evidenziati nella richiamata planimetria, allegata sub lett. B) che costituisce parte integrante e sostanziale del presente provvedimento, collocandoli in corrispondenza dei seguenti siti:
+
+ZTL 0/24
+
+
+
+Precisato che
+
+ i suddetti impianti saranno utilizzati per la rilevazione dei dati, riguardanti il luogo, il tempo e l'identificazione dei veicoli che accedono alle ZTL di questo Ente, raccogliendo dati sugli accessi e rilevando immagini solamente in caso di infrazione e che la conseguente procedura sanzionatoria avrà luogo solamente in presenza di violazione documentata dalle immagini rilevate, che verrà conservata per il solo periodo necessario alla contestazione dell'infrazione, all'applicazione della sanzione ed alla definizione dell'eventuale contenzioso. I dati rilevati verranno utilizzati, in forma anonima, nel rispetto delle vigenti disposizioni di legge, anche a fini statistici e per studi, analisi e rilievi di traffico;
+
+ gli impianti verranno gestiti direttamente dal Comando di Polizia Municipale, restando nella loro disponibilità. Al Responsabile nominato da Sindaco ed al personale di vigilanza incaricato, spetterà la custodia e l’utilizzazione dei dati rilevati.
+
+ ferme restando le disposizioni di cui al D.Lgs 196/2003 e successive modificazioni, i dati rilevati sono accessibili per fini di polizia giudiziaria o di indagine penale.
+
+ l'esercizio degli impianti avrà luogo nel rispetto delle norme di omologazione od approvazione, per le finalità per cui sono stati autorizzati, e comunque nei limiti di cui all'articolo 17, comma 133- bis, della legge 15 maggio 1997, n. 127, introdotto dall'articolo 2, comma 33, della legge 16 giugno 1998, n. 191;
+
+ gli impianti in questione non saranno interconnessi con altri strumenti, archivi o banche dati;
+
+ ai fini dell'installazione ed esercizio degli impianti suddetti per la rilevazione degli accessi di veicoli alle ZTL per come sopra individuate ed istituite, ai sensi dell'articolo 17, comma 133-bis, della legge 15 maggio 1997, n. 127, introdotto dall'art. 2, comma 33, della legge 16 giugno 1998, n. 191, questo Ente provvederà a richiedere apposita autorizzazione al Ministero delle Infrastrutture e dei Trasporti - Dipartimento per i trasporti, la navigazione, gli affari generali ed il personale – Direzione generale per la sicurezza stradale, recependo quanto in essa contenuto in ordine all’esercizio;
+
+Dato atto che, in corrispondenza dei suddetti varchi elettronici, il flusso dei veicoli non autorizzati al transito in ZTL, può regolarmente proseguire, senza la necessità di manovre che possano pregiudicare la sicurezza o creare intralcio alla circolazione, utilizzando percorsi non soggetti a divieto o limitazione alcuna;
+
+Atteso che
+
+
+
+Ritenuto
+
+
+Ritenuta la propria competenza ai sensi dell’art. 7, comma 1 lett. f) del D.Lgs n. 285/92 e successive modifiche ed integrazioni recante “Nuovo Codice della Strada”, nonché ai sensi dell’art. 48 del D.Lgs n. 267/2000 e s.m.e i.;
+
+Preso atto del parere favorevole in ordine alla regolarità tecnica espresso dal Dirigente del Settore Polizia Municipale ed in ordine alla regolarità contabile espresso dal Dirigente del Settore Economico-Finanziario, come da allegati alla proposta di delibera, ai sensi dell’art. 49 del D.lgs. n. 267/2000 e ss.mm.;
+
+Visto lo Statuto Comunale
+
+Visto il D.lgs 267/2000 e ss.mm.ii. Visto il D.Lgs 285/92 e ss.mm.ii Visto il DPR 495/92 e ss.mm.i.i. Visto il DPR 250/1999 avente ad oggetto “Regolamento recante le norme per l’attuazione all’installazione ed all’esercizio degli impianti per la rilevazione degli accessi di veicoli ai centri storici ed alle zone a traffico limitato”;
+
+Visto l’art 17, comma 133- bis, della legge 15 maggio 1997, n. 127; Con votazione unanime, resa in forma palese, nelle forme di legge;
+
+DELIBERA
+
+
+A) AREA PEDONALE URBANA (APU) con divieto di transito e sosta dalle ore 0.00 alle ore 24.00 a tutti i veicoli, ad eccezione delle categorie esentate e/o autorizzate, nelle seguenti vie e piazze:
+
+
+
+
+
+ZTL 0/24
+  ZTL 0/24
+
+
+
+Letto, approvato e sottoscritto
+
+IL Segretario Generale DOTTORI ROBERTO
+
+IL VICE SINDACO BECATTELLI SILVANO
+
+La presente deliberazione è stata pubblicata all’Albo pretorio on line in data odierna per 15 giorni consecutivi ai sensi dell’art. 124 – I comma – del Dlgs 267/2000 e diventa esecutiva da tale data ai sensi dell’art. 134 c.4 del Dlgs 267/2000.
+
+Poggibonsi, lì 03/03/2015
+
+IL Segretario Generale DOTTORI ROBERTO
+
+
+
+Le firme, in formato digitale, sono state apposte sull’originale del presente atto ai sensi dell’art. 24 del D.Lgs. 07/03/2005, n. 82 e s.m.i. (CAD). La presente deliberazione è conservata negli archivi informatici del Comune di Poggibonsi, ai sensi dell’art. 22 del D.Lgs. 82/2005.

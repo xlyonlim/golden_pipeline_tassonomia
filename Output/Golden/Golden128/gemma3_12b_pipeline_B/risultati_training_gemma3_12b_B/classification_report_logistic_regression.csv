@@ -1,0 +1,12 @@
+﻿;precision;recall;f1-score;support
+AccordoSindacale;1.0;1.0;1.0;4.0
+Decreto;1.0;0.5;0.6666666666666666;4.0
+DeliberaConsiglio;0.6666666666666666;1.0;0.8;4.0
+DeliberaGiunta;1.0;1.0;1.0;4.0
+Determina;1.0;1.0;1.0;4.0
+Ordinanza;1.0;1.0;1.0;4.0
+Regolamento;1.0;1.0;1.0;4.0
+Statuto;1.0;1.0;1.0;4.0
+accuracy;0.9375;0.9375;0.9375;0.9375
+macro avg;0.9583333333333333;0.9375;0.9333333333333333;32.0
+weighted avg;0.9583333333333333;0.9375;0.9333333333333333;32.0
