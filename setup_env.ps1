@@ -53,4 +53,4 @@ $VenvPython = Join-Path $VenvDir "Scripts\python.exe"
 Write-Host ""
 Write-Host "Ambiente pronto:" $VenvDir
 Write-Host "Per eseguire lo script:"
-Write-Host "& `"$VenvPython`" `"$ProjectDir\estrai_atti_OLLAMA_solo_vision_filtro_forte.py`""
+Write-Host "& `"$VenvPython`" `"$ProjectDir\estrai_atti_OLLAMA_2.py`""

@@ -1,9 +1,9 @@
-Risultati training modelli ML
+﻿Risultati training modelli ML
 =============================
 
 Generato il: 2026-06-09 04:21:41
-Dataset: C:\Users\Ciro\OneDrive - Università di Napoli Federico II\Desktop\Tirocinio\Output\Golden\Golden128\llama3_1_8b_pipeline_A\dataset_atti_llama3_1_8b_pulizia.csv
-Cartella risultati: C:\Users\Ciro\OneDrive - Università di Napoli Federico II\Desktop\Tirocinio\Output\Golden\Golden128\llama3_1_8b_pipeline_A\risultati_training_llama3_1_8b_A
+Dataset: C:\Users\itsci\Documents\Tirocinio\ScriptDataset\Output\Golden\Golden128\llama3_1_8b_pipeline_A\dataset_atti_llama3_1_8b_pulizia.csv
+Cartella risultati: C:\Users\itsci\Documents\Tirocinio\ScriptDataset\Output\Golden\Golden128\llama3_1_8b_pipeline_A\risultati_training_llama3_1_8b_A
 X usata: testo_completo_llm
 Y usata: golden_label
 
@@ -48,8 +48,8 @@ Audit pipeline LLM
 ==================
 
 Generato il: 2026-06-09 04:22:00
-Dataset/pipeline: C:\Users\Ciro\OneDrive - Università di Napoli Federico II\Desktop\Tirocinio\Output\Golden\Golden128\llama3_1_8b_pipeline_A
-Audit CSV: C:\Users\Ciro\OneDrive - Università di Napoli Federico II\Desktop\Tirocinio\Output\Golden\Golden128\llama3_1_8b_pipeline_A\audit_log_llama3_1_8b_pulizia.csv
+Dataset/pipeline: C:\Users\itsci\Documents\Tirocinio\ScriptDataset\Output\Golden\Golden128\llama3_1_8b_pipeline_A
+Audit CSV: C:\Users\itsci\Documents\Tirocinio\ScriptDataset\Output\Golden\Golden128\llama3_1_8b_pipeline_A\audit_log_llama3_1_8b_pulizia.csv
 Modello: llama3.1:8b
 Pipeline: pipeline_A (pulizia)
 

@@ -5,9 +5,7 @@ from pathlib import Path
 import pandas as pd
 
 
-BASE_DATASET_DIR = Path(
-    r"C:\Users\Ciro\OneDrive - Università di Napoli Federico II\Desktop\Tirocinio\Output\Golden\Golden128"
-)
+BASE_DATASET_DIR = Path(__file__).resolve().parent / "Output" / "Golden" / "Golden128"
 
 AUDIT_SUMMARY_CSV = "audit_pipeline_summary.csv"
 AUDIT_SECTION_START = "<!-- AUDIT_PIPELINE_START -->"

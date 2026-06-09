@@ -17,7 +17,7 @@ from pypdf import PdfReader, PdfWriter
 # ============================================================
 
 progetto_dir = Path(__file__).resolve().parent
-base_dir = progetto_dir.parent
+base_dir = progetto_dir
 
 input_dir = base_dir / "Input"
 output_base_dir = base_dir / "Output" / "Golden" / "Golden128"

@@ -1,9 +1,9 @@
-Risultati training modelli ML
+﻿Risultati training modelli ML
 =============================
 
 Generato il: 2026-06-09 04:17:12
-Dataset: C:\Users\Ciro\OneDrive - Università di Napoli Federico II\Desktop\Tirocinio\Output\Golden\Golden128\gemma3_4b_pipeline_B\dataset_atti_gemma3_4b_riassunto.csv
-Cartella risultati: C:\Users\Ciro\OneDrive - Università di Napoli Federico II\Desktop\Tirocinio\Output\Golden\Golden128\gemma3_4b_pipeline_B\risultati_training_gemma3_4b_B
+Dataset: C:\Users\itsci\Documents\Tirocinio\ScriptDataset\Output\Golden\Golden128\gemma3_4b_pipeline_B\dataset_atti_gemma3_4b_riassunto.csv
+Cartella risultati: C:\Users\itsci\Documents\Tirocinio\ScriptDataset\Output\Golden\Golden128\gemma3_4b_pipeline_B\risultati_training_gemma3_4b_B
 X usata: testo_completo_llm
 Y usata: golden_label
 
@@ -48,8 +48,8 @@ Audit pipeline LLM
 ==================
 
 Generato il: 2026-06-09 04:18:08
-Dataset/pipeline: C:\Users\Ciro\OneDrive - Università di Napoli Federico II\Desktop\Tirocinio\Output\Golden\Golden128\gemma3_4b_pipeline_B
-Audit CSV: C:\Users\Ciro\OneDrive - Università di Napoli Federico II\Desktop\Tirocinio\Output\Golden\Golden128\gemma3_4b_pipeline_B\audit_log_gemma3_4b_riassunto.csv
+Dataset/pipeline: C:\Users\itsci\Documents\Tirocinio\ScriptDataset\Output\Golden\Golden128\gemma3_4b_pipeline_B
+Audit CSV: C:\Users\itsci\Documents\Tirocinio\ScriptDataset\Output\Golden\Golden128\gemma3_4b_pipeline_B\audit_log_gemma3_4b_riassunto.csv
 Modello: gemma3:4b
 Pipeline: pipeline_B (riassunto)
 

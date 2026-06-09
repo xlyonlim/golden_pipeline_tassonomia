@@ -44,9 +44,7 @@ from sklearn.svm import LinearSVC
 
 # ============================================================
 # 1. CONFIGURAZIONE
-BASE_DATASET_DIR = Path(
-    r"C:\Users\Ciro\OneDrive - Università di Napoli Federico II\Desktop\Tirocinio\Output\Golden\Golden128"
-)
+BASE_DATASET_DIR = Path(__file__).resolve().parent / "Output" / "Golden" / "Golden128"
 COLONNA_TESTO = "testo_completo_llm"
 COLONNA_LABEL = "golden_label"
 
