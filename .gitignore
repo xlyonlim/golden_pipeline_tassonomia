@@ -1,0 +1,40 @@
+# Python cache/build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Local virtual environments / dependencies
+.venv/
+.venv_*/
+venv/
+env/
+ENV/
+
+# IDE/editor local settings
+.vscode/
+.idea/
+
+# Environment and local config
+.env
+.env.*
+!.env.example
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+tmp/
+temp/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini

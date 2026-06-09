@@ -1,0 +1,13 @@
+requests
+opendataloader-pdf
+pypdf
+PyMuPDF
+Pillow
+numpy
+rapidocr-onnxruntime
+paddleocr
+paddlepaddle
+openai
+pytesseract
+pandas
+scikit-learn
