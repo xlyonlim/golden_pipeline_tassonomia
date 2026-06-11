@@ -19,7 +19,9 @@ from pypdf import PdfReader, PdfWriter
 progetto_dir = Path(__file__).resolve().parent
 base_dir = progetto_dir
 
-input_dir = base_dir / "Input"
+DIAGNOSTIC_BASE_DIR = base_dir / "Output" / "Golden" / "Golden128" / "crea_dataset_diagnostico_40"
+
+input_dir = DIAGNOSTIC_BASE_DIR / "Input_diagnostico_40"
 output_dir = base_dir / "Output" / "Golden" / "Golden128" / Path(__file__).stem
 
 txt_dir = output_dir / "txt_opendataloader"
@@ -34,8 +36,7 @@ JAVA_OK_PER_OPENDATALOADER = None
 JAVA_CMD_OPENDATALOADER = None
 
 CSV_PRECEDENTI_DA_LEGGERE = [
-    output_dir / "dataset_atti.csv",
-    output_dir / "dataset_gemma3_4b.csv",
+    DIAGNOSTIC_BASE_DIR / "diagnostic_set.csv",
 ]
 
 # ============================================================
@@ -138,8 +139,9 @@ USA_FALLBACK_LOCALE_SE_LLM_FALLISCE = True
 COSTO_INPUT_PER_1K = 0.0
 COSTO_OUTPUT_PER_1K = 0.0
 
-RIELABORA_TUTTI = False
-MAX_PDF_DA_PROCESSARE = 40  # None = tutti i PDF; per i test lasciare un campione
+RIELABORA_TUTTI = True
+MAX_PDF_DA_PROCESSARE = None
+CONTROLLA_NUMERAZIONE_SEQUENZIALE = False
 ID_ATTI_DA_RIELABORARE = set()
 FILE_DA_RIELABORARE = set()
 
@@ -468,6 +470,28 @@ def trova_pdf():
     return sorted(input_dir.glob("*.pdf"), key=natural_sort_key)
 
 
+def assicura_pdf_diagnostici():
+    if list(input_dir.glob("*.pdf")):
+        return
+
+    generatore = base_dir / "crea_dataset_diagnostico_40.py"
+    if not generatore.exists():
+        return
+
+    print("Cartella diagnostica vuota: rigenero il campione da 40 atti...")
+    result = subprocess.run(
+        [os.sys.executable, str(generatore)],
+        cwd=str(base_dir),
+        capture_output=True,
+        text=True,
+        check=False,
+    )
+    if result.stdout:
+        print(result.stdout.strip())
+    if result.returncode != 0 and result.stderr:
+        print(result.stderr.strip())
+
+
 def numero_atto_da_nome_file(pdf_path):
     match = re.match(r"^atto\s*[_\-\s]*([0-9]+)\s*$", Path(pdf_path).stem.strip().lower())
     return int(match.group(1)) if match else None
@@ -488,12 +512,14 @@ def verifica_numerazione_pdf(pdf_files):
         dettagli = ["atto_{}: {}".format(n, ", ".join(nomi)) for n, nomi in sorted(duplicati.items())]
         raise RuntimeError("Controllo numerazione fallito: numeri duplicati.\n" + "\n".join(dettagli))
 
-    if numeri:
+    if numeri and CONTROLLA_NUMERAZIONE_SEQUENZIALE:
         massimo = max(numeri)
         mancanti = [n for n in range(1, massimo + 1) if n not in numeri]
         if mancanti:
             raise RuntimeError("Controllo numerazione fallito: mancano questi file:\n" + ", ".join(f"atto_{n}" for n in mancanti))
         print(f"Controllo numerazione OK: presenti atto_1 ... atto_{massimo}.")
+    elif numeri:
+        print(f"Controllo numerazione sequenziale disattivato: presenti {len(numeri)} ID atto non necessariamente consecutivi.")
 
     if senza_numero:
         print("Nota: questi PDF sono esclusi dal controllo sequenziale:")
@@ -1153,6 +1179,9 @@ def avvia_automazione():
     configura_file_output_per_modello(MODELLO_OLLAMA_ATTIVO)
 
     pdf_files = trova_pdf()
+    if not pdf_files:
+        assicura_pdf_diagnostici()
+        pdf_files = trova_pdf()
     if not pdf_files:
         print("Nessun PDF trovato nella cartella Input:")
         print(input_dir)

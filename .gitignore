@@ -34,6 +34,9 @@ ENV/
 tmp/
 temp/
 
+# Generated output archives
+Output/**/*.zip
+
 # OS files
 .DS_Store
 Thumbs.db

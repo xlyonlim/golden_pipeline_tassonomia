@@ -10,6 +10,8 @@ BASE_DATASET_DIR = Path(__file__).resolve().parent / "Output" / "Golden" / "Gold
 AUDIT_SUMMARY_CSV = "audit_pipeline_summary.csv"
 AUDIT_SECTION_START = "<!-- AUDIT_PIPELINE_START -->"
 AUDIT_SECTION_END = "<!-- AUDIT_PIPELINE_END -->"
+CONFUSION_SECTION_START = "<!-- CONFUSION_MATRICES_START -->"
+CONFUSION_SECTION_END = "<!-- CONFUSION_MATRICES_END -->"
 
 
 def scegli_da_lista(titolo, opzioni):
@@ -203,6 +205,86 @@ def salva_summary_csv(metriche, path):
         writer.writerow(metriche)
 
 
+def trova_confusion_matrices(output_dir):
+    output_dir = Path(output_dir)
+    files = sorted(output_dir.glob("confusion_matrix*.csv"))
+
+    def key(path):
+        nome = path.stem
+        tipo = 1 if "_cv_" in nome else 0
+        return (tipo, nome)
+
+    return sorted(files, key=key)
+
+
+def nome_modello_da_confusion(path):
+    stem = Path(path).stem
+    if stem.startswith("confusion_matrix_cv_"):
+        return stem.replace("confusion_matrix_cv_", ""), "cross-validation"
+    if stem.startswith("confusion_matrix_"):
+        return stem.replace("confusion_matrix_", ""), "test set"
+    return stem, "n/d"
+
+
+def leggi_confusion_matrix(path):
+    return pd.read_csv(
+        path,
+        sep=";",
+        encoding="utf-8-sig",
+        engine="python",
+        index_col=0,
+    )
+
+
+def sezione_confusion_matrices_txt(output_dir):
+    matrices = trova_confusion_matrices(output_dir)
+    righe = [
+        CONFUSION_SECTION_START,
+        "",
+        "Confusion matrix modelli ML",
+        "===========================",
+        "",
+        f"Generato il: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}",
+        f"Cartella risultati: {Path(output_dir).resolve()}",
+        "",
+    ]
+
+    if not matrices:
+        righe.extend([
+            "Nessuna confusion_matrix*.csv trovata nella cartella risultati.",
+            "",
+            CONFUSION_SECTION_END,
+            "",
+        ])
+        return "\n".join(righe)
+
+    righe.extend([
+        "Le matrici senza prefisso CV sono calcolate sul test set.",
+        "Le matrici con prefisso CV sono calcolate tramite cross-validation stratificata.",
+        "",
+    ])
+
+    for matrix_path in matrices:
+        modello, tipo = nome_modello_da_confusion(matrix_path)
+        try:
+            matrix = leggi_confusion_matrix(matrix_path)
+            matrix_txt = matrix.to_string()
+        except Exception as e:
+            matrix_txt = f"Errore lettura matrice: {e}"
+
+        righe.extend([
+            f"{tipo} - {modello}",
+            "-" * (len(tipo) + len(modello) + 3),
+            f"File: {matrix_path.name}",
+            "",
+            matrix_txt,
+            "",
+        ])
+
+    righe.extend([CONFUSION_SECTION_END, ""])
+    return "\n".join(righe)
+
+
 def righe_metriche(metriche):
     return [
         f"Generato il: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}",
@@ -256,21 +338,36 @@ def sezione_audit_txt(metriche):
     return "\n".join(righe)
 
 
+def sostituisci_o_aggiungi_sezione(testo, start_marker, end_marker, sezione):
+    if start_marker in testo and end_marker in testo:
+        prima = testo.split(start_marker, 1)[0].rstrip()
+        dopo = testo.split(end_marker, 1)[1].lstrip()
+        return f"{prima}\n\n{sezione}{dopo}"
+    return f"{testo.rstrip()}\n\n{sezione}"
+
+
 def aggiorna_txt(output_dir, metriche):
     output_dir = Path(output_dir)
     report_txt = trova_txt_report(output_dir)
     if report_txt is None:
         raise FileNotFoundError(f"TXT training non trovato in:\n{output_dir}")
 
-    sezione = sezione_audit_txt(metriche)
     testo = report_txt.read_text(encoding="utf-8")
+    sezione_audit = sezione_audit_txt(metriche)
+    sezione_confusion = sezione_confusion_matrices_txt(output_dir)
 
-    if AUDIT_SECTION_START in testo and AUDIT_SECTION_END in testo:
-        prima = testo.split(AUDIT_SECTION_START, 1)[0].rstrip()
-        dopo = testo.split(AUDIT_SECTION_END, 1)[1].lstrip()
-        nuovo = f"{prima}\n\n{sezione}{dopo}"
-    else:
-        nuovo = f"{testo.rstrip()}\n\n{sezione}"
+    nuovo = sostituisci_o_aggiungi_sezione(
+        testo,
+        AUDIT_SECTION_START,
+        AUDIT_SECTION_END,
+        sezione_audit,
+    )
+    nuovo = sostituisci_o_aggiungi_sezione(
+        nuovo,
+        CONFUSION_SECTION_START,
+        CONFUSION_SECTION_END,
+        sezione_confusion,
+    )
 
     report_txt.write_text(nuovo, encoding="utf-8")
     return report_txt

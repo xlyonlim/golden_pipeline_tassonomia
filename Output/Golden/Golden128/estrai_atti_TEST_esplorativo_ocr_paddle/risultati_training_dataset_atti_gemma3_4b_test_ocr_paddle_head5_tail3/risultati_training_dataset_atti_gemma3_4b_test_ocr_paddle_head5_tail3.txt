@@ -1,0 +1,183 @@
+Risultati training modelli ML
+=============================
+
+Generato il: 2026-06-11 17:50:26
+Dataset: C:\Users\Ciro\Documents\Tirocinio\Output\Golden\Golden128\estrai_atti_TEST_esplorativo_ocr_paddle\dataset_atti_gemma3_4b_test_ocr_paddle_head5_tail3.csv
+Cartella risultati: C:\Users\Ciro\Documents\Tirocinio\Output\Golden\Golden128\estrai_atti_TEST_esplorativo_ocr_paddle\risultati_training_dataset_atti_gemma3_4b_test_ocr_paddle_head5_tail3
+X usata: testo_completo_llm
+Y usata: golden_label
+
+Classi:
+AccordoSindacale, Decreto, DeliberaConsiglio, DeliberaGiunta, Determina, Ordinanza, Regolamento, Statuto
+
+Distribuzione golden_label:
+golden_label
+Decreto              5
+DeliberaGiunta       5
+Determina            5
+Regolamento          5
+AccordoSindacale     5
+Statuto              5
+DeliberaConsiglio    5
+Ordinanza            5
+
+Metriche su test set:
+            modello  accuracy  precision_macro  recall_macro  f1_macro  f1_weighted
+        naive_bayes     100.0            100.0         100.0     100.0        100.0
+logistic_regression     100.0            100.0         100.0     100.0        100.0
+         linear_svm     100.0            100.0         100.0     100.0        100.0
+
+Metriche cross-validation:
+            modello  cv_n_splits  accuracy_mean  accuracy_std  precision_macro_mean  precision_macro_std  recall_macro_mean  recall_macro_std  f1_macro_mean  f1_macro_std  f1_weighted_mean  f1_weighted_std
+        naive_bayes            5           85.0          9.35                 78.75                12.87               85.0              9.35          80.83         11.67             80.83            11.67
+logistic_regression            5           85.0          9.35                 78.33                13.22               85.0              9.35          80.42         12.05             80.42            12.05
+         linear_svm            5           82.5         10.00                 75.83                13.60               82.5             10.00          77.92         12.47             77.92            12.47
+
+File generati nella cartella risultati:
+- training_set.csv
+- test_set.csv
+- risultati_test_ml.csv
+- sintesi_metriche_test_set.csv
+- tabella_riassuntiva_metriche_modelli.csv
+- confusion_matrix_*
+- classification_report_*
+
+<!-- AUDIT_PIPELINE_START -->
+
+Audit pipeline LLM
+==================
+
+Generato il: 2026-06-11 17:59:21
+Dataset/pipeline: C:\Users\Ciro\Documents\Tirocinio\Output\Golden\Golden128\estrai_atti_TEST_esplorativo_ocr_paddle
+Audit CSV: C:\Users\Ciro\Documents\Tirocinio\Output\Golden\Golden128\estrai_atti_TEST_esplorativo_ocr_paddle\audit_log_gemma3_4b_test_ocr_paddle_head5_tail3.csv
+Modello: gemma3:4b
+Pipeline: n/d (n/d)
+
+Volumi:
+- Record audit: 40
+- OCR usati: 13 (32.5%)
+- Fallback locale: 4 (10.0%)
+- Errori tecnici: 0
+- Chunk LLM totali: 40
+
+Token:
+- Input token totali: 24785
+- Output token totali: 9323
+- Total token totali: 34108
+- Input token medi per record: 619.62
+- Output token medi per record: 233.08
+- Total token medi per record: 852.7
+
+Costi registrati:
+- Costo input totale: 0.0
+- Costo output totale: 0.0
+- Costo totale: 0.0
+
+Timestamp:
+- Inizio osservato: 2026-06-10 14:56:35
+- Fine osservata: 2026-06-10 17:49:19
+- Durata osservata: 02:52:44
+- Secondi medi per record: 259.1
+
+Nota:
+La durata osservata deriva dai timestamp dell'audit, quindi misura l'intervallo tra
+primo e ultimo record scritto. Non e' una misura precisa della singola chiamata LLM/OCR.
+
+<!-- AUDIT_PIPELINE_END -->
+
+<!-- CONFUSION_MATRICES_START -->
+
+Confusion matrix modelli ML
+===========================
+
+Generato il: 2026-06-11 17:59:21
+Cartella risultati: C:\Users\Ciro\Documents\Tirocinio\Output\Golden\Golden128\estrai_atti_TEST_esplorativo_ocr_paddle\risultati_training_dataset_atti_gemma3_4b_test_ocr_paddle_head5_tail3
+
+Le matrici senza prefisso CV sono calcolate sul test set.
+Le matrici con prefisso CV sono calcolate tramite cross-validation stratificata.
+
+test set - linear_svm
+---------------------
+File: confusion_matrix_linear_svm.csv
+
+                        pred_AccordoSindacale  pred_Decreto  pred_DeliberaConsiglio  pred_DeliberaGiunta  pred_Determina  pred_Ordinanza  pred_Regolamento  pred_Statuto
+vero_AccordoSindacale                       1             0                       0                    0               0               0                 0             0
+vero_Decreto                                0             1                       0                    0               0               0                 0             0
+vero_DeliberaConsiglio                      0             0                       1                    0               0               0                 0             0
+vero_DeliberaGiunta                         0             0                       0                    2               0               0                 0             0
+vero_Determina                              0             0                       0                    0               1               0                 0             0
+vero_Ordinanza                              0             0                       0                    0               0               1                 0             0
+vero_Regolamento                            0             0                       0                    0               0               0                 1             0
+vero_Statuto                                0             0                       0                    0               0               0                 0             2
+
+test set - logistic_regression
+------------------------------
+File: confusion_matrix_logistic_regression.csv
+
+                        pred_AccordoSindacale  pred_Decreto  pred_DeliberaConsiglio  pred_DeliberaGiunta  pred_Determina  pred_Ordinanza  pred_Regolamento  pred_Statuto
+vero_AccordoSindacale                       1             0                       0                    0               0               0                 0             0
+vero_Decreto                                0             1                       0                    0               0               0                 0             0
+vero_DeliberaConsiglio                      0             0                       1                    0               0               0                 0             0
+vero_DeliberaGiunta                         0             0                       0                    2               0               0                 0             0
+vero_Determina                              0             0                       0                    0               1               0                 0             0
+vero_Ordinanza                              0             0                       0                    0               0               1                 0             0
+vero_Regolamento                            0             0                       0                    0               0               0                 1             0
+vero_Statuto                                0             0                       0                    0               0               0                 0             2
+
+test set - naive_bayes
+----------------------
+File: confusion_matrix_naive_bayes.csv
+
+                        pred_AccordoSindacale  pred_Decreto  pred_DeliberaConsiglio  pred_DeliberaGiunta  pred_Determina  pred_Ordinanza  pred_Regolamento  pred_Statuto
+vero_AccordoSindacale                       1             0                       0                    0               0               0                 0             0
+vero_Decreto                                0             1                       0                    0               0               0                 0             0
+vero_DeliberaConsiglio                      0             0                       1                    0               0               0                 0             0
+vero_DeliberaGiunta                         0             0                       0                    2               0               0                 0             0
+vero_Determina                              0             0                       0                    0               1               0                 0             0
+vero_Ordinanza                              0             0                       0                    0               0               1                 0             0
+vero_Regolamento                            0             0                       0                    0               0               0                 1             0
+vero_Statuto                                0             0                       0                    0               0               0                 0             2
+
+cross-validation - linear_svm
+-----------------------------
+File: confusion_matrix_cv_linear_svm.csv
+
+                        pred_AccordoSindacale  pred_Decreto  pred_DeliberaConsiglio  pred_DeliberaGiunta  pred_Determina  pred_Ordinanza  pred_Regolamento  pred_Statuto
+vero_AccordoSindacale                       4             0                       0                    0               0               0                 1             0
+vero_Decreto                                0             2                       0                    1               0               0                 2             0
+vero_DeliberaConsiglio                      0             0                       5                    0               0               0                 0             0
+vero_DeliberaGiunta                         0             0                       0                    5               0               0                 0             0
+vero_Determina                              0             0                       0                    0               4               1                 0             0
+vero_Ordinanza                              0             0                       0                    0               1               4                 0             0
+vero_Regolamento                            0             1                       0                    0               0               0                 4             0
+vero_Statuto                                0             0                       0                    0               0               0                 0             5
+
+cross-validation - logistic_regression
+--------------------------------------
+File: confusion_matrix_cv_logistic_regression.csv
+
+                        pred_AccordoSindacale  pred_Decreto  pred_DeliberaConsiglio  pred_DeliberaGiunta  pred_Determina  pred_Ordinanza  pred_Regolamento  pred_Statuto
+vero_AccordoSindacale                       4             0                       0                    0               0               0                 1             0
+vero_Decreto                                0             4                       0                    0               0               0                 1             0
+vero_DeliberaConsiglio                      0             0                       5                    0               0               0                 0             0
+vero_DeliberaGiunta                         0             0                       0                    5               0               0                 0             0
+vero_Determina                              0             0                       0                    0               4               1                 0             0
+vero_Ordinanza                              0             0                       0                    0               1               4                 0             0
+vero_Regolamento                            0             1                       0                    0               0               0                 4             0
+vero_Statuto                                0             1                       0                    0               0               0                 0             4
+
+cross-validation - naive_bayes
+------------------------------
+File: confusion_matrix_cv_naive_bayes.csv
+
+                        pred_AccordoSindacale  pred_Decreto  pred_DeliberaConsiglio  pred_DeliberaGiunta  pred_Determina  pred_Ordinanza  pred_Regolamento  pred_Statuto
+vero_AccordoSindacale                       4             0                       0                    0               0               0                 0             1
+vero_Decreto                                0             3                       0                    1               0               0                 1             0
+vero_DeliberaConsiglio                      0             0                       5                    0               0               0                 0             0
+vero_DeliberaGiunta                         0             0                       0                    5               0               0                 0             0
+vero_Determina                              0             0                       0                    0               4               1                 0             0
+vero_Ordinanza                              0             0                       0                    0               1               4                 0             0
+vero_Regolamento                            0             1                       0                    0               0               0                 4             0
+vero_Statuto                                0             0                       0                    0               0               0                 0             5
+
+<!-- CONFUSION_MATRICES_END -->
