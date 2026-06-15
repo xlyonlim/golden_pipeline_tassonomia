@@ -19,9 +19,10 @@ from pypdf import PdfReader, PdfWriter
 progetto_dir = Path(__file__).resolve().parent
 base_dir = progetto_dir
 
-input_dir = base_dir / "Input"
-output_base_dir = base_dir / "Output" / "Golden" / "Golden128"
-output_dir = output_base_dir / Path(__file__).stem
+STIME_EFFETTO_BASE_DIR = base_dir / "Output" / "Golden" / "Golden128" / "stime_effetto_singoli_componenti_40"
+
+input_dir = STIME_EFFETTO_BASE_DIR / "Input_stime_effetto_40"
+output_dir = base_dir / "Output" / "Golden" / "Golden128" / Path(__file__).stem
 
 txt_dir = output_dir / "txt_opendataloader"
 txt_ocr_dir = output_dir / "txt_opendataloader_ocr"
@@ -35,6 +36,7 @@ JAVA_OK_PER_OPENDATALOADER = None
 JAVA_CMD_OPENDATALOADER = None
 
 CSV_PRECEDENTI_DA_LEGGERE = [
+    STIME_EFFETTO_BASE_DIR / "stime_effetto_set.csv",
 ]
 
 # ============================================================
@@ -43,12 +45,12 @@ CSV_PRECEDENTI_DA_LEGGERE = [
 
 NUM_PAGINE_DA_USARE = None
 USA_FINESTRA_HEAD_TAIL = True
-PAGINE_INIZIALI_DA_USARE = 5
-PAGINE_FINALI_DA_USARE = 3
+PAGINE_INIZIALI_DA_USARE = 7
+PAGINE_FINALI_DA_USARE = 7
 FORZA_OCR_SEMPRE = False
 BLOCCA_CLASSIFICAZIONE_SE_OCR_FALLISCE = True
 
-OCR_ENGINE = "rapidocr"      # auto | rapidocr | paddleocr
+OCR_ENGINE = "auto"      # auto | rapidocr | paddleocr
 DISABILITA_PADDLE_ONEDNN = True
 
 MAX_PAGINE_OCR = None        # None = tutte le pagine
@@ -127,18 +129,19 @@ MAX_TOKENS_RISPOSTA = 180
 PAUSA_TRA_RICHIESTE = 0
 OLLAMA_NUM_CTX = 2048
 
-CARATTERI_PER_CHUNK_LLM = 750
+CARATTERI_PER_CHUNK_LLM = 1000
 SOVRAPPOSIZIONE_CHUNK = 0
 MAX_CARATTERI_INPUT_LLM = 750
 MAX_CARATTERI_TESTO_COMPLETO_LLM = 900
 MAX_CHUNK_LLM = 1
 USA_FALLBACK_LOCALE_SE_LLM_FALLISCE = True
-MAX_BLOCCHI_SELEZIONE_FILTRO = 3
 
 COSTO_INPUT_PER_1K = 0.0
 COSTO_OUTPUT_PER_1K = 0.0
 
-RIELABORA_TUTTI = False
+RIELABORA_TUTTI = True
+MAX_PDF_DA_PROCESSARE = None
+CONTROLLA_NUMERAZIONE_SEQUENZIALE = False
 ID_ATTI_DA_RIELABORARE = set()
 FILE_DA_RIELABORARE = set()
 
@@ -147,13 +150,29 @@ FILE_DA_RIELABORARE = set()
 # ============================================================
 
 PROMPT_SISTEMA_PULIZIA = """
-Produci un riassunto breve e informativo di un atto della Pubblica Amministrazione italiana.
-Non classificare e non assegnare etichette.
-Mantieni forma dell'atto, ente, numero/data, oggetto, premesse essenziali e dispositivo.
-Elimina firme, formule tecniche, protocolli, dettagli contabili non essenziali e ripetizioni.
-Massimo 6 frasi. Solo testo italiano, senza JSON, markdown, commenti o prefissi.
-"""
+Sei un sistema di pulizia conservativa di testi OCR estratti da atti della Pubblica Amministrazione italiana.
 
+Non classificare l'atto.
+Non fare un riassunto.
+Non riscrivere il testo in modo esteso.
+Non inventare informazioni.
+
+Correggi solo errori OCR evidenti, spazi mancanti tra parole, righe spezzate, duplicazioni, simboli casuali, firme, hash, protocolli e parti tecniche chiaramente superflue.
+
+Se una sequenza di simboli, lettere e numeri e' illeggibile o casuale, sembra inventata, e' priva di valore informativo o e' contestualmente inappropriata, eliminala invece di copiarla.
+Se una parte contiene rumore OCR misto a testo utile, conserva solo il testo utile e ometti il frammento rumoroso.
+Se una parola e' incerta, non inventarla.
+
+Rimuovi o comprimi fortemente liste di presenti, assenti, votanti, assessori, consiglieri, componenti di commissioni e nominativi meramente formali.
+
+Mantieni forma dell'atto, ente, numero/data, oggetto, premesse essenziali e dispositivo.
+Mantieni il testo vicino all'originale, ma rendilo leggibile in italiano corretto.
+
+Restituisci solo testo pulito in italiano.
+Non usare JSON.
+Non usare markdown.
+Non aggiungere commenti o prefissi.
+"""
 # ============================================================
 # UTILITÃ€
 # ============================================================
@@ -165,26 +184,16 @@ def crea_file_link(path_file):
         return str(Path(path_file).resolve())
 
 def slug_modello_per_nome_file(nome_modello):
-    slug = re.sub(r"[^A-Za-z0-9-]+", "_", str(nome_modello or "modello_non_selezionato"))
+    slug = re.sub(r"[^A-Za-z0-9]+", "_", str(nome_modello or "modello_non_selezionato"))
     slug = re.sub(r"_+", "_", slug).strip("_")
     return slug or "modello_non_selezionato"
-
-def configura_output_dir_per_modello(nome_modello):
-    global output_dir, txt_dir, txt_ocr_dir, temp_pdf_dir, testi_llm_dir
-    slug = slug_modello_per_nome_file(nome_modello)
-    output_dir = output_base_dir / f"{slug}_pipeline_B"
-    txt_dir = output_dir / "txt_opendataloader"
-    txt_ocr_dir = output_dir / "txt_opendataloader_ocr"
-    temp_pdf_dir = output_dir / "pdf_testo_completo"
-    testi_llm_dir = output_dir / "testi_completi_llm"
-
 
 def configura_file_output_per_modello(nome_modello):
     global file_dataset_csv, file_dataset_jsonl, file_audit_csv
     slug = slug_modello_per_nome_file(nome_modello)
-    file_dataset_csv = output_dir / f"dataset_atti_{slug}_riassunto.csv"
-    file_dataset_jsonl = output_dir / f"dataset_atti_{slug}_riassunto.jsonl"
-    file_audit_csv = output_dir / f"audit_log_{slug}_riassunto.csv"
+    file_dataset_csv = output_dir / f"dataset_atti_{slug}_stime_var_limiti_B_head7_tail7.csv"
+    file_dataset_jsonl = output_dir / f"dataset_atti_{slug}_stime_var_limiti_B_head7_tail7.jsonl"
+    file_audit_csv = output_dir / f"audit_log_{slug}_stime_var_limiti_B_head7_tail7.csv"
 
 def normalizza_ocr_valore(valore):
     testo = str(valore or "").strip().lower()
@@ -205,8 +214,8 @@ def pre_pulisci_testo_per_llm(testo):
         riga = re.sub(r"\s+", " ", riga).strip()
         if not riga:
             continue
-        lettere = len(re.findall(r"[^\W\d_]", riga, flags=re.UNICODE))
-        simboli = len(re.findall(r"[^\w\s]", riga, flags=re.UNICODE))
+        lettere = len(re.findall(r"[^\W\d_]", riga))
+        simboli = len(re.findall(r"[^\w\s]", riga))
         if lettere < 3 and simboli > lettere:
             continue
         riga = re.sub(r"[|_]{3,}", " ", riga)
@@ -264,38 +273,24 @@ def conta_token_stimati(testo):
     return max(1, int(len(str(testo)) / 4))
 
 def chiama_ollama(prompt_sistema, prompt_utente):
-    options = {
-        "temperature": 0,
-        "num_predict": MAX_TOKENS_RISPOSTA,
-        "num_ctx": OLLAMA_NUM_CTX,
-    }
-    payload_chat = {
+    url = f"{OLLAMA_BASE_URL}/api/chat"
+    payload = {
         "model": MODELLO_OLLAMA_ATTIVO,
         "messages": [
             {"role": "system", "content": prompt_sistema},
             {"role": "user", "content": prompt_utente},
         ],
         "stream": False,
-        "options": options,
+        "options": {
+            "temperature": 0,
+            "num_predict": MAX_TOKENS_RISPOSTA,
+            "num_ctx": OLLAMA_NUM_CTX,
+        },
     }
-    response = requests.post(f"{OLLAMA_BASE_URL}/api/chat", json=payload_chat, timeout=TIMEOUT_OLLAMA)
-    if response.status_code == 404:
-        prompt_completo = f"""ISTRUZIONI DI SISTEMA:
-{prompt_sistema.strip()}
-
-RICHIESTA:
-{prompt_utente.strip()}
-"""
-        payload_generate = {
-            "model": MODELLO_OLLAMA_ATTIVO,
-            "prompt": prompt_completo,
-            "stream": False,
-            "options": options,
-        }
-        response = requests.post(f"{OLLAMA_BASE_URL}/api/generate", json=payload_generate, timeout=TIMEOUT_OLLAMA)
+    response = requests.post(url, json=payload, timeout=TIMEOUT_OLLAMA)
     response.raise_for_status()
     data = response.json()
-    contenuto = (data.get("message") or {}).get("content", "") or data.get("response", "")
+    contenuto = (data.get("message") or {}).get("content", "")
     input_tokens = data.get("prompt_eval_count")
     output_tokens = data.get("eval_count")
     total_tokens = (
@@ -347,8 +342,8 @@ def genera_testo_completo_pulito_con_ollama(testo_atto):
     for idx, chunk in enumerate(chunks, 1):
         print(f"Pulizia LLM chunk {idx}/{len(chunks)} con Ollama...")
         user_prompt = f"""
-Riassumi brevemente il testo selezionato qui sotto.
-Mantieni forma dell'atto, ente, numero/data, oggetto, premesse essenziali e dispositivo.
+Pulisci conservativamente il testo OCR qui sotto: rimuovi solo rumore, duplicazioni, firme e parti tecniche superflue.
+Non riassumere, non classificare, non riscrivere piÃ¹ del necessario.
 
 BLOCCO {idx}/{len(chunks)}:
 {chunk}
@@ -459,10 +454,9 @@ def crea_record_audit(record, txt_path=None, errore_tecnico="", stats=None):
 
 
 def scegli_modello_ollama():
-    print("\nScegli il modello Ollama da usare.")
-    print(f"Premi INVIO per usare il default: {MODELLO_OLLAMA_DEFAULT}")
-    scelta = input("Modello Ollama: ").strip()
-    return scelta or MODELLO_OLLAMA_DEFAULT
+    print("\nUso modello Ollama fisso:")
+    print(f"- {MODELLO_OLLAMA_DEFAULT}\n")
+    return MODELLO_OLLAMA_DEFAULT
 
 
 def prepara_cartelle():
@@ -494,6 +488,28 @@ def trova_pdf():
     return sorted(input_dir.glob("*.pdf"), key=natural_sort_key)
 
 
+def assicura_pdf_stime_effetto():
+    if list(input_dir.glob("*.pdf")):
+        return
+
+    generatore = base_dir / "crea_dataset_STIME_40.py"
+    if not generatore.exists():
+        return
+
+    print("Cartella stime effetto vuota: rigenero il campione da 40 atti...")
+    result = subprocess.run(
+        [os.sys.executable, str(generatore)],
+        cwd=str(base_dir),
+        capture_output=True,
+        text=True,
+        check=False,
+    )
+    if result.stdout:
+        print(result.stdout.strip())
+    if result.returncode != 0 and result.stderr:
+        print(result.stderr.strip())
+
+
 def numero_atto_da_nome_file(pdf_path):
     match = re.match(r"^atto\s*[_\-\s]*([0-9]+)\s*$", Path(pdf_path).stem.strip().lower())
     return int(match.group(1)) if match else None
@@ -514,12 +530,14 @@ def verifica_numerazione_pdf(pdf_files):
         dettagli = ["atto_{}: {}".format(n, ", ".join(nomi)) for n, nomi in sorted(duplicati.items())]
         raise RuntimeError("Controllo numerazione fallito: numeri duplicati.\n" + "\n".join(dettagli))
 
-    if numeri:
+    if numeri and CONTROLLA_NUMERAZIONE_SEQUENZIALE:
         massimo = max(numeri)
         mancanti = [n for n in range(1, massimo + 1) if n not in numeri]
         if mancanti:
             raise RuntimeError("Controllo numerazione fallito: mancano questi file:\n" + ", ".join(f"atto_{n}" for n in mancanti))
         print(f"Controllo numerazione OK: presenti atto_1 ... atto_{massimo}.")
+    elif numeri:
+        print(f"Controllo numerazione sequenziale disattivato: presenti {len(numeri)} ID atto non necessariamente consecutivi.")
 
     if senza_numero:
         print("Nota: questi PDF sono esclusi dal controllo sequenziale:")
@@ -711,7 +729,6 @@ def crea_pdf_prime_pagine(pdf_path, num_pagine):
     except Exception as e:
         print(f"Errore nella creazione del PDF head-tail per {pdf_path.name}: {e}")
         return None
-
 def trova_txt_generato(pdf_path, cartella_output):
     stem = pdf_path.stem
     possibile = list(cartella_output.rglob(f"{stem}.txt"))
@@ -854,9 +871,9 @@ def punteggio_qualita_testo(testo):
         return 0
 
     lunghezza = len(testo_pulito)
-    lettere = len(re.findall(r"[^\W\d_]", testo_pulito, flags=re.UNICODE))
+    lettere = len(re.findall(r"[^\W\d_]", testo_pulito))
     cifre = len(re.findall(r"\d", testo_pulito))
-    simboli = len(re.findall(r"[^\w\s]", testo_pulito, flags=re.UNICODE))
+    simboli = len(re.findall(r"[^\w\s]", testo_pulito))
 
     rapporto_lettere = lettere / max(len(testo_pulito), 1)
     rapporto_simboli = simboli / max(len(testo_pulito), 1)
@@ -909,8 +926,8 @@ def blocco_sicuramente_rumoroso(blocco):
     if any(re.search(p, b) for p in pattern_rumore):
         return True
 
-    lettere = len(re.findall(r"[^\W\d_]", b, flags=re.UNICODE))
-    simboli = len(re.findall(r"[^\w\s]", b, flags=re.UNICODE))
+    lettere = len(re.findall(r"[^\W\d_]", b))
+    simboli = len(re.findall(r"[^\w\s]", b))
     return lettere < 8 and simboli > lettere
 
 
@@ -921,52 +938,60 @@ def seleziona_blocchi_utili_per_llm(testo, max_caratteri=MAX_CARATTERI_INPUT_LLM
     testo = str(testo).replace("\r", "\n")
     blocchi = [b.strip() for b in re.split(r"\n\s*\n+", testo) if b.strip()]
     utili = []
-    firme_blocchi = set()
 
-    pattern_scarto = [
-        r"certificat[oa] di pubblicazione",
-        r"relata di pubblicazione",
-        r"attestazione di esecutivit",
-        r"firma digitale",
-        r"documento firmato digitalmente",
-        r"copia conforme",
-        r"codice verific",
-        r"impronta",
-        r"hash",
-        r"pagina \d+ di \d+",
+    pattern_utili = [
+        r"\boggetto\b",
+        r"\bpremess[oa]\b",
+        r"\bvisto\b",
+        r"\bconsiderato\b",
+        r"\britenuto\b",
+        r"\bdelibera\b",
+        r"\bdeliberazione\b",
+        r"\bdetermina\b",
+        r"\bdeterminazione\b",
+        r"\bdecreto\b",
+        r"\bordinanza\b",
+        r"\bdecreta\b",
+        r"\bordina\b",
+        r"\bart\.\b",
+        r"\barticolo\b",
+        r"\bgiunta comunale\b",
+        r"\bconsiglio comunale\b",
+        r"\bregolamento\b",
+        r"\bstatuto\b",
+        r"\bente\b",
+        r"\bnumero\b",
+        r"\bdata\b",
     ]
 
-    for blocco in blocchi:
+    for i, blocco in enumerate(blocchi):
         b = re.sub(r"\s+", " ", blocco).strip()
         if not b or blocco_sicuramente_rumoroso(b):
             continue
-        b_lower = b.lower()
-        if any(re.search(p, b_lower) for p in pattern_scarto):
-            continue
 
-        firma = re.sub(r"[^a-z0-9]+", " ", b_lower)[:220]
-        if firma in firme_blocchi:
-            continue
-        firme_blocchi.add(firma)
+        keep = False
 
-        if len(utili) < 2:
+        if i < 4:
+            keep = True
+
+        if any(re.search(p, b.lower()) for p in pattern_utili):
+            keep = True
+
+        if len(b) > 350 and punteggio_qualita_testo(b) >= SOGLIA_QUALITA_TESTO_NORMALE:
+            keep = True
+
+        if keep:
             utili.append(blocco)
-            continue
-
-        if re.search(r"\boggetto\b", b_lower) and len(utili) < MAX_BLOCCHI_SELEZIONE_FILTRO:
-            utili.append(blocco)
-
-        if len(utili) >= MAX_BLOCCHI_SELEZIONE_FILTRO:
-            break
 
     if not utili:
-        utili = blocchi[:MAX_BLOCCHI_SELEZIONE_FILTRO]
+        utili = blocchi[:8]
 
     testo_selezionato = "\n\n".join(utili).strip()
     if max_caratteri is not None and len(testo_selezionato) > max_caratteri:
         testo_selezionato = tronca_a_unita_logica(testo_selezionato, max_caratteri)
 
     return testo_selezionato
+
 
 def renderizza_pdf_in_immagini(pdf_path):
     import fitz
@@ -1167,17 +1192,23 @@ def converti_pdf_in_txt(pdf_path):
 def avvia_automazione():
     global MODELLO_OLLAMA_ATTIVO
 
-    MODELLO_OLLAMA_ATTIVO = scegli_modello_ollama()
-    configura_output_dir_per_modello(MODELLO_OLLAMA_ATTIVO)
     prepara_cartelle()
+    MODELLO_OLLAMA_ATTIVO = scegli_modello_ollama()
     configura_file_output_per_modello(MODELLO_OLLAMA_ATTIVO)
 
     pdf_files = trova_pdf()
+    if not pdf_files:
+        assicura_pdf_stime_effetto()
+        pdf_files = trova_pdf()
     if not pdf_files:
         print("Nessun PDF trovato nella cartella Input:")
         print(input_dir)
         return
 
+    if MAX_PDF_DA_PROCESSARE is not None:
+        limite = max(0, int(MAX_PDF_DA_PROCESSARE))
+        pdf_files = pdf_files[:limite]
+        print(f"Campione test attivo: elaboro {len(pdf_files)} PDF su massimo {limite}.")
     verifica_numerazione_pdf(pdf_files)
     verifica_duplicati_contenuto_pdf(pdf_files)
 
@@ -1389,6 +1420,9 @@ def avvia_automazione():
 
 if __name__ == "__main__":
     avvia_automazione()
+
+
+
 
 
 

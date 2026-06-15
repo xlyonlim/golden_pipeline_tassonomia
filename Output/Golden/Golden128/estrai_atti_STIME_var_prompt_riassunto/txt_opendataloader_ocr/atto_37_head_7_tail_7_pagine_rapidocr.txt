@@ -1,0 +1,445 @@
+N.412
+CITTA'DITORINO
+SERVIZIOCENTRALECONSIGLIOCOMUNALE
+RACCOLTADEIREGOLAMENTIMUNICIPALI
+REGOLAMENTOPERLADISCIPLINADELLA
+VIDEOSORVEGLIANZASULTERRITORIODELCOMUNEDI
+TORINO
+Approvato con deliberazione del Consiglio Comunale in data 17 dicembre 2024 (DEL 806/2024 e allegato), IE -esecutivo
+dal31dicembre2024.
+
+INDICE
+CAPOI-DISPOSIZIONIGENERALI
+Articolo 1 - Oggetto..
+Articolo 2 - Finalita e base giuridica
+Articolo 3 - Definizioni
+Articolo 4 - Principi applicabili al trattamento dei dati personali
+CAPOI-SOGGETTI
+Articolo 5 - Titolare .
+Articolo 6 - Designato.
+Articolo 7 - Incaricati.
+Articolo 8 - Soggetti esterni
+CAPOIII-TRATTAMENTODEIDATIPERSONALI
+.10
+Articolo 9 - Modalita di raccolta dei dati.
+10
+Articolo 10 - Conservazione
+10
+Articolo 11 - Misure di sicurezza .
+11
+Articolo 12 - Diritti degli interessati.
+12
+Articolo 13 - Violazione dei dati personali
+.13
+CAPOIV-DISPOSIZIONISPECIFICHE
+14
+Articolo 14 - Sistema integrato Pubblico/Privato.
+14
+Articolo 15 - Forme di partecipazione interistituzionale
+.15
+Articolo 16 - Implementazione del sistema con forme di A.1.
+.15
+CAPO V - TUTELA AMMINISTRATIVA E GIURISDIZIONALE.......17
+Articolo 17 - Reclamo al Garante e ricorso all'Autorita giudiziaria..
+.17
+CAPOVI-DISPOSIZIONIFINALI
+..18
+Articolo 18 - Entrata in vigore..
+.18
+Articolo 19 - Norma di rinvio.
+.18
+
+CAPOI-DISPOSIZIONIGENERALI
+Articolo 1 - Oggetto
+1.Ⅱl Comune di Torino utilizza sistemi di videosorveglianza in luoghi
+pubblici o aperti al pubblico o di propria esclusiva pertinenza ai fini di:
+tutela della sicurezza urbana, ai sensi del comma 7 dell'articolo 6 del
+Decreto Legge 23 febbraio 2009 n. 11 convertito, con modificazioni, nella
+legge 23 aprile 2009, n. 38;
+prevenzione e contrasto dei fenomeni di criminalita diffusa e predatoria, in
+attuazione dei “Patti per la Sicurezza Urbana" sottoscritti dalla Citta, ai
+sensi dell'articolo 5, comma 2, lett. a) del Decreto legge 20 febbraio 2017,
+n. 14, convertito, con modificazioni, nella Legge 18 aprile 2017, n. 48;
+rilevazione e controllo del traffico;
+tutela della proprieta e prevenzione degli atti di vandalismo o
+danneggiamento degli immobili comunali e dei beni facenti parte del
+patrimonio comunale;
+sorveglianza, controllo e sicurezza di spazi e ambienti di esclusiva
+pertinenza comunale;
+specifiche esigenze di sicurezza del lavoro.
+2. Si intende per sicurezza urbana il bene pubblico che afferisce alla vivibilita
+e al decoro delle citta, da perseguire anche attraverso interventi di
+riqualificazione e recupero delle aree o dei siti piu degradati, l'eliminazione dei
+fattori di marginalita e di esclusione sociale, la prevenzione della criminalita, in
+particolare di tipo predatorio, la promozione del rispetto della legalita e
+l'affermazione di piu elevati livelli di coesione sociale e convivenza civile, cui
+concorrono prioritariamente, anche con interventi integrati, lo Stato, le Regioni,
+le Province autonome di Trento e di Bolzano e gli enti locali, nel rispetto delle
+rispettive competenze e funzioni.
+3. Il presente Regolamento disciplina le modalita di raccolta, trattamento e
+conservazione dei dati personali acquisiti mediante 1'utilizzo degli impianti di
+videosorveglianza di cui al comma 1 attivati nel territorio comunale e gestiti dal
+Comune di Torino, per le finalita sopra indicate.
+1
+
+4. Con il presente Regolamento si garantisce che il trattamento dei dati
+personali si svolga nel rispetto dei diritti, delle liberta fondamentali nonché della
+dignita delle persone fisiche, con particolare riferimento alla riservatezza e
+all'identita personale.
+5.
+In particolare, il presente Regolamento:
+a)
+definisce le modalita di utilizzo degli impianti di videosorveglianza;
+b)
+disciplina gli adempimenti, le garanzie e le tutele per il legittimo e
+pertinente trattamento dei dati personali acquisiti mediante l'utilizzo degli
+impianti di videosorveglianza.
+Articolo 2 - Finalita e base giuridica
+1. Il trattamento dei dati acquisiti per mezzo dei sistemi di videosorveglianza
+gestiti dal Comune di Torino é lecito essendo necessario per l'esecuzione di un
+compito di interesse pubblico o connesso all'esercizio di pubblici poteri di cui é
+investito il titolaredel trattamento
+2.  In attuazione del principio di limitazione delle finalita ex articolo 5 lett. b)
+Regolamento (UE) 2016/679, secondo cui il titolare del trattamento é tenuto a
+definire gli scopi in base ai quali ha intenzione di raccogliere e trattare i dati, i
+sistemi di videosorveglianza cittadini sono utilizzati per lo svolgimento delle
+funzioni riconducibili ai seguenti ambiti generali:
+a)
+garantire la protezione e l'incolumita degli individui, ivi ricompresi i profili
+attinenti alla sicurezza urbana, all'ordine e sicurezza pubblica, alla
+prevenzione, accertamento o repressione dei reati svolti dai soggetti
+pubblici, alla razionalizzazione e miglioramento dei servizi al pubblico
+volti anche ad accrescere la sicurezza degli utenti, nel quadro delle
+competenze attribuite ai Comuni dalla legge;
+b)
+documentare la violazione delle disposizioni in materia di circolazione
+stradale;
+c)
+tutela della proprieta e prevenzione degli atti di vandalismo o
+danneggiamento degli immobili comunali e dei beni facenti parte del
+patrimonio comunale;
+2
+
+d)
+sorveglianza, controllo e sicurezza di spazi e ambienti di esclusiva
+pertinenza comunale;
+e)
+controllo del deposito dei rifiuti volto ad accertare sia l'utilizzo abusivo di
+aree pubbliche impiegate come discariche di rifiuti ed altri materiali che
+possono nuocere alla salute dei cittadini, sia l'utilizzo delle aree destinate
+al conferimenti dei rifiuti in violazione delle norme del Regolamento
+comunale in materia di gestione dei rifiuti urbani;
+f)
+consentire l'acquisizione di prove nell'ambito di indagini di polizia
+giudiziaria;
+g)
+specifiche esigenze di sicurezza del lavoro connesse alla tutela
+dell'incolumita degli operatori in specifiche situazioni di pericolo che
+giustificano I'attivazione di telecamere mobili.
+3. Il sistema di videosorveglianza cittadino comporta esclusivamente il
+trattamento di dati personali che riguardano i soggetti in transito nell'area
+sottoposta a videosorveglianza.
+Articolo 3 - Definizioni
+1.
+Ai fini del presente Regolamento si intende:
+a)
+con o senza l'ausilio di processi automatizzati e applicate a dati personali o
+insiemi di dati personali, come la raccolta, la registrazione,
+l'organizzazione, la strutturazione, la conservazione, l'adattamento o la
+modifica, l'estrazione, la consultazione, l'uso, la comunicazione mediante
+trasmissione, diffusione o qualsiasi altra forma di messa a disposizione, il
+raffronto o l'interconnessione, la limitazione, la cancellazione o la
+distruzione;
+b)
+identificata o identificabile ("interessato"); si considera identificabile la
+persona fisica che puo essere identificata, direttamente o indirettamente,
+con particolare riferimento a un identificativo come il nome, un numero di
+identificazione, dati relativi all'ubicazione, un identificativo on line o a uno
+o piu elementi caratteristici della sua identita fisica, fisiologica, genetica,
+psichica, economica, culturale o sociale;
+3
+
+c)
+per “interessato" la persona fisica identificata o identificabile di cui alla
+lettera b) del presente Regolamento cui si riferisce uno o piu dati personali;
+d)
+pubblica, il servizio o altro organismo che, singolarmente o insieme ad altri,
+determina le finalita e i mezzi del trattamento di dati personali. In questa
+accezione il titolare del trattamento é il Comune di Torino, rappresentato
+dal Sindaco pro tempore o da suo delegato, cui competono le decisioni in
+ordine alle finalita ed ai mezzi del trattamento dei dati personali; il Titolare
+del trattamento esercita le proprie prerogative, poteri e doveri attraverso i
+Designati di cui all'articolo 4 del Regolamento comunale n. 387/2019
+secondo le competenze, prerogative e responsabilita specificate per iscritto
+nell'atto di designazione;
+e)
+per “Responsabile del trattamento" la persona fisica o giuridica che effettua
+un trattamento per conto del Titolare;
+f)
+per “Responsabile della protezione dei dati la persona designata dal
+Titolare con funzioni, tra le altre, di consulenza, informazione e
+sorveglianza circa 1'osservanza al Regolamento (UE) 2016/679 delle
+politiche del Titolare del trattamento in materia di protezione dei dati
+personali;
+g)
+,
+autorizzate a compiere operazioni di trattamento dal Titolare o dal
+Designato;
+h)
+per “terzo" la persona fisica o giuridica, l'Autorita pubblica, il servizio 0
+altro organismo che non sia linteressato, il titolare del trattamento, il
+responsabile del trattamento e le persone autorizzate al trattamento dei dati
+personali sotto l'Autorita diretta del titolare o del responsabile;
+i)
+indipendente nazionale incaricata, tra 1'altro, di controllare 1'applicazione
+del Regolamento (UE) 2016/679 e della normativa nazionale al fine di
+tutelare i diritti e le liberta fondamentali delle persone fisiche con riguardo
+al trattamento, e di agevolare la libera circolazione dei dati personali
+all'interno dell'Unione;
+4
+
+j)
+per “comunicazione’ il dare conoscenza dei dati personali a uno o piu
+soggetti determinati diversi dall'interessato, dal rappresentante del titolare
+nel territorio dell'Unione europea, dal responsabile o dal suo
+rappresentante nel territorio dell'Unione europea, dalle persone
+autorizzate, ai sensi dell'articolo 2-quaterdecies del D.Lgs. 2003/196, al
+trattamento dei dati personali sotto l'autorita diretta del titolare o del
+responsabile, in qualunque forma, anche mediante la loro messa a
+disposizione, consultazione o mediante interconnessione;
+k)
+per “diffusione" il dare conoscenza dei dati personali a soggetti
+indeterminati, in qualunque forma, anche mediante la loro messa a
+disposizione o consultazione;
+1)
+per “dato anonimo" il dato che in origine a seguito di inquadratura, 0 a
+seguito di trattamento, non possa essere associato ad un interessato
+identificato o identificabile;
+m)
+oss    ,
+conservati con 1'obiettivo di limitarne il trattamento in futuro;
+n)
+per “violazione dei dati personali' la violazione di sicurezza, anche detta
+"data breach", che comporta accidentalmente o in modo illecito la
+distruzione, la perdita, la modifica, la divulgazione non autorizzata o
+l'accesso ai dati personali detenuti, trasmessi, conservati o comunque
+trattati.
+Articolo 4 - Principi applicabili al trattamento dei dati personali
+1.
+Con il presente Regolamento il Comune di Torino intende garantire che il
+videosorveglianza si svolga nel rispetto dei diritti, delle liberta fondamentali e
+della dignita delle persone fisiche.
+2. Tutti i soggetti incaricati delle operazioni connesse all'utilizzo degli
+impianti di videosorveglianza sono tenuti a garantire che il trattamento dei dati
+personali si svolga nel rispetto dei principi di cui al paragrafo 1 dell'articolo 5
+del Regolamento (UE) 2016/679 e, per quanto di competenza, del paragrafo 1
+dell'articolo 3 del D.Lgs. 2018/51.
+5
+
+e)
+nel caso si utilizzino apparati di ripresa digitali connessi a reti informatiche,
+gli apparati medesimi dovranno essere protetti contro i rischi di accesso
+abusivo;
+f)
+la trasmissione tramite una rete pubblica di immagini riprese da apparati di
+videosorveglianza dovra essere effettuata previa applicazione di tecniche
+crittografiche che ne garantiscano la riservatezza; le stesse cautele
+andranno adottate per la trasmissione di immagini da punti di ripresa dotati
+di connessioni wireless.
+4. Il titolare e/o il designato assicurano la periodica verifica dell'efficacia
+delle misure di sicurezza di cui al punto precedente. Inoltre vigilano sulla
+personali; provvedono altresi ad istruire il personale incaricato sulle finalita e
+sulle modalita del trattamento, ed in generale su tutti gli aspetti che incidano sui
+diritti dei soggetti interessati.
+5. Nel caso di nomina con atto scritto di un Responsabile esterno ai sensi del
+precedente articolo 8, quest'ultimo dovra provvedere ad individuare, sempre in
+forma scritta, le persone fisiche autorizzate al trattamento, specificando, per
+ognuno, i compiti affidati e le prescrizioni per il corretto, lecito, pertinente e
+sicuro trattamento dei dati.
+Articolo 12 - Diritti degli interessati
+1. E assicurato agli interessati, identificati o identificabili, 1'effettivo esercizio
+dei propri diritti di cui al Capo IMI del Regolamento (UE) 2016/679, in particolare
+di conoscere l'esistenza di trattamenti di dati che possono riguardarli, quindi il
+diritto di accedere a tali dati, di verificarne le finalita, le modalita del trattamento,
+e di ottenerne l'interruzione nel caso di palese utilizzo illecito del dato.
+2. Con precipuo riferimento al diritto di accesso ai dati raccolti mediante un
+impianto di videosorveglianza, 1'interessato dovra far pervenire apposita istanza,
+presentata nei modi previsti dalla legge, indirizzata al titolare e/o designato
+specificando:
+a)
+dati del richiedente;
+b)
+indicazione del luogo in cui é stata effettuata la ripresa;
+12
+
+c)
+data e fascia oraria in cui é stata effettuata la ripresa, con
+ns
+d)
+eventuali dettagli che possono contribuire ad una agevole individuazione
+dei frame.
+3. In ottemperanza al Principio di Trasparenza e ai sensi articolo 13
+Regolamento (UE) 2016/679 nelle strade, nelle piazze e nei luoghi in cui sono
+posizionati i dispositivi del sistema di videosorveglianza cittadino e collocata
+adeguata segnaletica contenente l'informativa di primo livello, fra cui i dati del
+titolare del trattamento e le finalita perseguite. Non é necessario rivelare la
+precisa ubicazione della telecamera, purché non vi siano dubbi su quali zone sono
+soggette a sorveglianza e sia chiarito in modo inequivocabile il contesto della
+sorveglianza.
+4. L'informativa di primo livello deve rinviare ad un testo piu completo,
+(
+2016/679 e pubblicato sulla pagina web del Dipartimento che gestisce 1'impianto
+in oggetto.
+Articolo 13 - Violazione dei dati personali
+1. Nel caso in cui si verifichi una violazione di sicurezza che comporti,
+accidentalmente o in modo illecito, la distruzione, la perdita, la modifica, la
+divulgazione non autorizzata o l'accesso non autorizzato ai dati personali
+acquisiti, conservati, o comunque trattati a seguito dell'utilizzo del sistema di
+videosorveglianza comunale,  trovano  applicazione le disposizioni  di cui
+all'articolo 12 del Regolamento comunale n. 387 approvato il 10 giugno 2019,
+esecutivo dal 24 giugno 2019.
+13
+
+CAPO IV -DISPOSIZIONI SPECIFICHE
+Articolo 14 - Sistema integrato Pubblico/Privato
+Privati e/o soggetti terzi, singoli o associati, al fine di promuovere la
+sicurezza  integrata sul territorio, possono partecipare all'estensione ed
+all'implementazione del Sistema di  Videosorveglianza di sicurezza urbana
+mediante 1'acquisto diretto ed autonomo di componenti tecnologiche funzionali
+al monitoraggio del territorio.
+2. A tal fine, i soggetti privati devono presentare istanza di partecipazione
+all'impianto di videosorveglianza comunale, con proprie reti di telecamere
+riprendenti aree pubbliche, nel rispetto dei principi di cui al presente
+Regolamento, secondo le condizioni definite dalla Legge n. 48 del 18 aprile 2017,
+che ha convertito il decreto legge n. 14 del 20 febbraio 2017 recante
+"Disposizioni urgenti in materia di sicurezza delle citta".
+3.L'amministrazione comunale valutera 1l'idoneita del progetto allegato
+all'istanza secondo i seguenti criteri:
+a)
+b)
+rispondenza dei dispositivi che si intendono impiegare alle caratteristiche
+indicate dalla legge;
+c)
+ottimizzazione dei punti di ripresa;
+d)
+disponibilita di una linea di telecomunicazione adatta a trasmettere i dati
+alla rete comunale;
+e)
+misure di sicurezza adeguate ed allineate a quelle adottate dagli impianti
+comunali.
+4.
+Se il progetto risulta idoneo, la partecipazione del soggetto privato viene
+formalizzata in apposita convenzione approvata dalla Giunta Comunale, senza
+oneri economici a carico dell'Ente.
+5. Tali impianti, una volta approvati e realizzati, saranno utilizzati e gestiti
+esclusivamente dal Comune di Torino.
+14
+
+concesse in comodato d'uso al Comune di Torino, che le utilizza in via esclusiva
+per la gestione di controllo e monitoraggio del territorio e gestione della sicurezza
+urbana secondo i principi contenuti nel presente Regolamento.
+7. I soggetti privati devono garantire, a proprie spese, il corretto funzionamento
+dell'impianto in termini di manutenzione, assistenza tecnica ed alimentazione
+elettrica. Non possono altresi apportare alcuna modifica al sistema senza avere
+preventivamente ottenuto l'autorizzazione da parte del Comune
+8. Al termine del periodo di validita della convenzione sara facolta, previo
+accordo fra le parti, rinnovare la convenzione alle condizioni stabilite
+dall'Amministrazione Comunale. In caso contrario sara compito del privato
+smantellare 1'impianto senza onere alcuno per 1'amministrazione comunale, 0
+riconvertirlo per uso esclusivo di protezione della proprieta.
+Articolo 15 - Forme di partecipazione interistituzionale
+Al fine di perseguire una sempre maggiore sicurezza urbana, attraverso
+l'implementazione delle misure di controllo del territorio, fra cui i sistemi di
+videosorveglianza, la Citta di Torino si rende disponibile a forme di
+partecipazione interistituzionale con altri Enti e Forze dell'Ordine.
+2. Tale forme di collaborazione andranno individuate e realizzate nell'ambito
+dei Patti per 1'attuazione della sicurezza urbana, e si concretizzeranno in forme
+avanzate di controllo del territorio, anche attraverso 1'implementazione dei
+sistemi di videosorveglianza gia predisposti, cosi da consentire alle Forze di
+Polizia la massima condivisione del patrimonio di conoscenza disponibile.
+Articolo 16 - Implementazione del sistema con forme di A.1.
+1。
+Nel rispetto delle indicazioni fornite dall'Autorita garante e dei principi
+generali in materia di protezione dei dati personali, al fine di ottenere un sistema
+attivo di analisi, il sistema di videosorveglianza cittadino puo essere
+implementato con specifici algoritmi di intelligenza artificiale che, elaborando le
+immagini in chiave predittiva, permettono di individuare specifiche criticita in
+tempo reale incrementando la tempestivita di reazione alle emergenze.
+15
+
+2. Nel caso di implementazione dei sistemi tradizionali con algoritmi di
+Intelligenza Artificiale (A.1.) occorrera considerare la protezione dei dati fin dalle
+comportare rischi significativi per i diritti e le liberta delle persone, sara
+necessaria una Valutazione d'Impatto sulla Protezione dei Dati (DPIA) che
+consente di identificare e valutare i rischi associati al trattamento dei dati
+personali e a sviluppare un piano idoneo per mitigarli.
+3. La DPIA dovra essere adeguata alle specifiche fasi di sviluppo e
+implementazione del sistema A.1. e prendere in considerazione i rischi specifici
+associati all' A.I. come l'uso improprio dei dati, la discriminazione automatizzata,
+la creazione di contenuti falsi, la perdita di controllo sui dati, gli attacchi specifici
+ai sistemi A.I. e le questioni di confidenzialita.
+4.  In considerazione della necessita di mantenere un continuo e costante
+adeguamento ai regolamenti europei e nazionali sull'AI e di tenere conto di altre
+tipologie di impatti che tali tecnologie potrebbero avere su cittadine e cittadini,
+per le eventuali modifiche o integrazioni al presente Regolamento si richiedera
+un parere consultivo al "Board sull'uso etico delle Tecnologie Emergenti per
+l'innovazione urbana" che opera a titolo consultivo per la Citta di Torino,
+approvato con la deliberazione della Giunta Comunale n. 671, approvata il
+31/10/2023, al fine di rendere coerenti le progettualita della Citta in tema di
+innovazione.
+16
+
+CAPOV-TUTELAAMMINISTRATIVAE GIURISDIZIONALE
+Articolo 17 - Reclamo al Garante e ricorso all'Autorita giudiziaria
+1.
+Qualora 1'interessato ritenga che i diritti di cui gode in materia di protezione
+dei dati personali siano stati violati, puo proporre reclamo al Garante o ricorso
+dinanzi all' Autorita giudiziaria.
+2. Per tutto quanto attiene al diritto di proporre reclamo all'Autorita Garante
+si applicano le disposizioni contenute nell'articolo 77 del Regolamento (UE)
+2016/679 e articolo da 140-bis a 143 del Codice in materia di protezione dei
+dati personali, recante  disposizioni per l'adeguamento dell'ordinamento
+nazionale al Regolamento.
+3.1
+Per tutto quanto attiene al diritto di proporre ricorso all' Autorita giudiziaria
+si applicano le disposizioni di cui agli articolo 78 e 79 del Regolamento (UE)
+2016/679 e articolo 152 del Codice in materia di protezione dei dati personali.
+4. Chiunque subisca un danno, materiale o immateriale, per effetto del
+trattamento di dati personali ha il diritto di ottenere il risarcimento del danno dal
+titolare o dal responsabile del trattamento ai sensi dell'articolo 82 del
+Regolamento (UE) 2016/679 salvo che questi non dimostrino che 1'evento
+dannoso non gli e in alcun modo imputabile.
+5. Le azioni legali per l'esercizio del diritto di ottenere il risarcimento del
+danno sono promosse dinanzi all' Autorita giudiziaria secondo quanto previsto al
+comma 3 del presente articolo.
+17
+
+CAPOVI-DISPOSIZIONIFINALI
+Articolo 18 - Entrata in vigore
+1.
+Ⅱ presente Regolamento entrera in vigore con il conseguimento della
+esecutivita o della dichiarazione di immediata eseguibilita della deliberazione di
+approvazione, secondo le leggi vigenti ed osservate le procedure dalle stesse
+stabilite.
+Articolo 19 - Norma di rinvio
+1.
+Per quanto non espressamente disciplinato dal presente Regolamento si
+rinvia:
+a)
+al Regolamento (UE) 2016/679 del Parlamento europeo e del Consiglio del
+27 aprile 2016;
+b)
+al Decreto Legislativo 30 giugno 2003, n. 196 cosi come modificato dal
+decreto legislativo 10 ag0sto 2018, n. 101;
+c)
+al Decreto Legislativo 18 maggio 2018, n. 51 relativo al trattamento dei
+dati
+personali a  fini di prevenzione, indagine, accertamento é
+perseguimento di reati o esecuzione di sanzioni penali;
+d)
+ai provvedimenti generali sulla videosorveglianza approvati dall'Autorita
+garante per la protezione dei dati personali;
+e)
+al Regolamento comunale della Citta di Torino n. 387 approvato il 10
+giugno 2019 ed esecutivo il 24 giugno 2019.
+18

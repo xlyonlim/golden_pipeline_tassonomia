@@ -205,25 +205,28 @@ def salva_summary_csv(metriche, path):
         writer.writerow(metriche)
 
 
-def trova_confusion_matrices(output_dir):
+def trova_confusion_matrices_cv(output_dir):
     output_dir = Path(output_dir)
-    files = sorted(output_dir.glob("confusion_matrix*.csv"))
+    return sorted(output_dir.glob("confusion_matrix_cv_*.csv"))
 
-    def key(path):
-        nome = path.stem
-        tipo = 1 if "_cv_" in nome else 0
-        return (tipo, nome)
 
-    return sorted(files, key=key)
+def trova_classification_reports_cv(output_dir):
+    output_dir = Path(output_dir)
+    return sorted(output_dir.glob("classification_report_cv_*.csv"))
 
 
 def nome_modello_da_confusion(path):
     stem = Path(path).stem
     if stem.startswith("confusion_matrix_cv_"):
-        return stem.replace("confusion_matrix_cv_", ""), "cross-validation"
-    if stem.startswith("confusion_matrix_"):
-        return stem.replace("confusion_matrix_", ""), "test set"
-    return stem, "n/d"
+        return stem.replace("confusion_matrix_cv_", "")
+    return stem
+
+
+def nome_modello_da_classification_report(path):
+    stem = Path(path).stem
+    if stem.startswith("classification_report_cv_"):
+        return stem.replace("classification_report_cv_", "")
+    return stem
 
 
 def leggi_confusion_matrix(path):
@@ -236,22 +239,33 @@ def leggi_confusion_matrix(path):
     )
 
 
+def leggi_classification_report(path):
+    return pd.read_csv(
+        path,
+        sep=";",
+        encoding="utf-8-sig",
+        engine="python",
+        index_col=0,
+    )
+
+
 def sezione_confusion_matrices_txt(output_dir):
-    matrices = trova_confusion_matrices(output_dir)
+    reports = trova_classification_reports_cv(output_dir)
+    matrices = trova_confusion_matrices_cv(output_dir)
     righe = [
         CONFUSION_SECTION_START,
         "",
-        "Confusion matrix modelli ML",
-        "===========================",
+        "Classification report e confusion matrix cross-validation",
+        "========================================================",
         "",
         f"Generato il: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}",
         f"Cartella risultati: {Path(output_dir).resolve()}",
         "",
     ]
 
-    if not matrices:
+    if not reports and not matrices:
         righe.extend([
-            "Nessuna confusion_matrix*.csv trovata nella cartella risultati.",
+            "Nessun file classification_report_cv_*.csv o confusion_matrix_cv_*.csv trovato nella cartella risultati.",
             "",
             CONFUSION_SECTION_END,
             "",
@@ -259,13 +273,44 @@ def sezione_confusion_matrices_txt(output_dir):
         return "\n".join(righe)
 
     righe.extend([
-        "Le matrici senza prefisso CV sono calcolate sul test set.",
-        "Le matrici con prefisso CV sono calcolate tramite cross-validation stratificata.",
+        "I report e le matrici seguenti sono calcolati tramite cross-validation stratificata.",
+        "I file del test set semplice non vengono inclusi in questa sezione.",
         "",
     ])
 
+    if reports:
+        righe.extend([
+            "Classification report cross-validation",
+            "======================================",
+            "",
+        ])
+
+        for report_path in reports:
+            modello = nome_modello_da_classification_report(report_path)
+            try:
+                report = leggi_classification_report(report_path)
+                report_txt = report.to_string()
+            except Exception as e:
+                report_txt = f"Errore lettura classification report: {e}"
+
+            righe.extend([
+                f"cross-validation - {modello}",
+                "-" * (len(modello) + 19),
+                f"File: {report_path.name}",
+                "",
+                report_txt,
+                "",
+            ])
+
+    if matrices:
+        righe.extend([
+            "Confusion matrix cross-validation",
+            "================================",
+            "",
+        ])
+
     for matrix_path in matrices:
-        modello, tipo = nome_modello_da_confusion(matrix_path)
+        modello = nome_modello_da_confusion(matrix_path)
         try:
             matrix = leggi_confusion_matrix(matrix_path)
             matrix_txt = matrix.to_string()
@@ -273,8 +318,8 @@ def sezione_confusion_matrices_txt(output_dir):
             matrix_txt = f"Errore lettura matrice: {e}"
 
         righe.extend([
-            f"{tipo} - {modello}",
-            "-" * (len(tipo) + len(modello) + 3),
+            f"cross-validation - {modello}",
+            "-" * (len(modello) + 19),
             f"File: {matrix_path.name}",
             "",
             matrix_txt,
