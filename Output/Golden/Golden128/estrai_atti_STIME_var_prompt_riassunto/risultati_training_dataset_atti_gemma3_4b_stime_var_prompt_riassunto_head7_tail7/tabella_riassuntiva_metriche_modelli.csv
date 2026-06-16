@@ -1,0 +1,4 @@
+﻿modello;accuracy;precision_macro;recall_macro;f1_macro;f1_weighted
+naive_bayes;90.0;93.75;93.75;91.67;90.0
+logistic_regression;90.0;93.75;93.75;91.67;90.0
+linear_svm;90.0;93.75;93.75;91.67;90.0

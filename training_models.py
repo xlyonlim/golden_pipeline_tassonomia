@@ -42,7 +42,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.svm import LinearSVC
 
 
-# ============================================================
+# =========================================2===================
 # 1. CONFIGURAZIONE
 BASE_DATASET_DIR = Path(__file__).resolve().parent / "Output" / "Golden" / "Golden128"
 COLONNA_TESTO = "testo_completo_llm"

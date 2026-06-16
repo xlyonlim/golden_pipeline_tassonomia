@@ -1,0 +1,198 @@
+Risultati training modelli ML
+=============================
+
+Generato il: 2026-06-14 15:09:39
+Dataset: C:\Users\Ciro\Documents\Tirocinio\Output\Golden\Golden128\estrai_atti_STIME_var_finestra_5_3\dataset_atti_gemma3_4b_stime_var_finestra_head5_tail3.csv
+Cartella risultati: C:\Users\Ciro\Documents\Tirocinio\Output\Golden\Golden128\estrai_atti_STIME_var_finestra_5_3\risultati_training_dataset_atti_gemma3_4b_stime_var_finestra_head5_tail3
+X usata: testo_completo_llm
+Y usata: golden_label
+
+Classi:
+AccordoSindacale, Decreto, DeliberaConsiglio, DeliberaGiunta, Determina, Ordinanza, Regolamento, Statuto
+
+Distribuzione golden_label:
+golden_label
+Decreto              5
+DeliberaGiunta       5
+Determina            5
+Regolamento          5
+AccordoSindacale     5
+Statuto              5
+DeliberaConsiglio    5
+Ordinanza            5
+
+Metriche su test set:
+            modello  accuracy  precision_macro  recall_macro  f1_macro  f1_weighted
+        naive_bayes     100.0            100.0         100.0     100.0        100.0
+logistic_regression     100.0            100.0         100.0     100.0        100.0
+         linear_svm     100.0            100.0         100.0     100.0        100.0
+
+Metriche cross-validation:
+            modello  cv_n_splits  accuracy_mean  accuracy_std  precision_macro_mean  precision_macro_std  recall_macro_mean  recall_macro_std  f1_macro_mean  f1_macro_std  f1_weighted_mean  f1_weighted_std
+        naive_bayes            5           85.0          5.00                 77.50                 7.50               85.0              5.00          80.00          6.67             80.00             6.67
+logistic_regression            5           82.5          6.12                 75.83                 6.67               82.5              6.12          77.92          6.67             77.92             6.67
+         linear_svm            5           85.0          5.00                 78.33                 5.83               85.0              5.00          80.42          5.83             80.42             5.83
+
+File generati nella cartella risultati:
+- training_set.csv
+- test_set.csv
+- risultati_test_ml.csv
+- sintesi_metriche_test_set.csv
+- tabella_riassuntiva_metriche_modelli.csv
+- confusion_matrix_*
+- classification_report_*
+
+<!-- AUDIT_PIPELINE_START -->
+
+Audit pipeline LLM
+==================
+
+Generato il: 2026-06-14 15:19:34
+Dataset/pipeline: C:\Users\Ciro\Documents\Tirocinio\Output\Golden\Golden128\estrai_atti_STIME_var_finestra_5_3
+Audit CSV: C:\Users\Ciro\Documents\Tirocinio\Output\Golden\Golden128\estrai_atti_STIME_var_finestra_5_3\audit_log_gemma3_4b_stime_var_finestra_head5_tail3.csv
+Modello: gemma3:4b
+Pipeline: n/d (n/d)
+
+Volumi:
+- Record audit: 40
+- OCR usati: 13 (32.5%)
+- Fallback locale: 0 (0.0%)
+- Errori tecnici: 0
+- Chunk LLM totali: 40
+
+Token:
+- Input token totali: 27939
+- Output token totali: 10656
+- Total token totali: 38595
+- Input token medi per record: 698.48
+- Output token medi per record: 266.4
+- Total token medi per record: 964.88
+
+Costi registrati:
+- Costo input totale: 0.0
+- Costo output totale: 0.0
+- Costo totale: 0.0
+
+Timestamp:
+- Inizio osservato: 2026-06-13 17:20:39
+- Fine osservata: 2026-06-13 18:31:02
+- Durata osservata: 01:10:23
+- Secondi medi per record: 105.58
+
+Nota:
+La durata osservata deriva dai timestamp dell'audit, quindi misura l'intervallo tra
+primo e ultimo record scritto. Non e' una misura precisa della singola chiamata LLM/OCR.
+
+<!-- AUDIT_PIPELINE_END -->
+
+<!-- CONFUSION_MATRICES_START -->
+
+Classification report e confusion matrix cross-validation
+========================================================
+
+Generato il: 2026-06-14 15:19:34
+Cartella risultati: C:\Users\Ciro\Documents\Tirocinio\Output\Golden\Golden128\estrai_atti_STIME_var_finestra_5_3\risultati_training_dataset_atti_gemma3_4b_stime_var_finestra_head5_tail3
+
+I report e le matrici seguenti sono calcolati tramite cross-validation stratificata.
+I file del test set semplice non vengono inclusi in questa sezione.
+
+Classification report cross-validation
+======================================
+
+cross-validation - linear_svm
+-----------------------------
+File: classification_report_cv_linear_svm.csv
+
+                   precision  recall  f1-score  support
+AccordoSindacale    1.000000    0.80  0.888889     5.00
+Decreto             1.000000    0.40  0.571429     5.00
+DeliberaConsiglio   1.000000    1.00  1.000000     5.00
+DeliberaGiunta      0.833333    1.00  0.909091     5.00
+Determina           0.800000    0.80  0.800000     5.00
+Ordinanza           0.800000    0.80  0.800000     5.00
+Regolamento         0.625000    1.00  0.769231     5.00
+Statuto             1.000000    1.00  1.000000     5.00
+accuracy            0.850000    0.85  0.850000     0.85
+macro avg           0.882292    0.85  0.842330    40.00
+weighted avg        0.882292    0.85  0.842330    40.00
+
+cross-validation - logistic_regression
+--------------------------------------
+File: classification_report_cv_logistic_regression.csv
+
+                   precision  recall  f1-score  support
+AccordoSindacale    1.000000   0.800  0.888889    5.000
+Decreto             1.000000   0.400  0.571429    5.000
+DeliberaConsiglio   1.000000   1.000  1.000000    5.000
+DeliberaGiunta      1.000000   1.000  1.000000    5.000
+Determina           0.800000   0.800  0.800000    5.000
+Ordinanza           0.750000   0.600  0.666667    5.000
+Regolamento         0.555556   1.000  0.714286    5.000
+Statuto             0.833333   1.000  0.909091    5.000
+accuracy            0.825000   0.825  0.825000    0.825
+macro avg           0.867361   0.825  0.818795   40.000
+weighted avg        0.867361   0.825  0.818795   40.000
+
+cross-validation - naive_bayes
+------------------------------
+File: classification_report_cv_naive_bayes.csv
+
+                   precision  recall  f1-score  support
+AccordoSindacale    1.000000    0.80  0.888889     5.00
+Decreto             1.000000    0.40  0.571429     5.00
+DeliberaConsiglio   1.000000    1.00  1.000000     5.00
+DeliberaGiunta      0.833333    1.00  0.909091     5.00
+Determina           0.800000    0.80  0.800000     5.00
+Ordinanza           0.800000    0.80  0.800000     5.00
+Regolamento         0.714286    1.00  0.833333     5.00
+Statuto             0.833333    1.00  0.909091     5.00
+accuracy            0.850000    0.85  0.850000     0.85
+macro avg           0.872619    0.85  0.838979    40.00
+weighted avg        0.872619    0.85  0.838979    40.00
+
+Confusion matrix cross-validation
+================================
+
+cross-validation - linear_svm
+-----------------------------
+File: confusion_matrix_cv_linear_svm.csv
+
+                        pred_AccordoSindacale  pred_Decreto  pred_DeliberaConsiglio  pred_DeliberaGiunta  pred_Determina  pred_Ordinanza  pred_Regolamento  pred_Statuto
+vero_AccordoSindacale                       4             0                       0                    0               0               0                 1             0
+vero_Decreto                                0             2                       0                    1               0               0                 2             0
+vero_DeliberaConsiglio                      0             0                       5                    0               0               0                 0             0
+vero_DeliberaGiunta                         0             0                       0                    5               0               0                 0             0
+vero_Determina                              0             0                       0                    0               4               1                 0             0
+vero_Ordinanza                              0             0                       0                    0               1               4                 0             0
+vero_Regolamento                            0             0                       0                    0               0               0                 5             0
+vero_Statuto                                0             0                       0                    0               0               0                 0             5
+
+cross-validation - logistic_regression
+--------------------------------------
+File: confusion_matrix_cv_logistic_regression.csv
+
+                        pred_AccordoSindacale  pred_Decreto  pred_DeliberaConsiglio  pred_DeliberaGiunta  pred_Determina  pred_Ordinanza  pred_Regolamento  pred_Statuto
+vero_AccordoSindacale                       4             0                       0                    0               0               0                 1             0
+vero_Decreto                                0             2                       0                    0               0               0                 2             1
+vero_DeliberaConsiglio                      0             0                       5                    0               0               0                 0             0
+vero_DeliberaGiunta                         0             0                       0                    5               0               0                 0             0
+vero_Determina                              0             0                       0                    0               4               1                 0             0
+vero_Ordinanza                              0             0                       0                    0               1               3                 1             0
+vero_Regolamento                            0             0                       0                    0               0               0                 5             0
+vero_Statuto                                0             0                       0                    0               0               0                 0             5
+
+cross-validation - naive_bayes
+------------------------------
+File: confusion_matrix_cv_naive_bayes.csv
+
+                        pred_AccordoSindacale  pred_Decreto  pred_DeliberaConsiglio  pred_DeliberaGiunta  pred_Determina  pred_Ordinanza  pred_Regolamento  pred_Statuto
+vero_AccordoSindacale                       4             0                       0                    0               0               0                 0             1
+vero_Decreto                                0             2                       0                    1               0               0                 2             0
+vero_DeliberaConsiglio                      0             0                       5                    0               0               0                 0             0
+vero_DeliberaGiunta                         0             0                       0                    5               0               0                 0             0
+vero_Determina                              0             0                       0                    0               4               1                 0             0
+vero_Ordinanza                              0             0                       0                    0               1               4                 0             0
+vero_Regolamento                            0             0                       0                    0               0               0                 5             0
+vero_Statuto                                0             0                       0                    0               0               0                 0             5
+
+<!-- CONFUSION_MATRICES_END -->

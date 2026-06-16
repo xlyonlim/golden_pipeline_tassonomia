@@ -133,7 +133,7 @@ MAX_CARATTERI_INPUT_LLM = 750
 MAX_CARATTERI_TESTO_COMPLETO_LLM = 900
 MAX_CHUNK_LLM = 1
 USA_FALLBACK_LOCALE_SE_LLM_FALLISCE = True
-MAX_BLOCCHI_SELEZIONE_FORTE = 3
+MAX_BLOCCHI_SELEZIONE_FILTRO = 3
 
 COSTO_INPUT_PER_1K = 0.0
 COSTO_OUTPUT_PER_1K = 0.0
@@ -953,14 +953,14 @@ def seleziona_blocchi_utili_per_llm(testo, max_caratteri=MAX_CARATTERI_INPUT_LLM
             utili.append(blocco)
             continue
 
-        if re.search(r"\boggetto\b", b_lower) and len(utili) < MAX_BLOCCHI_SELEZIONE_FORTE:
+        if re.search(r"\boggetto\b", b_lower) and len(utili) < MAX_BLOCCHI_SELEZIONE_FILTRO:
             utili.append(blocco)
 
-        if len(utili) >= MAX_BLOCCHI_SELEZIONE_FORTE:
+        if len(utili) >= MAX_BLOCCHI_SELEZIONE_FILTRO:
             break
 
     if not utili:
-        utili = blocchi[:MAX_BLOCCHI_SELEZIONE_FORTE]
+        utili = blocchi[:MAX_BLOCCHI_SELEZIONE_FILTRO]
 
     testo_selezionato = "\n\n".join(utili).strip()
     if max_caratteri is not None and len(testo_selezionato) > max_caratteri:
@@ -1389,6 +1389,7 @@ def avvia_automazione():
 
 if __name__ == "__main__":
     avvia_automazione()
+
 
 
 
