@@ -11,3 +11,4 @@ openai
 pytesseract
 pandas
 scikit-learn
+docling
