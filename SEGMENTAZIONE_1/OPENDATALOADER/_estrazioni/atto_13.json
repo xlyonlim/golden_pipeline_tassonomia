@@ -1,0 +1,1444 @@
+{
+  "file name" : "atto_13.pdf",
+  "number of pages" : 8,
+  "author" : "Tortola Mariagrazia",
+  "title" : null,
+  "creation date" : "D:20240930102300Z",
+  "modification date" : "D:20260622091316+02'00'",
+  "kids" : [ {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 21,
+    "page number" : 1,
+    "bounding box" : [ 255.201, 709.817, 340.098, 806.45 ],
+    "source" : "atto_13_images/imageFile1.png"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 11,
+    "level" : "Doctitle",
+    "page number" : 1,
+    "bounding box" : [ 204.318, 677.62, 390.99, 695.339 ],
+    "heading level" : 1,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 16.0,
+    "text color" : "[0.0]",
+    "content" : "COMUNE DI CARINARO"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 12,
+    "page number" : 1,
+    "bounding box" : [ 247.321, 650.022, 347.977, 663.311 ],
+    "font" : "TimesNewRomanPS-ItalicMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Provincia di Caserta"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H2",
+    "id" : 13,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 152.017, 608.625, 443.287, 624.129 ],
+    "heading level" : 2,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 14.0,
+    "text color" : "[0.0]",
+    "content" : "Verbale di Deliberazione della Giunta Comunale"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 14,
+    "page number" : 1,
+    "bounding box" : [ 249.178, 585.627, 343.618, 596.701 ],
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 10.0,
+    "text color" : "[0.0]",
+    "content" : "N. 52 DEL 18-06-2026"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H3",
+    "id" : 16,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 60.2, 535.031, 540.748, 562.161 ],
+    "heading level" : 3,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "OGGETTO: CONCESSIONE PATROCINIO ECONOMICO E MORALE ALL'ASSOCIAZIONE SPORTIVA BEAUTY FITNESS A.S.D"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 18,
+    "page number" : 1,
+    "bounding box" : [ 56.7, 456.837, 537.756, 511.523 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "L'anno duemilaventisei addì diciotto del mese di Giugno, alle ore 18:45 nella sala della Casa Comunale, si è riunita la Giunta Comunale convocata nelle forme di legge. Presiede l’adunanza il Sindaco MARIANNA DELL'APROVITOLA e sono rispettivamente presenti e assenti i seguenti Sigg."
+  }, {
+    "type" : "table",
+    "pdfua_tag" : "Table",
+    "id" : 19,
+    "level" : "1",
+    "page number" : 1,
+    "bounding box" : [ 74.25, 314.545, 521.05, 429.239 ],
+    "number of rows" : 6,
+    "number of columns" : 3,
+    "rows" : [ {
+      "type" : "table row",
+      "row number" : 1,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 74.75, 413.79, 201.2, 428.739 ],
+        "row number" : 1,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 1,
+          "page number" : 1,
+          "bounding box" : [ 77.25, 416.79, 119.034, 425.649 ],
+          "font" : "TimesNewRomanPS-BoldItalicMT",
+          "font size" : 8.0,
+          "text color" : "[0.0]",
+          "content" : "Componente"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 201.2, 413.79, 362.95, 428.739 ],
+        "row number" : 1,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 2,
+          "page number" : 1,
+          "bounding box" : [ 203.95, 416.79, 232.39, 425.649 ],
+          "font" : "TimesNewRomanPS-BoldItalicMT",
+          "font size" : 8.0,
+          "text color" : "[0.0]",
+          "content" : "Presente"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 362.95, 413.79, 520.55, 428.739 ],
+        "row number" : 1,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 3,
+          "page number" : 1,
+          "bounding box" : [ 365.7, 416.79, 391.036, 425.649 ],
+          "font" : "TimesNewRomanPS-BoldItalicMT",
+          "font size" : 8.0,
+          "text color" : "[0.0]",
+          "content" : "Assente"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 2,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 74.75, 393.991, 201.2, 413.79 ],
+        "row number" : 2,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 4,
+          "page number" : 1,
+          "bounding box" : [ 77.25, 401.591, 196.154, 410.45 ],
+          "font" : "TimesNewRomanPS-BoldItalicMT",
+          "font size" : 8.0,
+          "text color" : "[0.0]",
+          "content" : "DELL'APROVITOLA MARIANNA"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 201.2, 393.991, 362.95, 413.79 ],
+        "row number" : 2,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 5,
+          "page number" : 1,
+          "bounding box" : [ 203.95, 401.591, 209.286, 410.45 ],
+          "font" : "TimesNewRomanPS-BoldItalicMT",
+          "font size" : 8.0,
+          "text color" : "[0.0]",
+          "content" : "X"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 362.95, 393.991, 520.55, 413.79 ],
+        "row number" : 2,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 3,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 74.75, 374.192, 201.2, 393.991 ],
+        "row number" : 3,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 6,
+          "page number" : 1,
+          "bounding box" : [ 77.25, 381.792, 154.378, 390.651 ],
+          "font" : "TimesNewRomanPS-BoldItalicMT",
+          "font size" : 8.0,
+          "text color" : "[0.0]",
+          "content" : "SARDO GIUSEPPINA"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 201.2, 374.192, 362.95, 393.991 ],
+        "row number" : 3,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 7,
+          "page number" : 1,
+          "bounding box" : [ 203.95, 381.792, 209.286, 390.651 ],
+          "font" : "TimesNewRomanPS-BoldItalicMT",
+          "font size" : 8.0,
+          "text color" : "[0.0]",
+          "content" : "X"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 362.95, 374.192, 520.55, 393.991 ],
+        "row number" : 3,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 4,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 74.75, 354.393, 201.2, 374.192 ],
+        "row number" : 4,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 8,
+          "page number" : 1,
+          "bounding box" : [ 77.25, 361.993, 141.042, 370.852 ],
+          "font" : "TimesNewRomanPS-BoldItalicMT",
+          "font size" : 8.0,
+          "text color" : "[0.0]",
+          "content" : "SGLAVO NICOLA"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 201.2, 354.393, 362.95, 374.192 ],
+        "row number" : 4,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 9,
+          "page number" : 1,
+          "bounding box" : [ 203.95, 361.993, 209.286, 370.852 ],
+          "font" : "TimesNewRomanPS-BoldItalicMT",
+          "font size" : 8.0,
+          "text color" : "[0.0]",
+          "content" : "X"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 362.95, 354.393, 520.55, 374.192 ],
+        "row number" : 4,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 5,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 74.75, 334.594, 201.2, 354.393 ],
+        "row number" : 5,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 10,
+          "page number" : 1,
+          "bounding box" : [ 77.25, 342.194, 148.154, 351.053 ],
+          "font" : "TimesNewRomanPS-BoldItalicMT",
+          "font size" : 8.0,
+          "text color" : "[0.0]",
+          "content" : "ESPOSITO NICOLA"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 201.2, 334.594, 362.95, 354.393 ],
+        "row number" : 5,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 11,
+          "page number" : 1,
+          "bounding box" : [ 203.95, 342.194, 209.286, 351.053 ],
+          "font" : "TimesNewRomanPS-BoldItalicMT",
+          "font size" : 8.0,
+          "text color" : "[0.0]",
+          "content" : "X"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 362.95, 334.594, 520.55, 354.393 ],
+        "row number" : 5,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 6,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 74.75, 315.045, 201.2, 334.594 ],
+        "row number" : 6,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 12,
+          "page number" : 1,
+          "bounding box" : [ 77.25, 322.395, 154.386, 331.254 ],
+          "font" : "TimesNewRomanPS-BoldItalicMT",
+          "font size" : 8.0,
+          "text color" : "[0.0]",
+          "content" : "BARBATO RACHELE"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 201.2, 315.045, 362.95, 334.594 ],
+        "row number" : 6,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 13,
+          "page number" : 1,
+          "bounding box" : [ 203.95, 322.395, 209.286, 331.254 ],
+          "font" : "TimesNewRomanPS-BoldItalicMT",
+          "font size" : 8.0,
+          "text color" : "[0.0]",
+          "content" : "X"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 362.95, 315.045, 520.55, 334.594 ],
+        "row number" : 6,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      } ]
+    } ]
+  }, {
+    "type" : "caption",
+    "id" : 20,
+    "page number" : 1,
+    "bounding box" : [ 56.7, 231.751, 537.204, 300.236 ],
+    "linked content id" : 19,
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Numero totale PRESENTI: 5– ASSENTI: 0 Con la partecipazione del Segretario Generale SALVATORE CAPOLUONGO, il Presidente, constatato che gli intervenuti sono in numero legale, dichiara aperta la riunione ed invita i convocati a deliberare sull'oggetto sopra indicato."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 22,
+    "page number" : 2,
+    "bounding box" : [ 56.7, 759.178, 380.551, 770.355 ],
+    "font" : "PalatinoLinotype-Roman",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "Il Sindaco, di concerto con la Delegata allo Sport Assunta Madonia"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H5",
+    "id" : 23,
+    "level" : "Subtitle",
+    "page number" : 2,
+    "bounding box" : [ 56.7, 719.498, 144.722, 730.675 ],
+    "heading level" : 5,
+    "font" : "PalatinoLinotype-Bold",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "PREMESSO CHE"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 24,
+    "page number" : 2,
+    "bounding box" : [ 56.7, 625.458, 538.61, 710.835 ],
+    "font" : "PalatinoLinotype-Roman",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "con nota acquisita al protocollo dell'Ente in data 16/06/2026 al n. 6783, il sig. Luigi Zampella, in qualità di legale rappresentante dell'Associazione Sportiva Beauty Fitness A.S.D., con sede in Aversa (CE), Viale della Libertà SNC, ha richiesto la concessione del patrocinio morale, di un contributo economico a sostegno delle spese organizzative, promozionali, assicurative e logistiche, nonché l'utilizzo gratuito di suolo pubblico in Via Trieste per lo svolgimento delle seguenti iniziative sportive:"
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 25,
+    "level" : "2",
+    "page number" : 2,
+    "bounding box" : [ 74.7, 516.418, 538.596, 618.798 ],
+    "numbering style" : "unordered",
+    "number of list items" : 4,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 74.7, 605.618, 509.501, 618.798 ],
+      "font" : "SymbolMT",
+      "font size" : 11.0,
+      "text color" : "[0.0]",
+      "content" : " Corso di Kick Boxing, previsto per il giorno 6 luglio 2026 dalle ore 19:00 alle ore 20:00;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 74.7, 585.778, 482.507, 598.958 ],
+      "font" : "SymbolMT",
+      "font size" : 11.0,
+      "text color" : "[0.0]",
+      "content" : " Corso di Pilates, previsto per il giorno 8 luglio 2026 dalle ore 19:00 alle ore 20:00;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 74.7, 551.098, 538.596, 579.118 ],
+      "font" : "SymbolMT",
+      "font size" : 11.0,
+      "text color" : "[0.0]",
+      "content" : " Corso di Functional Training, previsto per il giorno 13 luglio 2026 dalle ore 19:00 alle ore 20:00;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 74.7, 516.418, 538.596, 544.438 ],
+      "font" : "SymbolMT",
+      "font size" : 11.0,
+      "text color" : "[0.0]",
+      "content" : " Dimostrazione e Allenamento MMA, previsto per il giorno 14 luglio 2026 dalle ore 20:00 alle ore 22:00;",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 26,
+    "page number" : 2,
+    "bounding box" : [ 56.7, 481.738, 538.599, 507.755 ],
+    "font" : "PalatinoLinotype-Roman",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "le iniziative proposte sono rivolte alla cittadinanza e sono finalizzate alla promozione della pratica sportiva, del benessere psicofisico, dell'inclusione sociale e dell'aggregazione comunitaria;"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H5",
+    "id" : 27,
+    "level" : "Subtitle",
+    "page number" : 2,
+    "bounding box" : [ 56.7, 461.898, 169.208, 473.075 ],
+    "heading level" : 5,
+    "font" : "PalatinoLinotype-Bold",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "CONSIDERATO CHE"
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 28,
+    "level" : "2",
+    "page number" : 2,
+    "bounding box" : [ 74.7, 357.858, 538.607, 455.238 ],
+    "numbering style" : "unordered",
+    "number of list items" : 3,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 74.7, 427.218, 538.596, 455.238 ],
+      "font" : "SymbolMT",
+      "font size" : 11.0,
+      "text color" : "[0.0]",
+      "content" : " le attività proposte perseguono finalità sportive, educative, sociali e aggregative, favorendo la partecipazione attiva della cittadinanza;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 74.7, 392.538, 538.596, 420.558 ],
+      "font" : "SymbolMT",
+      "font size" : 11.0,
+      "text color" : "[0.0]",
+      "content" : " l'iniziativa mira a promuovere corretti stili di vita e la pratica sportiva quale strumento di inclusione sociale e di rafforzamento del senso di comunità;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 74.7, 357.858, 538.607, 385.878 ],
+      "font" : "SymbolMT",
+      "font size" : 11.0,
+      "text color" : "[0.0]",
+      "content" : " le iniziative risultano coerenti con gli indirizzi e le finalità istituzionali dell'Amministrazione comunale;",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H5",
+    "id" : 29,
+    "level" : "Subtitle",
+    "page number" : 2,
+    "bounding box" : [ 56.7, 338.018, 117.057, 349.195 ],
+    "heading level" : 5,
+    "font" : "PalatinoLinotype-Bold",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "RITENUTO"
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 30,
+    "level" : "2",
+    "page number" : 2,
+    "bounding box" : [ 74.7, 219.138, 538.596, 331.358 ],
+    "numbering style" : "unordered",
+    "number of list items" : 3,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 74.7, 303.338, 538.596, 331.358 ],
+      "font" : "SymbolMT",
+      "font size" : 11.0,
+      "text color" : "[0.0]",
+      "content" : " di accogliere favorevolmente la richiesta dell'Associazione Sportiva Beauty Fitness A.S.D., concedendo il patrocinio morale del Comune di Carinaro;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 74.7, 253.818, 538.596, 296.678 ],
+      "font" : "SymbolMT",
+      "font size" : 11.0,
+      "text color" : "[0.0]",
+      "content" : " di concedere un contributo economico straordinario nella misura massima di € 800,00 quale compartecipazione alle spese organizzative, promozionali, assicurative e logistiche necessarie allo svolgimento delle iniziative;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 74.7, 219.138, 538.596, 247.158 ],
+      "font" : "SymbolMT",
+      "font size" : 11.0,
+      "text color" : "[0.0]",
+      "content" : " di concedere l'occupazione gratuita del suolo pubblico in Via Trieste nelle date e negli orari sopra indicati;",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H5",
+    "id" : 31,
+    "level" : "Subtitle",
+    "page number" : 2,
+    "bounding box" : [ 56.7, 199.298, 87.874, 210.475 ],
+    "heading level" : 5,
+    "font" : "PalatinoLinotype-Bold",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "VISTI"
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 32,
+    "level" : "2",
+    "page number" : 2,
+    "bounding box" : [ 74.7, 90.258, 538.607, 192.638 ],
+    "numbering style" : "unordered",
+    "number of list items" : 4,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 74.7, 179.458, 491.087, 192.638 ],
+      "font" : "SymbolMT",
+      "font size" : 11.0,
+      "text color" : "[0.0]",
+      "content" : " il D.Lgs. 18 agosto 2000, n. 267 e, in particolare, gli artt. 48, 49, 107 e 134, comma 4;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 74.7, 159.618, 291.283, 172.798 ],
+      "font" : "SymbolMT",
+      "font size" : 11.0,
+      "text color" : "[0.0]",
+      "content" : " l'art. 12 della Legge 7 agosto 1990, n. 241;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 74.7, 139.778, 192.437, 152.958 ],
+      "font" : "SymbolMT",
+      "font size" : 11.0,
+      "text color" : "[0.0]",
+      "content" : " lo Statuto comunale;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 74.7, 90.258, 538.607, 133.118 ],
+      "font" : "SymbolMT",
+      "font size" : 11.0,
+      "text color" : "[0.0]",
+      "content" : " il Regolamento comunale per la concessione di contributi in favore di associazioni per finalità di promozione di attività culturali, sportive e ricreative, approvato con deliberazione di Consiglio Comunale n. 27 del 30.06.2015;",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H5",
+    "id" : 33,
+    "level" : "Subtitle",
+    "page number" : 2,
+    "bounding box" : [ 217.79, 70.418, 377.51, 81.595 ],
+    "heading level" : 5,
+    "font" : "PalatinoLinotype-Bold",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "SI PROPONE DI DELIBERARE"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 34,
+    "page number" : 3,
+    "bounding box" : [ 56.7, 757.096, 538.599, 802.953 ],
+    "font" : "PalatinoLinotype-Roman",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "DI APPROVARE le premesse quali parte integrante e sostanziale del presente provvedimento. DI CONCEDERE all'Associazione Sportiva Beauty Fitness A.S.D. il patrocinio morale del Comune di Carinaro per lo svolgimento delle iniziative sportive indicate in premessa."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 35,
+    "page number" : 3,
+    "bounding box" : [ 56.7, 707.576, 538.599, 748.433 ],
+    "font" : "PalatinoLinotype-Roman",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "DI CONCEDERE all'Associazione Sportiva Beauty Fitness A.S.D., ai sensi dell'art. 7 del Regolamento comunale approvato con deliberazione di Consiglio Comunale n. 27 del 30.06.2015, un contributo economico straordinario nella misura massima di € 800,00."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 36,
+    "page number" : 3,
+    "bounding box" : [ 56.7, 658.056, 538.599, 698.913 ],
+    "font" : "PalatinoLinotype-Roman",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "DI DARE ATTO che il contributo economico trova copertura sul capitolo 1880.1 del Bilancio di previsione vigente, denominato \"Spettacoli e/o manifestazioni culturali – contributi ad associazioni promotrici\"."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 37,
+    "page number" : 3,
+    "bounding box" : [ 56.7, 623.376, 538.588, 649.393 ],
+    "font" : "PalatinoLinotype-Roman",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "DI DEMANDARE al Responsabile dell’Area Affari Generali l’adozione degli atti gestionali conseguenti relativi all’impegno e alla successiva liquidazione del contributo."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 38,
+    "page number" : 3,
+    "bounding box" : [ 56.7, 573.856, 538.599, 614.713 ],
+    "font" : "PalatinoLinotype-Roman",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "DI CONCEDERE l'occupazione gratuita del suolo pubblico in Via Trieste per le giornate del 6, 8 e 13 luglio 2026, dalle ore 19:00 alle ore 20:00, e del 14 luglio 2026, dalle ore 20:00 alle ore 22:00, limitatamente allo svolgimento delle iniziative indicate in premessa."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 39,
+    "page number" : 3,
+    "bounding box" : [ 56.7, 509.496, 538.599, 565.193 ],
+    "font" : "PalatinoLinotype-Roman",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "DI DARE ATTO che il rilascio delle autorizzazioni inerenti all'occupazione del suolo pubblico, nonché l'eventuale adozione di provvedimenti relativi alla viabilità, alla sicurezza e all'utilizzo dell'area, restano demandati ai competenti uffici comunali, ciascuno per quanto di rispettiva competenza."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 40,
+    "page number" : 3,
+    "bounding box" : [ 56.7, 459.976, 538.61, 500.833 ],
+    "font" : "PalatinoLinotype-Roman",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "DI PRECISARE che la liquidazione del contributo concesso avverrà previa presentazione di idonea rendicontazione, corredata dalla documentazione giustificativa delle spese effettivamente sostenute dall'Associazione beneficiaria."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 41,
+    "page number" : 3,
+    "bounding box" : [ 56.7, 395.616, 538.599, 451.313 ],
+    "font" : "PalatinoLinotype-Roman",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "DI DARE ATTO che l'organizzazione e lo svolgimento delle iniziative avverranno sotto l'esclusiva responsabilità dell'Associazione organizzatrice, la quale dovrà adottare tutte le misure necessarie a garantire il corretto svolgimento delle attività nel rispetto della normativa vigente, assumendo ogni responsabilità civile, penale, amministrativa e patrimoniale connessa all'evento."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 42,
+    "page number" : 3,
+    "bounding box" : [ 56.7, 331.256, 538.599, 386.953 ],
+    "font" : "PalatinoLinotype-Roman",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "DI DARE ATTO che la concessione del patrocinio morale, del contributo economico e dell'occupazione gratuita del suolo pubblico non esonera l'Associazione dall'acquisizione di eventuali autorizzazioni, nulla osta, comunicazioni o titoli abilitativi previsti dalla normativa vigente."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 43,
+    "page number" : 3,
+    "bounding box" : [ 56.7, 281.736, 538.61, 322.593 ],
+    "font" : "PalatinoLinotype-Roman",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "DI DEMANDARE al Responsabile dell'Area Tecnica e al Comandante della Polizia Municipale, ciascuno per quanto di rispettiva competenza, l'adozione degli atti e degli adempimenti conseguenti al presente provvedimento."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 44,
+    "page number" : 3,
+    "bounding box" : [ 56.7, 247.056, 538.599, 273.073 ],
+    "font" : "PalatinoLinotype-Roman",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "DI DICHIARARE la presente deliberazione immediatamente eseguibile ai sensi dell'art. 134, comma 4, del D.Lgs. n. 267/2000."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 45,
+    "page number" : 4,
+    "bounding box" : [ 56.7, 657.896, 538.61, 763.273 ],
+    "font" : "PalatinoLinotype-Roman",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "LA GIUNTA COMUNALE Vista la proposta di deliberazione sopra riportata; Acquisiti i pareri favorevoli di regolarità tecnica e contabile espressi ai sensi dell'art. 49 del D.Lgs. n. 267/2000; Ritenuto di approvare integralmente la proposta medesima; Con votazione unanime favorevole resa nei modi e termini di legge;"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H5",
+    "id" : 46,
+    "level" : "Subtitle",
+    "page number" : 4,
+    "bounding box" : [ 269.102, 618.216, 326.203, 629.393 ],
+    "heading level" : 5,
+    "font" : "PalatinoLinotype-Bold",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "DELIBERA"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 47,
+    "page number" : 4,
+    "bounding box" : [ 56.7, 564.737, 538.588, 590.754 ],
+    "font" : "PalatinoLinotype-Roman",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "Di approvare integralmente la proposta di deliberazione sopra riportata, che qui si intende integralmente richiamata e trascritta."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 48,
+    "page number" : 4,
+    "bounding box" : [ 56.7, 530.057, 538.599, 556.074 ],
+    "font" : "PalatinoLinotype-Roman",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "Di dichiarare la presente deliberazione immediatamente eseguibile, con separata ed unanime votazione favorevole, ai sensi dell'art. 134, comma 4, del D.Lgs. n. 267/2000."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 49,
+    "page number" : 5,
+    "bounding box" : [ 371.205, 767.353, 535.853, 779.534 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "Deliberazione n. 52 DEL 18-06-2026"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 50,
+    "page number" : 5,
+    "bounding box" : [ 59.45, 729.406, 200.272, 741.587 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "Letto, confermato e sottoscritto."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 51,
+    "page number" : 5,
+    "bounding box" : [ 154.546, 693.759, 445.309, 705.94 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "Il Sindaco Il Segretario"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 52,
+    "page number" : 5,
+    "bounding box" : [ 95.195, 679.96, 496.47, 693.291 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "MARIANNA DELL'APROVITOLA SALVATORE CAPOLUONGO"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H3",
+    "id" : 53,
+    "level" : "Subtitle",
+    "page number" : 5,
+    "bounding box" : [ 196.673, 568.967, 401.381, 609.854 ],
+    "heading level" : 3,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "CERTIFICATO DI PUBBLICAZIONE IL SEGRETARIO GENERALE"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 54,
+    "page number" : 5,
+    "bounding box" : [ 56.7, 472.374, 538.19, 540.859 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "ATTESTA Che la presente deliberazione è stata affissa all’ albo pretorio del sito web dell’ ente http://www.comune.carinaro.ce.it conforme all’originale in data 00-00-0000e resterà affissa per n. 15 giorni consecutivi ai sensi dell’art. 124, comma 1, del Dlgs 18 agosto 2000 n. 267"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 55,
+    "page number" : 5,
+    "bounding box" : [ 219.149, 417.178, 376.145, 444.266 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Il Segretario Generale SALVATORE CAPOLUONGO"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 56,
+    "level" : "3",
+    "page number" : 5,
+    "bounding box" : [ 57.65, 375.781, 537.65, 402.869 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "******************************************************************************** *****************************************************************"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H3",
+    "id" : 57,
+    "level" : "Subtitle",
+    "page number" : 5,
+    "bounding box" : [ 202.628, 348.183, 392.672, 361.472 ],
+    "heading level" : 3,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "CERTIFICATO DI ESECUTIVITA'"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 58,
+    "page number" : 5,
+    "bounding box" : [ 56.7, 295.287, 501.122, 320.117 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "[ X] Deliberazione dichiarata immediatamente eseguibile ai sensi dell’ art. 134, comma 4, del D.Lgs. 267/2000 e.ss.mm.ii."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 59,
+    "page number" : 5,
+    "bounding box" : [ 56.7, 257.34, 506.017, 282.17 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "[ ]Deliberazione esecutiva ad ogni effetto di legge decorso il decimo giorno di pubblicazione, ai sensi dell’art. 134, comma 3, del D.Lgs n. 267/2000 e.ss.mm.ii."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 60,
+    "page number" : 5,
+    "bounding box" : [ 389.014, 220.543, 443.684, 232.724 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "Il Segretario"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H4",
+    "id" : 61,
+    "level" : "Subtitle",
+    "page number" : 5,
+    "bounding box" : [ 337.849, 206.744, 494.845, 220.033 ],
+    "heading level" : 4,
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "SALVATORE CAPOLUONGO"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 62,
+    "page number" : 5,
+    "bounding box" : [ 56.7, 150.947, 490.6, 162.021 ],
+    "font" : "TimesNewRomanPS-BoldItalicMT",
+    "font size" : 10.0,
+    "text color" : "[0.0]",
+    "content" : "Documento informatico sottoscritto con firma digitale ai sensi dell’art.24 del D.Lgs. n.82/2005 e ss.mm.ii."
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H3",
+    "id" : 66,
+    "level" : "Subtitle",
+    "page number" : 6,
+    "bounding box" : [ 56.7, 504.23, 442.416, 545.117 ],
+    "heading level" : 3,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "OGGETTO: CONCESSIONE PATROCINIO ECONOMICO E MORALE ALL'ASSOCIAZIONE SPORTIVA BEAUTY FITNESS A.S.D"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 67,
+    "page number" : 6,
+    "bounding box" : [ 56.7, 407.637, 363.972, 434.725 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "PARERE DI REGOLARITA’ TECNICA (Articolo 147 bis del decreto legislativo 18 agosto 2000, n. 267)"
+  }, {
+    "type" : "table",
+    "pdfua_tag" : "Table",
+    "id" : 68,
+    "level" : "4",
+    "page number" : 6,
+    "bounding box" : [ 141.525, 300.59, 453.775, 366.24 ],
+    "number of rows" : 2,
+    "number of columns" : 2,
+    "rows" : [ {
+      "type" : "table row",
+      "row number" : 1,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 6,
+        "bounding box" : [ 142.025, 333.99, 299.325, 365.74 ],
+        "row number" : 1,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 1,
+          "page number" : 6,
+          "bounding box" : [ 214.303, 352.391, 226.795, 362.358 ],
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 9.0,
+          "text color" : "[0.0]",
+          "content" : "[X]"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 6,
+        "bounding box" : [ 299.325, 333.99, 453.275, 365.74 ],
+        "row number" : 1,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 2,
+          "page number" : 6,
+          "bounding box" : [ 373.428, 352.391, 379.422, 362.358 ],
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 9.0,
+          "text color" : "[0.0]",
+          "content" : "[]"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 2,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 6,
+        "bounding box" : [ 142.025, 301.09, 299.325, 333.99 ],
+        "row number" : 2,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 3,
+          "page number" : 6,
+          "bounding box" : [ 204.805, 322.691, 236.298, 330.443 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 7.0,
+          "text color" : "[0.0]",
+          "content" : "Favorevole"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 6,
+        "bounding box" : [ 299.325, 301.09, 453.275, 333.99 ],
+        "row number" : 2,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 4,
+          "page number" : 6,
+          "bounding box" : [ 363.011, 322.691, 389.842, 330.443 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 7.0,
+          "text color" : "[0.0]",
+          "content" : "Contrario"
+        } ]
+      } ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 69,
+    "page number" : 6,
+    "bounding box" : [ 59.7, 187.198, 173.34, 200.487 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Carinaro, lì 18-06-2026"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 70,
+    "page number" : 6,
+    "bounding box" : [ 380.965, 173.399, 455.293, 186.688 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Il Responsabile"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 71,
+    "page number" : 6,
+    "bounding box" : [ 362.452, 139.801, 473.8, 153.207 ],
+    "font" : "ArialMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "PICONE VINCENZO"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H3",
+    "id" : 74,
+    "level" : "Subtitle",
+    "page number" : 7,
+    "bounding box" : [ 56.7, 504.23, 442.416, 545.117 ],
+    "heading level" : 3,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "OGGETTO: CONCESSIONE PATROCINIO ECONOMICO E MORALE ALL'ASSOCIAZIONE SPORTIVA BEAUTY FITNESS A.S.D"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 75,
+    "page number" : 7,
+    "bounding box" : [ 56.7, 407.637, 363.972, 434.725 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "PARERE DI REGOLARITA’ CONTABILE (Articolo 147 bis del decreto legislativo 18 agosto 2000, n. 267)"
+  }, {
+    "type" : "table",
+    "pdfua_tag" : "Table",
+    "id" : 76,
+    "level" : "5",
+    "page number" : 7,
+    "bounding box" : [ 129.25, 300.59, 466.05, 366.24 ],
+    "number of rows" : 2,
+    "number of columns" : 3,
+    "rows" : [ {
+      "type" : "table row",
+      "row number" : 1,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 7,
+        "bounding box" : [ 129.75, 333.99, 239.55, 365.74 ],
+        "row number" : 1,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 1,
+          "page number" : 7,
+          "bounding box" : [ 178.278, 352.391, 190.77, 362.358 ],
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 9.0,
+          "text color" : "[0.0]",
+          "content" : "[X]"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 7,
+        "bounding box" : [ 239.55, 333.99, 347.25, 365.74 ],
+        "row number" : 1,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 2,
+          "page number" : 7,
+          "bounding box" : [ 290.403, 352.391, 296.397, 362.358 ],
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 9.0,
+          "text color" : "[0.0]",
+          "content" : "[]"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 7,
+        "bounding box" : [ 347.25, 333.99, 465.55, 365.74 ],
+        "row number" : 1,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 3,
+          "page number" : 7,
+          "bounding box" : [ 403.528, 352.391, 409.522, 362.358 ],
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 9.0,
+          "text color" : "[0.0]",
+          "content" : "[]"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 2,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 7,
+        "bounding box" : [ 129.75, 301.09, 239.55, 333.99 ],
+        "row number" : 2,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 4,
+          "page number" : 7,
+          "bounding box" : [ 168.78, 322.691, 200.273, 330.443 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 7.0,
+          "text color" : "[0.0]",
+          "content" : "Favorevole"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 7,
+        "bounding box" : [ 239.55, 301.09, 347.25, 333.99 ],
+        "row number" : 2,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 5,
+          "page number" : 7,
+          "bounding box" : [ 279.986, 322.691, 306.817, 330.443 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 7.0,
+          "text color" : "[0.0]",
+          "content" : "Contrario"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 7,
+        "bounding box" : [ 347.25, 301.09, 465.55, 333.99 ],
+        "row number" : 2,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 6,
+          "page number" : 7,
+          "bounding box" : [ 384.269, 322.691, 428.782, 330.443 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 7.0,
+          "text color" : "[0.0]",
+          "content" : "Non Necessario"
+        } ]
+      } ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 77,
+    "page number" : 7,
+    "bounding box" : [ 59.7, 187.198, 173.34, 200.487 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Carinaro, lì 18-06-2026"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 78,
+    "page number" : 7,
+    "bounding box" : [ 380.965, 173.399, 455.293, 186.688 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Il Responsabile"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 79,
+    "page number" : 7,
+    "bounding box" : [ 352.447, 139.801, 483.799, 153.207 ],
+    "font" : "ArialMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "FATTORE SALVATORE"
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 90,
+    "page number" : 8,
+    "bounding box" : [ 255.226, 654.869, 340.124, 751.502 ],
+    "source" : "atto_13_images/imageFile4.png"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 81,
+    "page number" : 8,
+    "bounding box" : [ 449.02, 765.301, 515.704, 778.59 ],
+    "font" : "TimesNewRomanPS-BoldItalicMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "ORIGINALE"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 82,
+    "level" : "Doctitle",
+    "page number" : 8,
+    "bounding box" : [ 204.343, 622.672, 391.015, 640.391 ],
+    "heading level" : 1,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 16.0,
+    "text color" : "[0.0]",
+    "content" : "COMUNE DI CARINARO"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 83,
+    "page number" : 8,
+    "bounding box" : [ 117.991, 572.076, 477.355, 608.363 ],
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Provincia di Caserta DELIBERAZIONE DI GIUNTA COMUNALE N. 52 DEL 18-06-2026"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 84,
+    "page number" : 8,
+    "bounding box" : [ 56.7, 530.679, 442.416, 557.767 ],
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "OGGETTO: CONCESSIONE PATROCINIO ECONOMICO E MORALE ALL'ASSOCIAZIONE SPORTIVA BEAUTY FITNESS A.S.D"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 85,
+    "page number" : 8,
+    "bounding box" : [ 153.323, 475.483, 439.031, 488.772 ],
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "C E R T I F I C A T O D I P U B B L I C A Z I O N E"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 86,
+    "page number" : 8,
+    "bounding box" : [ 56.7, 420.287, 538.656, 461.174 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Il sottoscritto responsabile della pubblicazione OLIVA LORENZO certifica che copia della presente deliberazione viene pubblicata il giorno 19-06-2026all’Albo Pretorio ove rimarrà affissa per 15 giorni consecutivi sino al 04-07-2026,"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 87,
+    "page number" : 8,
+    "bounding box" : [ 56.7, 351.292, 163.368, 364.581 ],
+    "font" : "TimesNewRomanPS-ItalicMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Carinaro, 19-06-2026"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 88,
+    "page number" : 8,
+    "bounding box" : [ 357.701, 323.694, 528.653, 350.782 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Il Responsabile della pubblicazione OLIVA LORENZO"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 89,
+    "page number" : 8,
+    "bounding box" : [ 56.7, 245.5, 482.79, 256.574 ],
+    "font" : "TimesNewRomanPS-ItalicMT",
+    "font size" : 10.0,
+    "text color" : "[0.0]",
+    "content" : "Documento informatico sottoscritto con firma digitale ai sensi dell’art.24 del D.Lgs. n.82/2005 e ss.mm.ii."
+  } ]
+}

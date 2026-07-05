@@ -1,0 +1,4 @@
+"0","tab_psq = table(cognition_df$PoorSleepQuality)"
+"0","bp1 = barplot(tab_psq, plot = FALSE)"
+"0",""
+"0","plot.new()"

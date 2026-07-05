@@ -1,0 +1,2 @@
+"0","plot.window(xlim = c(min(bp1) - 0.8, max(bp1) + 0.8),"
+"0","            ylim = c(0, max(tab_psq) * 1.15))"

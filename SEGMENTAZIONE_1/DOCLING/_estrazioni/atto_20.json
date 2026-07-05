@@ -1,0 +1,4264 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.10.0",
+  "name": "atto_20",
+  "origin": {
+    "mimetype": "application/pdf",
+    "binary_hash": 11064450991503507188,
+    "filename": "atto_20.pdf"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/pictures/0"
+      },
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/tables/0"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/texts/24"
+      },
+      {
+        "$ref": "#/texts/25"
+      },
+      {
+        "$ref": "#/texts/26"
+      },
+      {
+        "$ref": "#/texts/27"
+      },
+      {
+        "$ref": "#/texts/28"
+      },
+      {
+        "$ref": "#/texts/29"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/37"
+      },
+      {
+        "$ref": "#/texts/38"
+      },
+      {
+        "$ref": "#/texts/39"
+      },
+      {
+        "$ref": "#/texts/40"
+      },
+      {
+        "$ref": "#/texts/41"
+      },
+      {
+        "$ref": "#/texts/42"
+      },
+      {
+        "$ref": "#/texts/43"
+      },
+      {
+        "$ref": "#/texts/44"
+      },
+      {
+        "$ref": "#/texts/45"
+      },
+      {
+        "$ref": "#/texts/46"
+      },
+      {
+        "$ref": "#/texts/47"
+      },
+      {
+        "$ref": "#/texts/48"
+      },
+      {
+        "$ref": "#/texts/49"
+      },
+      {
+        "$ref": "#/texts/50"
+      },
+      {
+        "$ref": "#/texts/51"
+      },
+      {
+        "$ref": "#/texts/52"
+      },
+      {
+        "$ref": "#/texts/53"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/56"
+      },
+      {
+        "$ref": "#/texts/57"
+      },
+      {
+        "$ref": "#/texts/58"
+      },
+      {
+        "$ref": "#/texts/59"
+      },
+      {
+        "$ref": "#/texts/60"
+      },
+      {
+        "$ref": "#/texts/61"
+      },
+      {
+        "$ref": "#/texts/62"
+      },
+      {
+        "$ref": "#/texts/63"
+      },
+      {
+        "$ref": "#/texts/64"
+      },
+      {
+        "$ref": "#/texts/65"
+      },
+      {
+        "$ref": "#/texts/66"
+      },
+      {
+        "$ref": "#/texts/67"
+      },
+      {
+        "$ref": "#/texts/68"
+      },
+      {
+        "$ref": "#/texts/69"
+      },
+      {
+        "$ref": "#/texts/70"
+      },
+      {
+        "$ref": "#/texts/71"
+      },
+      {
+        "$ref": "#/texts/72"
+      },
+      {
+        "$ref": "#/texts/73"
+      },
+      {
+        "$ref": "#/texts/74"
+      },
+      {
+        "$ref": "#/texts/75"
+      },
+      {
+        "$ref": "#/texts/76"
+      },
+      {
+        "$ref": "#/texts/77"
+      },
+      {
+        "$ref": "#/texts/78"
+      },
+      {
+        "$ref": "#/texts/79"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/30"
+        },
+        {
+          "$ref": "#/texts/31"
+        },
+        {
+          "$ref": "#/texts/32"
+        },
+        {
+          "$ref": "#/texts/33"
+        },
+        {
+          "$ref": "#/texts/34"
+        },
+        {
+          "$ref": "#/texts/35"
+        },
+        {
+          "$ref": "#/texts/36"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/54"
+        },
+        {
+          "$ref": "#/texts/55"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 51.06000000000003,
+            "t": 578.3639829101563,
+            "r": 95.70000000000003,
+            "b": 568.0429770622031,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "COPIA",
+      "text": "COPIA"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 200.76,
+            "t": 750.5107629101564,
+            "r": 474.64476,
+            "b": 731.1846313438913,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            18
+          ]
+        }
+      ],
+      "orig": "COMUNE DI MOIMACCO",
+      "text": "COMUNE DI MOIMACCO",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 284.16,
+            "t": 727.2934029101563,
+            "r": 385.749864,
+            "b": 715.7620722205011,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            18
+          ]
+        }
+      ],
+      "orig": "Provincia di Udine",
+      "text": "Provincia di Udine"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 264.36,
+            "t": 649.6439829101563,
+            "r": 327.36,
+            "b": 639.3229770622031,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            10
+          ]
+        }
+      ],
+      "orig": "__________",
+      "text": "__________"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 88.44,
+            "t": 621.4347429101563,
+            "r": 503.78580000000005,
+            "b": 609.4107710972908,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            47
+          ]
+        }
+      ],
+      "orig": "VERBALE DI DELIBERAZIONE DEL CONSIGLIO COMUNALE",
+      "text": "VERBALE DI DELIBERAZIONE DEL CONSIGLIO COMUNALE",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 264.36,
+            "t": 605.9639829101562,
+            "r": 327.36,
+            "b": 595.642977062203,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            10
+          ]
+        }
+      ],
+      "orig": "__________",
+      "text": "__________"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 475.98,
+            "t": 564.6839829101564,
+            "r": 540.165,
+            "b": 554.3181278952607,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            9
+          ]
+        }
+      ],
+      "orig": "ANNO 2024",
+      "text": "ANNO 2024"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 437.94,
+            "t": 550.7639829101563,
+            "r": 537.6628739999996,
+            "b": 540.4429770622031,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            22
+          ]
+        }
+      ],
+      "orig": "N. 9 del Reg. Delibere",
+      "text": "N. 9 del Reg. Delibere"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 51.06,
+            "t": 509.48398291015644,
+            "r": 540.6611999999999,
+            "b": 471.51812789526065,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            158
+          ]
+        }
+      ],
+      "orig": "OGGETTO: OBIETTIVI SULLE SPESE DI FUNZIONAMENTO E DEL PERSONALE DELLA SOCIETA' IN HOUSE A&T 2000 S.P.A. AI SENSI DELL'ART. 19 DEL D.LGS. 175/2016 - ANNO 2024.",
+      "text": "OGGETTO: OBIETTIVI SULLE SPESE DI FUNZIONAMENTO E DEL PERSONALE DELLA SOCIETA' IN HOUSE A&T 2000 S.P.A. AI SENSI DELL'ART. 19 DEL D.LGS. 175/2016 - ANNO 2024."
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 79.43999999999997,
+            "t": 440.4839829101564,
+            "r": 541.1400000000001,
+            "b": 416.3181278952606,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            158
+          ]
+        }
+      ],
+      "orig": "L'anno 2024 , il giorno 02 del mese di Maggio    alle ore 19:10 nella sala consigliare si è riunito il Consiglio Comunale. Fatto l'appello nominale risultano:",
+      "text": "L'anno 2024 , il giorno 02 del mese di Maggio    alle ore 19:10 nella sala consigliare si è riunito il Consiglio Comunale. Fatto l'appello nominale risultano:"
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 79.44,
+            "t": 177.74398291015632,
+            "r": 279.7200000000001,
+            "b": 167.3781278952606,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            42
+          ]
+        }
+      ],
+      "orig": "Assiste il Segretario Stanig dott.ssa Eva.",
+      "text": "Assiste il Segretario Stanig dott.ssa Eva."
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 79.44000000000003,
+            "t": 136.34398291015623,
+            "r": 550.1399999999999,
+            "b": 98.3781278952606,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            276
+          ]
+        }
+      ],
+      "orig": "Constatato il numero degli intervenuti, assume la presidenza il Sig. Basaldella dott. Enrico nella sua  qualità  di  Sindaco  ,  espone  gli  oggetti  iscritti  all'ordine  del  giorno  e  dichiara  aperta  la discussione per la trattazione dell'argomento indicato in oggetto.",
+      "text": "Constatato il numero degli intervenuti, assume la presidenza il Sig. Basaldella dott. Enrico nella sua  qualità  di  Sindaco  ,  espone  gli  oggetti  iscritti  all'ordine  del  giorno  e  dichiara  aperta  la discussione per la trattazione dell'argomento indicato in oggetto."
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 167.16,
+            "t": 37.29322291015626,
+            "r": 415.49568,
+            "b": 28.637733972718365,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            57
+          ]
+        }
+      ],
+      "orig": "Comune di Moimacco - Deliberazione n. 9   del  02/05/2024",
+      "text": "Comune di Moimacco - Deliberazione n. 9   del  02/05/2024"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 542.1,
+            "t": 37.233222910156314,
+            "r": 549.585,
+            "b": 28.577733972718306,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "1",
+      "text": "1"
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 51.06,
+            "t": 761.4239829101564,
+            "r": 550.2048,
+            "b": 723.4581278952608,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            167
+          ]
+        }
+      ],
+      "orig": "OGGETTO:  OBIETTIVI  SULLE  SPESE  DI  FUNZIONAMENTO  E  DEL  PERSONALE  DELLA SOCIETA' IN HOUSE A&T 2000 S.p.A. AI SENSI DELL'ART. 19 DEL D.LGS. 175/2016 - ANNO 2024.",
+      "text": "OGGETTO:  OBIETTIVI  SULLE  SPESE  DI  FUNZIONAMENTO  E  DEL  PERSONALE  DELLA SOCIETA' IN HOUSE A&T 2000 S.p.A. AI SENSI DELL'ART. 19 DEL D.LGS. 175/2016 - ANNO 2024."
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 184.56,
+            "t": 706.1039829101566,
+            "r": 416.58000000000004,
+            "b": 695.7829770622034,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            43
+          ]
+        }
+      ],
+      "orig": "Proposta di delibera del Consiglio Comunale",
+      "text": "Proposta di delibera del Consiglio Comunale",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 51.06000000000006,
+            "t": 678.6239829101567,
+            "r": 550.1412000000003,
+            "b": 626.8581278952611,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            334
+          ]
+        }
+      ],
+      "orig": "PREMESSO che A&T 2000 S.p.A. è una società a controllo pubblico affidataria in house del servizio di gestione integrata dei rifiuti urbani nel territorio di 79 comuni del Friuli Venezia Giulia, tra cui il Comune  di  Moimacco  per  effetto  della  Deliberazione  n.  37/19  dd.  02.10.2019  dell'Assemblea Regionale D'Ambito di AUSIR;",
+      "text": "PREMESSO che A&T 2000 S.p.A. è una società a controllo pubblico affidataria in house del servizio di gestione integrata dei rifiuti urbani nel territorio di 79 comuni del Friuli Venezia Giulia, tra cui il Comune  di  Moimacco  per  effetto  della  Deliberazione  n.  37/19  dd.  02.10.2019  dell'Assemblea Regionale D'Ambito di AUSIR;"
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 51.06000000000006,
+            "t": 609.6239829101569,
+            "r": 550.1387999999998,
+            "b": 585.4581278952612,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            197
+          ]
+        }
+      ],
+      "orig": "DATO  ATTO  che  in  A&T  2000  S.p.A.  vige  un  sistema  di  controllo  analogo  congiunto  regolato secondo specifiche disposizioni statutarie e apposita Convenzione stipulata fra gli Enti soci;",
+      "text": "DATO  ATTO  che  in  A&T  2000  S.p.A.  vige  un  sistema  di  controllo  analogo  congiunto  regolato secondo specifiche disposizioni statutarie e apposita Convenzione stipulata fra gli Enti soci;"
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 51.06000000000006,
+            "t": 568.223982910157,
+            "r": 550.1412000000004,
+            "b": 488.83600637056765,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            610
+          ]
+        }
+      ],
+      "orig": "VISTO il c. 5 dell'art. 19 del D. Lgs. n. 175/2016 in base al quale Le amministrazioni pubbliche socie fissano, con propri provvedimenti, obiettivi specifici, annuali e pluriennali, sul complesso delle spese di funzionamento, ivi comprese quelle per il personale, delle società controllate, anche attraverso il contenimento degli oneri contrattuali e delle assunzioni di personale e tenuto conto di quanto stabilito all'articolo 25, ovvero delle eventuali disposizioni che stabiliscono, a loro carico, divieti o limitazioni alle assunzioni di personale, tenendo conto del settore in cui ciascun soggetto opera;",
+      "text": "VISTO il c. 5 dell'art. 19 del D. Lgs. n. 175/2016 in base al quale Le amministrazioni pubbliche socie fissano, con propri provvedimenti, obiettivi specifici, annuali e pluriennali, sul complesso delle spese di funzionamento, ivi comprese quelle per il personale, delle società controllate, anche attraverso il contenimento degli oneri contrattuali e delle assunzioni di personale e tenuto conto di quanto stabilito all'articolo 25, ovvero delle eventuali disposizioni che stabiliscono, a loro carico, divieti o limitazioni alle assunzioni di personale, tenendo conto del settore in cui ciascun soggetto opera;"
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 51.06,
+            "t": 471.6239829101571,
+            "r": 550.1411999999998,
+            "b": 419.9181278952613,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            352
+          ]
+        }
+      ],
+      "orig": "CONSIDERATO che gli obiettivi sul complesso delle spese di funzionamento della società così fissati vengono recepiti  nel  budget  adottato  dal  Consiglio  di  Amministrazione  e  sottoposto  al  parere  della Commissione per il 'Controllo Analogo congiunto' e all'approvazione da parte del Coordinamento dei soci per il 'Controllo Analogo congiunto';",
+      "text": "CONSIDERATO che gli obiettivi sul complesso delle spese di funzionamento della società così fissati vengono recepiti  nel  budget  adottato  dal  Consiglio  di  Amministrazione  e  sottoposto  al  parere  della Commissione per il 'Controllo Analogo congiunto' e all'approvazione da parte del Coordinamento dei soci per il 'Controllo Analogo congiunto';"
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 51.06,
+            "t": 402.68398291015706,
+            "r": 550.1412,
+            "b": 364.71812789526126,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            246
+          ]
+        }
+      ],
+      "orig": "ATTESO che A&T 2000 S.p.A. è chiamata a perseguire il costante efficientamento organizzativo e l'ottimizzazione  dei  suoi  costi  di  funzionamento  per  l'erogazione  dei  servizi  affidati  dall'AUSIR  e regolati dalle disposizioni dell'ARERA;",
+      "text": "ATTESO che A&T 2000 S.p.A. è chiamata a perseguire il costante efficientamento organizzativo e l'ottimizzazione  dei  suoi  costi  di  funzionamento  per  l'erogazione  dei  servizi  affidati  dall'AUSIR  e regolati dalle disposizioni dell'ARERA;"
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 51.06000000000006,
+            "t": 347.483982910157,
+            "r": 550.1351999999996,
+            "b": 323.3181278952612,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            196
+          ]
+        }
+      ],
+      "orig": "DATO  ATTO  che  la  spesa  sostenuta  dalla  società  per  le  spese  di  funzionamento  dell'organo amministrativo rispetta le disposizioni di cui all'art. 4, comma 4, del Decreto Legge 95/2012;",
+      "text": "DATO  ATTO  che  la  spesa  sostenuta  dalla  società  per  le  spese  di  funzionamento  dell'organo amministrativo rispetta le disposizioni di cui all'art. 4, comma 4, del Decreto Legge 95/2012;"
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 51.06,
+            "t": 306.0839829101569,
+            "r": 550.1436000000002,
+            "b": 226.7181278952612,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            560
+          ]
+        }
+      ],
+      "orig": "VISTO  il  documento  denominato  'OBIETTIVI  SULLE  SPESE  DI  FUNZIONAMENTO  E  DEL PERSONALE DELLA SOCIETA' IN HOUSE A&T 2000 S.p.A. AI SENSI DELL'ART. 19 DEL D.LGS. 175/2016 ANNO 2024', allegato parte integrante e contestuale del presente provvedimento, adottato dal C.d.A. di A&T 2000 S.p.A. e sottoposto all'esame della Commissione 'per il controllo analogo  congiunto'  della  Società,  in  cui  sono  contenuti  gli  elementi  utili  per  la  fissazione  di  tali obiettivi, relativi in particolare ai costi e alla politica del personale della Società;",
+      "text": "VISTO  il  documento  denominato  'OBIETTIVI  SULLE  SPESE  DI  FUNZIONAMENTO  E  DEL PERSONALE DELLA SOCIETA' IN HOUSE A&T 2000 S.p.A. AI SENSI DELL'ART. 19 DEL D.LGS. 175/2016 ANNO 2024', allegato parte integrante e contestuale del presente provvedimento, adottato dal C.d.A. di A&T 2000 S.p.A. e sottoposto all'esame della Commissione 'per il controllo analogo  congiunto'  della  Società,  in  cui  sono  contenuti  gli  elementi  utili  per  la  fissazione  di  tali obiettivi, relativi in particolare ai costi e alla politica del personale della Società;"
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 51.06,
+            "t": 209.4839829101569,
+            "r": 550.1400000000003,
+            "b": 143.91812789526114,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            442
+          ]
+        }
+      ],
+      "orig": "RITENUTO  che  la  politica  del  personale  ivi  descritta,  accompagnata  da  un'oculata  gestione  del contratto integrativo aziendale, individui in maniera compiuta ed esauriente gli obiettivi e gli indicatori atti  a  perseguire  le  strategie  aziendali  nell'anno  2024,  con  il  mantenimento  da  parte  di  A&T  2000 S.p.A. dell'obiettivo del contenimento dei costi del personale al netto delle dinamiche salariali indotte dal CCNL;",
+      "text": "RITENUTO  che  la  politica  del  personale  ivi  descritta,  accompagnata  da  un'oculata  gestione  del contratto integrativo aziendale, individui in maniera compiuta ed esauriente gli obiettivi e gli indicatori atti  a  perseguire  le  strategie  aziendali  nell'anno  2024,  con  il  mantenimento  da  parte  di  A&T  2000 S.p.A. dell'obiettivo del contenimento dei costi del personale al netto delle dinamiche salariali indotte dal CCNL;"
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 51.06,
+            "t": 126.68398291015683,
+            "r": 550.14,
+            "b": 74.91812789526114,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            360
+          ]
+        }
+      ],
+      "orig": "CONSIDERATO che la dotazione organica del personale ivi indicata, dal punto di vista  numerico, potrà subire variazioni dovute ad eventuali uscite dall'azienda per quiescenza o ad eventuali necessità di sostituzioni anche temporanee per eventi quali maternità, malattia o infortunio, garantendo in ogni caso tutti i principi di contenimento dei costi previsti;",
+      "text": "CONSIDERATO che la dotazione organica del personale ivi indicata, dal punto di vista  numerico, potrà subire variazioni dovute ad eventuali uscite dall'azienda per quiescenza o ad eventuali necessità di sostituzioni anche temporanee per eventi quali maternità, malattia o infortunio, garantendo in ogni caso tutti i principi di contenimento dei costi previsti;"
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 167.16,
+            "t": 37.29322291015626,
+            "r": 415.49568,
+            "b": 28.637733972718365,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            57
+          ]
+        }
+      ],
+      "orig": "Comune di Moimacco - Deliberazione n. 9   del  02/05/2024",
+      "text": "Comune di Moimacco - Deliberazione n. 9   del  02/05/2024"
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 542.1,
+            "t": 37.233222910156314,
+            "r": 549.585,
+            "b": 28.577733972718306,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "2",
+      "text": "2"
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 51.06,
+            "t": 789.0239829101563,
+            "r": 550.1375999999992,
+            "b": 751.0581278952607,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            287
+          ]
+        }
+      ],
+      "orig": "DATO  ATTO  che  gli  elementi  ed  obiettivi  innanzi  richiamati  potrebbero  richiedere  eventuali modifiche ed integrazioni in presenza di significative azioni di riorganizzazione o modifica operativa dei servizi resi da A&T 2000 S.p.A. o di future variazioni aziendali e societarie;",
+      "text": "DATO  ATTO  che  gli  elementi  ed  obiettivi  innanzi  richiamati  potrebbero  richiedere  eventuali modifiche ed integrazioni in presenza di significative azioni di riorganizzazione o modifica operativa dei servizi resi da A&T 2000 S.p.A. o di future variazioni aziendali e societarie;"
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 51.06,
+            "t": 733.8239829101565,
+            "r": 550.1400000000004,
+            "b": 695.8581278952608,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            240
+          ]
+        }
+      ],
+      "orig": "ATTESO che  il  presente  atto  rientra  tra  i  provvedimenti  soggetti  a  pubblicazione  sul  sito  internet istituzionale sia della società che delle pubbliche amministrazioni socie, ai sensi dell'art. 19, c. 7, del D. Lgs. n. 175/2016;",
+      "text": "ATTESO che  il  presente  atto  rientra  tra  i  provvedimenti  soggetti  a  pubblicazione  sul  sito  internet istituzionale sia della società che delle pubbliche amministrazioni socie, ai sensi dell'art. 19, c. 7, del D. Lgs. n. 175/2016;"
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 269.76,
+            "t": 678.5039829101567,
+            "r": 331.44,
+            "b": 668.1829770622035,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            7
+          ]
+        }
+      ],
+      "orig": "PROPONE",
+      "text": "PROPONE",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 69.06,
+            "t": 650.5799829101567,
+            "r": 543.54,
+            "b": 639.7581278952609,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            92
+          ]
+        }
+      ],
+      "orig": "· DI APPROVARE le premesse, che costituiscono parte integrante della presente deliberazione;",
+      "text": "DI APPROVARE le premesse, che costituiscono parte integrante della presente deliberazione;",
+      "enumerated": false,
+      "marker": "·"
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 69.05999999999995,
+            "t": 622.1399829101566,
+            "r": 550.1424,
+            "b": 569.978127895261,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            276
+          ]
+        }
+      ],
+      "orig": "· DI APPROVARE il documento denominato 'OBIETTIVI SULLE SPESE DI FUNZIONAMENTO  E  DEL  PERSONALE  DELLA  SOCIETA'  IN  HOUSE  A&T  2000 S.p.A.  AI  SENSI  DELL'ART.  19  DEL  D.LGS.  175/2016  ANNO  2024',  allegato  parte integrante e contestuale del presente provvedimento;",
+      "text": "DI APPROVARE il documento denominato 'OBIETTIVI SULLE SPESE DI FUNZIONAMENTO  E  DEL  PERSONALE  DELLA  SOCIETA'  IN  HOUSE  A&T  2000 S.p.A.  AI  SENSI  DELL'ART.  19  DEL  D.LGS.  175/2016  ANNO  2024',  allegato  parte integrante e contestuale del presente provvedimento;",
+      "enumerated": false,
+      "marker": "·"
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 69.05999999999995,
+            "t": 552.2999829101567,
+            "r": 550.1399999999998,
+            "b": 500.07812789526105,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            329
+          ]
+        }
+      ],
+      "orig": "· DI  FISSARE  e  fare  propri  gli  obiettivi  ed  elementi  di  gestione  individuati  nel  documento innanzi approvato relativamente al contenimento dei costi di funzionamento, ed in particolare delle spese per il personale della società A&T 2000 S.p.A., ai sensi del c. 5 dell'art. 19 del D. Lgs. n. 175/2016 per l'anno 2024;",
+      "text": "DI  FISSARE  e  fare  propri  gli  obiettivi  ed  elementi  di  gestione  individuati  nel  documento innanzi approvato relativamente al contenimento dei costi di funzionamento, ed in particolare delle spese per il personale della società A&T 2000 S.p.A., ai sensi del c. 5 dell'art. 19 del D. Lgs. n. 175/2016 per l'anno 2024;",
+      "enumerated": false,
+      "marker": "·"
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 69.05999999999995,
+            "t": 482.3999829101568,
+            "r": 550.1399999999999,
+            "b": 444.038127895261,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            271
+          ]
+        }
+      ],
+      "orig": "· DI DARE ATTO che i suddetti obiettivi ed elementi di gestione potranno essere oggetto di successiva revisione in presenza di significative azioni di riorganizzazione o modifica operativa dei servizi resi da A&T 2000 S.p.A. o di future variazioni aziendali e societarie;",
+      "text": "DI DARE ATTO che i suddetti obiettivi ed elementi di gestione potranno essere oggetto di successiva revisione in presenza di significative azioni di riorganizzazione o modifica operativa dei servizi resi da A&T 2000 S.p.A. o di future variazioni aziendali e societarie;",
+      "enumerated": false,
+      "marker": "·"
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 69.05999999999995,
+            "t": 426.35998291015676,
+            "r": 545.5799999999999,
+            "b": 415.538127895261,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            92
+          ]
+        }
+      ],
+      "orig": "· DI DISPORRE la pubblicazione del presente provvedimento sul sito istituzionale del Comune;",
+      "text": "DI DISPORRE la pubblicazione del presente provvedimento sul sito istituzionale del Comune;",
+      "enumerated": false,
+      "marker": "·"
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 69.05999999999995,
+            "t": 397.91998291015676,
+            "r": 550.1375999999999,
+            "b": 373.298127895261,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            143
+          ]
+        }
+      ],
+      "orig": "· DI INVIARE il presente provvedimento ad A&T 2000 S.p.A. ai fini del relativo recepimento e dell'assolvimento degli obblighi di pubblicazione;",
+      "text": "DI INVIARE il presente provvedimento ad A&T 2000 S.p.A. ai fini del relativo recepimento e dell'assolvimento degli obblighi di pubblicazione;",
+      "enumerated": false,
+      "marker": "·"
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 69.06,
+            "t": 355.61998291015675,
+            "r": 550.1375999999997,
+            "b": 331.058127895261,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            150
+          ]
+        }
+      ],
+      "orig": "· DI DICHIARARE la presente delibera immediatamente eseguibile, ai sensi art. 1, c. 19, L.R. 21/2003, come sostituito dall'art. 17 della L.R. 17/2004.",
+      "text": "DI DICHIARARE la presente delibera immediatamente eseguibile, ai sensi art. 1, c. 19, L.R. 21/2003, come sostituito dall'art. 17 della L.R. 17/2004.",
+      "enumerated": false,
+      "marker": "·"
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 219.42,
+            "t": 313.7039829101568,
+            "r": 381.78,
+            "b": 303.3829770622035,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            21
+          ]
+        }
+      ],
+      "orig": "IL CONSIGLIO COMUNALE",
+      "text": "IL CONSIGLIO COMUNALE",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 51.06,
+            "t": 286.2239829101568,
+            "r": 277.68,
+            "b": 275.85812789526096,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            45
+          ]
+        }
+      ],
+      "orig": "VISTA la suesposta proposta di deliberazione;",
+      "text": "VISTA la suesposta proposta di deliberazione;"
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 51.06,
+            "t": 258.62398291015666,
+            "r": 424.68,
+            "b": 248.25812789526094,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            79
+          ]
+        }
+      ],
+      "orig": "VISTO che sulla stessa sono stati espressi i pareri di cui al D. Lgs. 267/2000;",
+      "text": "VISTO che sulla stessa sono stati espressi i pareri di cui al D. Lgs. 267/2000;"
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 51.06,
+            "t": 231.02398291015663,
+            "r": 550.1327999999995,
+            "b": 206.85812789526096,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            126
+          ]
+        }
+      ],
+      "orig": "RIUNITO l'organo collegiale nelle forme sopra descritte con l'assistenza del segretario comunale in ossequio all'art. 97 TUEL;",
+      "text": "RIUNITO l'organo collegiale nelle forme sopra descritte con l'assistenza del segretario comunale in ossequio all'art. 97 TUEL;"
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 51.059999999999945,
+            "t": 189.62398291015666,
+            "r": 550.14,
+            "b": 165.45812789526087,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            142
+          ]
+        }
+      ],
+      "orig": "VISTO  l'art.  1  comma  20  bis  della  L.R.  n.  21  del  11.12.2003  in  materia  di  pubblicazione  delle deliberazioni degli enti locali;",
+      "text": "VISTO  l'art.  1  comma  20  bis  della  L.R.  n.  21  del  11.12.2003  in  materia  di  pubblicazione  delle deliberazioni degli enti locali;"
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 51.059999999999945,
+            "t": 148.22398291015656,
+            "r": 550.1424000000001,
+            "b": 110.25812789526094,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            296
+          ]
+        }
+      ],
+      "orig": "Il Sindaco prende la parola e comunica che come è noto la società in oggetto gestisce il ciclo integrato dei  rifiuti  per  il  Comune.  Il  comune  è  tenuto  a  fissare,  in  virtù  del  decreto  Madia,  obiettivi  circa  le spese di funzionamento e del personale al fine del loro contenimento.",
+      "text": "Il Sindaco prende la parola e comunica che come è noto la società in oggetto gestisce il ciclo integrato dei  rifiuti  per  il  Comune.  Il  comune  è  tenuto  a  fissare,  in  virtù  del  decreto  Madia,  obiettivi  circa  le spese di funzionamento e del personale al fine del loro contenimento."
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 51.059999999999945,
+            "t": 93.08398291015658,
+            "r": 550.1375999999995,
+            "b": 55.11812789526084,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            260
+          ]
+        }
+      ],
+      "orig": "DATO ATTO che gli interventi sono registrati su supporto informatico depositato presso la segreteria che costituisce, ex art. 22, L. n. 241/1990 e s.m.i., documentazione a comprova della discussione ai sensi dell'art. 44 del Regolamento del Consiglio Comunale;",
+      "text": "DATO ATTO che gli interventi sono registrati su supporto informatico depositato presso la segreteria che costituisce, ex art. 22, L. n. 241/1990 e s.m.i., documentazione a comprova della discussione ai sensi dell'art. 44 del Regolamento del Consiglio Comunale;"
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 167.16,
+            "t": 37.29322291015626,
+            "r": 415.49568,
+            "b": 28.637733972718365,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            57
+          ]
+        }
+      ],
+      "orig": "Comune di Moimacco - Deliberazione n. 9   del  02/05/2024",
+      "text": "Comune di Moimacco - Deliberazione n. 9   del  02/05/2024"
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 542.1,
+            "t": 37.233222910156314,
+            "r": 549.585,
+            "b": 28.577733972718306,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "3",
+      "text": "3"
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 51.06,
+            "t": 761.4239829101564,
+            "r": 486.71999999999997,
+            "b": 751.0581278952607,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            88
+          ]
+        }
+      ],
+      "orig": "UDITA quindi la proposta del Presidente, si procede a votazione sull'argomento in esame.",
+      "text": "UDITA quindi la proposta del Presidente, si procede a votazione sull'argomento in esame."
+    },
+    {
+      "self_ref": "#/texts/47",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 51.06,
+            "t": 733.8239829101565,
+            "r": 526.5,
+            "b": 723.4581278952608,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            102
+          ]
+        }
+      ],
+      "orig": "Procedutosi a votazione nei modi e nelle forme previste dalla legge, si ottiene il seguente risultato:",
+      "text": "Procedutosi a votazione nei modi e nelle forme previste dalla legge, si ottiene il seguente risultato:"
+    },
+    {
+      "self_ref": "#/texts/48",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 51.06000000000006,
+            "t": 720.0239829101565,
+            "r": 146.04000000000008,
+            "b": 709.6581278952608,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            19
+          ]
+        }
+      ],
+      "orig": "Voti favorevoli: 11",
+      "text": "Voti favorevoli: 11"
+    },
+    {
+      "self_ref": "#/texts/49",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 51.06000000000007,
+            "t": 706.2239829101566,
+            "r": 129.06000000000006,
+            "b": 695.8581278952608,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            16
+          ]
+        }
+      ],
+      "orig": "Voti contrari: -",
+      "text": "Voti contrari: -"
+    },
+    {
+      "self_ref": "#/texts/50",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 51.06000000000007,
+            "t": 692.4239829101566,
+            "r": 108.06000000000007,
+            "b": 682.0581278952609,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            11
+          ]
+        }
+      ],
+      "orig": "Astenuti: -",
+      "text": "Astenuti: -"
+    },
+    {
+      "self_ref": "#/texts/51",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 51.06000000000007,
+            "t": 678.6239829101567,
+            "r": 247.32000000000005,
+            "b": 668.2581278952609,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            42
+          ]
+        }
+      ],
+      "orig": "pertanto, in esito alla suddetta votazione",
+      "text": "pertanto, in esito alla suddetta votazione"
+    },
+    {
+      "self_ref": "#/texts/52",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 51.06000000000006,
+            "t": 651.0239829101567,
+            "r": 270.6600000000001,
+            "b": 640.658127895261,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            47
+          ]
+        }
+      ],
+      "orig": "con voti resi ed accertati nelle forme di legge",
+      "text": "con voti resi ed accertati nelle forme di legge"
+    },
+    {
+      "self_ref": "#/texts/53",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 267.78000000000003,
+            "t": 609.5039829101569,
+            "r": 333.4200000000001,
+            "b": 599.1829770622037,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "DELIBERA",
+      "text": "DELIBERA",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/54",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 69.06,
+            "t": 581.5799829101569,
+            "r": 550.14,
+            "b": 543.2181278952612,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            237
+          ]
+        }
+      ],
+      "orig": "· di  accogliere  la  superiore  proposta  ed  in  conseguenza  di  adottare  il  presente  atto  con  la narrativa,  la  motivazione  ed  il  dispositivo  di  cui  alla  proposta  stessa,  che  qui  si  intende integralmente trascritta;",
+      "text": "di  accogliere  la  superiore  proposta  ed  in  conseguenza  di  adottare  il  presente  atto  con  la narrativa,  la  motivazione  ed  il  dispositivo  di  cui  alla  proposta  stessa,  che  qui  si  intende integralmente trascritta;",
+      "enumerated": false,
+      "marker": "·"
+    },
+    {
+      "self_ref": "#/texts/55",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 69.06000000000003,
+            "t": 525.5399829101569,
+            "r": 550.1399999999999,
+            "b": 487.1781278952612,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            311
+          ]
+        }
+      ],
+      "orig": "· di  dichiarare,  vista  l'urgenza  di  procedere,  con  voti  unanimi  resi  ed  accertati  con  separata votazione  (voti  favorevoli  11,  voti  contrari  -,  astenuti  -  ),  il  presente  atto  immediatamente esecutivo ai sensi art. 1, c. 19, L.R. 21/2003, come sostituito dall'art. 17 della L.R. 17/2004.",
+      "text": "di  dichiarare,  vista  l'urgenza  di  procedere,  con  voti  unanimi  resi  ed  accertati  con  separata votazione  (voti  favorevoli  11,  voti  contrari  -,  astenuti  -  ),  il  presente  atto  immediatamente esecutivo ai sensi art. 1, c. 19, L.R. 21/2003, come sostituito dall'art. 17 della L.R. 17/2004.",
+      "enumerated": false,
+      "marker": "·"
+    },
+    {
+      "self_ref": "#/texts/56",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 167.16,
+            "t": 37.29322291015626,
+            "r": 415.49568,
+            "b": 28.637733972718365,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            57
+          ]
+        }
+      ],
+      "orig": "Comune di Moimacco - Deliberazione n. 9   del  02/05/2024",
+      "text": "Comune di Moimacco - Deliberazione n. 9   del  02/05/2024"
+    },
+    {
+      "self_ref": "#/texts/57",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 542.1,
+            "t": 37.233222910156314,
+            "r": 549.585,
+            "b": 28.577733972718306,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "4",
+      "text": "4"
+    },
+    {
+      "self_ref": "#/texts/58",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 51.06,
+            "t": 768.1592229101562,
+            "r": 266.6946360000002,
+            "b": 756.9759260496911,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            28
+          ]
+        }
+      ],
+      "orig": "PARERE DI REGOLARITÁ TECNICA",
+      "text": "PARERE DI REGOLARITÁ TECNICA",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/59",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 51.06,
+            "t": 739.8239829101562,
+            "r": 550.1400000000001,
+            "b": 701.8581278952606,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            243
+          ]
+        }
+      ],
+      "orig": "Con riferimento all'art. 49, comma 1° del D.Lgs.n. 267/2000 del T.U.EE.LL., è stato espresso parere  favorevole  alla  regolarità  tecnica  sulla  proposta  di  deliberazione  in  oggetto  da  DOTT.SSA MARTINA NOBILE in data 20 marzo     2024.",
+      "text": "Con riferimento all'art. 49, comma 1° del D.Lgs.n. 267/2000 del T.U.EE.LL., è stato espresso parere  favorevole  alla  regolarità  tecnica  sulla  proposta  di  deliberazione  in  oggetto  da  DOTT.SSA MARTINA NOBILE in data 20 marzo     2024."
+    },
+    {
+      "self_ref": "#/texts/60",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 54.06,
+            "t": 636.1592229101562,
+            "r": 286.97738400000003,
+            "b": 624.9759260496911,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            30
+          ]
+        }
+      ],
+      "orig": "PARERE DI REGOLARITÁ CONTABILE",
+      "text": "PARERE DI REGOLARITÁ CONTABILE",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/61",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 51.06,
+            "t": 607.8239829101562,
+            "r": 550.1412000000004,
+            "b": 569.8581278952606,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            253
+          ]
+        }
+      ],
+      "orig": "Con riferimento all'art. 49, comma 1° del D.Lgs.n. 267/2000 del T.U.EE.LL., è stato espresso parere  favorevole  alla  regolarità  contabile  sulla  proposta  di  deliberazione  in  oggetto  da  DOTT.SSA MARIACRISTINA VIRGILIO in data 20 marzo     2024.",
+      "text": "Con riferimento all'art. 49, comma 1° del D.Lgs.n. 267/2000 del T.U.EE.LL., è stato espresso parere  favorevole  alla  regolarità  contabile  sulla  proposta  di  deliberazione  in  oggetto  da  DOTT.SSA MARIACRISTINA VIRGILIO in data 20 marzo     2024."
+    },
+    {
+      "self_ref": "#/texts/62",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 167.16,
+            "t": 37.29322291015626,
+            "r": 415.49568,
+            "b": 28.637733972718365,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            57
+          ]
+        }
+      ],
+      "orig": "Comune di Moimacco - Deliberazione n. 9   del  02/05/2024",
+      "text": "Comune di Moimacco - Deliberazione n. 9   del  02/05/2024"
+    },
+    {
+      "self_ref": "#/texts/63",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 542.1,
+            "t": 37.233222910156314,
+            "r": 549.585,
+            "b": 28.577733972718306,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "5",
+      "text": "5"
+    },
+    {
+      "self_ref": "#/texts/64",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 51.06,
+            "t": 789.0239829101563,
+            "r": 207.66000000000003,
+            "b": 778.6581278952606,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            33
+          ]
+        }
+      ],
+      "orig": "Letto, confermato e sottoscritto,",
+      "text": "Letto, confermato e sottoscritto,"
+    },
+    {
+      "self_ref": "#/texts/65",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 86.82,
+            "t": 761.4239829101563,
+            "r": 221.46,
+            "b": 737.2581278952605,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            42
+          ]
+        }
+      ],
+      "orig": "Il Presidente F.to Basaldella dott. Enrico",
+      "text": "Il Presidente F.to Basaldella dott. Enrico",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/66",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 336.78,
+            "t": 761.4239829101563,
+            "r": 453.42,
+            "b": 737.2581278952605,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            38
+          ]
+        }
+      ],
+      "orig": "Il Segretario F.to Stanig dott.ssa Eva",
+      "text": "Il Segretario F.to Stanig dott.ssa Eva",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/67",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 192.66000000000003,
+            "t": 676.6439829101563,
+            "r": 399.0,
+            "b": 666.2781278952606,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            29
+          ]
+        }
+      ],
+      "orig": "ATTESTAZIONE DI PUBBLICAZIONE",
+      "text": "ATTESTAZIONE DI PUBBLICAZIONE",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/68",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 51.06000000000003,
+            "t": 649.0439829101564,
+            "r": 540.6600000000001,
+            "b": 624.8781278952607,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            204
+          ]
+        }
+      ],
+      "orig": "Si attesta che la presente deliberazione viene pubblicata all'Albo pretorio on line dal 07/05/2024 al 22/05/2024 per quindici giorni consecutivi, ai sensi della L.R. n. 21/2003 e successive modificazioni.",
+      "text": "Si attesta che la presente deliberazione viene pubblicata all'Albo pretorio on line dal 07/05/2024 al 22/05/2024 per quindici giorni consecutivi, ai sensi della L.R. n. 21/2003 e successive modificazioni."
+    },
+    {
+      "self_ref": "#/texts/69",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 51.06000000000006,
+            "t": 607.6439829101565,
+            "r": 237.7200000000001,
+            "b": 597.2781278952608,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            35
+          ]
+        }
+      ],
+      "orig": "Comune di Moimacco, lì   07/05/2024",
+      "text": "Comune di Moimacco, lì   07/05/2024"
+    },
+    {
+      "self_ref": "#/texts/70",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 289.5,
+            "t": 580.0439829101563,
+            "r": 464.16,
+            "b": 555.8781278952605,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            62
+          ]
+        }
+      ],
+      "orig": "Il Responsabile della Pubblicazione F.to rag. Maria Domenicone",
+      "text": "Il Responsabile della Pubblicazione F.to rag. Maria Domenicone"
+    },
+    {
+      "self_ref": "#/texts/71",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 209.4,
+            "t": 495.2639829101563,
+            "r": 382.32000000000005,
+            "b": 484.89812789526053,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            25
+          ]
+        }
+      ],
+      "orig": "ATTESTATO DI ESECUTIVITA`",
+      "text": "ATTESTATO DI ESECUTIVITA`",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/72",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 51.06,
+            "t": 467.6639829101563,
+            "r": 540.6600000000001,
+            "b": 429.6981278952605,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            216
+          ]
+        }
+      ],
+      "orig": "La presente deliberazione è divenuta esecutiva il giorno 02/05/2024, poiché dichiarata immediatamente esecutiva (art. 1, comma 19 della L.R. 11/12/2003 n. 21 come modificato dall'art. 17 della L.R. 24/05/2004 n. 17).",
+      "text": "La presente deliberazione è divenuta esecutiva il giorno 02/05/2024, poiché dichiarata immediatamente esecutiva (art. 1, comma 19 della L.R. 11/12/2003 n. 21 come modificato dall'art. 17 della L.R. 24/05/2004 n. 17)."
+    },
+    {
+      "self_ref": "#/texts/73",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 51.060000000000116,
+            "t": 412.46398291015623,
+            "r": 125.40000000000012,
+            "b": 402.09812789526046,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            14
+          ]
+        }
+      ],
+      "orig": "Lì  07/05/2024",
+      "text": "Lì  07/05/2024"
+    },
+    {
+      "self_ref": "#/texts/74",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 342.9,
+            "t": 384.8639829101563,
+            "r": 493.6079999999999,
+            "b": 360.69812789526054,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            59
+          ]
+        }
+      ],
+      "orig": "Il Responsabile dell'esecutività F.to rag. Maria Domenicone",
+      "text": "Il Responsabile dell'esecutività F.to rag. Maria Domenicone"
+    },
+    {
+      "self_ref": "#/texts/75",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 51.06,
+            "t": 244.8839829101563,
+            "r": 377.88,
+            "b": 234.5181278952606,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            68
+          ]
+        }
+      ],
+      "orig": "Copia conforme all'originale, in carta libera ad uso amministrativo.",
+      "text": "Copia conforme all'originale, in carta libera ad uso amministrativo."
+    },
+    {
+      "self_ref": "#/texts/76",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 51.06,
+            "t": 217.28398291015628,
+            "r": 125.4,
+            "b": 206.91812789526057,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            14
+          ]
+        }
+      ],
+      "orig": "Lì  07/05/2024",
+      "text": "Lì  07/05/2024"
+    },
+    {
+      "self_ref": "#/texts/77",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 299.28,
+            "t": 203.48398291015633,
+            "r": 463.92,
+            "b": 179.31812789526055,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            54
+          ]
+        }
+      ],
+      "orig": "Il Responsabile del Procedimento Rag. Maria Domenicone",
+      "text": "Il Responsabile del Procedimento Rag. Maria Domenicone"
+    },
+    {
+      "self_ref": "#/texts/78",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 167.16,
+            "t": 37.29322291015626,
+            "r": 415.49568,
+            "b": 28.637733972718365,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            57
+          ]
+        }
+      ],
+      "orig": "Comune di Moimacco - Deliberazione n. 9   del  02/05/2024",
+      "text": "Comune di Moimacco - Deliberazione n. 9   del  02/05/2024"
+    },
+    {
+      "self_ref": "#/texts/79",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 542.1,
+            "t": 37.233222910156314,
+            "r": 549.585,
+            "b": 28.577733972718306,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "6",
+      "text": "6"
+    }
+  ],
+  "pictures": [
+    {
+      "self_ref": "#/pictures/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 66.56438446044922,
+            "t": 768.6565475463867,
+            "r": 108.18304443359375,
+            "b": 713.0156097412109,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    }
+  ],
+  "tables": [
+    {
+      "self_ref": "#/tables/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "table",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 78.43966674804688,
+            "t": 391.4357604980469,
+            "r": 526.07275390625,
+            "b": 205.79864501953125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "data": {
+        "table_cells": [
+          {
+            "bbox": {
+              "l": 375.42,
+              "t": 454.61123999999995,
+              "r": 450.5715119999997,
+              "b": 464.09599733862956,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "Presente/Assente",
+            "column_header": true,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 84.78,
+              "t": 467.75124,
+              "r": 185.25578399999986,
+              "b": 477.2359973386296,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 1,
+            "end_row_offset_idx": 2,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "dott. Basaldella Enrico",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 233.64,
+              "t": 467.75124,
+              "r": 269.079048,
+              "b": 477.2359973386296,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 1,
+            "end_row_offset_idx": 2,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "Sindaco",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 375.42,
+              "t": 467.75124,
+              "r": 412.6432979999998,
+              "b": 477.2359973386296,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 1,
+            "end_row_offset_idx": 2,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "Presente",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 84.78,
+              "t": 480.89124,
+              "r": 169.42372200000005,
+              "b": 490.3759973386296,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 2,
+            "end_row_offset_idx": 3,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Basaldella Rodolfo",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 233.64,
+              "t": 480.89124,
+              "r": 284.36540400000007,
+              "b": 490.3759973386296,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 2,
+            "end_row_offset_idx": 3,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "Consigliere",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 375.42,
+              "t": 480.89124,
+              "r": 412.6432979999998,
+              "b": 490.3759973386296,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 2,
+            "end_row_offset_idx": 3,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "Presente",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 84.78,
+              "t": 494.03123999999997,
+              "r": 152.2488060000001,
+              "b": 503.5159973386296,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 3,
+            "end_row_offset_idx": 4,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Bassetti Franca",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 233.64,
+              "t": 494.03123999999997,
+              "r": 284.36540400000007,
+              "b": 503.5159973386296,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 3,
+            "end_row_offset_idx": 4,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "Consigliere",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 375.42,
+              "t": 494.03123999999997,
+              "r": 412.6432979999998,
+              "b": 503.5159973386296,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 3,
+            "end_row_offset_idx": 4,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "Presente",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 84.78,
+              "t": 507.17123999999995,
+              "r": 162.04735800000006,
+              "b": 516.6559973386295,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 4,
+            "end_row_offset_idx": 5,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Bevilacqua Paolo",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 233.64,
+              "t": 507.17123999999995,
+              "r": 284.36540400000007,
+              "b": 516.6559973386295,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 4,
+            "end_row_offset_idx": 5,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "Consigliere",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 375.42,
+              "t": 507.17123999999995,
+              "r": 412.6432979999998,
+              "b": 516.6559973386295,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 4,
+            "end_row_offset_idx": 5,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "Presente",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 84.78,
+              "t": 520.31124,
+              "r": 157.17772800000006,
+              "b": 529.7959973386296,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 5,
+            "end_row_offset_idx": 6,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Causero Tiziano",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 233.64,
+              "t": 520.31124,
+              "r": 284.36540400000007,
+              "b": 529.7959973386296,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 5,
+            "end_row_offset_idx": 6,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "Consigliere",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 375.42,
+              "t": 520.31124,
+              "r": 412.6432979999998,
+              "b": 529.7959973386296,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 5,
+            "end_row_offset_idx": 6,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "Presente",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 84.78,
+              "t": 533.51124,
+              "r": 142.22077200000004,
+              "b": 542.9959973386296,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 6,
+            "end_row_offset_idx": 7,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Cotterli Ada",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 233.64,
+              "t": 533.51124,
+              "r": 284.36540400000007,
+              "b": 542.9959973386296,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 6,
+            "end_row_offset_idx": 7,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "Consigliere",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 375.42,
+              "t": 533.51124,
+              "r": 410.1760919999999,
+              "b": 542.9959973386296,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 6,
+            "end_row_offset_idx": 7,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "Assente",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 84.78,
+              "t": 546.6512399999999,
+              "r": 166.03749000000005,
+              "b": 556.1359973386295,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 7,
+            "end_row_offset_idx": 8,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "De Puppi Caterina",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 233.64,
+              "t": 546.6512399999999,
+              "r": 284.36540400000007,
+              "b": 556.1359973386295,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 7,
+            "end_row_offset_idx": 8,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "Consigliere",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 375.42,
+              "t": 546.6512399999999,
+              "r": 410.1760919999999,
+              "b": 556.1359973386295,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 7,
+            "end_row_offset_idx": 8,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "Assente",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 84.78,
+              "t": 559.79124,
+              "r": 143.08380000000002,
+              "b": 569.2759973386296,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 8,
+            "end_row_offset_idx": 9,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Fanna Marco",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 233.64,
+              "t": 559.79124,
+              "r": 284.36540400000007,
+              "b": 569.2759973386296,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 8,
+            "end_row_offset_idx": 9,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "Consigliere",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 375.42,
+              "t": 559.79124,
+              "r": 412.6432979999998,
+              "b": 569.2759973386296,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 8,
+            "end_row_offset_idx": 9,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "Presente",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 84.78,
+              "t": 572.9312399999999,
+              "r": 136.97892000000002,
+              "b": 582.4159973386295,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 9,
+            "end_row_offset_idx": 10,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Ferro Laura",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 233.64,
+              "t": 572.9312399999999,
+              "r": 284.36540400000007,
+              "b": 582.4159973386295,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 9,
+            "end_row_offset_idx": 10,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "Consigliere",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 375.42,
+              "t": 572.9312399999999,
+              "r": 412.6432979999998,
+              "b": 582.4159973386295,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 9,
+            "end_row_offset_idx": 10,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "Presente",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 84.78,
+              "t": 586.07124,
+              "r": 156.55406400000004,
+              "b": 595.5559973386296,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 10,
+            "end_row_offset_idx": 11,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Grosso Gabriele",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 233.64,
+              "t": 586.07124,
+              "r": 284.36540400000007,
+              "b": 595.5559973386296,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 10,
+            "end_row_offset_idx": 11,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "Consigliere",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 375.42,
+              "t": 586.07124,
+              "r": 412.6432979999998,
+              "b": 595.5559973386296,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 10,
+            "end_row_offset_idx": 11,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "Presente",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 84.78,
+              "t": 599.21124,
+              "r": 164.4991919999999,
+              "b": 608.6959973386296,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 11,
+            "end_row_offset_idx": 12,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Lavarone Roberto",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 233.64,
+              "t": 599.21124,
+              "r": 284.36540400000007,
+              "b": 608.6959973386296,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 11,
+            "end_row_offset_idx": 12,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "Consigliere",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 375.42,
+              "t": 599.21124,
+              "r": 412.6432979999998,
+              "b": 608.6959973386296,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 11,
+            "end_row_offset_idx": 12,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "Presente",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 84.78,
+              "t": 612.35124,
+              "r": 149.25236400000003,
+              "b": 621.8359973386296,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 12,
+            "end_row_offset_idx": 13,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Rosati Alberto",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 233.64,
+              "t": 612.35124,
+              "r": 284.36540400000007,
+              "b": 621.8359973386296,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 12,
+            "end_row_offset_idx": 13,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "Consigliere",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 375.42,
+              "t": 612.35124,
+              "r": 412.6432979999998,
+              "b": 621.8359973386296,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 12,
+            "end_row_offset_idx": 13,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "Presente",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 84.78,
+              "t": 625.55124,
+              "r": 161.48518199999995,
+              "b": 635.0359973386296,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 13,
+            "end_row_offset_idx": 14,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Simoncig Davide",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 233.64,
+              "t": 625.55124,
+              "r": 284.36540400000007,
+              "b": 635.0359973386296,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 13,
+            "end_row_offset_idx": 14,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "Consigliere",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 375.42,
+              "t": 625.55124,
+              "r": 412.6432979999998,
+              "b": 635.0359973386296,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 13,
+            "end_row_offset_idx": 14,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "Presente",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          }
+        ],
+        "num_rows": 14,
+        "num_cols": 3,
+        "orientation": "rot_0",
+        "grid": [
+          [
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 375.42,
+                "t": 454.61123999999995,
+                "r": 450.5715119999997,
+                "b": 464.09599733862956,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "Presente/Assente",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 84.78,
+                "t": 467.75124,
+                "r": 185.25578399999986,
+                "b": 477.2359973386296,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "dott. Basaldella Enrico",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 233.64,
+                "t": 467.75124,
+                "r": 269.079048,
+                "b": 477.2359973386296,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "Sindaco",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 375.42,
+                "t": 467.75124,
+                "r": 412.6432979999998,
+                "b": 477.2359973386296,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "Presente",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 84.78,
+                "t": 480.89124,
+                "r": 169.42372200000005,
+                "b": 490.3759973386296,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Basaldella Rodolfo",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 233.64,
+                "t": 480.89124,
+                "r": 284.36540400000007,
+                "b": 490.3759973386296,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "Consigliere",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 375.42,
+                "t": 480.89124,
+                "r": 412.6432979999998,
+                "b": 490.3759973386296,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "Presente",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 84.78,
+                "t": 494.03123999999997,
+                "r": 152.2488060000001,
+                "b": 503.5159973386296,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Bassetti Franca",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 233.64,
+                "t": 494.03123999999997,
+                "r": 284.36540400000007,
+                "b": 503.5159973386296,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "Consigliere",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 375.42,
+                "t": 494.03123999999997,
+                "r": 412.6432979999998,
+                "b": 503.5159973386296,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "Presente",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 84.78,
+                "t": 507.17123999999995,
+                "r": 162.04735800000006,
+                "b": 516.6559973386295,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Bevilacqua Paolo",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 233.64,
+                "t": 507.17123999999995,
+                "r": 284.36540400000007,
+                "b": 516.6559973386295,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "Consigliere",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 375.42,
+                "t": 507.17123999999995,
+                "r": 412.6432979999998,
+                "b": 516.6559973386295,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "Presente",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 84.78,
+                "t": 520.31124,
+                "r": 157.17772800000006,
+                "b": 529.7959973386296,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 5,
+              "end_row_offset_idx": 6,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Causero Tiziano",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 233.64,
+                "t": 520.31124,
+                "r": 284.36540400000007,
+                "b": 529.7959973386296,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 5,
+              "end_row_offset_idx": 6,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "Consigliere",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 375.42,
+                "t": 520.31124,
+                "r": 412.6432979999998,
+                "b": 529.7959973386296,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 5,
+              "end_row_offset_idx": 6,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "Presente",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 84.78,
+                "t": 533.51124,
+                "r": 142.22077200000004,
+                "b": 542.9959973386296,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 6,
+              "end_row_offset_idx": 7,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Cotterli Ada",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 233.64,
+                "t": 533.51124,
+                "r": 284.36540400000007,
+                "b": 542.9959973386296,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 6,
+              "end_row_offset_idx": 7,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "Consigliere",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 375.42,
+                "t": 533.51124,
+                "r": 410.1760919999999,
+                "b": 542.9959973386296,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 6,
+              "end_row_offset_idx": 7,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "Assente",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 84.78,
+                "t": 546.6512399999999,
+                "r": 166.03749000000005,
+                "b": 556.1359973386295,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 7,
+              "end_row_offset_idx": 8,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "De Puppi Caterina",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 233.64,
+                "t": 546.6512399999999,
+                "r": 284.36540400000007,
+                "b": 556.1359973386295,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 7,
+              "end_row_offset_idx": 8,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "Consigliere",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 375.42,
+                "t": 546.6512399999999,
+                "r": 410.1760919999999,
+                "b": 556.1359973386295,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 7,
+              "end_row_offset_idx": 8,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "Assente",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 84.78,
+                "t": 559.79124,
+                "r": 143.08380000000002,
+                "b": 569.2759973386296,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 8,
+              "end_row_offset_idx": 9,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Fanna Marco",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 233.64,
+                "t": 559.79124,
+                "r": 284.36540400000007,
+                "b": 569.2759973386296,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 8,
+              "end_row_offset_idx": 9,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "Consigliere",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 375.42,
+                "t": 559.79124,
+                "r": 412.6432979999998,
+                "b": 569.2759973386296,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 8,
+              "end_row_offset_idx": 9,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "Presente",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 84.78,
+                "t": 572.9312399999999,
+                "r": 136.97892000000002,
+                "b": 582.4159973386295,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 9,
+              "end_row_offset_idx": 10,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Ferro Laura",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 233.64,
+                "t": 572.9312399999999,
+                "r": 284.36540400000007,
+                "b": 582.4159973386295,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 9,
+              "end_row_offset_idx": 10,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "Consigliere",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 375.42,
+                "t": 572.9312399999999,
+                "r": 412.6432979999998,
+                "b": 582.4159973386295,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 9,
+              "end_row_offset_idx": 10,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "Presente",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 84.78,
+                "t": 586.07124,
+                "r": 156.55406400000004,
+                "b": 595.5559973386296,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 10,
+              "end_row_offset_idx": 11,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Grosso Gabriele",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 233.64,
+                "t": 586.07124,
+                "r": 284.36540400000007,
+                "b": 595.5559973386296,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 10,
+              "end_row_offset_idx": 11,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "Consigliere",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 375.42,
+                "t": 586.07124,
+                "r": 412.6432979999998,
+                "b": 595.5559973386296,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 10,
+              "end_row_offset_idx": 11,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "Presente",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 84.78,
+                "t": 599.21124,
+                "r": 164.4991919999999,
+                "b": 608.6959973386296,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 11,
+              "end_row_offset_idx": 12,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Lavarone Roberto",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 233.64,
+                "t": 599.21124,
+                "r": 284.36540400000007,
+                "b": 608.6959973386296,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 11,
+              "end_row_offset_idx": 12,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "Consigliere",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 375.42,
+                "t": 599.21124,
+                "r": 412.6432979999998,
+                "b": 608.6959973386296,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 11,
+              "end_row_offset_idx": 12,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "Presente",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 84.78,
+                "t": 612.35124,
+                "r": 149.25236400000003,
+                "b": 621.8359973386296,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 12,
+              "end_row_offset_idx": 13,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Rosati Alberto",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 233.64,
+                "t": 612.35124,
+                "r": 284.36540400000007,
+                "b": 621.8359973386296,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 12,
+              "end_row_offset_idx": 13,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "Consigliere",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 375.42,
+                "t": 612.35124,
+                "r": 412.6432979999998,
+                "b": 621.8359973386296,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 12,
+              "end_row_offset_idx": 13,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "Presente",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 84.78,
+                "t": 625.55124,
+                "r": 161.48518199999995,
+                "b": 635.0359973386296,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 13,
+              "end_row_offset_idx": 14,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Simoncig Davide",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 233.64,
+                "t": 625.55124,
+                "r": 284.36540400000007,
+                "b": 635.0359973386296,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 13,
+              "end_row_offset_idx": 14,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "Consigliere",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 375.42,
+                "t": 625.55124,
+                "r": 412.6432979999998,
+                "b": 635.0359973386296,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 13,
+              "end_row_offset_idx": 14,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "Presente",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ]
+        ]
+      },
+      "annotations": []
+    }
+  ],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {
+    "1": {
+      "size": {
+        "width": 595.3800048828125,
+        "height": 841.9199829101562
+      },
+      "page_no": 1
+    },
+    "2": {
+      "size": {
+        "width": 595.3800048828125,
+        "height": 841.9199829101562
+      },
+      "page_no": 2
+    },
+    "3": {
+      "size": {
+        "width": 595.3800048828125,
+        "height": 841.9199829101562
+      },
+      "page_no": 3
+    },
+    "4": {
+      "size": {
+        "width": 595.3800048828125,
+        "height": 841.9199829101562
+      },
+      "page_no": 4
+    },
+    "5": {
+      "size": {
+        "width": 595.3800048828125,
+        "height": 841.9199829101562
+      },
+      "page_no": 5
+    },
+    "6": {
+      "size": {
+        "width": 595.3800048828125,
+        "height": 841.9199829101562
+      },
+      "page_no": 6
+    }
+  }
+}

@@ -1,0 +1,1013 @@
+{
+  "file name" : "atto_14.pdf",
+  "number of pages" : 7,
+  "author" : "",
+  "title" : "144-16.pdf",
+  "creation date" : "D:20260622090211+02'00'",
+  "modification date" : "D:20260622090211+02'00'",
+  "kids" : [ {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 21,
+    "page number" : 1,
+    "bounding box" : [ 255.0, 715.08, 340.2, 806.64 ],
+    "source" : "atto_14_images/imageFile1.png"
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 22,
+    "page number" : 1,
+    "bounding box" : [ 255.0, 709.68, 340.2, 715.32 ],
+    "source" : "atto_14_images/imageFile2.png"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 11,
+    "level" : "Doctitle",
+    "page number" : 1,
+    "bounding box" : [ 204.362, 677.669, 391.044, 695.343 ],
+    "heading level" : 1,
+    "font" : "CIDFont+F1",
+    "font size" : 15.96,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "COMUNE DI CARINARO"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 12,
+    "page number" : 1,
+    "bounding box" : [ 247.318, 650.085, 347.997, 663.374 ],
+    "font" : "CIDFont+F2",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Provincia di Caserta"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H2",
+    "id" : 13,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 152.041, 608.601, 443.413, 624.149 ],
+    "heading level" : 2,
+    "font" : "CIDFont+F1",
+    "font size" : 14.04,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Verbale di Deliberazione della Giunta Comunale"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 14,
+    "page number" : 1,
+    "bounding box" : [ 249.236, 585.608, 343.656, 596.638 ],
+    "font" : "CIDFont+F1",
+    "font size" : 9.96,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "N. 51 DEL 18-06-2026"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 16,
+    "page number" : 1,
+    "bounding box" : [ 60.24, 535.007, 540.68, 562.2 ],
+    "font" : "CIDFont+F1",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "OGGETTO: APPROVAZIONE RELAZIONE SULLA PERFORMANCE P. O - ANNO 2025"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 18,
+    "page number" : 1,
+    "bounding box" : [ 56.76, 456.884, 537.802, 511.575 ],
+    "font" : "CIDFont+F3",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "L'anno duemilaventisei addì diciotto del mese di Giugno, alle ore 18:45 nella sala della Casa Comunale, si è riunita la Giunta Comunale convocata nelle forme di legge. Presiede l’adunanza il Sindaco MARIANNA DELL'APROVITOLA e sono rispettivamente presenti e assenti i seguenti Sigg."
+  }, {
+    "type" : "table",
+    "pdfua_tag" : "Table",
+    "id" : 19,
+    "level" : "1",
+    "page number" : 1,
+    "bounding box" : [ 74.22, 314.46, 521.1, 429.3 ],
+    "number of rows" : 6,
+    "number of columns" : 3,
+    "rows" : [ {
+      "type" : "table row",
+      "row number" : 1,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 74.79, 413.76, 201.24, 428.73 ],
+        "row number" : 1,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 1,
+          "page number" : 1,
+          "bounding box" : [ 77.279, 416.818, 119.112, 425.721 ],
+          "font" : "CIDFont+F4",
+          "font size" : 8.04,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Componente"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 201.24, 413.76, 363.0, 428.73 ],
+        "row number" : 1,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 2,
+          "page number" : 1,
+          "bounding box" : [ 203.99, 416.818, 232.396, 425.721 ],
+          "font" : "CIDFont+F4",
+          "font size" : 8.04,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Presente"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 363.0, 413.76, 520.53, 428.73 ],
+        "row number" : 1,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 3,
+          "page number" : 1,
+          "bounding box" : [ 365.756, 416.818, 391.187, 425.721 ],
+          "font" : "CIDFont+F4",
+          "font size" : 8.04,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Assente"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 2,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 74.79, 393.96, 201.24, 413.76 ],
+        "row number" : 2,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 4,
+          "page number" : 1,
+          "bounding box" : [ 77.279, 401.578, 196.159, 410.482 ],
+          "font" : "CIDFont+F4",
+          "font size" : 8.04,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "DELL'APROVITOLA MARIANNA"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 201.24, 393.96, 363.0, 413.76 ],
+        "row number" : 2,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 5,
+          "page number" : 1,
+          "bounding box" : [ 203.99, 401.578, 209.345, 410.482 ],
+          "font" : "CIDFont+F4",
+          "font size" : 8.04,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "X"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 363.0, 393.96, 520.53, 413.76 ],
+        "row number" : 2,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 3,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 74.79, 374.16, 201.24, 393.96 ],
+        "row number" : 3,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 6,
+          "page number" : 1,
+          "bounding box" : [ 77.279, 381.778, 154.432, 390.681 ],
+          "font" : "CIDFont+F4",
+          "font size" : 8.04,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "SARDO GIUSEPPINA"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 201.24, 374.16, 363.0, 393.96 ],
+        "row number" : 3,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 7,
+          "page number" : 1,
+          "bounding box" : [ 203.99, 381.778, 209.345, 390.681 ],
+          "font" : "CIDFont+F4",
+          "font size" : 8.04,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "X"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 363.0, 374.16, 520.53, 393.96 ],
+        "row number" : 3,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 4,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 74.79, 354.36, 201.24, 374.16 ],
+        "row number" : 4,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 8,
+          "page number" : 1,
+          "bounding box" : [ 77.279, 361.979, 141.085, 370.883 ],
+          "font" : "CIDFont+F4",
+          "font size" : 8.04,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "SGLAVO NICOLA"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 201.24, 354.36, 363.0, 374.16 ],
+        "row number" : 4,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 9,
+          "page number" : 1,
+          "bounding box" : [ 203.99, 361.979, 209.345, 370.883 ],
+          "font" : "CIDFont+F4",
+          "font size" : 8.04,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "X"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 363.0, 354.36, 520.53, 374.16 ],
+        "row number" : 4,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 5,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 74.79, 334.56, 201.24, 354.36 ],
+        "row number" : 5,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 10,
+          "page number" : 1,
+          "bounding box" : [ 77.279, 342.178, 148.16, 351.082 ],
+          "font" : "CIDFont+F4",
+          "font size" : 8.04,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "ESPOSITO NICOLA"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 201.24, 334.56, 363.0, 354.36 ],
+        "row number" : 5,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 11,
+          "page number" : 1,
+          "bounding box" : [ 203.99, 342.178, 209.345, 351.082 ],
+          "font" : "CIDFont+F4",
+          "font size" : 8.04,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "X"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 363.0, 334.56, 520.53, 354.36 ],
+        "row number" : 5,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 6,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 74.79, 315.03, 201.24, 334.56 ],
+        "row number" : 6,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 12,
+          "page number" : 1,
+          "bounding box" : [ 77.279, 322.38, 154.432, 331.284 ],
+          "font" : "CIDFont+F4",
+          "font size" : 8.04,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "BARBATO RACHELE"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 201.24, 315.03, 363.0, 334.56 ],
+        "row number" : 6,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 13,
+          "page number" : 1,
+          "bounding box" : [ 203.99, 322.38, 209.345, 331.284 ],
+          "font" : "CIDFont+F4",
+          "font size" : 8.04,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "X"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 363.0, 315.03, 520.53, 334.56 ],
+        "row number" : 6,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      } ]
+    } ]
+  }, {
+    "type" : "caption",
+    "id" : 20,
+    "page number" : 1,
+    "bounding box" : [ 56.76, 231.767, 537.202, 300.259 ],
+    "linked content id" : 19,
+    "font" : "CIDFont+F3",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Numero totale PRESENTI: 5– ASSENTI: 0 Con la partecipazione del Segretario Generale SALVATORE CAPOLUONGO, il Presidente, constatato che gli intervenuti sono in numero legale, dichiara aperta la riunione ed invita i convocati a deliberare sull'oggetto sopra indicato."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 25,
+    "page number" : 4,
+    "bounding box" : [ 371.162, 766.332, 535.769, 778.558 ],
+    "font" : "CIDFont+F3",
+    "font size" : 11.04,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Deliberazione n. 51 DEL 18-06-2026"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 26,
+    "page number" : 4,
+    "bounding box" : [ 59.518, 728.409, 200.389, 740.635 ],
+    "font" : "CIDFont+F3",
+    "font size" : 11.04,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Letto, confermato e sottoscritto."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 27,
+    "page number" : 4,
+    "bounding box" : [ 154.56, 692.772, 445.355, 704.998 ],
+    "font" : "CIDFont+F3",
+    "font size" : 11.04,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Il Sindaco Il Segretario"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 28,
+    "page number" : 4,
+    "bounding box" : [ 95.161, 678.883, 496.463, 692.276 ],
+    "font" : "CIDFont+F3",
+    "font size" : 11.04,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "MARIANNA DELL'APROVITOLA SALVATORE CAPOLUONGO"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H3",
+    "id" : 29,
+    "level" : "Subtitle",
+    "page number" : 4,
+    "bounding box" : [ 196.681, 567.884, 401.353, 608.776 ],
+    "heading level" : 3,
+    "font" : "CIDFont+F1",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "CERTIFICATO DI PUBBLICAZIONE IL SEGRETARIO GENERALE"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 30,
+    "page number" : 4,
+    "bounding box" : [ 56.76, 471.404, 538.318, 539.776 ],
+    "font" : "CIDFont+F3",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "ATTESTA Che la presente deliberazione è stata affissa all’ albo pretorio del sito web dell’ ente http://www.comune.carinaro.ce.it conforme all’originale in data 00-00-0000e resterà affissa per n. 15 giorni consecutivi ai sensi dell’art. 124, comma 1, del Dlgs 18 agosto 2000 n. 267"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 31,
+    "page number" : 4,
+    "bounding box" : [ 219.117, 416.209, 376.1, 443.297 ],
+    "font" : "CIDFont+F3",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Il Segretario Generale SALVATORE CAPOLUONGO"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 32,
+    "level" : "2",
+    "page number" : 4,
+    "bounding box" : [ 57.598, 374.805, 537.596, 401.893 ],
+    "font" : "CIDFont+F3",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "******************************************************************************** *****************************************************************"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H3",
+    "id" : 33,
+    "level" : "Subtitle",
+    "page number" : 4,
+    "bounding box" : [ 202.681, 347.208, 392.725, 360.497 ],
+    "heading level" : 3,
+    "font" : "CIDFont+F1",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "CERTIFICATO DI ESECUTIVITA'"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 34,
+    "page number" : 4,
+    "bounding box" : [ 56.758, 294.252, 501.157, 319.075 ],
+    "font" : "CIDFont+F3",
+    "font size" : 11.04,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "[ X] Deliberazione dichiarata immediatamente eseguibile ai sensi dell’ art. 134, comma 4, del D.Lgs. 267/2000 e.ss.mm.ii."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 35,
+    "page number" : 4,
+    "bounding box" : [ 56.758, 256.329, 506.054, 281.159 ],
+    "font" : "CIDFont+F3",
+    "font size" : 11.04,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "[ ]Deliberazione esecutiva ad ogni effetto di legge decorso il decimo giorno di pubblicazione, ai sensi dell’art. 134, comma 3, del D.Lgs n. 267/2000 e.ss.mm.ii."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 36,
+    "page number" : 4,
+    "bounding box" : [ 389.042, 219.49, 443.801, 231.716 ],
+    "font" : "CIDFont+F3",
+    "font size" : 11.04,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Il Segretario"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H3",
+    "id" : 37,
+    "level" : "Subtitle",
+    "page number" : 4,
+    "bounding box" : [ 337.798, 205.73, 494.782, 219.019 ],
+    "heading level" : 3,
+    "font" : "CIDFont+F3",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "SALVATORE CAPOLUONGO"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 38,
+    "page number" : 4,
+    "bounding box" : [ 56.759, 149.891, 490.613, 160.921 ],
+    "font" : "CIDFont+F4",
+    "font size" : 9.96,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Documento informatico sottoscritto con firma digitale ai sensi dell’art.24 del D.Lgs. n.82/2005 e ss.mm.ii."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 41,
+    "page number" : 5,
+    "bounding box" : [ 56.76, 531.884, 536.158, 545.173 ],
+    "font" : "CIDFont+F5",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "OGGETTO: APPROVAZIONE RELAZIONE SULLA PERFORMANCE P. O - ANNO 2025"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 42,
+    "page number" : 5,
+    "bounding box" : [ 56.76, 435.285, 363.995, 462.373 ],
+    "font" : "CIDFont+F6",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "PARERE DI REGOLARITA’ TECNICA (Articolo 147 bis del decreto legislativo 18 agosto 2000, n. 267)"
+  }, {
+    "type" : "table",
+    "pdfua_tag" : "Table",
+    "id" : 43,
+    "level" : "3",
+    "page number" : 5,
+    "bounding box" : [ 141.48, 328.14, 453.84, 393.9 ],
+    "number of rows" : 2,
+    "number of columns" : 2,
+    "rows" : [ {
+      "type" : "table row",
+      "row number" : 1,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 5,
+        "bounding box" : [ 142.08, 361.56, 299.28, 393.33 ],
+        "row number" : 1,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 1,
+          "page number" : 5,
+          "bounding box" : [ 214.321, 380.015, 226.768, 389.982 ],
+          "font" : "CIDFont+F5",
+          "font size" : 9.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "[X]"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 5,
+        "bounding box" : [ 299.28, 361.56, 453.24, 393.33 ],
+        "row number" : 1,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 2,
+          "page number" : 5,
+          "bounding box" : [ 373.44, 380.015, 379.407, 389.982 ],
+          "font" : "CIDFont+F5",
+          "font size" : 9.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "[]"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 2,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 5,
+        "bounding box" : [ 142.08, 328.71, 299.28, 361.56 ],
+        "row number" : 2,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 3,
+          "page number" : 5,
+          "bounding box" : [ 204.839, 350.342, 236.388, 358.049 ],
+          "font" : "CIDFont+F6",
+          "font size" : 6.96,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Favorevole"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 5,
+        "bounding box" : [ 299.28, 328.71, 453.24, 361.56 ],
+        "row number" : 2,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 4,
+          "page number" : 5,
+          "bounding box" : [ 362.968, 350.342, 389.764, 358.049 ],
+          "font" : "CIDFont+F6",
+          "font size" : 6.96,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Contrario"
+        } ]
+      } ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 44,
+    "page number" : 5,
+    "bounding box" : [ 59.76, 214.845, 173.399, 228.134 ],
+    "font" : "CIDFont+F6",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Carinaro, lì 17-06-2026"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 45,
+    "page number" : 5,
+    "bounding box" : [ 380.998, 201.046, 455.313, 214.335 ],
+    "font" : "CIDFont+F6",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Il Responsabile"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 46,
+    "page number" : 5,
+    "bounding box" : [ 362.519, 167.378, 473.842, 180.784 ],
+    "font" : "CIDFont+F7",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "PICONE VINCENZO"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 49,
+    "page number" : 6,
+    "bounding box" : [ 56.76, 531.884, 536.158, 545.173 ],
+    "font" : "CIDFont+F8",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "OGGETTO: APPROVAZIONE RELAZIONE SULLA PERFORMANCE P. O - ANNO 2025"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 50,
+    "page number" : 6,
+    "bounding box" : [ 56.76, 435.285, 363.995, 462.373 ],
+    "font" : "CIDFont+F9",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "PARERE DI REGOLARITA’ CONTABILE (Articolo 147 bis del decreto legislativo 18 agosto 2000, n. 267)"
+  }, {
+    "type" : "table",
+    "pdfua_tag" : "Table",
+    "id" : 51,
+    "level" : "4",
+    "page number" : 6,
+    "bounding box" : [ 129.18, 328.14, 466.14, 393.9 ],
+    "number of rows" : 2,
+    "number of columns" : 3,
+    "rows" : [ {
+      "type" : "table row",
+      "row number" : 1,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 6,
+        "bounding box" : [ 129.75, 361.56, 239.52, 393.33 ],
+        "row number" : 1,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 1,
+          "page number" : 6,
+          "bounding box" : [ 178.321, 380.015, 190.768, 389.982 ],
+          "font" : "CIDFont+F8",
+          "font size" : 9.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "[X]"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 6,
+        "bounding box" : [ 239.52, 361.56, 347.28, 393.33 ],
+        "row number" : 1,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 2,
+          "page number" : 6,
+          "bounding box" : [ 290.371, 380.015, 296.428, 389.982 ],
+          "font" : "CIDFont+F8",
+          "font size" : 9.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "[]"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 6,
+        "bounding box" : [ 347.28, 361.56, 465.57, 393.33 ],
+        "row number" : 1,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 3,
+          "page number" : 6,
+          "bounding box" : [ 403.59, 380.015, 409.557, 389.982 ],
+          "font" : "CIDFont+F8",
+          "font size" : 9.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "[]"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 2,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 6,
+        "bounding box" : [ 129.75, 328.71, 239.52, 361.56 ],
+        "row number" : 2,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 4,
+          "page number" : 6,
+          "bounding box" : [ 168.839, 350.342, 200.389, 358.049 ],
+          "font" : "CIDFont+F9",
+          "font size" : 6.96,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Favorevole"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 6,
+        "bounding box" : [ 239.52, 328.71, 347.28, 361.56 ],
+        "row number" : 2,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 5,
+          "page number" : 6,
+          "bounding box" : [ 279.989, 350.342, 306.715, 358.049 ],
+          "font" : "CIDFont+F9",
+          "font size" : 6.96,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Contrario"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 6,
+        "bounding box" : [ 347.28, 328.71, 465.57, 361.56 ],
+        "row number" : 2,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 6,
+          "page number" : 6,
+          "bounding box" : [ 384.249, 350.342, 428.723, 358.049 ],
+          "font" : "CIDFont+F9",
+          "font size" : 6.96,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Non Necessario"
+        } ]
+      } ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 52,
+    "page number" : 6,
+    "bounding box" : [ 59.76, 214.845, 173.399, 228.134 ],
+    "font" : "CIDFont+F9",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Carinaro, lì 17-06-2026"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 53,
+    "page number" : 6,
+    "bounding box" : [ 380.998, 201.046, 455.313, 214.335 ],
+    "font" : "CIDFont+F9",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Il Responsabile"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 54,
+    "page number" : 6,
+    "bounding box" : [ 352.441, 167.378, 483.792, 180.784 ],
+    "font" : "CIDFont+F10",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "FATTORE SALVATORE"
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 64,
+    "page number" : 7,
+    "bounding box" : [ 255.0, 654.6, 340.2, 751.56 ],
+    "source" : "atto_14_images/imageFile5.png"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 56,
+    "page number" : 7,
+    "bounding box" : [ 449.039, 765.285, 515.711, 778.575 ],
+    "font" : "CIDFont+F11",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "ORIGINALE"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 57,
+    "level" : "Doctitle",
+    "page number" : 7,
+    "bounding box" : [ 204.362, 622.588, 391.044, 640.263 ],
+    "heading level" : 1,
+    "font" : "CIDFont+F12",
+    "font size" : 15.96,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "COMUNE DI CARINARO"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 58,
+    "page number" : 7,
+    "bounding box" : [ 56.76, 544.487, 536.038, 608.296 ],
+    "font" : "CIDFont+F12",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Provincia di Caserta DELIBERAZIONE DI GIUNTA COMUNALE N. 51 DEL 18-06-2026 OGGETTO: APPROVAZIONE RELAZIONE SULLA PERFORMANCE P. O - ANNO 2025"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 59,
+    "page number" : 7,
+    "bounding box" : [ 153.357, 489.286, 439.028, 502.575 ],
+    "font" : "CIDFont+F12",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "C E R T I F I C A T O D I P U B B L I C A Z I O N E"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 60,
+    "page number" : 7,
+    "bounding box" : [ 56.76, 434.084, 538.643, 474.97 ],
+    "font" : "CIDFont+F14",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Il sottoscritto responsabile della pubblicazione OLIVA LORENZO certifica che copia della presente deliberazione viene pubblicata il giorno 19-06-2026all’Albo Pretorio ove rimarrà affissa per 15 giorni consecutivi sino al 04-07-2026,"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 61,
+    "page number" : 7,
+    "bounding box" : [ 56.76, 365.086, 163.439, 378.375 ],
+    "font" : "CIDFont+F13",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Carinaro, 19-06-2026"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 62,
+    "page number" : 7,
+    "bounding box" : [ 357.72, 337.488, 528.635, 364.576 ],
+    "font" : "CIDFont+F14",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Il Responsabile della pubblicazione OLIVA LORENZO"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 63,
+    "page number" : 7,
+    "bounding box" : [ 56.759, 259.329, 482.844, 270.359 ],
+    "font" : "CIDFont+F13",
+    "font size" : 9.96,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Documento informatico sottoscritto con firma digitale ai sensi dell’art.24 del D.Lgs. n.82/2005 e ss.mm.ii."
+  } ]
+}

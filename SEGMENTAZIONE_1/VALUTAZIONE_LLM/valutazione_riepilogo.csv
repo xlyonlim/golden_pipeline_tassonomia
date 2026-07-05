@@ -1,0 +1,3 @@
+﻿estrattore;format;n_atti;marker_precision;marker_recall;boundary_accuracy;text_fidelity;noise_exclusion;overall_score
+DOCLING;JSON;8;55.0;76.62;55.62;57.88;82.25;64.25
+DOCLING;MARKDOWN;8;55.0;76.62;55.0;56.0;79.75;63.0

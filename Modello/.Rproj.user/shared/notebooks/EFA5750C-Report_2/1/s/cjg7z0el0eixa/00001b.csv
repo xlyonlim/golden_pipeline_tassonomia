@@ -1,0 +1,2 @@
+"0",""
+"0","lines(density(y, na.rm = TRUE), lwd = 2)"

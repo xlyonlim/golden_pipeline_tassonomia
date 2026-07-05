@@ -1,0 +1,854 @@
+{
+  "file name" : "atto_17.pdf",
+  "number of pages" : 5,
+  "author" : "Dipendente Insiel",
+  "title" : "La presente deliberazione è stata adottata ai sensi dell’art",
+  "creation date" : "D:20260204081614+01'00'",
+  "modification date" : "D:20260204081617+01'00'",
+  "kids" : [ {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 11,
+    "page number" : 1,
+    "bounding box" : [ 56.7, 715.42, 132.85, 802.07 ],
+    "source" : "atto_17_images/imageFile1.png"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 12,
+    "level" : "Doctitle",
+    "page number" : 1,
+    "bounding box" : [ 206.4, 752.065, 474.879, 776.837 ],
+    "heading level" : 1,
+    "font" : "Garamond-Bold",
+    "font size" : 22.02,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "COMUNE DI MOIMACCO"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 13,
+    "page number" : 1,
+    "bounding box" : [ 289.8, 736.301, 391.39, 752.028 ],
+    "font" : "Garamond",
+    "font size" : 13.98,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Provincia di Udine"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 14,
+    "page number" : 1,
+    "bounding box" : [ 262.92, 654.576, 322.92, 670.572 ],
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "__________"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H2",
+    "id" : 15,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 89.7, 624.508, 496.018, 643.143 ],
+    "heading level" : 2,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 13.98,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "VERBALE DI DELIBERAZIONE DELLA GIUNTA COMUNALE"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 16,
+    "page number" : 1,
+    "bounding box" : [ 56.7, 583.296, 322.92, 626.892 ],
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "__________ COPIA"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 17,
+    "page number" : 1,
+    "bounding box" : [ 429.42, 555.696, 529.143, 585.384 ],
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "ANNO 2026 N. 9 del Reg. Delibere"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 18,
+    "page number" : 1,
+    "bounding box" : [ 56.7, 486.816, 529.116, 530.184 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "OGGETTO: ART 19, COMMA 5 DEL D.LGS 175/20016 – DETERMINAZIONE OBIETTIVI PER IL CONTENIMENTO DELLE SPESE DI FUNZIONAMENTO, CON PARTICOLARE RIFERIMENTO AL PERSONALE"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 19,
+    "page number" : 1,
+    "bounding box" : [ 56.7, 404.076, 538.676, 461.412 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "L'anno 2026, il giorno 30 del mese di Gennaio alle ore 13:21 in modalità telematica, presso la sede comunale si è riunita la Giunta Comunale. La seduta si svolge in collegamento telematico, nel rispetto dei criteri di funzionamento approvati con delibera di Consiglio Comunale n. 17 del 08/04/2022. Fatto l'appello nominale risultano:"
+  }, {
+    "type" : "table",
+    "pdfua_tag" : "Table",
+    "id" : 20,
+    "level" : "1",
+    "page number" : 1,
+    "bounding box" : [ 56.34, 298.62, 546.12, 379.68 ],
+    "number of rows" : 6,
+    "number of columns" : 3,
+    "rows" : [ {
+      "type" : "table row",
+      "row number" : 1,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 57.06, 365.91, 269.34, 378.93 ],
+        "row number" : 1,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 269.34, 365.91, 425.28, 378.93 ],
+        "row number" : 1,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 425.28, 365.91, 545.4, 378.93 ],
+        "row number" : 1,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 1,
+          "page number" : 1,
+          "bounding box" : [ 430.68, 365.389, 505.832, 379.817 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.98,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Presente/Assente"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 2,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 57.06, 352.47, 269.34, 365.91 ],
+        "row number" : 2,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 2,
+          "page number" : 1,
+          "bounding box" : [ 62.1, 352.009, 162.576, 366.437 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.98,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "dott. Basaldella Enrico"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 269.34, 352.47, 425.28, 365.91 ],
+        "row number" : 2,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 3,
+          "page number" : 1,
+          "bounding box" : [ 274.74, 352.009, 310.179, 366.437 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.98,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Sindaco"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 425.28, 352.47, 545.4, 365.91 ],
+        "row number" : 2,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 4,
+          "page number" : 1,
+          "bounding box" : [ 430.68, 352.009, 501.556, 366.437 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.98,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Presente in sede"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 3,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 57.06, 339.09, 269.34, 352.47 ],
+        "row number" : 3,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 5,
+          "page number" : 1,
+          "bounding box" : [ 62.1, 338.629, 129.569, 353.057 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.98,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Bassetti Franca"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 269.34, 339.09, 425.28, 352.47 ],
+        "row number" : 3,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 6,
+          "page number" : 1,
+          "bounding box" : [ 274.74, 338.629, 333.639, 353.057 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.98,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Vice Sindaco"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 425.28, 339.09, 545.4, 352.47 ],
+        "row number" : 3,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 7,
+          "page number" : 1,
+          "bounding box" : [ 430.68, 338.629, 514.345, 353.057 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.98,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Presente a distanza"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 4,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 57.06, 325.71, 269.34, 339.09 ],
+        "row number" : 4,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 8,
+          "page number" : 1,
+          "bounding box" : [ 62.1, 325.189, 141.819, 339.617 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.98,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Lavarone Roberto"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 269.34, 325.71, 425.28, 339.09 ],
+        "row number" : 4,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 9,
+          "page number" : 1,
+          "bounding box" : [ 274.74, 325.189, 318.672, 339.617 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.98,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Assessore"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 425.28, 325.71, 545.4, 339.09 ],
+        "row number" : 4,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 10,
+          "page number" : 1,
+          "bounding box" : [ 430.68, 325.189, 465.436, 339.617 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.98,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Assente"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 5,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 57.06, 312.27, 269.34, 325.71 ],
+        "row number" : 5,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 11,
+          "page number" : 1,
+          "bounding box" : [ 62.1, 311.809, 126.572, 326.237 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.98,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Rosati Alberto"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 269.34, 312.27, 425.28, 325.71 ],
+        "row number" : 5,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 12,
+          "page number" : 1,
+          "bounding box" : [ 274.74, 311.809, 318.672, 326.237 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.98,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Assessore"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 425.28, 312.27, 545.4, 325.71 ],
+        "row number" : 5,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 13,
+          "page number" : 1,
+          "bounding box" : [ 430.68, 311.809, 514.345, 326.237 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.98,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Presente a distanza"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 6,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 57.06, 299.34, 269.34, 312.27 ],
+        "row number" : 6,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 14,
+          "page number" : 1,
+          "bounding box" : [ 62.1, 298.429, 138.805, 312.857 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.98,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Simoncig Davide"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 269.34, 299.34, 425.28, 312.27 ],
+        "row number" : 6,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 15,
+          "page number" : 1,
+          "bounding box" : [ 274.74, 298.429, 318.672, 312.857 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.98,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Assessore"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 425.28, 299.34, 545.4, 312.27 ],
+        "row number" : 6,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 16,
+          "page number" : 1,
+          "bounding box" : [ 430.68, 298.429, 514.345, 312.857 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.98,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Presente a distanza"
+        } ]
+      } ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 21,
+    "page number" : 1,
+    "bounding box" : [ 56.7, 258.516, 250.98, 274.284 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Assiste il Segretario Stanig dott.ssa Eva."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 22,
+    "page number" : 1,
+    "bounding box" : [ 56.7, 189.516, 538.68, 232.884 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Constatato il numero degli intervenuti, assume la presidenza il sig. Basaldella dott. Enrico nella sua qualità di Sindaco, espone gli oggetti iscritti all'ordine del giorno e dichiara aperta la discussione per la trattazione dell’argomento indicato in oggetto."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 24,
+    "page number" : 2,
+    "bounding box" : [ 51.06, 757.776, 547.105, 801.144 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "OGGETTO: ART 19, COMMA 5 DEL D.LGS 175/20016 – DETERMINAZIONE OBIETTIVI PER IL CONTENIMENTO DELLE SPESE DI FUNZIONAMENTO, CON PARTICOLARE RIFERIMENTO AL PERSONALE"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H4",
+    "id" : 25,
+    "level" : "Subtitle",
+    "page number" : 2,
+    "bounding box" : [ 185.94, 716.256, 412.25, 732.252 ],
+    "heading level" : 4,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Proposta di delibera della Giunta Comunale"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 26,
+    "page number" : 2,
+    "bounding box" : [ 51.06, 633.636, 547.129, 690.996 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "DATO ATTO che CAFC S.p.A. è gestore unico in house providing (ex art.16 D.Lgs. 175/2016 ed ex artt. 5 e 192 D.Lgs. 50/2016) del servizio idrico integrato nell’Ambito Territoriale Ottimale Centrale Friuli ai sensi degli artt. 147, 149bis e 172 D.Lgs. 152/2006, come da deliberazione assembleare della competente CATO Consulta d’Ambito 07.10.2015, n.16;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 27,
+    "page number" : 2,
+    "bounding box" : [ 51.06, 592.236, 547.116, 621.804 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "DATO ATTO altresì che il nostro Ente detiene una quota di partecipazione di CAFC S.p.A. pari al 1,59 (diretta) e 0,0947 (indiretta) del capitale sociale;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 28,
+    "page number" : 2,
+    "bounding box" : [ 51.06, 481.836, 547.195, 580.404 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "RICHIAMATO l’art. 19, comma 5 del D.Lgs. 175/2016 che testualmente recita: “Le amministrazioni pubbliche socie fissano, con propri provvedimenti, obiettivi specifici, annuali e pluriennali, sul complesso delle spese di funzionamento, ivi comprese quelle per il personale, delle società controllate, anche attraverso il contenimento degli oneri contrattuali e delle assunzioni di personale e tenuto conto di quanto stabilito all'articolo 25, ovvero delle eventuali disposizioni che stabiliscono, a loro carico, divieti o limitazioni alle assunzioni di personale, tenendo conto del settore in cui ciascun soggetto opera”;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 29,
+    "page number" : 2,
+    "bounding box" : [ 51.06, 440.436, 547.201, 470.004 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "VISTA la nota prot. n. 191 del 14.01.2026 con la quale CAFC spa trasmette la propria proposta di atto di indirizzo in materia di personale;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 30,
+    "page number" : 2,
+    "bounding box" : [ 51.06, 371.436, 547.189, 428.796 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "CONSIDERATO che, ad oggi, in materia di personale delle società in house providing (modalità e limiti per le assunzioni in via transitoria ed a regime, modalità di reclutamento, limiti alle retribuzioni) il vigente quadro di riferimento è individuabile nel D.Lgs. 175/2016 (testo unico in materia di società a partecipazione pubblica), in particolare agli artt. 19 e 11 c.6;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 31,
+    "page number" : 2,
+    "bounding box" : [ 51.06, 330.036, 547.177, 359.604 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "VISTI, in allegato al presente atto di cui è parte integrante e sostanziale, la relazione e l’atto di indirizzo predisposti da CAFC S.p.A. relativamente all’oggetto;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 32,
+    "page number" : 2,
+    "bounding box" : [ 51.06, 247.236, 547.176, 318.204 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "RITENUTO che l’atto di indirizzo suddetto in Allegato 1 possa essere di competenza degli organi esecutivi (Giunte Comunali/Provinciale, Ufficio Presidenza U.T.I.), in quanto si tratta di indicazioni operative e non di indirizzi istituzionali generali che rientrino nelle competenze esclusive dei Consigli ex art. 42, c. 2, lettera e) D.Lgs. 267/2000 (partecipazione a società di capitali, organizzazione di pubblici servizi, concessione di pubblici servizi);"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 33,
+    "page number" : 2,
+    "bounding box" : [ 51.06, 219.636, 467.976, 235.404 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Acquisiti favorevolmente i pareri resi ai sensi dell’art.49 del D. Lgs. 267/2000 e s.m.i.;"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H4",
+    "id" : 34,
+    "level" : "Subtitle",
+    "page number" : 2,
+    "bounding box" : [ 269.76, 191.916, 328.404, 207.912 ],
+    "heading level" : 4,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "PROPONE"
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 35,
+    "level" : "2",
+    "page number" : 2,
+    "bounding box" : [ 69.06, 79.056, 547.141, 179.304 ],
+    "numbering style" : "unordered",
+    "number of list items" : 3,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 69.06, 163.536, 515.916, 179.304 ],
+      "font" : "SymbolMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "• Di approvare le premesse, che costituiscono parte integrante della presente deliberazione;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 69.06, 121.356, 547.141, 150.864 ],
+      "font" : "SymbolMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "• Di fissare quali obiettivi di contenimento delle spese di funzionamento ai sensi dell’art. 19, comma 5 del D.Lgs. 175/2016 quelli indicati nella relazione allegata.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 69.06, 79.056, 528.468, 108.624 ],
+      "font" : "SymbolMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "• Di dichiarare la presente delibera immediatamente eseguibile, ai sensi dell'art. 1, c. 19, della L.R. 21/2003, come sostituito dall’art. 17 della L.R. 17/2004.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 37,
+    "page number" : 3,
+    "bounding box" : [ 51.06, 633.636, 547.135, 815.052 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "LA GIUNTA COMUNALE VISTA la suesposta proposta di deliberazione; VISTO che sulla stessa sono stati espressi i pareri di cui al D. Lgs. 267/2000; RIUNITO l'organo collegiale nelle forme sopra descritte con l'assistenza del segretario comunale in ossequio all'art. 97 TUEL; VISTO l’art. 1 comma 20 bis della L.R. n. 21 del 11.12.2003 in materia di pubblicazione delle deliberazioni degli enti locali; Con voti favorevoli unanimi espressi nei modi e nelle forme di Legge;"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H4",
+    "id" : 38,
+    "level" : "Subtitle",
+    "page number" : 3,
+    "bounding box" : [ 267.78, 605.916, 330.444, 621.912 ],
+    "heading level" : 4,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "DELIBERA"
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 39,
+    "level" : "2",
+    "page number" : 3,
+    "bounding box" : [ 69.06, 493.896, 547.188, 593.304 ],
+    "numbering style" : "unordered",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 69.06, 549.936, 547.188, 593.304 ],
+      "font" : "SymbolMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "• di accogliere la superiore proposta ed in conseguenza di adottare il presente atto con la narrativa, la motivazione ed il dispositivo di cui alla proposta stessa, che qui si intende integralmente trascritta;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 69.06, 493.896, 547.128, 537.204 ],
+      "font" : "SymbolMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "• di dichiarare, vista l'urgenza di procedere, con voti unanimi resi ed accertati con separata votazione, il presente atto immediatamente esecutivo ai sensi art. 1, c. 19, L.R. 21/2003, come sostituito dall’art. 17 della L.R. 17/2004.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H3",
+    "id" : 42,
+    "level" : "Subtitle",
+    "page number" : 4,
+    "bounding box" : [ 51.06, 720.683, 266.695, 738.117 ],
+    "heading level" : 3,
+    "font" : "TimesNewRomanPS-BoldItalicMT",
+    "font size" : 13.02,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "PARERE DI REGOLARITÁ TECNICA"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 43,
+    "page number" : 4,
+    "bounding box" : [ 51.06, 665.736, 547.224, 709.104 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Con riferimento all'art. 49, comma 1° del D.Lgs.n. 267/2000 del T.U.EE.LL., è stato espresso parere favorevole alla regolarità tecnica sulla proposta di deliberazione in oggetto da DOTT.SSA MARTINA NOBILE in data 26 gennaio 2026."
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H3",
+    "id" : 45,
+    "level" : "Subtitle",
+    "page number" : 4,
+    "bounding box" : [ 54.06, 588.743, 286.977, 606.177 ],
+    "heading level" : 3,
+    "font" : "TimesNewRomanPS-BoldItalicMT",
+    "font size" : 13.02,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "PARERE DI REGOLARITÁ CONTABILE"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 46,
+    "page number" : 4,
+    "bounding box" : [ 51.06, 533.736, 547.2, 577.104 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Con riferimento all'art. 49, comma 1° del D.Lgs.n. 267/2000 del T.U.EE.LL., è stato espresso parere favorevole alla regolarità contabile sulla proposta di deliberazione in oggetto da DOTT.SSA MARIACRISTINA VIRGILIO in data 26 gennaio 2026."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 49,
+    "page number" : 5,
+    "bounding box" : [ 51.06, 708.396, 450.468, 765.564 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Letto, confermato e sottoscritto, Il Presidente Il Segretario F.to Basaldella dott. Enrico F.to Stanig dott.ssa Eva"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 51,
+    "page number" : 5,
+    "bounding box" : [ 192.66, 637.416, 395.952, 653.184 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "ATTESTAZIONE DI PUBBLICAZIONE"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 52,
+    "page number" : 5,
+    "bounding box" : [ 51.06, 596.016, 537.696, 625.584 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Si attesta che la presente deliberazione viene pubblicata all’Albo pretorio on line dal 04/02/2026 al 19/02/2026 per quindici giorni consecutivi, ai sensi della L.R. n. 21/2003 e successive modificazioni."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 53,
+    "page number" : 5,
+    "bounding box" : [ 51.06, 568.416, 228.78, 584.184 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Comune di Moimacco, lì 04/02/2026"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 54,
+    "page number" : 5,
+    "bounding box" : [ 289.5, 527.016, 461.208, 556.584 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Il Responsabile della Pubblicazione F.to dott.ssa Romina Cencig"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 56,
+    "page number" : 5,
+    "bounding box" : [ 209.4, 456.036, 379.298, 471.804 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "ATTESTATO DI ESECUTIVITA`"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 57,
+    "page number" : 5,
+    "bounding box" : [ 51.06, 400.836, 537.72, 444.204 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "La presente deliberazione è divenuta esecutiva il giorno 30/01/2026, poiché dichiarata immediatamente esecutiva (art. 1, comma 19 della L.R. 11/12/2003 n. 21 come modificato dall’art. 17 della L.R. 24/05/2004 n. 17)."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 58,
+    "page number" : 5,
+    "bounding box" : [ 51.06, 373.236, 228.78, 389.004 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Comune di Moimacco, lì 04/02/2026"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 59,
+    "page number" : 5,
+    "bounding box" : [ 342.9, 331.836, 493.608, 361.404 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Il Responsabile dell’esecutività F.to dott.ssa Romina Cencig"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 61,
+    "page number" : 5,
+    "bounding box" : [ 51.06, 178.056, 374.94, 221.424 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Copia conforme all’originale, in carta libera ad uso amministrativo. Lì, 04/02/2026"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 62,
+    "page number" : 5,
+    "bounding box" : [ 299.28, 150.456, 460.92, 180.024 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Il Responsabile del Procedimento dott.ssa Romina Cencig"
+  } ]
+}

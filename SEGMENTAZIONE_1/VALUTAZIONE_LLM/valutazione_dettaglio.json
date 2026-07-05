@@ -1,0 +1,352 @@
+[
+  {
+    "id_delibera": "ATTO_003",
+    "estrattore": "DOCLING",
+    "format": "ERRORE",
+    "notes": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "format": "JSON",
+    "marker_precision": 71,
+    "marker_recall": 100,
+    "boundary_accuracy": 90,
+    "text_fidelity": 80,
+    "noise_exclusion": 100,
+    "overall_score": 85,
+    "issues": [
+      "Marker labels VISTO_2 and VISTI_PARERI_1 do not match the reference (should be VISTA and VISTI).",
+      "VISTO_1 block is truncated: missing the continuation of the PIAO bullet and the subsequent bullet about deliberazione consiliare n. 6 del 11.04.2026.",
+      "Minor punctuation/spacing differences (e.g., extra spaces around 'stakeholders', uppercase 'ATTESI')."
+    ],
+    "notes": "All expected narrative markers are present, but label inaccuracies and incomplete text reduce precision and fidelity.",
+    "id_delibera": "ATTO_001",
+    "estrattore": "DOCLING",
+    "reference_source": "pdf_text_layer"
+  },
+  {
+    "format": "MARKDOWN",
+    "marker_precision": 71,
+    "marker_recall": 100,
+    "boundary_accuracy": 90,
+    "text_fidelity": 80,
+    "noise_exclusion": 100,
+    "overall_score": 85,
+    "issues": [
+      "Marker labels VISTO_2 and VISTI_PARERI_1 do not match the reference (should be VISTA and VISTI).",
+      "VISTO_1 block is truncated: missing the continuation of the PIAO bullet and the subsequent bullet about deliberazione consiliare n. 6 del 11.04.2026.",
+      "Minor punctuation/spacing differences (e.g., extra spaces around 'stakeholders', uppercase 'ATTESI')."
+    ],
+    "notes": "All expected narrative markers are present, but label inaccuracies and incomplete text reduce precision and fidelity.",
+    "id_delibera": "ATTO_001",
+    "estrattore": "DOCLING",
+    "reference_source": "pdf_text_layer"
+  },
+  {
+    "format": "JSON",
+    "marker_precision": 0,
+    "marker_recall": 100,
+    "boundary_accuracy": 85,
+    "text_fidelity": 80,
+    "noise_exclusion": 90,
+    "overall_score": 68,
+    "issues": [
+      "Marker labels incorrect (e.g., VISTO_1 instead of VISTI/VISTA/etc.)",
+      "Duplicate header text inserted inside markers (PIANO NAZIONALE DI RIPRESA E RESILIENZA (PNRR))",
+      "Missing initial heading 'LA GIUNTA COMUNALE' and attendance details before first marker"
+    ],
+    "notes": "All narrative markers retrieved with correct content but label precision low; stopped before votazione/tables/dispositivo; minimal extra noise.",
+    "id_delibera": "ATTO_004",
+    "estrattore": "DOCLING",
+    "reference_source": "pdf_text_layer"
+  },
+  {
+    "format": "MARKDOWN",
+    "marker_precision": 0,
+    "marker_recall": 100,
+    "boundary_accuracy": 80,
+    "text_fidelity": 70,
+    "noise_exclusion": 75,
+    "overall_score": 65,
+    "issues": [
+      "Marker labels incorrect (e.g., VISTO_1 instead of VISTI/VISTA/etc.)",
+      "Duplicate header text inserted inside markers (PIANO NAZIONALE DI RIPRESA E RESILIENZA (PNRR))",
+      "Contains HTML comment <!-- image --> which is not present in reference",
+      "Missing initial heading 'LA GIUNTA COMUNALE' and attendance details before first marker"
+    ],
+    "notes": "Similar to JSON but with additional image comment noise; all markers retrieved; stopped before votazione/tables/dispositivo.",
+    "id_delibera": "ATTO_004",
+    "estrattore": "DOCLING",
+    "reference_source": "pdf_text_layer"
+  },
+  {
+    "format": "JSON",
+    "marker_precision": 93,
+    "marker_recall": 100,
+    "boundary_accuracy": 30,
+    "text_fidelity": 40,
+    "noise_exclusion": 90,
+    "overall_score": 71,
+    "issues": [
+      "Extra non-standard marker ACQUISITI_PARERI",
+      "Missing DELIBERA section and subsequent clauses (voting, approvazione, pubblicazione, firme)",
+      "Truncation of the long article 11 (RICHIAMATO_2) after element o)",
+      "Omission of tables, dispositivo, and attestazioni finali"
+    ],
+    "notes": "Captured all standard preamble and Visto blocks correctly; however segmentation stops before the deliberative core and omits significant normative and procedural text.",
+    "id_delibera": "ATTO_005",
+    "estrattore": "DOCLING",
+    "reference_source": "pdf_text_layer"
+  },
+  {
+    "format": "MARKDOWN",
+    "marker_precision": 93,
+    "marker_recall": 100,
+    "boundary_accuracy": 30,
+    "text_fidelity": 40,
+    "noise_exclusion": 90,
+    "overall_score": 71,
+    "issues": [
+      "Extra non-standard marker ACQUISITI_PARERI",
+      "Missing DELIBERA section and subsequent clauses (voting, approvazione, pubblicazione, firme)",
+      "Truncation of the long article 11 (RICHIAMATO_2) after element o)",
+      "Omission of tables, dispositivo, and attestazioni finali"
+    ],
+    "notes": "Identical content to JSON version; same strengths and shortcomings.",
+    "id_delibera": "ATTO_005",
+    "estrattore": "DOCLING",
+    "reference_source": "pdf_text_layer"
+  },
+  {
+    "format": "JSON",
+    "marker_precision": 100,
+    "marker_recall": 100,
+    "boundary_accuracy": 95,
+    "text_fidelity": 80,
+    "noise_exclusion": 95,
+    "overall_score": 92,
+    "issues": [
+      "Capitalization and spacing deviations in marker text (e.g., PREDISPOSTO, ATTO, extra spaces)",
+      "Missing final punctuation in some blocks"
+    ],
+    "notes": "All required markers (PREMESSO, VISTO x2, CONSIDERATO, RITENUTO, ACQUISITI PARERI) are present and correctly labeled. The extraction stops before the votazione section, satisfying boundary requirements. Minor textual alterations affect fidelity.",
+    "id_delibera": "ATTO_006",
+    "estrattore": "DOCLING",
+    "reference_source": "pdf_text_layer"
+  },
+  {
+    "format": "MARKDOWN",
+    "marker_precision": 100,
+    "marker_recall": 100,
+    "boundary_accuracy": 95,
+    "text_fidelity": 75,
+    "noise_exclusion": 90,
+    "overall_score": 85,
+    "issues": [
+      "HTML entities &lt;&lt; &gt;&gt; used instead of plain << >>",
+      "Capitalization and spacing deviations in marker text (e.g., PREDISPOSTO, ATTO, extra spaces)",
+      "Missing final punctuation in some blocks"
+    ],
+    "notes": "Markdown version captures all markers and respects boundaries but introduces HTML entities for angle brackets and retains the same casing/spacing issues as the JSON version, lowering text fidelity and increasing perceived noise.",
+    "id_delibera": "ATTO_006",
+    "estrattore": "DOCLING",
+    "reference_source": "pdf_text_layer"
+  },
+  {
+    "format": "JSON",
+    "marker_precision": 0,
+    "marker_recall": 0,
+    "boundary_accuracy": 0,
+    "text_fidelity": 0,
+    "noise_exclusion": 0,
+    "overall_score": 0,
+    "issues": [
+      "Candidate JSON dataset not provided in the prompt."
+    ],
+    "notes": "Unable to evaluate due to missing candidate data.",
+    "id_delibera": "ATTO_002",
+    "estrattore": "DOCLING",
+    "reference_source": "pdf_text_layer"
+  },
+  {
+    "format": "MARKDOWN",
+    "marker_precision": 0,
+    "marker_recall": 0,
+    "boundary_accuracy": 0,
+    "text_fidelity": 0,
+    "noise_exclusion": 0,
+    "overall_score": 0,
+    "issues": [
+      "Candidate MARKDOWN dataset not provided in the prompt."
+    ],
+    "notes": "Unable to evaluate due to missing candidate data.",
+    "id_delibera": "ATTO_002",
+    "estrattore": "DOCLING",
+    "reference_source": "pdf_text_layer"
+  },
+  {
+    "format": "JSON",
+    "marker_precision": 20,
+    "marker_recall": 100,
+    "boundary_accuracy": 95,
+    "text_fidelity": 98,
+    "noise_exclusion": 98,
+    "overall_score": 82,
+    "issues": [
+      "Etichette marker non corrispondono esattamente a PREMESSO, CONSIDERATO, RITENUTO, VISTI, ACQUISITI (presenti suffissi _1 e ACQUISITI_PARERI_1)",
+      "Mancano i punti di deliberazione (DELIBERA) e le parti finali di firma/attestazione, sebbene esclusi volontariamente come rumore"
+    ],
+    "notes": "Tutti i contenuti delle sezioni PREMESSO, CONSIDERATO, RITENUTO, VISTI e ACQUISITI sono presenti, corretti e senza omissioni o allucinazioni. La delimitazione si ferma correttamente prima della sezione dispositiva, escludendo rumore come firme, pubblicazione e dispositivo.",
+    "id_delibera": "ATTO_008",
+    "estrattore": "DOCLING",
+    "reference_source": "pdf_text_layer"
+  },
+  {
+    "format": "MARKDOWN",
+    "marker_precision": 20,
+    "marker_recall": 100,
+    "boundary_accuracy": 95,
+    "text_fidelity": 98,
+    "noise_exclusion": 98,
+    "overall_score": 82,
+    "issues": [
+      "Etichette marker non corrispondono esattamente a PREMESSO, CONSIDERATO, RITENUTO, VISTI, ACQUISITI (presenti suffissi _1 e ACQUISITI_PARERI_1)",
+      "Mancano i punti di deliberazione (DELIBERA) e le parti finali di firma/attestazione, sebbene esclusi volontariamente come rumore"
+    ],
+    "notes": "Il contenuto testuale delle sezioni richieste è fedele al riferimento, senza alterazioni. La struttura markdown mantiene le stesse informazioni del JSON, con la stessa corretta esclusione del dispositivo e dei relativi elementi di chiusura.",
+    "id_delibera": "ATTO_008",
+    "estrattore": "DOCLING",
+    "reference_source": "pdf_text_layer"
+  },
+  {
+    "format": "JSON",
+    "marker_precision": 56,
+    "marker_recall": 56,
+    "boundary_accuracy": 30,
+    "text_fidelity": 55,
+    "noise_exclusion": 95,
+    "overall_score": 58,
+    "issues": [
+      "Marker labels incorrect: VISTO used instead of VISTA (entries 2,6,14), VISTO used instead of VISTE (entry 12), DATO_ATTO used instead of DATO ATTO (entries 7,11), VISTI_PARERI_1 used instead of VISTI (entry 16)",
+      "Missing narrative blocks: 'PROPONE DI DELIBERARE' with enumerated points 1)-5), 'LA GIUNTA COMUNALE' line, and the voting/devices section (DELIBERA, signatures, certificate, executivity)",
+      "Stopped before voting section correctly, but omitted essential proposal content, causing incomplete boundary"
+    ],
+    "notes": "Extracted text is faithful to source where present, with no hallucinations, but significant omissions and label errors reduce precision, recall, boundary accuracy, and fidelity. Noise (certificates, signatures, publication) correctly excluded.",
+    "id_delibera": "ATTO_007",
+    "estrattore": "DOCLING",
+    "reference_source": "pdf_text_layer"
+  },
+  {
+    "format": "MARKDOWN",
+    "marker_precision": 56,
+    "marker_recall": 56,
+    "boundary_accuracy": 30,
+    "text_fidelity": 55,
+    "noise_exclusion": 95,
+    "overall_score": 58,
+    "issues": [
+      "Marker labels incorrect: VISTO used instead of VISTA (entries 2,6,14), VISTO used instead of VISTE (entry 12), DATO_ATTO used instead of DATO ATTO (entries 7,11), VISTI_PARERI_1 used instead of VISTI (entry 16)",
+      "Missing narrative blocks: 'PROPONE DI DELIBERARE' with enumerated points 1)-5), 'LA GIUNTA COMUNALE' line, and the voting/devices section (DELIBERA, signatures, certificate, executivity)",
+      "Stopped before voting section correctly, but omitted essential proposal content, causing incomplete boundary"
+    ],
+    "notes": "Extracted text is faithful to source where present, with no hallucinations, but significant omissions and label errors reduce precision, recall, boundary accuracy, and fidelity. Noise (certificates, signatures, publication) correctly excluded.",
+    "id_delibera": "ATTO_007",
+    "estrattore": "DOCLING",
+    "reference_source": "pdf_text_layer"
+  },
+  {
+    "format": "JSON",
+    "marker_precision": 100,
+    "marker_recall": 57,
+    "boundary_accuracy": 20,
+    "text_fidelity": 30,
+    "noise_exclusion": 90,
+    "overall_score": 58,
+    "issues": [
+      "Missing markers such as LA GIUNTA COMUNALE, A votazione unanime e palese, DELIBERA, Infine la Giunta Comunale, PUBBLICAZIONE, ATTESTAZIONE, etc.",
+      "Text stops before the deliberation points and tables, omitting substantive content.",
+      "Marker labels include unnecessary suffixes (_1) which deviate from the expected marker format."
+    ],
+    "notes": "The captured segments are faithful to the source but the coverage is insufficient for a complete deliberation segmentation.",
+    "id_delibera": "ATTO_009",
+    "estrattore": "DOCLING",
+    "reference_source": "pdf_text_layer"
+  },
+  {
+    "format": "MARKDOWN",
+    "marker_precision": 100,
+    "marker_recall": 57,
+    "boundary_accuracy": 20,
+    "text_fidelity": 30,
+    "noise_exclusion": 90,
+    "overall_score": 58,
+    "issues": [
+      "Missing markers such as LA GIUNTA COMUNALE, A votazione unanime e palese, DELIBERA, Infine la Giunta Comunale, PUBBLICAZIONE, ATTESTAZIONE, etc.",
+      "Text stops before the deliberation points and tables, omitting substantive content.",
+      "Marker labels include unnecessary suffixes (_1) which deviate from the expected marker format."
+    ],
+    "notes": "The captured segments are faithful to the source but the coverage is insufficient for a complete deliberation segmentation.",
+    "id_delibera": "ATTO_009",
+    "estrattore": "DOCLING",
+    "reference_source": "pdf_text_layer"
+  },
+  {
+    "id_delibera": "ATTO_011",
+    "estrattore": "DOCLING",
+    "format": "ERRORE",
+    "notes": "<urlopen error [WinError 10061] Impossibile stabilire la connessione. Rifiuto persistente del computer di destinazione>"
+  },
+  {
+    "id_delibera": "ATTO_010",
+    "estrattore": "DOCLING",
+    "format": "ERRORE",
+    "notes": "<urlopen error [WinError 10061] Impossibile stabilire la connessione. Rifiuto persistente del computer di destinazione>"
+  },
+  {
+    "id_delibera": "ATTO_013",
+    "estrattore": "DOCLING",
+    "format": "ERRORE",
+    "notes": "<urlopen error [WinError 10061] Impossibile stabilire la connessione. Rifiuto persistente del computer di destinazione>"
+  },
+  {
+    "id_delibera": "ATTO_012",
+    "estrattore": "DOCLING",
+    "format": "ERRORE",
+    "notes": "<urlopen error [WinError 10061] Impossibile stabilire la connessione. Rifiuto persistente del computer di destinazione>"
+  },
+  {
+    "id_delibera": "ATTO_017",
+    "estrattore": "DOCLING",
+    "format": "ERRORE",
+    "notes": "<urlopen error [WinError 10061] Impossibile stabilire la connessione. Rifiuto persistente del computer di destinazione>"
+  },
+  {
+    "id_delibera": "ATTO_015",
+    "estrattore": "DOCLING",
+    "format": "ERRORE",
+    "notes": "<urlopen error [WinError 10061] Impossibile stabilire la connessione. Rifiuto persistente del computer di destinazione>"
+  },
+  {
+    "id_delibera": "ATTO_018",
+    "estrattore": "DOCLING",
+    "format": "ERRORE",
+    "notes": "<urlopen error [WinError 10061] Impossibile stabilire la connessione. Rifiuto persistente del computer di destinazione>"
+  },
+  {
+    "id_delibera": "ATTO_016",
+    "estrattore": "DOCLING",
+    "format": "ERRORE",
+    "notes": "<urlopen error [WinError 10061] Impossibile stabilire la connessione. Rifiuto persistente del computer di destinazione>"
+  },
+  {
+    "id_delibera": "ATTO_020",
+    "estrattore": "DOCLING",
+    "format": "ERRORE",
+    "notes": "<urlopen error [WinError 10061] Impossibile stabilire la connessione. Rifiuto persistente del computer di destinazione>"
+  },
+  {
+    "id_delibera": "ATTO_019",
+    "estrattore": "DOCLING",
+    "format": "ERRORE",
+    "notes": "<urlopen error [WinError 10061] Impossibile stabilire la connessione. Rifiuto persistente del computer di destinazione>"
+  }
+]

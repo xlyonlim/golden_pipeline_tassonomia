@@ -1,0 +1,24 @@
+[
+  {
+    "estrattore": "DOCLING",
+    "format": "JSON",
+    "n_atti": 8,
+    "marker_precision": 55.0,
+    "marker_recall": 76.62,
+    "boundary_accuracy": 55.62,
+    "text_fidelity": 57.88,
+    "noise_exclusion": 82.25,
+    "overall_score": 64.25
+  },
+  {
+    "estrattore": "DOCLING",
+    "format": "MARKDOWN",
+    "n_atti": 8,
+    "marker_precision": 55.0,
+    "marker_recall": 76.62,
+    "boundary_accuracy": 55.0,
+    "text_fidelity": 56.0,
+    "noise_exclusion": 79.75,
+    "overall_score": 63.0
+  }
+]

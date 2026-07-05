@@ -1,0 +1,4 @@
+"0","h2 = hist(cognition_df$SleepGap, breaks = 20, plot = FALSE)"
+"0","plot(h2, col = NA, border = NA, main="""","
+"0","     xlab = ""Razlika v povprečnih urah spanja med delovnimi dnevi in koncem tedna"","
+"0","     ylab = ""Frekvenca"")"

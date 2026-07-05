@@ -1,0 +1,4 @@
+"0","h1 = hist(cognition_df$AverageSleep, breaks = 20, plot = FALSE)"
+"0","plot(h1, col = NA, border = NA, main="""","
+"0","     xlab = ""Ore medie di sonno"","
+"0","     ylab = ""Frequenza"")"

@@ -1,0 +1,3 @@
+"0",""
+"0","abline(lm(Happiness ~ DASScore, data = cognition_df),"
+"0","       lwd = 2)"

@@ -1,0 +1,8 @@
+"0","dati_cor_psy = cognition_df[, c(""CognitionZscore"",""AverageSleep"",""SleepGap"",""PoorSleepQuality"",""NumEarlyClass"",""DepressionScore"",""AnxietyScore"",""StressScore"",""Happiness"",""Drinks"",""ClassesMissed"",""GPA"")]"
+"0",""
+"0","cor_mat_psy = cor(dati_cor_psy, method = ""pearson"")"
+"0",""
+"0","plot_heatmap(cor_mat_psy,"
+"0","  titolo = """","
+"0","  legenda = ""Correlazione "
+"0","globale"")"

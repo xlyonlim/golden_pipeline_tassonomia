@@ -1,0 +1,641 @@
+---
+title: "Analiza kognitivne uspešnosti pri univerzitetnih študentih"
+subtitle: "Vpliv spanja, psiholoških in vedenjskih dejavnikov na kognitivne sposobnosti študentov iz severovzhoda Združenih držav Amerike"
+author: "Ciro Esposito"
+format:
+  docx:
+    toc: true
+    number-sections: true
+editor: visual
+---
+
+# Uvod v analizo
+
+Izobraževanje in usposabljanje imata v sodobnih demokratičnih družbah vse pomembnejšo vlogo, ne le zato, ker spodbujata bolj zavestno udeležbo v civilnem življenju, temveč tudi zato, ker širita možnosti osebne, družbene in ekonomske rasti posameznika. Zaradi tega se morebitne izboljšave izobraževalnih poti ne bi smele omejevati zgolj na dostopnost izobraževanja ali na doseganje višjih izobrazbenih stopenj, temveč bi morale zajemati tudi kakovost izobraževalne izkušnje in pogoje, ki lahko študentom olajšajo ali, nasprotno, celo ovirajo uspeh.
+
+S tega vidika je treba akademsko razsežnost obravnavati skupaj z intrapersonalnimi dejavniki psihološke in vedenjske narave, ki lahko z različno intenzivnostjo vplivajo na **kognitivne sposobnosti študentov**.
+
+V zvezi s tem rezultati zadnjega okvira ISTAT\^1 o izobraževalni revščini ponujajo širše razumevanje izidov šolskih izobraževalnih poti, saj poudarjajo tako kognitivne kot osebne in socialne kompetence ter primarni izobraževalni proces umeščajo v večdimenzionalen pojav: sposobnosti sklepanja, spomina in učenja se prepletajo z vidiki, kot so motivacija, psihološko blagostanje, obvladovanje anksioznosti in individualna vedenja. V bistvu rezultati kažejo, da sta čustvena in kognitivna sfera v **neločljivi povezavi**, ki je močno povezana z učnim procesom.
+
+**Opomba pod črto \^1**: Freguja, C. (2026, April 16). Gli esiti: competenze cognitive, competenze personali e sociali \[Conference presentation slides\]. Istat. <https://www.istat.it/wp-content/uploads/2026/04/16_4_Freguja_FIN.pdf>
+
+Slika postane še kompleksnejša, če upoštevamo, da se začetek univerzitetne poti običajno razume kot **osebna izbira**, ki jo praviloma usmerjajo interesi, aspiracije in individualna poklicanost, ne pa kot zakonsko predpisana pot, kakor velja za obvezno izobraževanje.
+
+Zato bi lahko ugotavljanje, kateri vidiki vplivajo na kognitivne sposobnosti posameznikov, ki obiskujejo študijski program, predstavljalo posebej zanimivo študijo primera, tako z diagnostičnega vidika kot tudi za oblikovanje intervencijskih strategij v primerih bolj kritične uspešnosti.
+
+## Cilji in metodologija
+
+Na podlagi teh izhodišč se pričujoče poročilo osredotoča na vzorec ameriških univerzitetnih študentov, vpisanih na *liberal arts college* na severovzhodu Združenih držav Amerike. **Cilj** analize je ugotoviti, katere psihološke, vedenjske in akademske značilnosti študentov, s posebno pozornostjo na spanje, psihološko blagostanje, uživanje alkohola in obiskovanje predavanj, lahko prispevajo k izboljšanju ali poslabšanju kognitivnih sposobnosti. Uporabljeni podatkovni niz (*SleepStudy.csv*) izhaja iz študije, ki je bila prvotno zasnovana na analizi poti (*path analysis*).
+
+Vendar ta študija primera ne namerava ponoviti takšnega pristopa, temveč kot glavni statistični pristop uporabiti **modele linearne regresije**, da bi analizirala skupni učinek napovednih spremenljivk, kot so število ur spanja med tednom, kakovost spanja in samoporočani rezultati na lestvici *Depression, Anxiety, and Stress Scale (DASS-42)*. Kar zadeva uporabljeno metodologijo, je najprej predvidena eksplorativna analiza podatkov, namenjena opisu porazdelitev ter prepoznavanju morebitnih izstopajočih vrednosti ali redundanc med pojasnjevalnimi spremenljivkami; tej fazi bo sledila izgradnja multiplega modela, skupaj z diagnostiko ostankov in oceno multikolinearnosti, pri čemer bodo spremenljivke izbrane na podlagi ustreznih kriterijev in ob upoštevanju informacijske parsimoničnosti.
+
+```{r}
+library(Lock5Data)
+
+data("SleepStudy")
+
+str(SleepStudy)
+head(SleepStudy)
+```
+
+## Metodološka predpostavka
+
+Čeprav je cilj analize prepoznati razložljive in po možnosti posplošljive povezave, je treba že na začetku poudariti, da ne pričakujemo posebej visokega indeksa dobrote prileganja. Pojav, ki nas zanima, je namreč potencialno povezan s številnimi psihološkimi, socialnimi, okoljskimi in osebnimi dejavniki, ki v podatkovnem nizu niso v celoti opazovani.
+
+Poleg tega podatki izvirajo iz leta 2011 in se nanašajo na specifičen teritorialni in kulturni kontekst, ki ni zelo blizu evropskemu. Zato bodo rezultati interpretirani previdno, brez pretirane posplošitve.
+
+## Odzivna spremenljivka: CognitionZscore
+
+Kot je bilo omenjeno v prejšnjem odstavku, bo v specifikaciji modela vlogo odzivne spremenljivke imela spremenljivka `CognitionZscore`, interpretirana kot sestavljeni indeks kognitivne uspešnosti. Glede na zasnovo študije, na kateri temelji podatkovni niz, ta spremenljivka ni sestavljena iz ene same naloge, temveč iz več kazalnikov, z namenom pridobiti **čim bolj zanesljivo predstavitev obravnavanega pojava**.\^2
+
+**Opomba pod črto \^2**: Indeks se običajno oblikuje takrat, ko proučevanega pojava ni mogoče neposredno opazovati z eno samo naravno mero, zato ga je treba prikazati z več kazalniki. (OECD, European Union, & European Commission, Joint Research Centre, 2008) <https://doi.org/10.1787/9789264043466-en>
+
+Natančneje, gre za kombinacijo treh objektivnih nalog in ene subjektivne ocene spomina:
+
+- prva naloga je **naloga odloženega priklica iz spomina**, pri kateri študenti po desetminutnem intervalu poskušajo priklicati trideset pogostih samostalnikov, kar ponuja pokazatelj kratkoročnega oziroma odloženega verbalnega spomina;
+
+- druga je **Digit-Symbol Coding Task**, ki meri zaznavno-motorično hitrost, torej hitrost, s katero posameznik obdela vizualne informacije in oblikuje pravilen odgovor;
+
+- tretja je **Letter Cancellation Task**, povezana z vzdrževano pozornostjo in sposobnostjo prepoznavanja relevantnih dražljajev znotraj širšega nabora vizualnih dražljajev.
+
+Glede na opisano je subjektivna ocena splošne kakovosti spomina nazadnje izmerjena na sedemstopenjski lestvici. Na tej točki avtorji rezultate posameznih komponent standardizirajo in nato seštejejo, s čimer oblikujejo mero, imenovano $Cognition Index$:
+
+$$\text{Cognition Index}
+\approx
+Z_{\text{Memory Recall}}
++
+Z_{\text{Digit-Symbol Coding}}
++
+Z_{\text{Letter Cancellation}}
++
+Z_{\text{Subjective Memory}}$$
+
+Višje vrednosti označujejo višje kognitivne rezultate glede na referenčno povprečje, medtem ko nižje vrednosti označujejo nižje kognitivne rezultate glede na isto povprečje.
+
+Vendar obstaja temeljna težava: razpon vrednosti spremenljivke Cognition Index in spremenljivke CognitionZscore v podatkovnem nizu v R Studiu se ne ujemata. V izvirnem članku ima mera vrednosti približno med \[-5.8; 6.8\], medtem ko je v podatkovnem nizu `Lock5Data` opazovani razpon enak \[-1.62; 1.96\].
+
+### Umestitev možne transformacije
+
+Knjižnica `Lock5Data` opredeljuje *CognitionZscore* kot *"score on a test of cognitive skills"*. Pred uporabo te spremenljivke kot odzivne spremenljivke v modelu je zato smiselno preveriti njene mere položaja in variabilnosti:
+
+```{r}
+options(scipen = 999) # izognem se eksponentnemu zapisu 
+
+y <- SleepStudy$CognitionZscore
+
+summary(y)
+range(y) # na.rm = TRUE lahko izpustimo, saj ni manjkajočih vrednosti
+mean(y)
+sd(y)
+```
+
+Opazovano povprečje je v bistvu enako 0, kar je skladno z naravo standardiziranega rezultata. Vendar pa standardni odklon, ki znaša približno 0.71, odpira določen dvom glede hipoteze, da bi indeks ustrezal preprosti vsoti štirih standardiziranih komponent, opisanih v članku.
+
+Če bi bil indeks dejansko zgrajen kot neposredna vsota štirih standardiziranih spremenljivk, bi po splošni lastnosti variance vsote (*Rice, 2007, p. 104, Corollari A/B*)\^3 veljalo:
+
+$$Var(X+Y)=Var(X)+Var(Y)+2Cov(X,Y)$$
+
+Smisel formule je, da se pri vsoti spremenljivk ne seštevajo samo posamezne variance, temveč tudi prispevek kovarianc med pari spremenljivk.
+
+**Opomba pod črto \^3**: Rice, J. A. (2007). *Mathematical statistics and data analysis* (3rd ed.). Cengage Learning.
+
+Ker je vsaka komponenta standardizirana in ima zato varianco enako 1, pri standardiziranih spremenljivkah pa kovarianca sovpada s korelacijo, dobimo:
+
+$$Var(Z_1+Z_2+Z_3+Z_4)
+=
+4
++
+2\sum_{i<j} Cov(Z_i,Z_j)$$
+
+V primeru neodvisnih komponent bi bile vse kovariance enake 0, zato bi bil standardni odklon, dobljen iz vsote varianc, enak 2, kar je precej oddaljeno od vrednosti, opažene v podatkovnem nizu.
+
+$$sd(Z_1+Z_2+Z_3+Z_4)=\sqrt{4}=2$$
+
+Če bi bile komponente pozitivno korelirane, kar je pri testih, povezanih s kognitivno sfero, verjetno, kovariance ne bi bile enake nič. Nasprotno, vplivale bi na standardni odklon, ki bi se povečal nad vrednost 2 iz hipoteze o neodvisnosti in bi se tako še bolj oddaljil od vrednosti 0.71, opažene v podatkovnem nizu.
+
+Ena možna razlaga transformacije je, da **standardizirane vrednosti posameznih komponent niso bile seštete, temveč povprečene**. V tem primeru, če ponovno upoštevamo primer neodvisnosti, dobimo:
+
+$$sd(\bar{Z})=\frac{\sqrt{4}}{4}=0.5$$
+
+Če so med komponentami prisotne kovariance, ki jih žal ne poznamo, saj so notranje povezane s sestavljenim indeksom, bi se te dodale končni variabilnosti in povečale rezultat. Zato bi lahko bila takšna konstrukcija **združljiva z opazovanim standardnim odklonom približno 0.71**.
+
+Posledično, ker natančna transformacija, uporabljena v podatkovnem nizu `Lock5Data`, ni z gotovostjo znana, ni mogoče določiti vnaprej določenega teoretičnega razpona za *CognitionZscore*. Niti v izvirnem članku niti v dokumentaciji paketa namreč ni naveden omejen support tipa \[-a; a\]. Zato se v tem delu razpon spremenljivke obravnava kot **empirični razpon**, torej kot interval, ki je dejansko opažen v analiziranem vzorcu.
+
+Dodati je treba, da standardizacija v Z-score po definiciji ne zapre vrednosti znotraj omejenega intervala tipa (-a; a), temveč jih zgolj preračuna glede na povprečje in standardni odklon.\^3 S tem vrednosti preslika na standardizirano lestvico, ne da bi spremenila obliko porazdelitve in ne da bi spremenljivki samodejno dodelila končen teoretični razpon:
+
+$$z=\frac{x-\bar{x}}{sd(x)}$$
+
+**Opomba pod črto \^3:** OECD/European Union/EC-JRC. (2008). *Handbook on constructing composite indicators: Methodology and user guide*. OECD Publishing. <https://doi.org/10.1787/9789264043466-en>
+
+Posledično, ker natančna formula transformacije, ki jo je uporabila ekipa `Lock5Data`, ni znana, **ni mogoče z gotovostjo potrditi obstoja teoretičnega razpona**: niti v izvirnem članku niti v dokumentaciji paketa R ni naveden omejen support tipa (-a; a). Zato se razpon, opažen v vzorcu, obravnava kot **empirični razpon**.
+
+## Porazdelitev in diskriminativna sposobnost CognitionZscore
+
+Pred uporabo `CognitionZscore` kot odzivne spremenljivke je smiselno preveriti, da opažene vrednosti niso nenormalno koncentrirane na skrajnih delih porazdelitve. Ta korak je koristen, ker lahko pri indeksih in sestavljenih rezultatih močno kopičenje na najnižji ali najvišji vrednosti kaže na možen ***floor*** ali ***ceiling effect***, s čimer se zmanjša sposobnost mere, da razlikuje med osebami z zelo nizko ali zelo visoko uspešnostjo. Najprej si je mogoče ogledati kvantile porazdelitve:
+
+```{r}
+# izračun empiričnih ekstremov
+y <- SleepStudy$CognitionZscore
+min_y <- min(y)
+max_y <- max(y)
+
+# kvantili za pregled repov porazdelitve
+quantile(y, probs = c(0.01, 0.05, 0.25, 0.50, 0.75, 0.95, 0.99))
+```
+
+Izpis pokaže, da je porazdelitev dobro koncentrirana okoli ničle: prvi kvartil znaša -0.48, mediana -0.01, tretji kvartil pa 0.44. Če upoštevamo empirični razpon, sta posebej zanimiva prvi in zadnji percentil, ki znašata -1.4836 oziroma 1.7388, kar pomeni, da so skrajne vrednosti oddaljene od središča porazdelitve.
+
+Za oceno morebitnega kopičenja pa je treba preveriti, koliko opazovanj se natančno ujema z najmanjšo in največjo opaženo vrednostjo. Zato je uporabljen kriterij, ki so ga predlagali Terwee et al. (2007)\^4, po katerem se prisotnost *floor* ali *ceiling effects* šteje za problematično, kadar več kot 15 % oseb doseže najnižji ali najvišji možni rezultat:
+
+**Opomba pod črto \^4:** Terwee, C. B., Bot, S. D. M., de Boer, M. R., van der Windt, D. A. W. M., Knol, D. L., Dekker, J., Bouter, L. M., & de Vet, H. C. W. (2007). Quality criteria were proposed for measurement properties of health status questionnaires. *Journal of Clinical Epidemiology*. <https://doi.org/10.1016/j.jclinepi.2006.03.012>
+
+```{r}
+hist(y, freq = FALSE,
+     breaks = 20,
+     main = "Porazdelitev CognitionZscore in skrajne vrednosti",
+     xlab = "CognitionZscore",
+     ylab = "Gostota")
+
+lines(density(y), lwd = 2)
+
+abline(v = min_y, lty = 2, lwd = 2)
+abline(v = max_y, lty = 2, lwd = 2)
+
+rug(y)
+```
+
+Na Sliki 1 je prikazan histogram, dopolnjen s krivuljo gostote, *rug plotom* in navpičnima črtkanima črtama pri opaženih skrajnih vrednostih. Tudi v tem primeru skrajne vrednosti obstajajo, **vendar ne predstavljajo očitnih točk kopičenja**, kar nakazuje, da v vzorcu ni prisoten izrazit učinek “tal” ali “stropa”. Krivulja gostote poleg tega kaže, da je **porazdelitev zvezna** in da pri skrajnih vrednostih ni zaznati saturacije. Oblika je približno **zvonasta**, torej ni daleč od normalne porazdelitve, čeprav ni popolnoma Gaussova zaradi **rahle asimetrije v desno**.
+
+## Metodološka podpora iz obstoječe literature
+
+Če upoštevamo predhodno literaturo, Norman (2010)\^5 poudarja, da parametričnih metod, kot so analiza variance, regresija in korelacija, ni treba samodejno izključiti ob prisotnosti **Likertovih lestvic** ali **izpeljanih rezultatov**, saj številne študije kažejo robustnost parametričnih metod glede na zmerne kršitve predpostavk. Poleg tega avtorja Carifio in Perla (2008)\^6 poudarjata razliko med posameznimi ordinalnimi postavkami in agregiranimi lestvicami; slednje je lažje obravnavati kot kvantitativne mere.
+
+**Opomba pod črto \^5:** Norman, G. (2010). Likert scales, levels of measurement and the “laws” of statistics. *Advances in Health Sciences Education*. <https://doi.org/10.1007/s10459-010-9222-y>
+
+**Opomba pod črto \^6:** Carifio, J., & Perla, R. (2008). Resolving the 50-year debate around using and misusing Likert scales. *Medical Education*. <https://doi.org/10.1111/j.1365-2923.2008.03172.x>
+
+```{r}
+boxplot(y, ylab = "CognitionZscore")
+IQR(y)
+boxplot.stats(y)$stats
+```
+
+Za obogatitev eksplorativne analize odvisne spremenljivke je na Sliki 2 prikazana dodatna grafična predstavitev porazdelitve, in sicer box-plot.
+
+Prva stvar, ki izstopa, je, da je 50 % opazovanj zgoščenih v razmeroma ozkem intervalu okoli mediane in blizu ničle. To je dodaten znak, da je bila pri transformaciji, uporabljeni za pridobitev spremenljivke, dejansko izvedena standardizacija. Kot je bilo že razvidno iz prejšnjega izpisa funkcije `quantile()`, je prvi kvartil enak -0.48, mediana -0.01, tretji kvartil pa 0.44.
+
+Interkvartilni razpon je enak 0.92, kar izhaja iz razlike med tretjim in prvim kvartilom: 0.44 - (-0.48). Brki box-plota se raztezajo od -1.62 do 1.77. Zanimivo je, da spodnji brk sovpada z najmanjšo opaženo vrednostjo porazdelitve, medtem ko se to v zgornjem delu ne zgodi. V tem območju sta prisotni dve izstopajoči vrednosti, ki pa se ne zdita posebej ekstremni in na tej stopnji analize ne predstavljata resničnega problema.
+
+```{r}
+qqnorm(y, main = " ")
+
+qqline(y)
+```
+
+Za zaključek Slika 3, tj. QQ-plot, kaže, da se opazovanja na splošno dobro prilegajo teoretični diagonali. To lahko, ob upoštevanju tudi krivulje gostote iz Slike 1, nakazuje, da se porazdelitev `CognitionZscore` ne oddaljuje izrazito od približno normalne porazdelitve. Majhna oddaljenost opazovanj od premice v repih je zanemarljiva, vendar ponovno potrjuje težnjo k rahli pozitivni asimetriji.
+
+```{r}
+shapiro.test(y)
+```
+
+Kot podporo grafični analizi je bil izveden tudi Shapiro-Wilkov test. Test vrne p-vrednost približno 0.318, kar pri 5-odstotni ravni značilnosti pomeni, da ničelne hipoteze ne zavrnemo. Takšen rezultat ni samoumeven, če upoštevamo, da je test pogosto občutljiv na majhna odstopanja od normalnosti pri večjih vzorcih.
+
+Na splošno do sedaj izvedena analiza kaže, da je mogoče `CognitionZscore` obravnavati kot **veljavno zvezno kvantitativno spremenljivko** za predstavitev odvisne spremenljivke, seveda ob nadaljnjem preverjanju predpostavk linearnega modela na ostankih.
+
+\# Opis in priprava podatkovnega niza\
+\
+\## Podatkovni niz SleepStudy.csv\
+\
+Izbrani podatkovni niz, \`SleepStudy.csv\`, je sestavljen iz 253 opazovanj in 27 spremenljivk ter ne vsebuje manjkajočih vrednosti.\
+\
+\`\`\`{r}\
+sum(is.na(SleepStudy))\
+\`\`\`\
+\
+Vsaka statistična enota predstavlja univerzitetnega študenta, za katerega so zbrane informacije\^6, povezane z univerzitetno izkušnjo, med drugim stanje duševnega zdravja, vsakodnevne navade, akademska uspešnost in kognitivna uspešnost. V spodnji tabeli je podan celovit pregled spremenljivk, ki temelji tako na izvirni študiji kot tudi na opisu spremenljivk v paketu R:
+
+| Spremenljivka | Kratek opis |
+|------------------------------------|------------------------------------|
+| `Gender` | Binarna kategorijska mera, ki označuje spol študenta: `1 = moški`, `0 = ženska`. |
+| `ClassYear` | Ordinalna kategorijska mera, ki označuje letnik študija študenta: `1 = prvi letnik`, `2 = drugi letnik`, `3 = tretji letnik`, `4 = četrti letnik`. |
+| `LarkOwl` | Ordinalna in samoporočana kategorijska mera cirkadiane preference študenta, torej nagnjenosti k bolj “večernemu” ali bolj “jutranjemu” tipu. Izhaja iz *Owl Lark Scale*: višji rezultati kažejo večjo jutranjo preferenco. V podatkovnem nizu je rekodirana v `Owl`, `Neither` in `Lark`. Teoretični osnovni rezultat se giblje od **16 do 86**; mejne vrednosti so: `Owl = 16–41`, `Neither = 42–58`, `Lark = 59–86`. |
+| `NumEarlyClass` | Diskretna kvantitativna mera, ki označuje število dni oziroma tedenskih predavanj z zelo zgodnjim začetkom, torej ob **8:00 ali 8:30**, pred 9. uro. V podatkovnem nizu se teoretično giblje od **0 do 5**. |
+| `EarlyClass` | Binarna kategorijska mera, ki označuje prisotnost vsaj enega zgodnjega predavanja v tednu: `1 = vsaj eno zgodnje predavanje`, `0 = nobeno zgodnje predavanje`. |
+| `GPA` | Zvezna kvantitativna mera akademske uspešnosti, izražena kot akademsko povprečje na ameriški lestvici **0–4**. Gre za mero z objektivno podlago, saj se nanaša na uradni semestrski GPA za študente, ki so dovolili dostop do teh podatkov. |
+| `ClassesMissed` | Diskretna kvantitativna in samoporočana mera števila predavanj, ki jih je študent izpustil od začetka semestra. |
+| `CognitionZscore` | Standardizirani indeks kognitivne uspešnosti, uporabljen kot odzivna spremenljivka. Zgrajen je na podlagi nalog odloženega priklica, zaznavno-motorične hitrosti, vzdrževane pozornosti in samoocene spomina; v članku naj bi bile komponente standardizirane in nato seštete. Nima fiksnega teoretičnega razpona, ker gre za standardizirani rezultat. |
+| `PoorSleepQuality` | Diskretna kvantitativna in samoporočana mera splošne kakovosti spanja v zadnjem mesecu. Temelji na [PSQI](https://www.sleep.pitt.edu/psqi "The Pittsburgh Sleep Quality Index"); višje vrednosti označujejo slabšo kakovost spanja. Teoretični razpon skupnega rezultata je **0–21**, vrednosti **\> 5** pa kažejo na možno slabo kakovost spanja. |
+| `DepressionScore` | Diskretna kvantitativna in samoporočana mera stopnje depresivne simptomatike. Pripada depresivni podlestvici DASS-42; teoretični razpon je **0–42**. |
+| `AnxietyScore` | Diskretna kvantitativna in samoporočana mera stopnje anksiozne simptomatike. Pripada anksiozni podlestvici DASS-42; teoretični razpon je **0–42**. |
+| `StressScore` | Diskretna kvantitativna in samoporočana mera zaznanega stresa. Pripada stresni podlestvici DASS-42; teoretični razpon je **0–42**. |
+| `DepressionStatus` | Ordinalna kategorijska in samoporočana mera stopnje depresivne simptomatike, izpeljana iz `DepressionScore`. Članek ne navaja pragov za prehod med posameznimi kategorijami; opažena rekodifikacija pa je: `normal = 0–9`, `moderate = 10–20`, `severe = 21 ali več`. Tako sta kategoriji DASS `mild` in `extremely severe` združeni. |
+| `AnxietyStatus` | Ordinalna kategorijska in samoporočana mera stopnje anksiozne simptomatike, izpeljana iz `AnxietyScore`; tudi tukaj pragovi niso navedeni, zato je interpretacija podobna kot pri `DepressionStatus`. |
+| `Stress` | Ordinalna oziroma binarna kategorijska in samoporočana mera ravni stresa, izpeljana iz `StressScore`. V podatkovnem nizu se pojavlja v dveh ravneh: `normal = 0–14` in `high = 15 ali več`. |
+| `DASScore` | Skupni rezultat čustvene stiske, izračunan kot vsota podlestvic depresije, anksioznosti in stresa. V članku ustreza meri “mood” prek DASS-42; višje vrednosti označujejo večje čustvene težave. Ker se vsaka podlestvica giblje od **0 do 42**, je skupni teoretični razpon **0–126**. |
+| `Happiness` | Diskretna kvantitativna in samoporočana mera stopnje zaznane sreče študenta. Članek ne navaja referenčne psihometrične lestvice niti teoretičnega razpona; v opazovanem vzorcu se giblje od **0 do 35**. |
+| `AlcoholUse` | Ordinalna kategorijska in samoporočana mera profila uživanja alkohola. Sestavljena je iz štirih ravni: `Abstain`, `Light`, `Moderate` in `Heavy`. Tudi v tem primeru članek ne navaja mejnih vrednosti za razlikovanje med kategorijami. |
+| `Drinks` | Diskretna kvantitativna in samoporočana mera števila pijač, zaužitih v tipičnem večeru ob koncu tedna. V članku je ena pijača opredeljena kot 12 oz piva, 5 oz vina ali 1 oz žgane pijače. |
+| `WeekdayBed` | Časovna oziroma urna in samoporočana mera povprečnega časa, ko gre študent spat med delovnimi dnevi, izražena v decimalnih urah. Vrednosti nad 24 označujejo ure po polnoči; na primer `25.75` ustreza približno 01:45. Izhaja iz retrospektivne ankete o spanju, ki se nanaša na teden pred testom. |
+| `WeekdayRise` | Časovna oziroma urna in samoporočana mera povprečnega časa prebujanja med delovnimi dnevi, izražena v decimalnih urah. Izhaja iz retrospektivne ankete o spanju, ki se nanaša na teden pred testom. |
+| `WeekdaySleep` | Zvezna kvantitativna in samoporočana mera povprečnega števila ur spanja na noč med delovnimi dnevi. Izhaja iz retrospektivne ankete o spanju, ki se nanaša na teden pred testom. |
+| `WeekendBed` | Časovna oziroma urna in samoporočana mera povprečnega časa, ko gre študent spat med vikendom, izražena v decimalnih urah. Vrednosti nad 24 označujejo ure po polnoči. Izhaja iz retrospektivne ankete o spanju, ki se nanaša na teden pred testom. |
+| `WeekendRise` | Časovna oziroma urna in samoporočana mera povprečnega časa prebujanja med vikendom, izražena v decimalnih urah; na primer `10.25` ustreza približno 10:15. Izhaja iz retrospektivne ankete o spanju, ki se nanaša na teden pred testom. |
+| `WeekendSleep` | Zvezna kvantitativna in samoporočana mera povprečnega števila ur spanja na noč med vikendom. Izhaja iz retrospektivne ankete o spanju, ki se nanaša na teden pred testom. |
+| `AverageSleep` | Povprečno število ur spanja na noč, izračunano kot ponderirano tedensko povprečje med spanjem med delovnimi dnevi in spanjem med vikendom. Izhaja iz retrospektivne ankete o spanjupektivne ankete o spanju, ki se nanaša na teden pred testom; trajanje je ocenjeno kot interval med *trenutkom, ko udeleženec zapre oči, da bi zaspal, in dokončnim prebujanjem*. |
+| `AllNighter` | Binarna kategorijska mera, ki označuje, ali je študent v preteklih dveh tednih preživel vsaj eno noč brez spanja: `1 = da`, `0 = ne`. |
+
+**Opomba pod črto \^6:** od vsakega udeleženca je bilo zahtevano, da opravi teste za merjenje kognitivnih sposobnosti, izpolni vprašalnik o osebnih stališčih in navadah ter zabeleži urnike, povezane s spanjem, pri čemer je opisal tudi kakovost spanja v obdobju dveh tednov.
+
+## Izključitev “odvečnih” spremenljivk
+
+Ker nekatere spremenljivke opisujejo zelo podobne vidike, bi njihova hkratna vključitev verjetno povzročila redundanco. Zato se po lastni presoji ne ohrani vseh možnih napovednih spremenljivk v specifikaciji modela, temveč se izbere bolj parsimonien nabor glede na informacijo, ki jo vsebuje posamezni prediktor. Namen je preprečiti dodajanje odvečnih elementov, ki dejansko ne izboljšajo razlage opazovanega pojava:
+
+- `NumEarlyClass` je bolj informativna kot `EarlyClass`, saj ne označuje le prisotnosti predavanj, ki se začnejo pred 9. uro, temveč tudi kvantificira njihovo število;
+
+- `AverageSleep` je sintetična mera povprečnega trajanja spanja in se prekriva s spremenljivkama, kot sta `WeekdaySleep`, ki meri število ur spanja v tedenski rutini, in `WeekendSleep`, ki ima enako funkcijo, vendar za konec tedna. Zato se zadnji dve spremenljivki izključita;
+
+- `WeekdayBed`, `WeekdayRise`, `WeekendBed` in `WeekendRise`, ki se nanašajo na povprečne ure uspavanja in prebujanja ter s tem na pravilnost ritma spanja in budnosti, bodo obravnavane v eksplorativni fazi, vendar bo v glavnem modelu prednost dana spremenljivki `LarkOwl`, da se model ne bi preveč obremenil;
+
+- `Drinks`, kvantitativna spremenljivka za uživanje alkohola, bo imela prednost pred kategorijsko klasifikacijo `AlcoholUse`;
+
+- `DepressionStatus`, `AnxietyStatus` in `Stress` se izključijo, ker jih že R opredeljuje kot kodirano različico spremenljivk `DepressionScore`, `AnxietyScore` in `StressScore`.
+
+Psihološki blok bo dodatno poglobljen z dvema alternativnima modeloma: enim z `DASScore` kot sintetično skupno mero depresije, anksioznosti in stresa ter drugim s tremi ločenimi podlestvicami `DepressionScore`, `AnxietyScore` in `StressScore`. Razlikovanje med tremi dimenzijami bi lahko bilo pomembno, saj so depresija, anksioznost in stres sicer semantično povezani in se na prvi pogled lahko zdijo skoraj “sopomenke”, vendar bi se lahko izkazalo, da so **različno povezani** s kognitivno uspešnostjo; zato je smiselno to preveriti.
+
+```{r}
+# Zmanjšanje podatkovnega niza
+cognition_df <- SleepStudy[, c("CognitionZscore","AverageSleep","WeekdaySleep","WeekendSleep","PoorSleepQuality","NumEarlyClass","LarkOwl","AllNighter","DASScore","DepressionScore","AnxietyScore","StressScore","Happiness","Drinks","ClassesMissed","GPA","Gender","ClassYear")]
+```
+
+## Konstrukcija spremenljivke SleepGap
+
+Izključitev spremenljivk, ki ločeno opisujejo spanje med tednom in ob koncu tedna, bi lahko povzročila izgubo dela informacijskega prispevka. Zato se definira spremenljivka `SleepGap`:
+
+$$\text{SleepGap} = \text{WeekendSleep} - \text{WeekdaySleep}$$
+
+Na ta način je mogoče pravilnost spanja med delovnimi dnevi in koncem tedna predstaviti z enim samim regresorjem: pozitivne vrednosti pomenijo, da i-ti študent spi več ob koncu tedna kot med delovnimi dnevi, negativne vrednosti pomenijo nasprotno, vrednosti blizu nič pa kažejo na večjo pravilnost spanja.
+
+```{r}
+cognition_df$SleepGap = cognition_df$WeekendSleep - cognition_df$WeekdaySleep
+
+cognition_df$WeekdaySleep = NULL
+cognition_df$WeekendSleep = NULL
+```
+
+## Rekodiranje kategorijskih spremenljivk
+
+Po zmanjšanju podatkovnega niza se spremenljivke `Gender`, `AllNighter` in `ClassYear` rekodirajo kot kategorijske spremenljivke, da jih bo mogoče pravilno vključiti v regresijski model s poznejšim kodiranjem v dummy spremenljivke.
+
+Kar zadeva `LarkOwl`, jo podatkovni niz že sam po sebi obravnava kot kategorijsko spremenljivko. Kljub temu se zaradi priročnosti s funkcijo `relevel()` nastavi kategorija *Neither* kot referenčna kategorija. Ta izbira je utemeljena s tem, da študenti v tej kategoriji predstavljajo **vmesno stanje**: ne spadajo niti v profil *Lark*, povezan s tistimi, ki gredo običajno spat in se zbujajo zgodaj, niti v profil *Owl*, povezan s tistimi, ki gredo običajno spat in se zbujajo pozno. Zato lahko *Neither* predstavlja naravnejšo primerjalno kategorijo glede na druga dva “življenjska sloga”.
+
+```{r}
+cognition_df$Gender = factor(cognition_df$Gender,
+levels = c(0, 1),
+labels = c("Female", "Male"))
+
+cognition_df$AllNighter = factor(cognition_df$AllNighter,
+levels = c(0, 1),
+labels = c("No", "Yes"))
+
+cognition_df$ClassYear = factor(cognition_df$ClassYear,
+levels = c(1, 2, 3, 4),
+labels = c("1° Year", "2° Year", "3° Year", "4° Year"))
+
+# sprememba referenčne kategorije
+cognition_df$LarkOwl = relevel(cognition_df$LarkOwl, ref = "Neither")
+
+str(cognition_df) # preverjanje faktorizacije
+```
+
+## Standardizacija numeričnih prediktorjev
+
+Izbrani kvantitativni prediktorji bodo pred oceno modelov standardizirani, da se olajša interpretacija koeficientov, saj so izraženi v povsem različnih merskih lestvicah. To je še posebej pomembno, ker je `CognitionZscore` sestavljeni rezultat brez naravne merske enote, ki bi bila neposredno interpretabilna.
+
+Natančneje, posamezni koeficient ne bo več izražal spremembe povprečne vrednosti odzivne spremenljivke ob povečanju prediktorja za eno enoto v njegovi izvirni lestvici, temveč spremembo povprečne vrednosti odziva ob povečanju prediktorja za **eno standardno deviacijo**. Ta postopek bo izveden s funkcijo `scale()`, vendar šele po prvi eksplorativni analizi obravnavanih spremenljivk.
+
+# EDA: Eksplorativna analiza podatkov
+
+```{r}
+library(ggplot2)
+library(tidyr)
+```
+
+## Numerične spremenljivke
+
+### AverageSleep
+
+```{r}
+h1 = hist(cognition_df$AverageSleep, breaks = 20, plot = FALSE)
+plot(h1, col = NA, border = NA, main="",
+     xlab = "Povprečne ure spanja",
+     ylab = "Frekvenca")
+
+grid(nx = NULL, ny = NULL, col = "gray95", lty = 1)
+
+plot(h1, add = TRUE,
+     col = adjustcolor("#2C7FB8", alpha.f = 0.18),
+     border = "#2C7FB8")
+```
+
+```{r}
+summary(cognition_df$AverageSleep) ; sd(cognition_df$AverageSleep) 
+```
+
+Na Sliki 4 je prikazana porazdelitev povprečnega števila ur spanja na noč. Prva značilnost, ki jo je mogoče opaziti, je približno zvonasta oblika, pri čemer se večina vrednosti nahaja med približno 7 in 9 urami. Povprečje znaša 7.97, kar je zelo blizu, skoraj prekrivno z mediano, ki ustreza 8 uram, z razliko približno treh minut.\^7 To kaže na splošno precej uravnoteženo porazdelitev z zanemarljivo asimetrijo. Variabilnost je zmerna, saj standardni odklon znaša približno 0.96, torej približno eno uro. Prvi kvartil znaša 7.43, tretji kvartil pa 8.59, kar pomeni, da osrednjih 50 % študentov v povprečju spi med približno 7 urami in 26 minutami ter 8 urami in 35 minutami.
+
+**Opomba pod črto \^7:** Pretvorba decimalnih vrednosti v minute je precej neposredna: decimalni del je dovolj pomnožiti s 60, na primer 7.966 ure ≈ 7 ur in 58 minut.
+
+### SleepGap
+
+```{r}
+h2 = hist(cognition_df$SleepGap, breaks = 20, plot = FALSE)
+plot(h2, col = NA, border = NA, main="",
+     xlab = "Razlika v povprečnih urah spanja med delovnimi dnevi in koncem tedna",
+     ylab = "Frekvenca")
+
+grid(nx = NULL, ny = NULL, col = "gray95", lty = 1)
+
+plot(h2, add = TRUE,
+     col = adjustcolor("#2C7FB8", alpha.f = 0.18),
+     border = "#2C7FB8")
+```
+
+```{r}
+summary(cognition_df$SleepGap) ; sd(cognition_df$SleepGap) 
+```
+
+Na Sliki 5, ki še vedno spada v blok, povezan s spalnimi navadami, je prikazana porazdelitev predhodno ustvarjene spremenljivke `SleepGap`, izračunane kot razlika med urami spanja ob koncu tedna in urami spanja med delovnimi dnevi. Čeprav nekoliko manj izrazito, je tudi tukaj mogoče opaziti obliko, podobno zvonasti porazdelitvi. Pri višjih vrednostih pa se oblika spremeni v desni rep z visokimi, včasih tudi ekstremnimi vrednostmi: opaziti je nekaj študentov, ki ob koncu tedna spijo precej več kot med delovnimi dnevi, kar nakazuje možno **tendenco nadomeščanja spanja ob koncu tedna**.
+
+V povprečju študenti ob koncu tedna spijo približno 21 minut več kot med preostalim delom tedna. Osrednjih 50 % opazovanj se nahaja med približno 37 minutami manj in 1 uro ter 27 minutami več spanja. To kaže na določeno heterogenost ritmov spanja in budnosti: če del študentov ob koncu tedna spi več, ima **nezamerljiv delež študentov negativne vrednosti**, kar pomeni, da poročajo o manj spanja ob koncu tedna kot med delovnimi dnevi. Takšna nasprotna tendenca pravzaprav ni povsem nepredstavljiva, če upoštevamo različne dejavnosti, kot so udeležba na zabavah, uživanje alkohola, študijske obveznosti, verske dejavnosti ob prebujanju ali predvsem uporaba elektronskih naprav v urah pred spanjem.\^8
+
+**Opomba pod črto \^8:** DeMartini, K. S., & Fucito, L. M. (2014). *Variations in sleep characteristics and sleep-related impairment in at-risk college drinkers: A latent profile analysis*. *Health Psychology*, 1164–1173. <https://doi.org/10.1037/hea0000115>
+
+De Medeiros Lopes, X. F., Silva Araújo, M. F., de Carvalho Cordeiro Lira, N., de Sousa Dantas, D., & de Souza, J. C. (2022). *Social, biological and behavioral factors associated with social jet lag and sleep duration in university students from a low urbanized city*. *Journal of Multidisciplinary Healthcare*. <https://doi.org/10.2147/JMDH.S337361>
+
+### PoorSleepQuality
+
+```{r}
+tab_psq = table(cognition_df$PoorSleepQuality)
+bp1 = barplot(tab_psq, plot = FALSE)
+
+plot.new()
+plot.window(xlim = c(min(bp1) - 0.8, max(bp1) + 0.8),
+            ylim = c(0, max(tab_psq) * 1.15))
+
+grid(nx = NULL, ny = NULL, col = "gray95", lty = 1)
+
+barplot(tab_psq, add = TRUE,
+        col = adjustcolor("#2C7FB8", alpha.f = 0.18),
+        border = "#2C7FB8",
+        axes = FALSE)
+
+axis(1, at = bp1, labels = names(tab_psq))
+axis(2)
+
+title(main = "",
+      xlab = "Zaznana kakovost spanja v zadnjem mesecu",
+      ylab = "Frekvenca")
+```
+
+```{r}
+summary(cognition_df$PoorSleepQuality) ; sd(cognition_df$PoorSleepQuality) 
+```
+
+Porazdelitev `PoorSleepQuality` v stolpčnem diagramu na Sliki 6 kaže jasno asimetrijo v desno: večina študentov se koncentrira na srednje nizkih vrednostih lestvice, kar kaže na kakovost spanja, ki niha med optimalno in rahlo problematično. Mediana znaša 6 in je skoraj sosednja povprečju, ki znaša 6.25. Interkvartilni razpon se nahaja med 4 in 8, kar pomeni, da se polovica opazovanj uvršča na nizke ali zmerne ravni zaznane slabe kakovosti spanja. Standardni odklon, ki znaša približno 2.92, pa opozarja na variabilnost znotraj vzorca, ki je ni mogoče zanemariti.
+
+Skratka, tudi v tem primeru se pojavi določena distribucijska heterogenost, s prevlado srednje nizkih vrednosti in manjšim deležem primerov z večjo kritičnostjo. Ti primeri bi se lahko semantično povezovali z možnimi dejavniki, omenjenimi v zgornji analizi negativnih vrednosti `SleepGap`.
+
+### NumEarlyClass
+
+```{r}
+tab_early <- table(cognition_df$NumEarlyClass)
+bp2 <- barplot(tab_early, plot = FALSE)
+
+plot.new()
+plot.window(xlim = c(min(bp2) - 0.8, max(bp2) + 0.8),
+            ylim = c(0, max(tab_early) * 1.15))
+
+grid(nx = NULL, ny = NULL, col = "gray95", lty = 1)
+
+barplot(tab_early, add = TRUE,
+        col = adjustcolor("#2C7FB8", alpha.f = 0.18),
+        border = "#2C7FB8",
+        axes = FALSE)
+
+axis(1, at = bp2, labels = names(tab_early))
+axis(2)
+
+title(main = "",
+      xlab = "Število predavanj pred 9. uro",
+      ylab = "Frekvenca")
+```
+
+Slika 7, torej stolpčni diagram bimodalne porazdelitve `NumEarlyClass`, nakazuje prisotnost dveh glavnih skupin: študentov brez predavanj pred 9. uro in študentov z dvema jutranjima predavanjema na teden. Višje vrednosti se pojavljajo redkeje, vendar vseeno nakazujejo določeno nehomogenost. Ker gre poleg tega za samoporočano mero, je treba vrednost 0 interpretirati previdno, saj ustreza akademsko in družbeno najbolj sprejemljivemu vedenju.
+
+### DASScore
+
+```{r}
+tab_das = table(cognition_df$DASScore)
+bp3 = barplot(tab_das, plot = FALSE)
+
+plot.new()
+plot.window(xlim = c(min(bp3) - 0.8, max(bp3) + 0.8),
+            ylim = c(0, max(tab_das) * 1.15))
+
+grid(nx = NULL, ny = NULL, col = "gray95", lty = 1)
+
+barplot(tab_das, add = TRUE,
+        col = adjustcolor("#756BB1", alpha.f = 0.18),
+        border = "#756BB1",
+        axes = FALSE)
+
+axis(1, at = bp3, labels = names(tab_das))
+axis(2)
+
+title(main = "",
+      xlab = "Rezultat DASScore",
+      ylab = "Frekvenca")
+```
+
+```{r}
+summary(cognition_df$DASScore) ; sd(cognition_df$DASScore) 
+```
+
+Na Sliki 8 preidemo na analizo `DASScore`, s čimer vstopamo med prediktorje, ki pripadajo psihološkemu bloku podatkovnega niza. Porazdelitev kaže izrazito asimetrijo v desno: čeprav se večina študentov umešča na nizke vrednosti, manjši del vzorca dosega višje rezultate, kar kaže na večje splošno psihološko nelagodje. Standardni odklon 16.54 nazadnje kaže na precej široko variabilnost.
+
+### AnxietyScore, DepressionScore, StressScore
+
+```{r}
+col_psy_sub <- c("DepressionScore" = "#7570B3",  # vijolična
+  "AnxietyScore"    = "#E7298A",  # rožnata
+  "StressScore"     = "#D95F02")   # oranžna
+
+psy_long = cognition_df[, c("DepressionScore", "AnxietyScore", "StressScore")]
+
+psy_long = pivot_longer(psy_long, cols = everything(), names_to = "Podlestvica", values_to = "Rezultat" )
+
+
+# STOLPČNI DIAGRAM
+ggplot(psy_long, aes(x = Rezultat, fill = Podlestvica, color = Podlestvica)) +
+  geom_histogram( aes(y = after_stat(density)),
+  binwidth = 1,
+  boundary = -0.5,
+  position = "identity",
+  alpha = 0.18,
+  linewidth = 0.2  ) +
+  
+# KRIVULJE GOSTOTE
+geom_density(
+  linewidth = 1.1,
+  fill = NA,
+  adjust = 1.2) +
+  scale_fill_manual(values = col_psy_sub) +
+  scale_color_manual(values = col_psy_sub) +
+  labs( title = "",
+    x = "Rezultat",
+    y = "Gostota",
+    fill = "Podlestvica",
+    color = "Podlestvica"  ) +
+  theme_minimal(base_size = 12) +
+  theme(
+    plot.title = element_text(face = "bold", size = 13),
+    legend.title = element_text(face = "bold", size = 10),
+    legend.text = element_text(size = 9)  )
+      
+```
+
+Slika 9 prikazuje prekrivajoče se porazdelitve spremenljivk `DepressionScore`, `AnxietyScore` in `StressScore`, predstavljene s stolpčnimi diagrami, skladno z diskretno naravo rezultatov, ter dopolnjene z ocenjenimi krivuljami gostote, uporabljenimi **samo kot grafična podpora za poudarjanje splošnega poteka treh podlestvic**. Prvi vizualni vtis kaže na skupno asimetrijo v desno, pri čemer se v vseh treh primerih večja pogostost opazovanj nahaja pri nizkih vrednostih. Kljub temu je smiselno grafično analizo dopolniti s pregledom indeksov položaja:
+
+```{r}
+
+summary(cognition_df$DepressionScore) ; sd(cognition_df$DepressionScore) 
+summary(cognition_df$AnxietyScore) ; sd(cognition_df$AnxietyScore) 
+summary(cognition_df$StressScore) ; sd(cognition_df$StressScore) 
+
+```
+
+```{r}
+# MODUS
+as.numeric(names(which.max(table(cognition_df$DepressionScore))))
+as.numeric(names(which.max(table(cognition_df$AnxietyScore))))
+as.numeric(names(which.max(table(cognition_df$StressScore))))
+```
+
+Opazimo, da vse podlestvice ne kažejo enake ravni intenzivnosti in razpršenosti. `DepressionScore` ima namreč povprečje 5.20 in mediano 3, podobno kot `AnxietyScore`, ki ima povprečje 5.37 in mediano 4. `StressScore` pa kaže nekoliko višje vrednosti, s povprečjem 9.47 in mediano 8. Dejstvo, da je povprečje pri vseh podlestvicah višje od mediane, potrjuje asimetrijo v desno, ki je izrazitejša pri podlestvici stresa.
+
+Pri rezultatih, povezanih z anksioznostjo in depresijo, se zdi, da sta porazdelitvi unimodalni. V primeru `StressScore` pa, čeprav ni prisoten tako jasen vrh, da bi lahko porazdelitev opredelili kot bimodalno, je ta bolj razpršena in kaže več “ramen” pri srednje visokih vrednostih, kar nakazuje **strukturo, ki ni popolnoma prekrivna** z drugima dvema podlestvicama. Ta podrobnost predstavlja še en argument v prid hipotezi, da bi se lahko primerjava med modelom z `DASScore` in modelom z ločenimi podlestvicami v fazi modeliranja izkazala za koristno pri izbiri specifikacije.
+
+### Happiness
+
+```{r}
+tab_hap <- table(cognition_df$Happiness)
+bp4 <- barplot(tab_hap, plot = FALSE)
+
+plot.new()
+plot.window(xlim = c(min(bp4) - 0.8, max(bp4) + 0.8),
+            ylim = c(0, max(tab_hap) * 1.15))
+
+grid(nx = NULL, ny = NULL, col = "gray95", lty = 1)
+
+barplot(tab_hap, add = TRUE,
+        col = adjustcolor("#756BB1", alpha.f = 0.18),
+        border = "#756BB1",
+        axes = FALSE)
+
+axis(1, at = bp4, labels = names(tab_hap))
+axis(2)
+
+title(main = "",
+      xlab = "Rezultat zaznane sreče",
+      ylab = "Frekvenca")
+```
+
+```{r}
+summary(cognition_df$Happiness) ; sd(cognition_df$Happiness) 
+as.numeric(names(which.max(table(cognition_df$Happiness))))
+```
+
+Psihološki blok se zaključi s Sliko 10, ki prikazuje spremenljivko `Happiness`, močno asimetrično v levo, z opazovanji, ki se večinoma nahajajo pri srednje visokih vrednostih. Modus znaša 30, kar je posebej visoka vrednost, povprečje pa se od njega razlikuje le za 4,9, kar nakazuje, da študenti na splošno poročajo o precej visokih ravneh zaznane sreče. Vendar je treba opaziti, da določen delež študentov dosega občutno nižje vrednosti.
+
+Z interpretativnega vidika je takšen potek skladen s tem, kar je bilo opaženo pri kazalnikih psihološkega nelagodja. Kljub temu je smiselno preveriti, ali se višji rezultati psihološkega nelagodja povezujejo z nižjimi ravnmi zaznane sreče:
+
+```{r}
+set.seed(123)
+plot(cognition_df$DASScore, cognition_df$Happiness,
+     type = "n",
+     main = "",
+     xlab = "DASScore",
+     ylab = "Happiness",
+     bty = "n")
+
+grid(nx = NULL, ny = NULL, col = "gray95", lty = 1)
+
+# uporabim jitter, ker gre za cela števila
+points(jitter(cognition_df$DASScore, amount = 0.40), 
+       jitter(cognition_df$Happiness, amount = 0.40),
+       pch = 19,
+       col = adjustcolor("#756BB1", alpha.f = 0.35))
+
+abline(lm(Happiness ~ DASScore, data = cognition_df),
+       lwd = 2)
+```
+
+Že ob prvem pregledu Slika 11 prikazuje negativno povezavo, pri čemer so visoke vrednosti `Happiness` bolj zgoščene pri nižjih vrednostih `DASScore`. Čeprav razpršenost točk kaže, da povezava ni popolna, grafično evidenco potrjuje Bravais-Pearsonov koeficient linearne korelacije, ki podaja jakost in smer povezave, v tem primeru zmerno negativno. Zanimivi so primeri, pri katerih se hkrati pojavita visoko psihološko nelagodje in višja zaznana sreča: to opozarja tako na samoporočano naravo spremenljivke kot tudi na dejstvo, da ena dimenzija druge ne izključuje nujno deterministično.
+
+...to be continued
+
+# Analiza korelacij
+
+Analiza korelacij omogoča raziskovanje linearnih povezav med možnimi numeričnimi spremenljivkami, prisotnimi v podatkovnem nizu.
+
+**Opomba pod črto \^9:** V tej fazi je bila izbrana specifikacija s tremi ločenimi psihološkimi podlestvicami, glede na ne popolnoma prekrivno strukturo, ki je izšla iz predhodne EDA, predvsem pa zato, da bi bila analiza lažja.
+
+```{r}
+dati_cor_psy = cognition_df[, c("CognitionZscore","AverageSleep","SleepGap","PoorSleepQuality","NumEarlyClass","DepressionScore","AnxietyScore","StressScore","Happiness","Drinks","ClassesMissed","GPA")]
+
+cor_mat_psy = cor(dati_cor_psy, method = "pearson")
+
+plot_heatmap(cor_mat_psy,
+  titolo = "",
+  legenda = "Correlazione 
+globale")
+```
+
+Heatmap na Sliki 12 v tem primeru poenostavi delo, saj linearne korelacije zbere v pravo karto povezav in pokaže nekatere pomembne vzorce med numeričnimi spremenljivkami:
+
+- **Psihološke podlestvice** – tri podlestvice rezultata `DASScore`, kot je bilo pričakovati, kažejo pozitivno povezanost: `AnxietyScore` in `StressScore` sta močno povezana (≈ 0.70), sledita `DepressionScore` in `StressScore` (≈ 0.62) ter `DepressionScore` in `AnxietyScore` (≈ 0.49), pri katerih je korelacija zmerna. Dejstvo, da vrednosti niso enake 1, pomeni, da povezanost ni popolna, in ponovno podpira dvojno specifikacijo modela.
+
+- **`Happiness` in psihološke podlestvice** – `Happiness` ima negativne korelacije z vsemi tremi psihološkimi stanji, kar potrjuje že opaženo v razsevnem diagramu med `DASScore` in `Happiness`. Zdaj je mogoče razumeti, da je najizrazitejša povezava povezana z `DepressionScore`, s katerim je `Happiness` precej negativno korelirana (≈ -0.54), medtem ko sta povezavi z `AnxietyScore` (≈ -0.35) in `StressScore` (≈ -0.36) bolj omejeni.
+
+- **`PoorSleepQuality`, psihološke podlestvice in `Happiness`** – `PoorSleepQuality` je pozitivno korelirana z vsemi psihološkimi podlestvicami: z `AnxietyScore` (≈ 0.45), `DepressionScore` (≈ 0.42) in, z nekoliko nižjo vrednostjo, s `StressScore` (≈ 0.33). Nasprotno pa je povezanost z `Happiness` zmerno negativna (≈ -0.24), kar kaže, da se slabša zaznana kakovost spanja običajno povezuje z višjimi ravnmi psihološkega nelagodja in hkrati z nižjimi ravnmi zaznane sreče.
+
+- **`Drinks` in `GPA`** – Opaziti je zanimivo negativno korelacijo med `Drinks` in `GPA`. Čeprav vrednost ni posebej visoka (≈ -0.24), nakazuje, da je večje uživanje alkohola povezano s povprečno nižjimi vrednostmi GPA. To je pomembno, ker predstavlja prvo povezavo med vedenjsko spremenljivko, uživanjem alkohola, in mero akademske uspešnosti, tj. `GPA`.
+
+Treba je poudariti, da so lahko v eksplorativni fazi **linearne korelacije** koristne za prvi vpogled v globalno povezanost med različnimi spremenljivkami, zlasti glede povezav z odzivno spremenljivko. Kljub temu pa bi morala interpretacija potekati “ob nadzoru” drugih prediktorjev, torej ob upoštevanju **rezidualne povezanosti** med Y in obravnavanim prediktorjem.
+
+## Analiza parcialnih korelacij
+
+Parcialno korelacijo je mogoče razumeti kot korelacijo med dvema spremenljivkama, izračunano po tem, ko iz obeh odstranimo linearno komponento, povezano z drugimi obravnavanimi spremenljivkami. To je posebej koristno za regresijo, saj omogoča zajeti bolj “očiščeno” povezavo med možnim prediktorjem in spremenljivko `CognitionZscore`.
+
+```{r}
+library(ppcor)
+
+dati_cor_psy <- cognition_df[, c("CognitionZscore","AverageSleep","SleepGap","PoorSleepQuality","NumEarlyClass","DepressionScore","AnxietyScore","StressScore","Happiness","Drinks","ClassesMissed","GPA")]
+
+pcor_psy <- pcor(dati_cor_psy, method = "pearson")
+
+pcor_mat_psy <- pcor_psy$estimate
+
+plot_heatmap(pcor_mat_psy, titolo = "",legenda = "Parcialna
+korelacija")
+```
+
+Ta druga različica heatmapa, prikazana na Sliki 13, prek nežnega obarvanja prvih celic nakazuje, da so parcialne korelacije z odvisno spremenljivko **šibke**, v nekaterih primerih celo skoraj zanemarljive. Gre za scenarij, ki je bil pričakovan že od prvih faz analize, glede na družbeno naravo obravnavane študije primera; vendar to ne pomeni razloga za opustitev ali “neuspeh”. Nasprotno, predstavlja **informativni rezultat**, saj nakazuje, da lahko prediktorji, vključeni v podatkovni niz, zajamejo in napovedujejo le del večdimenzionalnega pojava.
+
+- **`GPA` in `CognitionZscore`** – Gre za najvišjo parcialno korelacijo (≈ 0.24) in hkrati za eno redkih, ki ohranja pozitivno povezavo, čeprav šibko, s spremenljivko `CognitionZscore`. Glede na akademski oziroma univerzitetni okvir, na katerem temelji analiza, je ta korelacija povsem smiselna, saj kaže, da je `GPA` spremenljivka, ki ohranja najbolj očitno avtonomno povezavo s kognitivnim rezultatom.
+
+- **`StressScore` in `CognitionZscore`** – V psihološkem bloku je `StressScore` edina spremenljivka, ki ohranja najbolj vidno negativno povezavo z odzivno spremenljivko; medtem ko so pri drugih dveh podlestvicah vrednosti zanemarljive, je v tem primeru povezava sicer šibka, vendar opazna (≈ -0.11). Višje vrednosti zaznanega stresa bi se torej lahko povezovale z nižjimi vrednostmi indeksa kognicije.
+
+- **`Drinks`, `ClassesMissed` in `CognitionZscore`** – Obe vedenjski spremenljivki kažeta šibko, vendar ne povsem zanemarljivo negativno parcialno korelacijo s spremenljivko `CognitionZscore`, obe približno enako -0.10. Ob nadzoru drugih numeričnih prediktorjev bi se torej večje uživanje alkohola in večje število izpuščenih predavanj lahko povezovala z nekoliko nižjimi vrednostmi kognitivnega rezultata.
+
+..to be continued

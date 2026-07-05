@@ -6,6 +6,7 @@ import argparse
 import csv
 import json
 import re
+import shutil
 import subprocess
 import threading
 import time
@@ -45,9 +46,12 @@ def latest_segmentation(root: Path) -> Path:
 def read_dataset(path: Path) -> dict[str, list[dict[str, str]]]:
     grouped: dict[str, list[dict[str, str]]] = {}
     with path.open("r", encoding="utf-8-sig", newline="") as file:
-        sample = file.read(4096)
+        header = file.readline()
         file.seek(0)
-        delimiter = ";" if sample.count(";") >= sample.count(",") else ","
+        # Il testo delle delibere contiene molte virgole: contare i separatori
+        # sull'intero campione può quindi scambiare un CSV ';' per un CSV ','.
+        # L'intestazione non contiene testo libero ed è una sorgente affidabile.
+        delimiter = ";" if ";" in header else ","
         for row in csv.DictReader(file, delimiter=delimiter):
             grouped.setdefault(row["id_delibera"], []).append(row)
     return grouped
@@ -60,13 +64,21 @@ def pdf_reference(input_dir: Path, segmentation_dir: Path, id_delibera: str) -> 
 
     number = natural_number(id_delibera)
     pdf_path = input_dir / f"atto_{number}.pdf"
-    process = subprocess.run(
-        ["pdftotext", "-layout", "-enc", "UTF-8", str(pdf_path), "-"],
-        capture_output=True,
-        check=False,
-    )
-    text = process.stdout.decode("utf-8", errors="replace")
+    pdftotext = shutil.which("pdftotext")
+    if pdftotext is None:
+        winget_root = Path.home() / "AppData" / "Local" / "Microsoft" / "WinGet" / "Packages"
+        matches = sorted(winget_root.glob("oschwartz10612.Poppler_*/*/Library/bin/pdftotext.exe"))
+        pdftotext = str(matches[-1]) if matches else None
+
+    text = ""
     source = "pdf_text_layer"
+    if pdftotext is not None:
+        process = subprocess.run(
+            [pdftotext, "-layout", "-enc", "UTF-8", str(pdf_path), "-"],
+            capture_output=True,
+            check=False,
+        )
+        text = process.stdout.decode("utf-8", errors="replace")
 
     if len(re.findall(r"[A-Za-zÀ-ÖØ-öø-ÿ]", text)) < 500:
         fallback = segmentation_dir / "DOCLING" / "_estrazioni" / f"atto_{number}.md"
@@ -108,9 +120,13 @@ def ollama_json(model: str, prompt: str, retries: int = 2) -> dict[str, Any]:
             with urllib.request.urlopen(request, timeout=900) as response:
                 body = json.loads(response.read().decode("utf-8"))
             return json.loads(body["message"]["content"])
-        except Exception:
+        except Exception as exc:
             if attempt >= retries:
                 raise
+            print(
+                f"[OLLAMA] tentativo {attempt + 1} fallito: {exc}; nuovo tentativo...",
+                flush=True,
+            )
             time.sleep(3 * (attempt + 1))
     raise RuntimeError("Risposta Ollama non disponibile")
 
@@ -124,6 +140,7 @@ def evaluate_document(
     json_rows: list[dict[str, str]],
     markdown_rows: list[dict[str, str]],
 ) -> list[dict[str, Any]]:
+    print(f"[{tool}] invio {id_delibera} a Ollama...", flush=True)
     reference, reference_source = pdf_reference(input_dir, segmentation_dir, id_delibera)
     prompt = f"""
 Sei un valutatore rigoroso di segmentazioni di deliberazioni amministrative italiane.
@@ -136,6 +153,21 @@ Valuta separatamente JSON e MARKDOWN da 0 a 100 su:
 - text_fidelity: fedeltà del testo, ordine e assenza di omissioni/allucinazioni;
 - noise_exclusion: esclusione di certificati, firme, pubblicazione e dispositivo;
 - overall_score: giudizio complessivo coerente con le metriche precedenti.
+
+Vincoli metodologici obbligatori:
+- si valuta esclusivamente la NARRATIVA precedente al dispositivo;
+- DELIBERA, PROPONE/PROPONE DI DELIBERARE, votazioni, punti dispositivi,
+  firme, certificati, pubblicazione, intestazioni e liste presenze devono essere
+  esclusi: non considerarli omissioni e non ridurre recall o text_fidelity;
+- VISTO è un'etichetta canonica che comprende VISTO/VISTA/VISTI/VISTE: non
+  penalizzare genere o numero grammaticale;
+- i suffissi progressivi _1, _2, ... sono previsti dal dataset e non sono errori;
+- VISTI_PARERI e ACQUISITI_PARERI sono etichette semantiche ammesse e distinte
+  dai richiami normativi generici;
+- le sezioni CANDIDATO JSON e CANDIDATO MARKDOWN sono rappresentazioni testuali
+  dei blocchi estratti: non valutarne la sintassi come JSON o Markdown;
+- concentra issues e punteggi su marker realmente mancanti/spuri, confini dei
+  blocchi, ordine, omissioni interne alla narrativa e rumore effettivo.
 
 Restituisci esclusivamente JSON valido con questa struttura:
 {{"evaluations":[{{"format":"JSON","marker_precision":0,"marker_recall":0,
@@ -191,6 +223,10 @@ def evaluate_tool(
     markdown_data = read_dataset(markdown_path)
     ids = sorted(set(json_data) | set(markdown_data), key=natural_number)
     results: list[dict[str, Any]] = []
+    print(
+        f"[{tool}] avvio valutazione di {len(ids)} atti con {workers} richieste concorrenti.",
+        flush=True,
+    )
 
     with ThreadPoolExecutor(max_workers=workers) as executor:
         futures = {
@@ -210,7 +246,7 @@ def evaluate_tool(
             id_delibera = futures[future]
             try:
                 results.extend(future.result())
-                print(f"[{tool}] valutato {id_delibera}")
+                print(f"[{tool}] valutato {id_delibera}", flush=True)
             except Exception as exc:
                 results.append({
                     "id_delibera": id_delibera,
@@ -221,9 +257,19 @@ def evaluate_tool(
     return results
 
 
-def save_results(segmentation_dir: Path, rows: list[dict[str, Any]]) -> None:
-    output_dir = segmentation_dir / "VALUTAZIONE_LLM"
-    output_dir.mkdir(parents=True, exist_ok=True)
+def next_evaluation_dir(segmentation_dir: Path) -> Path:
+    """Crea una nuova cartella numerata senza sovrascrivere valutazioni precedenti."""
+    numbers = []
+    for path in segmentation_dir.glob("VALUTAZIONE_LLM_*"):
+        match = re.fullmatch(r"VALUTAZIONE_LLM_(\d+)", path.name, re.IGNORECASE)
+        if path.is_dir() and match:
+            numbers.append(int(match.group(1)))
+    output_dir = segmentation_dir / f"VALUTAZIONE_LLM_{max(numbers, default=0) + 1}"
+    output_dir.mkdir(parents=True, exist_ok=False)
+    return output_dir
+
+
+def save_results(output_dir: Path, rows: list[dict[str, Any]]) -> None:
     json_path = output_dir / "valutazione_dettaglio.json"
     json_path.write_text(json.dumps(rows, ensure_ascii=False, indent=2), encoding="utf-8")
 
@@ -287,6 +333,8 @@ def main() -> None:
     if not 1 <= args.concorrenza <= 4:
         raise ValueError("--concorrenza deve essere compresa tra 1 e 4")
 
+    output_dir = next_evaluation_dir(segmentation_dir)
+    print(f"Risultati destinati a: {output_dir}", flush=True)
     all_results: list[dict[str, Any]] = []
     # Docling viene valutato appena pronto; intanto OpenDataLoader può continuare localmente.
     for tool in ("DOCLING", "OPENDATALOADER"):
@@ -300,9 +348,9 @@ def main() -> None:
                 args.timeout_attesa,
             )
         )
-        save_results(segmentation_dir, all_results)
+        save_results(output_dir, all_results)
 
-    print(f"Valutazione completata: {segmentation_dir / 'VALUTAZIONE_LLM'}")
+    print(f"Valutazione completata: {output_dir}")
 
 
 if __name__ == "__main__":

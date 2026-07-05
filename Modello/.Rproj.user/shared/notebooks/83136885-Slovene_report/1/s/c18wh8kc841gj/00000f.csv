@@ -1,0 +1,4 @@
+"0","tab_das = table(cognition_df$DASScore)"
+"0","bp3 = barplot(tab_das, plot = FALSE)"
+"0",""
+"0","plot.new()"

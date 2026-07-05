@@ -1,0 +1,1924 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.10.0",
+  "name": "atto_11",
+  "origin": {
+    "mimetype": "application/pdf",
+    "binary_hash": 28375843967292462,
+    "filename": "atto_11.pdf"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/texts/24"
+      },
+      {
+        "$ref": "#/texts/25"
+      },
+      {
+        "$ref": "#/texts/26"
+      },
+      {
+        "$ref": "#/texts/27"
+      },
+      {
+        "$ref": "#/texts/28"
+      },
+      {
+        "$ref": "#/texts/29"
+      },
+      {
+        "$ref": "#/texts/30"
+      },
+      {
+        "$ref": "#/texts/31"
+      },
+      {
+        "$ref": "#/groups/2"
+      },
+      {
+        "$ref": "#/texts/34"
+      },
+      {
+        "$ref": "#/groups/3"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/4"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "key_value_area"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/7"
+        },
+        {
+          "$ref": "#/texts/8"
+        },
+        {
+          "$ref": "#/texts/9"
+        },
+        {
+          "$ref": "#/texts/10"
+        },
+        {
+          "$ref": "#/texts/11"
+        },
+        {
+          "$ref": "#/texts/12"
+        },
+        {
+          "$ref": "#/texts/13"
+        },
+        {
+          "$ref": "#/texts/14"
+        },
+        {
+          "$ref": "#/texts/15"
+        },
+        {
+          "$ref": "#/texts/16"
+        },
+        {
+          "$ref": "#/texts/17"
+        },
+        {
+          "$ref": "#/texts/18"
+        },
+        {
+          "$ref": "#/texts/19"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "form_area"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/32"
+        },
+        {
+          "$ref": "#/texts/33"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/35"
+        },
+        {
+          "$ref": "#/texts/36"
+        },
+        {
+          "$ref": "#/texts/37"
+        },
+        {
+          "$ref": "#/texts/38"
+        },
+        {
+          "$ref": "#/texts/39"
+        },
+        {
+          "$ref": "#/texts/40"
+        },
+        {
+          "$ref": "#/texts/41"
+        },
+        {
+          "$ref": "#/texts/42"
+        },
+        {
+          "$ref": "#/texts/43"
+        },
+        {
+          "$ref": "#/texts/44"
+        },
+        {
+          "$ref": "#/texts/45"
+        },
+        {
+          "$ref": "#/texts/46"
+        },
+        {
+          "$ref": "#/texts/47"
+        },
+        {
+          "$ref": "#/texts/48"
+        },
+        {
+          "$ref": "#/texts/49"
+        },
+        {
+          "$ref": "#/texts/50"
+        },
+        {
+          "$ref": "#/texts/51"
+        },
+        {
+          "$ref": "#/texts/52"
+        },
+        {
+          "$ref": "#/texts/53"
+        },
+        {
+          "$ref": "#/texts/54"
+        },
+        {
+          "$ref": "#/texts/55"
+        },
+        {
+          "$ref": "#/texts/56"
+        },
+        {
+          "$ref": "#/texts/57"
+        },
+        {
+          "$ref": "#/texts/58"
+        },
+        {
+          "$ref": "#/texts/59"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "form_area"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 193.11000061,
+            "t": 792.8310255840624,
+            "r": 457.78200061,
+            "b": 773.0913892204261,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            17
+          ]
+        }
+      ],
+      "orig": "COMUNE DI AUSONIA",
+      "text": "COMUNE DI AUSONIA",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 234.95000457999998,
+            "t": 766.8640247540625,
+            "r": 414.44600457999996,
+            "b": 752.0592974813352,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            22
+          ]
+        }
+      ],
+      "orig": "Provincia di Frosinone",
+      "text": "Provincia di Frosinone",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 130.50699996999998,
+            "t": 678.2560247040625,
+            "r": 517.8869999700001,
+            "b": 666.7412368252745,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            44
+          ]
+        }
+      ],
+      "orig": "COPIA DI DELIBERAZIONE DELLA GIUNTA COMUNALE",
+      "text": "COPIA DI DELIBERAZIONE DELLA GIUNTA COMUNALE",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 219.72599793,
+            "t": 635.2540186140625,
+            "r": 429.0679979299998,
+            "b": 622.8818550781509,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            33
+          ]
+        }
+      ],
+      "orig": "Verbale n.  40    del  08-06-2026",
+      "text": "Verbale n.  40    del  08-06-2026",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 92.15000153,
+            "t": 605.8000240140625,
+            "r": 441.43600152999994,
+            "b": 595.1953124118526,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            60
+          ]
+        }
+      ],
+      "orig": "OGGETTO:  Approvazione programma R...ESTATE AD AUSONIA 2026.",
+      "text": "OGGETTO:  Approvazione programma R...ESTATE AD AUSONIA 2026."
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 92.15000153,
+            "t": 579.3520259740625,
+            "r": 556.0820015300003,
+            "b": 527.3503140618525,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            311
+          ]
+        }
+      ],
+      "orig": "L'anno    duemilaventisei,  il  giorno    otto  del  mese  di  giugno  alle  ore  13:00  e  seg.  in Ausonia e nella residenza municipale, nella sala delle adunanze, previa l'osservanza di tutte le formalità prescritte dalle vigenti leggi, sono stati oggi convocati in seduta i componenti della Giunta Comunale.",
+      "text": "L'anno    duemilaventisei,  il  giorno    otto  del  mese  di  giugno  alle  ore  13:00  e  seg.  in Ausonia e nella residenza municipale, nella sala delle adunanze, previa l'osservanza di tutte le formalità prescritte dalle vigenti leggi, sono stati oggi convocati in seduta i componenti della Giunta Comunale."
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 162.95000153,
+            "t": 510.35701559406243,
+            "r": 389.7500015300001,
+            "b": 499.7523039918525,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            42
+          ]
+        }
+      ],
+      "orig": "Fatto normale appello nominale, risultano:",
+      "text": "Fatto normale appello nominale, risultano:"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 454.18998909,
+            "t": 479.77801147406245,
+            "r": 538.10998909,
+            "b": 470.9407518055542,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            18
+          ]
+        }
+      ],
+      "orig": "Presenti / Assenti",
+      "text": "Presenti / Assenti"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 95.65000153,
+            "t": 457.6530095640625,
+            "r": 196.82000153,
+            "b": 448.8157498955542,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            18
+          ]
+        }
+      ],
+      "orig": "CARDILLO Benedetto",
+      "text": "CARDILLO Benedetto"
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 301.20000458,
+            "t": 457.6530095640625,
+            "r": 340.12000458,
+            "b": 448.8157498955542,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            7
+          ]
+        }
+      ],
+      "orig": "Sindaco",
+      "text": "Sindaco"
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 476.13798905,
+            "t": 457.6530095640625,
+            "r": 518.9379890499999,
+            "b": 448.8157498955542,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "Presente",
+      "text": "Presente"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 95.65000153,
+            "t": 435.8530103240625,
+            "r": 189.58000153,
+            "b": 427.0157506555542,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            17
+          ]
+        }
+      ],
+      "orig": "PINCHERA Stefania",
+      "text": "PINCHERA Stefania"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 301.20000458,
+            "t": 435.8530103240625,
+            "r": 362.35000458,
+            "b": 427.0157506555542,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            12
+          ]
+        }
+      ],
+      "orig": "Vice Sindaco",
+      "text": "Vice Sindaco"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 476.13798905,
+            "t": 435.8530103240625,
+            "r": 518.9379890499999,
+            "b": 427.0157506555542,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "Presente",
+      "text": "Presente"
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 95.65000153,
+            "t": 414.0530072740625,
+            "r": 181.80000153000003,
+            "b": 405.2157476055542,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            14
+          ]
+        }
+      ],
+      "orig": "STAGNO Gaetano",
+      "text": "STAGNO Gaetano"
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 301.20000458,
+            "t": 414.0530072740625,
+            "r": 350.66000457999996,
+            "b": 405.2157476055542,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            9
+          ]
+        }
+      ],
+      "orig": "Assessore",
+      "text": "Assessore"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 476.13798905,
+            "t": 414.0530072740625,
+            "r": 518.9379890499999,
+            "b": 405.2157476055542,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "Presente",
+      "text": "Presente"
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 408.15700912999995,
+            "t": 392.2780124340625,
+            "r": 438.72700913,
+            "b": 383.4407527655542,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "Totale",
+      "text": "Totale"
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 460.85098839,
+            "t": 392.2780124340625,
+            "r": 477.53098839,
+            "b": 383.4407527655542,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "3",
+      "text": "3"
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 517.5510006,
+            "t": 392.2780124340625,
+            "r": 539.7810006,
+            "b": 383.4407527655542,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "0",
+      "text": "0"
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 92.15000153,
+            "t": 349.66103170406245,
+            "r": 556.0820015300005,
+            "b": 297.65931979185257,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            304
+          ]
+        }
+      ],
+      "orig": "Assiste il Segretario Comunale Erminio VERNILE, il quale provvede alla redazione del presente  verbale.  Essendo  legale  il  numero  degli  intervenuti,  il  Dott.  Benedetto CARDILLO  -  Sindaco,  assume  la  Presidenza  e  dichiara  aperta  la  seduta  per  la trattazione dell'oggetto sopra indicato.",
+      "text": "Assiste il Segretario Comunale Erminio VERNILE, il quale provvede alla redazione del presente  verbale.  Essendo  legale  il  numero  degli  intervenuti,  il  Dott.  Benedetto CARDILLO  -  Sindaco,  assume  la  Presidenza  e  dichiara  aperta  la  seduta  per  la trattazione dell'oggetto sopra indicato."
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 92.15000153,
+            "t": 294.4650173040625,
+            "r": 95.48600153,
+            "b": 283.86030570185255,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": ".",
+      "text": "."
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 201.85299301,
+            "t": 796.0980250740624,
+            "r": 346.8489930099999,
+            "b": 786.2282068922443,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            18
+          ]
+        }
+      ],
+      "orig": "LA GIUNTA COMUNALE",
+      "text": "LA GIUNTA COMUNALE",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 769.1100253940625,
+            "r": 506.4819992400004,
+            "b": 730.9053143718526,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            206
+          ]
+        }
+      ],
+      "orig": "Premesso che è intenzione  dell'amministrazione  comunale  promuovere,  come  nelle annualità  precedenti,  un  programma  di  iniziative  ricreative  e  culturali  da  realizzare durante il periodo estivo;",
+      "text": "Premesso che è intenzione  dell'amministrazione  comunale  promuovere,  come  nelle annualità  precedenti,  un  programma  di  iniziative  ricreative  e  culturali  da  realizzare durante il periodo estivo;"
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 713.9100246240624,
+            "r": 506.4819992400004,
+            "b": 648.1053113118525,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            383
+          ]
+        }
+      ],
+      "orig": "Visto il  programma delle suddette iniziative elaborato dall'amministrazione comunale da  svolgersi  dal  22  maggio  al  29  settembre  2026,  volto  alla  valorizzazione  del territorio, alla conservazione dell'identità culturale della comunità locale ed al perpetuarsi di usi, costumi e tradizioni popolari anche tipicamente gastronomiche, in allegato alla presente deliberazione;",
+      "text": "Visto il  programma delle suddette iniziative elaborato dall'amministrazione comunale da  svolgersi  dal  22  maggio  al  29  settembre  2026,  volto  alla  valorizzazione  del territorio, alla conservazione dell'identità culturale della comunità locale ed al perpetuarsi di usi, costumi e tradizioni popolari anche tipicamente gastronomiche, in allegato alla presente deliberazione;"
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 631.1100215740624,
+            "r": 506.48199924000056,
+            "b": 592.9053105518525,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            221
+          ]
+        }
+      ],
+      "orig": "Considerato che le attività previste rientrano nelle competenze dell'Ente Locale, svolte nell'interesse della collettività e finalizzate alla valorizzazione territoriale e culturale e allo sviluppo socio-economico locale;",
+      "text": "Considerato che le attività previste rientrano nelle competenze dell'Ente Locale, svolte nell'interesse della collettività e finalizzate alla valorizzazione territoriale e culturale e allo sviluppo socio-economico locale;"
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 575.9100246240625,
+            "r": 417.3819992400003,
+            "b": 565.3053130218526,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            69
+          ]
+        }
+      ],
+      "orig": "Ritenuto, pertanto, il suddetto programma meritevole di approvazione;",
+      "text": "Ritenuto, pertanto, il suddetto programma meritevole di approvazione;"
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 534.5100307340624,
+            "r": 506.4819992400004,
+            "b": 482.5053166618525,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            315
+          ]
+        }
+      ],
+      "orig": "Ritenuto necessario demandare al responsabile del settore amministrativo l'adozione degli  atti  gestionali  necessari  a  dare  esecuzione  alla  presente  deliberazione,  in particolare  per  l'affidamento  delle  forniture  e  dei  servizi  necessari  alla  realizzazione delle iniziative previste dal programma;",
+      "text": "Ritenuto necessario demandare al responsabile del settore amministrativo l'adozione degli  atti  gestionali  necessari  a  dare  esecuzione  alla  presente  deliberazione,  in particolare  per  l'affidamento  delle  forniture  e  dei  servizi  necessari  alla  realizzazione delle iniziative previste dal programma;"
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 465.51003073406247,
+            "r": 506.4819992400004,
+            "b": 427.3053197118525,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            206
+          ]
+        }
+      ],
+      "orig": "Visti i pareri favorevoli in ordine alla regolarità tecnica espressa dal Responsabile del Servizio interessato e contabile dal Responsabile di Ragioneria ai sensi dell'art. 49 del D. Lgs. 18/08/2000 n. 267;",
+      "text": "Visti i pareri favorevoli in ordine alla regolarità tecnica espressa dal Responsabile del Servizio interessato e contabile dal Responsabile di Ragioneria ai sensi dell'art. 49 del D. Lgs. 18/08/2000 n. 267;"
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 410.31001852406246,
+            "r": 192.63399924,
+            "b": 399.7053069218525,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            29
+          ]
+        }
+      ],
+      "orig": "Visto il D. Lgs. n. 267/2000;",
+      "text": "Visto il D. Lgs. n. 267/2000;"
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 382.7100124240625,
+            "r": 266.62599924,
+            "b": 372.10530082185255,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            44
+          ]
+        }
+      ],
+      "orig": "All'unanimità dei voti resi in forma palese;",
+      "text": "All'unanimità dei voti resi in forma palese;"
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 242.18400193,
+            "t": 355.1100368340625,
+            "r": 306.8520019299999,
+            "b": 344.50532523185257,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "DELIBERA",
+      "text": "DELIBERA",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 63.84999848,
+            "t": 327.5100307340624,
+            "r": 506.48199886000026,
+            "b": 275.5053166618525,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            297
+          ]
+        }
+      ],
+      "orig": "1. Di  approvare,  per  le  motivazioni  in  premessa,  il  programma  delle  iniziative previste dall'amministrazione comunale per l'estate denominato R…Estate ad Ausonia  2026,  da  svolgersi  dal  22  maggio  al  29  settembre  2026,  come  da programma in allegato alla presente deliberazione;",
+      "text": "Di  approvare,  per  le  motivazioni  in  premessa,  il  programma  delle  iniziative previste dall'amministrazione comunale per l'estate denominato R…Estate ad Ausonia  2026,  da  svolgersi  dal  22  maggio  al  29  settembre  2026,  come  da programma in allegato alla presente deliberazione;",
+      "enumerated": true,
+      "marker": "1."
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 63.84999848,
+            "t": 258.51000021406253,
+            "r": 506.48199886000015,
+            "b": 206.5052861418526,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            290
+          ]
+        }
+      ],
+      "orig": "2. Di  demandare  al  responsabile  del  settore  amministrativo  l'adozione  degli  atti gestionali necessari a dare esecuzione alla presente deliberazione, in particolare per l'affidamento delle forniture e dei servizi necessari alla realizzazione delle iniziative previste dal programma,",
+      "text": "Di  demandare  al  responsabile  del  settore  amministrativo  l'adozione  degli  atti gestionali necessari a dare esecuzione alla presente deliberazione, in particolare per l'affidamento delle forniture e dei servizi necessari alla realizzazione delle iniziative previste dal programma,",
+      "enumerated": true,
+      "marker": "2."
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 178.01000021406253,
+            "r": 506.48199924000045,
+            "b": 139.80528919185258,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            245
+          ]
+        }
+      ],
+      "orig": "Con  separata  votazione,  ad  esito  favorevole  ed  unanime,  considerata  l'urgenza  di dover provvedere in merito, la presente deliberazione viene dichiarata immediatamente eseguibile ai sensi dell'art. 134, comma 4, del D. Lgs. n. 267/2000.",
+      "text": "Con  separata  votazione,  ad  esito  favorevole  ed  unanime,  considerata  l'urgenza  di dover provvedere in merito, la presente deliberazione viene dichiarata immediatamente eseguibile ai sensi dell'art. 134, comma 4, del D. Lgs. n. 267/2000."
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 92.15000153,
+            "t": 772.6320258740625,
+            "r": 235.00000153000002,
+            "b": 763.7947662055542,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            33
+          ]
+        }
+      ],
+      "orig": "Letto, confermato e sottoscritto.",
+      "text": "Letto, confermato e sottoscritto."
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 179.31900025,
+            "t": 749.6340266840625,
+            "r": 232.65900025,
+            "b": 740.7967670155542,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            10
+          ]
+        }
+      ],
+      "orig": "IL Sindaco",
+      "text": "IL Sindaco"
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 380.28099824000003,
+            "t": 749.6340266840625,
+            "r": 503.10099823999997,
+            "b": 729.2977674155542,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            49
+          ]
+        }
+      ],
+      "orig": "IL Segretario Comunale f.to Dott. Erminio VERNILE",
+      "text": "IL Segretario Comunale f.to Dott. Erminio VERNILE"
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 135.12000275,
+            "t": 738.1350270840625,
+            "r": 276.86000275000004,
+            "b": 729.2977674155542,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            29
+          ]
+        }
+      ],
+      "orig": "f.to Dott. Benedetto CARDILLO",
+      "text": "f.to Dott. Benedetto CARDILLO"
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 121.17700196,
+            "t": 715.1370278940625,
+            "r": 290.80700196000004,
+            "b": 706.2997682255542,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            30
+          ]
+        }
+      ],
+      "orig": "______________________________",
+      "text": "______________________________"
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 356.87699891,
+            "t": 715.1370278940625,
+            "r": 526.50699891,
+            "b": 706.2997682255542,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            30
+          ]
+        }
+      ],
+      "orig": "______________________________",
+      "text": "______________________________"
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 127.55000153,
+            "t": 656.1420184740625,
+            "r": 377.65000153,
+            "b": 647.3047588055542,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            63
+          ]
+        }
+      ],
+      "orig": "Il sottoscritto Segretario Comunale, visti gli atti di ufficio:",
+      "text": "Il sottoscritto Segretario Comunale, visti gli atti di ufficio:"
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 299.39600372999996,
+            "t": 633.1440326340625,
+            "r": 348.28600373,
+            "b": 624.3067729655542,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            7
+          ]
+        }
+      ],
+      "orig": "ATTESTA",
+      "text": "ATTESTA",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 92.15000153,
+            "t": 610.1460315340624,
+            "r": 230.57000153,
+            "b": 601.3087718655541,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            30
+          ]
+        }
+      ],
+      "orig": "Che la presente deliberazione:",
+      "text": "Che la presente deliberazione:"
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "checkbox_selected",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 92.15000153,
+            "t": 577.4790222540624,
+            "r": 497.10000076999984,
+            "b": 566.3790222540624,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            85
+          ]
+        }
+      ],
+      "orig": " viene dichiarata immediatamente eseguibile (art. 134, 4° comma del D. Lvo 267/2000)",
+      "text": " viene dichiarata immediatamente eseguibile (art. 134, 4° comma del D. Lvo 267/2000)"
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "checkbox_unselected",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 92.15000153,
+            "t": 554.4810211540625,
+            "r": 268.55000077000005,
+            "b": 543.3810211540625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            36
+          ]
+        }
+      ],
+      "orig": " è divenuta esecutiva il 08-06-2026",
+      "text": " è divenuta esecutiva il 08-06-2026"
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "checkbox_selected",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 92.15000153,
+            "t": 519.9840118840625,
+            "r": 389.1500007699999,
+            "b": 508.8840118840625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            64
+          ]
+        }
+      ],
+      "orig": " viene comunicata in elenco ai Capigruppo Consiliari (art. 125)",
+      "text": " viene comunicata in elenco ai Capigruppo Consiliari (art. 125)"
+    },
+    {
+      "self_ref": "#/texts/47",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 262.43100596,
+            "t": 495.15602604406246,
+            "r": 385.25100595999993,
+            "b": 474.81976677555417,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            49
+          ]
+        }
+      ],
+      "orig": "IL Segretario Comunale f.to Dott. Erminio VERNILE",
+      "text": "IL Segretario Comunale f.to Dott. Erminio VERNILE"
+    },
+    {
+      "self_ref": "#/texts/48",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 239.02700281999998,
+            "t": 460.6590272540625,
+            "r": 408.65700282,
+            "b": 451.8217675855542,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            30
+          ]
+        }
+      ],
+      "orig": "______________________________",
+      "text": "______________________________"
+    },
+    {
+      "self_ref": "#/texts/49",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 92.15000153,
+            "t": 401.6640216440625,
+            "r": 347.84000153,
+            "b": 392.8267619755542,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            61
+          ]
+        }
+      ],
+      "orig": "Il sottoscritto responsabile del servizio delle pubblicazioni",
+      "text": "Il sottoscritto responsabile del servizio delle pubblicazioni"
+    },
+    {
+      "self_ref": "#/texts/50",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 299.94699860000003,
+            "t": 378.66603580406246,
+            "r": 347.7369986,
+            "b": 369.82877613555416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            7
+          ]
+        }
+      ],
+      "orig": "ATTESTA",
+      "text": "ATTESTA",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/51",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 92.15000153,
+            "t": 355.66801944406245,
+            "r": 555.53000153,
+            "b": 323.83276153555414,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            293
+          ]
+        }
+      ],
+      "orig": "Che la presente deliberazione è stata pubblicata, in data odierna, per 15 giorni consecutivi dal 09-06- 2026 al 24-06-2026 al numero 357 nel sito web istituzionale di questo Comune accessibile al pubblico al portale www.comunediausonia.it (art. 32, comma 1, della legge 18 giugno 2009, n. 69).",
+      "text": "Che la presente deliberazione è stata pubblicata, in data odierna, per 15 giorni consecutivi dal 09-06- 2026 al 24-06-2026 al numero 357 nel sito web istituzionale di questo Comune accessibile al pubblico al portale www.comunediausonia.it (art. 32, comma 1, della legge 18 giugno 2009, n. 69)."
+    },
+    {
+      "self_ref": "#/texts/52",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 92.15000153,
+            "t": 298.17302433406246,
+            "r": 282.8100015300001,
+            "b": 289.33576466555417,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            41
+          ]
+        }
+      ],
+      "orig": "Dalla Residenza Municipale, lì 09-06-2026",
+      "text": "Dalla Residenza Municipale, lì 09-06-2026"
+    },
+    {
+      "self_ref": "#/texts/53",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 214.37399818,
+            "t": 275.1750079740625,
+            "r": 433.3039981800001,
+            "b": 254.83874870555428,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            67
+          ]
+        }
+      ],
+      "orig": "IL Responsabile Procedimento Pubblicazione f.to Sig. Onofrio CORENO",
+      "text": "IL Responsabile Procedimento Pubblicazione f.to Sig. Onofrio CORENO"
+    },
+    {
+      "self_ref": "#/texts/54",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 239.02699901,
+            "t": 240.6780091840625,
+            "r": 408.65699901000005,
+            "b": 231.8407495155542,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            30
+          ]
+        }
+      ],
+      "orig": "______________________________",
+      "text": "______________________________"
+    },
+    {
+      "self_ref": "#/texts/55",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 92.15000153,
+            "t": 194.68202701406244,
+            "r": 550.98000153,
+            "b": 185.84476734555415,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            82
+          ]
+        }
+      ],
+      "orig": "__________________________________________________________________________________",
+      "text": "__________________________________________________________________________________"
+    },
+    {
+      "self_ref": "#/texts/56",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 141.80000306,
+            "t": 171.6840411740625,
+            "r": 439.71000306,
+            "b": 162.8467815055542,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            69
+          ]
+        }
+      ],
+      "orig": "Copia conforme all'originale, in carta libera per uso amministrativo.",
+      "text": "Copia conforme all'originale, in carta libera per uso amministrativo."
+    },
+    {
+      "self_ref": "#/texts/57",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 141.80000306,
+            "t": 148.68605533406242,
+            "r": 331.91000306000007,
+            "b": 139.84879566555412,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            41
+          ]
+        }
+      ],
+      "orig": "Dalla Residenza Municipale, li 09-06-2026",
+      "text": "Dalla Residenza Municipale, li 09-06-2026"
+    },
+    {
+      "self_ref": "#/texts/58",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 316.00199748,
+            "t": 125.68800846406248,
+            "r": 431.03199748000003,
+            "b": 105.35174919555425,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            44
+          ]
+        }
+      ],
+      "orig": "IL Segretario Comunale Dott. Erminio VERNILE",
+      "text": "IL Segretario Comunale Dott. Erminio VERNILE"
+    },
+    {
+      "self_ref": "#/texts/59",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 288.70199824,
+            "t": 91.19100967406246,
+            "r": 458.3319982400001,
+            "b": 82.35375000555416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            30
+          ]
+        }
+      ],
+      "orig": "______________________________",
+      "text": "______________________________"
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {
+    "1": {
+      "size": {
+        "width": 595.2999877929688,
+        "height": 841.9000244140625
+      },
+      "page_no": 1
+    },
+    "2": {
+      "size": {
+        "width": 595.2999877929688,
+        "height": 841.9000244140625
+      },
+      "page_no": 2
+    },
+    "3": {
+      "size": {
+        "width": 595.2999877929688,
+        "height": 841.9000244140625
+      },
+      "page_no": 3
+    }
+  }
+}

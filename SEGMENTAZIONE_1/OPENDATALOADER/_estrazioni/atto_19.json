@@ -1,0 +1,1478 @@
+{
+  "file name" : "atto_19.pdf",
+  "number of pages" : 6,
+  "author" : "Dipendente Insiel",
+  "title" : "La presente deliberazione è stata adottata ai sensi dell’art",
+  "creation date" : "D:20250428125706+02'00'",
+  "modification date" : "D:20250513131618+02'00'",
+  "kids" : [ {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 24,
+    "page number" : 1,
+    "bounding box" : [ 51.05, 710.371, 125.3, 792.121 ],
+    "source" : "atto_19_images/imageFile1.png"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 13,
+    "level" : "Doctitle",
+    "page number" : 1,
+    "bounding box" : [ 200.76, 742.105, 469.239, 766.877 ],
+    "heading level" : 1,
+    "font" : "Garamond-Bold",
+    "font size" : 22.02,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "COMUNE DI MOIMACCO"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 14,
+    "page number" : 1,
+    "bounding box" : [ 284.16, 726.341, 385.75, 742.068 ],
+    "font" : "Garamond",
+    "font size" : 13.98,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Provincia di Udine"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 15,
+    "page number" : 1,
+    "bounding box" : [ 264.36, 649.536, 324.36, 665.532 ],
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "__________"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H2",
+    "id" : 16,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 88.44, 619.408, 500.246, 638.043 ],
+    "heading level" : 2,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 13.98,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "VERBALE DI DELIBERAZIONE DEL CONSIGLIO COMUNALE"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 17,
+    "page number" : 1,
+    "bounding box" : [ 51.06, 578.256, 324.36, 621.852 ],
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "__________ COPIA"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 18,
+    "page number" : 1,
+    "bounding box" : [ 437.94, 550.656, 537.663, 580.344 ],
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "ANNO 2025 N. 8 del Reg. Delibere"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 19,
+    "page number" : 1,
+    "bounding box" : [ 51.06, 481.776, 537.626, 525.144 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "OGGETTO: OBIETTIVI SULLE SPESE DI FUNZIONAMENTO E DEL PERSONALE DELLA SOCIETA’ IN HOUSE A&T 2000 S.P.A. AI SENSI DELL’ART. 19 DEL D.LGS. 175/2016 - ANNO 2025."
+  }, {
+    "type" : "caption",
+    "id" : 20,
+    "page number" : 1,
+    "bounding box" : [ 79.44, 426.576, 529.116, 456.144 ],
+    "linked content id" : 21,
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "L'anno 2025, il giorno 23 del mese di Aprile alle ore 19:11 nella sala consigliare si è riunito il Consiglio Comunale. Fatto l'appello nominale risultano:"
+  }, {
+    "type" : "table",
+    "pdfua_tag" : "Table",
+    "id" : 21,
+    "level" : "1",
+    "page number" : 1,
+    "bounding box" : [ 79.2, 201.54, 526.201, 402.181 ],
+    "number of rows" : 14,
+    "number of columns" : 3,
+    "rows" : [ {
+      "type" : "table row",
+      "row number" : 1,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 79.68, 387.66, 228.24, 401.7 ],
+        "row number" : 1,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 228.24, 387.66, 370.02, 401.7 ],
+        "row number" : 1,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 370.02, 387.66, 525.72, 401.7 ],
+        "row number" : 1,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 1,
+          "page number" : 1,
+          "bounding box" : [ 375.42, 386.976, 457.427, 402.744 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Presente/Assente"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 2,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 79.68, 373.38, 228.24, 387.66 ],
+        "row number" : 2,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 2,
+          "page number" : 1,
+          "bounding box" : [ 84.78, 372.696, 194.46, 388.464 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "dott. Basaldella Enrico"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 228.24, 373.38, 370.02, 387.66 ],
+        "row number" : 2,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 3,
+          "page number" : 1,
+          "bounding box" : [ 233.64, 372.696, 272.34, 388.464 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Sindaco"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 370.02, 373.38, 525.72, 387.66 ],
+        "row number" : 2,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 4,
+          "page number" : 1,
+          "bounding box" : [ 375.42, 372.696, 416.148, 388.464 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Presente"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 3,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 79.68, 359.04, 228.24, 373.38 ],
+        "row number" : 3,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 5,
+          "page number" : 1,
+          "bounding box" : [ 84.78, 358.356, 177.059, 374.124 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Basaldella Rodolfo"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 228.24, 359.04, 370.02, 373.38 ],
+        "row number" : 3,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 6,
+          "page number" : 1,
+          "bounding box" : [ 233.64, 358.356, 289.008, 374.124 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Consigliere"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 370.02, 359.04, 525.72, 373.38 ],
+        "row number" : 3,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 7,
+          "page number" : 1,
+          "bounding box" : [ 375.42, 358.356, 416.148, 374.124 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Presente"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 4,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 79.68, 344.76, 228.24, 359.04 ],
+        "row number" : 4,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 8,
+          "page number" : 1,
+          "bounding box" : [ 84.78, 344.076, 158.447, 359.844 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Bassetti Franca"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 228.24, 344.76, 370.02, 359.04 ],
+        "row number" : 4,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 9,
+          "page number" : 1,
+          "bounding box" : [ 233.64, 344.076, 289.008, 359.844 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Consigliere"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 370.02, 344.76, 525.72, 359.04 ],
+        "row number" : 4,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 10,
+          "page number" : 1,
+          "bounding box" : [ 375.42, 344.076, 416.148, 359.844 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Presente"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 5,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 79.68, 330.48, 228.24, 344.76 ],
+        "row number" : 5,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 11,
+          "page number" : 1,
+          "bounding box" : [ 84.78, 329.796, 169.139, 345.564 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Bevilacqua Paolo"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 228.24, 330.48, 370.02, 344.76 ],
+        "row number" : 5,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 12,
+          "page number" : 1,
+          "bounding box" : [ 233.64, 329.796, 289.008, 345.564 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Consigliere"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 370.02, 330.48, 525.72, 344.76 ],
+        "row number" : 5,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 13,
+          "page number" : 1,
+          "bounding box" : [ 375.42, 329.796, 416.148, 345.564 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Presente"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 6,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 79.68, 316.14, 228.24, 330.48 ],
+        "row number" : 6,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 14,
+          "page number" : 1,
+          "bounding box" : [ 84.78, 315.456, 163.799, 331.224 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Causero Tiziano"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 228.24, 316.14, 370.02, 330.48 ],
+        "row number" : 6,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 15,
+          "page number" : 1,
+          "bounding box" : [ 233.64, 315.456, 289.008, 331.224 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Consigliere"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 370.02, 316.14, 525.72, 330.48 ],
+        "row number" : 6,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 16,
+          "page number" : 1,
+          "bounding box" : [ 375.42, 315.456, 416.148, 331.224 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Presente"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 7,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 79.68, 301.86, 228.24, 316.14 ],
+        "row number" : 7,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 17,
+          "page number" : 1,
+          "bounding box" : [ 84.78, 301.176, 147.408, 316.944 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Cotterli Ada"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 228.24, 301.86, 370.02, 316.14 ],
+        "row number" : 7,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 18,
+          "page number" : 1,
+          "bounding box" : [ 233.64, 301.176, 289.008, 316.944 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Consigliere"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 370.02, 301.86, 525.72, 316.14 ],
+        "row number" : 7,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 19,
+          "page number" : 1,
+          "bounding box" : [ 375.42, 301.176, 416.148, 316.944 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Presente"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 8,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 79.68, 287.58, 228.24, 301.86 ],
+        "row number" : 8,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 20,
+          "page number" : 1,
+          "bounding box" : [ 84.78, 286.896, 173.448, 302.664 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "De Puppi Caterina"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 228.24, 287.58, 370.02, 301.86 ],
+        "row number" : 8,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 21,
+          "page number" : 1,
+          "bounding box" : [ 233.64, 286.896, 289.008, 302.664 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Consigliere"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 370.02, 287.58, 525.72, 301.86 ],
+        "row number" : 8,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 22,
+          "page number" : 1,
+          "bounding box" : [ 375.42, 286.896, 413.448, 302.664 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Assente"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 9,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 79.68, 273.24, 228.24, 287.58 ],
+        "row number" : 9,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 23,
+          "page number" : 1,
+          "bounding box" : [ 84.78, 272.556, 148.439, 288.324 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Fanna Marco"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 228.24, 273.24, 370.02, 287.58 ],
+        "row number" : 9,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 24,
+          "page number" : 1,
+          "bounding box" : [ 233.64, 272.556, 289.008, 288.324 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Consigliere"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 370.02, 273.24, 525.72, 287.58 ],
+        "row number" : 9,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 25,
+          "page number" : 1,
+          "bounding box" : [ 375.42, 272.556, 416.148, 288.324 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Presente"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 10,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 79.68, 258.961, 228.24, 273.24 ],
+        "row number" : 10,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 26,
+          "page number" : 1,
+          "bounding box" : [ 84.78, 258.276, 141.769, 274.044 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Ferro Laura"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 228.24, 258.961, 370.02, 273.24 ],
+        "row number" : 10,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 27,
+          "page number" : 1,
+          "bounding box" : [ 233.64, 258.276, 289.008, 274.044 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Consigliere"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 370.02, 258.961, 525.72, 273.24 ],
+        "row number" : 10,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 28,
+          "page number" : 1,
+          "bounding box" : [ 375.42, 258.276, 416.148, 274.044 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Presente"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 11,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 79.68, 244.68, 228.24, 258.961 ],
+        "row number" : 11,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 29,
+          "page number" : 1,
+          "bounding box" : [ 84.78, 243.996, 163.128, 259.764 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Grosso Gabriele"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 228.24, 244.68, 370.02, 258.961 ],
+        "row number" : 11,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 30,
+          "page number" : 1,
+          "bounding box" : [ 233.64, 243.996, 289.008, 259.764 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Consigliere"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 370.02, 244.68, 525.72, 258.961 ],
+        "row number" : 11,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 31,
+          "page number" : 1,
+          "bounding box" : [ 375.42, 243.996, 416.148, 259.764 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Presente"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 12,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 79.68, 230.4, 228.24, 244.68 ],
+        "row number" : 12,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 32,
+          "page number" : 1,
+          "bounding box" : [ 84.78, 229.716, 171.78, 245.484 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Lavarone Roberto"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 228.24, 230.4, 370.02, 244.68 ],
+        "row number" : 12,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 33,
+          "page number" : 1,
+          "bounding box" : [ 233.64, 229.716, 289.008, 245.484 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Consigliere"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 370.02, 230.4, 525.72, 244.68 ],
+        "row number" : 12,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 34,
+          "page number" : 1,
+          "bounding box" : [ 375.42, 229.716, 416.148, 245.484 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Presente"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 13,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 79.68, 216.06, 228.24, 230.4 ],
+        "row number" : 13,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 35,
+          "page number" : 1,
+          "bounding box" : [ 84.78, 215.376, 155.1, 231.144 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Rosati Alberto"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 228.24, 216.06, 370.02, 230.4 ],
+        "row number" : 13,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 36,
+          "page number" : 1,
+          "bounding box" : [ 233.64, 215.376, 289.008, 231.144 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Consigliere"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 370.02, 216.06, 525.72, 230.4 ],
+        "row number" : 13,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 37,
+          "page number" : 1,
+          "bounding box" : [ 375.42, 215.376, 416.148, 231.144 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Presente"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 14,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 79.68, 202.021, 228.24, 216.06 ],
+        "row number" : 14,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 38,
+          "page number" : 1,
+          "bounding box" : [ 84.78, 201.096, 168.468, 216.864 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Simoncig Davide"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 228.24, 202.021, 370.02, 216.06 ],
+        "row number" : 14,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 39,
+          "page number" : 1,
+          "bounding box" : [ 233.64, 201.096, 289.008, 216.864 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Consigliere"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 370.02, 202.021, 525.72, 216.06 ],
+        "row number" : 14,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 40,
+          "page number" : 1,
+          "bounding box" : [ 375.42, 201.096, 416.148, 216.864 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Presente"
+        } ]
+      } ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 22,
+    "page number" : 1,
+    "bounding box" : [ 79.44, 161.496, 273.72, 177.264 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Assiste il Segretario Stanig dott.ssa Eva."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 23,
+    "page number" : 1,
+    "bounding box" : [ 79.44, 92.496, 547.188, 135.864 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Constatato il numero degli intervenuti, assume la presidenza il Sig. Basaldella dott. Enrico nella sua qualità di Sindaco, espone gli oggetti iscritti all'ordine del giorno e dichiara aperta la discussione per la trattazione dell’argomento indicato in oggetto."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 26,
+    "page number" : 2,
+    "bounding box" : [ 51.06, 749.796, 537.743, 793.164 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "OGGETTO: OBIETTIVI SULLE SPESE DI FUNZIONAMENTO E DEL PERSONALE DELLA SOCIETA’ IN HOUSE A&T 2000 S.p.A. AI SENSI DELL’ART. 19 DEL D.LGS. 175/2016 ANNO 2025."
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H4",
+    "id" : 27,
+    "level" : "Subtitle",
+    "page number" : 2,
+    "bounding box" : [ 184.56, 708.276, 413.572, 724.272 ],
+    "heading level" : 4,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Proposta di delibera del Consiglio Comunale"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 28,
+    "page number" : 2,
+    "bounding box" : [ 51.06, 625.596, 547.198, 682.764 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "PREMESSO che A&T 2000 S.p.A. è una società a controllo pubblico affidataria in house del servizio di gestione integrata dei rifiuti urbani nel territorio di 79 comuni del Friuli Venezia Giulia, tra cui il Comune di Moimacco per effetto della Deliberazione n. 37/19 dd. 02.10.2019 dell’Assemblea Regionale D’Ambito di AUSIR;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 29,
+    "page number" : 2,
+    "bounding box" : [ 51.06, 584.196, 547.2, 613.764 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "DATO ATTO che in A&T 2000 S.p.A. vige un sistema di controllo analogo congiunto regolato secondo specifiche disposizioni statutarie e apposita Convenzione stipulata fra gli Enti soci;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 30,
+    "page number" : 2,
+    "bounding box" : [ 51.06, 487.536, 547.201, 572.556 ],
+    "font" : "TimesNewRomanPS-ItalicMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "VISTO il c. 5 dell’art. 19 del D. Lgs. n. 175/2016 in base al quale Le amministrazioni pubbliche socie fissano, con propri provvedimenti, obiettivi specifici, annuali e pluriennali, sul complesso delle spese di funzionamento, ivi comprese quelle per il personale, delle società controllate, anche attraverso il contenimento degli oneri contrattuali e delle assunzioni di personale e tenuto conto di quanto stabilito all'articolo 25, ovvero delle eventuali disposizioni che stabiliscono, a loro carico, divieti o limitazioni alle assunzioni di personale, tenendo conto del settore in cui ciascun soggetto opera;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 31,
+    "page number" : 2,
+    "bounding box" : [ 51.06, 404.856, 547.212, 475.764 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "DATO ATTO che gli elementi relativi alle spese di funzionamento della società e del personale sono state inseriti nel budget per l’anno 2025, che è stato adottato dal Consiglio di Amministrazione, sottoposto all’analisi della Commissione per il “Controllo Analogo congiunto” e approvato da parte del Coordinamento dei soci per il “Controllo Analogo congiunto” e dell’Assemblea dei Soci di A&T 2000 S.p.A. nelle sedute del 28.01.2025;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 32,
+    "page number" : 2,
+    "bounding box" : [ 51.06, 349.656, 547.128, 393.024 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "ATTESO che A&T 2000 S.p.A. è chiamata a perseguire il costante efficientamento organizzativo e l’ottimizzazione dei suoi costi di funzionamento per l’erogazione dei servizi affidati dall’AUSIR e regolati dalle disposizioni dell’ARERA;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 33,
+    "page number" : 2,
+    "bounding box" : [ 51.06, 308.256, 547.14, 337.824 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "DATO ATTO che la spesa sostenuta dalla società per le spese di funzionamento dell’organo amministrativo rispetta le disposizioni di cui all’art. 4, comma 4, del Decreto Legge 95/2012;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 34,
+    "page number" : 2,
+    "bounding box" : [ 51.06, 211.656, 547.153, 296.424 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "VISTO il documento denominato “OBIETTIVI SULLE SPESE DI FUNZIONAMENTO E DEL PERSONALE DELLA SOCIETA’ IN HOUSE A&T 2000 S.p.A. AI SENSI DELL’ART. 19 DEL D.LGS. 175/2016 - ANNO 2025 - ELEMENTI RELATIVI AI COSTI E ALLA POLITICA DEL PERSONALE”, allegato parte integrante e contestuale del presente provvedimento, adottato dal C.d.A. di A&T 2000 S.p.A., in cui sono contenuti gli elementi utili per la fissazione di tali obiettivi, relativi in particolare ai costi e alla politica del personale della Società;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 35,
+    "page number" : 2,
+    "bounding box" : [ 51.06, 128.856, 547.182, 199.824 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "RITENUTO che la politica del personale ivi descritta, accompagnata da un’oculata gestione del contratto integrativo aziendale, individui in maniera compiuta ed esauriente gli obiettivi e gli indicatori atti a perseguire le strategie aziendali nell’anno 2025, con il mantenimento da parte di A&T 2000 S.p.A. dell’obiettivo del contenimento dei costi del personale al netto delle dinamiche salariali indotte dal CCNL;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 36,
+    "page number" : 2,
+    "bounding box" : [ 51.06, 59.856, 547.2, 117.024 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "CONSIDERATO che la dotazione organica del personale ivi indicata, dal punto di vista numerico, potrà subire variazioni dovute ad eventuali uscite dall’azienda per quiescenza o ad eventuali necessità di sostituzioni anche temporanee per eventi quali maternità, malattia o infortunio, garantendo in ogni caso tutti i principi di contenimento dei costi previsti;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 38,
+    "page number" : 3,
+    "bounding box" : [ 51.06, 749.796, 547.182, 793.164 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "DATO ATTO che gli elementi ed obiettivi innanzi richiamati potrebbero richiedere eventuali modifiche ed integrazioni in presenza di significative azioni di riorganizzazione o modifica operativa dei servizi resi da A&T 2000 S.p.A. o di future variazioni aziendali e societarie;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 39,
+    "page number" : 3,
+    "bounding box" : [ 51.06, 694.596, 547.176, 737.964 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "ATTESO che il presente atto rientra tra i provvedimenti soggetti a pubblicazione sul sito internet istituzionale sia della società che delle pubbliche amministrazioni socie, ai sensi dell’art. 19, c. 7, del D. Lgs. n. 175/2016;"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H4",
+    "id" : 40,
+    "level" : "Subtitle",
+    "page number" : 3,
+    "bounding box" : [ 269.76, 653.076, 328.404, 669.072 ],
+    "heading level" : 4,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "PROPONE"
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 41,
+    "level" : "2",
+    "page number" : 3,
+    "bounding box" : [ 51.06, 308.616, 547.204, 627.564 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 7,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 51.06, 611.796, 490.891, 627.564 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "1) di approvare le premesse, che costituiscono parte integrante della presente deliberazione;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 51.06, 543.216, 547.204, 600.324 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "2) di approvare il documento denominato “OBIETTIVI SULLE SPESE DI FUNZIONAMENTO E DEL PERSONALE DELLA SOCIETA’ IN HOUSE A&T 2000 S.p.A. AI SENSI DELL’ART. 19 DEL D.LGS. 175/2016 - ANNO 2025 - ELEMENTI RELATIVI AI COSTI E ALLA POLITICA DEL PERSONALE”, allegato parte integrante e contestuale del presente provvedimento;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 51.06, 474.216, 547.176, 531.384 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "3) di fissare e fare propri gli obiettivi ed elementi di gestione individuati nel documento innanzi approvato relativamente al contenimento dei costi di funzionamento, ed in particolare delle spese per il personale della società A&T 2000 S.p.A., ai sensi del c. 5 dell’art. 19 del D. Lgs. n. 175/2016 per l’anno 2025;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 51.06, 419.016, 547.187, 462.384 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "4) di dare atto che i suddetti obiettivi ed elementi di gestione potranno essere oggetto di successiva revisione in presenza di significative azioni di riorganizzazione o modifica operativa dei servizi resi da A&T 2000 S.p.A. o di future variazioni aziendali e societarie;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 51.06, 391.416, 497.616, 407.184 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "5) di disporre la pubblicazione del presente provvedimento sul sito istituzionale del Comune;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 51.06, 350.016, 547.187, 379.584 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "6) di inviare il presente provvedimento ad A&T 2000 S.p.A. ai fini del relativo recepimento e dell’assolvimento degli obblighi di pubblicazione;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 51.06, 308.616, 547.136, 338.184 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "7) di dichiarare la presente delibera immediatamente eseguibile, ai sensi art. 1, c. 19, L.R. 21/2003, come sostituito dall’art. 17 della L.R. 17/2004.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H4",
+    "id" : 42,
+    "level" : "Subtitle",
+    "page number" : 3,
+    "bounding box" : [ 219.42, 267.096, 378.744, 283.092 ],
+    "heading level" : 4,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "IL CONSIGLIO COMUNALE"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 43,
+    "page number" : 3,
+    "bounding box" : [ 51.06, 115.416, 547.193, 241.584 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "VISTA la suesposta proposta di deliberazione; VISTO che sulla stessa sono stati espressi i pareri di cui al D. Lgs. 267/2000; RIUNITO l'organo collegiale nelle forme sopra descritte con l'assistenza del segretario comunale in ossequio all'art. 97 TUEL; VISTO l’art. 1 comma 20 bis della L.R. n. 21 del 11.12.2003 in materia di pubblicazione delle deliberazioni degli enti locali;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 44,
+    "page number" : 3,
+    "bounding box" : [ 51.06, 60.216, 547.186, 103.584 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Il Sindaco prende la parola: è un atto dovuto in base al Testo Unico sulle partecipate; anche le società partecipate sono tenute a contenere le spese di personale, redigendo annualmente il presente atto che va approvato dalle singole amministrazioni."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 46,
+    "page number" : 4,
+    "bounding box" : [ 51.06, 749.796, 547.176, 793.164 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "DATO ATTO che gli interventi sono registrati su supporto informatico depositato presso la segreteria che costituisce, ex art. 22, L. n. 241/1990 e s.m.i., documentazione a comprova della discussione ai sensi dell'art. 44 del Regolamento del Consiglio Comunale;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 47,
+    "page number" : 4,
+    "bounding box" : [ 51.06, 611.796, 523.536, 737.964 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "UDITA quindi la proposta del Presidente, si procede a votazione sull'argomento in esame. Procedutosi a votazione nei modi e nelle forme previste dalla legge, si ottiene il seguente risultato: Voti favorevoli: 12 unanimità Voti contrari:Astenuti: pertanto, in esito alla suddetta votazione con voti resi ed accertati nelle forme di legge"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H4",
+    "id" : 48,
+    "level" : "Subtitle",
+    "page number" : 4,
+    "bounding box" : [ 267.78, 570.276, 330.444, 586.272 ],
+    "heading level" : 4,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "DELIBERA"
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 49,
+    "level" : "3",
+    "page number" : 4,
+    "bounding box" : [ 69.06, 458.316, 547.186, 557.664 ],
+    "numbering style" : "unordered",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 4,
+      "bounding box" : [ 69.06, 514.356, 547.183, 557.664 ],
+      "font" : "SymbolMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "• di accogliere la superiore proposta ed in conseguenza di adottare il presente atto con la narrativa, la motivazione ed il dispositivo di cui alla proposta stessa, che qui si intende integralmente trascritta;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 4,
+      "bounding box" : [ 69.06, 458.316, 547.186, 501.624 ],
+      "font" : "SymbolMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "• di dichiarare, vista l'urgenza di procedere, con voti unanimi resi ed accertati con separata votazione (voti favorevoli 12, voti contrari -, astenuti - ), il presente atto immediatamente esecutivo ai sensi art. 1, c. 19, L.R. 21/2003, come sostituito dall’art. 17 della L.R. 17/2004.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H3",
+    "id" : 52,
+    "level" : "Subtitle",
+    "page number" : 5,
+    "bounding box" : [ 51.06, 755.543, 266.695, 772.977 ],
+    "heading level" : 3,
+    "font" : "TimesNewRomanPS-BoldItalicMT",
+    "font size" : 13.02,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "PARERE DI REGOLARITÁ TECNICA"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 53,
+    "page number" : 5,
+    "bounding box" : [ 51.06, 700.596, 547.224, 743.964 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Con riferimento all'art. 49, comma 1° del D.Lgs.n. 267/2000 del T.U.EE.LL., è stato espresso parere favorevole alla regolarità tecnica sulla proposta di deliberazione in oggetto da DOTT.SSA MARTINA NOBILE in data 24 febbraio 2025."
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H3",
+    "id" : 55,
+    "level" : "Subtitle",
+    "page number" : 5,
+    "bounding box" : [ 54.06, 623.543, 286.977, 640.977 ],
+    "heading level" : 3,
+    "font" : "TimesNewRomanPS-BoldItalicMT",
+    "font size" : 13.02,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "PARERE DI REGOLARITÁ CONTABILE"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 56,
+    "page number" : 5,
+    "bounding box" : [ 51.06, 568.596, 547.2, 611.964 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Con riferimento all'art. 49, comma 1° del D.Lgs.n. 267/2000 del T.U.EE.LL., è stato espresso parere favorevole alla regolarità contabile sulla proposta di deliberazione in oggetto da DOTT.SSA MARIACRISTINA VIRGILIO in data 24 febbraio 2025."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 59,
+    "page number" : 6,
+    "bounding box" : [ 51.06, 735.996, 450.468, 793.164 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Letto, confermato e sottoscritto, Il Presidente Il Segretario F.to Basaldella dott. Enrico F.to Stanig dott.ssa Eva"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 61,
+    "page number" : 6,
+    "bounding box" : [ 192.66, 665.016, 395.952, 680.784 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "ATTESTAZIONE DI PUBBLICAZIONE"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 62,
+    "page number" : 6,
+    "bounding box" : [ 51.06, 623.616, 537.696, 653.184 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Si attesta che la presente deliberazione viene pubblicata all’Albo pretorio on line dal 28/04/2025 al 13/05/2025 per quindici giorni consecutivi, ai sensi della L.R. n. 21/2003 e successive modificazioni."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 63,
+    "page number" : 6,
+    "bounding box" : [ 51.06, 596.016, 234.72, 611.784 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Comune di Moimacco, lì 28/04/2025"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 64,
+    "page number" : 6,
+    "bounding box" : [ 286.86, 554.616, 463.908, 584.184 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "La Responsabile della Pubblicazione F.to dott.ssa Martina Nobile"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 66,
+    "page number" : 6,
+    "bounding box" : [ 209.4, 483.636, 379.298, 499.404 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "ATTESTATO DI ESECUTIVITA`"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 67,
+    "page number" : 6,
+    "bounding box" : [ 51.06, 428.436, 537.72, 471.804 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "La presente deliberazione è divenuta esecutiva il giorno 23/04/2025, poiché dichiarata immediatamente esecutiva (art. 1, comma 19 della L.R. 11/12/2003 n. 21 come modificato dall’art. 17 della L.R. 24/05/2004 n. 17)."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 68,
+    "page number" : 6,
+    "bounding box" : [ 51.06, 400.836, 122.4, 416.604 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Lì 28/04/2025"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 69,
+    "page number" : 6,
+    "bounding box" : [ 340.26, 359.436, 496.307, 389.004 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "La Responsabile dell’esecutività F.to dott.ssa Martina Nobile"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 71,
+    "page number" : 6,
+    "bounding box" : [ 51.06, 205.656, 374.94, 249.024 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Copia conforme all’originale, in carta libera ad uso amministrativo. Lì"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 72,
+    "page number" : 6,
+    "bounding box" : [ 296.58, 178.056, 463.559, 207.624 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "La Responsabile del Procedimento dott.ssa Martina Nobile"
+  } ]
+}

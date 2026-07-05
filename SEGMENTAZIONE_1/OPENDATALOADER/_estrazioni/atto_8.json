@@ -1,0 +1,774 @@
+{
+  "file name" : "atto_8.pdf",
+  "number of pages" : 4,
+  "author" : "Domenico Petronio",
+  "title" : "originale GM corta",
+  "creation date" : "D:20130402121000+02'00'",
+  "modification date" : "D:20230601170200+02'00'",
+  "kids" : [ {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 1,
+    "level" : "Doctitle",
+    "page number" : 1,
+    "bounding box" : [ 193.11, 771.752, 451.782, 798.33 ],
+    "heading level" : 1,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 24.0,
+    "text color" : "[0.0]",
+    "content" : "COMUNE DI AUSONIA"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H2",
+    "id" : 2,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 234.95, 751.054, 409.946, 770.988 ],
+    "heading level" : 2,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 18.0,
+    "text color" : "[0.0]",
+    "content" : "Provincia di Frosinone"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H3",
+    "id" : 3,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 130.507, 665.96, 514.387, 681.464 ],
+    "heading level" : 3,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 14.0,
+    "text color" : "[0.0]",
+    "content" : "COPIA DI DELIBERAZIONE DELLA GIUNTA COMUNALE"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H3",
+    "id" : 4,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 219.726, 622.263, 425.176, 637.904 ],
+    "heading level" : 3,
+    "font" : "Arial-BoldMT",
+    "font size" : 14.0,
+    "text color" : "[0.0]",
+    "content" : "Verbale n. 42 del 10-06-2026"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 5,
+    "page number" : 1,
+    "bounding box" : [ 92.15, 560.168, 552.75, 608.071 ],
+    "font" : "Arial-BoldMT",
+    "font size" : 10.0,
+    "text color" : "[0.0]",
+    "content" : "OGGETTO: Approvazione del progetto denominato \"La Magia del Natale ad Ausonia- V° Edizione \"da candidare all'Avviso Pubblico per la concessione di contributi ai sensi dell'art. 5 della L.R. 30 dicembre 2024 n. 22-\"Fondo per le iniziative di promozione e valorizzazione del territorio regionale\"- Annualità 2026"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 6,
+    "page number" : 1,
+    "bounding box" : [ 92.15, 492.323, 552.746, 547.126 ],
+    "font" : "ArialMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "L’anno duemilaventisei, il giorno dieci del mese di giugno alle ore 12:15 e seg. in Ausonia e nella residenza municipale, nella sala delle adunanze, previa l'osservanza di tutte le formalità prescritte dalle vigenti leggi, sono stati oggi convocati in seduta i componenti della Giunta Comunale."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 7,
+    "page number" : 1,
+    "bounding box" : [ 162.95, 464.725, 386.414, 478.131 ],
+    "font" : "ArialMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Fatto normale appello nominale, risultano:"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 9,
+    "page number" : 1,
+    "bounding box" : [ 95.65, 370.277, 359.57, 425.049 ],
+    "font" : "ArialMT",
+    "font size" : 10.0,
+    "text color" : "[0.0]",
+    "content" : "CARDILLO Benedetto Sindaco PINCHERA Stefania Vice Sindaco STAGNO Gaetano Assessore"
+  }, {
+    "type" : "table",
+    "pdfua_tag" : "Table",
+    "id" : 8,
+    "level" : "1",
+    "page number" : 1,
+    "bounding box" : [ 439.2, 343.126, 553.1, 453.226 ],
+    "number of rows" : 5,
+    "number of columns" : 2,
+    "rows" : [ {
+      "type" : "table row",
+      "row number" : 1,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 439.7, 430.526, 552.6, 452.726 ],
+        "row number" : 1,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 2,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 1,
+          "page number" : 1,
+          "bounding box" : [ 454.19, 436.002, 538.11, 447.174 ],
+          "font" : "Arial-BoldMT",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "Presenti / Assenti"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 2,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 439.7, 408.726, 552.6, 430.526 ],
+        "row number" : 2,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 2,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 2,
+          "page number" : 1,
+          "bounding box" : [ 476.138, 413.877, 516.158, 425.049 ],
+          "font" : "ArialMT",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "Presente"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 3,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 439.7, 386.926, 552.6, 408.726 ],
+        "row number" : 3,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 2,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 3,
+          "page number" : 1,
+          "bounding box" : [ 476.138, 392.077, 516.158, 403.249 ],
+          "font" : "ArialMT",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "Presente"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 4,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 439.7, 364.876, 552.6, 386.926 ],
+        "row number" : 4,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 2,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 4,
+          "page number" : 1,
+          "bounding box" : [ 476.138, 370.277, 516.158, 381.449 ],
+          "font" : "ArialMT",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "Presente"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 5,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 439.7, 343.626, 496.15, 364.876 ],
+        "row number" : 5,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 5,
+          "page number" : 1,
+          "bounding box" : [ 469.191, 348.502, 474.741, 359.674 ],
+          "font" : "ArialMT",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "3"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 496.15, 343.626, 552.6, 364.876 ],
+        "row number" : 5,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 6,
+          "page number" : 1,
+          "bounding box" : [ 525.891, 348.502, 531.441, 359.674 ],
+          "font" : "ArialMT",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "0"
+        } ]
+      } ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 10,
+    "page number" : 1,
+    "bounding box" : [ 408.157, 348.502, 435.947, 359.674 ],
+    "font" : "ArialMT",
+    "font size" : 10.0,
+    "text color" : "[0.0]",
+    "content" : "Totale"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 11,
+    "page number" : 1,
+    "bounding box" : [ 92.15, 262.632, 552.746, 317.435 ],
+    "font" : "ArialMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Assiste il Segretario Comunale Erminio VERNILE, il quale provvede alla redazione del presente verbale. Essendo legale il numero degli intervenuti, il Dott. Benedetto CARDILLO - Sindaco, assume la Presidenza e dichiara aperta la seduta per la trattazione dell’oggetto sopra indicato."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 12,
+    "level" : "2",
+    "page number" : 1,
+    "bounding box" : [ 92.15, 248.833, 95.486, 262.239 ],
+    "font" : "ArialMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "."
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H5",
+    "id" : 13,
+    "level" : "Subtitle",
+    "page number" : 2,
+    "bounding box" : [ 42.55, 761.752, 343.854, 798.84 ],
+    "heading level" : 5,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "LA GIUNTA COMUNALE PREMESSO CHE"
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 14,
+    "level" : "3",
+    "page number" : 2,
+    "bounding box" : [ 60.55, 514.767, 503.146, 751.242 ],
+    "numbering style" : "unordered",
+    "number of list items" : 4,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 60.55, 668.958, 503.146, 751.242 ],
+      "font" : "SymbolMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : " la Regione Lazio, con Determinazione Dirigenziale n. G07309 del 28/05/2026, ha approvato l’Avviso Pubblico per la concessione di contributi ai sensi dell’art. 5 della Legge Regionale 30 dicembre 2024 n. 22 “Fondo per le iniziative di promozione e valorizzazione del territorio regionale”, destinato ai Comuni del Lazio, ai Municipi di Roma Capitale, agli Enti gestori delle aree naturali protette regionali e alle Comunità Montane;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 60.55, 617.561, 503.146, 658.448 ],
+      "font" : "SymbolMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : " l’Avviso è finalizzato a sostenere iniziative volte alla promozione e valorizzazione del territorio regionale, favorendo lo sviluppo sociale, culturale, turistico ed economico delle comunità locali;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 60.55, 579.963, 503.146, 607.051 ],
+      "font" : "SymbolMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : " le iniziative finanziabili dovranno svolgersi nel territorio della Regione Lazio nel periodo compreso tra il 1° settembre 2026 e il 7 gennaio 2027;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 60.55, 514.767, 503.146, 569.453 ],
+      "font" : "SymbolMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : " ai sensi dell’art. 3 dell’Avviso, per i Comuni con popolazione superiore a 15.000 abitanti il contributo massimo concedibile è pari ad € 30.000,00, mentre per i Comuni con popolazione pari o inferiore a 15.000 abitanti il contributo massimo concedibile è pari ad € 20.000,00;",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H5",
+    "id" : 15,
+    "level" : "Subtitle",
+    "page number" : 2,
+    "bounding box" : [ 42.55, 490.968, 160.906, 504.257 ],
+    "heading level" : 5,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "CONSIDERATO CHE"
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 16,
+    "level" : "3",
+    "page number" : 2,
+    "bounding box" : [ 60.55, 336.777, 503.146, 480.458 ],
+    "numbering style" : "unordered",
+    "number of list items" : 3,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 60.55, 439.571, 503.146, 480.458 ],
+      "font" : "SymbolMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : " l’Amministrazione Comunale intende partecipare al suddetto Avviso attraverso la candidatura del progetto denominato “La magia del Natale ad Ausonia V° Edizione”, allegato alla presente deliberazione quale parte integrante e sostanziale;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 60.55, 388.174, 503.146, 429.061 ],
+      "font" : "SymbolMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : " il progetto proposto mira a valorizzare il patrimonio culturale, storico, ambientale e identitario del territorio comunale mediante la realizzazione di iniziative ed eventi rivolti alla cittadinanza e ai visitatori;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 60.55, 336.777, 503.146, 377.664 ],
+      "font" : "SymbolMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : " il progetto presenta un quadro economico complessivo pari ad €. 25.000,00, di cui € 20.000,00 richiesti a titolo di contributo regionale e € 5.000,00 a carico dell’Ente quale eventuale quota di compartecipazione;",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 17,
+    "page number" : 2,
+    "bounding box" : [ 42.55, 299.179, 503.146, 326.267 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "RITENUTO di approvare il progetto allegato e di autorizzarne la candidatura nell’ambito dell’Avviso regionale sopra richiamato;"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H5",
+    "id" : 18,
+    "level" : "Subtitle",
+    "page number" : 2,
+    "bounding box" : [ 42.55, 275.38, 75.226, 288.669 ],
+    "heading level" : 5,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "VISTI"
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 19,
+    "level" : "3",
+    "page number" : 2,
+    "bounding box" : [ 60.55, 156.385, 434.782, 264.87 ],
+    "numbering style" : "unordered",
+    "number of list items" : 5,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 60.55, 251.581, 294.826, 264.87 ],
+      "font" : "SymbolMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : " la Legge Regionale 30 dicembre 2024, n. 22;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 60.55, 227.782, 276.862, 241.071 ],
+      "font" : "SymbolMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : " la D.G.R. Lazio n. 1244 dell’11/12/2025;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 60.55, 203.983, 434.782, 217.272 ],
+      "font" : "SymbolMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : " la Determinazione Dirigenziale Regione Lazio n. G07309 del 28/05/2026;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 60.55, 180.184, 184.558, 193.473 ],
+      "font" : "SymbolMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : " il D.Lgs. n. 267/2000;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 60.55, 156.385, 180.55, 169.674 ],
+      "font" : "SymbolMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : " lo Statuto Comunale;",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 20,
+    "page number" : 2,
+    "bounding box" : [ 42.55, 118.787, 497.41, 145.875 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "ACQUISITI i pareri favorevoli di regolarità tecnica e contabile ai sensi dell’art. 49 del D.Lgs. 267/2000;"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H4",
+    "id" : 21,
+    "level" : "Subtitle",
+    "page number" : 2,
+    "bounding box" : [ 237.59, 93.263, 308.1, 108.213 ],
+    "heading level" : 4,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 13.5,
+    "text color" : "[0.0]",
+    "content" : "DELIBERA"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 22,
+    "level" : "4",
+    "page number" : 2,
+    "bounding box" : [ 60.55, 55.665, 503.146, 82.753 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "1. Di approvare il progetto denominato “La Magia del Natale ad Ausonia V° Edizione”, in atti, da candidare all’Avviso Pubblico regionale per la concessione di"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 23,
+    "page number" : 3,
+    "bounding box" : [ 128.15, 771.752, 552.746, 798.84 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "contributi ai sensi dell’art. 5 della L.R. n. 22/2024 – “Fondo per le iniziative di promozione e valorizzazione del territorio regionale”."
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 24,
+    "level" : "5",
+    "page number" : 3,
+    "bounding box" : [ 110.15, 542.365, 552.758, 761.242 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 5,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 110.15, 720.355, 552.746, 761.242 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "2. Di dare atto che il progetto prevede un costo complessivo pari ad € 25.000,00, per il quale viene richiesto un contributo regionale di € 5.000,00, nel rispetto dei limiti previsti dall’Avviso.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 110.15, 668.958, 552.746, 709.845 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "3. Di impegnare l’Ente, in caso di ammissione a finanziamento, alla realizzazione delle attività previste nel progetto nel periodo compreso tra il 1° settembre 2026 e il 7 gennaio 2027, nel rispetto delle disposizioni contenute nell’Avviso regionale.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 110.15, 617.561, 552.746, 658.448 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "4. Di demandare al Responsabile del Settore competente tutti gli adempimenti conseguenti e necessari alla presentazione della candidatura tramite la piattaforma regionale dedicata.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 110.15, 579.963, 552.758, 607.051 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "5. Di autorizzare il Sindaco, quale legale rappresentante dell’Ente, alla sottoscrizione della documentazione necessaria per la partecipazione all’Avviso.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 110.15, 542.365, 552.746, 569.453 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "6. Di dichiarare la presente deliberazione immediatamente eseguibile ai sensi dell’art. 134, comma 4, del D.Lgs. 267/2000, stante l’urgenza di provvedere.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 27,
+    "page number" : 4,
+    "bounding box" : [ 42.55, 763.353, 182.62, 774.525 ],
+    "font" : "ArialMT",
+    "font size" : 10.0,
+    "text color" : "[0.0]",
+    "content" : "Letto, confermato e sottoscritto."
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H6",
+    "id" : 28,
+    "level" : "Subtitle",
+    "page number" : 4,
+    "bounding box" : [ 85.52, 728.856, 446.817, 751.527 ],
+    "heading level" : 6,
+    "font" : "Arial-BoldMT",
+    "font size" : 10.0,
+    "text color" : "[0.0]",
+    "content" : "IL Sindaco IL Segretario Comunale f.to Dott. Benedetto CARDILLO"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 30,
+    "page number" : 4,
+    "bounding box" : [ 307.277, 705.858, 474.117, 740.028 ],
+    "font" : "ArialMT",
+    "font size" : 10.0,
+    "text color" : "[0.0]",
+    "content" : "f.to Dott. Erminio VERNILE ______________________________"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 29,
+    "page number" : 4,
+    "bounding box" : [ 71.577, 705.858, 238.417, 717.03 ],
+    "font" : "ArialMT",
+    "font size" : 10.0,
+    "text color" : "[0.0]",
+    "content" : "______________________________"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 32,
+    "page number" : 4,
+    "bounding box" : [ 77.95, 646.863, 325.27, 658.035 ],
+    "font" : "ArialMT",
+    "font size" : 10.0,
+    "text color" : "[0.0]",
+    "content" : "Il sottoscritto Segretario Comunale, visti gli atti di ufficio:"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 33,
+    "page number" : 4,
+    "bounding box" : [ 42.55, 600.867, 295.906, 635.037 ],
+    "font" : "ArialMT",
+    "font size" : 10.0,
+    "text color" : "[0.0]",
+    "content" : "ATTESTA Che la presente deliberazione:"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 34,
+    "page number" : 4,
+    "bounding box" : [ 42.55, 566.37, 444.72, 577.542 ],
+    "font" : "ArialMT",
+    "font size" : 10.0,
+    "text color" : "[0.0]",
+    "content" : " viene dichiarata immediatamente eseguibile (art. 134, 4° comma del D. Lvo 267/2000)"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 35,
+    "level" : "6",
+    "page number" : 4,
+    "bounding box" : [ 42.55, 543.372, 216.17, 554.544 ],
+    "font" : "ArialMT",
+    "font size" : 10.0,
+    "text color" : "[0.0]",
+    "content" : " è divenuta esecutiva il 10-06-2026"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 36,
+    "page number" : 4,
+    "bounding box" : [ 42.55, 508.875, 336.77, 520.047 ],
+    "font" : "ArialMT",
+    "font size" : 10.0,
+    "text color" : "[0.0]",
+    "content" : " viene comunicata in elenco ai Capigruppo Consiliari (art. 125)"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 37,
+    "page number" : 4,
+    "bounding box" : [ 212.831, 474.378, 332.871, 497.049 ],
+    "font" : "ArialMT",
+    "font size" : 10.0,
+    "text color" : "[0.0]",
+    "content" : "IL Segretario Comunale f.to Dott. Erminio VERNILE"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 38,
+    "page number" : 4,
+    "bounding box" : [ 189.427, 451.38, 356.267, 462.552 ],
+    "font" : "ArialMT",
+    "font size" : 10.0,
+    "text color" : "[0.0]",
+    "content" : "______________________________"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 40,
+    "page number" : 4,
+    "bounding box" : [ 42.55, 369.387, 295.46, 403.557 ],
+    "font" : "ArialMT",
+    "font size" : 10.0,
+    "text color" : "[0.0]",
+    "content" : "Il sottoscritto responsabile del servizio delle pubblicazioni ATTESTA"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 41,
+    "page number" : 4,
+    "bounding box" : [ 42.55, 323.391, 503.15, 357.561 ],
+    "font" : "ArialMT",
+    "font size" : 10.0,
+    "text color" : "[0.0]",
+    "content" : "Che la presente deliberazione è stata pubblicata, in data odierna, per 15 giorni consecutivi dal 12-062026 al 27-06-2026 al numero 364 nel sito web istituzionale di questo Comune accessibile al pubblico al portale www.comunediausonia.it (art. 32, comma 1, della legge 18 giugno 2009, n. 69)."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 43,
+    "page number" : 4,
+    "bounding box" : [ 42.55, 288.894, 230.43, 300.066 ],
+    "font" : "ArialMT",
+    "font size" : 10.0,
+    "text color" : "[0.0]",
+    "content" : "Dalla Residenza Municipale, lì 12-06-2026"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H6",
+    "id" : 44,
+    "level" : "Subtitle",
+    "page number" : 4,
+    "bounding box" : [ 164.774, 254.397, 380.924, 277.068 ],
+    "heading level" : 6,
+    "font" : "Arial-BoldMT",
+    "font size" : 10.0,
+    "text color" : "[0.0]",
+    "content" : "IL Responsabile Procedimento Pubblicazione f.to Sig. Onofrio CORENO"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 45,
+    "page number" : 4,
+    "bounding box" : [ 189.427, 231.399, 356.267, 242.571 ],
+    "font" : "ArialMT",
+    "font size" : 10.0,
+    "text color" : "[0.0]",
+    "content" : "______________________________"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 46,
+    "page number" : 4,
+    "bounding box" : [ 42.55, 139.407, 498.59, 196.575 ],
+    "font" : "ArialMT",
+    "font size" : 10.0,
+    "text color" : "[0.0]",
+    "content" : "__________________________________________________________________________________ Copia conforme all’originale, in carta libera per uso amministrativo. Dalla Residenza Municipale, li 12-06-2026"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H6",
+    "id" : 47,
+    "level" : "Subtitle",
+    "page number" : 4,
+    "bounding box" : [ 266.402, 104.91, 378.642, 127.581 ],
+    "heading level" : 6,
+    "font" : "Arial-BoldMT",
+    "font size" : 10.0,
+    "text color" : "[0.0]",
+    "content" : "IL Segretario Comunale Dott. Erminio VERNILE"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 48,
+    "page number" : 4,
+    "bounding box" : [ 239.102, 81.912, 405.942, 93.084 ],
+    "font" : "ArialMT",
+    "font size" : 10.0,
+    "text color" : "[0.0]",
+    "content" : "______________________________"
+  } ]
+}

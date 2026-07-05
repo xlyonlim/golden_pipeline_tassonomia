@@ -1,0 +1,43 @@
+install.packages("Lock5Data")   # solo se non l'hai già installato
+library(Lock5Data)
+data("SleepStudy")
+
+y <- SleepStudy$CognitionZscore
+
+summary(y)
+range(y, na.rm = TRUE)
+mean(y, na.rm = TRUE)
+sd(y, na.rm = TRUE)
+
+hist(y, freq = FALSE,
+     main = "Distribution of CognitionZscore",
+     xlab = "CognitionZscore")
+
+lines(density(y, na.rm = TRUE))
+
+qqnorm(y)
+qqline(y)
+
+boxplot(y,
+        main = "Boxplot of CognitionZscore",
+        ylab = "CognitionZscore")
+
+min_y <- min(y, na.rm = TRUE)
+max_y <- max(y, na.rm = TRUE)
+
+min_y
+max_y
+
+sum(y == min_y, na.rm = TRUE)
+sum(y == max_y, na.rm = TRUE)
+
+quantile(y,
+         probs = c(0.01, 0.05, 0.25, 0.50, 0.75, 0.95, 0.99),
+         na.rm = TRUE)
+
+help("sleepstudy")
+?SleepStudy
+range(scale(SleepStudy$CognitionZscore), na.rm = TRUE)
+
+library(Lock5Data)
+maintainer("Lock5Data")

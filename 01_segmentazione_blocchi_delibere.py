@@ -14,6 +14,7 @@
 from pathlib import Path
 import argparse
 import hashlib
+import html
 import json
 import re
 import shutil
@@ -315,6 +316,7 @@ MARKERS = {
 STOP_MARKERS = {
     "DELIBERA",
     "PROPONE_DELIBERARE",
+    "ATTESTA",
 }
 
 MACRO_SECTION = {
@@ -373,6 +375,8 @@ def normalize_text(text: Any) -> str:
         return ""
 
     text = str(text)
+    text = re.sub(r"<!--.*?-->", " ", text, flags=re.DOTALL)
+    text = html.unescape(text)
     text = unicodedata.normalize("NFKC", text)
 
     replacements = {
@@ -401,6 +405,15 @@ def normalize_text(text: Any) -> str:
 
     text = compact_spaced_markers(text)
     text = re.sub(r"\s+", " ", text).strip()
+
+    # Rimuove brevi code OCR chiaramente corrotte dopo una frase completa,
+    # senza intervenire sulla normale morfologia o sul contenuto amministrativo.
+    trailing = re.search(r"([;:.])\s+([^;:.]{1,80})$", text)
+    if trailing:
+        tokens = re.findall(r"[A-Za-zÀ-ÖØ-öø-ÿ]+", trailing.group(2))
+        single_letters = sum(len(token) == 1 for token in tokens)
+        if len(tokens) >= 5 and single_letters >= 3:
+            text = text[:trailing.start() + 1].rstrip()
 
     return text
 
@@ -536,6 +549,11 @@ def detect_dispositive_stop(text: str, role: str = "") -> Optional[str]:
         if not re.match(r"^delibera\s+(?:di|del|della|n\.?|nr\.?)\b", lowered):
             return "DELIBERA"
 
+    # Formula autonoma di attestazione, normalmente successiva al dispositivo.
+    # Non fermiamo invece frasi narrative come "ATTESTA che...".
+    if re.match(r"^attesta\s*[:;.-]?$", lowered):
+        return "ATTESTA"
+
     return None
 
 
@@ -544,6 +562,9 @@ PROCEDURAL_STOP_PATTERN = re.compile(
     r"a\s+votazione\s+(?:unanime|favorevole)|"
     r"con\s+votazione\s+(?:unanime|favorevole)|"
     r"con\s+voti\s+(?:unanimi|favorevoli)|"
+    r"si\s+procede\s+a\s+votazione|"
+    r"procedutosi\s+a\s+votazione|"
+    r"udita\s+(?:quindi\s+)?la\s+proposta.*?si\s+procede\s+a\s+votazione|"
     r"a\s+seguito\s+di\s+votazione|"
     r"all['’]esito\s+della\s+votazione"
     r")\b",
@@ -551,9 +572,21 @@ PROCEDURAL_STOP_PATTERN = re.compile(
 )
 
 
+PROPOSAL_STOP_PATTERN = re.compile(
+    r"(?:^|(?<=[;:.]))\s*(?:si\s+)?propone(?:\s+di\s+(?:deliberare|approvare))?\b",
+    flags=re.IGNORECASE,
+)
+
+
 def procedural_stop_position(text: str) -> Optional[int]:
     """Restituisce dove inizia una formula di votazione che chiude la narrativa."""
     match = PROCEDURAL_STOP_PATTERN.search(normalize_text(text))
+    return match.start() if match else None
+
+
+def proposal_stop_position(text: str) -> Optional[int]:
+    """Trova una proposta dispositiva accodata all'ultimo blocco narrativo."""
+    match = PROPOSAL_STOP_PATTERN.search(normalize_text(text))
     return match.start() if match else None
 
 
@@ -1069,21 +1102,19 @@ def build_blocks(elements: pd.DataFrame) -> pd.DataFrame:
                     skipping_proposal_device = False
                 continue
 
-            # L'intestazione dell'organo delimita una sezione, ma non è testo
-            # narrativo e non costituisce da sola uno stop definitivo.
+            # L'intestazione dell'organo non è testo narrativo, ma può essere
+            # ripetuta a cambio pagina nel mezzo di un blocco: la ignoriamo
+            # senza chiudere il blocco corrente. Dopo una proposta è invece
+            # gestita sopra come segnale di riapertura della narrativa.
             if institutional_heading:
-                if current_block is not None:
-                    rows.append(current_block)
-                    current_block = None
                 continue
 
-            # Le tabelle sono un confine documentale: chiudiamo il blocco e non
-            # riprendiamo la narrativa dopo il prospetto.
+            # Le tabelle delimitano il blocco corrente ma non l'intero atto:
+            # dopo presenze, pareri o prospetti la narrativa può continuare.
             if row.get("role_norm") == "table" or row.get("label_raw") == "table":
                 if current_block is not None:
                     rows.append(current_block)
                     current_block = None
-                    break
                 continue
 
             if bool(row["is_noise"]):
@@ -1093,12 +1124,15 @@ def build_blocks(elements: pd.DataFrame) -> pd.DataFrame:
             marker = row["marker_detected"]
             stop_marker = row.get("stop_detected")
             procedural_pos = row.get("procedural_stop_pos")
+            proposal_pos = row.get("proposal_stop_pos")
             if pd.isna(marker):
                 marker = None
             if pd.isna(stop_marker):
                 stop_marker = None
             if pd.isna(procedural_pos):
                 procedural_pos = None
+            if pd.isna(proposal_pos):
+                proposal_pos = None
 
             # Se la formula di votazione è accodata all'ultimo elemento,
             # conserviamo solo il testo narrativo che la precede.
@@ -1106,7 +1140,17 @@ def build_blocks(elements: pd.DataFrame) -> pd.DataFrame:
             if stop_after_row:
                 text = text[:int(procedural_pos)].rstrip(" ;:,.\t")
 
-            effective_stop = stop_marker if stop_marker in STOP_MARKERS else marker
+            # Stesso trattamento per PROPONE accodato a una frase narrativa;
+            # dopo avere salvato il prefisso, saltiamo i punti dispositivi.
+            proposal_after_row = proposal_pos is not None
+            if proposal_after_row:
+                text = text[:int(proposal_pos)].rstrip(" ;:,.\t")
+
+            # Un marker lessicale non basta per fermare il documento: ad esempio
+            # "DELIBERA Numero 62" e "DELIBERA DELLA GIUNTA MUNICIPALE" sono
+            # intestazioni, non l'inizio del dispositivo. Lo stop deve essere
+            # confermato da detect_dispositive_stop().
+            effective_stop = stop_marker if stop_marker in STOP_MARKERS else None
 
             # Il dispositivo della proposta è saltato; una successiva
             # intestazione istituzionale può aprire una seconda narrativa.
@@ -1123,6 +1167,18 @@ def build_blocks(elements: pd.DataFrame) -> pd.DataFrame:
                     rows.append(current_block)
                     current_block = None
                 break
+
+            if effective_stop == "ATTESTA":
+                if current_block is not None:
+                    rows.append(current_block)
+                    current_block = None
+                break
+
+            # DELIBERA/PROPONE sono formule dispositive, non tipi di blocco
+            # narrativo. Se compaiono in un'intestazione non dispositiva, come
+            # "DELIBERA Numero 62", vanno semplicemente ignorati.
+            if marker in {"DELIBERA", "PROPONE_DELIBERARE"}:
+                marker = None
 
             if marker is not None:
                 if current_block is not None:
@@ -1159,6 +1215,13 @@ def build_blocks(elements: pd.DataFrame) -> pd.DataFrame:
                     rows.append(current_block)
                     current_block = None
                 break
+
+            if proposal_after_row:
+                if current_block is not None:
+                    rows.append(current_block)
+                    current_block = None
+                skipping_proposal_device = True
+                continue
 
         if current_block is not None:
             rows.append(current_block)
@@ -1435,6 +1498,9 @@ def main() -> None:
             elements_for_format["text"] = elements_for_format["text"].apply(normalize_text)
             elements_for_format["procedural_stop_pos"] = elements_for_format["text"].apply(
                 procedural_stop_position
+            )
+            elements_for_format["proposal_stop_pos"] = elements_for_format["text"].apply(
+                proposal_stop_position
             )
             elements_for_format["stop_detected"] = elements_for_format.apply(
                 lambda row: detect_dispositive_stop(

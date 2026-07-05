@@ -1,0 +1,4 @@
+"0","cognition_df$SleepGap = cognition_df$WeekendSleep - cognition_df$WeekdaySleep"
+"0",""
+"0","cognition_df$WeekdaySleep = NULL"
+"0","cognition_df$WeekendSleep = NULL"

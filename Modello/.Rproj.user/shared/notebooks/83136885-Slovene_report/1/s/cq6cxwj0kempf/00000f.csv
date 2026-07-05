@@ -1,0 +1,7 @@
+"0","set.seed(123)"
+"0","plot(cognition_df$DASScore, cognition_df$Happiness,"
+"0","     type = ""n"","
+"0","     main = """","
+"0","     xlab = ""DASScore"","
+"0","     ylab = ""Happiness"","
+"0","     bty = ""n"")"

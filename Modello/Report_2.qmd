@@ -1,0 +1,169 @@
+---
+title: "Analisi sulla performance cognitiva negli studenti universitari"
+subtitle: "Influenza del sonno, fattori psicologici e comportamentali sulle capacità cognitive di studenti del Nord-Est degli Stati Uniti"
+author: "Ciro Esposito"
+format:
+  docx:
+    toc: true
+    number-sections: true
+editor: visual
+---
+
+# Introduzione all'analisi 
+
+Istruzione e formazione assumono un ruolo sempre più preponderante nelle società democratiche contemporanee, non solo perché favoriscono una partecipazione più consapevole alla vita civile, ma anche perché ampliano le opportunità di crescita personale, sociale ed economica dell’individuo.  Per tale motivo, eventuali miglioramenti dei percorsi educativi non dovrebbero limitarsi all’accessibilità dell’istruzione o al conseguimento di titoli di studio più elevati, bensì estendersi anche alla qualità dell’esperienza formativa e alle condizioni che possono facilitare o, addirittura ostacolare, il successo degli studenti.
+
+In questa prospettiva, risulta necessario non isolare la dimensione accademica da fattori intrapersonali, di natura psicologica e comportamentale, che possono, in diversa intensità, influenzare le **capacità cognitive degli studenti**.
+
+A tal proposito gli esiti dell’ultimo framework ISTAT\^1: sulla povertà educativa presentano una lettura più ampia degli esiti dei percorsi di istruzione scolastica, mettendo in evidenza sia competenze cognitive, che personali e sociali, inquadrando il processo educativo primario come un fenomeno multidimensionale: abilità di ragionamento, memoria e apprendimento si intrecciano con aspetti quali motivazione, benessere psicologico, gestione dell’ansia e comportamenti individuali.  In sostanza, i risultati dimostrano che la sfera emotiva e quella cognitiva disporrebbero di un **legame inscindibile**, fortemente correlato al processo di apprendimento.
+
+**Nota a pie' di pagina \^1**: Freguja, C. (2026, April 16). Gli esiti: competenze cognitive, competenze personali e sociali \[Conference presentation slides\]. Istat. <https://www.istat.it/wp-content/uploads/2026/04/16_4_Freguja_FIN.pdf>
+
+Il quadro si fa ancora più complesso se si considera che intraprendere una carriera universitaria si presume sia una **scelta personale**, generalmente orientata da interessi, aspirazioni e vocazione individuale, e non un percorso imposto per legge, a differenza dell’istruzione obbligatoria.  
+
+Dunque individuare quali aspetti possano impattare le capacità cognitive di chi sta svolgendo un percorso di laurea  potrebbe rappresentare un caso studio particolarmente interessante sia da un punto di vista diagnostico sia per l’elaborazione di strategie di intervento nei casi di performance più critiche.
+
+## Obiettivi e metodologia
+
+Alla luce di queste premesse, il presente report si concentra su un campione di studenti universitari americani, iscritti ad un liberal arts college nel Nord-Est degli Stati Uniti. L’**obiettivo** che ci si pone è identificare quali tra le caratteristiche psicologiche, comportamentali e accademiche degli studenti, con particolare attenzione al sonno, al benessere psicologico, al consumo di alcol e alla frequenza delle lezioni, possano contribuire al miglioramento o al peggioramento delle abilità cognitive. Il dataset utilizzato (*SleepStudy.csv*), deriva da uno studio originariamente basato su path analysis.
+
+Il seguente caso studio, tuttavia, non intende replicare un impostazione del genere, ma utilizzare come approccio statistico principalmente **modelli di regressione lineare,** al fine di analizzare l’effetto combinato di predittori  come le ore di sonno settimanali, la qualità di quest’ultime e punteggi auto riferiti sul test *Depression, Anxiety, and Stress Scale (DASS-42).* Per quanto concerne la metodologia adoperata , si prospetta una prima analisi esplorativa dei dati, finalizzata alla descrizione delle distribuzioni e all’individuazione di eventuali valori anomali o ridondanze tra le variabili esplicative; a questa fase seguirà la costruzione di un modello multiplo, accompagnata dalla diagnostica dei residui e dalla valutazione della multicollinearità, selezionando di conseguenza le variabili con appositi criteri e attenzione alla parsimonia informativa.
+
+## La variabile risposta: CognitionZscore
+
+Come accennato nel precedente paragrafo, la variabile che nella specificazione del modello occuperà il ruolo della variabile risposta è CognitionZscore, interpretata come un indice composito di performance cognitiva. Facendo riferimento all'impostazione dello studio su cui si basa il dataset, la variabile non è composta da una singola prova, ma a partire da più indicatori, con l’obiettivo di ottenere una **rappresentazione quanto più affidabile del fenomeno**.\^2
+
+**Nota a pie' di pagina \^2**: Un indice solitamente si compone quando il fenomeno studiato non è osservabile direttamente con una sola misura naturale e quindi deve essere illustrato attraverso più indicatori. (OECD, European Union, & European Commission, Joint Research Centre, 2008) <https://doi.org/10.1787/9789264043466-en>
+
+In particolare, si ha la combinazione di tre prove oggettive e una valutazione soggettiva della memoria:
+
+- La prima prova è un **compito di richiamo mnemonico differito**, in cui gli studenti tentano di ricordare trenta nomi comuni dopo un intervallo di dieci minuti, fornendo quindi un’indicazione della memoria verbale a breve termine/differita;
+
+- La seconda è il **Digit-Symbol Coding Task**, che quantifica la velocità percettivo-motoria, cioè della rapidità con cui il soggetto elabora informazioni visive e produce una risposta corretta ;
+
+- La terza è il **Letter Cancellation Task**, collegato all’attenzione sostenuta e alla capacità di individuare stimoli rilevanti all’interno di un insieme più ampio di stimoli visivi.
+
+Stando a quanto descritto, la valutazione soggettiva della qualità complessiva della memoria è infine rilevata su una scala a sette punti: a tal punto i punteggi delle diverse componenti vengono standardizzati e successivamente sommati dagli autori, creando una misura chiamata $Cognition Index$:
+
+$$\text{Cognition Index}
+\approx
+Z_{\text{Memory Recall}}
++
+Z_{\text{Digit-Symbol Coding}}
++
+Z_{\text{Letter Cancellation}}
++
+Z_{\text{Subjective Memory}}$$
+
+Valori più alti indicano punteggi cognitivi più elevati rispetto alla media di riferimento, mentre valori più bassi indicano punteggi cognitivi più bassi rispetto alla stessa media.
+
+La libreria Lock5Data definisce *CognitionZscore* come '*score on a test of cognitive skills*' e la media infatti tende fortemente a 0. La deviazione standard pari a circa 0.71 e genera un po' di perplessità, in quanto se fosse le componenti fossero indipendenti e la formula fosse la somma diretta delle quattro componenti sopracitate standardizzate, ci aspetteremmo circa:
+
+$$sd(\text{Cognition Index}) \approx \sqrt{4} = 2$$
+
+Ciò che invece si ottiene, dando un primo sguardo ai primi indici di posizione e variabilità:
+
+```{r}
+options(scipen = 999) #evito la notazione esponenziale 
+
+y <- SleepStudy$CognitionZscore
+summary(y) 
+range(y) # si può evitare na.rm = TRUE in quanto non vi sono missing values
+mean(y)
+sd(y)
+```
+
+Una simile discrepanza metrica indica che l'indice in questo caso **non corrisponde alla somma diretta riportata nel paper**, ma costituisce una versione derivata (sconosciuta) , linearmente riscalata o parzialmente ricodificata dello score originario ; un'altra prova che avvalora questa ipotesi è che il range empirico osservato all'interno del campione del documento originale è **\[−5.8 ; 6.8\]**, non coincidente con i valori soprastanti \[-1.62 ; 1.96 \].
+
+Di conseguenza, l'esatta formula di trasformazione applicata dal Lock5Data team, **non è possibile stabilire a con certezza l'esistenza un range teorico:** né nel paper originario né nella documentazione del pacchetto R viene dichiarato un supporto limitato del tipo (-a ; a) motivo per cui il range osservato nel campione viene trattato come **range empirico**.
+
+Si aggiunge che, per definizione , la standardizzazione in Z-score non prevede la chiusura dei valori all'interno di un intervallo limitato del tipo (-a ; a), ma li riscala semplicemente rispetto alla media e alla deviazione standard\^3, mappandoli su una distribuzione dal supporto e non alterando la distribuzione.
+
+**Nota a pie' di pagina \^3:** OECD/European Union/EC-JRC. (2008). *Handbook on constructing composite indicators: Methodology and user guide*. OECD Publishing. <https://doi.org/10.1787/9789264043466-en>
+
+## Analisi della capacità discriminante di CognitionZscore
+
+Prima di utilizzare `CognitionZscore` come variabile risposta, si ritiene opportuno verificare che i valori osservati non siano concentrati in modo anomalo sugli estremi della distribuzione: tale passaggio è utile perché, negli indici e negli score compositi, un forte accumulo sul minimo o sul massimo può segnalare un possibile floor o ceiling effect, **riducendo la capacità della misura di distinguere i soggetti con performance molto basse o molto alte**. In primo luogo è possibile dare sguardo ai quantili della distribuzione:
+
+```{r}
+#  calcolo degli estremi empirici
+y <- SleepStudy$CognitionZscore
+min_y <- min(y)
+max_y <- max(y)
+
+# quantili per l'ispezione delle code
+quantile(y, probs = c(0.01, 0.05, 0.25, 0.50, 0.75, 0.95, 0.99))
+```
+
+L'output evidenzia che la distribuzione è ben concentrata intorno allo zero: il primo quartile è pari a -0.48, la mediana è pari a -0.01 e il terzo quartile è pari a 0.44. Considerando il range empirico, quello che desta maggiore interesse sono il primo e ultimo percentile, rispettivamente -1.4836 e 1.7388, sinonimo che i valori estremi sono lontani dal centro.
+
+Per valutare un eventuale accumulo è però necessario verificare quante osservazioni coincidano esattamente con il valore minimo e massimo osservato, per cui viene applicato il criterio proposto da Terwee et al. (2007)\^4, secondo cui la presenza di floor o ceiling effects è considerata problematica quando più del 15% dei soggetti ottiene il punteggio minimo o massimo possibile:
+
+**Nota a pie' di pagina \^4:** Terwee, C. B., Bot, S. D. M., de Boer, M. R., van der Windt, D. A. W. M., Knol, D. L., Dekker, J., Bouter, L. M., & de Vet, H. C. W. (2007). Quality criteria were proposed for measurement properties of health status questionnaires. Journal of Clinical Epidemiology, <https://doi.org/10.1016/j.jclinepi.2006.03.012>
+
+```{r}
+hist(y, freq = FALSE,
+     breaks = 20,
+     main = "Distribuzione di CognitionZscore e valori estremi",
+     xlab = "CognitionZscore",
+     ylab = "Densità")
+
+lines(density(y), lwd = 2)
+
+abline(v = min_y, lty = 2, lwd = 2)
+abline(v = max_y, lty = 2, lwd = 2)
+
+rug(y)
+
+```
+
+In Figura 1 è riportato un istogramma, integrato con curva di densità, rug plot e linee verticali tratteggiate in corrispondenza dei valori estremi osservati: anche in questo caso i valori estremi esistono **ma non costituiscono punti evidenti di accumulo** suggerendo che nel campione non sussista alcun effetto 'pavimento' o 'soffitto'. La curva di densità suggerisce inoltre che la **distribuzione sia continua** e non vi sia alcuna saturazione in corrispondenza degli estremi. La forma assume approssimativamente una **forma campanulare**, quindi non lontana da una distribuzione normale, anche se non è perfettamente gaussiana per la sua **leggera** **asimmetria verso destra**.
+
+## Cenni della letteratura esistente
+
+Considerando invece la letteratura esistente, alcuni studiosi evidenziano che i metodi parametrici non vanno esclusi automaticamente in presenza di **scale** o **punteggi derivati**, soprattutto quando le violazioni delle assunzioni sono moderate Norman (2010)\^5, Infine, autori come Carifio e Perla (2008)\^6 sottolineano la differenza tra singoli item ordinali e scale aggregate, queste ultime più facilmente trattabili come misure quantitative.
+
+**Nota a pie' di pagina \^5:** Norman, G. (2010). Likert scales, levels of measurement and the “laws” of statistics. Advances in Health Sciences Education, . <https://doi.org/10.1007/s10459-010-9222-y>
+
+**Nota a pie' di pagina \^6:** Carifio, J., & Perla, R. (2008). Resolving the 50-year debate around using and misusing Likert scales. *Medical Education,* <https://doi.org/10.1111/j.1365-2923.2008.03172.x>
+
+Nel complesso, tali evidenze potrebbero indicare l'utilizzo di CognitionZscore come una **variabile quantitativa continua valida** per rappresentare variabile dipendente, fermo restando il rispetto delle assunzioni del modello lineare sui residui.
+
+# Descrizione e preparazione del dataset
+
+## Il dataset SleepStudy.csv
+
+Il dataset scelto, si compone di 253 osservazioni e 27 variabili ed è privo di NaN. Ogni unità statistica rappresenta uno studente universitario, per il quale sono raccolte informazioni\^6 relative all’esperienza universitaria, tra cui status di salute mentale, abitudini quotidiane, andamento accademico e performance cognitiva.
+
+| Variabile | Descrizione | Variabile | Descrizione |
+|---------------------|------------------|------------------------|--------------------------------|
+| `Gender` | Genere: 1 = maschio, 0 = femmina. | `ClassYear` | Anno di corso, da 1 a 4. |
+| `LarkOwl` | Cronotipo: 'Lark'=mattutino, intermedio o serale. | `NumEarlyClass` | Numero di lezioni settimanali prima delle 9. |
+| `EarlyClass` | Presenza di almeno una lezione prima delle 9. | `GPA` | Media accademica su scala 0–4. |
+| `ClassesMissed` | Numero di lezioni perse nel semestre. | `CognitionZscore` | Indice standardizzato di abilità cognitive, usato come variabile risposta. |
+| `PoorSleepQuality` | Qualità del sonno; valori più alti indicano peggiore qualità. | `DepressionScore` | Punteggio relativo alla dimensione depressiva. |
+| `AnxietyScore` | Punteggio relativo alla dimensione ansiosa. | `StressScore` | Punteggio relativo alla dimensione dello stress. |
+| `DepressionStatus` | Classificazione categoriale del livello di depressione. | `AnxietyStatus` | Classificazione categoriale del livello di ansia. |
+| `Stress` | Classificazione categoriale del livello di stress. | `DASScore` | Punteggio complessivo di depressione, ansia e stress. |
+| `Happiness` | Punteggio di felicità o benessere soggettivo percepito. | `AlcoholUse` | Categoria auto-riferita di consumo di alcol. |
+| `Drinks` | Numero di bevande alcoliche consumate settimanalmente. | `WeekdayBed` | Orario medio di addormentamento nei giorni feriali. |
+| `WeekdayRise` | Orario medio di risveglio nei giorni feriali. | `WeekdaySleep` | Ore medie di sonno nei giorni feriali. |
+| `WeekendBed` | Orario medio di addormentamento (chiusura occhi) nel weekend. | `WeekendRise` | Orario medio di risveglio nel weekend. |
+| `WeekendSleep` | Ore medie di sonno nel weekend. | `AverageSleep` | Ore medie complessive di sonno. |
+| `AllNighter` | Almeno una notte senza dormire nel semestre: 1 = sì, 0 = no. |  |  |
+
+**Nota a pie' di pagina \^6:** a ciascun partecipante è stato richiesto di svolgere test per misurare le abilità cognitive, compilare un questionario su atteggiamenti e abitudini personali e cronometrare gli orari relativi al sonno, descrivendone la qualità in un periodo di due settimane.
+
+Poiché alcune variabili descrivono sfumature molto vicine tra loro, e questo creerebbe probabilmente ridondanza, si decide, per scelta arbitraria, di non mantenere tutti i possibili predittori nella specificazione del modello e di scegliere in maniera parsimoniosa. Lo scopo è evitare l'aggiunta di elementi superflui che non migliorano realmente la spiegazione del fenomeno osservato:
+
+- `NumEarlyClass` risulta più informativa di `EarlyClass`, poiché non indica solo la presenza alle lezioni che si svolgono prima delle 9, ma ne quantifica il numero.
+
+- `AverageSleep` rappresenta una misura sintetica della durata media del sonno e si sovrappone al variabili più specifiche come `WeekdaySleep` che quantifica le ore di sonno nella routine settimanale, e `WeekendSleep` che svolge la stessa funziona ma per il weekend.
+
+-  `WeekdayBed`, `WeekdayRise`, `WeekendBed` e `WeekendRise`, relative agli orari medi di addormentamento e risveglio (regolarità del ritmo sonno-sveglia), saranno oggetto di analisi nella fase esplorativa, ma nel modello principale verrà privilegiata la variabile `LarkOwl` per non sovraccaricare il modello.
+
+- `Drinks` , variabile quantitativa per il consumo di alcool in settimana sarà preferita rispetto alla classificazione categoriale `AlcoholUse`
+
+- `Drinks` , variabile quantitativa per il consumo di alcool in settimana sarà preferita rispetto alla classificazione categoriale `AlcoholUse`
+
+Il blocco psicologico sarà invece approfondito attraverso due modelli alternativi: uno con `DASScore` come misura sintetica di depressione, ansia e stress, e uno con le tre sottoscale separate `DepressionScore`, `AnxietyScore` e `StressScore`. I predittori quantitativi selezionati saranno infine standardizzati prima della stima dei modelli.

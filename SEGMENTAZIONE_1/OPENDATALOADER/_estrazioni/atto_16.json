@@ -1,0 +1,960 @@
+{
+  "file name" : "atto_16.pdf",
+  "number of pages" : 4,
+  "author" : "POLI   PRIMO",
+  "title" : null,
+  "creation date" : "D:20130404064800Z",
+  "modification date" : "D:20260623114900Z",
+  "kids" : [ {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 11,
+    "page number" : 1,
+    "bounding box" : [ 255.518, 730.718, 328.882, 822.182 ],
+    "source" : "atto_16_images/imageFile1.png"
+  }, {
+    "type" : "caption",
+    "id" : 12,
+    "page number" : 1,
+    "bounding box" : [ 224.972, 694.702, 359.432, 717.373 ],
+    "linked content id" : 11,
+    "font" : "Arial-BoldMT",
+    "font size" : 10.0,
+    "text color" : "[0.0]",
+    "content" : "C O M U N E D I D E R V I O Provincia di Lecco"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 1,
+    "page number" : 1,
+    "bounding box" : [ 477.488, 653.552, 538.604, 665.841 ],
+    "font" : "Arial-BoldMT",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "ORIGINALE"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 2,
+    "level" : "Doctitle",
+    "page number" : 1,
+    "bounding box" : [ 99.704, 621.804, 495.596, 637.445 ],
+    "heading level" : 1,
+    "font" : "Arial-BoldMT",
+    "font size" : 14.0,
+    "text color" : "[0.0]",
+    "content" : "VERBALE DI DELIBERAZIONE DELLA GIUNTA COMUNALE"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 3,
+    "page number" : 1,
+    "bounding box" : [ 56.7, 591.906, 253.476, 605.312 ],
+    "font" : "Arial-BoldMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Delibera Numero 62 del 23/06/2026"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 4,
+    "page number" : 1,
+    "bounding box" : [ 56.7, 509.112, 534.848, 563.915 ],
+    "font" : "Arial-BoldMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Oggetto : ADESIONE AL PROGETTO LECCO CLASSICA 2026 SOSTENUTO DALLA FONDAZIONE COMUNITARIA DEL LECCHESE IN COLLABORAZIONE CON FESTIVAL DI BELLAGIO E DEL LAGO DI COMO XV EDIZIONE"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 5,
+    "page number" : 1,
+    "bounding box" : [ 56.7, 416.538, 538.596, 477.548 ],
+    "font" : "ArialMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "L'anno DUEMILAVENTISEI, addì VENTITRE del mese di GIUGNO alle ore 10:43, il Segretario Comunale, collegato in modalità telematica, dà atto che i componenti della Giunta Comunale partecipano alla seduta, mediante collegamento in videoconferenza, ai sensi del vigente regolamento approvato con deliberazione G.C. n. 43 del 28/04/2022."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 6,
+    "page number" : 1,
+    "bounding box" : [ 56.7, 386.871, 110.064, 400.277 ],
+    "font" : "ArialMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Risultano:"
+  }, {
+    "type" : "table",
+    "pdfua_tag" : "Table",
+    "id" : 7,
+    "level" : "1",
+    "page number" : 1,
+    "bounding box" : [ 49.45, 315.376, 545.85, 373.072 ],
+    "number of rows" : 4,
+    "number of columns" : 5,
+    "rows" : [ {
+      "type" : "table row",
+      "row number" : 1,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 49.95, 358.523, 213.8, 372.572 ],
+        "row number" : 1,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 1,
+          "page number" : 1,
+          "bounding box" : [ 55.1, 358.773, 157.112, 372.179 ],
+          "font" : "Arial-BoldMT",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "Cognome e Nome"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 213.8, 358.523, 330.15, 372.572 ],
+        "row number" : 1,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 2,
+          "page number" : 1,
+          "bounding box" : [ 219.2, 358.773, 269.876, 372.179 ],
+          "font" : "Arial-BoldMT",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "Qualifica"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 330.15, 358.523, 409.7, 372.572 ],
+        "row number" : 1,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 3,
+          "page number" : 1,
+          "bounding box" : [ 344.577, 358.773, 395.265, 372.179 ],
+          "font" : "Arial-BoldMT",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "Presente"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 409.7, 358.523, 486.05, 372.572 ],
+        "row number" : 1,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 4,
+          "page number" : 1,
+          "bounding box" : [ 416.211, 358.773, 479.547, 372.179 ],
+          "font" : "Arial-BoldMT",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "VideoConf."
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 486.05, 358.523, 545.35, 372.572 ],
+        "row number" : 1,
+        "column number" : 5,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 5,
+          "page number" : 1,
+          "bounding box" : [ 492.481, 358.773, 539.161, 372.179 ],
+          "font" : "Arial-BoldMT",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "Assente"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 2,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 49.95, 344.224, 213.8, 358.523 ],
+        "row number" : 2,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 6,
+          "page number" : 1,
+          "bounding box" : [ 55.1, 344.474, 187.112, 357.88 ],
+          "font" : "Arial-BoldMT",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "CASSINELLI STEFANO"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 213.8, 344.224, 330.15, 358.523 ],
+        "row number" : 2,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 7,
+          "page number" : 1,
+          "bounding box" : [ 219.2, 344.474, 273.872, 357.88 ],
+          "font" : "ArialMT",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "SINDACO"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 330.15, 344.224, 409.7, 358.523 ],
+        "row number" : 2,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 409.7, 344.224, 486.05, 358.523 ],
+        "row number" : 2,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 8,
+          "page number" : 1,
+          "bounding box" : [ 443.873, 344.474, 451.877, 357.88 ],
+          "font" : "Arial-BoldMT",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "X"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 486.05, 344.224, 545.35, 358.523 ],
+        "row number" : 2,
+        "column number" : 5,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 3,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 49.95, 329.925, 213.8, 344.224 ],
+        "row number" : 3,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 9,
+          "page number" : 1,
+          "bounding box" : [ 55.1, 330.175, 206.432, 343.581 ],
+          "font" : "Arial-BoldMT",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "MAINONI GIOVANNI LUCA"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 213.8, 329.925, 330.15, 344.224 ],
+        "row number" : 3,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 10,
+          "page number" : 1,
+          "bounding box" : [ 219.2, 330.175, 301.88, 343.581 ],
+          "font" : "ArialMT",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "VICESINDACO"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 330.15, 329.925, 409.7, 344.224 ],
+        "row number" : 3,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 409.7, 329.925, 486.05, 344.224 ],
+        "row number" : 3,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 11,
+          "page number" : 1,
+          "bounding box" : [ 443.873, 330.175, 451.877, 343.581 ],
+          "font" : "Arial-BoldMT",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "X"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 486.05, 329.925, 545.35, 344.224 ],
+        "row number" : 3,
+        "column number" : 5,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 4,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 49.95, 315.876, 213.8, 329.925 ],
+        "row number" : 4,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 12,
+          "page number" : 1,
+          "bounding box" : [ 55.1, 315.876, 169.772, 329.282 ],
+          "font" : "Arial-BoldMT",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "CARIBONI SANDRO"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 213.8, 315.876, 330.15, 329.925 ],
+        "row number" : 4,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 13,
+          "page number" : 1,
+          "bounding box" : [ 219.2, 315.876, 293.228, 329.282 ],
+          "font" : "ArialMT",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "ASSESSORE"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 330.15, 315.876, 409.7, 329.925 ],
+        "row number" : 4,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 409.7, 315.876, 486.05, 329.925 ],
+        "row number" : 4,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 486.05, 315.876, 545.35, 329.925 ],
+        "row number" : 4,
+        "column number" : 5,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 14,
+          "page number" : 1,
+          "bounding box" : [ 511.823, 315.876, 519.827, 329.282 ],
+          "font" : "Arial-BoldMT",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "X"
+        } ]
+      } ]
+    } ]
+  }, {
+    "type" : "caption",
+    "id" : 8,
+    "page number" : 1,
+    "bounding box" : [ 212.206, 287.778, 383.098, 301.184 ],
+    "linked content id" : 7,
+    "font" : "ArialMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "PRESENTI: 2 ASSENTI: 1"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H2",
+    "id" : 9,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 56.7, 246.381, 357.468, 259.787 ],
+    "heading level" : 2,
+    "font" : "Arial-BoldMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Partecipa il Segretario Comunale, Ilaria Anna Cerqua."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 10,
+    "page number" : 1,
+    "bounding box" : [ 56.7, 173.248, 538.596, 218.39 ],
+    "font" : "ArialMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Assume la presidenza il Sindaco Stefano Cassinelli che, constatata la legalità dell’adunanza, dichiara aperta la seduta e pone in discussione la seguente pratica segnata all’ordine del giorno:"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H3",
+    "id" : 13,
+    "level" : "Subtitle",
+    "page number" : 2,
+    "bounding box" : [ 56.7, 761.703, 538.596, 802.707 ],
+    "heading level" : 3,
+    "font" : "ArialMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "OGGETTO: ADESIONE AL PROGETTO LECCO CLASSICA 2026 SOSTENUTO DALLA FONDAZIONE COMUNITARIA DEL LECCHESE IN COLLABORAZIONE CON FESTIVAL DI BELLAGIO E DEL LAGO DI COMO XV EDIZIONE"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H4",
+    "id" : 14,
+    "level" : "Subtitle",
+    "page number" : 2,
+    "bounding box" : [ 234.405, 735.255, 360.894, 747.544 ],
+    "heading level" : 4,
+    "font" : "Arial-BoldMT",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "LA GIUNTA COMUNALE"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 15,
+    "page number" : 2,
+    "bounding box" : [ 56.7, 634.063, 538.599, 722.138 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "PREMESSO che la Repubblica tutela e promuove lo sviluppo della cultura ai sensi dell'art. 9 della Costituzione; che il principio di sussidiarietà orizzontale di cui all'art. 118, comma 4, Cost. impone alle istituzioni pubbliche di favorire l'autonoma iniziativa dei cittadini e delle formazioni sociali per lo svolgimento di attività di interesse generale; che il Comune di Dervio, quale ente esponenziale della comunità locale, persegue tra le proprie finalità istituzionali — ai sensi dell'art. 9, lett. G) dello Statuto — la promozione di manifestazioni per il tempo libero al fine di favorire momenti di incontro e di crescita culturale;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 16,
+    "page number" : 2,
+    "bounding box" : [ 56.7, 545.52, 538.599, 620.946 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "PREMESSO ALTRESÌ che la Giunta Comunale esercita, ai sensi dell'art. 48 del D.lgs. 267/2000, la funzione di indirizzo politico-amministrativo dell'Ente e adotta gli atti rientranti nella propria competenza residuale; che rientra tra le attribuzioni proprie della Giunta la decisione di sostenere, mediante partecipazione finanziaria, iniziative di interesse pubblico locale che per la loro natura, dimensione e ricaduta sulla collettività giustifichino il coinvolgimento diretto dell'Ente, in applicazione dei principi di cui agli artt. 3 e 118 Cost. e dell'art. 13 del D.lgs. 267/2000;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 17,
+    "page number" : 2,
+    "bounding box" : [ 56.7, 381.083, 538.599, 532.403 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "RITENUTO che il Comune di Dervio è dotato del Regolamento Comunale per la Concessione di Benefici Economici ai sensi dell'art. 12 L. 241/1990, approvato con deliberazione CC n. 29 del 22.07.2013, il cui art. 2 annovera espressamente tra le finalità dell'Ente la «promozione della cultura e dello spettacolo» e la «promozione delle attività artistiche», e il cui art. 8, comma 4, riconosce espressamente alla Giunta Comunale la facoltà di destinare risorse di bilancio al finanziamento di «iniziative di particolare valore sociale, civile, morale o culturale rispetto alle quali la contribuzione del Comune può svolgere una funzione incentivante, di coinvolgimento della popolazione o di potenziamento delle iniziative»; che tale disposizione costituisce specifica attribuzione di indirizzo politico alla Giunta, autonoma rispetto alla procedura ordinaria a bando, applicabile allorché l'iniziativa presenti caratteri di eccezionale rilievo culturale tali da giustificarne il riconoscimento diretto; che, in tale contesto, la qualificazione soggettiva del beneficiario è valutata dalla Giunta in funzione della coerenza dell'iniziativa con le finalità pubbliche perseguite, indipendentemente dall'iscrizione ai registri amministrativi interni dell'Ente;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 18,
+    "page number" : 2,
+    "bounding box" : [ 56.7, 267.242, 538.599, 367.966 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "RILEVATO che l'Associazione Musicale TEMA, con sede legale in Lecco, via Cantù 1, C.F. 97302580150, P.IVA 04114100961, promuove il progetto Lecco Classica 2026, candidato al sostegno della Fondazione Comunitaria del Lecchese, all’interno del quale è prevista la realizzazione di un concerto nel territorio comunale, in programma il 29 giugno 2026 presso la Chiesa dei Santi Pietro e Paolo di Dervio, appuntamento che contribuirà ad arricchire l'offerta culturale locale e a valorizzare uno dei luoghi di maggiore interesse storico, artistico e religioso della comunità. L'evento rappresenterà un'importante occasione di incontro tra musica, patrimonio culturale e territorio, favorendo la partecipazione dei cittadini e l'attrattività del Comune nei confronti di visitatori e appassionati;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 19,
+    "page number" : 2,
+    "bounding box" : [ 56.7, 241.944, 367.835, 254.125 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "RILEVATO altresì che è intenzione dell'Amministrazione Comunale:"
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 20,
+    "level" : "2",
+    "page number" : 2,
+    "bounding box" : [ 74.7, 153.468, 538.596, 241.483 ],
+    "numbering style" : "unordered",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 74.7, 216.663, 538.59, 241.483 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 11.0,
+      "text color" : "[0.0]",
+      "content" : "- collaborare alla realizzazione dell'iniziativa, supportandone la promozione e favorendo, per quanto di competenza, le condizioni organizzative necessarie al buon esito dell'evento previsto a Dervio;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 74.7, 153.468, 538.596, 216.205 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 11.0,
+      "text color" : "[0.0]",
+      "content" : "- formalizzare la propria adesione al progetto Lecco Classica 2026, in collaborazione con il Festival di Bellagio e del lago di Como XV Edizione mediante il versamento alla Fondazione Comunitaria del Lecchese della somma di Euro 1500,00 (previa presentazione della documentazione di rendicontazione relativa all’evento di Dervio da parte di Associazione Musicale TEMA), a favore del Progetto 2026.0095 Lecco Classica 2026;",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 21,
+    "page number" : 2,
+    "bounding box" : [ 56.7, 64.928, 538.599, 140.354 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "RILEVATO che con istanza del 31 marzo 2026, l'Associazione Musicale TEMA, con sede legale in Lecco, via Cantù 1, C.F. 97302580150, P.IVA 04114100961, nella persona del Direttore Artistico M° Rossella Spinosa, ha richiesto la concessione del patrocinio del Comune di Dervio per la realizzazione del concerto programmato il 29 giugno 2026 presso la Chiesa dei Santi Pietro e Paolo in Dervio (LC) nell’ambito del progetto Lecco Classica 2026, in collaborazione con il Festival di Bellagio e del Lago di Como – XV Edizione;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 22,
+    "page number" : 3,
+    "bounding box" : [ 56.7, 790.451, 346.297, 802.632 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "RILEVATO CHE L’Associazione musicale Tema ha dichiarato:"
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 23,
+    "level" : "2",
+    "page number" : 3,
+    "bounding box" : [ 56.7, 613.365, 538.599, 789.983 ],
+    "numbering style" : "unordered",
+    "number of list items" : 3,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 56.7, 739.855, 538.599, 789.983 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 11.0,
+      "text color" : "[0.0]",
+      "content" : "- che l'iniziativa ha carattere ricorrente ed è inserita in un circuito culturale internazionale in collegamento con la rete dei Comuni del Festival; che sono previste attività di comunicazione (ufficio stampa, materiali editoriali, pubblicità, siti internet); che l'Associazione non persegue scopi di lucro né opera in regime d'impresa; che nella proposta sono inclusi gli oneri SIAE e le relative agibilità;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 56.7, 714.557, 538.599, 739.387 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 11.0,
+      "text color" : "[0.0]",
+      "content" : "- di essere soggetto senza scopo di lucro, operante da oltre quindici anni nel settore della promozione musicale e culturale sul territorio lariano, come risulta dal proprio Statuto associativo;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 56.7, 613.365, 538.599, 714.089 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 11.0,
+      "text color" : "[0.0]",
+      "content" : "- che il Festival di Bellagio e del Lago di Como è una rassegna musicale di respiro internazionale giunta alla XV edizione; il programma dell'edizione 2025 — verificato sul sito ufficiale www.bellagiofestival.com comprende oltre 20 concerti da giugno ad agosto, coinvolgendo almeno 13 Comuni delle Province di Como e Lecco (tra cui Bellagio, Como, Civate, Oliveto Lario, Dervio, Ello, Magreglio, Menaggio, Mandello del Lario, Lezzeno, Valmadrera, Lecco, Zelbio); la manifestazione si avvale dell'Orchestra di Bellagio e del Lago di Como quale ensemble stabile residente e ospita il Concorso Internazionale Cosima Wagner per strumentisti; i concerti nel territorio sono in larga parte ad ingresso libero, con diretta ricaduta in termini di accessibilità culturale per la cittadinanza e di attrattività turistica per i Comuni ospitanti;",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 24,
+    "level" : "3",
+    "page number" : 3,
+    "bounding box" : [ 56.7, 562.769, 538.599, 612.897 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "— che il concerto derviese dell'edizione 2025 (XIV Edizione, 29 giugno 2025, «Il violoncello di Dall'Abaco e Marais», con i giovani violoncellisti del progetto CELLOfest) ha riscosso apprezzamento della cittadinanza, confermando la funzione del Festival quale presidio culturale e vetrina turistica del territorio lacustre;"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H4",
+    "id" : 25,
+    "level" : "Subtitle",
+    "page number" : 3,
+    "bounding box" : [ 56.7, 537.471, 200.624, 549.652 ],
+    "heading level" : 4,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "CONSIDERATO in diritto che:"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 26,
+    "level" : "3",
+    "page number" : 3,
+    "bounding box" : [ 56.7, 486.875, 538.599, 537.003 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "— la presente partecipazione finanziaria dell'Ente all'iniziativa è qualificabile come atto di indirizzo politico della Giunta ex art. 48 TUEL, fondato sul perseguimento di un interesse pubblico locale direttamente identificabile: la promozione della cultura, del turismo e dell'immagine del territorio comunale, in applicazione dell'art. 9 Cost. e del principio di sussidiarietà orizzontale ex art. 118, comma 4, Cost.;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 27,
+    "level" : "3",
+    "page number" : 3,
+    "bounding box" : [ 56.7, 410.981, 538.599, 486.407 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "— l'iniziativa integra i presupposti dell'art. 8, comma 4, del Regolamento per la sussistenza di un «particolare valore culturale», attestato dalla convergenza di elementi oggettivi verificabili: dimensione sovracomunale e internazionale (20+ concerti, 13+ Comuni, Concorso Wagner); comprovata qualità artistica (Orchestra residente, artisti di rilievo nazionale e internazionale); ingresso libero ai concerti, che massimizza la ricaduta collettiva; presenza fisica dell'evento a Dervio con piano di comunicazione che include esplicitamente il Comune; XV edizione, che attesta continuità e affidabilità organizzativa;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 28,
+    "level" : "3",
+    "page number" : 3,
+    "bounding box" : [ 56.7, 335.087, 538.599, 410.513 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "— la concessione è sorretta dai criteri che questa Giunta esplicita e che costituiscono l'indirizzo politico adottato per la presente fattispecie: (i) criterio teleologico: l'iniziativa è coerente con le finalità di promozione della cultura, dello spettacolo e delle attività artistiche di cui all'art. 2 del Regolamento e con l'art. 9 lett. G) dello Statuto; (ii) criterio della ricaduta territoriale: l'evento si svolge fisicamente nel territorio comunale e genera visibilità istituzionale e turistica per il Comune; (iii) criterio della proporzionalità: l'importo di € 1.500,00 è congruo rispetto alla valenza dell'iniziativa e contenuto entro le disponibilità di bilancio;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 29,
+    "level" : "3",
+    "page number" : 3,
+    "bounding box" : [ 56.7, 297.14, 538.599, 334.619 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "— la concessione del patrocinio non comporta assunzione di responsabilità in ordine agli aspetti organizzativi, di sicurezza e normativi della manifestazione, né esonera il beneficiario dall'obbligo di ottenere le autorizzazioni di competenza pubblica;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 30,
+    "page number" : 3,
+    "bounding box" : [ 56.7, 246.544, 290.736, 284.023 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "VISTI gli artt. 9 e 118, comma 4, della Costituzione; VISTO:"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 31,
+    "level" : "3",
+    "page number" : 3,
+    "bounding box" : [ 56.7, 233.902, 304.237, 246.083 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "— l'art. 48 del D.Lgs. 18 agosto 2000, n. 267 (TUEL);"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 32,
+    "level" : "3",
+    "page number" : 3,
+    "bounding box" : [ 56.7, 221.263, 420.331, 233.444 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "— l'art. 13 del D.Lgs. 267/2000, concernente le funzioni e i compiti dei Comuni;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 33,
+    "level" : "3",
+    "page number" : 3,
+    "bounding box" : [ 56.7, 208.624, 304.864, 220.805 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "— l'art. 9, lett. G) dello Statuto del Comune di Dervio;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 34,
+    "level" : "3",
+    "page number" : 3,
+    "bounding box" : [ 56.7, 170.707, 538.603, 208.166 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "— il Regolamento Comunale per la Concessione di Benefici Economici ai sensi dell'art. 12 L. 241/1990, approvato con deliberazione CC n. 29 del 22.07.2013, ed in particolare gli artt. 2 (finalità istituzionali) e 8, comma 4 (iniziative di particolare valore culturale — attribuzione alla Giunta);"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 35,
+    "level" : "3",
+    "page number" : 3,
+    "bounding box" : [ 56.7, 158.068, 248.027, 170.249 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "— l'art. 12 della L. 7 agosto 1990, n. 241;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 36,
+    "level" : "3",
+    "page number" : 3,
+    "bounding box" : [ 56.7, 145.429, 464.804, 157.61 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "— l'art. 3 della L. 241/1990, sull'obbligo di motivazione dei provvedimenti amministrativi;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 37,
+    "level" : "3",
+    "page number" : 3,
+    "bounding box" : [ 56.7, 120.151, 538.581, 144.971 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "— gli artt. 26 e 27 del D.Lgs. 14 marzo 2013, n. 33 (obblighi di pubblicazione in Amministrazione Trasparente per contributi superiori a € 1.000,00);"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 38,
+    "page number" : 3,
+    "bounding box" : [ 56.7, 94.856, 520.911, 107.037 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "DATO ATTO che sono stati acquisiti i pareri favorevoli ai sensi dell'art. 49, comma 1, D.Lgs. 267/2000:"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 39,
+    "level" : "3",
+    "page number" : 3,
+    "bounding box" : [ 56.7, 82.207, 377.713, 94.388 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "— parere di regolarità tecnica del Responsabile del Servizio competente;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 40,
+    "level" : "3",
+    "page number" : 3,
+    "bounding box" : [ 56.7, 56.909, 538.599, 81.739 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "— parere di regolarità contabile del Responsabile del Servizio Finanziario, con attestazione di copertura finanziaria ai sensi dell'art. 151 TUEL;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 41,
+    "page number" : 4,
+    "bounding box" : [ 56.7, 752.504, 435.98, 789.983 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "RICONOSCIUTA la propria competenza ai sensi dell'art. 48 del D.Lgs. n. 267/2000; Con voti unanimi resi e verificati nei modi e forme di legge;"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H4",
+    "id" : 42,
+    "level" : "Subtitle",
+    "page number" : 4,
+    "bounding box" : [ 268.924, 727.213, 326.377, 739.394 ],
+    "heading level" : 4,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "DELIBERA"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 43,
+    "page number" : 4,
+    "bounding box" : [ 56.7, 701.935, 429.105, 714.116 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "per le motivazioni espresse in premessa che qui si intendono integralmente riportate:"
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 44,
+    "level" : "4",
+    "page number" : 4,
+    "bounding box" : [ 60.0, 385.96, 538.603, 688.838 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 6,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 4,
+      "bounding box" : [ 60.0, 626.101, 538.603, 688.838 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 11.0,
+      "text color" : "[0.0]",
+      "content" : "1. Di aderire al progetto Lecco Classica 2026, promosso da Associazione Musicale TEMA e candidato al sostegno della Fondazione Comunitaria del Lecchese mediante il versamento alla Fondazione Comunitaria del Lecchese della somma di Euro 1500,00 (previa presentazione della documentazione di rendicontazione relativa all’evento di Dervio da parte di Associazione Musicale TEMA), a favore del Progetto 2026.0095 Lecco Classica 2026;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 4,
+      "bounding box" : [ 60.0, 562.906, 538.603, 613.004 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 11.0,
+      "text color" : "[0.0]",
+      "content" : "2. Di concedere il patrocinio del Comune di Dervio del Comune di Dervio per la realizzazione del concerto programmato il 29 giugno 2026 presso la Chiesa dei Santi Pietro e Paolo in Dervio (LC) nell’ambito del progetto Lecco Classica 2026, in collaborazione con il Festival di Bellagio e del Lago di Como – XV Edizione;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 4,
+      "bounding box" : [ 60.0, 524.989, 538.592, 549.809 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 11.0,
+      "text color" : "[0.0]",
+      "content" : "3. Di dare mandato al Responsabile del Servizio Cultura sport e turismo tempo libero di assumere apposito impegno di spesa e tutte le determinazioni necessarie a dar seguito al presente atto;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 4,
+      "bounding box" : [ 60.0, 487.072, 538.581, 511.892 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 11.0,
+      "text color" : "[0.0]",
+      "content" : "4. Di comunicare la presente ai Capigruppo Consiliari ai sensi e per gli effetti di cui all’art. 125 del Decreto Legislativo 18 agosto 2000 n. 267.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 4,
+      "bounding box" : [ 60.0, 436.516, 538.592, 473.975 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 11.0,
+      "text color" : "[0.0]",
+      "content" : "5. Di disporre, ai sensi dell’art. 32 - comma 1 della legge 18 giugno 2009 n. 69, la pubblicazione della presente deliberazione all’Albo on line, per 15 giorni consecutivi, nell’apposita sezione del sito istituzionale del Comune e nella sezione Amministrazione Trasparente.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 4,
+      "bounding box" : [ 60.0, 385.96, 538.592, 423.419 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 11.0,
+      "text color" : "[0.0]",
+      "content" : "6. Di dichiarare, con separata votazione la presente deliberazione immediatamente eseguibile, ai sensi dell’art. 134, comma 4 del D.lgs. n. 267 del 18.08.2000 stante l’urgenza di provvedere a quanto deliberato.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 45,
+    "page number" : 4,
+    "bounding box" : [ 59.758, 360.665, 326.97, 372.954 ],
+    "font" : "ArialMT",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "Il presente verbale viene letto, approvato e sottoscritto."
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H3",
+    "id" : 46,
+    "level" : "Subtitle",
+    "page number" : 4,
+    "bounding box" : [ 124.377, 305.469, 474.576, 332.674 ],
+    "heading level" : 3,
+    "font" : "ArialMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "il Sindaco il Segretario Comunale Stefano Cassinelli Ilaria Anna Cerqua"
+  } ]
+}

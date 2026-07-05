@@ -1,0 +1,49 @@
+---
+title: "Analisi sulla performance cognitiva negli studenti universitari"
+subtitle: "Influenza del sonno, fattori psicologici e comportamentali sulle capacità cognitive di studenti del Nord-Est degli Stati Uniti"
+author: "Ciro Esposito"
+format:
+  docx:
+    toc: true
+    number-sections: true
+editor: visual
+---
+
+# Introduzione all'analisi
+
+Istruzione e formazione assumono un ruolo sempre più preponderante nelle società democratiche contemporanee, non solo perché favoriscono una partecipazione più consapevole alla vita civile, ma anche perché ampliano le opportunità di crescita personale, sociale ed economica dell’individuo.  Per tale motivo, eventuali miglioramenti dei percorsi educativi non dovrebbero limitarsi all’accessibilità dell’istruzione o al conseguimento di titoli di studio più elevati, bensì estendersi anche alla qualità dell’esperienza formativa e alle condizioni che possono facilitare o, addirittura ostacolare, il successo degli studenti.
+
+In questa prospettiva, risulta necessario non isolare la dimensione accademica da fattori intrapersonali, di natura psicologica e comportamentale, che possono, in diversa intensità, influenzare le capacità cognitive degli studenti.
+
+A tal proposito gli esiti dell’ultimo framework ISTAT sulla povertà educativa presentano una lettura più ampia degli esiti dei percorsi di istruzione scolastica, mettendo in evidenza sia competenze cognitive, che personali e sociali, inquadrando il processo educativo primario come un fenomeno multidimensionale: abilità di ragionamento, memoria e apprendimento si intrecciano con aspetti quali motivazione, benessere psicologico, gestione dell’ansia e comportamenti individuali.  In sostanza, i risultati dimostrano che la sfera emotiva e quella cognitiva disporrebbero di un legame inscindibile, fortemente correlato al processo di apprendimento.
+
+Il quadro si fa ancora più complesso se si considera che intraprendere una carriera universitaria si presume sia una scelta personale, generalmente orientata da interessi, aspirazioni e vocazione individuale, e non un percorso imposto per legge, a differenza dell’istruzione obbligatoria.  
+
+Dunque individuare quali aspetti possano impattare le capacità cognitive  di chi sta svolgendo un percorso di laurea  potrebbe rappresentare un caso studio particolarmente interessante sia da un punto di vista diagnostico sia per l’elaborazione di strategie di intervento nei casi di performance più critiche.
+
+## Obiettivi e metodologia
+
+Alla luce di queste premesse, il presente report si concentra su un campione di studenti universitari americani, frequentanti di un liberal arts college nel Nord-Est degli Stati Uniti, osservando come la variabile CognitionZScore, misura le performance cognitive  dei soggetti, per poi focalizzarsi su variabili legate al benessere personale e  su altre concernente a diversi stili di vita. L’obiettivo che ci si pone è di identificare quali tra le caratteristiche individuali, psicologiche,  comportamentali e accademiche degli studenti universitari, con particolare attenzione al ruolo del sonno, del benessere psicologico, del consumo di alcol e della partecipazione alle lezioni, possano contribuire ad un miglioramento o ad un peggioramento delle abilità cognitive. Il dataset utilizzato (*SleepStudy.csv*), deriva da uno studio originariamente basato su path analysis, richiamata perfino nel titolo del paper di riferimento.
+
+Il seguente caso studio, tuttavia,  non intende replicare un impostazione del genere, ma di utilizzare come approccio statistico principalmente **modelli di regressione lineare,** al fine di analizzare l’effetto combinato di predittori  come le ore di sonno settimanali, la qualità di quest’ultime e punteggi auto riferiti sul test *Depression, Anxiety, and Stress Scale (DASS-42).* Per quanto concerne la metodologia adoperata , si prospetta una prima analisi esplorativa dei dati, finalizzata alla descrizione delle distribuzioni e all’individuazione di eventuali valori anomali o ridondanze tra le variabili esplicative; a questa fase seguirà la costruzione di un modello multiplo, accompagnata dalla diagnostica dei residui e dalla valutazione della multicollinearità, selezionando di conseguenza le variabili con appositi criteri e attenzione alla parsimonia informativa.
+
+## Descrizione delle variabili del Dataset
+
+\`\`\`{r} SleepStudy \<- read.csv("SleepStudy (mio dataset).csv", header = TRUE)
+
+dim(SleepStudy) names(SleepStudy) str(SleepStudy) summary(SleepStudy)
+
+## Running Code
+
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+1 + 1
+```
+
+You can add options to executable code like this
+
+```{r}
+#| echo: false
+2 * 2
+```

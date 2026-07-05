@@ -1,0 +1,5 @@
+"0",""
+"0","barplot(tab_early, add = TRUE,"
+"0","        col = adjustcolor(""#2C7FB8"", alpha.f = 0.18),"
+"0","        border = ""#2C7FB8"","
+"0","        axes = FALSE)"

@@ -1,0 +1,3 @@
+"0","# Zmanjšanje podatkovnega niza"
+"0","cognition_df <- SleepStudy[, c(""CognitionZscore"",""AverageSleep"",""WeekdaySleep"",""WeekendSleep"",""PoorSleepQuality"",""NumEarlyClass"",""LarkOwl"",""AllNighter"",""DASScore"",""DepressionScore"",""AnxietyScore"",""StressScore"",""Happiness"",""Drinks"",""ClassesMissed"",""GPA"",""Gender"",""ClassYear"""
+"0",")]"

@@ -1,0 +1,1470 @@
+{
+  "file name" : "atto_15.pdf",
+  "number of pages" : 9,
+  "author" : "",
+  "title" : "123-10.pdf",
+  "creation date" : "D:20260616125238+02'00'",
+  "modification date" : "D:20260616125238+02'00'",
+  "kids" : [ {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 32,
+    "page number" : 1,
+    "bounding box" : [ 255.0, 715.08, 340.2, 806.64 ],
+    "source" : "atto_15_images/imageFile1.png"
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 33,
+    "page number" : 1,
+    "bounding box" : [ 255.0, 709.68, 340.2, 715.32 ],
+    "source" : "atto_15_images/imageFile2.png"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 22,
+    "level" : "Doctitle",
+    "page number" : 1,
+    "bounding box" : [ 204.362, 677.669, 391.044, 695.343 ],
+    "heading level" : 1,
+    "font" : "CIDFont+F1",
+    "font size" : 15.96,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "COMUNE DI CARINARO"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 23,
+    "page number" : 1,
+    "bounding box" : [ 247.318, 650.085, 347.997, 663.374 ],
+    "font" : "CIDFont+F2",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Provincia di Caserta"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H2",
+    "id" : 24,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 152.041, 608.601, 443.413, 624.149 ],
+    "heading level" : 2,
+    "font" : "CIDFont+F1",
+    "font size" : 14.04,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Verbale di Deliberazione della Giunta Comunale"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 25,
+    "page number" : 1,
+    "bounding box" : [ 249.236, 585.608, 343.656, 596.638 ],
+    "font" : "CIDFont+F1",
+    "font size" : 9.96,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "N. 48 DEL 11-06-2026"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 27,
+    "page number" : 1,
+    "bounding box" : [ 60.24, 548.806, 332.637, 562.2 ],
+    "font" : "CIDFont+F1",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "OGGETTO: APPROVAZIONE PIAO 2026-2028"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 29,
+    "page number" : 1,
+    "bounding box" : [ 56.76, 470.683, 537.802, 525.374 ],
+    "font" : "CIDFont+F3",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "L'anno duemilaventisei addì undici del mese di Giugno, alle ore 17:40 nella sala della Casa Comunale, si è riunita la Giunta Comunale convocata nelle forme di legge. Presiede l’adunanza il Sindaco MARIANNA DELL'APROVITOLA e sono rispettivamente presenti e assenti i seguenti Sigg."
+  }, {
+    "type" : "table",
+    "pdfua_tag" : "Table",
+    "id" : 30,
+    "level" : "1",
+    "page number" : 1,
+    "bounding box" : [ 74.22, 328.26, 521.1, 443.1 ],
+    "number of rows" : 6,
+    "number of columns" : 3,
+    "rows" : [ {
+      "type" : "table row",
+      "row number" : 1,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 74.79, 427.56, 201.24, 442.53 ],
+        "row number" : 1,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 1,
+          "page number" : 1,
+          "bounding box" : [ 77.279, 430.617, 119.112, 439.521 ],
+          "font" : "CIDFont+F4",
+          "font size" : 8.04,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Componente"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 201.24, 427.56, 363.0, 442.53 ],
+        "row number" : 1,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 2,
+          "page number" : 1,
+          "bounding box" : [ 203.99, 430.617, 232.396, 439.521 ],
+          "font" : "CIDFont+F4",
+          "font size" : 8.04,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Presente"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 363.0, 427.56, 520.53, 442.53 ],
+        "row number" : 1,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 3,
+          "page number" : 1,
+          "bounding box" : [ 365.756, 430.617, 391.187, 439.521 ],
+          "font" : "CIDFont+F4",
+          "font size" : 8.04,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Assente"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 2,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 74.79, 407.76, 201.24, 427.56 ],
+        "row number" : 2,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 4,
+          "page number" : 1,
+          "bounding box" : [ 77.279, 415.377, 196.159, 424.281 ],
+          "font" : "CIDFont+F4",
+          "font size" : 8.04,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "DELL'APROVITOLA MARIANNA"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 201.24, 407.76, 363.0, 427.56 ],
+        "row number" : 2,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 5,
+          "page number" : 1,
+          "bounding box" : [ 203.99, 415.377, 209.345, 424.281 ],
+          "font" : "CIDFont+F4",
+          "font size" : 8.04,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "X"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 363.0, 407.76, 520.53, 427.56 ],
+        "row number" : 2,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 3,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 74.79, 387.96, 201.24, 407.76 ],
+        "row number" : 3,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 6,
+          "page number" : 1,
+          "bounding box" : [ 77.279, 395.579, 154.432, 404.483 ],
+          "font" : "CIDFont+F4",
+          "font size" : 8.04,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "SARDO GIUSEPPINA"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 201.24, 387.96, 363.0, 407.76 ],
+        "row number" : 3,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 7,
+          "page number" : 1,
+          "bounding box" : [ 203.99, 395.579, 209.345, 404.483 ],
+          "font" : "CIDFont+F4",
+          "font size" : 8.04,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "X"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 363.0, 387.96, 520.53, 407.76 ],
+        "row number" : 3,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 4,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 74.79, 368.16, 201.24, 387.96 ],
+        "row number" : 4,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 8,
+          "page number" : 1,
+          "bounding box" : [ 77.279, 375.778, 141.085, 384.682 ],
+          "font" : "CIDFont+F4",
+          "font size" : 8.04,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "SGLAVO NICOLA"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 201.24, 368.16, 363.0, 387.96 ],
+        "row number" : 4,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 9,
+          "page number" : 1,
+          "bounding box" : [ 203.99, 375.778, 209.345, 384.682 ],
+          "font" : "CIDFont+F4",
+          "font size" : 8.04,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "X"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 363.0, 368.16, 520.53, 387.96 ],
+        "row number" : 4,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 5,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 74.79, 348.36, 201.24, 368.16 ],
+        "row number" : 5,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 10,
+          "page number" : 1,
+          "bounding box" : [ 77.279, 355.978, 148.16, 364.881 ],
+          "font" : "CIDFont+F4",
+          "font size" : 8.04,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "ESPOSITO NICOLA"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 201.24, 348.36, 363.0, 368.16 ],
+        "row number" : 5,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 11,
+          "page number" : 1,
+          "bounding box" : [ 203.99, 355.978, 209.345, 364.881 ],
+          "font" : "CIDFont+F4",
+          "font size" : 8.04,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "X"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 363.0, 348.36, 520.53, 368.16 ],
+        "row number" : 5,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 6,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 74.79, 328.83, 201.24, 348.36 ],
+        "row number" : 6,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 12,
+          "page number" : 1,
+          "bounding box" : [ 77.279, 336.179, 154.432, 345.083 ],
+          "font" : "CIDFont+F4",
+          "font size" : 8.04,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "BARBATO RACHELE"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 201.24, 328.83, 363.0, 348.36 ],
+        "row number" : 6,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 13,
+          "page number" : 1,
+          "bounding box" : [ 203.99, 336.179, 209.345, 345.083 ],
+          "font" : "CIDFont+F4",
+          "font size" : 8.04,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "X"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 363.0, 328.83, 520.53, 348.36 ],
+        "row number" : 6,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      } ]
+    } ]
+  }, {
+    "type" : "caption",
+    "id" : 31,
+    "page number" : 1,
+    "bounding box" : [ 56.76, 245.566, 537.202, 314.058 ],
+    "linked content id" : 30,
+    "font" : "CIDFont+F3",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Numero totale PRESENTI: 5– ASSENTI: 0 Con la partecipazione del Segretario Generale SALVATORE CAPOLUONGO, il Presidente, constatato che gli intervenuti sono in numero legale, dichiara aperta la riunione ed invita i convocati a deliberare sull'oggetto sopra indicato."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 34,
+    "page number" : 2,
+    "bounding box" : [ 226.681, 765.045, 368.713, 778.334 ],
+    "font" : "CIDFont+F1",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "LA GIUNTA COMUNALE"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 35,
+    "page number" : 2,
+    "bounding box" : [ 56.76, 682.247, 538.714, 750.731 ],
+    "font" : "CIDFont+F2",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "PRESO ATTO che l’art. 6, cc. 1-4, D.L. 9 giugno 2021, n. 80, dispone: “1. Per assicurare la qualità e la trasparenza dell'attività amministrativa e migliorare la qualità dei servizi ai cittadini e alle imprese e procedere alla costante e progressiva semplificazione e reingegnerizzazione dei processi anche in materia di diritto di accesso, le pubbliche amministrazioni, con esclusione delle scuole di ogni ordine e grado e delle istituzioni educative, di cui all'articolo 1,"
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 36,
+    "level" : "2",
+    "page number" : 2,
+    "bounding box" : [ 56.76, 627.046, 538.678, 681.731 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 56.76, 627.046, 538.678, 681.731 ],
+      "font" : "CIDFont+F2",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "comma 2, del decreto legislativo 30 marzo 2001, n. 165, con più di cinquanta dipendenti, entro il 31 gennaio di ogni anno adottano il Piano integrato di attività e organizzazione, di seguito denominato Piano, nel rispetto delle vigenti discipline di settore e, in particolare, del decreto legislativo 27 ottobre 2009, n. 150 e della legge 6 novembre 2012, n. 190.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 37,
+    "level" : "3",
+    "page number" : 2,
+    "bounding box" : [ 56.76, 88.967, 538.678, 626.536 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 3,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 56.76, 613.247, 414.755, 626.536 ],
+      "font" : "CIDFont+F2",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "2. Il Piano ha durata triennale, viene aggiornato annualmente e definisce:",
+      "kids" : [ {
+        "type" : "list",
+        "pdfua_tag" : "L",
+        "id" : 21,
+        "level" : "4",
+        "page number" : 2,
+        "bounding box" : [ 56.76, 213.047, 538.714, 612.731 ],
+        "numbering style" : "english letters",
+        "number of list items" : 7,
+        "list items" : [ {
+          "type" : "list item",
+          "pdfua_tag" : "LI",
+          "page number" : 2,
+          "bounding box" : [ 56.76, 571.845, 538.678, 612.731 ],
+          "font" : "CIDFont+F2",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "h) gli obiettivi programmatici e strategici della performance secondo i principi e criteri direttivi di cui all'articolo 10 del decreto legislativo 27 ottobre 2009, n. 150, stabilendo il necessario collegamento della performance individuale ai risultati della performance organizzativa;",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "pdfua_tag" : "LI",
+          "page number" : 2,
+          "bounding box" : [ 56.76, 489.046, 538.714, 571.335 ],
+          "font" : "CIDFont+F2",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "i) la strategia di gestione del capitale umano e di sviluppo organizzativo, anche mediante il ricorso al lavoro agile, e gli obiettivi formativi annuali e pluriennali, finalizzati ai processi di pianificazione secondo le logiche del project management, al raggiungimento della completa alfabetizzazione digitale, allo sviluppo delle conoscenze tecniche e delle competenze trasversali e manageriali e all'accrescimento culturale e dei titoli di studio del personale, correlati all'ambito d'impiego e alla progressione di carriera del personale;",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "pdfua_tag" : "LI",
+          "page number" : 2,
+          "bounding box" : [ 56.76, 378.643, 538.714, 488.536 ],
+          "font" : "CIDFont+F2",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "j) compatibilmente con le risorse finanziarie riconducibili al piano triennale dei fabbisogni di personale, di cui all'articolo 6 del decreto legislativo 30 marzo 2001, n. 165, gli strumenti e gli obiettivi del reclutamento di nuove risorse e della valorizzazione delle risorse interne, prevedendo, oltre alle forme di reclutamento ordinario, la percentuale di posizioni disponibili nei limiti stabiliti dalla legge destinata alle progressioni di carriera del personale, anche tra aree diverse, e le modalità di valorizzazione a tal fine dell'esperienza professionale maturata e dell'accrescimento culturale conseguito anche attraverso le attività poste in essere ai sensi della lettera b), assicurando adeguata informazione alle organizzazioni sindacali;",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "pdfua_tag" : "LI",
+          "page number" : 2,
+          "bounding box" : [ 56.76, 323.444, 538.714, 378.133 ],
+          "font" : "CIDFont+F2",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "k) gli strumenti e le fasi per giungere alla piena trasparenza dei risultati dell’attività e dell'organizzazione amministrativa nonché' per raggiungere gli obiettivi in materia di contrasto alla corruzione, secondo quanto previsto dalla normativa vigente in materia e in conformità agli indirizzi adottati dall’Autorità nazionale anticorruzione (ANAC) con il Piano nazionale anticorruzione;",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "pdfua_tag" : "LI",
+          "page number" : 2,
+          "bounding box" : [ 56.76, 268.249, 538.678, 322.935 ],
+          "font" : "CIDFont+F2",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "l) l'elenco delle procedure da semplificare e reingegnerizzare ogni anno, anche mediante il ricorso alla tecnologia e sulla base della consultazione degli utenti, nonché la pianificazione delle attività inclusa la graduale misurazione dei tempi effettivi di completamento delle procedure effettuata attraverso strumenti automatizzati;",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "pdfua_tag" : "LI",
+          "page number" : 2,
+          "bounding box" : [ 56.76, 240.644, 538.714, 267.732 ],
+          "font" : "CIDFont+F2",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "m) le modalità e le azioni finalizzate a realizzare la piena accessibilità alle amministrazioni, fisica e digitale, da parte dei cittadini ultrasessantacinquenni e dei cittadini con disabilità",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "pdfua_tag" : "LI",
+          "page number" : 2,
+          "bounding box" : [ 56.76, 213.047, 538.678, 240.134 ],
+          "font" : "CIDFont+F2",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "n) le modalità e le azioni finalizzate al pieno rispetto della parità di genere, anche con riguardo alla composizione delle commissioni esaminatrici dei concorsi.",
+          "kids" : [ ]
+        } ]
+      } ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 56.76, 157.844, 538.642, 212.537 ],
+      "font" : "CIDFont+F2",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "3. Il Piano definisce le modalità di monitoraggio degli esiti, con cadenza periodica, inclusi gli impatti sugli utenti, anche attraverso rilevazioni della soddisfazione degli utenti stessi mediante gli strumenti di cui al decreto legislativo 27 ottobre 2009, n. 150, nonché' le modalità di monitoraggio dei procedimenti attivati ai sensi del decreto legislativo 20 dicembre 2009, n. 198.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 56.76, 88.967, 538.678, 157.334 ],
+      "font" : "CIDFont+F2",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "4. Le pubbliche amministrazioni di cui al comma 1 del presente articolo pubblicano il Piano e i relativi aggiornamenti entro il 31 gennaio di ogni anno nel proprio sito internet istituzionale e li inviano al Dipartimento della funzione pubblica della Presidenza del Consiglio dei ministri per la pubblicazione sul relativo portale.”; VISTI:",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 38,
+    "level" : "5",
+    "page number" : 2,
+    "bounding box" : [ 56.76, 75.165, 538.678, 88.454 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "next list id" : 41,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 56.76, 75.165, 538.678, 88.454 ],
+      "font" : "CIDFont+F3",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "l’art. 6, c. 5, D.L. 9 giugno 2021, n. 80, come modificato dall’art. 1, c. 12, D.L. 30 dicembre 2021, n.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 39,
+    "level" : "6",
+    "page number" : 2,
+    "bounding box" : [ 56.76, 61.366, 538.559, 74.655 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "next list id" : 20,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 56.76, 61.366, 538.559, 74.655 ],
+      "font" : "CIDFont+F3",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "228, il quale stabilisce che: “5. Entro il 31 marzo 2022, con uno o più decreti del Presidente della",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 40,
+    "page number" : 3,
+    "bounding box" : [ 56.76, 751.246, 538.678, 805.932 ],
+    "font" : "CIDFont+F2",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Repubblica, adottati ai sensi dell'articolo 17, comma 2, della legge 23 agosto 1988, n. 400, previa intesa in sede di Conferenza unificata, ai sensi dell'articolo 9, comma 2, del decreto legislativo 28 agosto 1997, n. 281, sono individuati e abrogati gli adempimenti relativi ai piani assorbiti da quello di cui al presente articolo”;"
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 41,
+    "level" : "5",
+    "page number" : 3,
+    "bounding box" : [ 56.76, 406.248, 538.714, 750.731 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 3,
+    "previous list id" : 38,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 56.76, 737.442, 538.678, 750.731 ],
+      "font" : "CIDFont+F3",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "l’art. 6, c. 6, D.L. 9 giugno 2021, n. 80, come modificato dall’art. 1, c. 12, D.L. 30 dicembre 2021, n.",
+      "kids" : [ {
+        "type" : "list",
+        "pdfua_tag" : "L",
+        "id" : 20,
+        "level" : "6",
+        "page number" : 3,
+        "bounding box" : [ 56.76, 571.845, 538.678, 736.932 ],
+        "numbering style" : "arabic numbers",
+        "number of list items" : 1,
+        "previous list id" : 39,
+        "list items" : [ {
+          "type" : "list item",
+          "pdfua_tag" : "LI",
+          "page number" : 3,
+          "bounding box" : [ 56.76, 571.845, 538.678, 736.932 ],
+          "font" : "CIDFont+F3",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "228, il quale stabilisce che: “6. Entro il medesimo termine di cui al comma 5, con decreto del Ministro per la pubblica amministrazione, di concerto con il Ministro dell'economia e delle finanze, previa intesa in sede di Conferenza unificata, ai sensi dell'articolo 9, comma 2, del decreto legislativo 28 agosto 1997, n. 281, è adottato un Piano tipo, quale strumento di supporto alle amministrazioni di cui al comma 1. Nel Piano tipo sono definite modalità semplificate per l'adozione del Piano di cui al comma 1 da parte delle amministrazioni con meno di cinquanta dipendenti”; l’art. 6, c. 6-bis, D.L. 9 giugno 2021, n. 80, come introdotto dall’art. 1, c. 12, D.L. 30 dicembre 2021, n. 228, successivamente modificato dall’art. 7, c. 1, D.L. 30 aprile 2022, n. 36, il quale stabilisce che: “6-bis. In sede di prima applicazione il Piano è adottato entro il 30 giugno 2022 e fino al predetto termine non si applicano le sanzioni previste dalle seguenti disposizioni: a) articolo 10, comma 5, del decreto legislativo 27 ottobre 2009, n. 150; b) articolo 14, comma 1, della legge 7 agosto 2015, n. 124; c) articolo 6, comma 6, del decreto legislativo 30 marzo 2001, n. 165”;",
+          "kids" : [ ]
+        } ]
+      } ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 56.76, 516.644, 538.714, 571.335 ],
+      "font" : "CIDFont+F3",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "l’art. 6, c. 7, D.L. 9 giugno 2021, n. 80, il quale stabilisce che: “7. In caso di mancata adozione del Piano trovano applicazione le sanzioni di cui all'articolo 10, comma 5, del decreto legislativo 27 ottobre 2009, n. 150, ferme restando quelle previste dall'articolo 19, comma 5, lettera b), del decretolegge 24 giugno 2014, n. 90, convertito, con modificazioni, dalla legge 11 agosto 2014, n. 114”;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 56.76, 406.248, 538.714, 516.134 ],
+      "font" : "CIDFont+F3",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "l’art. 6, c. 8, D.L. 9 giugno 2021, n. 80, il quale stabilisce che: “8. All'attuazione delle disposizioni di cui al presente articolo le amministrazioni interessate provvedono con le risorse umane, strumentali e finanziarie disponibili a legislazione vigente. Gli enti locali con meno di 15.000 abitanti provvedono al monitoraggio dell'attuazione del presente articolo e al monitoraggio delle performance organizzative anche attraverso l'individuazione di un ufficio associato tra quelli esistenti in ambito provinciale o metropolitano, secondo le indicazioni delle Assemblee dei sindaci o delle Conferenze metropolitane”. CONSIDERATO che:",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 42,
+    "level" : "6",
+    "page number" : 3,
+    "bounding box" : [ 56.76, 226.845, 538.678, 405.731 ],
+    "numbering style" : "unordered",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 56.76, 351.046, 538.642, 405.731 ],
+      "font" : "CIDFont+F3",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- il 30 giugno 2022, previa intesa in Conferenza Unificata, ai sensi dell'art. 9, c. 2, D.Lgs. 28 agosto 1997, n. 281, è stato pubblicato sulla Gazzetta Ufficiale Serie Generale n. 151, il Decreto del Presidente della Repubblica n. 81, recante “Regolamento recante individuazione degli adempimenti relativi ai Piani assorbiti dal Piano integrato di attività e organizzazione”;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 56.76, 226.845, 538.678, 350.536 ],
+      "font" : "CIDFont+F3",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- il 30 giugno 2022, previa intesa in Conferenza Unificata, ai sensi dell'art. 9, c. 2, D.Lgs. 28 agosto 1997, n. 281, è stato pubblicato il Decreto del Ministro per la Pubblica Amministrazione concernente la definizione del contenuto del Piano Integrato di Attività e Organizzazione; DATO ATTO che: il Comune di Carinaro, alla data del 31/12/2025 ha meno di 50 (cinquanta) dipendenti, computati secondo il metodo di calcolo utilizzato per compilare la tabella 12 del Conto Annuale, e precisamente 42 (quarantadue); RILEVATO che il D.P.R. 30 giugno 2022, n. 81 recante “Regolamento recante individuazione degli adempimenti relativi ai Piani assorbiti dal Piano integrato di attività e organizzazione”, pubblicato sulla Gazzetta Ufficiale Serie Generale n. 151 del 30 giugno 2022, stabilisce:",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 43,
+    "level" : "7",
+    "page number" : 3,
+    "bounding box" : [ 56.76, 88.967, 538.714, 226.336 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 56.76, 171.643, 538.678, 226.336 ],
+      "font" : "CIDFont+F3",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "all’art. 1, c. 3, che “Le amministrazioni pubbliche di cui all'articolo 1, comma 2, del decreto legislativo 30 marzo 2001, n. 165, con non più di cinquanta dipendenti sono tenute al rispetto degli adempimenti stabiliti nel decreto del Ministro della pubblica amministrazione di cui all’articolo 6, comma 6, del decreto-legge n. 80 del 2021.”;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 56.76, 88.967, 538.714, 171.133 ],
+      "font" : "CIDFont+F3",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "all’art. 1, c. 4, la soppressione del terzo periodo dell’art. 169, comma 3-bis del decreto legislativo 18 agosto 2000, n. 267, che recitava “Il piano dettagliato degli obiettivi di cui all'art. 108, comma 1, del presente testo unico e il piano della performance di cui all'art. 10 del decreto legislativo 27 ottobre 2009, n. 150, sono unificati organicamente nel PEG.”, decretando pertanto la separazione fra ilPiano Esecutivo di Gestione, come definito nel citato art. 169, del decreto legislativo 18 agosto 2000, n. 267 e la definizione degli obiettivi di performance dell’Amministrazione;",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 44,
+    "level" : "8",
+    "page number" : 3,
+    "bounding box" : [ 56.76, 61.366, 538.678, 88.454 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "next list id" : 46,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 56.76, 61.366, 538.678, 88.454 ],
+      "font" : "CIDFont+F3",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "all’art. 2, c. 1, che per gli Enti Locali, di cui all’articolo 2, comma 1, del decreto legislativo 18 agosto 2000, n. 267, il piano dettagliato degli obiettivi di cui all’articolo 108, comma 1, del medesimo",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 46,
+    "level" : "8",
+    "page number" : 4,
+    "bounding box" : [ 56.76, 599.442, 538.714, 805.932 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "previous list id" : 44,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "id" : 45,
+      "page number" : 4,
+      "bounding box" : [ 56.76, 640.844, 538.714, 805.932 ],
+      "font" : "CIDFont+F3",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "decreto legislativo e il piano della performance di cui all’articolo 10 del decreto legislativo 27 ottobre 2009, n. 150, sono assorbiti nel piano integrato di attività e organizzazione di cui all’articolo 6 del decreto-legge 9 giugno 2021, n. 80, convertito, con modificazioni, dalla legge 6 agosto 2021, n. 113. PRESO ATTO che il decreto del Ministro per la Pubblica Amministrazione concernente la definizione del contenuto del Piano Integrato di Attività e Organizzazione, nonché le modalità semplificate per l’adozione dello stesso per gli Enti con meno di 50 dipendenti, stabilisce all’art. 2, comma 1, in combinato disposto con l’art. 6 del Decreto medesimo, il quale reca le modalità semplificate per la redazione del PIAO per le amministrazioni con meno di cinquanta dipendenti, che il PIAO contiene la scheda anagrafica dell’Amministrazione ed è suddiviso nelle Sezioni di cui agli artt. 3, 4 e 5 del Decreto stesso e ciascuna Sezione è a sua volta ripartita in sottosezioni di programmazione, riferite a specifici ambiti di attività amministrativa e gestionale; PRESO, inoltre, ATTO che il suddetto decreto dispone:",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 4,
+      "bounding box" : [ 56.76, 599.442, 538.642, 640.335 ],
+      "font" : "CIDFont+F3",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "all’art. 2, c. 2, che “Sono esclusi dal Piano integrato di attività e organizzazione gli adempimenti di carattere finanziario non contenuti nell’elenco di cui all’articolo 6, comma 2, lettere da a) a g), del decreto-legge 9 giugno 2021, n. 80, convertito, con modificazioni, dalla legge 6 agosto 2021, n. 113.”;",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 47,
+    "level" : "9",
+    "page number" : 4,
+    "bounding box" : [ 56.76, 213.047, 538.678, 598.932 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 3,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 4,
+      "bounding box" : [ 56.76, 544.247, 538.678, 598.932 ],
+      "font" : "CIDFont+F3",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "all’art. 6, le modalità semplificate per la redazione del PIAO per le amministrazioni con meno di cinquanta dipendenti, disponendo in particolare al comma 4, che “Le amministrazioni con meno di 50 dipendenti procedono esclusivamente alle attività di cui al presente articolo, nonché a quanto previsto dal primo periodo dell’articolo 6, comma 1.”",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 4,
+      "bounding box" : [ 56.76, 502.845, 538.678, 543.731 ],
+      "font" : "CIDFont+F3",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "all’art. 7, c. 1, che “Ai sensi dell’articolo 6, commi 1 e 4, del decreto-legge 9 giugno 2021, n. 80, convertito, con modificazioni, dalla legge 6 agosto 2021, n. 113, il piano integrato di attività e organizzazione è adottato entro il 31 gennaio, secondo lo schema di Piano tipo cui all’articolo 1,",
+      "kids" : [ {
+        "type" : "paragraph",
+        "pdfua_tag" : "P",
+        "id" : 19,
+        "page number" : 4,
+        "bounding box" : [ 56.76, 447.644, 538.678, 502.335 ],
+        "font" : "CIDFont+F2",
+        "font size" : 12.0,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "comma 3, del presente decreto, ha durata triennale e viene aggiornato annualmente entro la predetta data. Il Piano è predisposto esclusivamente in formato digitale ed è pubblicato sul sito istituzionale del Dipartimento della funzione pubblica della Presidenza del Consiglio dei Ministri e sul sito istituzionale di ciascuna amministrazione.”"
+      } ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 4,
+      "bounding box" : [ 56.76, 213.047, 538.645, 447.135 ],
+      "font" : "CIDFont+F3",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "all’art. 8, c. 2, che “In ogni caso di differimento del termine previsto a legislazione vigente per l’approvazione dei bilanci di previsione, il termine di cui all’articolo 7, comma 1 del presente decreto, è differito di trenta giorni successivi a quello di approvazione dei bilanci”; all’art. 8, c. 3, che “In sede di prima applicazione, il termine di cui all’articolo 7, comma 1, del presente decreto è differito di 120 giorni successivi a quello di approvazione del bilancio di previsione”; all’art. 11, comma 1, che il Piano Integrato di Attività e Organizzazione, negli Enti Locali è approvato dalla Giunta Comunale. VISTA la proposta di Piano integrato di attività e organizzazione (PIAO) 2026-2028; CONSIDERATO quanto sopra, si propone di adottare il Piano integrato di attività e organizzazione (PIAO) 2026-2028, come allegato alla presente deliberazione; VISTI: il Regolamento per il funzionamento degli Uffici e dei Servizi; lo Statuto comunale; RITENUTO di provvedere in merito; VISTO il decreto legislativo 18 agosto 2000, n. 267; VISTO il decreto legislativo 30 marzo 2001, n. 165;",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 48,
+    "page number" : 4,
+    "bounding box" : [ 266.279, 185.442, 328.942, 198.731 ],
+    "font" : "CIDFont+F1",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "DELIBERA"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 49,
+    "page number" : 4,
+    "bounding box" : [ 56.76, 144.045, 538.557, 171.133 ],
+    "font" : "CIDFont+F3",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "DI APPROVARE il Piano Integrato di Attività e Organizzazione (PIAO) 2026-2028, che allegato alla presente deliberazione ne costituisce parte integrante e sostanziale;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 50,
+    "page number" : 4,
+    "bounding box" : [ 56.76, 102.645, 538.678, 143.536 ],
+    "font" : "CIDFont+F3",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "DI ESCLUDERE dall’approvazione del Piano Integrato di Attività e Organizzazione gli adempimenti di carattere finanziario non contenuti nell’elenco di cui all’art. 6, c. 2, lett. da a) a g), D.L. 9 giugno 2021, n. 80;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 51,
+    "page number" : 4,
+    "bounding box" : [ 56.76, 61.366, 538.678, 102.256 ],
+    "font" : "CIDFont+F3",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "DI DEMANDARE al dipendente Ing. Della Volpe Filippo: di provvedere alla pubblicazione della presente deliberazione unitamente all’allegato Piano Integrato di Attività e Organizzazione, all’interno della sezione “Amministrazione"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 52,
+    "page number" : 5,
+    "bounding box" : [ 56.76, 682.247, 538.678, 805.932 ],
+    "font" : "CIDFont+F3",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "trasparente”, sotto sezione di primo livello “Disposizioni generali”, sotto sezione di secondo livello “Atti generali”, nella sezione “Amministrazione trasparente”, sotto sezione di primo livello “Personale”, sotto sezione di secondo livello “Dotazione organica”, nella sezione “Amministrazione trasparente” sotto sezione di primo livello “Performance”, sotto sezione di secondo livello “Piano della Performance” e nella sezione “Amministrazione trasparente” sotto sezione di primo livello “Altri contenuti”, sotto sezione di secondo livello “Prevenzione della corruzione”, nella sezione “Amministrazione trasparente”, sotto sezione di primo livello “Altri contenuti”, sotto sezione di secondo livello “Accessibilità e Catalogo dei dati, metadati e banche dati”, ai sensi dell’art. 6, c. 4, D.L. 9 giugno 2021, n. 80;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 53,
+    "page number" : 5,
+    "bounding box" : [ 59.76, 668.442, 538.676, 681.731 ],
+    "font" : "CIDFont+F3",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "DI DICHIARARE il presente provvedimento immediatamente eseguibile, ai sensi dell’art. 134,"
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 54,
+    "level" : "2",
+    "page number" : 5,
+    "bounding box" : [ 56.76, 654.643, 250.439, 667.932 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 5,
+      "bounding box" : [ 56.76, 654.643, 250.439, 667.932 ],
+      "font" : "CIDFont+F3",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "comma 4, del D.Lgs. 18.08.2000 n. 267.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 55,
+    "page number" : 6,
+    "bounding box" : [ 371.162, 738.614, 535.769, 750.84 ],
+    "font" : "CIDFont+F3",
+    "font size" : 11.04,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Deliberazione n. 48 DEL 11-06-2026"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 56,
+    "page number" : 6,
+    "bounding box" : [ 59.518, 700.691, 200.389, 712.917 ],
+    "font" : "CIDFont+F3",
+    "font size" : 11.04,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Letto, confermato e sottoscritto."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 57,
+    "page number" : 6,
+    "bounding box" : [ 154.56, 665.053, 445.355, 677.279 ],
+    "font" : "CIDFont+F3",
+    "font size" : 11.04,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Il Sindaco Il Segretario"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 58,
+    "page number" : 6,
+    "bounding box" : [ 95.161, 651.286, 496.463, 664.575 ],
+    "font" : "CIDFont+F3",
+    "font size" : 11.04,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "MARIANNA DELL'APROVITOLA SALVATORE CAPOLUONGO"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H3",
+    "id" : 59,
+    "level" : "Subtitle",
+    "page number" : 6,
+    "bounding box" : [ 196.681, 540.286, 401.353, 581.173 ],
+    "heading level" : 3,
+    "font" : "CIDFont+F1",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "CERTIFICATO DI PUBBLICAZIONE IL SEGRETARIO GENERALE"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 60,
+    "page number" : 6,
+    "bounding box" : [ 56.76, 443.682, 538.318, 512.173 ],
+    "font" : "CIDFont+F3",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "ATTESTA Che la presente deliberazione è stata affissa all’ albo pretorio del sito web dell’ ente http://www.comune.carinaro.ce.it conforme all’originale in data 00-00-0000e resterà affissa per n. 15 giorni consecutivi ai sensi dell’art. 124, comma 1, del Dlgs 18 agosto 2000 n. 267"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 61,
+    "page number" : 6,
+    "bounding box" : [ 219.117, 388.487, 376.1, 415.575 ],
+    "font" : "CIDFont+F3",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Il Segretario Generale SALVATORE CAPOLUONGO"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 62,
+    "level" : "6",
+    "page number" : 6,
+    "bounding box" : [ 57.598, 347.087, 537.596, 374.175 ],
+    "font" : "CIDFont+F3",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "******************************************************************************** *****************************************************************"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H3",
+    "id" : 63,
+    "level" : "Subtitle",
+    "page number" : 6,
+    "bounding box" : [ 202.681, 319.489, 392.725, 332.778 ],
+    "heading level" : 3,
+    "font" : "CIDFont+F1",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "CERTIFICATO DI ESECUTIVITA'"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 64,
+    "page number" : 6,
+    "bounding box" : [ 56.758, 266.527, 501.157, 291.357 ],
+    "font" : "CIDFont+F3",
+    "font size" : 11.04,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "[ X] Deliberazione dichiarata immediatamente eseguibile ai sensi dell’ art. 134, comma 4, del D.Lgs. 267/2000 e.ss.mm.ii."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 65,
+    "page number" : 6,
+    "bounding box" : [ 56.758, 228.611, 506.054, 253.434 ],
+    "font" : "CIDFont+F3",
+    "font size" : 11.04,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "[ ]Deliberazione esecutiva ad ogni effetto di legge decorso il decimo giorno di pubblicazione, ai sensi dell’art. 134, comma 3, del D.Lgs n. 267/2000 e.ss.mm.ii."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 66,
+    "page number" : 6,
+    "bounding box" : [ 389.042, 191.772, 443.801, 203.998 ],
+    "font" : "CIDFont+F3",
+    "font size" : 11.04,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Il Segretario"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H3",
+    "id" : 67,
+    "level" : "Subtitle",
+    "page number" : 6,
+    "bounding box" : [ 337.798, 178.008, 494.782, 191.297 ],
+    "heading level" : 3,
+    "font" : "CIDFont+F3",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "SALVATORE CAPOLUONGO"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 68,
+    "page number" : 6,
+    "bounding box" : [ 56.759, 122.17, 490.613, 133.2 ],
+    "font" : "CIDFont+F4",
+    "font size" : 9.96,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Documento informatico sottoscritto con firma digitale ai sensi dell’art.24 del D.Lgs. n.82/2005 e ss.mm.ii."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 71,
+    "page number" : 7,
+    "bounding box" : [ 56.76, 531.884, 310.439, 545.173 ],
+    "font" : "CIDFont+F5",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "OGGETTO: APPROVAZIONE PIAO 2026-2028"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 72,
+    "page number" : 7,
+    "bounding box" : [ 56.76, 435.285, 363.995, 462.373 ],
+    "font" : "CIDFont+F6",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "PARERE DI REGOLARITA’ TECNICA (Articolo 147 bis del decreto legislativo 18 agosto 2000, n. 267)"
+  }, {
+    "type" : "table",
+    "pdfua_tag" : "Table",
+    "id" : 73,
+    "level" : "7",
+    "page number" : 7,
+    "bounding box" : [ 141.48, 328.14, 453.84, 393.9 ],
+    "number of rows" : 2,
+    "number of columns" : 2,
+    "rows" : [ {
+      "type" : "table row",
+      "row number" : 1,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 7,
+        "bounding box" : [ 142.08, 361.56, 299.28, 393.33 ],
+        "row number" : 1,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 1,
+          "page number" : 7,
+          "bounding box" : [ 214.321, 380.015, 226.768, 389.982 ],
+          "font" : "CIDFont+F5",
+          "font size" : 9.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "[X]"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 7,
+        "bounding box" : [ 299.28, 361.56, 453.24, 393.33 ],
+        "row number" : 1,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 2,
+          "page number" : 7,
+          "bounding box" : [ 373.44, 380.015, 379.407, 389.982 ],
+          "font" : "CIDFont+F5",
+          "font size" : 9.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "[]"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 2,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 7,
+        "bounding box" : [ 142.08, 328.71, 299.28, 361.56 ],
+        "row number" : 2,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 3,
+          "page number" : 7,
+          "bounding box" : [ 204.839, 350.342, 236.388, 358.049 ],
+          "font" : "CIDFont+F6",
+          "font size" : 6.96,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Favorevole"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 7,
+        "bounding box" : [ 299.28, 328.71, 453.24, 361.56 ],
+        "row number" : 2,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 4,
+          "page number" : 7,
+          "bounding box" : [ 362.968, 350.342, 389.764, 358.049 ],
+          "font" : "CIDFont+F6",
+          "font size" : 6.96,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Contrario"
+        } ]
+      } ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 77,
+    "page number" : 8,
+    "bounding box" : [ 56.76, 531.884, 310.439, 545.173 ],
+    "font" : "CIDFont+F8",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "OGGETTO: APPROVAZIONE PIAO 2026-2028"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 78,
+    "page number" : 8,
+    "bounding box" : [ 56.76, 435.285, 363.995, 462.373 ],
+    "font" : "CIDFont+F9",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "PARERE DI REGOLARITA’ CONTABILE (Articolo 147 bis del decreto legislativo 18 agosto 2000, n. 267)"
+  }, {
+    "type" : "table",
+    "pdfua_tag" : "Table",
+    "id" : 79,
+    "level" : "8",
+    "page number" : 8,
+    "bounding box" : [ 129.18, 328.14, 466.14, 393.9 ],
+    "number of rows" : 2,
+    "number of columns" : 3,
+    "rows" : [ {
+      "type" : "table row",
+      "row number" : 1,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 8,
+        "bounding box" : [ 129.75, 361.56, 239.52, 393.33 ],
+        "row number" : 1,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 1,
+          "page number" : 8,
+          "bounding box" : [ 178.321, 380.015, 190.768, 389.982 ],
+          "font" : "CIDFont+F8",
+          "font size" : 9.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "[X]"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 8,
+        "bounding box" : [ 239.52, 361.56, 347.28, 393.33 ],
+        "row number" : 1,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 2,
+          "page number" : 8,
+          "bounding box" : [ 290.371, 380.015, 296.428, 389.982 ],
+          "font" : "CIDFont+F8",
+          "font size" : 9.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "[]"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 8,
+        "bounding box" : [ 347.28, 361.56, 465.57, 393.33 ],
+        "row number" : 1,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 3,
+          "page number" : 8,
+          "bounding box" : [ 403.59, 380.015, 409.557, 389.982 ],
+          "font" : "CIDFont+F8",
+          "font size" : 9.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "[]"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 2,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 8,
+        "bounding box" : [ 129.75, 328.71, 239.52, 361.56 ],
+        "row number" : 2,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 4,
+          "page number" : 8,
+          "bounding box" : [ 168.839, 350.342, 200.389, 358.049 ],
+          "font" : "CIDFont+F9",
+          "font size" : 6.96,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Favorevole"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 8,
+        "bounding box" : [ 239.52, 328.71, 347.28, 361.56 ],
+        "row number" : 2,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 5,
+          "page number" : 8,
+          "bounding box" : [ 279.989, 350.342, 306.715, 358.049 ],
+          "font" : "CIDFont+F9",
+          "font size" : 6.96,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Contrario"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 8,
+        "bounding box" : [ 347.28, 328.71, 465.57, 361.56 ],
+        "row number" : 2,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 6,
+          "page number" : 8,
+          "bounding box" : [ 384.249, 350.342, 428.723, 358.049 ],
+          "font" : "CIDFont+F9",
+          "font size" : 6.96,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Non Necessario"
+        } ]
+      } ]
+    } ]
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 90,
+    "page number" : 9,
+    "bounding box" : [ 255.0, 654.6, 340.2, 751.56 ],
+    "source" : "atto_15_images/imageFile5.png"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 82,
+    "page number" : 9,
+    "bounding box" : [ 449.039, 765.285, 515.711, 778.575 ],
+    "font" : "CIDFont+F11",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "ORIGINALE"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 83,
+    "level" : "Doctitle",
+    "page number" : 9,
+    "bounding box" : [ 204.362, 622.588, 391.044, 640.263 ],
+    "heading level" : 1,
+    "font" : "CIDFont+F12",
+    "font size" : 15.96,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "COMUNE DI CARINARO"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 84,
+    "page number" : 9,
+    "bounding box" : [ 56.76, 544.487, 477.24, 608.296 ],
+    "font" : "CIDFont+F12",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Provincia di Caserta DELIBERAZIONE DI GIUNTA COMUNALE N. 48 DEL 11-06-2026 OGGETTO: APPROVAZIONE PIAO 2026-2028"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 85,
+    "page number" : 9,
+    "bounding box" : [ 153.357, 489.286, 439.028, 502.575 ],
+    "font" : "CIDFont+F12",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "C E R T I F I C A T O D I P U B B L I C A Z I O N E"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 86,
+    "page number" : 9,
+    "bounding box" : [ 56.76, 434.084, 538.643, 474.97 ],
+    "font" : "CIDFont+F14",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Il sottoscritto responsabile della pubblicazione OLIVA LORENZO certifica che copia della presente deliberazione viene pubblicata il giorno 11-06-2026all’Albo Pretorio ove rimarrà affissa per 15 giorni consecutivi sino al 26-06-2026,"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 87,
+    "page number" : 9,
+    "bounding box" : [ 56.76, 365.086, 163.439, 378.375 ],
+    "font" : "CIDFont+F13",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Carinaro, 11-06-2026"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 88,
+    "page number" : 9,
+    "bounding box" : [ 357.72, 337.488, 528.635, 364.576 ],
+    "font" : "CIDFont+F14",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Il Responsabile della pubblicazione OLIVA LORENZO"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 89,
+    "page number" : 9,
+    "bounding box" : [ 56.759, 259.329, 482.844, 270.359 ],
+    "font" : "CIDFont+F13",
+    "font size" : 9.96,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Documento informatico sottoscritto con firma digitale ai sensi dell’art.24 del D.Lgs. n.82/2005 e ss.mm.ii."
+  } ]
+}

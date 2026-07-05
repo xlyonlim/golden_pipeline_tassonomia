@@ -1,0 +1,2 @@
+"0","plot.window(xlim = c(min(bp4) - 0.8, max(bp4) + 0.8),"
+"0","            ylim = c(0, max(tab_hap) * 1.15))"
