@@ -1,0 +1,556 @@
+{
+  "file name" : "atto_26.pdf",
+  "number of pages" : 4,
+  "author" : null,
+  "title" : null,
+  "creation date" : "D:20000804064600Z",
+  "modification date" : "D:20260629101900Z",
+  "kids" : [ {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 19,
+    "page number" : 1,
+    "bounding box" : [ 74.4, 662.096, 134.9, 749.096 ],
+    "source" : "atto_26_images/imageFile1.png"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 9,
+    "level" : "Doctitle",
+    "page number" : 1,
+    "bounding box" : [ 157.12, 727.369, 473.804, 758.752 ],
+    "heading level" : 1,
+    "font" : "Tahoma",
+    "font size" : 26.0,
+    "text color" : "[0.0]",
+    "content" : "COMUNE DI MOMPANTERO"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 10,
+    "page number" : 1,
+    "bounding box" : [ 233.326, 703.229, 397.582, 727.369 ],
+    "font" : "Tahoma",
+    "font size" : 10.0,
+    "text color" : "[0.0]",
+    "content" : "CITTA’ METROPOLITANA DI TORINO _______________"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H2",
+    "id" : 11,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 150.251, 613.236, 416.702, 634.963 ],
+    "heading level" : 2,
+    "font" : "Tahoma-Bold",
+    "font size" : 18.0,
+    "text color" : "[0.0]",
+    "content" : "VERBALE DI DELIBERAZIONE"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H3",
+    "id" : 12,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 172.857, 593.924, 394.094, 613.237 ],
+    "heading level" : 3,
+    "font" : "Tahoma-Bold",
+    "font size" : 16.0,
+    "text color" : "[0.0]",
+    "content" : "DELLA GIUNTA COMUNALE"
+  }, {
+    "type" : "text block",
+    "id" : 13,
+    "page number" : 1,
+    "bounding box" : [ 240.25, 566.784, 312.65, 581.854 ],
+    "kids" : [ {
+      "type" : "paragraph",
+      "pdfua_tag" : "P",
+      "id" : 1,
+      "page number" : 1,
+      "bounding box" : [ 258.808, 568.284, 294.097, 580.354 ],
+      "font" : "Tahoma-Bold",
+      "font size" : 10.0,
+      "text color" : "[0.0]",
+      "content" : "N. 43"
+    } ]
+  }, {
+    "type" : "text block",
+    "id" : 14,
+    "page number" : 1,
+    "bounding box" : [ 36.6, 507.446, 530.35, 542.644 ],
+    "kids" : [ {
+      "type" : "heading",
+      "pdfua_tag" : "H4",
+      "id" : 2,
+      "level" : "Subtitle",
+      "page number" : 1,
+      "bounding box" : [ 42.55, 508.946, 524.394, 540.686 ],
+      "heading level" : 4,
+      "font" : "Arial-BoldMT",
+      "font size" : 14.0,
+      "text color" : "[0.0]",
+      "content" : "OGGETTO : RELAZIONE SULLA PERFORMANCE ESERCIZIO 2025 – APPROVAZIONE"
+    } ]
+  }, {
+    "type" : "caption",
+    "id" : 15,
+    "page number" : 1,
+    "bounding box" : [ 42.55, 419.94, 524.403, 492.962 ],
+    "linked content id" : 16,
+    "font" : "Tahoma",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "L’anno duemilaventisei, addì venticinque, del mese di giugno, alle ore dieci e minuti quindici, regolarmente convocata, si è riunita la Giunta Comunale. E’ presente il Sindaco, Davide Gastaldo, che interviene in videoconferenza con gli assessori della quale sono membri i Signori:"
+  }, {
+    "type" : "table",
+    "pdfua_tag" : "Table",
+    "id" : 16,
+    "level" : "1",
+    "page number" : 1,
+    "bounding box" : [ 61.875, 273.454, 505.075, 413.302 ],
+    "number of rows" : 2,
+    "number of columns" : 2,
+    "rows" : [ {
+      "type" : "table row",
+      "row number" : 1,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 62.625, 397.693, 432.4, 412.552 ],
+        "row number" : 1,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 3,
+          "page number" : 1,
+          "bounding box" : [ 194.323, 398.068, 300.325, 412.553 ],
+          "font" : "Tahoma-Bold",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "Cognome e Nome"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 432.4, 397.693, 504.325, 412.552 ],
+        "row number" : 1,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 4,
+          "page number" : 1,
+          "bounding box" : [ 441.895, 398.068, 495.211, 412.553 ],
+          "font" : "Tahoma-Bold",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "Presente"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 2,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 62.625, 274.204, 432.4, 397.693 ],
+        "row number" : 2,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "list",
+          "pdfua_tag" : "L",
+          "id" : 5,
+          "level" : "1",
+          "page number" : 1,
+          "bounding box" : [ 65.75, 324.898, 320.245, 382.835 ],
+          "numbering style" : "arabic numbers",
+          "number of list items" : 3,
+          "list items" : [ {
+            "type" : "list item",
+            "pdfua_tag" : "LI",
+            "page number" : 1,
+            "bounding box" : [ 65.75, 368.35, 260.034, 382.835 ],
+            "font" : "Tahoma-Bold",
+            "font size" : 12.0,
+            "text color" : "[0.0]",
+            "content" : "1. GASTALDO DAVIDE - Sindaco",
+            "kids" : [ ]
+          }, {
+            "type" : "list item",
+            "pdfua_tag" : "LI",
+            "page number" : 1,
+            "bounding box" : [ 65.75, 346.624, 320.245, 361.109 ],
+            "font" : "Tahoma-Bold",
+            "font size" : 12.0,
+            "text color" : "[0.0]",
+            "content" : "2. PESANDO MARIA LAURA - Vice Sindaco",
+            "kids" : [ ]
+          }, {
+            "type" : "list item",
+            "pdfua_tag" : "LI",
+            "page number" : 1,
+            "bounding box" : [ 65.75, 324.898, 254.834, 339.383 ],
+            "font" : "Tahoma-Bold",
+            "font size" : 12.0,
+            "text color" : "[0.0]",
+            "content" : "3. CHIOLERO LINO - Assessore",
+            "kids" : [ ]
+          } ]
+        }, {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 6,
+          "page number" : 1,
+          "bounding box" : [ 345.638, 274.204, 428.904, 303.173 ],
+          "font" : "Tahoma",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "Totale Presenti: Totale Assenti:"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 432.4, 274.204, 504.325, 397.693 ],
+        "row number" : 2,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 7,
+          "page number" : 1,
+          "bounding box" : [ 463.836, 324.898, 473.268, 382.835 ],
+          "font" : "Tahoma",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "Sì Sì Sì"
+        }, {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 8,
+          "page number" : 1,
+          "bounding box" : [ 465.274, 274.204, 471.826, 303.173 ],
+          "font" : "Tahoma",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "3 0"
+        } ]
+      } ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 17,
+    "page number" : 1,
+    "bounding box" : [ 42.55, 230.003, 430.89, 244.487 ],
+    "font" : "Tahoma",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Presiede la seduta il SINDACO – DAVIDE GASTALDO in videoconferenza."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 18,
+    "page number" : 1,
+    "bounding box" : [ 42.55, 135.856, 524.402, 193.793 ],
+    "font" : "Tahoma",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Il Presidente, rilevata la partecipazione di tutti gli Assessori, dichiara validamente costituita l’adunanza con la partecipazione del Segretario dott.ssa Marietta CARCIONE in videoconferenza."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 22,
+    "page number" : 2,
+    "bounding box" : [ 42.55, 761.073, 524.39, 786.3 ],
+    "font" : "Tahoma",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "Si dà atto che il Vicesindaco PESANDO Maria Laura e l’Assessore CHIOLEOR Lino partecipano alla seduta in videoconferenza ai sensi del vigente regolamento."
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H5",
+    "id" : 23,
+    "level" : "Subtitle",
+    "page number" : 2,
+    "bounding box" : [ 233.908, 692.664, 361.392, 705.941 ],
+    "heading level" : 5,
+    "font" : "Tahoma-Bold",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "LA GIUNTA COMUNALE"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 24,
+    "page number" : 2,
+    "bounding box" : [ 56.7, 613.002, 538.603, 679.387 ],
+    "font" : "Tahoma",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "PREMESSO che l’art. 10, comma 1, lettera b), del D. Lgs. n. 150/2009 e s.m.i. stabilisce che ogni Ente adotta annualmente un documento denominato “’Relazione sulla Performance”, approvato dall'Organo di indirizzo politico-amministrativo e validato dall'Organismo di valutazione, che evidenzia, a consuntivo, con riferimento all'anno precedente, i risultati organizzativi e individuali raggiunti rispetto ai singoli obiettivi programmati, con rilevazione degli eventuali scostamenti;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 25,
+    "page number" : 2,
+    "bounding box" : [ 56.7, 559.894, 538.598, 599.725 ],
+    "font" : "Tahoma",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "DATO ATTO che la suddetta Relazione costituisce, altresì, lo strumento mediante il quale l’Amministrazione illustra ai cittadini e agli stakeholder, interni ed esterni, i risultati ottenuti nel corso dell’anno precedente, concludendo in tal modo il ciclo di gestione della performance;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 26,
+    "page number" : 2,
+    "bounding box" : [ 56.7, 506.786, 538.596, 546.617 ],
+    "font" : "Tahoma",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "RICHIAMATE le deliberazioni del Consiglio Comunale n.16 del 12.12.2024, con cui è stato approvato il Documento Unico di Programmazione (DUP) 2025-2027, e n.17 del 12.12.2024 con cui è stato approvato il Bilancio di Previsione Finanziario 2025-2027 e relativi allegati” e s.m.i.;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 27,
+    "page number" : 2,
+    "bounding box" : [ 56.7, 427.124, 538.604, 493.509 ],
+    "font" : "Tahoma",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "RICHIAMATA pertanto la deliberazione n. 28 del 25.03.2025, con cui la Giunta comunale ha approvato il PIAO 2025-2027 del Comune di Mompantero, nel cui contesto è altresì contemplata la sottosezione di “Programmazione Performance” (Sezione Valore Pubblico, Performance e Anticorruzione), con riferimento al Piano della Performance 2025-2027 approvato con la succitata deliberazione della Giunta comunale;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 28,
+    "page number" : 2,
+    "bounding box" : [ 56.7, 374.016, 538.597, 413.847 ],
+    "font" : "Tahoma",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "ATTESO che, in data 10.06.2026, l’Organismo Comunale di Valutazione ha concluso il processo di valutazione degli obiettivi attinenti alle performance delle posizioni organizzative, riferito allo scorso esercizio;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 29,
+    "page number" : 2,
+    "bounding box" : [ 56.7, 334.185, 538.599, 360.739 ],
+    "font" : "Tahoma",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "VISTA la “Relazione sulla performance anno 2025” redatta dal Segretario Comunale in conformità a quanto disposto dal D. Lgs 150/2009 e s.m.i. sopra citato, allegata al presente atto"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 30,
+    "page number" : 2,
+    "bounding box" : [ 56.7, 281.077, 538.604, 320.908 ],
+    "font" : "Tahoma",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "RAVVISATA l’opportunità di approvare detta relazione, dando atto che dalla stessa emerge che gli obiettivi organizzativi ed individuali, individuati ed assegnati con il Piano delle Performance 2025 alle varie Aree dell’Ente, sono stati raggiunti;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 31,
+    "page number" : 2,
+    "bounding box" : [ 56.7, 241.246, 538.594, 267.8 ],
+    "font" : "Tahoma",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "CONSIDERATO inoltre che la suddetta Relazione, adottata dalla Giunta Comunale, sarà trasmessa all’Organismo Comunale di Valutazione per la validazione finale;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 32,
+    "page number" : 2,
+    "bounding box" : [ 56.7, 201.415, 538.595, 227.969 ],
+    "font" : "Tahoma",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "ACQUISITI i pareri favorevoli sulla proposta della presente deliberazione, rilasciati ai sensi dell’art. 49, comma 1, del D.lgs n. 267/2000 e s.m.i e precisamente:"
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 33,
+    "level" : "2",
+    "page number" : 2,
+    "bounding box" : [ 56.7, 95.199, 476.812, 201.415 ],
+    "numbering style" : "unordered",
+    "number of list items" : 4,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 56.7, 188.138, 340.019, 201.415 ],
+      "font" : "Tahoma",
+      "font size" : 11.0,
+      "text color" : "[0.0]",
+      "content" : "- in ordine alla regolarità tecnica dal Segretario Comunale;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 56.7, 148.307, 419.102, 188.138 ],
+      "font" : "Tahoma",
+      "font size" : 11.0,
+      "text color" : "[0.0]",
+      "content" : "- in ordine alla regolarità contabile dal responsabile del servizio finanziario; VISTI:",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 56.7, 135.03, 221.695, 148.307 ],
+      "font" : "Tahoma",
+      "font size" : 11.0,
+      "text color" : "[0.0]",
+      "content" : "- la circolare F.P. del 29.03.2018;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 56.7, 95.199, 476.812, 135.03 ],
+      "font" : "Tahoma",
+      "font size" : 11.0,
+      "text color" : "[0.0]",
+      "content" : "- il D.Lgs del 18.08.2000 n. 267 e s.m.i.; Con votazione unanime favorevole espressa in forma palese mediante assenso verbale",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 35,
+    "page number" : 3,
+    "bounding box" : [ 273.007, 771.923, 322.298, 785.2 ],
+    "font" : "Tahoma",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "DELIBERA"
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 36,
+    "level" : "3",
+    "page number" : 3,
+    "bounding box" : [ 74.15, 510.775, 538.607, 758.646 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 5,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 74.7, 732.092, 538.585, 758.646 ],
+      "font" : "Tahoma",
+      "font size" : 11.0,
+      "text color" : "[0.0]",
+      "content" : "1. Di richiamare la premessa narrativa a far parte integrante e sostanziale del presente dispositivo.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 74.7, 665.707, 538.596, 718.815 ],
+      "font" : "Tahoma",
+      "font size" : 11.0,
+      "text color" : "[0.0]",
+      "content" : "2. Di approvare, per le motivazioni in narrativa esposte che qui si intendono integralmente richiamate, la “Relazione sulla Performance 2025” redatta ai sensi del D.lgs. 150/2009 e s.m.i., che in allegato costituisce parte integrante e sostanziale della presente deliberazione.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 74.7, 625.876, 538.607, 652.43 ],
+      "font" : "Tahoma",
+      "font size" : 11.0,
+      "text color" : "[0.0]",
+      "content" : "3. Di trasmettere copia del presente atto e relativo allegato all’Organismo Comunale di Valutazione ai fini dell’emissione del provvedimento di validazione.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 74.15, 572.768, 538.598, 612.599 ],
+      "font" : "Tahoma",
+      "font size" : 11.0,
+      "text color" : "[0.0]",
+      "content" : "4. Di dare atto che, ad avvenuta validazione, si provvederà alla pubblicazione del documento di validazione e della Relazione sulla Performance Esercizio 2025 nella sezione “Amministrazione Trasparente” del sito istituzionale.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 74.15, 510.775, 538.603, 550.606 ],
+      "font" : "Tahoma",
+      "font size" : 11.0,
+      "text color" : "[0.0]",
+      "content" : "5. Di dichiarare la presente deliberazione immediatamente eseguibile ai sensi di legge con una seconda distinta votazione unanime favorevole espressa in forma palese mediante assenso verbale.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 38,
+    "page number" : 4,
+    "bounding box" : [ 42.55, 745.846, 213.246, 760.33 ],
+    "font" : "Tahoma",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Letto, confermato e sottoscritto."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 39,
+    "page number" : 4,
+    "bounding box" : [ 63.776, 680.666, 200.225, 721.222 ],
+    "font" : "Tahoma",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "IL PRESIDENTE Firmato digitalmente F.to : GASTALDO DAVIDE"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 40,
+    "page number" : 4,
+    "bounding box" : [ 338.006, 680.666, 510.787, 721.222 ],
+    "font" : "Tahoma",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "IL SEGRETARIO COMUNALE Firmato digitalmente F.to : Dr.ssa Marietta CARCIONE"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 42,
+    "page number" : 4,
+    "bounding box" : [ 42.55, 612.411, 517.883, 637.349 ],
+    "font" : "ArialMT",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "Copia conforme all'originale firmato digitalmente, per gli usi consentiti dalla Legge. lì, 29/06/2026 IL SEGRETARIO COMUNALEDr.ssa Marietta"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 43,
+    "page number" : 4,
+    "bounding box" : [ 376.694, 599.762, 434.752, 612.051 ],
+    "font" : "ArialMT",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "CARCIONE"
+  } ]
+}

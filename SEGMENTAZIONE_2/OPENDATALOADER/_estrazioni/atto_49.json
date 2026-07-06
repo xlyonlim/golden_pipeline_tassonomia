@@ -1,0 +1,842 @@
+{
+  "file name" : "atto_49.pdf",
+  "number of pages" : 5,
+  "author" : "Giuseppe",
+  "title" : "Frontespizio",
+  "creation date" : "D:20210903131600+02'00'",
+  "modification date" : "D:20240806150400+02'00'",
+  "kids" : [ {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 1,
+    "page number" : 1,
+    "bounding box" : [ 60.25, 769.14, 104.47, 819.3 ],
+    "source" : "atto_49_images/imageFile1.png"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 2,
+    "level" : "Doctitle",
+    "page number" : 1,
+    "bounding box" : [ 208.42, 787.103, 421.78, 809.251 ],
+    "heading level" : 1,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 20.0,
+    "text color" : "[0.0]",
+    "content" : "COMUNE DI SELVINO"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 3,
+    "page number" : 1,
+    "bounding box" : [ 258.449, 773.304, 371.753, 786.593 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "(Provincia di Bergamo)"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 4,
+    "page number" : 1,
+    "bounding box" : [ 491.445, 722.202, 524.445, 734.383 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "COPIA"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H2",
+    "id" : 5,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 97.751, 618.712, 469.253, 638.646 ],
+    "heading level" : 2,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 18.0,
+    "text color" : "[0.0]",
+    "content" : "Verbale di deliberazione della Giunta Comunale"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H3",
+    "id" : 6,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 169.9, 602.613, 423.874, 618.117 ],
+    "heading level" : 3,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 14.0,
+    "text color" : "[0.0]",
+    "content" : "DELIBERAZIONE N. 51 DEL 12-06-2026"
+  }, {
+    "type" : "text block",
+    "id" : 7,
+    "page number" : 1,
+    "bounding box" : [ 36.6, 455.873, 530.4, 509.469 ],
+    "kids" : [ {
+      "type" : "heading",
+      "pdfua_tag" : "H5",
+      "id" : 3,
+      "level" : "Subtitle",
+      "page number" : 1,
+      "bounding box" : [ 42.55, 470.022, 524.449, 494.852 ],
+      "heading level" : 5,
+      "font" : "TimesNewRomanPS-BoldMT",
+      "font size" : 11.0,
+      "text color" : "[0.0]",
+      "content" : "OGGETTO:APPROVAZIONE CESSIONE DIRITTI EDIFICATORI VERSO LA DITTA OPERA S.R.L. PER INTERVENTO EDILIZIO IN VIA ELVEZIA"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 8,
+    "page number" : 1,
+    "bounding box" : [ 42.55, 401.827, 524.446, 428.915 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "L'anno duemilaventisei il giorno dodici del mese di giugno alle ore 13:10, nella sede comunale, in seguito a convocazione, si è riunita la Giunta Comunale."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 9,
+    "page number" : 1,
+    "bounding box" : [ 42.55, 374.229, 152.53, 387.518 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Intervengono i signori:"
+  }, {
+    "type" : "table",
+    "pdfua_tag" : "Table",
+    "id" : 10,
+    "level" : "1",
+    "page number" : 1,
+    "bounding box" : [ 38.675, 302.234, 528.325, 346.631 ],
+    "number of rows" : 3,
+    "number of columns" : 3,
+    "rows" : [ {
+      "type" : "table row",
+      "row number" : 1,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 39.425, 331.707, 241.0, 345.881 ],
+        "row number" : 1,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 5,
+          "page number" : 1,
+          "bounding box" : [ 42.55, 332.082, 144.214, 345.371 ],
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "Andrea Santopietro"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 241.0, 331.707, 333.15, 345.881 ],
+        "row number" : 1,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 6,
+          "page number" : 1,
+          "bounding box" : [ 244.5, 332.082, 285.18, 345.371 ],
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "Sindaco"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 333.15, 331.707, 527.575, 345.881 ],
+        "row number" : 1,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 7,
+          "page number" : 1,
+          "bounding box" : [ 336.65, 332.082, 380.63, 345.371 ],
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "Presente"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 2,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 39.425, 317.158, 241.0, 331.707 ],
+        "row number" : 2,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 8,
+          "page number" : 1,
+          "bounding box" : [ 42.55, 317.533, 127.558, 330.822 ],
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "Claudio Ruggeri"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 241.0, 317.158, 333.15, 331.707 ],
+        "row number" : 2,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 9,
+          "page number" : 1,
+          "bounding box" : [ 244.5, 317.533, 293.832, 330.822 ],
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "Assessore"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 333.15, 317.158, 527.575, 331.707 ],
+        "row number" : 2,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 10,
+          "page number" : 1,
+          "bounding box" : [ 336.65, 317.533, 375.974, 330.822 ],
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "Assente"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 3,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 39.425, 302.984, 241.0, 317.158 ],
+        "row number" : 3,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 11,
+          "page number" : 1,
+          "bounding box" : [ 42.55, 302.984, 130.87, 316.273 ],
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "Angelo Bertocchi"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 241.0, 302.984, 333.15, 317.158 ],
+        "row number" : 3,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 12,
+          "page number" : 1,
+          "bounding box" : [ 244.5, 302.984, 293.832, 316.273 ],
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "Assessore"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 333.15, 302.984, 527.575, 317.158 ],
+        "row number" : 3,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 13,
+          "page number" : 1,
+          "bounding box" : [ 336.65, 302.984, 380.63, 316.273 ],
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "Presente"
+        } ]
+      } ]
+    } ]
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H4",
+    "id" : 11,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 42.55, 274.636, 223.534, 287.925 ],
+    "heading level" : 4,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Totale Presenti 2 Assenti 1"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 12,
+    "page number" : 1,
+    "bounding box" : [ 42.55, 233.239, 483.082, 246.528 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Provvede alla redazione del presente verbale il Segretario Comunale Vincenzo De Filippis"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 13,
+    "page number" : 1,
+    "bounding box" : [ 42.55, 178.043, 524.446, 205.131 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Constatato il numero legale degli intervenuti, assume la presidenza il Sig. Dott. Andrea Santopietro nella sua qualità di Sindaco per la trattazione dell’oggetto sopraindicato."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 14,
+    "page number" : 2,
+    "bounding box" : [ 42.55, 757.308, 524.458, 770.597 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "PREMESSO che il signor Matteo Perolari, in qualità di Amministratore Unico della Ditta OPERA"
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 15,
+    "level" : "2",
+    "page number" : 2,
+    "bounding box" : [ 42.55, 688.368, 524.446, 756.809 ],
+    "numbering style" : "english letters",
+    "number of list items" : 1,
+    "next list id" : 41,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 42.55, 688.368, 524.446, 756.809 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "S.R.L., ha presentato il 23/04/2025 al protocollo comunale n. 2602, richiesta di Permesso di Costruire per “Ristrutturazione con demolizione e ricostruzione edificio ad uso residenziale”, riguardante l’immobile situato in via Elvezia n. 21; PREMESSO che:",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 16,
+    "level" : "3",
+    "page number" : 2,
+    "bounding box" : [ 60.55, 463.44, 524.448, 674.588 ],
+    "numbering style" : "unordered",
+    "number of list items" : 5,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 60.55, 632.352, 524.448, 674.588 ],
+      "font" : "SymbolMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : " l’Amministrazione Comunale è dotata di un Piano di Governo del Territorio (PGT) approvato dal Consiglio Comunale con deliberazione n. 19 del 23/4/2024, pubblicato sul BURL n. 37 del 11/09/2024;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 60.55, 590.124, 524.436, 632.36 ],
+      "font" : "SymbolMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : " il PGT prevede il riconoscimento di diritti edificatori e il loro trasferimento dalle aree di cessione alle aree di atterraggio, con la tecnica della perequazione, nonché il trasferimento di diritti edificatori legati alle diverse forme di incentivazione previste dal PGT;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 60.55, 547.896, 524.446, 590.132 ],
+      "font" : "SymbolMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : " l’art. 11, comma 4, della L.R. 12/2005 e s.m.i. stabilisce che i Comuni istituiscano il Registro delle Cessioni dei Diritti Edificatori, aggiornato e reso pubblico secondo le modalità stabilite dagli stessi Comuni;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 60.55, 519.456, 524.448, 547.904 ],
+      "font" : "SymbolMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : " l’art. 14bis della Normativa del Piano delle Regole del PGT dispone in merito al Registro dei Diritti Edificatori;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 60.55, 463.44, 524.436, 519.464 ],
+      "font" : "SymbolMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : " Nelle more della redazione del registro dei diritti edificatori, l’amministrazione comunale ha comunque tutti i riferimenti per poter riconoscere i diritti di cui dispone, ed eventualmente cederli in tutto o in parte secondo le disposizioni del Piano delle Regole ed in particolare del citato art. 14bis;",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 17,
+    "page number" : 2,
+    "bounding box" : [ 42.55, 422.076, 524.446, 449.153 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "RICHIAMATI la Tavola PR1 del Piano delle Regole, la disciplina dettata dalla Normativa del Piano delle Regole, artt. 14, 14bis, 19, del Piano di Governo del Territorio vigente;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 18,
+    "page number" : 2,
+    "bounding box" : [ 42.55, 270.408, 524.446, 407.789 ],
+    "font" : "TimesNewRomanPS-ItalicMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "PRESO ATTO che per le transazioni che coinvolgono l’Amministrazione comunale quale cedente diritti edificatori, il valore di tali diritti è stabilito nella Normativa del Piano delle Regole vigente, secondo quanto descritto dal comma 14 dell’art. 14bis, nel seguente modo: Il valore di riferimento per ogni mq di SL di diritto edificatorio è quantificato in ¼ del costo di costruzione vigente per gli edifici residenziali di cui all’art. 48, commi 1 e 2, l.r. n.12 del 2005, e può essere oggetto di variazione con semplice e motivata delibera di Consiglio Comunale. Il valore di riferimento per ogni mq di area base al netto dei diritti edificatori è stabilito dal valore agricolo del suolo come determinato dalla commissione provinciale espropri. Tali valori costituiscono impegno per l’amministrazione comunale, le transazioni che si svolgono tra privati possono liberamente assumere valori differenti.;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 19,
+    "page number" : 2,
+    "bounding box" : [ 42.55, 229.044, 524.446, 256.121 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "PRESO ATTO dell’impossibilità dell’interessato di procedere tramite reperimento di diritti edificatori privati;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 20,
+    "page number" : 2,
+    "bounding box" : [ 42.55, 173.892, 524.446, 214.757 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "VERIFICATA l’applicabilità dello strumento perequativo con cessione di diritti edificatori da parte del Comune verso il soggetto privato, coerentemente con gli indirizzi della relazione del Documento di Piano del PGT vigente;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 21,
+    "page number" : 2,
+    "bounding box" : [ 42.55, 118.74, 524.446, 159.605 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "RICHIAMATA la Determinazione del Responsabile dell’Area Tecnica N.R.A. 54 del 10/06/2026, N.R.G. 148, recante ad oggetto “Ricognizione dei diritti edificatori di proprietà comunale potenzialmente soggetti a trasferimento”;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 22,
+    "page number" : 2,
+    "bounding box" : [ 42.55, 49.8, 524.446, 104.453 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "INDIVIDUATA, in applicazione della suddetta determina, quale dotazione territoriale idonea alla liberazione dei diritti edificatori, al fine del presente atto, la parte ricompresa all’interno della delimitazione del centro abitato dell’area situata in via G. Manzù n. 3, destinata a servizi di interesse comune e servizi per lo sport, censita al catasto terreni/fabbricati al foglio 907 mappale"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 23,
+    "page number" : 3,
+    "bounding box" : [ 42.55, 757.308, 418.846, 770.597 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "10952, alla quale è attribuita una potenzialità edificatoria di mq 1.793,4 di SL;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 24,
+    "page number" : 3,
+    "bounding box" : [ 42.55, 702.156, 524.446, 743.021 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "PRESO ATTO altresì che la documentazione completa relativa alla richiesta di Permesso di Costruire è depositata, tramite sportello telematico, agli atti dell’Ufficio Tecnico e sarà oggetto di successivo provvedimento di rilascio di Permesso di Costruire;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 25,
+    "page number" : 3,
+    "bounding box" : [ 42.55, 660.792, 524.446, 687.869 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "VISTI i pareri favorevoli espressi dal Responsabile del Settore Tecnico e del Responsabile del Settore Finanziario, ai sensi dell'art. 49, comma 1, del D.lgs. 18 agosto 2000, n. 267;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 26,
+    "page number" : 3,
+    "bounding box" : [ 42.55, 605.64, 262.534, 646.505 ],
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "RICHIAMATO il vigente Statuto comunale; RICHIAMATI:"
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 27,
+    "level" : "4",
+    "page number" : 3,
+    "bounding box" : [ 42.55, 536.7, 347.17, 605.141 ],
+    "numbering style" : "unordered",
+    "number of list items" : 3,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 42.55, 591.852, 178.882, 605.141 ],
+      "font" : "TimesNewRomanPS-BoldMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "- Il D.Lgs 267/2000 e s.m.i.;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 42.55, 578.064, 172.558, 591.353 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "- Il DPR 380/2001 e s.m.i.;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 42.55, 536.7, 347.17, 577.565 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "- La Legge 12/2005 e s.m.i.; CON VOTI favorevoli unanimi espressi nelle forme di legge;",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H4",
+    "id" : 28,
+    "level" : "Subtitle",
+    "page number" : 3,
+    "bounding box" : [ 241.662, 481.548, 325.338, 494.837 ],
+    "heading level" : 4,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "D E L I B E R A"
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 29,
+    "level" : "5",
+    "page number" : 3,
+    "bounding box" : [ 42.55, 205.788, 524.446, 453.473 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 5,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 42.55, 426.396, 524.434, 453.473 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "1. DI APPROVARE le premesse quale parte integrante e sostanziale della presente deliberazione;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 42.55, 329.88, 524.446, 412.109 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "2. DI APPROVARE la cessione, da parte dell’Amministrazione Comunale verso la Ditta OPERA S.R.L., di parte dei diritti edificatori individuati tramite la ricognizione di cui alla Determinazione del Responsabile dell’Area Tecnica N.R.A. 54 del 10/06/2026, in particolare nella quantità di 17,22 mq di SL valorizzati secondo quanto richiamato nel presente atto in 100,94 €/mq, per un totale di 1.738,19 €, già versati nelle casse comunali (rif. reversale n. 2013 del 24/11/2025);",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 42.55, 288.516, 524.434, 315.593 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "3. DI DISPORRE l’annotazione della presente transazione presso il registro dei diritti edificatori, non appena entrato in vigore;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 42.55, 247.152, 524.446, 274.229 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "4. DI TRASMETTERE copia della presente deliberazione per i provvedimenti conseguenti e di competenza, al Responsabile del Settore tecnico Edilizia Privata;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 42.55, 205.788, 524.434, 232.865 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "5. DI DICHIARARE la presente deliberazione immediatamente eseguibile ai sensi dell’art.134, comma 4, del D.Lgs 267/2000;",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H4",
+    "id" : 30,
+    "level" : "Subtitle",
+    "page number" : 4,
+    "bounding box" : [ 176.988, 729.703, 390.012, 742.992 ],
+    "heading level" : 4,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "PARERE DI REGOLARITA’ TECNICA"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 31,
+    "page number" : 4,
+    "bounding box" : [ 42.55, 674.507, 524.446, 715.394 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Il sottoscritto De Filippis Vincenzo in qualità di Responsabile di Settore, esaminata la proposta di deliberazione di cui all’oggetto esprime parere Favorevole per quanto di competenza ed in linea tecnica all’adozione dell’atto di cui sopra."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 32,
+    "page number" : 4,
+    "bounding box" : [ 42.55, 646.909, 438.341, 660.198 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Selvino, lì 12-06-2026 Il Responsabile del Settore"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 33,
+    "page number" : 4,
+    "bounding box" : [ 168.65, 605.512, 437.676, 646.399 ],
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "F.to Vincenzo De Filippis PARERE DI REGOLARITA’ CONTABILE"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 34,
+    "page number" : 4,
+    "bounding box" : [ 42.55, 550.316, 524.446, 591.203 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Il sottoscritto De Filippis Vincenzo in qualità di Responsabile del Settore Finanziario, esprime parere Favorevole in ordine alla regolarità contabile relativa alla proposta di cui all’oggetto ai sensi dell’art. 49 del T.U. D.L.gs. 267/2000"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 35,
+    "page number" : 4,
+    "bounding box" : [ 42.55, 508.919, 438.341, 536.007 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Selvino, lì 12-06-2026 Il Responsabile del Settore F.to Vincenzo De Filippis"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 36,
+    "page number" : 5,
+    "bounding box" : [ 42.55, 757.301, 196.174, 770.59 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Letto, confermato e sottoscritto."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 37,
+    "page number" : 5,
+    "bounding box" : [ 75.586, 715.904, 207.91, 742.992 ],
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "IL Segretario Comunale F.to Vincenzo De Filippis"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 38,
+    "page number" : 5,
+    "bounding box" : [ 328.6, 715.904, 482.248, 742.992 ],
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "IL Sindaco F.to Dott. Andrea Santopietro"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 40,
+    "page number" : 5,
+    "bounding box" : [ 42.55, 603.762, 527.242, 672.247 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "CERTIFICATO DI PUBBLICAZIONE Il sottoscritto Resp. della Pubblicazione attesta che: La presente deliberazione viene pubblicata all’Albo Pretorio per giorni 15 ai sensi dell’art. 124 del"
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 41,
+    "level" : "2",
+    "page number" : 5,
+    "bounding box" : [ 42.55, 589.963, 160.546, 603.252 ],
+    "numbering style" : "english letters",
+    "number of list items" : 1,
+    "previous list id" : 15,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 5,
+      "bounding box" : [ 42.55, 589.963, 160.546, 603.252 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "T.U. D.Lgs. n.267/2000.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 42,
+    "page number" : 5,
+    "bounding box" : [ 42.55, 562.365, 150.874, 575.654 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Selvino, lì 17-06-2026"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 43,
+    "page number" : 5,
+    "bounding box" : [ 315.137, 534.767, 453.761, 561.855 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "IL Resp. della Pubblicazione F.to Miriam Magoni"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H4",
+    "id" : 45,
+    "level" : "Subtitle",
+    "page number" : 5,
+    "bounding box" : [ 191.047, 491.62, 381.751, 504.909 ],
+    "heading level" : 4,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "CERTIFICATO DI ESECUTIVITA’"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 46,
+    "page number" : 5,
+    "bounding box" : [ 42.55, 436.424, 524.446, 477.311 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Visti gli atti d’ufficio si attesta che la presente deliberazione E’ DIVENUTA ESECUTIVA il giorno 12-06-2026, ai sensi dell’art. 134, comma 4, D.Lgs. 18 agosto 2000 n. 267, per dichiarazione di immediata eseguibilità."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 47,
+    "page number" : 5,
+    "bounding box" : [ 42.55, 408.826, 150.874, 422.115 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Selvino, lì 17-06-2026"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 48,
+    "page number" : 5,
+    "bounding box" : [ 320.62, 381.228, 448.276, 408.316 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "IL Segretario Comunale F.to Vincenzo De Filippis"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 50,
+    "page number" : 5,
+    "bounding box" : [ 42.55, 325.832, 498.61, 350.662 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "Copia analogica conforme al documento informatico firmato digitalmente ai sensi del D.Lgs. 82/2005 e rispettive norme collegate."
+  } ]
+}

@@ -1,0 +1,4407 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.10.0",
+  "name": "atto_13",
+  "origin": {
+    "mimetype": "application/pdf",
+    "binary_hash": 10622017711043290158,
+    "filename": "atto_13.pdf"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/pictures/0"
+      },
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/tables/0"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/groups/2"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/groups/3"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/groups/4"
+      },
+      {
+        "$ref": "#/texts/25"
+      },
+      {
+        "$ref": "#/groups/5"
+      },
+      {
+        "$ref": "#/texts/30"
+      },
+      {
+        "$ref": "#/texts/31"
+      },
+      {
+        "$ref": "#/texts/32"
+      },
+      {
+        "$ref": "#/texts/33"
+      },
+      {
+        "$ref": "#/texts/34"
+      },
+      {
+        "$ref": "#/texts/35"
+      },
+      {
+        "$ref": "#/texts/36"
+      },
+      {
+        "$ref": "#/texts/37"
+      },
+      {
+        "$ref": "#/texts/38"
+      },
+      {
+        "$ref": "#/texts/39"
+      },
+      {
+        "$ref": "#/texts/40"
+      },
+      {
+        "$ref": "#/texts/41"
+      },
+      {
+        "$ref": "#/texts/42"
+      },
+      {
+        "$ref": "#/texts/43"
+      },
+      {
+        "$ref": "#/texts/44"
+      },
+      {
+        "$ref": "#/texts/45"
+      },
+      {
+        "$ref": "#/texts/46"
+      },
+      {
+        "$ref": "#/texts/47"
+      },
+      {
+        "$ref": "#/texts/48"
+      },
+      {
+        "$ref": "#/texts/49"
+      },
+      {
+        "$ref": "#/texts/50"
+      },
+      {
+        "$ref": "#/texts/51"
+      },
+      {
+        "$ref": "#/texts/52"
+      },
+      {
+        "$ref": "#/texts/53"
+      },
+      {
+        "$ref": "#/groups/6"
+      },
+      {
+        "$ref": "#/texts/55"
+      },
+      {
+        "$ref": "#/texts/56"
+      },
+      {
+        "$ref": "#/texts/57"
+      },
+      {
+        "$ref": "#/texts/58"
+      },
+      {
+        "$ref": "#/groups/7"
+      },
+      {
+        "$ref": "#/texts/61"
+      },
+      {
+        "$ref": "#/texts/62"
+      },
+      {
+        "$ref": "#/groups/8"
+      },
+      {
+        "$ref": "#/texts/65"
+      },
+      {
+        "$ref": "#/texts/66"
+      },
+      {
+        "$ref": "#/pictures/1"
+      },
+      {
+        "$ref": "#/texts/67"
+      },
+      {
+        "$ref": "#/texts/68"
+      },
+      {
+        "$ref": "#/texts/69"
+      },
+      {
+        "$ref": "#/texts/70"
+      },
+      {
+        "$ref": "#/texts/71"
+      },
+      {
+        "$ref": "#/tables/1"
+      },
+      {
+        "$ref": "#/texts/72"
+      },
+      {
+        "$ref": "#/groups/9"
+      },
+      {
+        "$ref": "#/pictures/2"
+      },
+      {
+        "$ref": "#/texts/75"
+      },
+      {
+        "$ref": "#/texts/76"
+      },
+      {
+        "$ref": "#/groups/10"
+      },
+      {
+        "$ref": "#/groups/11"
+      },
+      {
+        "$ref": "#/texts/79"
+      },
+      {
+        "$ref": "#/texts/80"
+      },
+      {
+        "$ref": "#/tables/2"
+      },
+      {
+        "$ref": "#/texts/81"
+      },
+      {
+        "$ref": "#/groups/12"
+      },
+      {
+        "$ref": "#/texts/84"
+      },
+      {
+        "$ref": "#/pictures/3"
+      },
+      {
+        "$ref": "#/texts/85"
+      },
+      {
+        "$ref": "#/texts/86"
+      },
+      {
+        "$ref": "#/texts/87"
+      },
+      {
+        "$ref": "#/texts/88"
+      },
+      {
+        "$ref": "#/texts/89"
+      },
+      {
+        "$ref": "#/texts/90"
+      },
+      {
+        "$ref": "#/texts/91"
+      },
+      {
+        "$ref": "#/texts/92"
+      },
+      {
+        "$ref": "#/texts/93"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/4"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "key_value_area"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "name": "group",
+      "label": "key_value_area"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/12"
+        },
+        {
+          "$ref": "#/texts/13"
+        },
+        {
+          "$ref": "#/texts/14"
+        },
+        {
+          "$ref": "#/texts/15"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/18"
+        },
+        {
+          "$ref": "#/texts/19"
+        },
+        {
+          "$ref": "#/texts/20"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/22"
+        },
+        {
+          "$ref": "#/texts/23"
+        },
+        {
+          "$ref": "#/texts/24"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/26"
+        },
+        {
+          "$ref": "#/texts/27"
+        },
+        {
+          "$ref": "#/texts/28"
+        },
+        {
+          "$ref": "#/texts/29"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/54"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "key_value_area"
+    },
+    {
+      "self_ref": "#/groups/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/59"
+        },
+        {
+          "$ref": "#/texts/60"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "form_area"
+    },
+    {
+      "self_ref": "#/groups/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/63"
+        },
+        {
+          "$ref": "#/texts/64"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/73"
+        },
+        {
+          "$ref": "#/texts/74"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "key_value_area"
+    },
+    {
+      "self_ref": "#/groups/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/77"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "key_value_area"
+    },
+    {
+      "self_ref": "#/groups/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/78"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "key_value_area"
+    },
+    {
+      "self_ref": "#/groups/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/82"
+        },
+        {
+          "$ref": "#/texts/83"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "key_value_area"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 204.31799698,
+            "t": 695.3370241740625,
+            "r": 390.9899969800001,
+            "b": 677.6250241740626,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            18
+          ]
+        }
+      ],
+      "orig": "COMUNE DI CARINARO",
+      "text": "COMUNE DI CARINARO",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 247.32100296,
+            "t": 663.3100257840625,
+            "r": 347.97700296000005,
+            "b": 650.0260257840625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            20
+          ]
+        }
+      ],
+      "orig": "Provincia di Caserta",
+      "text": "Provincia di Caserta",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 152.0170021,
+            "t": 624.1270256340625,
+            "r": 443.28700209999994,
+            "b": 608.6290256340625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            46
+          ]
+        }
+      ],
+      "orig": "Verbale di Deliberazione della Giunta Comunale",
+      "text": "Verbale di Deliberazione della Giunta Comunale",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 249.17799759,
+            "t": 596.7000180840625,
+            "r": 346.11799758999996,
+            "b": 585.6300180840626,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            20
+          ]
+        }
+      ],
+      "orig": "N. 52 DEL 18-06-2026",
+      "text": "N. 52 DEL 18-06-2026"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 60.20000076,
+            "t": 562.1600240440625,
+            "r": 543.7479977099999,
+            "b": 535.0350256040625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            97
+          ]
+        }
+      ],
+      "orig": "OGGETTO: CONCESSIONE PATROCINIO ECONOMICO E MORALE ALL'ASSOCIAZIONE SPORTIVA BEAUTY FITNESS A.S.D",
+      "text": "OGGETTO: CONCESSIONE PATROCINIO ECONOMICO E MORALE ALL'ASSOCIAZIONE SPORTIVA BEAUTY FITNESS A.S.D",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 511.52203139406254,
+            "r": 504.07200076,
+            "b": 498.23803139406255,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            93
+          ]
+        }
+      ],
+      "orig": "L'anno duemilaventisei addì diciotto del mese di Giugno, alle ore 18:45 nella sala della Casa",
+      "text": "L'anno duemilaventisei addì diciotto del mese di Giugno, alle ore 18:45 nella sala della Casa"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 497.7230325640626,
+            "r": 540.7560007599998,
+            "b": 456.84101010406255,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            188
+          ]
+        }
+      ],
+      "orig": "Comunale, si è riunita la Giunta Comunale convocata nelle forme di legge. Presiede l'adunanza il Sindaco MARIANNA DELL'APROVITOLA e sono rispettivamente presenti e assenti i seguenti Sigg.",
+      "text": "Comunale, si è riunita la Giunta Comunale convocata nelle forme di legge. Presiede l'adunanza il Sindaco MARIANNA DELL'APROVITOLA e sono rispettivamente presenti e assenti i seguenti Sigg."
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 300.2350259740625,
+            "r": 279.68400075999995,
+            "b": 286.95102597406253,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            40
+          ]
+        }
+      ],
+      "orig": "Numero totale PRESENTI:  5-  ASSENTI:  0",
+      "text": "Numero totale PRESENTI:  5-  ASSENTI:  0",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 272.63702163406253,
+            "r": 540.1920007599998,
+            "b": 231.75502301406254,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            228
+          ]
+        }
+      ],
+      "orig": "Con la partecipazione del Segretario Generale SALVATORE CAPOLUONGO, il Presidente, constatato che gli intervenuti sono in numero legale, dichiara aperta la riunione ed invita i convocati a deliberare sull'oggetto sopra indicato.",
+      "text": "Con la partecipazione del Segretario Generale SALVATORE CAPOLUONGO, il Presidente, constatato che gli intervenuti sono in numero legale, dichiara aperta la riunione ed invita i convocati a deliberare sull'oggetto sopra indicato."
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 773.8540237440626,
+            "r": 380.55100075999997,
+            "b": 759.0150237440625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            66
+          ]
+        }
+      ],
+      "orig": "Il Sindaco, di concerto con la Delegata allo Sport Assunta Madonia",
+      "text": "Il Sindaco, di concerto con la Delegata allo Sport Assunta Madonia",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 734.1740234340625,
+            "r": 144.72200076000001,
+            "b": 719.3350234340625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            12
+          ]
+        }
+      ],
+      "orig": "PREMESSO CHE",
+      "text": "PREMESSO CHE",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 714.3340270940625,
+            "r": 541.3600007599999,
+            "b": 625.2950263340625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            528
+          ]
+        }
+      ],
+      "orig": "con nota acquisita al protocollo dell'Ente in data 16/06/2026 al n. 6783, il sig. Luigi Zampella, in qualità di legale rappresentante dell'Associazione Sportiva Beauty Fitness A.S.D., con sede in Aversa (CE), Viale della Libertà SNC, ha richiesto la concessione del patrocinio morale, di un contributo economico  a  sostegno  delle  spese  organizzative,  promozionali,  assicurative  e  logistiche,  nonché l'utilizzo  gratuito  di  suolo  pubblico  in  Via  Trieste  per  lo  svolgimento  delle  seguenti  iniziative sportive:",
+      "text": "con nota acquisita al protocollo dell'Ente in data 16/06/2026 al n. 6783, il sig. Luigi Zampella, in qualità di legale rappresentante dell'Associazione Sportiva Beauty Fitness A.S.D., con sede in Aversa (CE), Viale della Libertà SNC, ha richiesto la concessione del patrocinio morale, di un contributo economico  a  sostegno  delle  spese  organizzative,  promozionali,  assicurative  e  logistiche,  nonché l'utilizzo  gratuito  di  suolo  pubblico  in  Via  Trieste  per  lo  svolgimento  delle  seguenti  iniziative sportive:"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 74.70000076,
+            "t": 620.2940185540625,
+            "r": 512.2510007600001,
+            "b": 605.4550185540625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            92
+          ]
+        }
+      ],
+      "orig": " Corso di Kick Boxing, previsto per il giorno 6 luglio 2026 dalle ore 19:00 alle ore 20:00;",
+      "text": " Corso di Kick Boxing, previsto per il giorno 6 luglio 2026 dalle ore 19:00 alle ore 20:00;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 74.70000076,
+            "t": 600.4540222140625,
+            "r": 485.2570007600001,
+            "b": 585.6150222140625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            88
+          ]
+        }
+      ],
+      "orig": " Corso di Pilates, previsto per il giorno 8 luglio 2026 dalle ore 19:00 alle ore 20:00;",
+      "text": " Corso di Pilates, previsto per il giorno 8 luglio 2026 dalle ore 19:00 alle ore 20:00;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 74.70000076,
+            "t": 580.6140258740626,
+            "r": 541.34600076,
+            "b": 550.9350257240626,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            101
+          ]
+        }
+      ],
+      "orig": " Corso di Functional Training, previsto per il giorno 13 luglio 2026 dalle ore 19:00 alle ore 20:00;",
+      "text": " Corso di Functional Training, previsto per il giorno 13 luglio 2026 dalle ore 19:00 alle ore 20:00;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 74.70000076,
+            "t": 545.9340179440626,
+            "r": 541.3460007600003,
+            "b": 516.2550177940626,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            104
+          ]
+        }
+      ],
+      "orig": " Dimostrazione e Allenamento MMA, previsto per il giorno 14 luglio 2026 dalle ore 20:00 alle ore 22:00;",
+      "text": " Dimostrazione e Allenamento MMA, previsto per il giorno 14 luglio 2026 dalle ore 20:00 alle ore 22:00;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 511.25402526406253,
+            "r": 541.3490007600005,
+            "b": 481.5750251140625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            196
+          ]
+        }
+      ],
+      "orig": "le iniziative proposte sono rivolte alla cittadinanza e sono finalizzate alla promozione della pratica sportiva, del benessere psicofisico, dell'inclusione sociale e dell'aggregazione comunitaria;",
+      "text": "le iniziative proposte sono rivolte alla cittadinanza e sono finalizzate alla promozione della pratica sportiva, del benessere psicofisico, dell'inclusione sociale e dell'aggregazione comunitaria;"
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 476.57403259406254,
+            "r": 169.20800076,
+            "b": 461.73503259406255,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            15
+          ]
+        }
+      ],
+      "orig": "CONSIDERATO CHE",
+      "text": "CONSIDERATO CHE",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 74.70000076,
+            "t": 456.7340362540626,
+            "r": 541.3460007600003,
+            "b": 427.05503610406254,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            141
+          ]
+        }
+      ],
+      "orig": " le attività proposte perseguono finalità sportive, educative, sociali e aggregative, favorendo la partecipazione attiva della cittadinanza;",
+      "text": " le attività proposte perseguono finalità sportive, educative, sociali e aggregative, favorendo la partecipazione attiva della cittadinanza;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 74.70000076,
+            "t": 422.05401306406253,
+            "r": 541.3460007600003,
+            "b": 392.3750129140625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            157
+          ]
+        }
+      ],
+      "orig": " l'iniziativa mira a promuovere corretti stili di vita e la pratica sportiva quale strumento di inclusione sociale e di rafforzamento del senso di comunità;",
+      "text": " l'iniziativa mira a promuovere corretti stili di vita e la pratica sportiva quale strumento di inclusione sociale e di rafforzamento del senso di comunità;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 74.70000076,
+            "t": 387.37402038406253,
+            "r": 541.3570007600003,
+            "b": 357.6950202340625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            111
+          ]
+        }
+      ],
+      "orig": " le iniziative risultano coerenti con gli indirizzi e le finalità istituzionali dell'Amministrazione comunale;",
+      "text": " le iniziative risultano coerenti con gli indirizzi e le finalità istituzionali dell'Amministrazione comunale;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 352.69402770406253,
+            "r": 117.05700076,
+            "b": 337.85502770406254,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "RITENUTO",
+      "text": "RITENUTO",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 74.70000076,
+            "t": 332.8540313740626,
+            "r": 541.3460007599999,
+            "b": 303.17503122406254,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            149
+          ]
+        }
+      ],
+      "orig": " di accogliere favorevolmente la richiesta dell'Associazione Sportiva Beauty Fitness A.S.D., concedendo il patrocinio morale del Comune di Carinaro;",
+      "text": " di accogliere favorevolmente la richiesta dell'Associazione Sportiva Beauty Fitness A.S.D., concedendo il patrocinio morale del Comune di Carinaro;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 74.70000076,
+            "t": 298.1740081740626,
+            "r": 541.3460007600002,
+            "b": 253.65500787406256,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            221
+          ]
+        }
+      ],
+      "orig": " di concedere un contributo economico straordinario nella misura massima di € 800,00 quale compartecipazione alle spese organizzative, promozionali, assicurative e logistiche necessarie allo svolgimento delle iniziative;",
+      "text": " di concedere un contributo economico straordinario nella misura massima di € 800,00 quale compartecipazione alle spese organizzative, promozionali, assicurative e logistiche necessarie allo svolgimento delle iniziative;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 74.70000076,
+            "t": 248.65404968406256,
+            "r": 541.3460007600004,
+            "b": 218.97504953406246,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            112
+          ]
+        }
+      ],
+      "orig": " di concedere l'occupazione gratuita del suolo pubblico in Via Trieste nelle date e negli orari sopra indicati;",
+      "text": " di concedere l'occupazione gratuita del suolo pubblico in Via Trieste nelle date e negli orari sopra indicati;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 213.97399597406252,
+            "r": 87.87400076,
+            "b": 199.13499597406246,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "VISTI",
+      "text": "VISTI",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 74.70000076,
+            "t": 194.13403015406254,
+            "r": 493.83700076000014,
+            "b": 179.2950301540625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            91
+          ]
+        }
+      ],
+      "orig": " il D.Lgs. 18 agosto 2000, n. 267 e, in particolare, gli artt. 48, 49, 107 e 134, comma 4;",
+      "text": " il D.Lgs. 18 agosto 2000, n. 267 e, in particolare, gli artt. 48, 49, 107 e 134, comma 4;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 74.70000076,
+            "t": 174.29400329406258,
+            "r": 294.03300076,
+            "b": 159.45500329406252,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            46
+          ]
+        }
+      ],
+      "orig": " l'art. 12 della Legge 7 agosto 1990, n. 241;",
+      "text": " l'art. 12 della Legge 7 agosto 1990, n. 241;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 74.70000076,
+            "t": 154.4540374740626,
+            "r": 195.18700076,
+            "b": 139.61503747406255,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            22
+          ]
+        }
+      ],
+      "orig": " lo Statuto comunale;",
+      "text": " lo Statuto comunale;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 74.70000076,
+            "t": 134.61401061406252,
+            "r": 541.3570007600002,
+            "b": 90.0950103140625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            240
+          ]
+        }
+      ],
+      "orig": " il Regolamento comunale per la concessione di contributi in favore di associazioni per finalità di  promozione  di  attività  culturali,  sportive  e  ricreative,  approvato  con  deliberazione  di Consiglio Comunale n. 27 del 30.06.2015;",
+      "text": " il Regolamento comunale per la concessione di contributi in favore di associazioni per finalità di  promozione  di  attività  culturali,  sportive  e  ricreative,  approvato  con  deliberazione  di Consiglio Comunale n. 27 del 30.06.2015;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 217.7899971,
+            "t": 85.09405212406261,
+            "r": 377.50999709999996,
+            "b": 70.25505212406256,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            24
+          ]
+        }
+      ],
+      "orig": "SI PROPONE DI DELIBERARE",
+      "text": "SI PROPONE DI DELIBERARE",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 806.4520233140626,
+            "r": 518.6340007600002,
+            "b": 791.6130233140625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            89
+          ]
+        }
+      ],
+      "orig": "DI APPROVARE le premesse quali parte integrante e sostanziale del presente provvedimento.",
+      "text": "DI APPROVARE le premesse quali parte integrante e sostanziale del presente provvedimento."
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 786.6120231640625,
+            "r": 541.3490007600001,
+            "b": 756.9330230140625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            171
+          ]
+        }
+      ],
+      "orig": "DI CONCEDERE all'Associazione Sportiva Beauty Fitness A.S.D. il patrocinio morale del Comune di Carinaro per lo svolgimento delle iniziative sportive indicate in premessa.",
+      "text": "DI CONCEDERE all'Associazione Sportiva Beauty Fitness A.S.D. il patrocinio morale del Comune di Carinaro per lo svolgimento delle iniziative sportive indicate in premessa."
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 751.9320228540626,
+            "r": 541.3600007599999,
+            "b": 707.4130225540625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            253
+          ]
+        }
+      ],
+      "orig": "DI  CONCEDERE all'Associazione Sportiva Beauty  Fitness A.S.D., ai sensi dell'art. 7 del Regolamento comunale approvato con deliberazione di Consiglio Comunale n. 27 del 30.06.2015, un contributo economico straordinario nella misura massima di € 800,00.",
+      "text": "DI  CONCEDERE all'Associazione Sportiva Beauty  Fitness A.S.D., ai sensi dell'art. 7 del Regolamento comunale approvato con deliberazione di Consiglio Comunale n. 27 del 30.06.2015, un contributo economico straordinario nella misura massima di € 800,00."
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 702.4120223940625,
+            "r": 541.3490007600001,
+            "b": 657.8930220940625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            208
+          ]
+        }
+      ],
+      "orig": "DI DARE ATTO che  il  contributo economico trova copertura sul capitolo 1880.1 del Bilancio di previsione vigente, denominato \"Spettacoli e/o manifestazioni culturali - contributi ad associazioni promotrici\".",
+      "text": "DI DARE ATTO che  il  contributo economico trova copertura sul capitolo 1880.1 del Bilancio di previsione vigente, denominato \"Spettacoli e/o manifestazioni culturali - contributi ad associazioni promotrici\"."
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 652.8920257540625,
+            "r": 541.3380007600001,
+            "b": 623.2130256040625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            176
+          ]
+        }
+      ],
+      "orig": "DI  DEMANDARE al  Responsabile  dell'Area  Affari  Generali  l'adozione  degli  atti  gestionali conseguenti relativi all'impegno e alla successiva liquidazione del contributo.",
+      "text": "DI  DEMANDARE al  Responsabile  dell'Area  Affari  Generali  l'adozione  degli  atti  gestionali conseguenti relativi all'impegno e alla successiva liquidazione del contributo."
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 618.2120178240626,
+            "r": 541.3490007600004,
+            "b": 573.6930175240626,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            287
+          ]
+        }
+      ],
+      "orig": "DI CONCEDERE l'occupazione gratuita del suolo pubblico in Via Trieste per le giornate del 6, 8 e 13  luglio  2026,  dalle  ore  19:00  alle  ore  20:00,  e  del  14  luglio  2026,  dalle  ore  20:00  alle  ore  22:00, limitatamente allo svolgimento delle iniziative indicate in premessa.",
+      "text": "DI CONCEDERE l'occupazione gratuita del suolo pubblico in Via Trieste per le giornate del 6, 8 e 13  luglio  2026,  dalle  ore  19:00  alle  ore  20:00,  e  del  14  luglio  2026,  dalle  ore  20:00  alle  ore  22:00, limitatamente allo svolgimento delle iniziative indicate in premessa."
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 568.6920288040625,
+            "r": 541.3490007600004,
+            "b": 509.33302835406244,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            331
+          ]
+        }
+      ],
+      "orig": "DI DARE ATTO che  il  rilascio  delle  autorizzazioni  inerenti  all'occupazione  del  suolo  pubblico, nonché  l'eventuale  adozione  di  provvedimenti  relativi  alla  viabilità,  alla  sicurezza  e  all'utilizzo dell'area,  restano  demandati  ai  competenti  uffici  comunali,  ciascuno  per  quanto  di  rispettiva competenza.",
+      "text": "DI DARE ATTO che  il  rilascio  delle  autorizzazioni  inerenti  all'occupazione  del  suolo  pubblico, nonché  l'eventuale  adozione  di  provvedimenti  relativi  alla  viabilità,  alla  sicurezza  e  all'utilizzo dell'area,  restano  demandati  ai  competenti  uffici  comunali,  ciascuno  per  quanto  di  rispettiva competenza."
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 504.33202819406256,
+            "r": 541.36000076,
+            "b": 459.81302789406254,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            227
+          ]
+        }
+      ],
+      "orig": "DI PRECISARE che la liquidazione del contributo concesso avverrà previa presentazione di idonea rendicontazione, corredata dalla documentazione giustificativa delle spese effettivamente sostenute dall'Associazione beneficiaria.",
+      "text": "DI PRECISARE che la liquidazione del contributo concesso avverrà previa presentazione di idonea rendicontazione, corredata dalla documentazione giustificativa delle spese effettivamente sostenute dall'Associazione beneficiaria."
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 454.81200866406255,
+            "r": 541.3490007600003,
+            "b": 395.4530082140625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            382
+          ]
+        }
+      ],
+      "orig": "DI DARE ATTO che l'organizzazione e lo svolgimento delle iniziative avverranno sotto l'esclusiva responsabilità dell'Associazione organizzatrice, la quale dovrà adottare tutte le misure necessarie a garantire il corretto svolgimento delle attività nel rispetto della normativa vigente, assumendo ogni responsabilità civile, penale, amministrativa e patrimoniale connessa all'evento.",
+      "text": "DI DARE ATTO che l'organizzazione e lo svolgimento delle iniziative avverranno sotto l'esclusiva responsabilità dell'Associazione organizzatrice, la quale dovrà adottare tutte le misure necessarie a garantire il corretto svolgimento delle attività nel rispetto della normativa vigente, assumendo ogni responsabilità civile, penale, amministrativa e patrimoniale connessa all'evento."
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 390.45202331406256,
+            "r": 541.3490007600004,
+            "b": 331.0930228640625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            304
+          ]
+        }
+      ],
+      "orig": "DI  DARE  ATTO che la concessione del patrocinio morale, del contributo  economico  e dell'occupazione  gratuita  del  suolo  pubblico  non  esonera  l'Associazione  dall'acquisizione  di eventuali  autorizzazioni,  nulla  osta,  comunicazioni  o  titoli  abilitativi  previsti  dalla  normativa vigente.",
+      "text": "DI  DARE  ATTO che la concessione del patrocinio morale, del contributo  economico  e dell'occupazione  gratuita  del  suolo  pubblico  non  esonera  l'Associazione  dall'acquisizione  di eventuali  autorizzazioni,  nulla  osta,  comunicazioni  o  titoli  abilitativi  previsti  dalla  normativa vigente."
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 326.09203796406257,
+            "r": 541.3600007600003,
+            "b": 281.57303766406255,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            216
+          ]
+        }
+      ],
+      "orig": "DI DEMANDARE al  Responsabile dell'Area Tecnica e al Comandante della Polizia Municipale, ciascuno per quanto di rispettiva competenza, l'adozione degli atti e degli adempimenti conseguenti al presente provvedimento.",
+      "text": "DI DEMANDARE al  Responsabile dell'Area Tecnica e al Comandante della Polizia Municipale, ciascuno per quanto di rispettiva competenza, l'adozione degli atti e degli adempimenti conseguenti al presente provvedimento."
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 276.57201843406256,
+            "r": 541.3490007600002,
+            "b": 246.89301828406246,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            131
+          ]
+        }
+      ],
+      "orig": "DI  DICHIARARE la  presente  deliberazione  immediatamente  eseguibile  ai  sensi  dell'art.  134, comma 4, del D.Lgs. n. 267/2000.",
+      "text": "DI  DICHIARARE la  presente  deliberazione  immediatamente  eseguibile  ai  sensi  dell'art.  134, comma 4, del D.Lgs. n. 267/2000."
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 229.90399551,
+            "t": 766.7720230040626,
+            "r": 365.39099551,
+            "b": 751.9330230040625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            18
+          ]
+        }
+      ],
+      "orig": "LA GIUNTA COMUNALE",
+      "text": "LA GIUNTA COMUNALE",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 746.9320228540626,
+            "r": 298.56800075999996,
+            "b": 732.0930228540625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            51
+          ]
+        }
+      ],
+      "orig": "Vista la proposta di deliberazione sopra riportata;",
+      "text": "Vista la proposta di deliberazione sopra riportata;"
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 727.0920227040625,
+            "r": 541.3600007600003,
+            "b": 697.4130225540625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            118
+          ]
+        }
+      ],
+      "orig": "Acquisiti i pareri favorevoli di regolarità tecnica e contabile espressi ai sensi dell'art. 49 del D.Lgs. n. 267/2000;",
+      "text": "Acquisiti i pareri favorevoli di regolarità tecnica e contabile espressi ai sensi dell'art. 49 del D.Lgs. n. 267/2000;"
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 692.4120223940625,
+            "r": 348.24400076,
+            "b": 677.5730223940625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            57
+          ]
+        }
+      ],
+      "orig": "Ritenuto di approvare integralmente la proposta medesima;",
+      "text": "Ritenuto di approvare integralmente la proposta medesima;"
+    },
+    {
+      "self_ref": "#/texts/47",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 672.5720184340626,
+            "r": 386.81000076000015,
+            "b": 657.7330184340625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            66
+          ]
+        }
+      ],
+      "orig": "Con votazione unanime favorevole resa nei modi e termini di legge;",
+      "text": "Con votazione unanime favorevole resa nei modi e termini di legge;"
+    },
+    {
+      "self_ref": "#/texts/48",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 269.10199356,
+            "t": 632.8920257540625,
+            "r": 328.94199355999996,
+            "b": 618.0530257540624,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "DELIBERA",
+      "text": "DELIBERA",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/49",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 594.2530181840626,
+            "r": 541.3380007600001,
+            "b": 564.5740180340626,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            142
+          ]
+        }
+      ],
+      "orig": "Di  approvare  integralmente  la  proposta  di  deliberazione  sopra  riportata,  che  qui  si  intende integralmente richiamata e trascritta.",
+      "text": "Di  approvare  integralmente  la  proposta  di  deliberazione  sopra  riportata,  che  qui  si  intende integralmente richiamata e trascritta."
+    },
+    {
+      "self_ref": "#/texts/50",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 559.5730255140626,
+            "r": 541.3490007600002,
+            "b": 529.8940253640626,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            179
+          ]
+        }
+      ],
+      "orig": "Di  dichiarare  la  presente  deliberazione  immediatamente  eseguibile,  con  separata  ed  unanime votazione favorevole, ai sensi dell'art. 134, comma 4, del D.Lgs. n. 267/2000.",
+      "text": "Di  dichiarare  la  presente  deliberazione  immediatamente  eseguibile,  con  separata  ed  unanime votazione favorevole, ai sensi dell'art. 134, comma 4, del D.Lgs. n. 267/2000."
+    },
+    {
+      "self_ref": "#/texts/51",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 371.20500564,
+            "t": 779.5330232440625,
+            "r": 535.8530056400001,
+            "b": 767.3560232440625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            34
+          ]
+        }
+      ],
+      "orig": "Deliberazione n. 52 DEL 18-06-2026",
+      "text": "Deliberazione n. 52 DEL 18-06-2026"
+    },
+    {
+      "self_ref": "#/texts/52",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 742.4770265540625,
+            "r": 203.27200076,
+            "b": 729.1930265540625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            33
+          ]
+        }
+      ],
+      "orig": "Letto, confermato e sottoscritto.",
+      "text": "Letto, confermato e sottoscritto."
+    },
+    {
+      "self_ref": "#/texts/53",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 95.19500208,
+            "t": 706.8300233740625,
+            "r": 261.7980020800001,
+            "b": 680.8970232040625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            35
+          ]
+        }
+      ],
+      "orig": "Il Sindaco MARIANNA DELL'APROVITOLA",
+      "text": "Il Sindaco MARIANNA DELL'APROVITOLA"
+    },
+    {
+      "self_ref": "#/texts/54",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 339.47400522,
+            "t": 706.8300233740625,
+            "r": 499.4700052199999,
+            "b": 679.9640235940625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            34
+          ]
+        }
+      ],
+      "orig": "Il Segretario SALVATORE CAPOLUONGO",
+      "text": "Il Segretario SALVATORE CAPOLUONGO"
+    },
+    {
+      "self_ref": "#/texts/55",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 196.67300796,
+            "t": 609.8530250440625,
+            "r": 401.38100796000003,
+            "b": 596.5690250440625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            28
+          ]
+        }
+      ],
+      "orig": "CERTIFICATO DI PUBBLICAZIONE",
+      "text": "CERTIFICATO DI PUBBLICAZIONE",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/56",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 219.99300003,
+            "t": 582.2550264240625,
+            "r": 378.30900002999994,
+            "b": 568.9710264240625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            22
+          ]
+        }
+      ],
+      "orig": "IL SEGRETARIO GENERALE",
+      "text": "IL SEGRETARIO GENERALE",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/57",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 270.98700332,
+            "t": 540.8580194340625,
+            "r": 327.31500331999996,
+            "b": 527.5740194340625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            7
+          ]
+        }
+      ],
+      "orig": "ATTESTA",
+      "text": "ATTESTA",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/58",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 527.0590187040625,
+            "r": 541.1900007599999,
+            "b": 472.37802030406255,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            273
+          ]
+        }
+      ],
+      "orig": "Che la presente deliberazione è stata affissa all' albo pretorio del sito web dell' ente http://www.comune.carinaro.ce.it conforme all'originale in data 00-00-0000e resterà affissa per n. 15 giorni consecutivi ai sensi dell'art. 124, comma 1, del Dlgs 18 agosto 2000 n. 267",
+      "text": "Che la presente deliberazione è stata affissa all' albo pretorio del sito web dell' ente http://www.comune.carinaro.ce.it conforme all'originale in data 00-00-0000e resterà affissa per n. 15 giorni consecutivi ai sensi dell'art. 124, comma 1, del Dlgs 18 agosto 2000 n. 267"
+    },
+    {
+      "self_ref": "#/texts/59",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 219.14900588999998,
+            "t": 444.26503619406253,
+            "r": 379.1450058899998,
+            "b": 417.18203641406257,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            43
+          ]
+        }
+      ],
+      "orig": "Il Segretario Generale SALVATORE CAPOLUONGO",
+      "text": "Il Segretario Generale SALVATORE CAPOLUONGO"
+    },
+    {
+      "self_ref": "#/texts/60",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 57.650000750000004,
+            "t": 402.86802920406257,
+            "r": 537.65000075,
+            "b": 389.5840292040626,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            80
+          ]
+        }
+      ],
+      "orig": "********************************************************************************",
+      "text": "********************************************************************************"
+    },
+    {
+      "self_ref": "#/texts/61",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 102.65000152,
+            "t": 389.06903323406254,
+            "r": 495.65000152,
+            "b": 375.78503323406255,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            65
+          ]
+        }
+      ],
+      "orig": "*****************************************************************",
+      "text": "*****************************************************************"
+    },
+    {
+      "self_ref": "#/texts/62",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 202.62799453,
+            "t": 361.4710336640626,
+            "r": 392.67199453,
+            "b": 348.18703366406254,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            27
+          ]
+        }
+      ],
+      "orig": "CERTIFICATO DI ESECUTIVITA'",
+      "text": "CERTIFICATO DI ESECUTIVITA'",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/63",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 320.11603296406247,
+            "r": 503.87200076000005,
+            "b": 295.07403279406253,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            122
+          ]
+        }
+      ],
+      "orig": "[ X ] Deliberazione dichiarata immediatamente eseguibile ai sensi dell' art. 134, comma 4, del D.Lgs. 267/2000 e.ss.mm.ii.",
+      "text": "[ X ] Deliberazione dichiarata immediatamente eseguibile ai sensi dell' art. 134, comma 4, del D.Lgs. 267/2000 e.ss.mm.ii.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/64",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 282.1690114740625,
+            "r": 508.75600076,
+            "b": 257.12701130406253,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            162
+          ]
+        }
+      ],
+      "orig": "[ ]Deliberazione esecutiva  ad ogni effetto di legge decorso il decimo giorno di pubblicazione, ai sensi dell'art. 134, comma 3, del D.Lgs n. 267/2000 e.ss.mm.ii.",
+      "text": "[ ]Deliberazione esecutiva  ad ogni effetto di legge decorso il decimo giorno di pubblicazione, ai sensi dell'art. 134, comma 3, del D.Lgs n. 267/2000 e.ss.mm.ii.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/65",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 337.84899378,
+            "t": 233.61402758406257,
+            "r": 497.84499377999987,
+            "b": 206.74802780406253,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            34
+          ]
+        }
+      ],
+      "orig": "Il Segretario SALVATORE CAPOLUONGO",
+      "text": "Il Segretario SALVATORE CAPOLUONGO"
+    },
+    {
+      "self_ref": "#/texts/66",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 162.01999489406262,
+            "r": 490.6000007599997,
+            "b": 150.94999489406257,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            107
+          ]
+        }
+      ],
+      "orig": "Documento informatico sottoscritto con firma digitale ai sensi dell'art.24 del D.Lgs. n.82/2005 e ss.mm.ii.",
+      "text": "Documento informatico sottoscritto con firma digitale ai sensi dell'art.24 del D.Lgs. n.82/2005 e ss.mm.ii."
+    },
+    {
+      "self_ref": "#/texts/67",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 204.31799698,
+            "t": 659.9370264640626,
+            "r": 390.9899969800001,
+            "b": 642.2250264640626,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            18
+          ]
+        }
+      ],
+      "orig": "COMUNE DI CARINARO",
+      "text": "COMUNE DI CARINARO",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/68",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 220.80699539,
+            "t": 627.9100280740626,
+            "r": 374.4909953900001,
+            "b": 614.6260280740626,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            27
+          ]
+        }
+      ],
+      "orig": "Proposta di Giunta Comunale",
+      "text": "Proposta di Giunta Comunale",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/69",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 435.79698562000004,
+            "t": 600.3120208740626,
+            "r": 541.60000979,
+            "b": 573.2290220440626,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            35
+          ]
+        }
+      ],
+      "orig": "Affari Generali Proposta n° 52/2026",
+      "text": "Affari Generali Proposta n° 52/2026"
+    },
+    {
+      "self_ref": "#/texts/70",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 545.1160217240625,
+            "r": 445.41600076,
+            "b": 504.23402310406254,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            97
+          ]
+        }
+      ],
+      "orig": "OGGETTO: CONCESSIONE PATROCINIO ECONOMICO E MORALE ALL'ASSOCIAZIONE SPORTIVA BEAUTY FITNESS A.S.D",
+      "text": "OGGETTO: CONCESSIONE PATROCINIO ECONOMICO E MORALE ALL'ASSOCIAZIONE SPORTIVA BEAUTY FITNESS A.S.D",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/71",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 434.72402343406253,
+            "r": 366.97200076000007,
+            "b": 407.6410246040626,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            95
+          ]
+        }
+      ],
+      "orig": "PARERE DI REGOLARITA' TECNICA (Articolo 147 bis del decreto legislativo 18 agosto 2000, n. 267)",
+      "text": "PARERE DI REGOLARITA' TECNICA (Articolo 147 bis del decreto legislativo 18 agosto 2000, n. 267)"
+    },
+    {
+      "self_ref": "#/texts/72",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 59.70000076,
+            "t": 200.48604735406252,
+            "r": 176.34000075999998,
+            "b": 187.20204735406253,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            23
+          ]
+        }
+      ],
+      "orig": "Carinaro, lì 18-06-2026",
+      "text": "Carinaro, lì 18-06-2026"
+    },
+    {
+      "self_ref": "#/texts/73",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 380.96500015000004,
+            "t": 186.6870475640626,
+            "r": 458.28100015000007,
+            "b": 173.4030475640625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            15
+          ]
+        }
+      ],
+      "orig": "Il Responsabile",
+      "text": "Il Responsabile"
+    },
+    {
+      "self_ref": "#/texts/74",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 362.45199585000006,
+            "t": 153.2040484940626,
+            "r": 473.79999585,
+            "b": 139.8000484940626,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            15
+          ]
+        }
+      ],
+      "orig": "PICONE VINCENZO",
+      "text": "PICONE VINCENZO"
+    },
+    {
+      "self_ref": "#/texts/75",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 204.31799698,
+            "t": 659.9370264640626,
+            "r": 390.9899969800001,
+            "b": 642.2250264640626,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            18
+          ]
+        }
+      ],
+      "orig": "COMUNE DI CARINARO",
+      "text": "COMUNE DI CARINARO",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/76",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 220.80699539,
+            "t": 627.9100280740626,
+            "r": 374.4909953900001,
+            "b": 614.6260280740626,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            27
+          ]
+        }
+      ],
+      "orig": "Proposta di Giunta Comunale",
+      "text": "Proposta di Giunta Comunale",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/77",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 435.79698562000004,
+            "t": 600.3120208740626,
+            "r": 541.60000979,
+            "b": 573.2290220440626,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            35
+          ]
+        }
+      ],
+      "orig": "Affari Generali Proposta n° 52/2026",
+      "text": "Affari Generali Proposta n° 52/2026"
+    },
+    {
+      "self_ref": "#/texts/78",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 545.1160217240625,
+            "r": 445.41600076,
+            "b": 504.23402310406254,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            97
+          ]
+        }
+      ],
+      "orig": "OGGETTO: CONCESSIONE PATROCINIO ECONOMICO E MORALE ALL'ASSOCIAZIONE SPORTIVA BEAUTY FITNESS A.S.D",
+      "text": "OGGETTO: CONCESSIONE PATROCINIO ECONOMICO E MORALE ALL'ASSOCIAZIONE SPORTIVA BEAUTY FITNESS A.S.D",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/79",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 434.72402343406253,
+            "r": 276.0120007599999,
+            "b": 421.44002343406254,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            31
+          ]
+        }
+      ],
+      "orig": "PARERE DI REGOLARITA' CONTABILE",
+      "text": "PARERE DI REGOLARITA' CONTABILE",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/80",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 420.92502460406257,
+            "r": 366.97200076000007,
+            "b": 407.6410246040626,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            65
+          ]
+        }
+      ],
+      "orig": "(Articolo 147 bis del decreto legislativo 18 agosto 2000, n. 267)",
+      "text": "(Articolo 147 bis del decreto legislativo 18 agosto 2000, n. 267)"
+    },
+    {
+      "self_ref": "#/texts/81",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 59.70000076,
+            "t": 200.48604735406252,
+            "r": 176.34000075999998,
+            "b": 187.20204735406253,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            23
+          ]
+        }
+      ],
+      "orig": "Carinaro, lì 18-06-2026",
+      "text": "Carinaro, lì 18-06-2026"
+    },
+    {
+      "self_ref": "#/texts/82",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 380.96500015000004,
+            "t": 186.6870475640626,
+            "r": 458.28100015000007,
+            "b": 173.4030475640625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            15
+          ]
+        }
+      ],
+      "orig": "Il Responsabile",
+      "text": "Il Responsabile"
+    },
+    {
+      "self_ref": "#/texts/83",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 352.44699860000003,
+            "t": 153.2040484940626,
+            "r": 483.7989986,
+            "b": 139.8000484940626,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            17
+          ]
+        }
+      ],
+      "orig": "FATTORE SALVATORE",
+      "text": "FATTORE SALVATORE"
+    },
+    {
+      "self_ref": "#/texts/84",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 449.02000808,
+            "t": 778.5889983999999,
+            "r": 515.70400808,
+            "b": 765.3049983999999,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            9
+          ]
+        }
+      ],
+      "orig": "ORIGINALE",
+      "text": "ORIGINALE"
+    },
+    {
+      "self_ref": "#/texts/85",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 204.34300613,
+            "t": 640.3889994199999,
+            "r": 391.01500613000013,
+            "b": 622.6769994199999,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            18
+          ]
+        }
+      ],
+      "orig": "COMUNE DI CARINARO",
+      "text": "COMUNE DI CARINARO",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/86",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 247.34599685,
+            "t": 608.3619934,
+            "r": 348.00199685000007,
+            "b": 595.0779934,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            20
+          ]
+        }
+      ],
+      "orig": "Provincia di Caserta",
+      "text": "Provincia di Caserta"
+    },
+    {
+      "self_ref": "#/texts/87",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 117.99100113,
+            "t": 585.3639923,
+            "r": 477.35500112999995,
+            "b": 572.0799923,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            53
+          ]
+        }
+      ],
+      "orig": "DELIBERAZIONE DI GIUNTA COMUNALE N. 52 DEL 18-06-2026",
+      "text": "DELIBERAZIONE DI GIUNTA COMUNALE N. 52 DEL 18-06-2026",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/88",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 557.7660003499999,
+            "r": 445.41600076,
+            "b": 530.68300152,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            97
+          ]
+        }
+      ],
+      "orig": "OGGETTO: CONCESSIONE PATROCINIO ECONOMICO E MORALE ALL'ASSOCIAZIONE SPORTIVA BEAUTY FITNESS A.S.D",
+      "text": "OGGETTO: CONCESSIONE PATROCINIO ECONOMICO E MORALE ALL'ASSOCIAZIONE SPORTIVA BEAUTY FITNESS A.S.D",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/89",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 153.32300186,
+            "t": 488.7710052399999,
+            "r": 445.03100186000006,
+            "b": 475.4870052399999,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            55
+          ]
+        }
+      ],
+      "orig": "C E R T I F I C A T O   D I   P U B B L I C A Z I O N E",
+      "text": "C E R T I F I C A T O   D I   P U B B L I C A Z I O N E",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/90",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 461.1730132899999,
+            "r": 541.6560007599998,
+            "b": 420.2910146699999,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            234
+          ]
+        }
+      ],
+      "orig": "Il sottoscritto responsabile della pubblicazione OLIVA LORENZO certifica che copia della presente deliberazione viene pubblicata il giorno 19-06-2026 all'Albo Pretorio ove rimarrà affissa per 15 giorni consecutivi sino al 04-07-2026 ,",
+      "text": "Il sottoscritto responsabile della pubblicazione OLIVA LORENZO certifica che copia della presente deliberazione viene pubblicata il giorno 19-06-2026 all'Albo Pretorio ove rimarrà affissa per 15 giorni consecutivi sino al 04-07-2026 ,"
+    },
+    {
+      "self_ref": "#/texts/91",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 364.57999570999993,
+            "r": 163.36800076,
+            "b": 351.29599570999994,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            20
+          ]
+        }
+      ],
+      "orig": "Carinaro, 19-06-2026",
+      "text": "Carinaro, 19-06-2026"
+    },
+    {
+      "self_ref": "#/texts/92",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 357.70100069,
+            "t": 350.7809844799999,
+            "r": 531.6530006900001,
+            "b": 323.6979846899999,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            49
+          ]
+        }
+      ],
+      "orig": "Il Responsabile della pubblicazione OLIVA LORENZO",
+      "text": "Il Responsabile della pubblicazione OLIVA LORENZO"
+    },
+    {
+      "self_ref": "#/texts/93",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 256.57298485,
+            "r": 482.79000075999977,
+            "b": 245.50298484999996,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            107
+          ]
+        }
+      ],
+      "orig": "Documento informatico sottoscritto con firma digitale ai sensi dell'art.24 del D.Lgs. n.82/2005 e ss.mm.ii.",
+      "text": "Documento informatico sottoscritto con firma digitale ai sensi dell'art.24 del D.Lgs. n.82/2005 e ss.mm.ii."
+    }
+  ],
+  "pictures": [
+    {
+      "self_ref": "#/pictures/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 254.25772094726562,
+            "t": 806.8889541625977,
+            "r": 340.1811828613281,
+            "b": 709.4403228759766,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 254.1556396484375,
+            "t": 771.8937454223633,
+            "r": 340.50042724609375,
+            "b": 674.4104309082031,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 254.17080688476562,
+            "t": 771.9213104248047,
+            "r": 340.37860107421875,
+            "b": 674.3388061523438,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 254.4331817626953,
+            "t": 752.2281723022461,
+            "r": 339.950439453125,
+            "b": 655.5477905273438,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    }
+  ],
+  "tables": [
+    {
+      "self_ref": "#/tables/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "table",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 73.31127166748047,
+            "t": 429.9184875488281,
+            "r": 521.2079467773438,
+            "b": 314.31500244140625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "data": {
+        "table_cells": [
+          {
+            "bbox": {
+              "l": 77.25,
+              "t": 416.25199915999997,
+              "r": 119.03399999999999,
+              "b": 425.10799915999996,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Componente",
+            "column_header": true,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 203.94999695,
+              "t": 416.25199915999997,
+              "r": 232.38999695,
+              "b": 425.10799915999996,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "Presente",
+            "column_header": true,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 365.70001221,
+              "t": 416.25199915999997,
+              "r": 391.03601221,
+              "b": 425.10799915999996,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "Assente",
+            "column_header": true,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 77.25,
+              "t": 431.45099952,
+              "r": 196.154,
+              "b": 440.30699952,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 1,
+            "end_row_offset_idx": 2,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "DELL'APROVITOLA MARIANNA",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 203.94999695,
+              "t": 431.45099952,
+              "r": 209.28599695000003,
+              "b": 440.30699952,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 1,
+            "end_row_offset_idx": 2,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "X",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 77.25,
+              "t": 451.25000026,
+              "r": 154.378,
+              "b": 460.10600026,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 2,
+            "end_row_offset_idx": 3,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "SARDO GIUSEPPINA",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 203.94999695,
+              "t": 451.25000026,
+              "r": 209.28599695000003,
+              "b": 460.10600026,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 2,
+            "end_row_offset_idx": 3,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "X",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 77.25,
+              "t": 471.04900004999996,
+              "r": 141.042,
+              "b": 479.90500004999996,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 3,
+            "end_row_offset_idx": 4,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "SGLAVO NICOLA",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 203.94999695,
+              "t": 471.04900004999996,
+              "r": 209.28599695000003,
+              "b": 479.90500004999996,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 3,
+            "end_row_offset_idx": 4,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "X",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 77.25,
+              "t": 490.84799982999994,
+              "r": 148.154,
+              "b": 499.70399982999993,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 4,
+            "end_row_offset_idx": 5,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "ESPOSITO NICOLA",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 203.94999695,
+              "t": 490.84799982999994,
+              "r": 209.28599695000003,
+              "b": 499.70399982999993,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 4,
+            "end_row_offset_idx": 5,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "X",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 77.25,
+              "t": 510.64699579999996,
+              "r": 154.386,
+              "b": 519.5029958,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 5,
+            "end_row_offset_idx": 6,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "BARBATO RACHELE",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 203.94999695,
+              "t": 510.64699579999996,
+              "r": 209.28599695000003,
+              "b": 519.5029958,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 5,
+            "end_row_offset_idx": 6,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "X",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          }
+        ],
+        "num_rows": 6,
+        "num_cols": 3,
+        "grid": [
+          [
+            {
+              "bbox": {
+                "l": 77.25,
+                "t": 416.25199915999997,
+                "r": 119.03399999999999,
+                "b": 425.10799915999996,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Componente",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 203.94999695,
+                "t": 416.25199915999997,
+                "r": 232.38999695,
+                "b": 425.10799915999996,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "Presente",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 365.70001221,
+                "t": 416.25199915999997,
+                "r": 391.03601221,
+                "b": 425.10799915999996,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "Assente",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 77.25,
+                "t": 431.45099952,
+                "r": 196.154,
+                "b": 440.30699952,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "DELL'APROVITOLA MARIANNA",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 203.94999695,
+                "t": 431.45099952,
+                "r": 209.28599695000003,
+                "b": 440.30699952,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "X",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 77.25,
+                "t": 451.25000026,
+                "r": 154.378,
+                "b": 460.10600026,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "SARDO GIUSEPPINA",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 203.94999695,
+                "t": 451.25000026,
+                "r": 209.28599695000003,
+                "b": 460.10600026,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "X",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 77.25,
+                "t": 471.04900004999996,
+                "r": 141.042,
+                "b": 479.90500004999996,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "SGLAVO NICOLA",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 203.94999695,
+                "t": 471.04900004999996,
+                "r": 209.28599695000003,
+                "b": 479.90500004999996,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "X",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 77.25,
+                "t": 490.84799982999994,
+                "r": 148.154,
+                "b": 499.70399982999993,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "ESPOSITO NICOLA",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 203.94999695,
+                "t": 490.84799982999994,
+                "r": 209.28599695000003,
+                "b": 499.70399982999993,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "X",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 77.25,
+                "t": 510.64699579999996,
+                "r": 154.386,
+                "b": 519.5029958,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 5,
+              "end_row_offset_idx": 6,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "BARBATO RACHELE",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 203.94999695,
+                "t": 510.64699579999996,
+                "r": 209.28599695000003,
+                "b": 519.5029958,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 5,
+              "end_row_offset_idx": 6,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "X",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 5,
+              "end_row_offset_idx": 6,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ]
+        ]
+      },
+      "annotations": []
+    },
+    {
+      "self_ref": "#/tables/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "table",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 140.87765502929688,
+            "t": 366.6304931640625,
+            "r": 453.9825134277344,
+            "b": 300.663330078125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "data": {
+        "table_cells": [
+          {
+            "bbox": {
+              "l": 214.30299759000002,
+              "t": 479.5429964599999,
+              "r": 226.79499759,
+              "b": 489.50599645999995,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "[X]",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 373.42799758999996,
+              "t": 479.5429964599999,
+              "r": 379.42199758999993,
+              "b": 489.50599645999995,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "[]",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 204.80499649,
+              "t": 511.45799587999994,
+              "r": 236.29799649,
+              "b": 519.20699588,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 1,
+            "end_row_offset_idx": 2,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Favorevole",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 363.01100157999997,
+              "t": 511.45799587999994,
+              "r": 389.84200158,
+              "b": 519.20699588,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 1,
+            "end_row_offset_idx": 2,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "Contrario",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          }
+        ],
+        "num_rows": 2,
+        "num_cols": 2,
+        "grid": [
+          [
+            {
+              "bbox": {
+                "l": 214.30299759000002,
+                "t": 479.5429964599999,
+                "r": 226.79499759,
+                "b": 489.50599645999995,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "[X]",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 373.42799758999996,
+                "t": 479.5429964599999,
+                "r": 379.42199758999993,
+                "b": 489.50599645999995,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "[]",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 204.80499649,
+                "t": 511.45799587999994,
+                "r": 236.29799649,
+                "b": 519.20699588,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Favorevole",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 363.01100157999997,
+                "t": 511.45799587999994,
+                "r": 389.84200158,
+                "b": 519.20699588,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "Contrario",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ]
+        ]
+      },
+      "annotations": []
+    },
+    {
+      "self_ref": "#/tables/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "table",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 128.5059356689453,
+            "t": 366.6882019042969,
+            "r": 466.0692443847656,
+            "b": 300.66558837890625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "data": {
+        "table_cells": [
+          {
+            "bbox": {
+              "l": 178.27800369000002,
+              "t": 479.5429964599999,
+              "r": 190.77000369,
+              "b": 489.50599645999995,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "[X]",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 290.4030075,
+              "t": 479.5429964599999,
+              "r": 296.3970075,
+              "b": 489.50599645999995,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "[]",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 403.52800369,
+              "t": 479.5429964599999,
+              "r": 409.52200369,
+              "b": 489.50599645999995,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "[]",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 168.78000259,
+              "t": 511.45799587999994,
+              "r": 200.27300259000003,
+              "b": 519.20699588,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 1,
+            "end_row_offset_idx": 2,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Favorevole",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 279.98600768,
+              "t": 511.45799587999994,
+              "r": 306.81700767999996,
+              "b": 519.20699588,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 1,
+            "end_row_offset_idx": 2,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "Contrario",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 384.26900482,
+              "t": 511.45799587999994,
+              "r": 428.78200482,
+              "b": 519.20699588,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 1,
+            "end_row_offset_idx": 2,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "Non Necessario",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          }
+        ],
+        "num_rows": 2,
+        "num_cols": 3,
+        "grid": [
+          [
+            {
+              "bbox": {
+                "l": 178.27800369000002,
+                "t": 479.5429964599999,
+                "r": 190.77000369,
+                "b": 489.50599645999995,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "[X]",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 290.4030075,
+                "t": 479.5429964599999,
+                "r": 296.3970075,
+                "b": 489.50599645999995,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "[]",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 403.52800369,
+                "t": 479.5429964599999,
+                "r": 409.52200369,
+                "b": 489.50599645999995,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "[]",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 168.78000259,
+                "t": 511.45799587999994,
+                "r": 200.27300259000003,
+                "b": 519.20699588,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Favorevole",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 279.98600768,
+                "t": 511.45799587999994,
+                "r": 306.81700767999996,
+                "b": 519.20699588,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "Contrario",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 384.26900482,
+                "t": 511.45799587999994,
+                "r": 428.78200482,
+                "b": 519.20699588,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "Non Necessario",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ]
+        ]
+      },
+      "annotations": []
+    }
+  ],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {
+    "1": {
+      "size": {
+        "width": 595.2999877929688,
+        "height": 841.9000244140625
+      },
+      "page_no": 1
+    },
+    "2": {
+      "size": {
+        "width": 595.2999877929688,
+        "height": 841.9000244140625
+      },
+      "page_no": 2
+    },
+    "3": {
+      "size": {
+        "width": 595.2999877929688,
+        "height": 841.9000244140625
+      },
+      "page_no": 3
+    },
+    "4": {
+      "size": {
+        "width": 595.2999877929688,
+        "height": 841.9000244140625
+      },
+      "page_no": 4
+    },
+    "5": {
+      "size": {
+        "width": 595.2999877929688,
+        "height": 841.9000244140625
+      },
+      "page_no": 5
+    },
+    "6": {
+      "size": {
+        "width": 595.2999877929688,
+        "height": 841.9000244140625
+      },
+      "page_no": 6
+    },
+    "7": {
+      "size": {
+        "width": 595.2999877929688,
+        "height": 841.9000244140625
+      },
+      "page_no": 7
+    },
+    "8": {
+      "size": {
+        "width": 595.3499755859375,
+        "height": 842.0
+      },
+      "page_no": 8
+    }
+  }
+}

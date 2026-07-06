@@ -1,0 +1,3361 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.10.0",
+  "name": "atto_25",
+  "origin": {
+    "mimetype": "application/pdf",
+    "binary_hash": 6412568370764471445,
+    "filename": "atto_25.pdf"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/pictures/0"
+      },
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/tables/0"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/groups/2"
+      },
+      {
+        "$ref": "#/texts/34"
+      },
+      {
+        "$ref": "#/texts/35"
+      },
+      {
+        "$ref": "#/groups/3"
+      },
+      {
+        "$ref": "#/texts/40"
+      },
+      {
+        "$ref": "#/texts/41"
+      },
+      {
+        "$ref": "#/texts/42"
+      },
+      {
+        "$ref": "#/texts/43"
+      },
+      {
+        "$ref": "#/groups/4"
+      },
+      {
+        "$ref": "#/texts/50"
+      },
+      {
+        "$ref": "#/texts/51"
+      },
+      {
+        "$ref": "#/texts/52"
+      },
+      {
+        "$ref": "#/texts/53"
+      },
+      {
+        "$ref": "#/texts/54"
+      },
+      {
+        "$ref": "#/texts/55"
+      },
+      {
+        "$ref": "#/texts/56"
+      },
+      {
+        "$ref": "#/texts/57"
+      },
+      {
+        "$ref": "#/texts/58"
+      },
+      {
+        "$ref": "#/texts/59"
+      },
+      {
+        "$ref": "#/texts/60"
+      },
+      {
+        "$ref": "#/texts/61"
+      },
+      {
+        "$ref": "#/texts/62"
+      },
+      {
+        "$ref": "#/texts/63"
+      },
+      {
+        "$ref": "#/texts/64"
+      },
+      {
+        "$ref": "#/texts/65"
+      },
+      {
+        "$ref": "#/groups/5"
+      },
+      {
+        "$ref": "#/texts/70"
+      },
+      {
+        "$ref": "#/texts/71"
+      },
+      {
+        "$ref": "#/texts/72"
+      },
+      {
+        "$ref": "#/texts/73"
+      },
+      {
+        "$ref": "#/groups/6"
+      },
+      {
+        "$ref": "#/texts/75"
+      },
+      {
+        "$ref": "#/texts/76"
+      },
+      {
+        "$ref": "#/groups/7"
+      },
+      {
+        "$ref": "#/texts/78"
+      },
+      {
+        "$ref": "#/texts/79"
+      },
+      {
+        "$ref": "#/texts/80"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/17"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/19"
+        },
+        {
+          "$ref": "#/texts/20"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/22"
+        },
+        {
+          "$ref": "#/texts/23"
+        },
+        {
+          "$ref": "#/texts/24"
+        },
+        {
+          "$ref": "#/texts/25"
+        },
+        {
+          "$ref": "#/texts/26"
+        },
+        {
+          "$ref": "#/texts/27"
+        },
+        {
+          "$ref": "#/texts/28"
+        },
+        {
+          "$ref": "#/texts/29"
+        },
+        {
+          "$ref": "#/texts/30"
+        },
+        {
+          "$ref": "#/texts/31"
+        },
+        {
+          "$ref": "#/texts/32"
+        },
+        {
+          "$ref": "#/texts/33"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/36"
+        },
+        {
+          "$ref": "#/texts/37"
+        },
+        {
+          "$ref": "#/texts/38"
+        },
+        {
+          "$ref": "#/texts/39"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/44"
+        },
+        {
+          "$ref": "#/texts/45"
+        },
+        {
+          "$ref": "#/texts/46"
+        },
+        {
+          "$ref": "#/texts/47"
+        },
+        {
+          "$ref": "#/texts/48"
+        },
+        {
+          "$ref": "#/texts/49"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/66"
+        },
+        {
+          "$ref": "#/texts/67"
+        },
+        {
+          "$ref": "#/texts/68"
+        },
+        {
+          "$ref": "#/texts/69"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/74"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "key_value_area"
+    },
+    {
+      "self_ref": "#/groups/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/77"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "key_value_area"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 171.27000236,
+            "t": 751.6410232140624,
+            "r": 491.04900658,
+            "b": 728.8263092140625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            20
+          ]
+        }
+      ],
+      "orig": "COMUNE DI MOMPANTERO",
+      "text": "COMUNE DI MOMPANTERO",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 247.47600365,
+            "t": 724.6340241740625,
+            "r": 414.84400475,
+            "b": 715.8591341740624,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            30
+          ]
+        }
+      ],
+      "orig": "CITTA' METROPOLITANA DI TORINO",
+      "text": "CITTA' METROPOLITANA DI TORINO"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 288.6570034,
+            "t": 712.5640244840625,
+            "r": 373.66199790999997,
+            "b": 703.7891344840625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            15
+          ]
+        }
+      ],
+      "orig": "_______________",
+      "text": "_______________"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 164.42599868,
+            "t": 630.0400233640624,
+            "r": 436.14801199000004,
+            "b": 594.8211951640625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            47
+          ]
+        }
+      ],
+      "orig": "VERBALE DI DELIBERAZIONE DELLA  GIUNTA COMUNALE",
+      "text": "VERBALE DI DELIBERAZIONE DELLA  GIUNTA COMUNALE",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 272.95799732,
+            "t": 577.6190305040626,
+            "r": 309.70599731,
+            "b": 568.8441405040626,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "N.    44",
+      "text": "N.    44"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 538.0360239240625,
+            "r": 542.49199466,
+            "b": 509.564859458151,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            104
+          ]
+        }
+      ],
+      "orig": "OGGETTO  : MANTENIMENTO  SERVIZI  DI  ATTIVITA'  DEI  PLESSI  DI SCUOLA STATALE IN DEROGA A.S. 2027/2028",
+      "text": "OGGETTO  : MANTENIMENTO  SERVIZI  DI  ATTIVITA'  DEI  PLESSI  DI SCUOLA STATALE IN DEROGA A.S. 2027/2028",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 489.9540169540625,
+            "r": 542.02698977,
+            "b": 460.38663608406256,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            154
+          ]
+        }
+      ],
+      "orig": "L'anno  duemilaventisei, addì  ventinove, del mese di  giugno, alle ore  quindici e minuti  zero, regolarmente convocata, si è riunita la Giunta Comunale.",
+      "text": "L'anno  duemilaventisei, addì  ventinove, del mese di  giugno, alle ore  quindici e minuti  zero, regolarmente convocata, si è riunita la Giunta Comunale."
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 450.1240303840625,
+            "r": 542.0200012500001,
+            "b": 420.55664951406254,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            131
+          ]
+        }
+      ],
+      "orig": "Presso la sala comunale è presente il Sindaco, Davide Gastaldo, che interviene con gli assessori della quale sono membri i Signori:",
+      "text": "Presso la sala comunale è presente il Sindaco, Davide Gastaldo, che interviene con gli assessori della quale sono membri i Signori:"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 241.20503428406255,
+            "r": 345.81900076000005,
+            "b": 230.67516628406258,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            49
+          ]
+        }
+      ],
+      "orig": "Presiede la seduta il  SINDACO - DAVIDE GASTALDO.",
+      "text": "Presiede la seduta il  SINDACO - DAVIDE GASTALDO."
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 190.51100352406252,
+            "r": 542.3399968499999,
+            "b": 136.52913490406263,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            199
+          ]
+        }
+      ],
+      "orig": "Il Presidente, rilevata la partecipazione di tutti gli Assessori, dichiara validamente costituita l'adunanza  con  la  partecipazione  del  Segretario dott.ssa  Marietta  CARCIONE in videoconferenza.",
+      "text": "Il Presidente, rilevata la partecipazione di tutti gli Assessori, dichiara validamente costituita l'adunanza  con  la  partecipazione  del  Segretario dott.ssa  Marietta  CARCIONE in videoconferenza."
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 52.622010064062465,
+            "r": 532.4840007599995,
+            "b": 45.552202329255806,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            122
+          ]
+        }
+      ],
+      "orig": "Documento prodotto con sistema automatizzato del Comune di Mompantero.  Responsabile Procedimento: GUERCIO Cinzia  (D.Lgs.",
+      "text": "Documento prodotto con sistema automatizzato del Comune di Mompantero.  Responsabile Procedimento: GUERCIO Cinzia  (D.Lgs."
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 43.42300923406242,
+            "r": 411.7960007599998,
+            "b": 36.353201499255874,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            103
+          ]
+        }
+      ],
+      "orig": "n. 39/93 art.3). La presente copia è destinata unicamente alla pubblicazione sull'albo pretorio on-line",
+      "text": "n. 39/93 art.3). La presente copia è destinata unicamente alla pubblicazione sull'albo pretorio on-line"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 783.2920239240625,
+            "r": 542.02601321,
+            "b": 761.6896451140625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            129
+          ]
+        }
+      ],
+      "orig": "Si  dà  atto  che  l'Assessore  CHIOLERO  Lino  partecipa  alla  seduta  in  videoconferenza  ai  sensi  del vigente regolamento.",
+      "text": "Si  dà  atto  che  l'Assessore  CHIOLERO  Lino  partecipa  alla  seduta  in  videoconferenza  ai  sensi  del vigente regolamento."
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 240.83600235,
+            "t": 743.8080246740625,
+            "r": 357.89500125000006,
+            "b": 734.1556456740625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            18
+          ]
+        }
+      ],
+      "orig": "LA GIUNTA COMUNALE",
+      "text": "LA GIUNTA COMUNALE",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 717.2540200040626,
+            "r": 542.0300110100001,
+            "b": 681.0476391940625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            261
+          ]
+        }
+      ],
+      "orig": "Vista la comunicazione acclarata al prot.n. 2112 del 17/06/2026 della Città Metropolitana di Torino Direzione Istruzione e Sviluppo Sociale relativa a 'Programmazione e dimensionamento della rete scolastica e punti di erogazione in deroga per l'a.s. 2027/2028';",
+      "text": "Vista la comunicazione acclarata al prot.n. 2112 del 17/06/2026 della Città Metropolitana di Torino Direzione Istruzione e Sviluppo Sociale relativa a 'Programmazione e dimensionamento della rete scolastica e punti di erogazione in deroga per l'a.s. 2027/2028';"
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 664.1460259240625,
+            "r": 542.02900393,
+            "b": 614.6626446840626,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            301
+          ]
+        }
+      ],
+      "orig": "Dato atto che la Regione Piemonte ha trasmesso l'atto di indirizzo regionale per il triennio aa.ss. 2027/2028-2028/2029-2029/2030 (D.C.R. n. 157-13692 del 09.06.2026), l'Allegato A alla D.G.R. n.2677 del 15.06.2026 recante i criteri e le modalità per la Programmazione della rete scolastica 2027/2028;",
+      "text": "Dato atto che la Regione Piemonte ha trasmesso l'atto di indirizzo regionale per il triennio aa.ss. 2027/2028-2028/2029-2029/2030 (D.C.R. n. 157-13692 del 09.06.2026), l'Allegato A alla D.G.R. n.2677 del 15.06.2026 recante i criteri e le modalità per la Programmazione della rete scolastica 2027/2028;"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 597.7610237840626,
+            "r": 542.02299197,
+            "b": 574.8316433940626,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            188
+          ]
+        }
+      ],
+      "orig": "Viste le soglie numeriche minime prescritte dalla D.G.R. n. 157-13692 del 09.06.2026 necessarie per mantenere aperti i punti di erogazione servizio (p.e.s.) nei Comuni montani o marginali:",
+      "text": "Viste le soglie numeriche minime prescritte dalla D.G.R. n. 157-13692 del 09.06.2026 necessarie per mantenere aperti i punti di erogazione servizio (p.e.s.) nei Comuni montani o marginali:"
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 571.2070229340625,
+            "r": 327.18598636,
+            "b": 561.5546439340625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            56
+          ]
+        }
+      ],
+      "orig": "- Scuola dell'infanzia costituiti con almeno 10 bambini;",
+      "text": "Scuola dell'infanzia costituiti con almeno 10 bambini;",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 544.6530220840625,
+            "r": 542.0200012500001,
+            "b": 521.7236416940625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            130
+          ]
+        }
+      ],
+      "orig": "Richiamati i criteri adottati ai sensi della  D.C.R. n. 157-13692 del 09.06.2026 e considerato che nel documento si specifica che:",
+      "text": "Richiamati i criteri adottati ai sensi della  D.C.R. n. 157-13692 del 09.06.2026 e considerato che nel documento si specifica che:"
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 504.8220284240625,
+            "r": 542.02299197,
+            "b": 481.8926480340625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            94
+          ]
+        }
+      ],
+      "orig": "2.3. INTERVENTI DI REVISIONE DELLA RETE SCOLASTICA SU SINGOLI PUNTI DI EROGAZIONE DEL SERVIZIO",
+      "text": "2.3. INTERVENTI DI REVISIONE DELLA RETE SCOLASTICA SU SINGOLI PUNTI DI EROGAZIONE DEL SERVIZIO",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 478.2680123140625,
+            "r": 542.0200012500001,
+            "b": 455.3386319240625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            158
+          ]
+        }
+      ],
+      "orig": "I Comuni, le Province e la Città metropolitana di Torino possono presentare le seguenti proposte di revisione della rete scolastica riguardanti i singoli PES:",
+      "text": "I Comuni, le Province e la Città metropolitana di Torino possono presentare le seguenti proposte di revisione della rete scolastica riguardanti i singoli PES:",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 56.122164498846644,
+            "t": 451.7140267140625,
+            "r": 544.82149053248,
+            "b": 402.23064547406256,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            332
+          ]
+        }
+      ],
+      "orig": "Mantenimento  in  deroga:  Mantenimento  del  funzionamento  di  PES  del  I  ciclo  di  istruzione riconosciuti con codice meccanografico ministeriale, funzionanti nell'a.s. 2026/27 e siti in comuni montani e/o in comuni in situazione di marginalità di cui alla deliberazione della Giunta regionale del 21 novembre 2008, n. 1-10104",
+      "text": "Mantenimento  in  deroga:  Mantenimento  del  funzionamento  di  PES  del  I  ciclo  di  istruzione riconosciuti con codice meccanografico ministeriale, funzionanti nell'a.s. 2026/27 e siti in comuni montani e/o in comuni in situazione di marginalità di cui alla deliberazione della Giunta regionale del 21 novembre 2008, n. 1-10104"
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 56.122164498846644,
+            "t": 398.60602500406253,
+            "r": 544.80849005248,
+            "b": 375.6766446140625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            112
+          ]
+        }
+      ],
+      "orig": "-  PES  scuola  dell'infanzia  con  meno  di  20  alunni  e  con  una  monosezione, purché di almeno 10 bambini.",
+      "text": " PES  scuola  dell'infanzia  con  meno  di  20  alunni  e  con  una  monosezione, purché di almeno 10 bambini.",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 56.122164498846644,
+            "t": 372.0520088940625,
+            "r": 544.82048345248,
+            "b": 349.1226285040625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            189
+          ]
+        }
+      ],
+      "orig": "-  PES  scuola  primaria  con  meno  di  35  alunni:  con  almeno  una  classe  intera  di  non  meno  di  10 alunni o, in caso di unica pluriclasse, con minimo di 8 e massimo di 18 alunni.",
+      "text": " PES  scuola  primaria  con  meno  di  35  alunni:  con  almeno  una  classe  intera  di  non  meno  di  10 alunni o, in caso di unica pluriclasse, con minimo di 8 e massimo di 18 alunni.",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 56.122164498846644,
+            "t": 345.49802330406254,
+            "r": 409.18046881248,
+            "b": 335.84564430406255,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            70
+          ]
+        }
+      ],
+      "orig": "- PES secondaria di I grado con meno di 40 alunni, e almeno 20 alunni.",
+      "text": "PES secondaria di I grado con meno di 40 alunni, e almeno 20 alunni.",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 318.94403770406257,
+            "r": 418.65699466000007,
+            "b": 309.29165870406246,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            68
+          ]
+        }
+      ],
+      "orig": "2.3.2.e. Mantenimento in deroga PES Il Comune montano e/o marginale:",
+      "text": "2.3.2.e. Mantenimento in deroga PES Il Comune montano e/o marginale:",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 305.6670296440625,
+            "r": 542.03199466,
+            "b": 269.46064883406257,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            234
+          ]
+        }
+      ],
+      "orig": "- effettua un'analisi volta a valutare l'opportunità del mantenimento del PES, anche tenuto conto delle  condizioni  di  sicurezza  e  delle  caratteristiche  dell'edificio  scolastico  presso  cui  è  ubicato  il servizio scolastico;",
+      "text": "effettua un'analisi volta a valutare l'opportunità del mantenimento del PES, anche tenuto conto delle  condizioni  di  sicurezza  e  delle  caratteristiche  dell'edificio  scolastico  presso  cui  è  ubicato  il servizio scolastico;",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 265.8360054740625,
+            "r": 542.0300110100001,
+            "b": 242.9066250840625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            143
+          ]
+        }
+      ],
+      "orig": "- sente l'istituzione scolastica di riferimento, che esprime il proprio parere preferibilmente tramite Deliberazione del Consiglio di istituto;",
+      "text": "sente l'istituzione scolastica di riferimento, che esprime il proprio parere preferibilmente tramite Deliberazione del Consiglio di istituto;",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 239.2820504040625,
+            "r": 462.13801272000006,
+            "b": 229.6296714040625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            83
+          ]
+        }
+      ],
+      "orig": "- con propria deliberazione di richiesta di mantenimento in deroga del PES, indica:",
+      "text": "con propria deliberazione di richiesta di mantenimento in deroga del PES, indica:",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 56.12216449884664,
+            "t": 226.00501182406254,
+            "r": 544.8224747324799,
+            "b": 176.52163058406256,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            388
+          ]
+        }
+      ],
+      "orig": "· la consistenza numerica dell'utenza attesa per l'a.s. 2027/28 sulla base delle nascite del bacino d'utenza del PES e sull'andamento della frequenza nell'ultimo triennio ai fini dell'indicazione del  rispetto  dei  parametri  minimi  per  il  mantenimento  indicati  al  precedente  paragrafo 2.3 Interventi di revisione della rete scolastica su singoli punti di erogazione del servizio;",
+      "text": "la consistenza numerica dell'utenza attesa per l'a.s. 2027/28 sulla base delle nascite del bacino d'utenza del PES e sull'andamento della frequenza nell'ultimo triennio ai fini dell'indicazione del  rispetto  dei  parametri  minimi  per  il  mantenimento  indicati  al  precedente  paragrafo 2.3 Interventi di revisione della rete scolastica su singoli punti di erogazione del servizio;",
+      "enumerated": false,
+      "marker": "·"
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 56.700000759999995,
+            "t": 172.89704063406248,
+            "r": 542.02400668,
+            "b": 149.96766024406247,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            144
+          ]
+        }
+      ],
+      "orig": "· le condizioni presenti per il mantenimento in deroga sulla base delle seguenti distanze e dei tempi di percorrenza relativi al PES più vicino:",
+      "text": "le condizioni presenti per il mantenimento in deroga sulla base delle seguenti distanze e dei tempi di percorrenza relativi al PES più vicino:",
+      "enumerated": false,
+      "marker": "·"
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 92.10000228000001,
+            "t": 146.34302452406257,
+            "r": 542.02099307,
+            "b": 123.41364413406257,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            125
+          ]
+        }
+      ],
+      "orig": "-  per  le  scuole  dell'infanzia:  entro  km  5  di  distanza  con  un  tempo  di  percorrenza medio in auto di 15 minuti; ◦",
+      "text": " per  le  scuole  dell'infanzia:  entro  km  5  di  distanza  con  un  tempo  di  percorrenza medio in auto di 15 minuti; ◦",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 92.10000228000001,
+            "t": 119.78900840406254,
+            "r": 542.01699527,
+            "b": 96.85962801406254,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            98
+          ]
+        }
+      ],
+      "orig": "- per le scuole primarie: da km 5 a km 9 con un tempo di percorrenza medio in auto di 20 minuti; ◦",
+      "text": "per le scuole primarie: da km 5 a km 9 con un tempo di percorrenza medio in auto di 20 minuti; ◦",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 92.10000228000001,
+            "t": 93.23505333406251,
+            "r": 542.02801211,
+            "b": 70.30567294406251,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            113
+          ]
+        }
+      ],
+      "orig": "-  per  le  scuole  secondarie  di  I  grado:  entro  km  10  con  un  tempo  di  percorrenza medio di 30 minuti.",
+      "text": " per  le  scuole  secondarie  di  I  grado:  entro  km  10  con  un  tempo  di  percorrenza medio di 30 minuti.",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 52.622010064062465,
+            "r": 532.4840007599995,
+            "b": 36.353201499255874,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            226
+          ]
+        }
+      ],
+      "orig": "Documento prodotto con sistema automatizzato del Comune di Mompantero.  Responsabile Procedimento: GUERCIO Cinzia  (D.Lgs. n. 39/93 art.3). La presente copia è destinata unicamente alla pubblicazione sull'albo pretorio on-line",
+      "text": "Documento prodotto con sistema automatizzato del Comune di Mompantero.  Responsabile Procedimento: GUERCIO Cinzia  (D.Lgs. n. 39/93 art.3). La presente copia è destinata unicamente alla pubblicazione sull'albo pretorio on-line"
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 782.1920235440625,
+            "r": 542.02100833,
+            "b": 759.2626431540625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            152
+          ]
+        }
+      ],
+      "orig": "La  richiesta  di  mantenimento  in  deroga  non  è  valida,  e  non  può  essere  inserita  né  nel  Piano provinciale né nel Piano regionale, qualora:",
+      "text": "La  richiesta  di  mantenimento  in  deroga  non  è  valida,  e  non  può  essere  inserita  né  nel  Piano provinciale né nel Piano regionale, qualora:"
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 755.6380226940626,
+            "r": 542.01899417,
+            "b": 732.7086423040626,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            130
+          ]
+        }
+      ],
+      "orig": "-  il Comune non indichi il numero di alunni attesi per l'a.s. 2027/28 nel PES per il quale si richiede il mantenimento in deroga;",
+      "text": " il Comune non indichi il numero di alunni attesi per l'a.s. 2027/28 nel PES per il quale si richiede il mantenimento in deroga;",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 729.0840218340625,
+            "r": 542.01798709,
+            "b": 706.1546414440625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            175
+          ]
+        }
+      ],
+      "orig": "-  il numero di alunni attesi risulti superiore a 20 alunni per la scuola dell'infanzia, a 35 alunni per la scuola primaria, a 40 alunni per la scuola secondaria di I grado14;",
+      "text": " il numero di alunni attesi risulti superiore a 20 alunni per la scuola dell'infanzia, a 35 alunni per la scuola primaria, a 40 alunni per la scuola secondaria di I grado14;",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 702.5300209840625,
+            "r": 505.16801150000003,
+            "b": 692.8776419840625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            91
+          ]
+        }
+      ],
+      "orig": "- la richiesta di mantenimento in deroga riguardi un PES non funzionante nell'a.s. 2026/27;",
+      "text": "la richiesta di mantenimento in deroga riguardi un PES non funzionante nell'a.s. 2026/27;",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 689.2530205540625,
+            "r": 542.01600345,
+            "b": 666.3236401640625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            106
+          ]
+        }
+      ],
+      "orig": "-  la  richiesta di mantenimento in deroga non riguardi la sede del PES ma una succursale o aule staccate.",
+      "text": " la  richiesta di mantenimento in deroga non riguardi la sede del PES ma una succursale o aule staccate.",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 649.4220192740626,
+            "r": 542.01899417,
+            "b": 626.4926388840626,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            174
+          ]
+        }
+      ],
+      "orig": "Dato atto che sul territorio del Comune di Mompantero è attiva e funzionante per l'a.s. 2025/2026 la Scuola dell'infanzia composta da 1 sezione per un totale di n. 22 alunni;",
+      "text": "Dato atto che sul territorio del Comune di Mompantero è attiva e funzionante per l'a.s. 2025/2026 la Scuola dell'infanzia composta da 1 sezione per un totale di n. 22 alunni;"
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 609.5910256240625,
+            "r": 505.68299563000005,
+            "b": 599.9386466240625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            94
+          ]
+        }
+      ],
+      "orig": "Considerata l'analisi volta a valutare l'opportunità del mantenimento del PES e qui riportata:",
+      "text": "Considerata l'analisi volta a valutare l'opportunità del mantenimento del PES e qui riportata:"
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 583.0370247640625,
+            "r": 542.03199466,
+            "b": 533.5536435240625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            341
+          ]
+        }
+      ],
+      "orig": "ANALISI in base ai criteri della DCR volta a valutare l'opportunità del mantenimento del PES In generale si ritiene opportuna la deroga per il mantenimento del suddetto plesso anche per l'a.s. 2027/2028, per la primaria esigenza di mantenere il servizio scolastico come punto di riferimento culturale e di aggregazione della comunità locale;",
+      "text": "ANALISI in base ai criteri della DCR volta a valutare l'opportunità del mantenimento del PES In generale si ritiene opportuna la deroga per il mantenimento del suddetto plesso anche per l'a.s. 2027/2028, per la primaria esigenza di mantenere il servizio scolastico come punto di riferimento culturale e di aggregazione della comunità locale;"
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 516.6520150040626,
+            "r": 391.22599490000005,
+            "b": 493.72265846406253,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            87
+          ]
+        }
+      ],
+      "orig": "Utenza attesa per l'a.s. 2027/2028 - andamento ultimo quinquennio Scuola dell'Infanzia:",
+      "text": "Utenza attesa per l'a.s. 2027/2028 - andamento ultimo quinquennio Scuola dell'Infanzia:"
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 490.0980294040625,
+            "r": 218.65200502999997,
+            "b": 480.4456504040625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            35
+          ]
+        }
+      ],
+      "orig": "- Iscritti nell'a.s. 2022/2023 n.21",
+      "text": "Iscritti nell'a.s. 2022/2023 n.21",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 476.8210213440625,
+            "r": 218.65200502999997,
+            "b": 467.1686423440625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            35
+          ]
+        }
+      ],
+      "orig": "- Iscritti nell'a.s. 2023/2024 n.19",
+      "text": "Iscritti nell'a.s. 2023/2024 n.19",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 463.5440132940625,
+            "r": 222.08999330999998,
+            "b": 453.8916342940625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            35
+          ]
+        }
+      ],
+      "orig": "- Iscritti nell'a.s. 2024/2025 n.20",
+      "text": "Iscritti nell'a.s. 2024/2025 n.20",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/47",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 450.26703575406253,
+            "r": 218.65200502999997,
+            "b": 440.61465675406254,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            35
+          ]
+        }
+      ],
+      "orig": "- Iscritti nell'a.s. 2025/2026 n.22",
+      "text": "Iscritti nell'a.s. 2025/2026 n.22",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/48",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 436.9900276940625,
+            "r": 218.65200502999997,
+            "b": 427.3376486940625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            35
+          ]
+        }
+      ],
+      "orig": "- Iscritti nell'a.s. 2026/2027 n.17",
+      "text": "Iscritti nell'a.s. 2026/2027 n.17",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/49",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 423.7130196340625,
+            "r": 542.0250061300001,
+            "b": 400.7836392440625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            194
+          ]
+        }
+      ],
+      "orig": "-  Attesa  nell'a.s.  2027/2028  n.  19  bambini  residenti  più  altre  eventuali  iscrizioni  di  bambini  non residenti provenienti dal limitrofo Comune di Susa (numero consolidato nel tempo)",
+      "text": " Attesa  nell'a.s.  2027/2028  n.  19  bambini  residenti  più  altre  eventuali  iscrizioni  di  bambini  non residenti provenienti dal limitrofo Comune di Susa (numero consolidato nel tempo)",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/50",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 383.8820259840625,
+            "r": 542.03199466,
+            "b": 360.9526455940625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            117
+          ]
+        }
+      ],
+      "orig": "Condizioni di sicurezza e delle caratteristiche dell'edificio scolastico presso cui è ubicato il servizio scolastico;",
+      "text": "Condizioni di sicurezza e delle caratteristiche dell'edificio scolastico presso cui è ubicato il servizio scolastico;"
+    },
+    {
+      "self_ref": "#/texts/51",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 357.3280098740625,
+            "r": 542.03199466,
+            "b": 321.1216290640625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            247
+          ]
+        }
+      ],
+      "orig": "L'edificio  scolastico  è  in  buone  condizioni  ed  è  stato  sottoposto  a  verifica  degli  standard  di sicurezza e salubrità con delibera di G.C. n. 35 del 31.07.2014 con l'approvazione degli elaborati redatti dall' arch.  Luca Braida Bruno.",
+      "text": "L'edificio  scolastico  è  in  buone  condizioni  ed  è  stato  sottoposto  a  verifica  degli  standard  di sicurezza e salubrità con delibera di G.C. n. 35 del 31.07.2014 con l'approvazione degli elaborati redatti dall' arch.  Luca Braida Bruno."
+    },
+    {
+      "self_ref": "#/texts/52",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 317.49701622406246,
+            "r": 542.02698977,
+            "b": 294.56763583406246,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            167
+          ]
+        }
+      ],
+      "orig": "L'edificio è facilmente  raggiungibile  essendo  situato  sulla  strada  provinciale 209;  vi  è  un parcheggio nelle vicinanze e non vi sono barriere architettoniche.",
+      "text": "L'edificio è facilmente  raggiungibile  essendo  situato  sulla  strada  provinciale 209;  vi  è  un parcheggio nelle vicinanze e non vi sono barriere architettoniche."
+    },
+    {
+      "self_ref": "#/texts/53",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 277.6660225640626,
+            "r": 542.02299197,
+            "b": 254.73664217406258,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            180
+          ]
+        }
+      ],
+      "orig": "PES,  ubicati  nel  comune  e/o  in  altro  comune  che  permettano  un  facile  accesso  da  parte  degli alunni, secondo le condizioni di accesso relative alle distanze indicate:",
+      "text": "PES,  ubicati  nel  comune  e/o  in  altro  comune  che  permettano  un  facile  accesso  da  parte  degli alunni, secondo le condizioni di accesso relative alle distanze indicate:"
+    },
+    {
+      "self_ref": "#/texts/54",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.122164498846644,
+            "t": 237.8350289140625,
+            "r": 446.80946661248,
+            "b": 228.1826499140625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            81
+          ]
+        }
+      ],
+      "orig": "Per le scuole dell'infanzia non più di Km 5 da percorrere in non più di 15 minuti",
+      "text": "Per le scuole dell'infanzia non più di Km 5 da percorrere in non più di 15 minuti"
+    },
+    {
+      "self_ref": "#/texts/55",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 211.28101280406247,
+            "r": 401.13700564000004,
+            "b": 201.62863380406247,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            73
+          ]
+        }
+      ],
+      "orig": "Sul territorio comunale non vi sono altri punti di erogazione scolastica.",
+      "text": "Sul territorio comunale non vi sono altri punti di erogazione scolastica."
+    },
+    {
+      "self_ref": "#/texts/56",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 184.72699668406256,
+            "r": 542.01899417,
+            "b": 161.79761629406255,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            154
+          ]
+        }
+      ],
+      "orig": "E' presente sul territorio del Comune di Susa e di Venaus la scuola dell'infanzia, entrambi distanti non più di Km. 5 percorribili in non più di 15 minuti",
+      "text": "E' presente sul territorio del Comune di Susa e di Venaus la scuola dell'infanzia, entrambi distanti non più di Km. 5 percorribili in non più di 15 minuti"
+    },
+    {
+      "self_ref": "#/texts/57",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 144.89600303406257,
+            "r": 542.02100833,
+            "b": 121.96662264406257,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            106
+          ]
+        }
+      ],
+      "orig": "Dato atto che il Comune di Mompantero è un comune montano ed ha il diritto della scuola statale in deroga;",
+      "text": "Dato atto che il Comune di Mompantero è un comune montano ed ha il diritto della scuola statale in deroga;"
+    },
+    {
+      "self_ref": "#/texts/58",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 105.06500938406248,
+            "r": 542.02299197,
+            "b": 68.85862857406255,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            308
+          ]
+        },
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 782.1920235440625,
+            "r": 542.02799685,
+            "b": 759.2626431540625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            309,
+            468
+          ]
+        }
+      ],
+      "orig": "Dato  atto  che  con  nota  prot.  n.  0002118  del  18.06.2026  è  stato  richiesto  il  parere  all'Istituto Comprensivo Statale di Susa sul mantenimento in deroga della sezione della scuola dell'infanzia di Mompantero, non potendo disporre di un dato certo sugli iscritti per l'a.s. 2027/2028, considerato tuttavia  che  il  numero  degli  iscritti  è  sempre  stato  di  19/20  in  quanto  frequentano  la  scuola  di Mompantero alunni provenienti da altri Comuni;",
+      "text": "Dato  atto  che  con  nota  prot.  n.  0002118  del  18.06.2026  è  stato  richiesto  il  parere  all'Istituto Comprensivo Statale di Susa sul mantenimento in deroga della sezione della scuola dell'infanzia di Mompantero, non potendo disporre di un dato certo sugli iscritti per l'a.s. 2027/2028, considerato tuttavia  che  il  numero  degli  iscritti  è  sempre  stato  di  19/20  in  quanto  frequentano  la  scuola  di Mompantero alunni provenienti da altri Comuni;"
+    },
+    {
+      "self_ref": "#/texts/59",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 52.622010064062465,
+            "r": 532.4840007599995,
+            "b": 36.353201499255874,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            226
+          ]
+        }
+      ],
+      "orig": "Documento prodotto con sistema automatizzato del Comune di Mompantero.  Responsabile Procedimento: GUERCIO Cinzia  (D.Lgs. n. 39/93 art.3). La presente copia è destinata unicamente alla pubblicazione sull'albo pretorio on-line",
+      "text": "Documento prodotto con sistema automatizzato del Comune di Mompantero.  Responsabile Procedimento: GUERCIO Cinzia  (D.Lgs. n. 39/93 art.3). La presente copia è destinata unicamente alla pubblicazione sull'albo pretorio on-line"
+    },
+    {
+      "self_ref": "#/texts/60",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 742.3610222640625,
+            "r": 542.02698977,
+            "b": 692.8776410240625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            327
+          ]
+        }
+      ],
+      "orig": "Vista la comunicazione acclarata al prot. n. 0002237 del 29/06/2026 dell'Istituto Comprensivo di Susa a firma del Dirigente Scolastico, con la quale si comunica che per l'a.s. 2027/2028 non sono previsti  accorpamenti  di  classi  o  spostamento  fisici  di  classi  (allegata  al  presente  atto  per  farne parte integrante);",
+      "text": "Vista la comunicazione acclarata al prot. n. 0002237 del 29/06/2026 dell'Istituto Comprensivo di Susa a firma del Dirigente Scolastico, con la quale si comunica che per l'a.s. 2027/2028 non sono previsti  accorpamenti  di  classi  o  spostamento  fisici  di  classi  (allegata  al  presente  atto  per  farne parte integrante);"
+    },
+    {
+      "self_ref": "#/texts/61",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 675.9760201240625,
+            "r": 542.02698977,
+            "b": 599.9386418440625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            609
+          ]
+        }
+      ],
+      "orig": "Ritenuto di fondamentale importanza il mantenimento della scuola dell'infanzia, in deroga ai criteri previsti  per  le  scuole  site  in  comuni  montani  e/o  in  situazioni  di  marginalità  di  cui  alla  D.G.R. 21/11/2008, n. 1 - 10104, per evitare che il territorio venga depauperato dei servizi scolastici con conseguente spopolamento dei comuni montani, il mantenimento delle attività economiche della montagna è strettamente correlato al mantenimento della residenzialità delle famiglie, con i loro valori, con la cura del territorio, elemento indispensabile per l'economia globale delle nostre valli;",
+      "text": "Ritenuto di fondamentale importanza il mantenimento della scuola dell'infanzia, in deroga ai criteri previsti  per  le  scuole  site  in  comuni  montani  e/o  in  situazioni  di  marginalità  di  cui  alla  D.G.R. 21/11/2008, n. 1 - 10104, per evitare che il territorio venga depauperato dei servizi scolastici con conseguente spopolamento dei comuni montani, il mantenimento delle attività economiche della montagna è strettamente correlato al mantenimento della residenzialità delle famiglie, con i loro valori, con la cura del territorio, elemento indispensabile per l'economia globale delle nostre valli;"
+    },
+    {
+      "self_ref": "#/texts/62",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 583.0370247640625,
+            "r": 317.74198611,
+            "b": 573.3846457640625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            55
+          ]
+        }
+      ],
+      "orig": "Visto il d.lgs. 18 agosto 2000, n. 267 e ss. mm. e ii.;",
+      "text": "Visto il d.lgs. 18 agosto 2000, n. 267 e ss. mm. e ii.;"
+    },
+    {
+      "self_ref": "#/texts/63",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 556.4830239140625,
+            "r": 542.02698977,
+            "b": 520.2766431040625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            274
+          ]
+        }
+      ],
+      "orig": "Preso  atto  che  sulla  proposta  di  deliberazione  di  cui  al  presente  verbale,  ex  art.  49  del  d.lgs. 267/2000, ha espresso parere favorevole il responsabile dell'Area Amministrativa - Contabile, per quanto di propria competenza in ordine alla regolarità tecnica;",
+      "text": "Preso  atto  che  sulla  proposta  di  deliberazione  di  cui  al  presente  verbale,  ex  art.  49  del  d.lgs. 267/2000, ha espresso parere favorevole il responsabile dell'Area Amministrativa - Contabile, per quanto di propria competenza in ordine alla regolarità tecnica;"
+    },
+    {
+      "self_ref": "#/texts/64",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 503.37503746406253,
+            "r": 438.27201541000005,
+            "b": 493.72265846406253,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            73
+          ]
+        }
+      ],
+      "orig": "Con votazione favorevole unanime, palesemente espressa per alzata di mano",
+      "text": "Con votazione favorevole unanime, palesemente espressa per alzata di mano"
+    },
+    {
+      "self_ref": "#/texts/65",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 273.0070076,
+            "t": 476.8210213440625,
+            "r": 325.72401126000005,
+            "b": 467.1686423440625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "DELIBERA",
+      "text": "DELIBERA",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/66",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 450.26703575406253,
+            "r": 542.03199466,
+            "b": 427.3376553640625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            110
+          ]
+        }
+      ],
+      "orig": "1. Di dare atto che la premessa narrativa costituisce parte integrante e sostanziale del presente dispositivo;",
+      "text": "Di dare atto che la premessa narrativa costituisce parte integrante e sostanziale del presente dispositivo;",
+      "enumerated": true,
+      "marker": "1."
+    },
+    {
+      "self_ref": "#/texts/67",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 410.4360115840625,
+            "r": 542.02299197,
+            "b": 374.2296307740625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            244
+          ]
+        }
+      ],
+      "orig": "2. Di richiedere l'applicazione delle disposizioni di cui in premessa per mantenere i SERVIZI DEI PLESSI DI SCUOLA STATALE IN DEROGA A.S. 2027/2028 relativi al plesso scolastico presente nel comune di Mompantero: n.1 scuola infanzia (1 sezione)",
+      "text": "Di richiedere l'applicazione delle disposizioni di cui in premessa per mantenere i SERVIZI DEI PLESSI DI SCUOLA STATALE IN DEROGA A.S. 2027/2028 relativi al plesso scolastico presente nel comune di Mompantero: n.1 scuola infanzia (1 sezione)",
+      "enumerated": true,
+      "marker": "2."
+    },
+    {
+      "self_ref": "#/texts/68",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 357.3280098740625,
+            "r": 542.02799685,
+            "b": 334.3986294840625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            155
+          ]
+        }
+      ],
+      "orig": "3. Di trasmettere la presente deliberazione alla Direzione Area Istruzione e Sviluppo Sociale della Città Metropolitana di Torino tramite piattaforma MOOn.",
+      "text": "Di trasmettere la presente deliberazione alla Direzione Area Istruzione e Sviluppo Sociale della Città Metropolitana di Torino tramite piattaforma MOOn.",
+      "enumerated": true,
+      "marker": "3."
+    },
+    {
+      "self_ref": "#/texts/69",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 317.49701622406246,
+            "r": 545.46298758,
+            "b": 281.29063541406254,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            216
+          ]
+        }
+      ],
+      "orig": "4.  Di  dichiarare  la  presente  deliberazione,  con  separata  e  successiva  votazione  favorevole unanime, palesemente espressa per alzata di mano, immediatamente eseguibile, art. 134 comma 4)del D.Lgs. 267/2000.",
+      "text": " Di  dichiarare  la  presente  deliberazione,  con  separata  e  successiva  votazione  favorevole unanime, palesemente espressa per alzata di mano, immediatamente eseguibile, art. 134 comma 4)del D.Lgs. 267/2000.",
+      "enumerated": true,
+      "marker": "4."
+    },
+    {
+      "self_ref": "#/texts/70",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 56.70000076,
+            "t": 52.622010064062465,
+            "r": 532.4840007599995,
+            "b": 36.353201499255874,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            226
+          ]
+        }
+      ],
+      "orig": "Documento prodotto con sistema automatizzato del Comune di Mompantero.  Responsabile Procedimento: GUERCIO Cinzia  (D.Lgs. n. 39/93 art.3). La presente copia è destinata unicamente alla pubblicazione sull'albo pretorio on-line",
+      "text": "Documento prodotto con sistema automatizzato del Comune di Mompantero.  Responsabile Procedimento: GUERCIO Cinzia  (D.Lgs. n. 39/93 art.3). La presente copia è destinata unicamente alla pubblicazione sull'albo pretorio on-line"
+    },
+    {
+      "self_ref": "#/texts/71",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 770.0840235040625,
+            "r": 216.9829946,
+            "b": 759.5541555040625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            33
+          ]
+        }
+      ],
+      "orig": "Letto, confermato e sottoscritto.",
+      "text": "Letto, confermato e sottoscritto."
+    },
+    {
+      "self_ref": "#/texts/72",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 90.61200094,
+            "t": 730.9760227440626,
+            "r": 177.13099865,
+            "b": 720.4461547440625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            13
+          ]
+        }
+      ],
+      "orig": "IL PRESIDENTE",
+      "text": "IL PRESIDENTE"
+    },
+    {
+      "self_ref": "#/texts/73",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 77.39899969,
+            "t": 717.9400224940625,
+            "r": 190.34399609000002,
+            "b": 707.4101544940625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            20
+          ]
+        }
+      ],
+      "orig": "Firmato digitalmente",
+      "text": "Firmato digitalmente"
+    },
+    {
+      "self_ref": "#/texts/74",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 63.77599859,
+            "t": 704.9040222440625,
+            "r": 203.96699719,
+            "b": 694.3741542440624,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            22
+          ]
+        }
+      ],
+      "orig": "F.to : GASTALDO DAVIDE",
+      "text": "F.to : GASTALDO DAVIDE"
+    },
+    {
+      "self_ref": "#/texts/75",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 349.95299959,
+            "t": 730.9760227440626,
+            "r": 502.58999829,
+            "b": 720.4461547440625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            22
+          ]
+        }
+      ],
+      "orig": "IL SEGRETARIO COMUNALE",
+      "text": "IL SEGRETARIO COMUNALE"
+    },
+    {
+      "self_ref": "#/texts/76",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 369.79899739999996,
+            "t": 717.9400224940625,
+            "r": 482.74400524,
+            "b": 707.4101544940625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            20
+          ]
+        }
+      ],
+      "orig": "Firmato digitalmente",
+      "text": "Firmato digitalmente"
+    },
+    {
+      "self_ref": "#/texts/77",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 338.00599909,
+            "t": 704.9040222440625,
+            "r": 514.53700451,
+            "b": 694.3741542440624,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            31
+          ]
+        }
+      ],
+      "orig": "F.to : Dr.ssa Marietta CARCIONE",
+      "text": "F.to : Dr.ssa Marietta CARCIONE"
+    },
+    {
+      "self_ref": "#/texts/78",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 648.3030219840625,
+            "r": 503.82598629999995,
+            "b": 625.9330361787033,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            101
+          ]
+        }
+      ],
+      "orig": "Copia conforme all'originale firmato digitalmente, per gli usi consentiti dalla Legge. lì, 30/06/2026",
+      "text": "Copia conforme all'originale firmato digitalmente, per gli usi consentiti dalla Legge. lì, 30/06/2026"
+    },
+    {
+      "self_ref": "#/texts/79",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 293.56299638999997,
+            "t": 635.6540218140625,
+            "r": 520.94399778,
+            "b": 613.2840369687034,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            46
+          ]
+        }
+      ],
+      "orig": "IL SEGRETARIO COMUNALEDr.ssa Marietta CARCIONE",
+      "text": "IL SEGRETARIO COMUNALEDr.ssa Marietta CARCIONE"
+    },
+    {
+      "self_ref": "#/texts/80",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 52.622010064062465,
+            "r": 518.3339992399995,
+            "b": 36.353201499255874,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            226
+          ]
+        }
+      ],
+      "orig": "Documento prodotto con sistema automatizzato del Comune di Mompantero.  Responsabile Procedimento: GUERCIO Cinzia  (D.Lgs. n. 39/93 art.3). La presente copia è destinata unicamente alla pubblicazione sull'albo pretorio on-line",
+      "text": "Documento prodotto con sistema automatizzato del Comune di Mompantero.  Responsabile Procedimento: GUERCIO Cinzia  (D.Lgs. n. 39/93 art.3). La presente copia è destinata unicamente alla pubblicazione sull'albo pretorio on-line"
+    }
+  ],
+  "pictures": [
+    {
+      "self_ref": "#/pictures/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 87.23457336425781,
+            "t": 750.2873077392578,
+            "r": 149.4418487548828,
+            "b": 661.7576751708984,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    }
+  ],
+  "tables": [
+    {
+      "self_ref": "#/tables/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "table",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 74.92555236816406,
+            "t": 413.734619140625,
+            "r": 519.2755737304688,
+            "b": 273.42352294921875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "data": {
+        "table_cells": [
+          {
+            "bbox": {
+              "l": 208.49799919,
+              "t": 432.62901112,
+              "r": 314.49999687,
+              "b": 443.15887912,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 2,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 2,
+            "text": "Cognome e Nome",
+            "column_header": true,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 456.06999493,
+              "t": 432.62901112,
+              "r": 509.38599493000004,
+              "b": 443.15887912,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "Presente",
+            "column_header": true,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 79.92500114,
+              "t": 462.34701153,
+              "r": 274.2090059,
+              "b": 472.87687953,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 2,
+            "start_row_offset_idx": 1,
+            "end_row_offset_idx": 2,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 2,
+            "text": "1. GASTALDO DAVIDE - Sindaco",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 478.01099586000004,
+              "t": 462.34701153,
+              "r": 487.44299586000005,
+              "b": 472.87687953,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 1,
+            "end_row_offset_idx": 2,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "Sì",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 79.92500114,
+              "t": 484.07301135999995,
+              "r": 334.42000444,
+              "b": 494.60287936,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 2,
+            "start_row_offset_idx": 2,
+            "end_row_offset_idx": 3,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 2,
+            "text": "2. PESANDO MARIA LAURA - Vice Sindaco",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 478.01099586000004,
+              "t": 484.07301135999995,
+              "r": 487.44299586000005,
+              "b": 494.60287936,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 2,
+            "end_row_offset_idx": 3,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "Sì",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 79.92500114,
+              "t": 505.79900928999996,
+              "r": 269.00900419000004,
+              "b": 516.32887729,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 2,
+            "start_row_offset_idx": 3,
+            "end_row_offset_idx": 4,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 2,
+            "text": "3. CHIOLERO LINO - Assessore",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 478.01099586000004,
+              "t": 505.79900928999996,
+              "r": 487.44299586000005,
+              "b": 516.32887729,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 3,
+            "end_row_offset_idx": 4,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "Sì",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 359.81300163000003,
+              "t": 542.00900837,
+              "r": 443.07799064,
+              "b": 552.53887637,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 4,
+            "end_row_offset_idx": 5,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "Totale Presenti:",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 479.44899559000004,
+              "t": 542.00900837,
+              "r": 486.00099559000006,
+              "b": 552.53887637,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 4,
+            "end_row_offset_idx": 5,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "3",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 364.5179882,
+              "t": 556.4930095299999,
+              "r": 443.07900772999994,
+              "b": 567.02287753,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 5,
+            "end_row_offset_idx": 6,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "Totale Assenti:",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 479.44899559000004,
+              "t": 556.4930095299999,
+              "r": 486.00099559000006,
+              "b": 567.02287753,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 5,
+            "end_row_offset_idx": 6,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "0",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          }
+        ],
+        "num_rows": 6,
+        "num_cols": 3,
+        "grid": [
+          [
+            {
+              "bbox": {
+                "l": 208.49799919,
+                "t": 432.62901112,
+                "r": 314.49999687,
+                "b": 443.15887912,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 2,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 2,
+              "text": "Cognome e Nome",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 208.49799919,
+                "t": 432.62901112,
+                "r": 314.49999687,
+                "b": 443.15887912,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 2,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 2,
+              "text": "Cognome e Nome",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 456.06999493,
+                "t": 432.62901112,
+                "r": 509.38599493000004,
+                "b": 443.15887912,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "Presente",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 79.92500114,
+                "t": 462.34701153,
+                "r": 274.2090059,
+                "b": 472.87687953,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 2,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 2,
+              "text": "1. GASTALDO DAVIDE - Sindaco",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 79.92500114,
+                "t": 462.34701153,
+                "r": 274.2090059,
+                "b": 472.87687953,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 2,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 2,
+              "text": "1. GASTALDO DAVIDE - Sindaco",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 478.01099586000004,
+                "t": 462.34701153,
+                "r": 487.44299586000005,
+                "b": 472.87687953,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "Sì",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 79.92500114,
+                "t": 484.07301135999995,
+                "r": 334.42000444,
+                "b": 494.60287936,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 2,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 2,
+              "text": "2. PESANDO MARIA LAURA - Vice Sindaco",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 79.92500114,
+                "t": 484.07301135999995,
+                "r": 334.42000444,
+                "b": 494.60287936,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 2,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 2,
+              "text": "2. PESANDO MARIA LAURA - Vice Sindaco",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 478.01099586000004,
+                "t": 484.07301135999995,
+                "r": 487.44299586000005,
+                "b": 494.60287936,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "Sì",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 79.92500114,
+                "t": 505.79900928999996,
+                "r": 269.00900419000004,
+                "b": 516.32887729,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 2,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 2,
+              "text": "3. CHIOLERO LINO - Assessore",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 79.92500114,
+                "t": 505.79900928999996,
+                "r": 269.00900419000004,
+                "b": 516.32887729,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 2,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 2,
+              "text": "3. CHIOLERO LINO - Assessore",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 478.01099586000004,
+                "t": 505.79900928999996,
+                "r": 487.44299586000005,
+                "b": 516.32887729,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "Sì",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 359.81300163000003,
+                "t": 542.00900837,
+                "r": 443.07799064,
+                "b": 552.53887637,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "Totale Presenti:",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 479.44899559000004,
+                "t": 542.00900837,
+                "r": 486.00099559000006,
+                "b": 552.53887637,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "3",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 5,
+              "end_row_offset_idx": 6,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 364.5179882,
+                "t": 556.4930095299999,
+                "r": 443.07900772999994,
+                "b": 567.02287753,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 5,
+              "end_row_offset_idx": 6,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "Totale Assenti:",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 479.44899559000004,
+                "t": 556.4930095299999,
+                "r": 486.00099559000006,
+                "b": 567.02287753,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 5,
+              "end_row_offset_idx": 6,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "0",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ]
+        ]
+      },
+      "annotations": []
+    }
+  ],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {
+    "1": {
+      "size": {
+        "width": 595.2999877929688,
+        "height": 841.9000244140625
+      },
+      "page_no": 1
+    },
+    "2": {
+      "size": {
+        "width": 595.2999877929688,
+        "height": 841.9000244140625
+      },
+      "page_no": 2
+    },
+    "3": {
+      "size": {
+        "width": 595.2999877929688,
+        "height": 841.9000244140625
+      },
+      "page_no": 3
+    },
+    "4": {
+      "size": {
+        "width": 595.2999877929688,
+        "height": 841.9000244140625
+      },
+      "page_no": 4
+    },
+    "5": {
+      "size": {
+        "width": 595.2999877929688,
+        "height": 841.9000244140625
+      },
+      "page_no": 5
+    }
+  }
+}

@@ -1,0 +1,924 @@
+{
+  "file name" : "atto_3.pdf",
+  "number of pages" : 4,
+  "author" : "Lucia Palmas",
+  "title" : null,
+  "creation date" : "D:20260605122451+02'00'",
+  "modification date" : "D:20260605122451+02'00'",
+  "kids" : [ {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 1,
+    "page number" : 1,
+    "bounding box" : [ 56.65, 658.22, 276.6, 771.12 ],
+    "source" : "atto_3_images/imageFile1.png"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 2,
+    "level" : "Doctitle",
+    "page number" : 1,
+    "bounding box" : [ 135.02, 636.52, 460.082, 654.52 ],
+    "heading level" : 1,
+    "font" : "Calibri-Bold",
+    "font size" : 18.0,
+    "text color" : "[0.0]",
+    "content" : "DELIBERAZIONE DELLA GIUNTA COMUNALE"
+  }, {
+    "type" : "table",
+    "pdfua_tag" : "Table",
+    "id" : 3,
+    "level" : "1",
+    "page number" : 1,
+    "bounding box" : [ 34.92, 571.27, 553.32, 614.26 ],
+    "number of rows" : 1,
+    "number of columns" : 2,
+    "rows" : [ {
+      "type" : "table row",
+      "row number" : 1,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 35.64, 571.99, 129.742, 613.537 ],
+        "row number" : 1,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 1,
+          "page number" : 1,
+          "bounding box" : [ 38.88, 572.034, 113.892, 612.923 ],
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "N. 51 Del 04/06/2026"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 129.742, 571.99, 552.6, 613.537 ],
+        "row number" : 1,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 3,
+          "page number" : 1,
+          "bounding box" : [ 133.22, 585.834, 549.23, 612.923 ],
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "OGGETTO: Centro estivo Comune di Bitti. Anno 2026. Atto di indirizzo per l’attivazione."
+        } ]
+      } ]
+    } ]
+  }, {
+    "type" : "caption",
+    "id" : 4,
+    "page number" : 1,
+    "bounding box" : [ 63.744, 528.46, 524.003, 549.46 ],
+    "linked content id" : 5,
+    "font" : "Calibri",
+    "font size" : 9.48,
+    "text color" : "[0.0]",
+    "content" : "L’anno duemilaventisei, addì 04 del mese di Giugno alle ore 20:00 nella sala delle adunanze del Comune suddetto, convocata regolarmente la Giunta Municipale, si è la medesima riunita nelle persone seguenti:"
+  }, {
+    "type" : "table",
+    "pdfua_tag" : "Table",
+    "id" : 5,
+    "level" : "2",
+    "page number" : 1,
+    "bounding box" : [ 62.424, 421.61, 546.0, 516.67 ],
+    "number of rows" : 5,
+    "number of columns" : 4,
+    "rows" : [ {
+      "type" : "table row",
+      "row number" : 1,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 62.904, 502.75, 247.847, 516.19 ],
+        "row number" : 1,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 5,
+          "page number" : 1,
+          "bounding box" : [ 63.024, 503.98, 174.774, 513.46 ],
+          "font" : "Calibri",
+          "font size" : 9.48,
+          "text color" : "[0.0]",
+          "content" : "Giuseppe CICCOLINI, Sindaco"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 247.847, 502.75, 293.45, 516.19 ],
+        "row number" : 1,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 6,
+          "page number" : 1,
+          "bounding box" : [ 248.09, 504.7, 282.54, 514.18 ],
+          "font" : "Calibri",
+          "font size" : 9.48,
+          "text color" : "[0.0]",
+          "content" : "presente"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 293.45, 502.75, 340.272, 516.19 ],
+        "row number" : 1,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 7,
+          "page number" : 1,
+          "bounding box" : [ 305.71, 504.7, 327.979, 514.18 ],
+          "font" : "Calibri",
+          "font size" : 9.48,
+          "text color" : "[0.0]",
+          "content" : "Video"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 340.272, 422.09, 545.52, 516.19 ],
+        "row number" : 1,
+        "column number" : 4,
+        "row span" : 5,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 8,
+          "page number" : 1,
+          "bounding box" : [ 342.31, 481.54, 541.883, 514.18 ],
+          "font" : "Calibri",
+          "font size" : 9.48,
+          "text color" : "[0.0]",
+          "content" : "Partecipa con funzioni consultive referenti e di assistenza e ne cura la relativa verbalizzazione il Segretario Comunale Dott. Zanzarella Vincenzo"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 2,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 62.904, 485.83, 247.847, 502.75 ],
+        "row number" : 2,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 12,
+          "page number" : 1,
+          "bounding box" : [ 63.024, 488.62, 164.024, 498.1 ],
+          "font" : "Calibri",
+          "font size" : 9.48,
+          "text color" : "[0.0]",
+          "content" : "Giuseppe PALA, Assessore"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 247.847, 485.83, 293.45, 502.75 ],
+        "row number" : 2,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 13,
+          "page number" : 1,
+          "bounding box" : [ 248.09, 491.02, 282.54, 500.5 ],
+          "font" : "Calibri",
+          "font size" : 9.48,
+          "text color" : "[0.0]",
+          "content" : "presente"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 293.45, 485.83, 340.272, 502.75 ],
+        "row number" : 2,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 14,
+          "page number" : 1,
+          "bounding box" : [ 305.71, 491.02, 327.979, 500.5 ],
+          "font" : "Calibri",
+          "font size" : 9.48,
+          "text color" : "[0.0]",
+          "content" : "Video"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 3,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 62.904, 464.352, 247.847, 485.83 ],
+        "row number" : 3,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 15,
+          "page number" : 1,
+          "bounding box" : [ 63.024, 474.1, 171.087, 483.58 ],
+          "font" : "Calibri",
+          "font size" : 9.48,
+          "text color" : "[0.0]",
+          "content" : "Christian FARINA, Assessore"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 247.847, 464.352, 293.45, 485.83 ],
+        "row number" : 3,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 16,
+          "page number" : 1,
+          "bounding box" : [ 248.09, 474.1, 282.54, 483.58 ],
+          "font" : "Calibri",
+          "font size" : 9.48,
+          "text color" : "[0.0]",
+          "content" : "presente"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 293.45, 464.352, 340.272, 485.83 ],
+        "row number" : 3,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 17,
+          "page number" : 1,
+          "bounding box" : [ 305.71, 474.1, 327.979, 483.58 ],
+          "font" : "Calibri",
+          "font size" : 9.48,
+          "text color" : "[0.0]",
+          "content" : "Video"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 4,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 62.904, 443.21, 247.847, 464.352 ],
+        "row number" : 4,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 18,
+          "page number" : 1,
+          "bounding box" : [ 63.024, 452.62, 222.345, 462.1 ],
+          "font" : "Calibri",
+          "font size" : 9.48,
+          "text color" : "[0.0]",
+          "content" : "Giovanna Giuseppina MAMELI, Assessora"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 247.847, 443.21, 293.45, 464.352 ],
+        "row number" : 4,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 19,
+          "page number" : 1,
+          "bounding box" : [ 248.09, 452.62, 282.54, 462.1 ],
+          "font" : "Calibri",
+          "font size" : 9.48,
+          "text color" : "[0.0]",
+          "content" : "presente"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 293.45, 443.21, 340.272, 464.352 ],
+        "row number" : 4,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 20,
+          "page number" : 1,
+          "bounding box" : [ 305.71, 452.62, 327.979, 462.1 ],
+          "font" : "Calibri",
+          "font size" : 9.48,
+          "text color" : "[0.0]",
+          "content" : "Video"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 5,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 62.904, 422.09, 247.847, 443.21 ],
+        "row number" : 5,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 21,
+          "page number" : 1,
+          "bounding box" : [ 63.024, 426.92, 158.867, 436.4 ],
+          "font" : "Calibri",
+          "font size" : 9.48,
+          "text color" : "[0.0]",
+          "content" : "Pietro SANNA, Assessore"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 247.847, 422.09, 293.45, 443.21 ],
+        "row number" : 5,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 22,
+          "page number" : 1,
+          "bounding box" : [ 248.09, 431.48, 282.54, 440.96 ],
+          "font" : "Calibri",
+          "font size" : 9.48,
+          "text color" : "[0.0]",
+          "content" : "presente"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 293.45, 422.09, 340.272, 443.21 ],
+        "row number" : 5,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 23,
+          "page number" : 1,
+          "bounding box" : [ 305.71, 431.48, 327.979, 440.96 ],
+          "font" : "Calibri",
+          "font size" : 9.48,
+          "text color" : "[0.0]",
+          "content" : "Video"
+        } ]
+      } ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 6,
+    "page number" : 1,
+    "bounding box" : [ 56.664, 340.52, 538.769, 407.96 ],
+    "font" : "Calibri",
+    "font size" : 9.48,
+    "text color" : "[0.0]",
+    "content" : "La verifica della regolarità della seduta, svolta secondo le modalità stabilite nel decreto n. 2 del 05/05/2020, in base alla previsione dell’art. 73, del D.L: 17 marzo 2020, n. 18, è stata operata dal Segretario Comunale Dott. Zanzarella Vincenzo Presiede il Sig. Giuseppe Ciccolini nella sua qualità di Sindaco; Partecipa con funzioni consultive referenti e di assistenza e ne cura la relativa verbalizzazione il Segretario Comunale Dott. Zanzarella Vincenzo. Il Sindaco, constatato il numero legale degli intervenuti, dichiara aperta la riunione e li invita a deliberare sull’oggetto sopraindicato."
+  }, {
+    "type" : "caption",
+    "id" : 7,
+    "page number" : 1,
+    "bounding box" : [ 56.664, 294.2, 342.783, 326.84 ],
+    "linked content id" : 8,
+    "font" : "Calibri",
+    "font size" : 9.48,
+    "text color" : "[0.0]",
+    "content" : "LA GIUNTA COMUNALE Acquisiti i pareri di cui all’articolo 49 del T.U. 267/00:"
+  }, {
+    "type" : "table",
+    "pdfua_tag" : "Table",
+    "id" : 8,
+    "level" : "3",
+    "page number" : 1,
+    "bounding box" : [ 56.28, 245.3, 566.28, 294.02 ],
+    "number of rows" : 2,
+    "number of columns" : 2,
+    "next table id" : 9,
+    "rows" : [ {
+      "type" : "table row",
+      "row number" : 1,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 57.012, 281.3, 78.024, 293.294 ],
+        "row number" : 1,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 25,
+          "page number" : 1,
+          "bounding box" : [ 60.264, 281.81, 65.07, 291.29 ],
+          "font" : "Calibri",
+          "font size" : 9.48,
+          "text color" : "[0.0]",
+          "content" : "1"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 78.024, 281.3, 565.562, 293.294 ],
+        "row number" : 1,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 26,
+          "page number" : 1,
+          "bounding box" : [ 81.504, 281.81, 342.95, 291.29 ],
+          "font" : "Calibri",
+          "font size" : 9.48,
+          "text color" : "[0.0]",
+          "content" : "Si esprime parere favorevole sotto il profilo tecnico-amministrativo."
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 2,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 57.012, 246.026, 565.562, 281.3 ],
+        "row number" : 2,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 2,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 27,
+          "page number" : 1,
+          "bounding box" : [ 442.445, 257.81, 562.367, 278.93 ],
+          "font" : "Calibri",
+          "font size" : 9.48,
+          "text color" : "[0.0]",
+          "content" : "IL RESPONSABILE DEL SERVIZIO (Dott.ssa Lucia A. Palmas )"
+        } ]
+      } ]
+    } ]
+  }, {
+    "type" : "table",
+    "pdfua_tag" : "Table",
+    "id" : 9,
+    "level" : "3",
+    "page number" : 1,
+    "bounding box" : [ 56.28, 185.06, 566.4, 233.78 ],
+    "number of rows" : 2,
+    "number of columns" : 2,
+    "previous table id" : 8,
+    "rows" : [ {
+      "type" : "table row",
+      "row number" : 1,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 57.012, 221.06, 78.024, 233.054 ],
+        "row number" : 1,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 29,
+          "page number" : 1,
+          "bounding box" : [ 60.264, 221.57, 65.07, 231.05 ],
+          "font" : "Calibri",
+          "font size" : 9.48,
+          "text color" : "[0.0]",
+          "content" : "2"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 78.024, 221.06, 565.682, 233.054 ],
+        "row number" : 1,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 30,
+          "page number" : 1,
+          "bounding box" : [ 81.504, 221.57, 425.486, 231.05 ],
+          "font" : "Calibri",
+          "font size" : 9.48,
+          "text color" : "[0.0]",
+          "content" : "Si esprime parere favorevole sulla regolarità contabile attestante la copertura finanziaria."
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 2,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 57.012, 185.786, 565.682, 221.06 ],
+        "row number" : 2,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 2,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 31,
+          "page number" : 1,
+          "bounding box" : [ 442.565, 197.57, 562.487, 218.69 ],
+          "font" : "Calibri",
+          "font size" : 9.48,
+          "text color" : "[0.0]",
+          "content" : "IL RESPONSABILE DEL SERVIZIO (Dott.ssa Debora Cosseddu)"
+        } ]
+      } ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 10,
+    "page number" : 2,
+    "bounding box" : [ 56.664, 759.61, 298.195, 769.09 ],
+    "font" : "Calibri",
+    "font size" : 9.48,
+    "text color" : "[0.0]",
+    "content" : "Il presente verbale viene approvato e sottoscritto come segue:"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 11,
+    "page number" : 2,
+    "bounding box" : [ 245.57, 693.85, 349.518, 749.77 ],
+    "font" : "Calibri",
+    "font size" : 9.48,
+    "text color" : "[0.0]",
+    "content" : "Il Sindaco (Sig. Giuseppe Ciccolini) Il Segretario Comunale (Dott. Zanzarella Vincenzo)"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 13,
+    "page number" : 2,
+    "bounding box" : [ 56.664, 645.01, 272.448, 654.49 ],
+    "font" : "Calibri",
+    "font size" : 9.48,
+    "text color" : "[0.0]",
+    "content" : "Il sottoscritto Segretario comunale, visti gli atti d’ufficio,"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 14,
+    "page number" : 2,
+    "bounding box" : [ 56.664, 615.97, 314.63, 642.85 ],
+    "font" : "Calibri",
+    "font size" : 9.48,
+    "text color" : "[0.0]",
+    "content" : "ATTESTA che la presente deliberazione:"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 15,
+    "page number" : 2,
+    "bounding box" : [ 58.824, 598.54, 538.729, 608.904 ],
+    "font" : "Calibri",
+    "font size" : 9.48,
+    "text color" : "[0.0]",
+    "content" : " È stata affissa all’Albo Pretorio Comunale per quindici giorni consecutivi, dal 05/06/2026 al 20/06/2026 ai sensi dell’art."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 16,
+    "page number" : 2,
+    "bounding box" : [ 58.824, 563.74, 256.504, 590.62 ],
+    "font" : "Calibri",
+    "font size" : 9.48,
+    "text color" : "[0.0]",
+    "content" : "124, comma 1, D.Lgs. 267/2000 senza reclami;  È diventata esecutiva il giorno 04/06/2026"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 17,
+    "level" : "4",
+    "page number" : 2,
+    "bounding box" : [ 73.584, 546.34, 406.549, 557.232 ],
+    "font" : "Calibri",
+    "font size" : 9.48,
+    "text color" : "[0.0]",
+    "content" : " Perché dichiarata immediatamente eseguibile (art 134, comma 4, D.Lgs. 267/2000);"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 18,
+    "level" : "4",
+    "page number" : 2,
+    "bounding box" : [ 73.584, 528.94, 402.824, 539.832 ],
+    "font" : "Calibri",
+    "font size" : 9.48,
+    "text color" : "[0.0]",
+    "content" : " Perché decorsi 10 giorni dalla pubblicazione (art. 134, comma 3, D. Lgs. 267/2000);"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 19,
+    "page number" : 2,
+    "bounding box" : [ 56.664, 482.62, 434.468, 503.74 ],
+    "font" : "Calibri",
+    "font size" : 9.48,
+    "text color" : "[0.0]",
+    "content" : "Dalla residenza comunale, lì 05/06/2026 Il Segretario Comunale (Dott. Dott. Zanzarella Vincenzo)"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 21,
+    "page number" : 3,
+    "bounding box" : [ 56.664, 725.866, 399.029, 750.215 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 9.96,
+    "text color" : "[0.0]",
+    "content" : "Oggetto: Centro estivo Comune di Bitti. Anno 2026. Atto di indirizzo per l’attivazione."
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H2",
+    "id" : 22,
+    "level" : "Subtitle",
+    "page number" : 3,
+    "bounding box" : [ 242.81, 693.269, 362.061, 704.397 ],
+    "heading level" : 2,
+    "font" : "Arial-BoldMT",
+    "font size" : 9.96,
+    "text color" : "[0.0]",
+    "content" : "LA GIUNTA MUNICIPALE"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 23,
+    "page number" : 3,
+    "bounding box" : [ 56.664, 652.066, 538.72, 674.615 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 9.96,
+    "text color" : "[0.0]",
+    "content" : "VISTA la Deliberazione CC n. 3 del 13/03/2026 di approvazione del documento unico di programmazione (DUP) – periodo 2026-2028 discussione e conseguente deliberazione (art. 170, comma 1, del d.lgs. n. 267/2000);"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 24,
+    "page number" : 3,
+    "bounding box" : [ 56.664, 606.076, 538.37, 640.055 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 9.96,
+    "text color" : "[0.0]",
+    "content" : "VISTA la Deliberazione del Consiglio Comunale N. 4 DEL 13/03/2026 avente per oggetto APPROVAZIONE DEL BILANCIO DI PREVISIONE FINANZIARIO 2026-2028 (ART. 151 DEL D.LGS. N. 267/2000 E ART. 10, D.LGS. N. 118/2011);"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 25,
+    "page number" : 3,
+    "bounding box" : [ 56.664, 552.556, 538.061, 591.545 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 9.96,
+    "text color" : "[0.0]",
+    "content" : "VISTO il decreto legislativo 23/6/2011 n. 118, emanato in attuazione degli art. 1 e 2 della legge 5 maggio 2009 n. 42 recante “Disposizioni in materia di armonizzazione dei sistemi contabili e degli schemi di bilancio delle regioni, degli enti locali e dei loro organismi”;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 26,
+    "page number" : 3,
+    "bounding box" : [ 56.664, 502.156, 537.931, 538.025 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 9.96,
+    "text color" : "[0.0]",
+    "content" : "VISTO il decreto legislativo 18 agosto 2000, n. 267, come modificato e integrato dal D.Lgs. 10 agosto 2014, n. 126, dalla L. 23 dicembre 2014, n. 190 e dal D.L. 19 giugno 2015, n. 78, convertito, con modificazioni, dalla L. 6 agosto 2015, n. 125 e in particolare gli artt. 107, 163, 183, 185 e 191;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 27,
+    "page number" : 3,
+    "bounding box" : [ 56.664, 457.036, 538.549, 492.785 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 9.96,
+    "text color" : "[0.0]",
+    "content" : "PREMESSO che per l’Amministrazione Comunale riveste fondamentale importanza la promozione e valorizzazione della socialità, nelle sue varie manifestazioni, anche quali momenti di arricchimento e svago rivolti sia agli adulti che ai minori;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 28,
+    "page number" : 3,
+    "bounding box" : [ 56.664, 411.776, 538.762, 447.645 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 9.96,
+    "text color" : "[0.0]",
+    "content" : "DATO atto che le attività estive per bambini e ragazzi rappresentano una soluzione sempre più utilizzata dalle famiglie e nei centri estivi i bambini si ritrovano a spendersi in contesti diversi di gioco, di movimento, di relazione e scambio tra il gruppo dei pari;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 29,
+    "page number" : 3,
+    "bounding box" : [ 56.664, 322.376, 538.737, 402.405 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 9.96,
+    "text color" : "[0.0]",
+    "content" : "VISTA la legge 30 dicembre 2025, n. 199, che prevede, all’articolo 1, comma 222, che, al fine di sostenere le famiglie e facilitare la conciliazione fra vita privata e lavoro, nello stato di previsione del Ministero dell’economia e delle finanze, per il successivo trasferimento al bilancio autonomo della Presidenza del Consiglio dei ministri – Dipartimento per le Politiche della famiglia, è istituito un Fondo per le attività socio-educative a favore dei minori, con una dotazione pari a 60 milioni di euro annui a decorrere dall’anno 2026, destinato al finanziamento di iniziative dei comuni, da attuare anche in collaborazione con enti pubblici e privati, finalizzate al potenziamento dei centri estivi, dei servizi socioeducativi territoriali e dei centri con funzione educativa e ricreativa che svolgono attività a favore dei minori."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 30,
+    "page number" : 3,
+    "bounding box" : [ 56.664, 276.386, 538.226, 310.365 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 9.96,
+    "text color" : "[0.0]",
+    "content" : "CHE il Comune di Bitti entro la data di scadenza ha trasmesso la propria manifestazione di interesse per usufruire del Fondo per le attività socio-educative a favore dei minori per l’anno 2026, come risultante l’elenco provvisorio dei comuni che hanno manifestato l’interesse al finanziamento per le attività socioeducative per l’anno 2026"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 31,
+    "page number" : 3,
+    "bounding box" : [ 56.664, 207.386, 538.762, 264.375 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 9.96,
+    "text color" : "[0.0]",
+    "content" : "Vista la Legge Regionale 12 marzo 2026, n. 7, che reca disposizioni per il sostegno alla fruizione dei centri estivi, ne riconosce il valore educativo, sociale e di supporto alla conciliazione dei tempi di vita e di lavoro, promuovendo e sostenendo la partecipazione dei minori residenti in Sardegna, nel periodo di sospensione delle attività scolastiche, alle attività svolte in tali contesti e qualifica “centri estivi” le strutture nelle quali si organizzano attività diurne di natura ludico-ricreativa ed educativa rivolte a minori di età compresa tra i 3 e i 17 anni;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 32,
+    "page number" : 3,
+    "bounding box" : [ 56.664, 148.706, 538.44, 194.175 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 9.96,
+    "text color" : "[0.0]",
+    "content" : "RICHIAMATA la determinazione n. 288 del 13.05.2026 avente per oggetto: “Legge regionale 12 marzo 2026, n. 7 (Disposizioni per il sostegno alla fruizione dei centri estivi), articoli 2 e 4 e Deliberazione della Giunta Regionale n. 18/39 del 22.04.2026: Primo programma sperimentale di finanziamento”. Approvazione avviso e modulistica annualità 2026.”. Approvazione Avviso pubblico e relativa modulistica. Apertura Termini presentazione domande;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 33,
+    "page number" : 3,
+    "bounding box" : [ 56.664, 114.126, 538.422, 136.675 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 9.96,
+    "text color" : "[0.0]",
+    "content" : "CHE entro la data del 20 maggio 2026 n. 22 famiglie hanno manifestato il proprio interessate alla frequenza di centri estivi da parte dei propri figli;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 34,
+    "page number" : 3,
+    "bounding box" : [ 56.664, 64.686, 538.824, 102.235 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 9.96,
+    "text color" : "[0.0]",
+    "content" : "CHE si intende attivare questo importante servizio a favore di minori di età compresa tra i 4 (nati anno 2022) e i 9 anni (nati anno 2017) a partire dal 15 giugno e fino alla data del 8 agosto 2026 dando la possibilità di partecipazione anche ai minori che nel periodo estivo trascorrono le proprie vacanze nel nostro paese;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 35,
+    "page number" : 4,
+    "bounding box" : [ 56.664, 719.866, 538.605, 770.615 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 9.96,
+    "text color" : "[0.0]",
+    "content" : "CHE si rende necessario inoltre stabilire la quota di partecipazione al centro estivo fissato per tutto il periodo in € 150,00 quale contribuzione utenza e rimborsabile sottoforma di voucher in base alle disponibilità delle somme che la Regione Sardegna garantirà per il sostegno e concesse ai sensi della Legge Regionale 12 marzo 2026, n. 7 e secondo i criteri stabiliti dalla stessa;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 36,
+    "page number" : 4,
+    "bounding box" : [ 56.664, 656.146, 390.376, 709.655 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 9.96,
+    "text color" : "[0.0]",
+    "content" : "RITENUTO di demandare agli Uffici la gestione dell’iter amministrativo correlato; Tutto ciò premesso e considerato; Con votazione unanime espressa nelle forme di legge"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 37,
+    "page number" : 4,
+    "bounding box" : [ 277.85, 635.026, 327.112, 646.055 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 9.96,
+    "text color" : "[0.0]",
+    "content" : "DELIBERA"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 38,
+    "page number" : 4,
+    "bounding box" : [ 56.664, 587.236, 538.762, 624.815 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 9.96,
+    "text color" : "[0.0]",
+    "content" : "DI ATTIVARE il centro estivo a favore di minori di età compresa tra i 4 (nati anno 2022) e i 9 anni (nati anno 2017) a partire dal 15 giugno e fino alla data del 8 agosto 2026 dando la possibilità di partecipazione anche ai minori che nel periodo estivo trascorrono le proprie vacanze nel nostro paese;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 39,
+    "page number" : 4,
+    "bounding box" : [ 56.664, 526.396, 538.822, 577.025 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 9.96,
+    "text color" : "[0.0]",
+    "content" : "DI STABILIRE la quota di partecipazione al centro estivo è fissata per tutto il periodo in € 150,00 quale contribuzione utenza e rimborsabile sottoforma di voucher in base alle disponibilità delle somme che la Regione Sardegna garantirà per il sostegno per questa misura e concesse ai sensi della Legge Regionale 12 marzo 2026, n. 7 e secondo i criteri stabiliti dalla stessa;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 40,
+    "page number" : 4,
+    "bounding box" : [ 56.664, 491.956, 538.18, 516.185 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 9.96,
+    "text color" : "[0.0]",
+    "content" : "DI DARE ATTO che eventuali attività aggiuntive o extra possono richiedere una contribuzione aggiuntiva a carico degli utenti;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 41,
+    "page number" : 4,
+    "bounding box" : [ 56.664, 439.736, 538.051, 481.745 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 9.96,
+    "text color" : "[0.0]",
+    "content" : "DI DARE MANDATO agli Uffici per l’iter istruttorio; DI DICHIARARE la presente deliberazione, con separata ed unanime votazione, immediatamente esecutiva, ai sensi dell’art. 134, comma 4, del d.lgs.267/2000."
+  } ]
+}

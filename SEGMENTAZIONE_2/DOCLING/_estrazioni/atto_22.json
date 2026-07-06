@@ -1,0 +1,2091 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.10.0",
+  "name": "atto_22",
+  "origin": {
+    "mimetype": "application/pdf",
+    "binary_hash": 1178542118316458717,
+    "filename": "atto_22.pdf"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/pictures/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/pictures/1"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/tables/0"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/texts/24"
+      },
+      {
+        "$ref": "#/texts/25"
+      },
+      {
+        "$ref": "#/texts/26"
+      },
+      {
+        "$ref": "#/pictures/2"
+      },
+      {
+        "$ref": "#/texts/27"
+      },
+      {
+        "$ref": "#/texts/28"
+      },
+      {
+        "$ref": "#/texts/29"
+      },
+      {
+        "$ref": "#/texts/30"
+      },
+      {
+        "$ref": "#/texts/31"
+      },
+      {
+        "$ref": "#/texts/32"
+      },
+      {
+        "$ref": "#/texts/33"
+      },
+      {
+        "$ref": "#/pictures/3"
+      },
+      {
+        "$ref": "#/pictures/4"
+      },
+      {
+        "$ref": "#/texts/34"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/10"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "key_value_area"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/21"
+        },
+        {
+          "$ref": "#/texts/22"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 491.11600876,
+            "t": 784.13700102,
+            "r": 527.7859931400001,
+            "b": 773.53228941779,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "Copia",
+      "text": "Copia"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 155.08799983,
+            "t": 693.6509977899999,
+            "r": 409.30901007999995,
+            "b": 679.5113823203867,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            29
+          ]
+        }
+      ],
+      "orig": "Comune di Mombello Monferrato",
+      "text": "Comune di Mombello Monferrato",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 215.94299556,
+            "t": 676.1400031899999,
+            "r": 346.78599909999997,
+            "b": 665.53529158779,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            24
+          ]
+        }
+      ],
+      "orig": "Provincia di Alessandria",
+      "text": "Provincia di Alessandria"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 160.76700068,
+            "t": 651.2859984999999,
+            "r": 401.96300104999995,
+            "b": 642.4487388314916,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            46
+          ]
+        }
+      ],
+      "orig": "Verbale di deliberazione della GIUNTA COMUNALE",
+      "text": "Verbale di deliberazione della GIUNTA COMUNALE"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 38.94999934,
+            "t": 541.7389937899999,
+            "r": 383.42699030999995,
+            "b": 532.9017341214916,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            55
+          ]
+        }
+      ],
+      "orig": "OGGETTO : APPROVAZIONE RELAZIONE SULLA PERFORMANCE 2025",
+      "text": "OGGETTO : APPROVAZIONE RELAZIONE SULLA PERFORMANCE 2025",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 38.94999934,
+            "t": 507.24199215999994,
+            "r": 523.7769964099999,
+            "b": 475.4067342514917,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            245
+          ]
+        }
+      ],
+      "orig": "Il giorno 12/06/2026 alle ore 10:30 nella sala delle adunanze del Comune, previa l'osservanza delle formalità prescritte  dalla  vigente  normativa,  a  seguito  di  convocazione  dei  componenti  della  Giunta  Comunale, risultanti all'appello:",
+      "text": "Il giorno 12/06/2026 alle ore 10:30 nella sala delle adunanze del Comune, previa l'osservanza delle formalità prescritte  dalla  vigente  normativa,  a  seguito  di  convocazione  dei  componenti  della  Giunta  Comunale, risultanti all'appello:"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 339.95601382999996,
+            "r": 527.22001389,
+            "b": 319.6197545614916,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            217
+          ]
+        }
+      ],
+      "orig": "con  l'intervento  e  l'opera  della  dott.ssa TRICCO  Dott.ssa  Chiara -vice  Segretario  reggente,  con  funzioni consultive, referenti e di assistenza e quale verbalizzatore (art. 97 comma 4 lett. a T.U. 267/2000),",
+      "text": "con  l'intervento  e  l'opera  della  dott.ssa TRICCO  Dott.ssa  Chiara -vice  Segretario  reggente,  con  funzioni consultive, referenti e di assistenza e quale verbalizzatore (art. 97 comma 4 lett. a T.U. 267/2000),"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 305.45900456000004,
+            "r": 247.66099289000002,
+            "b": 296.62174489149174,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            48
+          ]
+        }
+      ],
+      "orig": "riconosciuto legale il numero degli intervenuti,",
+      "text": "riconosciuto legale il numero degli intervenuti,"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 216.81299973,
+            "t": 282.46101871999997,
+            "r": 352.96598556999993,
+            "b": 273.6237590514917,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            25
+          ]
+        }
+      ],
+      "orig": "CARETTI DANIELE - Sindaco",
+      "text": "CARETTI DANIELE - Sindaco",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 259.4629718399999,
+            "r": 527.22001389,
+            "b": 239.12671257149168,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            135
+          ]
+        }
+      ],
+      "orig": "assume la presidenza e dichiara aperta la seduta per la trattazione dell'oggetto indicato, invitando i presenti a deliberare in merito.",
+      "text": "assume la presidenza e dichiara aperta la seduta per la trattazione dell'oggetto indicato, invitando i presenti a deliberare in merito."
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 463.74400569,
+            "t": 565.2379943499999,
+            "r": 523.77998713,
+            "b": 556.4007346814916,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            12
+          ]
+        }
+      ],
+      "orig": "Verbale n.60",
+      "text": "Verbale n.60"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 52.62201005999998,
+            "r": 506.7739992399994,
+            "b": 36.35320149519339,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            233
+          ]
+        }
+      ],
+      "orig": "Documento prodotto con sistema automatizzato del Comune di Mombello Monferrato.  Responsabile Procedimento: Tricco Chiara (D.Lgs. n. 39/93 art.3). La presente copia è destinata unicamente alla pubblicazione sull'albo pretorio on-line",
+      "text": "Documento prodotto con sistema automatizzato del Comune di Mombello Monferrato.  Responsabile Procedimento: Tricco Chiara (D.Lgs. n. 39/93 art.3). La presente copia è destinata unicamente alla pubblicazione sull'albo pretorio on-line"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 220.25500107,
+            "t": 797.00800092,
+            "r": 349.80199947999995,
+            "b": 787.2870152846408,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            18
+          ]
+        }
+      ],
+      "orig": "LA GIUNTA COMUNALE",
+      "text": "LA GIUNTA COMUNALE",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 771.9320003099999,
+            "r": 527.22498825,
+            "b": 751.5957410414917,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            208
+          ]
+        }
+      ],
+      "orig": "Premesso che  con  deliberazione  di  Giunta  Comunale  n.  2  del  17/01/2025  è  stato  approvato  il  piano esecutivo di gestione per il periodo 2025-2027, comprensivo del piano dettagliato degli obiettivi",
+      "text": "Premesso che  con  deliberazione  di  Giunta  Comunale  n.  2  del  17/01/2025  è  stato  approvato  il  piano esecutivo di gestione per il periodo 2025-2027, comprensivo del piano dettagliato degli obiettivi"
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 742.9339992199999,
+            "r": 527.22999314,
+            "b": 699.5997369414916,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            375
+          ]
+        }
+      ],
+      "orig": "Visto l'art. 10, comma 1, lettera b) del D. Lgs. 27 ottobre 2009, n. 150, che impone, a conclusione del ciclo annuale  di  gestione  della  performance,  la  redazione  di  un  documento,  denominato  'Relazione  sulla performance',  evidenziante  a  consuntivo  i  risultati  raggiunti  nell'anno  precedente  rispetto  agli  obiettivi contenuti nel piano della performance.",
+      "text": "Visto l'art. 10, comma 1, lettera b) del D. Lgs. 27 ottobre 2009, n. 150, che impone, a conclusione del ciclo annuale  di  gestione  della  performance,  la  redazione  di  un  documento,  denominato  'Relazione  sulla performance',  evidenziante  a  consuntivo  i  risultati  raggiunti  nell'anno  precedente  rispetto  agli  obiettivi contenuti nel piano della performance."
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 690.93800083,
+            "r": 527.22800949,
+            "b": 659.1027429214917,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            290
+          ]
+        }
+      ],
+      "orig": "Visto in  particolare l'art.  4,  comma 2 lettera f) del richiamato D. Lgs. 150/2009 che prevede, quale ultima fase del ciclo della performance, la rendicontazione dei risultati agli organi di indirizzo politico-amministrativo, nonché ai cittadini, agli utenti e ai destinatari dei servizi.",
+      "text": "Visto in  particolare l'art.  4,  comma 2 lettera f) del richiamato D. Lgs. 150/2009 che prevede, quale ultima fase del ciclo della performance, la rendicontazione dei risultati agli organi di indirizzo politico-amministrativo, nonché ai cittadini, agli utenti e ai destinatari dei servizi."
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 650.44099919,
+            "r": 527.22800949,
+            "b": 618.6057412814916,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            239
+          ]
+        }
+      ],
+      "orig": "Visto il regolamento per la misurazione e la valutazione della performance e per l'applicazione del sistema premiale / il Regolamento sull'Ordinamento degli Uffici e dei Servizi che, tra l'altro, ha disciplinato il Ciclo della Performance;",
+      "text": "Visto il regolamento per la misurazione e la valutazione della performance e per l'applicazione del sistema premiale / il Regolamento sull'Ordinamento degli Uffici e dei Servizi che, tra l'altro, ha disciplinato il Ciclo della Performance;"
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 609.94400517,
+            "r": 527.21799973,
+            "b": 589.6077459014916,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            218
+          ]
+        }
+      ],
+      "orig": "Dato atto che l'iter di approvazione della Relazione sulla Performance si perfezionerà, ai sensi dell'art. 14 comma 4 lettera c) del D. Lgs. 150/2009, con la validazione della stessa da parte del Nucleo di Valutazione;",
+      "text": "Dato atto che l'iter di approvazione della Relazione sulla Performance si perfezionerà, ai sensi dell'art. 14 comma 4 lettera c) del D. Lgs. 150/2009, con la validazione della stessa da parte del Nucleo di Valutazione;"
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 580.94600407,
+            "r": 377.16599777999994,
+            "b": 572.1087444014917,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            80
+          ]
+        }
+      ],
+      "orig": "Visti i pareri favorevoli espressi ai sensi dell'art. 49 del D. Lgs n. 267/2000;",
+      "text": "Visti i pareri favorevoli espressi ai sensi dell'art. 49 del D. Lgs n. 267/2000;"
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 563.4469958899999,
+            "r": 208.19099167000002,
+            "b": 554.6097362214916,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            38
+          ]
+        }
+      ],
+      "orig": "Con voti favorevoli, unanimi e palesi;",
+      "text": "Con voti favorevoli, unanimi e palesi;"
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 257.94300461,
+            "t": 545.94800297,
+            "r": 309.05300460999996,
+            "b": 537.1107433014917,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "DELIBERA",
+      "text": "DELIBERA",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 47.59999943,
+            "t": 528.4489947899999,
+            "r": 458.06200627,
+            "b": 519.6117351214916,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            89
+          ]
+        }
+      ],
+      "orig": "1. di approvare la Relazione sulla Performance anno 2025 depositata agli atti del Comune;",
+      "text": "di approvare la Relazione sulla Performance anno 2025 depositata agli atti del Comune;",
+      "enumerated": true,
+      "marker": "1."
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 47.59999943,
+            "t": 510.95000186999994,
+            "r": 527.22899845,
+            "b": 467.61573959149166,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            341
+          ]
+        }
+      ],
+      "orig": "2. di disporre la pubblicazione entro e non oltre il 30/06/2026 della suddetta Relazione sulla Performance anno  2025  sul  sito  del  Comune  voce 'Relazione  sulla  Performance' ,  contenuta  nella  pagina ' Performance '  della  sezione 'Amministrazione Trasparente '  previa  acquisizione  della  validazione  del Nucleo di Valutazione .",
+      "text": "di disporre la pubblicazione entro e non oltre il 30/06/2026 della suddetta Relazione sulla Performance anno  2025  sul  sito  del  Comune  voce 'Relazione  sulla  Performance' ,  contenuta  nella  pagina ' Performance '  della  sezione 'Amministrazione Trasparente '  previa  acquisizione  della  validazione  del Nucleo di Valutazione .",
+      "enumerated": true,
+      "marker": "2."
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 52.62201005999998,
+            "r": 506.7739992399994,
+            "b": 36.35320149519339,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            233
+          ]
+        }
+      ],
+      "orig": "Documento prodotto con sistema automatizzato del Comune di Mombello Monferrato.  Responsabile Procedimento: Tricco Chiara (D.Lgs. n. 39/93 art.3). La presente copia è destinata unicamente alla pubblicazione sull'albo pretorio on-line",
+      "text": "Documento prodotto con sistema automatizzato del Comune di Mombello Monferrato.  Responsabile Procedimento: Tricco Chiara (D.Lgs. n. 39/93 art.3). La presente copia è destinata unicamente alla pubblicazione sull'albo pretorio on-line"
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 797.23000065,
+            "r": 288.2440007,
+            "b": 788.3927409814917,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            58
+          ]
+        }
+      ],
+      "orig": "Il presente verbale viene letto, approvato e sottoscritto.",
+      "text": "Il presente verbale viene letto, approvato e sottoscritto."
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 88.36999750999999,
+            "t": 774.23200146,
+            "r": 205.06000117,
+            "b": 753.8957421914916,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            36
+          ]
+        }
+      ],
+      "orig": "IL PRESIDENTE F.to : CARETTI DANIELE",
+      "text": "IL PRESIDENTE F.to : CARETTI DANIELE"
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 351.62598657999996,
+            "t": 774.23200146,
+            "r": 516.1039922599999,
+            "b": 753.8957421914916,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            57
+          ]
+        }
+      ],
+      "orig": "IL VICE SEGRETARIO REGGENTE F.to : TRICCO Dott.ssa Chiara",
+      "text": "IL VICE SEGRETARIO REGGENTE F.to : TRICCO Dott.ssa Chiara"
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 45.94999934,
+            "t": 716.23700253,
+            "r": 531.23500422,
+            "b": 684.4017446214917,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            234
+          ]
+        }
+      ],
+      "orig": "Si attesta che la presente deliberazione è stata pubblicata, in data odierna per rimanervi 15 giorni consecutivi nel sito web istituzionale di questo Comune accessibile al pubblico (art. 32, comma 1 della Legge 18 giugno 2009, n. 69).",
+      "text": "Si attesta che la presente deliberazione è stata pubblicata, in data odierna per rimanervi 15 giorni consecutivi nel sito web istituzionale di questo Comune accessibile al pubblico (art. 32, comma 1 della Legge 18 giugno 2009, n. 69)."
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 45.94999934,
+            "t": 670.24100415,
+            "r": 206.59500483,
+            "b": 661.4037444814917,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            34
+          ]
+        }
+      ],
+      "orig": "Mombello Monferrato, lì 23/06/2026",
+      "text": "Mombello Monferrato, lì 23/06/2026"
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 38.94999934,
+            "t": 537.18799511,
+            "r": 97.31499842,
+            "b": 528.3507354414917,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            12
+          ]
+        }
+      ],
+      "orig": "con prot. n.",
+      "text": "con prot. n."
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 38.94999934,
+            "t": 513.96800954,
+            "r": 205.95500544,
+            "b": 504.2470239046409,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            29
+          ]
+        }
+      ],
+      "orig": "MOMBELLO MONF., lì 23/06/2026",
+      "text": "MOMBELLO MONF., lì 23/06/2026"
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 226.5099969,
+            "t": 490.04199234,
+            "r": 357.6689946999999,
+            "b": 469.70573308149164,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            46
+          ]
+        }
+      ],
+      "orig": "Il viceSegretario Comunale TRICCO Dott. Chiara",
+      "text": "Il viceSegretario Comunale TRICCO Dott. Chiara"
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 163.36899806,
+            "t": 444.22398963999996,
+            "r": 385.82899806,
+            "b": 435.38672997149166,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            40
+          ]
+        }
+      ],
+      "orig": "________________________________________",
+      "text": "________________________________________"
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 248.67799617,
+            "t": 635.74399963,
+            "r": 331.47300471,
+            "b": 626.9067399614917,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            14
+          ]
+        }
+      ],
+      "orig": "MEZZANO Davide",
+      "text": "MEZZANO Davide"
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 52.62201005999998,
+            "r": 506.7739992399994,
+            "b": 36.35320149519339,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            233
+          ]
+        }
+      ],
+      "orig": "Documento prodotto con sistema automatizzato del Comune di Mombello Monferrato.  Responsabile Procedimento: Tricco Chiara (D.Lgs. n. 39/93 art.3). La presente copia è destinata unicamente alla pubblicazione sull'albo pretorio on-line",
+      "text": "Documento prodotto con sistema automatizzato del Comune di Mombello Monferrato.  Responsabile Procedimento: Tricco Chiara (D.Lgs. n. 39/93 art.3). La presente copia è destinata unicamente alla pubblicazione sull'albo pretorio on-line"
+    }
+  ],
+  "pictures": [
+    {
+      "self_ref": "#/pictures/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 252.64498901367188,
+            "t": 772.8736190795898,
+            "r": 309.7269287109375,
+            "b": 698.7699279785156,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 183.22482299804688,
+            "t": 631.7236785888672,
+            "r": 376.1304931640625,
+            "b": 567.2343444824219,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 269.474853515625,
+            "t": 777.4010620117188,
+            "r": 303.09893798828125,
+            "b": 743.3659744262695,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 393.0226135253906,
+            "t": 627.5586090087891,
+            "r": 427.0878601074219,
+            "b": 593.2441711425781,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 384.87872314453125,
+            "t": 470.1572570800781,
+            "r": 417.7864074707031,
+            "b": 437.0551452636719,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    }
+  ],
+  "tables": [
+    {
+      "self_ref": "#/tables/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "table",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 37.87122344970703,
+            "t": 463.8207092285156,
+            "r": 524.8110961914062,
+            "b": 378.85888671875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "data": {
+        "table_cells": [
+          {
+            "bbox": {
+              "l": 49.97499943,
+              "t": 381.25400814000005,
+              "r": 59.97499943,
+              "b": 390.09126780850835,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "N.",
+            "column_header": true,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 206.64800072000003,
+              "t": 381.25400814000005,
+              "r": 301.65199852,
+              "b": 390.09126780850835,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "COGNOME E NOME",
+            "column_header": true,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 455.94500542,
+              "t": 381.25400814000005,
+              "r": 505.95500541999996,
+              "b": 390.09126780850835,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "PRESENTI",
+            "column_header": true,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 52.19399929,
+              "t": 393.25300774000004,
+              "r": 57.753999289999996,
+              "b": 402.09026740850834,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 1,
+            "end_row_offset_idx": 2,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "1",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 74.39999962,
+              "t": 393.25300774000004,
+              "r": 212.18600121000003,
+              "b": 402.09026740850834,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 1,
+            "end_row_offset_idx": 2,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "CARETTI DANIELE - Sindaco",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 476.22600554999997,
+              "t": 393.25300774000004,
+              "r": 485.67600554999996,
+              "b": 402.09026740850834,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 1,
+            "end_row_offset_idx": 2,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "Sì",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 52.19399929,
+              "t": 405.2520073300001,
+              "r": 57.753999289999996,
+              "b": 414.0892669985084,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 2,
+            "end_row_offset_idx": 3,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "2",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 74.39999962,
+              "t": 405.2520073300001,
+              "r": 226.08099785000002,
+              "b": 414.0892669985084,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 2,
+            "end_row_offset_idx": 3,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "GALLINA MARIO - Vice Sindaco",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 448.99500560999996,
+              "t": 405.2520073300001,
+              "r": 512.90200348,
+              "b": 414.0892669985084,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 2,
+            "end_row_offset_idx": 3,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "Sì (da remoto)",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 52.19399929,
+              "t": 417.25100979000007,
+              "r": 57.753999289999996,
+              "b": 426.08826945850836,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 3,
+            "end_row_offset_idx": 4,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "3",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 74.39999962,
+              "t": 417.25100979000007,
+              "r": 222.21499809,
+              "b": 426.08826945850836,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 3,
+            "end_row_offset_idx": 4,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "SOPEGNO CARLA - Assessore",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 448.99500560999996,
+              "t": 417.25100979000007,
+              "r": 512.90200348,
+              "b": 426.08826945850836,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 3,
+            "end_row_offset_idx": 4,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "Sì (da remoto)",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 52.19399929,
+              "t": 429.25000652000006,
+              "r": 57.753999289999996,
+              "b": 438.08726618850835,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 4,
+            "end_row_offset_idx": 5,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "4",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 74.39999962,
+              "t": 441.24900707000006,
+              "r": 166.08399941,
+              "b": 450.08626673850836,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 5,
+            "end_row_offset_idx": 6,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "TOTALE PRESENTI",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 478.16900634999996,
+              "t": 441.24900707000006,
+              "r": 483.72900634999996,
+              "b": 450.08626673850836,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 5,
+            "end_row_offset_idx": 6,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "3",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 74.39999962,
+              "t": 453.24801144,
+              "r": 158.86399941000002,
+              "b": 462.0852711085083,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 6,
+            "end_row_offset_idx": 7,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "TOTALE ASSENTI",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 478.16900634999996,
+              "t": 453.24801144,
+              "r": 483.72900634999996,
+              "b": 462.0852711085083,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 6,
+            "end_row_offset_idx": 7,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "0",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          }
+        ],
+        "num_rows": 7,
+        "num_cols": 3,
+        "grid": [
+          [
+            {
+              "bbox": {
+                "l": 49.97499943,
+                "t": 381.25400814000005,
+                "r": 59.97499943,
+                "b": 390.09126780850835,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "N.",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 206.64800072000003,
+                "t": 381.25400814000005,
+                "r": 301.65199852,
+                "b": 390.09126780850835,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "COGNOME E NOME",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 455.94500542,
+                "t": 381.25400814000005,
+                "r": 505.95500541999996,
+                "b": 390.09126780850835,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "PRESENTI",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 52.19399929,
+                "t": 393.25300774000004,
+                "r": 57.753999289999996,
+                "b": 402.09026740850834,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "1",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 74.39999962,
+                "t": 393.25300774000004,
+                "r": 212.18600121000003,
+                "b": 402.09026740850834,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "CARETTI DANIELE - Sindaco",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 476.22600554999997,
+                "t": 393.25300774000004,
+                "r": 485.67600554999996,
+                "b": 402.09026740850834,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "Sì",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 52.19399929,
+                "t": 405.2520073300001,
+                "r": 57.753999289999996,
+                "b": 414.0892669985084,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "2",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 74.39999962,
+                "t": 405.2520073300001,
+                "r": 226.08099785000002,
+                "b": 414.0892669985084,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "GALLINA MARIO - Vice Sindaco",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 448.99500560999996,
+                "t": 405.2520073300001,
+                "r": 512.90200348,
+                "b": 414.0892669985084,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "Sì (da remoto)",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 52.19399929,
+                "t": 417.25100979000007,
+                "r": 57.753999289999996,
+                "b": 426.08826945850836,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "3",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 74.39999962,
+                "t": 417.25100979000007,
+                "r": 222.21499809,
+                "b": 426.08826945850836,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "SOPEGNO CARLA - Assessore",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 448.99500560999996,
+                "t": 417.25100979000007,
+                "r": 512.90200348,
+                "b": 426.08826945850836,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "Sì (da remoto)",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 52.19399929,
+                "t": 429.25000652000006,
+                "r": 57.753999289999996,
+                "b": 438.08726618850835,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "4",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 5,
+              "end_row_offset_idx": 6,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 74.39999962,
+                "t": 441.24900707000006,
+                "r": 166.08399941,
+                "b": 450.08626673850836,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 5,
+              "end_row_offset_idx": 6,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "TOTALE PRESENTI",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 478.16900634999996,
+                "t": 441.24900707000006,
+                "r": 483.72900634999996,
+                "b": 450.08626673850836,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 5,
+              "end_row_offset_idx": 6,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "3",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 6,
+              "end_row_offset_idx": 7,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 74.39999962,
+                "t": 453.24801144,
+                "r": 158.86399941000002,
+                "b": 462.0852711085083,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 6,
+              "end_row_offset_idx": 7,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "TOTALE ASSENTI",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 478.16900634999996,
+                "t": 453.24801144,
+                "r": 483.72900634999996,
+                "b": 462.0852711085083,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 6,
+              "end_row_offset_idx": 7,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "0",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ]
+        ]
+      },
+      "annotations": []
+    }
+  ],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {
+    "1": {
+      "size": {
+        "width": 595.3499755859375,
+        "height": 842.0
+      },
+      "page_no": 1
+    },
+    "2": {
+      "size": {
+        "width": 595.3499755859375,
+        "height": 842.0
+      },
+      "page_no": 2
+    },
+    "3": {
+      "size": {
+        "width": 595.3499755859375,
+        "height": 842.0
+      },
+      "page_no": 3
+    }
+  }
+}

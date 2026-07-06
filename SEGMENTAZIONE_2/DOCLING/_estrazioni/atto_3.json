@@ -1,0 +1,2849 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.10.0",
+  "name": "atto_3",
+  "origin": {
+    "mimetype": "application/pdf",
+    "binary_hash": 11341948170336530148,
+    "filename": "atto_3.pdf"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/pictures/0"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/tables/0"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/tables/1"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/tables/2"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/tables/3"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/25"
+      },
+      {
+        "$ref": "#/texts/26"
+      },
+      {
+        "$ref": "#/texts/27"
+      },
+      {
+        "$ref": "#/texts/28"
+      },
+      {
+        "$ref": "#/texts/29"
+      },
+      {
+        "$ref": "#/texts/30"
+      },
+      {
+        "$ref": "#/texts/31"
+      },
+      {
+        "$ref": "#/texts/32"
+      },
+      {
+        "$ref": "#/texts/33"
+      },
+      {
+        "$ref": "#/texts/34"
+      },
+      {
+        "$ref": "#/texts/35"
+      },
+      {
+        "$ref": "#/texts/36"
+      },
+      {
+        "$ref": "#/texts/37"
+      },
+      {
+        "$ref": "#/texts/38"
+      },
+      {
+        "$ref": "#/texts/39"
+      },
+      {
+        "$ref": "#/texts/40"
+      },
+      {
+        "$ref": "#/texts/41"
+      },
+      {
+        "$ref": "#/texts/42"
+      },
+      {
+        "$ref": "#/texts/43"
+      },
+      {
+        "$ref": "#/texts/44"
+      },
+      {
+        "$ref": "#/texts/45"
+      },
+      {
+        "$ref": "#/texts/46"
+      },
+      {
+        "$ref": "#/texts/47"
+      },
+      {
+        "$ref": "#/texts/48"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/12"
+        },
+        {
+          "$ref": "#/texts/13"
+        },
+        {
+          "$ref": "#/texts/14"
+        },
+        {
+          "$ref": "#/texts/15"
+        },
+        {
+          "$ref": "#/texts/16"
+        },
+        {
+          "$ref": "#/texts/17"
+        },
+        {
+          "$ref": "#/groups/1"
+        },
+        {
+          "$ref": "#/texts/19"
+        },
+        {
+          "$ref": "#/texts/20"
+        },
+        {
+          "$ref": "#/texts/21"
+        },
+        {
+          "$ref": "#/texts/22"
+        },
+        {
+          "$ref": "#/texts/23"
+        },
+        {
+          "$ref": "#/texts/24"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "form_area"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/18"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 136.66666666666669,
+            "t": 756.5866495768229,
+            "r": 240.66666666666666,
+            "b": 744.5866495768229,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            15
+          ]
+        }
+      ],
+      "orig": "COMUNE DI BITTI",
+      "text": "COMUNE DI BITTI",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 138.33333333333331,
+            "t": 740.9199829101562,
+            "r": 207.66666666666666,
+            "b": 732.2533162434896,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            18
+          ]
+        }
+      ],
+      "orig": "Provincia di Nuoro",
+      "text": "Provincia di Nuoro"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 87.66666666666666,
+            "t": 732.2533162434896,
+            "r": 98.33333333333334,
+            "b": 721.5866495768229,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "B",
+      "text": "B"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 139.0,
+            "t": 724.9199829101562,
+            "r": 199.0,
+            "b": 715.5866495768229,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            17
+          ]
+        }
+      ],
+      "orig": "Piazza G. Asproni",
+      "text": "Piazza G. Asproni"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 139.0,
+            "t": 712.2533162434895,
+            "r": 195.0,
+            "b": 687.586649576823,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            44
+          ]
+        }
+      ],
+      "orig": "Tel. 0784.415124 Fax 0784.414308 C.AP. 08021",
+      "text": "Tel. 0784.415124 Fax 0784.414308 C.AP. 08021"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 135.02,
+            "t": 654.5199829101563,
+            "r": 464.368,
+            "b": 636.5199829101563,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            35
+          ]
+        }
+      ],
+      "orig": "DELIBERAZIONE DELLA GIUNTA COMUNALE",
+      "text": "DELIBERAZIONE DELLA GIUNTA COMUNALE",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 63.744,
+            "t": 549.4599829101563,
+            "r": 526.1077599999999,
+            "b": 528.4599829101563,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            221
+          ]
+        }
+      ],
+      "orig": "L'anno  duemilaventisei,  addì 04  del  mese  di  Giugno  alle  ore  20:00  nella  sala  delle  adunanze  del  Comune suddetto, convocata regolarmente la Giunta Municipale, si è la medesima riunita nelle persone seguenti:",
+      "text": "L'anno  duemilaventisei,  addì 04  del  mese  di  Giugno  alle  ore  20:00  nella  sala  delle  adunanze  del  Comune suddetto, convocata regolarmente la Giunta Municipale, si è la medesima riunita nelle persone seguenti:"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 56.664,
+            "t": 407.9599829101563,
+            "r": 540.8224799999999,
+            "b": 375.3199829101563,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            313
+          ]
+        }
+      ],
+      "orig": "La verifica della regolarità della seduta, svolta secondo le modalità stabilite nel decreto n. 2 del 05/05/2020, in base alla previsione dell'art. 73, del D.L: 17 marzo 2020, n. 18, è stata operata dal Segretario Comunale Dott. Zanzarella Vincenzo Presiede il Sig. Giuseppe Ciccolini nella sua qualità di Sindaco;",
+      "text": "La verifica della regolarità della seduta, svolta secondo le modalità stabilite nel decreto n. 2 del 05/05/2020, in base alla previsione dell'art. 73, del D.L: 17 marzo 2020, n. 18, è stata operata dal Segretario Comunale Dott. Zanzarella Vincenzo Presiede il Sig. Giuseppe Ciccolini nella sua qualità di Sindaco;"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 56.664,
+            "t": 373.1599829101563,
+            "r": 540.8024399999999,
+            "b": 340.5199829101563,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            304
+          ]
+        }
+      ],
+      "orig": "Partecipa con funzioni consultive referenti e di assistenza e ne cura la relativa verbalizzazione il Segretario Comunale Dott. Zanzarella  Vincenzo.  Il  Sindaco,  constatato  il  numero  legale  degli  intervenuti,  dichiara  aperta  la  riunione  e  li  invita  a deliberare sull'oggetto sopraindicato.",
+      "text": "Partecipa con funzioni consultive referenti e di assistenza e ne cura la relativa verbalizzazione il Segretario Comunale Dott. Zanzarella  Vincenzo.  Il  Sindaco,  constatato  il  numero  legale  degli  intervenuti,  dichiara  aperta  la  riunione  e  li  invita  a deliberare sull'oggetto sopraindicato."
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 252.41,
+            "t": 326.8399829101563,
+            "r": 344.93248,
+            "b": 317.3599829101563,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            18
+          ]
+        }
+      ],
+      "orig": "LA GIUNTA COMUNALE",
+      "text": "LA GIUNTA COMUNALE",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 56.664,
+            "t": 303.67998291015624,
+            "r": 260.54088000000013,
+            "b": 294.1999829101562,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            58
+          ]
+        }
+      ],
+      "orig": "Acquisiti i pareri di cui all'articolo 49 del T.U. 267/00:",
+      "text": "Acquisiti i pareri di cui all'articolo 49 del T.U. 267/00:"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 461.26,
+            "t": 267.28998291015637,
+            "r": 594.4160799999997,
+            "b": 257.80998291015635,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            27
+          ]
+        }
+      ],
+      "orig": "(Dott.ssa Lucia A. Palmas )",
+      "text": "(Dott.ssa Lucia A. Palmas )"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 56.664,
+            "t": 769.0899829101563,
+            "r": 300.53247999999996,
+            "b": 759.6099829101563,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            62
+          ]
+        }
+      ],
+      "orig": "Il presente verbale viene approvato e sottoscritto come segue:",
+      "text": "Il presente verbale viene approvato e sottoscritto come segue:"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 250.73,
+            "t": 749.7699829101563,
+            "r": 346.61248,
+            "b": 728.6499829101563,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            36
+          ]
+        }
+      ],
+      "orig": "Il Sindaco (Sig. Giuseppe Ciccolini)",
+      "text": "Il Sindaco (Sig. Giuseppe Ciccolini)"
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 245.57,
+            "t": 714.9699829101563,
+            "r": 351.77248,
+            "b": 693.8499829101563,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            50
+          ]
+        }
+      ],
+      "orig": "Il Segretario Comunale (Dott. Zanzarella Vincenzo)",
+      "text": "Il Segretario Comunale (Dott. Zanzarella Vincenzo)"
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 56.664,
+            "t": 654.4899829101563,
+            "r": 272.4477600000002,
+            "b": 645.0099829101563,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            62
+          ]
+        }
+      ],
+      "orig": "Il sottoscritto Segretario comunale, visti gli atti d'ufficio,",
+      "text": "Il sottoscritto Segretario comunale, visti gli atti d'ufficio,"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 280.73,
+            "t": 642.8499829101563,
+            "r": 316.73247999999995,
+            "b": 633.3699829101563,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            7
+          ]
+        }
+      ],
+      "orig": "ATTESTA",
+      "text": "ATTESTA"
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 56.664,
+            "t": 625.4499829101563,
+            "r": 174.96248,
+            "b": 615.9699829101563,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            30
+          ]
+        }
+      ],
+      "orig": "che la presente deliberazione:",
+      "text": "che la presente deliberazione:"
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 58.824,
+            "t": 608.2190629101563,
+            "r": 540.7674399999999,
+            "b": 598.5399829101563,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            125
+          ]
+        }
+      ],
+      "orig": " È stata affissa all'Albo Pretorio Comunale per quindici giorni consecutivi, dal 05/06/2026 al 20/06/2026 ai sensi dell'art.",
+      "text": " È stata affissa all'Albo Pretorio Comunale per quindici giorni consecutivi, dal 05/06/2026 al 20/06/2026 ai sensi dell'art.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 78.024,
+            "t": 590.6199829101563,
+            "r": 258.87248,
+            "b": 581.1399829101563,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            44
+          ]
+        }
+      ],
+      "orig": "124, comma 1, D.Lgs. 267/2000 senza reclami;",
+      "text": "124, comma 1, D.Lgs. 267/2000 senza reclami;"
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "checkbox_selected",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 58.824,
+            "t": 573.4190629101563,
+            "r": 235.11248,
+            "b": 563.7399829101563,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            44
+          ]
+        }
+      ],
+      "orig": " È diventata esecutiva il giorno 04/06/2026",
+      "text": " È diventata esecutiva il giorno 04/06/2026"
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "checkbox_unselected",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 73.584,
+            "t": 556.0190629101563,
+            "r": 409.01248,
+            "b": 546.3399829101563,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            82
+          ]
+        }
+      ],
+      "orig": " Perché dichiarata immediatamente eseguibile (art 134, comma 4, D.Lgs. 267/2000);",
+      "text": " Perché dichiarata immediatamente eseguibile (art 134, comma 4, D.Lgs. 267/2000);"
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "checkbox_unselected",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 73.584,
+            "t": 538.6190629101562,
+            "r": 405.29247999999995,
+            "b": 528.9399829101562,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            85
+          ]
+        }
+      ],
+      "orig": " Perché decorsi 10 giorni dalla pubblicazione (art. 134, comma 3, D. Lgs. 267/2000);",
+      "text": " Perché decorsi 10 giorni dalla pubblicazione (art. 134, comma 3, D. Lgs. 267/2000);"
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 56.664,
+            "t": 503.7399829101563,
+            "r": 214.35248,
+            "b": 494.2599829101563,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            39
+          ]
+        }
+      ],
+      "orig": "Dalla residenza comunale, lì 05/06/2026",
+      "text": "Dalla residenza comunale, lì 05/06/2026"
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 269.09,
+            "t": 503.7399829101563,
+            "r": 436.76248,
+            "b": 482.6199829101563,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            56
+          ]
+        }
+      ],
+      "orig": "Il Segretario Comunale (Dott. Dott. Zanzarella Vincenzo)",
+      "text": "Il Segretario Comunale (Dott. Dott. Zanzarella Vincenzo)"
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.664,
+            "t": 748.2422629101563,
+            "r": 401.8,
+            "b": 726.3467029101563,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            91
+          ]
+        }
+      ],
+      "orig": "Oggetto: Centro estivo Comune  di  Bitti.  Anno 2026.  Atto di indirizzo per l'attivazione.",
+      "text": "Oggetto: Centro estivo Comune  di  Bitti.  Anno 2026.  Atto di indirizzo per l'attivazione."
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 242.81,
+            "t": 702.6308629101563,
+            "r": 364.99888000000004,
+            "b": 693.6974582692723,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            20
+          ]
+        }
+      ],
+      "orig": "LA GIUNTA MUNICIPALE",
+      "text": "LA GIUNTA MUNICIPALE",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.664,
+            "t": 672.6422629101563,
+            "r": 538.72,
+            "b": 652.5467029101563,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            209
+          ]
+        }
+      ],
+      "orig": "VISTA la Deliberazione CC n. 3 del 13/03/2026 di approvazione del documento unico di programmazione (DUP) -periodo 2026-2028 discussione e conseguente deliberazione (art. 170, comma 1, del d.lgs. n. 267/2000);",
+      "text": "VISTA la Deliberazione CC n. 3 del 13/03/2026 di approvazione del documento unico di programmazione (DUP) -periodo 2026-2028 discussione e conseguente deliberazione (art. 170, comma 1, del d.lgs. n. 267/2000);"
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.664,
+            "t": 638.0822629101563,
+            "r": 540.7804400000008,
+            "b": 606.5567029101563,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            223
+          ]
+        }
+      ],
+      "orig": "VISTA la  Deliberazione  del  Consiglio  Comunale  N.  4  DEL  13/03/2026  avente  per  oggetto APPROVAZIONE  DEL BILANCIO DI PREVISIONE FINANZIARIO 2026-2028 (ART. 151 DEL D.LGS. N. 267/2000 E ART. 10, D.LGS. N. 118/2011);",
+      "text": "VISTA la  Deliberazione  del  Consiglio  Comunale  N.  4  DEL  13/03/2026  avente  per  oggetto APPROVAZIONE  DEL BILANCIO DI PREVISIONE FINANZIARIO 2026-2028 (ART. 151 DEL D.LGS. N. 267/2000 E ART. 10, D.LGS. N. 118/2011);"
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.664,
+            "t": 589.5722629101563,
+            "r": 540.5506800000005,
+            "b": 553.0367029101564,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            273
+          ]
+        }
+      ],
+      "orig": "VISTO il decreto legislativo 23/6/2011 n. 118, emanato in attuazione degli art. 1 e 2 della legge 5 maggio 2009 n. 42 recante 'Disposizioni in materia di armonizzazione dei sistemi contabili e degli schemi di bilancio delle regioni, degli enti locali e dei loro organismi';",
+      "text": "VISTO il decreto legislativo 23/6/2011 n. 118, emanato in attuazione degli art. 1 e 2 della legge 5 maggio 2009 n. 42 recante 'Disposizioni in materia di armonizzazione dei sistemi contabili e degli schemi di bilancio delle regioni, degli enti locali e dei loro organismi';"
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.664,
+            "t": 536.0522629101563,
+            "r": 540.3415200000012,
+            "b": 502.6367029101563,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            298
+          ]
+        }
+      ],
+      "orig": "VISTO il decreto legislativo 18 agosto 2000, n. 267, come modificato e integrato dal D.Lgs. 10 agosto 2014, n. 126, dalla L. 23 dicembre 2014, n. 190 e dal D.L. 19 giugno 2015, n. 78, convertito, con modificazioni, dalla L. 6 agosto 2015, n. 125 e in particolare gli artt. 107, 163, 183, 185 e 191;",
+      "text": "VISTO il decreto legislativo 18 agosto 2000, n. 267, come modificato e integrato dal D.Lgs. 10 agosto 2014, n. 126, dalla L. 23 dicembre 2014, n. 190 e dal D.L. 19 giugno 2015, n. 78, convertito, con modificazioni, dalla L. 6 agosto 2015, n. 125 e in particolare gli artt. 107, 163, 183, 185 e 191;"
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.664,
+            "t": 490.81226291015633,
+            "r": 541.17,
+            "b": 457.5167029101563,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            241
+          ]
+        }
+      ],
+      "orig": "PREMESSO che per  l' Amministrazione Comunale riveste fondamentale importanza la promozione e valorizzazione della socialità, nelle sue varie manifestazioni, anche quali momenti di arricchimento e svago rivolti sia agli adulti che ai minori;",
+      "text": "PREMESSO che per  l' Amministrazione Comunale riveste fondamentale importanza la promozione e valorizzazione della socialità, nelle sue varie manifestazioni, anche quali momenti di arricchimento e svago rivolti sia agli adulti che ai minori;"
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.664,
+            "t": 445.6722629101563,
+            "r": 541.15024,
+            "b": 412.2567029101563,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            265
+          ]
+        }
+      ],
+      "orig": "DATO atto che le attività estive per bambini e ragazzi rappresentano una soluzione sempre più utilizzata dalle famiglie e nei centri estivi i bambini si ritrovano a spendersi in contesti diversi di gioco, di movimento, di relazione e scambio tra il gruppo dei pari;",
+      "text": "DATO atto che le attività estive per bambini e ragazzi rappresentano una soluzione sempre più utilizzata dalle famiglie e nei centri estivi i bambini si ritrovano a spendersi in contesti diversi di gioco, di movimento, di relazione e scambio tra il gruppo dei pari;"
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.664,
+            "t": 400.4322629101563,
+            "r": 541.05988,
+            "b": 322.8567029101563,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            855
+          ]
+        }
+      ],
+      "orig": "VISTA la legge 30 dicembre 2025, n. 199, che prevede, all'articolo 1, comma 222, che, al fine di sostenere le famiglie e facilitare la conciliazione fra vita privata e lavoro, nello stato di previsione del Ministero dell'economia e delle finanze, per il successivo trasferimento al bilancio autonomo della Presidenza del Consiglio dei ministri -Dipartimento per le Politiche della famiglia, è istituito un Fondo per le attività socio-educative a favore dei minori, con una dotazione pari a 60 milioni di euro annui a decorrere dall'anno 2026, destinato al finanziamento di iniziative dei comuni, da attuare anche  in  collaborazione  con  enti  pubblici  e  privati,  finalizzate  al  potenziamento  dei  centri  estivi,  dei  servizi  socioeducativi territoriali e dei centri con funzione educativa e ricreativa che svolgono attività a favore dei minori.",
+      "text": "VISTA la legge 30 dicembre 2025, n. 199, che prevede, all'articolo 1, comma 222, che, al fine di sostenere le famiglie e facilitare la conciliazione fra vita privata e lavoro, nello stato di previsione del Ministero dell'economia e delle finanze, per il successivo trasferimento al bilancio autonomo della Presidenza del Consiglio dei ministri -Dipartimento per le Politiche della famiglia, è istituito un Fondo per le attività socio-educative a favore dei minori, con una dotazione pari a 60 milioni di euro annui a decorrere dall'anno 2026, destinato al finanziamento di iniziative dei comuni, da attuare anche  in  collaborazione  con  enti  pubblici  e  privati,  finalizzate  al  potenziamento  dei  centri  estivi,  dei  servizi  socioeducativi territoriali e dei centri con funzione educativa e ricreativa che svolgono attività a favore dei minori."
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.664,
+            "t": 308.3922629101563,
+            "r": 540.6066800000008,
+            "b": 276.8667029101564,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            354
+          ]
+        }
+      ],
+      "orig": "CHE il Comune di Bitti entro la data di scadenza ha trasmesso la propria manifestazione di interesse per usufruire del Fondo  per  le  attività  socioeducative  a  favore  dei  minori  per  l'anno  2026,  come  risultante  l'elenco  provvisorio  dei comuni che hanno manifestato l'interesse al finanziamento per le attività socioeducative per l'anno 2026",
+      "text": "CHE il Comune di Bitti entro la data di scadenza ha trasmesso la propria manifestazione di interesse per usufruire del Fondo  per  le  attività  socioeducative  a  favore  dei  minori  per  l'anno  2026,  come  risultante  l'elenco  provvisorio  dei comuni che hanno manifestato l'interesse al finanziamento per le attività socioeducative per l'anno 2026"
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.664,
+            "t": 262.4022629101563,
+            "r": 541.15024,
+            "b": 207.86670291015628,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            591
+          ]
+        }
+      ],
+      "orig": "Vista la Legge Regionale 12 marzo 2026, n. 7, che reca disposizioni per il sostegno alla fruizione dei centri estivi, ne riconosce  il  valore  educativo,  sociale  e  di  supporto  alla  conciliazione  dei  tempi  di  vita  e  di  lavoro,  promuovendo  e sostenendo la partecipazione dei minori residenti in Sardegna, nel periodo di sospensione delle attività scolastiche, alle attività svolte in tali contesti e qualifica 'centri estivi' le strutture nelle quali si organizzano attività diurne di natur a ludico-ricreativa ed educativa rivolte a minori di età compresa tra i 3 e i 17 anni;",
+      "text": "Vista la Legge Regionale 12 marzo 2026, n. 7, che reca disposizioni per il sostegno alla fruizione dei centri estivi, ne riconosce  il  valore  educativo,  sociale  e  di  supporto  alla  conciliazione  dei  tempi  di  vita  e  di  lavoro,  promuovendo  e sostenendo la partecipazione dei minori residenti in Sardegna, nel periodo di sospensione delle attività scolastiche, alle attività svolte in tali contesti e qualifica 'centri estivi' le strutture nelle quali si organizzano attività diurne di natur a ludico-ricreativa ed educativa rivolte a minori di età compresa tra i 3 e i 17 anni;"
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.664,
+            "t": 192.20226291015626,
+            "r": 540.8701600000003,
+            "b": 149.18670291015633,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            453
+          ]
+        }
+      ],
+      "orig": "RICHIAMATA la determinazione n. 288 del 13.05.2026 avente per  oggetto :  'Legge  regionale  12  marzo  2026,  n. 7 (Disposizioni per il sostegno alla fruizione dei centri estivi), articoli 2 e 4 e Deliberazione della Giunta Regionale n. 18/39 del 22.04.2026: Primo programma sperimentale di finanziamento'. Approvazione avviso e modulistica annualità 2026.' . Approvazione Avviso pubblico e relativa modulistica. Apertura Termini presentazione domande;",
+      "text": "RICHIAMATA la determinazione n. 288 del 13.05.2026 avente per  oggetto :  'Legge  regionale  12  marzo  2026,  n. 7 (Disposizioni per il sostegno alla fruizione dei centri estivi), articoli 2 e 4 e Deliberazione della Giunta Regionale n. 18/39 del 22.04.2026: Primo programma sperimentale di finanziamento'. Approvazione avviso e modulistica annualità 2026.' . Approvazione Avviso pubblico e relativa modulistica. Apertura Termini presentazione domande;"
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.664,
+            "t": 134.70226291015626,
+            "r": 541.0117600000001,
+            "b": 114.60670291015629,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            151
+          ]
+        }
+      ],
+      "orig": "CHE entro la data del 20 maggio 2026 n. 22 famiglie hanno manifestato il proprio interessate alla frequenza di centri estivi da parte dei propri figli;",
+      "text": "CHE entro la data del 20 maggio 2026 n. 22 famiglie hanno manifestato il proprio interessate alla frequenza di centri estivi da parte dei propri figli;"
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.664,
+            "t": 100.26226291015632,
+            "r": 541.17,
+            "b": 65.16670291015635,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            324
+          ]
+        }
+      ],
+      "orig": "CHE si intende attivare questo importante servizio a favore di minori di età compresa tra i 4 (nati anno 2022) e i 9 anni (nati anno 2017) a partire dal 15 giugno e fino alla data del 8 agosto 2026 dando la possibilità di partecipazione anche ai minori che nel periodo estivo trascorrono le proprie vacanze nel nostro paese;",
+      "text": "CHE si intende attivare questo importante servizio a favore di minori di età compresa tra i 4 (nati anno 2022) e i 9 anni (nati anno 2017) a partire dal 15 giugno e fino alla data del 8 agosto 2026 dando la possibilità di partecipazione anche ai minori che nel periodo estivo trascorrono le proprie vacanze nel nostro paese;"
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 56.664,
+            "t": 768.6422629101563,
+            "r": 541.0951600000002,
+            "b": 720.3467029101563,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            400
+          ]
+        }
+      ],
+      "orig": "CHE si rende necessario  inoltre  stabilire  la  quota  di  partecipazione  al  centro  estivo  fissato per  tutto  il  periodo  in  € 150,00 quale contribuzione utenza e rimborsabile sottoforma di voucher in base alle disponibilità delle somme che la Regione Sardegna garantirà per il sostegno e concesse ai sensi della Legge Regionale 12 marzo 2026, n. 7 e secondo i criteri stabiliti dalla stessa;",
+      "text": "CHE si rende necessario  inoltre  stabilire  la  quota  di  partecipazione  al  centro  estivo  fissato per  tutto  il  periodo  in  € 150,00 quale contribuzione utenza e rimborsabile sottoforma di voucher in base alle disponibilità delle somme che la Regione Sardegna garantirà per il sostegno e concesse ai sensi della Legge Regionale 12 marzo 2026, n. 7 e secondo i criteri stabiliti dalla stessa;"
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 56.664,
+            "t": 707.6822629101563,
+            "r": 390.3760400000005,
+            "b": 699.1067029101563,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            81
+          ]
+        }
+      ],
+      "orig": "RITENUTO di demandare agli Uffici la gestione dell'iter amministrativo correlato;",
+      "text": "RITENUTO di demandare agli Uffici la gestione dell'iter amministrativo correlato;"
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 56.664,
+            "t": 686.4422629101563,
+            "r": 193.82000000000002,
+            "b": 677.8667029101563,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            33
+          ]
+        }
+      ],
+      "orig": "Tutto ciò premesso e considerato;",
+      "text": "Tutto ciò premesso e considerato;"
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 56.664,
+            "t": 665.2022629101563,
+            "r": 272.78000000000003,
+            "b": 656.6267029101563,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            51
+          ]
+        }
+      ],
+      "orig": "Con votazione unanime espressa nelle forme di legge",
+      "text": "Con votazione unanime espressa nelle forme di legge"
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 277.85,
+            "t": 644.0822629101563,
+            "r": 329.8,
+            "b": 635.5067029101563,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "DELIBERA",
+      "text": "DELIBERA",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 56.664,
+            "t": 622.8422629101564,
+            "r": 541.15024,
+            "b": 587.7167029101563,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            302
+          ]
+        }
+      ],
+      "orig": "DI ATTIVARE il centro estivo a favore di minori di età compresa tra i 4 (nati anno 2022) e i 9 anni (nati anno 2017) a partire dal 15 giugno e fino alla data del 8 agosto 2026 dando la possibilità di partecipazione anche ai minori che nel periodo estivo trascorrono le proprie vacanze nel nostro paese;",
+      "text": "DI ATTIVARE il centro estivo a favore di minori di età compresa tra i 4 (nati anno 2022) e i 9 anni (nati anno 2017) a partire dal 15 giugno e fino alla data del 8 agosto 2026 dando la possibilità di partecipazione anche ai minori che nel periodo estivo trascorrono le proprie vacanze nel nostro paese;"
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 56.664,
+            "t": 575.0522629101563,
+            "r": 541.06336,
+            "b": 526.8767029101563,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            379
+          ]
+        }
+      ],
+      "orig": "DI STABILIRE la quota di partecipazione al centro estivo è fissata per tutto i l periodo in € 150,00 quale contribuzione utenza e rimborsabile sottoforma di voucher in base alle disponibilità delle somme che la Regione Sardegna garantirà per il  sostegno per questa misura e concesse ai sensi della  Legge Regionale 12 marzo 2026, n. 7 e secondo i criteri stabiliti dalla stessa;",
+      "text": "DI STABILIRE la quota di partecipazione al centro estivo è fissata per tutto i l periodo in € 150,00 quale contribuzione utenza e rimborsabile sottoforma di voucher in base alle disponibilità delle somme che la Regione Sardegna garantirà per il  sostegno per questa misura e concesse ai sensi della  Legge Regionale 12 marzo 2026, n. 7 e secondo i criteri stabiliti dalla stessa;"
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 56.664,
+            "t": 514.2122629101563,
+            "r": 540.5307600000004,
+            "b": 492.4367029101563,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            125
+          ]
+        }
+      ],
+      "orig": "DI DARE ATTO che eventuali attività aggiuntive o extra possono richiedere una contribuzione aggiuntiva a carico degli utenti;",
+      "text": "DI DARE ATTO che eventuali attività aggiuntive o extra possono richiedere una contribuzione aggiuntiva a carico degli utenti;"
+    },
+    {
+      "self_ref": "#/texts/47",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 56.664,
+            "t": 479.7722629101563,
+            "r": 274.72824,
+            "b": 471.1967029101563,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            51
+          ]
+        }
+      ],
+      "orig": "DI DARE MANDATO agli Uffici per l'iter istruttorio;",
+      "text": "DI DARE MANDATO agli Uffici per l'iter istruttorio;"
+    },
+    {
+      "self_ref": "#/texts/48",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 56.664,
+            "t": 460.3322629101563,
+            "r": 540.5407200000002,
+            "b": 440.2167029101563,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            154
+          ]
+        }
+      ],
+      "orig": "DI DICHIARARE la presente deliberazione, con separata ed unanime votazione, immediatamente esecutiva, ai sensi dell'art. 134, comma 4, del d.lgs.267/2000.",
+      "text": "DI DICHIARARE la presente deliberazione, con separata ed unanime votazione, immediatamente esecutiva, ai sensi dell'art. 134, comma 4, del d.lgs.267/2000."
+    }
+  ],
+  "pictures": [
+    {
+      "self_ref": "#/pictures/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/0"
+        },
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        }
+      ],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 58.51449203491211,
+            "t": 757.6317138671875,
+            "r": 238.87432861328125,
+            "b": 661.3275909423828,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    }
+  ],
+  "tables": [
+    {
+      "self_ref": "#/tables/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "table",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 34.07656478881836,
+            "t": 614.6149291992188,
+            "r": 553.2102661132812,
+            "b": 571.2691650390625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "data": {
+        "table_cells": [
+          {
+            "bbox": {
+              "l": 38.88,
+              "t": 231.56599999999992,
+              "r": 65.52000000000001,
+              "b": 241.65945454545454,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "N. 51",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 133.22,
+              "t": 231.56599999999992,
+              "r": 549.2300000000002,
+              "b": 255.4594545454546,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "OGGETTO: Centro estivo Comune di Bitti. Anno 2026. Atto di indirizzo per l'attivazione.",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          }
+        ],
+        "num_rows": 1,
+        "num_cols": 2,
+        "grid": [
+          [
+            {
+              "bbox": {
+                "l": 38.88,
+                "t": 231.56599999999992,
+                "r": 65.52000000000001,
+                "b": 241.65945454545454,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "N. 51",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 133.22,
+                "t": 231.56599999999992,
+                "r": 549.2300000000002,
+                "b": 255.4594545454546,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "OGGETTO: Centro estivo Comune di Bitti. Anno 2026. Atto di indirizzo per l'attivazione.",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ]
+        ]
+      },
+      "annotations": []
+    },
+    {
+      "self_ref": "#/tables/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "table",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 60.53858184814453,
+            "t": 517.1354370117188,
+            "r": 545.8064575195312,
+            "b": 421.4022521972656,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "data": {
+        "table_cells": [
+          {
+            "bbox": {
+              "l": 63.024,
+              "t": 328.4599999999999,
+              "r": 174.77424000000008,
+              "b": 337.93999999999994,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Giuseppe CICCOLINI, Sindaco",
+            "column_header": true,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 248.09,
+              "t": 327.74,
+              "r": 282.54032,
+              "b": 337.21999999999997,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "presente",
+            "column_header": true,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 305.71,
+              "t": 327.74,
+              "r": 327.97852,
+              "b": 337.21999999999997,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "Video",
+            "column_header": true,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 342.31,
+              "t": 327.74,
+              "r": 541.8829599999997,
+              "b": 360.37999999999994,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 5,
+            "col_span": 1,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 5,
+            "start_col_offset_idx": 3,
+            "end_col_offset_idx": 4,
+            "text": "Partecipa con funzioni consultive referenti e di assistenza e ne cura la relativa verbalizzazione il Segretario Comunale Dott. Zanzarella Vincenzo",
+            "column_header": true,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 63.024,
+              "t": 343.81999999999994,
+              "r": 164.0239200000001,
+              "b": 353.29999999999995,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 1,
+            "end_row_offset_idx": 2,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Giuseppe PALA, Assessore",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 248.09,
+              "t": 341.41999999999996,
+              "r": 282.54032,
+              "b": 350.9,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 1,
+            "end_row_offset_idx": 2,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "presente",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 305.71,
+              "t": 341.41999999999996,
+              "r": 327.97852,
+              "b": 350.9,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 1,
+            "end_row_offset_idx": 2,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "Video",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 63.024,
+              "t": 358.3399999999999,
+              "r": 171.0865200000001,
+              "b": 367.81999999999994,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 2,
+            "end_row_offset_idx": 3,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Christian FARINA, Assessore",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 248.09,
+              "t": 358.3399999999999,
+              "r": 282.54032,
+              "b": 367.81999999999994,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 2,
+            "end_row_offset_idx": 3,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "presente",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 305.71,
+              "t": 358.3399999999999,
+              "r": 327.97852,
+              "b": 367.81999999999994,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 2,
+            "end_row_offset_idx": 3,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "Video",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 63.024,
+              "t": 379.81999999999994,
+              "r": 222.34488000000013,
+              "b": 389.29999999999995,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 3,
+            "end_row_offset_idx": 4,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Giovanna Giuseppina MAMELI, Assessora",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 248.09,
+              "t": 379.81999999999994,
+              "r": 282.54032,
+              "b": 389.29999999999995,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 3,
+            "end_row_offset_idx": 4,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "presente",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 305.71,
+              "t": 379.81999999999994,
+              "r": 327.97852,
+              "b": 389.29999999999995,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 3,
+            "end_row_offset_idx": 4,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "Video",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 63.024,
+              "t": 405.5199999999999,
+              "r": 158.86680000000007,
+              "b": 414.99999999999994,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 4,
+            "end_row_offset_idx": 5,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Pietro SANNA, Assessore",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 248.09,
+              "t": 400.9599999999999,
+              "r": 282.54032,
+              "b": 410.43999999999994,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 4,
+            "end_row_offset_idx": 5,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "presente",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 305.71,
+              "t": 400.9599999999999,
+              "r": 327.97852,
+              "b": 410.43999999999994,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 4,
+            "end_row_offset_idx": 5,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "Video",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          }
+        ],
+        "num_rows": 5,
+        "num_cols": 4,
+        "grid": [
+          [
+            {
+              "bbox": {
+                "l": 63.024,
+                "t": 328.4599999999999,
+                "r": 174.77424000000008,
+                "b": 337.93999999999994,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Giuseppe CICCOLINI, Sindaco",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 248.09,
+                "t": 327.74,
+                "r": 282.54032,
+                "b": 337.21999999999997,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "presente",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 305.71,
+                "t": 327.74,
+                "r": 327.97852,
+                "b": 337.21999999999997,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "Video",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 342.31,
+                "t": 327.74,
+                "r": 541.8829599999997,
+                "b": 360.37999999999994,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 5,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "Partecipa con funzioni consultive referenti e di assistenza e ne cura la relativa verbalizzazione il Segretario Comunale Dott. Zanzarella Vincenzo",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 63.024,
+                "t": 343.81999999999994,
+                "r": 164.0239200000001,
+                "b": 353.29999999999995,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Giuseppe PALA, Assessore",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 248.09,
+                "t": 341.41999999999996,
+                "r": 282.54032,
+                "b": 350.9,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "presente",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 305.71,
+                "t": 341.41999999999996,
+                "r": 327.97852,
+                "b": 350.9,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "Video",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 342.31,
+                "t": 327.74,
+                "r": 541.8829599999997,
+                "b": 360.37999999999994,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 5,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "Partecipa con funzioni consultive referenti e di assistenza e ne cura la relativa verbalizzazione il Segretario Comunale Dott. Zanzarella Vincenzo",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 63.024,
+                "t": 358.3399999999999,
+                "r": 171.0865200000001,
+                "b": 367.81999999999994,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Christian FARINA, Assessore",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 248.09,
+                "t": 358.3399999999999,
+                "r": 282.54032,
+                "b": 367.81999999999994,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "presente",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 305.71,
+                "t": 358.3399999999999,
+                "r": 327.97852,
+                "b": 367.81999999999994,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "Video",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 342.31,
+                "t": 327.74,
+                "r": 541.8829599999997,
+                "b": 360.37999999999994,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 5,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "Partecipa con funzioni consultive referenti e di assistenza e ne cura la relativa verbalizzazione il Segretario Comunale Dott. Zanzarella Vincenzo",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 63.024,
+                "t": 379.81999999999994,
+                "r": 222.34488000000013,
+                "b": 389.29999999999995,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Giovanna Giuseppina MAMELI, Assessora",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 248.09,
+                "t": 379.81999999999994,
+                "r": 282.54032,
+                "b": 389.29999999999995,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "presente",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 305.71,
+                "t": 379.81999999999994,
+                "r": 327.97852,
+                "b": 389.29999999999995,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "Video",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 342.31,
+                "t": 327.74,
+                "r": 541.8829599999997,
+                "b": 360.37999999999994,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 5,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "Partecipa con funzioni consultive referenti e di assistenza e ne cura la relativa verbalizzazione il Segretario Comunale Dott. Zanzarella Vincenzo",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 63.024,
+                "t": 405.5199999999999,
+                "r": 158.86680000000007,
+                "b": 414.99999999999994,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Pietro SANNA, Assessore",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 248.09,
+                "t": 400.9599999999999,
+                "r": 282.54032,
+                "b": 410.43999999999994,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "presente",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 305.71,
+                "t": 400.9599999999999,
+                "r": 327.97852,
+                "b": 410.43999999999994,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "Video",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 342.31,
+                "t": 327.74,
+                "r": 541.8829599999997,
+                "b": 360.37999999999994,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 5,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "Partecipa con funzioni consultive referenti e di assistenza e ne cura la relativa verbalizzazione il Segretario Comunale Dott. Zanzarella Vincenzo",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ]
+        ]
+      },
+      "annotations": []
+    },
+    {
+      "self_ref": "#/tables/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "table",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 55.598358154296875,
+            "t": 295.24383544921875,
+            "r": 566.0574951171875,
+            "b": 245.8753662109375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "data": {
+        "table_cells": [
+          {
+            "bbox": {
+              "l": 60.264,
+              "t": 550.6299999999999,
+              "r": 65.07036000000001,
+              "b": 560.1099999999999,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "1",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 81.504,
+              "t": 550.6299999999999,
+              "r": 342.9495199999999,
+              "b": 560.1099999999999,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "Si esprime parere favorevole sotto il profilo tecnico-amministrativo.",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 442.54,
+              "t": 562.99,
+              "r": 562.3672000000003,
+              "b": 584.1099999999999,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 1,
+            "end_row_offset_idx": 2,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "IL RESPONSABILE DEL SERVIZIO (Dott.ssa Lucia A. Palmas )",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          }
+        ],
+        "num_rows": 2,
+        "num_cols": 2,
+        "grid": [
+          [
+            {
+              "bbox": {
+                "l": 60.264,
+                "t": 550.6299999999999,
+                "r": 65.07036000000001,
+                "b": 560.1099999999999,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "1",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 81.504,
+                "t": 550.6299999999999,
+                "r": 342.9495199999999,
+                "b": 560.1099999999999,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "Si esprime parere favorevole sotto il profilo tecnico-amministrativo.",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 442.54,
+                "t": 562.99,
+                "r": 562.3672000000003,
+                "b": 584.1099999999999,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "IL RESPONSABILE DEL SERVIZIO (Dott.ssa Lucia A. Palmas )",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ]
+        ]
+      },
+      "annotations": []
+    },
+    {
+      "self_ref": "#/tables/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "table",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 55.83802795410156,
+            "t": 234.07855224609375,
+            "r": 566.3112182617188,
+            "b": 184.79742431640625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "data": {
+        "table_cells": [
+          {
+            "bbox": {
+              "l": 60.264,
+              "t": 610.8699999999999,
+              "r": 65.07036000000001,
+              "b": 620.3499999999999,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "2",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 81.504,
+              "t": 610.8699999999999,
+              "r": 425.4857999999996,
+              "b": 620.3499999999999,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "Si esprime parere favorevole sulla regolarità contabile attestante la copertura finanziaria.",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 442.66,
+              "t": 623.2299999999999,
+              "r": 562.4872000000003,
+              "b": 644.3499999999999,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 1,
+            "end_row_offset_idx": 2,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "IL RESPONSABILE DEL SERVIZIO (Dott.ssa Debora Cosseddu)",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          }
+        ],
+        "num_rows": 2,
+        "num_cols": 2,
+        "grid": [
+          [
+            {
+              "bbox": {
+                "l": 60.264,
+                "t": 610.8699999999999,
+                "r": 65.07036000000001,
+                "b": 620.3499999999999,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "2",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 81.504,
+                "t": 610.8699999999999,
+                "r": 425.4857999999996,
+                "b": 620.3499999999999,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "Si esprime parere favorevole sulla regolarità contabile attestante la copertura finanziaria.",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 442.66,
+                "t": 623.2299999999999,
+                "r": 562.4872000000003,
+                "b": 644.3499999999999,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "IL RESPONSABILE DEL SERVIZIO (Dott.ssa Debora Cosseddu)",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ]
+        ]
+      },
+      "annotations": []
+    }
+  ],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {
+    "1": {
+      "size": {
+        "width": 595.3200073242188,
+        "height": 841.9199829101562
+      },
+      "page_no": 1
+    },
+    "2": {
+      "size": {
+        "width": 595.3200073242188,
+        "height": 841.9199829101562
+      },
+      "page_no": 2
+    },
+    "3": {
+      "size": {
+        "width": 595.3200073242188,
+        "height": 841.9199829101562
+      },
+      "page_no": 3
+    },
+    "4": {
+      "size": {
+        "width": 595.3200073242188,
+        "height": 841.9199829101562
+      },
+      "page_no": 4
+    }
+  }
+}

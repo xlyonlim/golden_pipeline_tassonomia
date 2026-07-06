@@ -1,0 +1,3035 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.10.0",
+  "name": "atto_1",
+  "origin": {
+    "mimetype": "application/pdf",
+    "binary_hash": 13353080837990974278,
+    "filename": "atto_1.pdf"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/tables/0"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/groups/2"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/texts/24"
+      },
+      {
+        "$ref": "#/groups/3"
+      },
+      {
+        "$ref": "#/texts/26"
+      },
+      {
+        "$ref": "#/texts/27"
+      },
+      {
+        "$ref": "#/groups/4"
+      },
+      {
+        "$ref": "#/texts/32"
+      },
+      {
+        "$ref": "#/groups/5"
+      },
+      {
+        "$ref": "#/texts/37"
+      },
+      {
+        "$ref": "#/texts/38"
+      },
+      {
+        "$ref": "#/texts/39"
+      },
+      {
+        "$ref": "#/texts/40"
+      },
+      {
+        "$ref": "#/groups/6"
+      },
+      {
+        "$ref": "#/texts/46"
+      },
+      {
+        "$ref": "#/groups/7"
+      },
+      {
+        "$ref": "#/texts/69"
+      },
+      {
+        "$ref": "#/texts/70"
+      },
+      {
+        "$ref": "#/texts/71"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/4"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "key_value_area"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/10"
+        },
+        {
+          "$ref": "#/texts/11"
+        },
+        {
+          "$ref": "#/texts/12"
+        },
+        {
+          "$ref": "#/texts/13"
+        },
+        {
+          "$ref": "#/texts/14"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/16"
+        },
+        {
+          "$ref": "#/texts/17"
+        },
+        {
+          "$ref": "#/texts/18"
+        },
+        {
+          "$ref": "#/texts/19"
+        },
+        {
+          "$ref": "#/texts/20"
+        },
+        {
+          "$ref": "#/texts/21"
+        },
+        {
+          "$ref": "#/texts/22"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/25"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/28"
+        },
+        {
+          "$ref": "#/texts/29"
+        },
+        {
+          "$ref": "#/texts/30"
+        },
+        {
+          "$ref": "#/texts/31"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/33"
+        },
+        {
+          "$ref": "#/texts/34"
+        },
+        {
+          "$ref": "#/texts/35"
+        },
+        {
+          "$ref": "#/texts/36"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/41"
+        },
+        {
+          "$ref": "#/texts/42"
+        },
+        {
+          "$ref": "#/texts/43"
+        },
+        {
+          "$ref": "#/texts/44"
+        },
+        {
+          "$ref": "#/texts/45"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/47"
+        },
+        {
+          "$ref": "#/texts/48"
+        },
+        {
+          "$ref": "#/texts/49"
+        },
+        {
+          "$ref": "#/texts/50"
+        },
+        {
+          "$ref": "#/texts/51"
+        },
+        {
+          "$ref": "#/texts/52"
+        },
+        {
+          "$ref": "#/texts/53"
+        },
+        {
+          "$ref": "#/texts/54"
+        },
+        {
+          "$ref": "#/texts/55"
+        },
+        {
+          "$ref": "#/texts/56"
+        },
+        {
+          "$ref": "#/texts/57"
+        },
+        {
+          "$ref": "#/texts/58"
+        },
+        {
+          "$ref": "#/texts/59"
+        },
+        {
+          "$ref": "#/texts/60"
+        },
+        {
+          "$ref": "#/texts/61"
+        },
+        {
+          "$ref": "#/texts/62"
+        },
+        {
+          "$ref": "#/texts/63"
+        },
+        {
+          "$ref": "#/texts/64"
+        },
+        {
+          "$ref": "#/texts/65"
+        },
+        {
+          "$ref": "#/texts/66"
+        },
+        {
+          "$ref": "#/texts/67"
+        },
+        {
+          "$ref": "#/texts/68"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "form_area"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 193.11000061,
+            "t": 792.8310255840624,
+            "r": 457.78200061,
+            "b": 773.0913892204261,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            17
+          ]
+        }
+      ],
+      "orig": "COMUNE DI AUSONIA",
+      "text": "COMUNE DI AUSONIA",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 234.95000457999998,
+            "t": 766.8640247540625,
+            "r": 414.44600457999996,
+            "b": 752.0592974813352,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            22
+          ]
+        }
+      ],
+      "orig": "Provincia di Frosinone",
+      "text": "Provincia di Frosinone",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 130.50699996999998,
+            "t": 678.2560247040625,
+            "r": 517.8869999700001,
+            "b": 666.7412368252745,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            44
+          ]
+        }
+      ],
+      "orig": "COPIA DI DELIBERAZIONE DELLA GIUNTA COMUNALE",
+      "text": "COPIA DI DELIBERAZIONE DELLA GIUNTA COMUNALE",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 219.72599793,
+            "t": 635.2540186140625,
+            "r": 429.0679979299998,
+            "b": 622.8818550781509,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            33
+          ]
+        }
+      ],
+      "orig": "Verbale n.  44    del  18-06-2026",
+      "text": "Verbale n.  44    del  18-06-2026",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 92.15000153,
+            "t": 605.8000240140625,
+            "r": 555.5160015299997,
+            "b": 583.6077630655542,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            116
+          ]
+        }
+      ],
+      "orig": "OGGETTO:  D. Lgs. 27.10.2009, n. 150. D. Lgs. 25.05.2017, n. 74. Approvazione relazione sulla performance anno 2025.",
+      "text": "OGGETTO:  D. Lgs. 27.10.2009, n. 150. D. Lgs. 25.05.2017, n. 74. Approvazione relazione sulla performance anno 2025."
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 92.15000153,
+            "t": 567.8530330540625,
+            "r": 556.0820015300003,
+            "b": 515.8513211418525,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            299
+          ]
+        }
+      ],
+      "orig": "L'anno  duemilaventisei, il giorno  diciotto del mese di giugno alle ore 12:20 e seg. in Ausonia e nella residenza municipale, nella sala delle adunanze, previa l'osservanza di tutte le formalità prescritte dalle vigenti leggi, sono stati oggi convocati in seduta i componenti della Giunta Comunale.",
+      "text": "L'anno  duemilaventisei, il giorno  diciotto del mese di giugno alle ore 12:20 e seg. in Ausonia e nella residenza municipale, nella sala delle adunanze, previa l'osservanza di tutte le formalità prescritte dalle vigenti leggi, sono stati oggi convocati in seduta i componenti della Giunta Comunale."
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 162.95000153,
+            "t": 498.85802267406245,
+            "r": 389.7500015300001,
+            "b": 488.2533110718525,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            42
+          ]
+        }
+      ],
+      "orig": "Fatto normale appello nominale, risultano:",
+      "text": "Fatto normale appello nominale, risultano:"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 92.15000153,
+            "t": 338.1620387840625,
+            "r": 556.0820015300005,
+            "b": 286.1603268718525,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            304
+          ]
+        }
+      ],
+      "orig": "Assiste il Segretario Comunale Erminio VERNILE, il quale provvede alla redazione del presente  verbale.  Essendo  legale  il  numero  degli  intervenuti,  il  Dott.  Benedetto CARDILLO  -  Sindaco,  assume  la  Presidenza  e  dichiara  aperta  la  seduta  per  la trattazione dell'oggetto sopra indicato.",
+      "text": "Assiste il Segretario Comunale Erminio VERNILE, il quale provvede alla redazione del presente  verbale.  Essendo  legale  il  numero  degli  intervenuti,  il  Dott.  Benedetto CARDILLO  -  Sindaco,  assume  la  Presidenza  e  dichiara  aperta  la  seduta  per  la trattazione dell'oggetto sopra indicato."
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 92.15000153,
+            "t": 282.9660549040625,
+            "r": 95.48600153,
+            "b": 272.36134330185257,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": ".",
+      "text": "."
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 763.3490232140625,
+            "r": 126.52199923999999,
+            "b": 751.8342353352746,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            13
+          ]
+        }
+      ],
+      "orig": "Premesso che:",
+      "text": "Premesso che:",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 60.54999924,
+            "t": 747.2500241840625,
+            "r": 506.65599924,
+            "b": 671.3392335352745,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            380
+          ]
+        }
+      ],
+      "orig": "-le  Amministrazioni Pubbliche devono adottare, in base a quanto disposto dagli  artt.  3  e  segg.  del  D.  Lgs.  n.  150/2009  e  del  D.  Lgs.  n.  74/2017, metodi e strumenti idonei a misurare, valutare e premiare la performance individuale e quella organizzativa, secondo criteri strettamente connessi al soddisfacimento dell'interesse del destinatario dei servizi pubblici;",
+      "text": "-le  Amministrazioni Pubbliche devono adottare, in base a quanto disposto dagli  artt.  3  e  segg.  del  D.  Lgs.  n.  150/2009  e  del  D.  Lgs.  n.  74/2017, metodi e strumenti idonei a misurare, valutare e premiare la performance individuale e quella organizzativa, secondo criteri strettamente connessi al soddisfacimento dell'interesse del destinatario dei servizi pubblici;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 60.54999924,
+            "t": 666.7550176240625,
+            "r": 506.64399886,
+            "b": 606.9432298152745,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            328
+          ]
+        }
+      ],
+      "orig": "-la  Relazione  sulla  Performance  prevista  dall'art.  10,  comma  1,  lettera  b), del  D.  Lgs.  n.  150/2009,  costituisce  lo  strumento  mediante  il  quale l'Amministrazione  illustra  ai  cittadini  e  a  tutti  gli  altri  ' stakeholders ' (portatori di interesse), i risultati ottenuti nel corso dell'anno precedente;",
+      "text": "-la  Relazione  sulla  Performance  prevista  dall'art.  10,  comma  1,  lettera  b), del  D.  Lgs.  n.  150/2009,  costituisce  lo  strumento  mediante  il  quale l'Amministrazione  illustra  ai  cittadini  e  a  tutti  gli  altri  ' stakeholders ' (portatori di interesse), i risultati ottenuti nel corso dell'anno precedente;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 60.54999924,
+            "t": 602.3590215340625,
+            "r": 506.64399885999995,
+            "b": 542.5472337252746,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            248
+          ]
+        }
+      ],
+      "orig": "-per  la  predisposizione  delle  linee  guida  del  presente  documento  sono intervenute le indicazioni sia della CIVIT, ora ANAC, che dell'ANCI, che i Comuni possono prendere a riferimento  per  la  redazione  della  Relazione sulla Performance;",
+      "text": "-per  la  predisposizione  delle  linee  guida  del  presente  documento  sono intervenute le indicazioni sia della CIVIT, ora ANAC, che dell'ANCI, che i Comuni possono prendere a riferimento  per  la  redazione  della  Relazione sulla Performance;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 60.54999924,
+            "t": 537.9630101840626,
+            "r": 506.64399885999995,
+            "b": 494.25022139527465,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            172
+          ]
+        }
+      ],
+      "orig": "-la Relazione redatta in collaborazione con i vertici dell'Amministrazione va sottoposta alla Giunta per la sua approvazione, ai sensi dell'art. 10 del D. Lgs. n. 150/2009;",
+      "text": "-la Relazione redatta in collaborazione con i vertici dell'Amministrazione va sottoposta alla Giunta per la sua approvazione, ai sensi dell'art. 10 del D. Lgs. n. 150/2009;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 60.54999924,
+            "t": 489.6660131140624,
+            "r": 506.65599923999986,
+            "b": 349.3592187452746,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            690
+          ]
+        }
+      ],
+      "orig": "-con  la  Relazione  sulla  Performance  si  intendono  rendicontare  le  attività poste  in  essere  nel  corso  dell'anno  ed  i  risultati  ottenuti,  portando  a compimento il Ciclo di Gestione della Performance, così come codificato dal  legislatore  con  l'art.  4  del  D.  Lgs.  n.  150/2009  e  con  il  D.  Lgs.  n. 74/2017, al fine di rendere trasparente l'azione amministrativa ed applicare i meccanismi  premiali  previsti  dal decreto citato, tenendo  in debita considerazione, in linea di principio, le indicazioni fornite dalla Commissione  (CIVIT),  ora  ANAC,  per  rendere  il  Ciclo  trasparente  e leggibile, anche per ottenere la validazione del Nucleo di Valutazione;",
+      "text": "-con  la  Relazione  sulla  Performance  si  intendono  rendicontare  le  attività poste  in  essere  nel  corso  dell'anno  ed  i  risultati  ottenuti,  portando  a compimento il Ciclo di Gestione della Performance, così come codificato dal  legislatore  con  l'art.  4  del  D.  Lgs.  n.  150/2009  e  con  il  D.  Lgs.  n. 74/2017, al fine di rendere trasparente l'azione amministrativa ed applicare i meccanismi  premiali  previsti  dal decreto citato, tenendo  in debita considerazione, in linea di principio, le indicazioni fornite dalla Commissione  (CIVIT),  ora  ANAC,  per  rendere  il  Ciclo  trasparente  e leggibile, anche per ottenere la validazione del Nucleo di Valutazione;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 328.6760228740625,
+            "r": 80.27999924,
+            "b": 317.1612349952745,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "Visto:",
+      "text": "Visto:",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 60.54999924,
+            "t": 312.5770238540624,
+            "r": 506.64399885999995,
+            "b": 252.7652360452746,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            266
+          ]
+        }
+      ],
+      "orig": "-la  Deliberazione  della  Giunta  Comunale  n.  66  del  04.07.2019,  con  cui  è stato approvato il nuovo regolamento per la misurazione, la valutazione e la  trasparenza  della  performance  ex  D.  Lgs.  27  ottobre  2009,  n.  150, adeguato al D. Lgs. n. 74/17;",
+      "text": "-la  Deliberazione  della  Giunta  Comunale  n.  66  del  04.07.2019,  con  cui  è stato approvato il nuovo regolamento per la misurazione, la valutazione e la  trasparenza  della  performance  ex  D.  Lgs.  27  ottobre  2009,  n.  150, adeguato al D. Lgs. n. 74/17;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 60.54999924,
+            "t": 248.1809972440625,
+            "r": 445.4919988599999,
+            "b": 236.66620936527454,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            69
+          ]
+        }
+      ],
+      "orig": "-i Decreti sindacali di nomina delle Elevate Qualificazioni, in atti;",
+      "text": "-i Decreti sindacali di nomina delle Elevate Qualificazioni, in atti;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 60.54999924,
+            "t": 232.08199821406254,
+            "r": 506.65599923999997,
+            "b": 188.36920942527468,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            194
+          ]
+        }
+      ],
+      "orig": "-la Deliberazione della Giunta Comunale n. 127 del 28.12.2023, con cui è stato approvato il vigente Contratto Collettivo Integrativo (Normativo) del personale del comparto del Comune di Ausonia;",
+      "text": "-la Deliberazione della Giunta Comunale n. 127 del 28.12.2023, con cui è stato approvato il vigente Contratto Collettivo Integrativo (Normativo) del personale del comparto del Comune di Ausonia;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 60.54999924,
+            "t": 183.78500114406245,
+            "r": 501.15,
+            "b": 156.17121138527455,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            125
+          ]
+        }
+      ],
+      "orig": "-la  Deliberazione  consiliare  n.  1  del  20.01.2025,  con  la  quale  è  stato approvato il DUP per l'esercizio 2025/2027;",
+      "text": "-la  Deliberazione  consiliare  n.  1  del  20.01.2025,  con  la  quale  è  stato approvato il DUP per l'esercizio 2025/2027;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 60.54999924,
+            "t": 151.58700310406255,
+            "r": 501.15,
+            "b": 123.97321334527464,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            141
+          ]
+        }
+      ],
+      "orig": "-la  Deliberazione  consiliare  n.  3  del  20.01.2025,  con  la  quale  è  stato approvato Bilancio di Previsione per l'esercizio 2025/2027;",
+      "text": "-la  Deliberazione  consiliare  n.  3  del  20.01.2025,  con  la  quale  è  stato approvato Bilancio di Previsione per l'esercizio 2025/2027;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 60.54999924,
+            "t": 119.38900505406252,
+            "r": 500.5479999999999,
+            "b": 91.77521529527462,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            111
+          ]
+        }
+      ],
+      "orig": "-la Deliberazione della Giunta Comunale n. 8 del 20.01.2025, di approvazione del PEG per l'esercizio 2025/2027;",
+      "text": "-la Deliberazione della Giunta Comunale n. 8 del 20.01.2025, di approvazione del PEG per l'esercizio 2025/2027;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 60.54999924,
+            "t": 87.1910070040625,
+            "r": 500.55199923999993,
+            "b": 43.47821821527464,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            226
+          ]
+        }
+      ],
+      "orig": "-la Deliberazione della Giunta Comunale n. 42 del 14.04.2025, con la quale è stato approvato il Piano Integrato di Attività ed Organizzazione (PIAO) 2025/2027,  ai  sensi  dell'art.  6  del  D.L.  n.  80/2021,  convertito  con",
+      "text": "-la Deliberazione della Giunta Comunale n. 42 del 14.04.2025, con la quale è stato approvato il Piano Integrato di Attività ed Organizzazione (PIAO) 2025/2027,  ai  sensi  dell'art.  6  del  D.L.  n.  80/2021,  convertito  con",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 190.01200486000002,
+            "t": 795.5470250740625,
+            "r": 359.18800486000004,
+            "b": 784.0322371952745,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            18
+          ]
+        }
+      ],
+      "orig": "LA GIUNTA COMUNALE",
+      "text": "LA GIUNTA COMUNALE",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 128.15000153,
+            "t": 795.5470250740625,
+            "r": 550.15200153,
+            "b": 703.5372354052746,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            417
+          ]
+        }
+      ],
+      "orig": "modificazioni  dalla  Legge  113/2021,  contenente,  tra  l'altro,  il  piano triennale  dei  fabbisogni  del  personale  2025/2027,  il  relativo  programma delle  assunzioni  e  la  Sottosezione  2.2  sulla  Performance,  contenente  la programmazione  degli  obiettivi  e  degli  indicatori  di  performance  di efficienza  e  di  efficacia  i  cui  esiti  dovranno  essere  rendicontati  nella presente relazione;",
+      "text": "modificazioni  dalla  Legge  113/2021,  contenente,  tra  l'altro,  il  piano triennale  dei  fabbisogni  del  personale  2025/2027,  il  relativo  programma delle  assunzioni  e  la  Sottosezione  2.2  sulla  Performance,  contenente  la programmazione  degli  obiettivi  e  degli  indicatori  di  performance  di efficienza  e  di  efficacia  i  cui  esiti  dovranno  essere  rendicontati  nella presente relazione;"
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 110.15000153,
+            "t": 698.9530233040625,
+            "r": 550.1480022899999,
+            "b": 671.3392335452746,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            132
+          ]
+        }
+      ],
+      "orig": "-la  Deliberazione  consiliare  n.  6  dell'11.04.2026,  di  approvazione  del rendiconto dell'esercizio finanziario dell'anno 2025;",
+      "text": "-la  Deliberazione  consiliare  n.  6  dell'11.04.2026,  di  approvazione  del rendiconto dell'esercizio finanziario dell'anno 2025;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 92.15000153,
+            "t": 650.6560186040625,
+            "r": 556.25000153,
+            "b": 623.0422288452746,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            122
+          ]
+        }
+      ],
+      "orig": "Vista l'allegata  relazione  sulla  performance  anno  2025,  parte  integrante  e sostanziale del presente provvedimento;",
+      "text": "Vista l'allegata  relazione  sulla  performance  anno  2025,  parte  integrante  e sostanziale del presente provvedimento;"
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 92.15000153,
+            "t": 602.3590215340625,
+            "r": 190.12200152999998,
+            "b": 590.8442336552746,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            16
+          ]
+        }
+      ],
+      "orig": "Considerato che:",
+      "text": "Considerato che:",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 110.15000153,
+            "t": 586.2600225140625,
+            "r": 556.24400115,
+            "b": 510.34923186527453,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            344
+          ]
+        }
+      ],
+      "orig": "-gli obiettivi che l'Amministrazione ha inteso perseguire nell'anno 2025 si ritengono sostanzialmente raggiunti e sono strettamente legati alla premialità,  ossia  alla  distribuzione  delle  risorse  derivanti  dal  Fondo  delle risorse  destinato  alla  produttività  in  base  ai  criteri  di  programmazione  e valutazione sopra illustrati;",
+      "text": "-gli obiettivi che l'Amministrazione ha inteso perseguire nell'anno 2025 si ritengono sostanzialmente raggiunti e sono strettamente legati alla premialità,  ossia  alla  distribuzione  delle  risorse  derivanti  dal  Fondo  delle risorse  destinato  alla  produttività  in  base  ai  criteri  di  programmazione  e valutazione sopra illustrati;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 110.15000153,
+            "t": 505.76501213406243,
+            "r": 556.2560015299999,
+            "b": 445.95322432527456,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            280
+          ]
+        }
+      ],
+      "orig": "-con  la  relazione  sulla  performance  si  intende  favorevolmente  adempiuto anche  al  Controllo  di  Gestione,  come  previsto  dall'art.  7  e  segg.  del regolamento comunale sul sistema dei controlli interni ex D.L. 10.10.2012, n. 174, convertito in L. 07.12.2012, n. 213;",
+      "text": "-con  la  relazione  sulla  performance  si  intende  favorevolmente  adempiuto anche  al  Controllo  di  Gestione,  come  previsto  dall'art.  7  e  segg.  del regolamento comunale sul sistema dei controlli interni ex D.L. 10.10.2012, n. 174, convertito in L. 07.12.2012, n. 213;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 110.15000153,
+            "t": 441.36901604406245,
+            "r": 556.2440011499998,
+            "b": 381.5572282352746,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            277
+          ]
+        }
+      ],
+      "orig": "-ai  sensi  dell'art.  14,  comma  4,  lettera  c),  e  comma  6,  del  D.  Lgs.  n. 150/2009,  la  relazione  dovrà  essere  validata  dal  Nucleo  di  Valutazione quale condizione inderogabile per l'accesso agli strumenti premiali di cui al Titolo III del decreto in oggetto;",
+      "text": "-ai  sensi  dell'art.  14,  comma  4,  lettera  c),  e  comma  6,  del  D.  Lgs.  n. 150/2009,  la  relazione  dovrà  essere  validata  dal  Nucleo  di  Valutazione quale condizione inderogabile per l'accesso agli strumenti premiali di cui al Titolo III del decreto in oggetto;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 110.15000153,
+            "t": 376.97301994406246,
+            "r": 556.25600153,
+            "b": 301.0622292952746,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            394
+          ]
+        }
+      ],
+      "orig": "-con  decreto  sindacale  n.  2/2025  del  01/04/2025,  ai  sensi  dell'art.  7  del vigente regolamento comunale sull'ordinamento degli uffici e dei servizi, per  i  compiti  in  esso  contemplati  e  per  le  competenze  previste  da  altre norme  di  legge,  è  stato  nominato  il  Nucleo  di  Valutazione  esterno dell'Ente, in forma monocratica, nella persona del Dott. Lucio Migliorelli;",
+      "text": "-con  decreto  sindacale  n.  2/2025  del  01/04/2025,  ai  sensi  dell'art.  7  del vigente regolamento comunale sull'ordinamento degli uffici e dei servizi, per  i  compiti  in  esso  contemplati  e  per  le  competenze  previste  da  altre norme  di  legge,  è  stato  nominato  il  Nucleo  di  Valutazione  esterno dell'Ente, in forma monocratica, nella persona del Dott. Lucio Migliorelli;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 92.15000153,
+            "t": 280.3789952840625,
+            "r": 159.01400153,
+            "b": 268.86420740527456,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            11
+          ]
+        }
+      ],
+      "orig": "Atteso che:",
+      "text": "Atteso che:",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 110.15000153,
+            "t": 264.27999626406245,
+            "r": 556.2440011499998,
+            "b": 204.46820845527452,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            251
+          ]
+        }
+      ],
+      "orig": "-i responsabili di settore dell'ente titolari di incarichi di Elevata Qualificazione, ai sensi del vigente regolamento sul sistema di misurazione e valutazione della performance hanno redatto le schede di valutazione del personale dipendente, in atti;",
+      "text": "-i responsabili di settore dell'ente titolari di incarichi di Elevata Qualificazione, ai sensi del vigente regolamento sul sistema di misurazione e valutazione della performance hanno redatto le schede di valutazione del personale dipendente, in atti;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 110.15000153,
+            "t": 199.88400017406252,
+            "r": 556.25600153,
+            "b": 107.87421050527462,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            458
+          ]
+        }
+      ],
+      "orig": "-il  Nucleo di Valutazione del Comune di Ausonia, con proprio verbale del 16/06/2026,  acquisto  al  protocollo  generale  dell'ente  al  n.  3914  del 18/06/2026, ai sensi del vigente regolamento sul sistema di misurazione e valutazione  della  performance,  ha  trasmesso  la  proposta  di  graduatoria della  valutazione  della  performance  dei  responsabili  di  settore  dell'ente titolari di incarichi di Elevata Qualificazione relativa all'anno 2025;",
+      "text": "-il  Nucleo di Valutazione del Comune di Ausonia, con proprio verbale del 16/06/2026,  acquisto  al  protocollo  generale  dell'ente  al  n.  3914  del 18/06/2026, ai sensi del vigente regolamento sul sistema di misurazione e valutazione  della  performance,  ha  trasmesso  la  proposta  di  graduatoria della  valutazione  della  performance  dei  responsabili  di  settore  dell'ente titolari di incarichi di Elevata Qualificazione relativa all'anno 2025;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 110.15000153,
+            "t": 103.29000603406246,
+            "r": 556.24400115,
+            "b": 43.47821822527453,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            329
+          ]
+        }
+      ],
+      "orig": "-da  dette  schede  di  valutazione  emerge  un  complessivo  esito  positivo  di valutazione  del  personale  dipendente,  in  particolare  dei  responsabili  di settore  titolari  di  incarichi  di  Elevata  Qualificazione,  in  linea  con  gli obiettivi prefissati per l'anno 2025 ed i rispettivi risultati attesi e raggiunti;",
+      "text": "-da  dette  schede  di  valutazione  emerge  un  complessivo  esito  positivo  di valutazione  del  personale  dipendente,  in  particolare  dei  responsabili  di settore  titolari  di  incarichi  di  Elevata  Qualificazione,  in  linea  con  gli obiettivi prefissati per l'anno 2025 ed i rispettivi risultati attesi e raggiunti;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 60.54999924,
+            "t": 795.5470250740625,
+            "r": 506.64399885999995,
+            "b": 735.7352372652746,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            314
+          ]
+        }
+      ],
+      "orig": "-il  Sindaco  ha  avallato  le  valutazioni  dei  responsabili  di  settore  titolari  di incarichi di Elevata Qualificazione e quelle rese da Nucleo di Valutazione per  questi  ultimi,  in  quanto  si  ritengono  sostanzialmente  raggiunti  gli obiettivi che l'Amministrazione ha inteso perseguire nell'anno 2025;",
+      "text": "-il  Sindaco  ha  avallato  le  valutazioni  dei  responsabili  di  settore  titolari  di incarichi di Elevata Qualificazione e quelle rese da Nucleo di Valutazione per  questi  ultimi,  in  quanto  si  ritengono  sostanzialmente  raggiunti  gli obiettivi che l'Amministrazione ha inteso perseguire nell'anno 2025;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 715.0520223240625,
+            "r": 506.64999923999994,
+            "b": 606.9432336252746,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            595
+          ]
+        }
+      ],
+      "orig": "Ritenuto, pertanto, di dover provvedere ad approvare, ai sensi dell'art. 10 del D. Lgs.  n.  150/2009,  l'allegata  relazione  sulla  performance  relativa  all'anno  2025, parte  integrante  e  sostanziale  del  presente  provvedimento,  e  di  trasmetterla,  ai sensi  dell'art.  14,  comma  4,  lettera  c),  e  comma  6,  del  D.  Lgs.  150/2009,  al Nucleo di Valutazione per la relativa validazione, quale condizione inderogabile per  l'accesso  agli  strumenti  premiali  di  cui  al  Titolo  III  del  decreto  in  oggetto, oltre che all' ANAC ai sensi dell'art. 10 del D. Lgs. 150/2009;",
+      "text": "Ritenuto, pertanto, di dover provvedere ad approvare, ai sensi dell'art. 10 del D. Lgs.  n.  150/2009,  l'allegata  relazione  sulla  performance  relativa  all'anno  2025, parte  integrante  e  sostanziale  del  presente  provvedimento,  e  di  trasmetterla,  ai sensi  dell'art.  14,  comma  4,  lettera  c),  e  comma  6,  del  D.  Lgs.  150/2009,  al Nucleo di Valutazione per la relativa validazione, quale condizione inderogabile per  l'accesso  agli  strumenti  premiali  di  cui  al  Titolo  III  del  decreto  in  oggetto, oltre che all' ANAC ai sensi dell'art. 10 del D. Lgs. 150/2009;"
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 586.2600225140625,
+            "r": 506.64999924000017,
+            "b": 542.5472337252746,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            237
+          ]
+        }
+      ],
+      "orig": "Visti i pareri favorevoli di regolarità tecnica e contabile espressi, rispettivamente, dal  responsabile  del  Settore  amministrativo  e  dal  Responsabile  del  servizio finanziario ai sensi dell'art. 49 del D. Lgs. 18.08.2000, n. 267;",
+      "text": "Visti i pareri favorevoli di regolarità tecnica e contabile espressi, rispettivamente, dal  responsabile  del  Settore  amministrativo  e  dal  Responsabile  del  servizio finanziario ai sensi dell'art. 49 del D. Lgs. 18.08.2000, n. 267;"
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 521.8640111540625,
+            "r": 371.81599924000005,
+            "b": 510.3492232752746,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            56
+          ]
+        }
+      ],
+      "orig": "Con votazione unanime e favorevole resa in forma palese;",
+      "text": "Con votazione unanime e favorevole resa in forma palese;"
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 236.28399277,
+            "t": 489.6660131140624,
+            "r": 312.91999276999996,
+            "b": 478.1512252352746,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "DELIBERA",
+      "text": "DELIBERA",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 60.54999924,
+            "t": 457.46801506406246,
+            "r": 506.64399886000007,
+            "b": 429.8542253052746,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            108
+          ]
+        }
+      ],
+      "orig": "1.  Di  considerare  la  premessa  narrativa  parte  integrante  e  sostanziale  del presente provvedimento;",
+      "text": " Di  considerare  la  premessa  narrativa  parte  integrante  e  sostanziale  del presente provvedimento;",
+      "enumerated": true,
+      "marker": "1."
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 60.54999924,
+            "t": 409.1710179940624,
+            "r": 506.64399885999995,
+            "b": 365.45822920527456,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            183
+          ]
+        }
+      ],
+      "orig": "2.  Di approvare, ai sensi dell'art. 10 del D. Lgs. 150/2009, l'allegata relazione sulla performance relativa all'anno 2025, parte integrante e sostanziale del presente provvedimento;",
+      "text": " Di approvare, ai sensi dell'art. 10 del D. Lgs. 150/2009, l'allegata relazione sulla performance relativa all'anno 2025, parte integrante e sostanziale del presente provvedimento;",
+      "enumerated": true,
+      "marker": "2."
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 60.54999924,
+            "t": 344.77502190406244,
+            "r": 506.6439988599997,
+            "b": 268.8642312552746,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            374
+          ]
+        }
+      ],
+      "orig": "3.  Di trasmettere, ai sensi dell'art. 14, comma 4, lettera c), e comma 6, del D. Lgs.  n.  150/2009,  la  suddetta  relazione  al  Nucleo  di  Valutazione,  per  la relativa  validazione,  quale  condizione  inderogabile  per  l'accesso  agli strumenti premiali di cui al Titolo III del Decreto in oggetto, oltre che all' ANAC ai sensi dell'art. 10 del D. Lgs. n. 150/2009;",
+      "text": " Di trasmettere, ai sensi dell'art. 14, comma 4, lettera c), e comma 6, del D. Lgs.  n.  150/2009,  la  suddetta  relazione  al  Nucleo  di  Valutazione,  per  la relativa  validazione,  quale  condizione  inderogabile  per  l'accesso  agli strumenti premiali di cui al Titolo III del Decreto in oggetto, oltre che all' ANAC ai sensi dell'art. 10 del D. Lgs. n. 150/2009;",
+      "enumerated": true,
+      "marker": "3."
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 60.54999924,
+            "t": 248.1809972440625,
+            "r": 506.65599924,
+            "b": 188.36920943527457,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            296
+          ]
+        }
+      ],
+      "orig": "4.  Di dare atto che con la relazione sulla performance si intende favorevolmente adempiuto anche al Controllo di Gestione, come previsto dagli  art.  7  e  segg.  del  vigente  regolamento  comunale  sul  sistema  dei controlli interni ex D.L. 10.10.2012, n. 174, conv. in L. 07.12.2012, n. 213;",
+      "text": " Di dare atto che con la relazione sulla performance si intende favorevolmente adempiuto anche al Controllo di Gestione, come previsto dagli  art.  7  e  segg.  del  vigente  regolamento  comunale  sul  sistema  dei controlli interni ex D.L. 10.10.2012, n. 174, conv. in L. 07.12.2012, n. 213;",
+      "enumerated": true,
+      "marker": "4."
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 60.54999924,
+            "t": 167.6860021240625,
+            "r": 506.6439988599999,
+            "b": 140.0722123652746,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            150
+          ]
+        }
+      ],
+      "orig": "5.  Di pubblicare la presente deliberazione all'albo pretorio del Comune e sulla pagina dell'Amministrazione Trasparente - Sottosezione 'Performance'.",
+      "text": " Di pubblicare la presente deliberazione all'albo pretorio del Comune e sulla pagina dell'Amministrazione Trasparente - Sottosezione 'Performance'.",
+      "enumerated": true,
+      "marker": "5."
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 119.38900505406252,
+            "r": 506.64999924000006,
+            "b": 75.67621626527466,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            219
+          ]
+        }
+      ],
+      "orig": "Con separata votazione, ad esito favorevole ed unanime, in considerazione della rivestita urgenza, la presente deliberazione viene resa immediatamente eseguibile ai sensi dell'art. 134, comma 4, del D. Lgs. n. 267/2000.",
+      "text": "Con separata votazione, ad esito favorevole ed unanime, in considerazione della rivestita urgenza, la presente deliberazione viene resa immediatamente eseguibile ai sensi dell'art. 134, comma 4, del D. Lgs. n. 267/2000."
+    },
+    {
+      "self_ref": "#/texts/47",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 772.6320258740625,
+            "r": 185.39999924000003,
+            "b": 763.7947662055542,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            33
+          ]
+        }
+      ],
+      "orig": "Letto, confermato e sottoscritto.",
+      "text": "Letto, confermato e sottoscritto."
+    },
+    {
+      "self_ref": "#/texts/48",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 85.52000046,
+            "t": 749.6340266840625,
+            "r": 227.26000046000001,
+            "b": 729.2977674155542,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            40
+          ]
+        }
+      ],
+      "orig": "IL Sindaco f.to Dott. Benedetto CARDILLO",
+      "text": "IL Sindaco f.to Dott. Benedetto CARDILLO"
+    },
+    {
+      "self_ref": "#/texts/49",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 330.68099595,
+            "t": 749.6340266840625,
+            "r": 453.50099594999995,
+            "b": 729.2977674155542,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            49
+          ]
+        }
+      ],
+      "orig": "IL Segretario Comunale f.to Dott. Erminio VERNILE",
+      "text": "IL Segretario Comunale f.to Dott. Erminio VERNILE"
+    },
+    {
+      "self_ref": "#/texts/50",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 71.57699966999999,
+            "t": 715.1370278940625,
+            "r": 241.20699967000004,
+            "b": 706.2997682255542,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            30
+          ]
+        }
+      ],
+      "orig": "______________________________",
+      "text": "______________________________"
+    },
+    {
+      "self_ref": "#/texts/51",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 307.27699662,
+            "t": 715.1370278940625,
+            "r": 476.90699662000003,
+            "b": 706.2997682255542,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            30
+          ]
+        }
+      ],
+      "orig": "______________________________",
+      "text": "______________________________"
+    },
+    {
+      "self_ref": "#/texts/52",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 77.94999924,
+            "t": 656.1420184740625,
+            "r": 328.04999924,
+            "b": 647.3047588055542,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            63
+          ]
+        }
+      ],
+      "orig": "Il sottoscritto Segretario Comunale, visti gli atti di ufficio:",
+      "text": "Il sottoscritto Segretario Comunale, visti gli atti di ufficio:"
+    },
+    {
+      "self_ref": "#/texts/53",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 249.79600144,
+            "t": 633.1440326340625,
+            "r": 298.68600144,
+            "b": 624.3067729655542,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            7
+          ]
+        }
+      ],
+      "orig": "ATTESTA",
+      "text": "ATTESTA",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/54",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 610.1460315340624,
+            "r": 180.96999924000002,
+            "b": 601.3087718655541,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            30
+          ]
+        }
+      ],
+      "orig": "Che la presente deliberazione:",
+      "text": "Che la presente deliberazione:"
+    },
+    {
+      "self_ref": "#/texts/55",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "checkbox_selected",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 577.4790222540624,
+            "r": 447.4999984799998,
+            "b": 566.3790222540624,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            85
+          ]
+        }
+      ],
+      "orig": " viene dichiarata immediatamente eseguibile (art. 134, 4° comma del D. Lvo 267/2000)",
+      "text": " viene dichiarata immediatamente eseguibile (art. 134, 4° comma del D. Lvo 267/2000)"
+    },
+    {
+      "self_ref": "#/texts/56",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "checkbox_unselected",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 554.4810211540625,
+            "r": 218.94999848000006,
+            "b": 543.3810211540625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            36
+          ]
+        }
+      ],
+      "orig": " è divenuta esecutiva il 18-06-2026",
+      "text": " è divenuta esecutiva il 18-06-2026"
+    },
+    {
+      "self_ref": "#/texts/57",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "checkbox_selected",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 519.9840118840625,
+            "r": 339.5499984799999,
+            "b": 508.8840118840625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            64
+          ]
+        }
+      ],
+      "orig": " viene comunicata in elenco ai Capigruppo Consiliari (art. 125)",
+      "text": " viene comunicata in elenco ai Capigruppo Consiliari (art. 125)"
+    },
+    {
+      "self_ref": "#/texts/58",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 212.83100367,
+            "t": 495.15602604406246,
+            "r": 335.65100366999997,
+            "b": 474.81976677555417,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            49
+          ]
+        }
+      ],
+      "orig": "IL Segretario Comunale f.to Dott. Erminio VERNILE",
+      "text": "IL Segretario Comunale f.to Dott. Erminio VERNILE"
+    },
+    {
+      "self_ref": "#/texts/59",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 189.42700053,
+            "t": 460.6590272540625,
+            "r": 359.05700053000004,
+            "b": 451.8217675855542,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            30
+          ]
+        }
+      ],
+      "orig": "______________________________",
+      "text": "______________________________"
+    },
+    {
+      "self_ref": "#/texts/60",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 401.6640216440625,
+            "r": 298.23999924000003,
+            "b": 392.8267619755542,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            61
+          ]
+        }
+      ],
+      "orig": "Il sottoscritto responsabile del servizio delle pubblicazioni",
+      "text": "Il sottoscritto responsabile del servizio delle pubblicazioni"
+    },
+    {
+      "self_ref": "#/texts/61",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 250.34699631,
+            "t": 378.66603580406246,
+            "r": 298.13699631,
+            "b": 369.82877613555416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            7
+          ]
+        }
+      ],
+      "orig": "ATTESTA",
+      "text": "ATTESTA",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/62",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 355.66801944406245,
+            "r": 505.92999924000003,
+            "b": 323.83276153555414,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            293
+          ]
+        }
+      ],
+      "orig": "Che la presente deliberazione è stata pubblicata, in data odierna, per 15 giorni consecutivi dal 18-06- 2026 al 03-07-2026 al numero 387 nel sito web istituzionale di questo Comune accessibile al pubblico al portale www.comunediausonia.it (art. 32, comma 1, della legge 18 giugno 2009, n. 69).",
+      "text": "Che la presente deliberazione è stata pubblicata, in data odierna, per 15 giorni consecutivi dal 18-06- 2026 al 03-07-2026 al numero 387 nel sito web istituzionale di questo Comune accessibile al pubblico al portale www.comunediausonia.it (art. 32, comma 1, della legge 18 giugno 2009, n. 69)."
+    },
+    {
+      "self_ref": "#/texts/63",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 298.17302433406246,
+            "r": 233.2099992400001,
+            "b": 289.33576466555417,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            41
+          ]
+        }
+      ],
+      "orig": "Dalla Residenza Municipale, lì 18-06-2026",
+      "text": "Dalla Residenza Municipale, lì 18-06-2026"
+    },
+    {
+      "self_ref": "#/texts/64",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 164.77399588999998,
+            "t": 275.1750079740625,
+            "r": 383.7039958900001,
+            "b": 254.83874870555428,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            67
+          ]
+        }
+      ],
+      "orig": "IL Responsabile Procedimento Pubblicazione f.to Sig. Onofrio CORENO",
+      "text": "IL Responsabile Procedimento Pubblicazione f.to Sig. Onofrio CORENO"
+    },
+    {
+      "self_ref": "#/texts/65",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 189.42699671999998,
+            "t": 240.6780091840625,
+            "r": 359.05699672000003,
+            "b": 231.8407495155542,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            30
+          ]
+        }
+      ],
+      "orig": "______________________________",
+      "text": "______________________________"
+    },
+    {
+      "self_ref": "#/texts/66",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 194.68202701406244,
+            "r": 501.37999924,
+            "b": 185.84476734555415,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            82
+          ]
+        }
+      ],
+      "orig": "__________________________________________________________________________________",
+      "text": "__________________________________________________________________________________"
+    },
+    {
+      "self_ref": "#/texts/67",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 92.20000077,
+            "t": 171.6840411740625,
+            "r": 390.11000077000006,
+            "b": 162.8467815055542,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            69
+          ]
+        }
+      ],
+      "orig": "Copia conforme all'originale, in carta libera per uso amministrativo.",
+      "text": "Copia conforme all'originale, in carta libera per uso amministrativo."
+    },
+    {
+      "self_ref": "#/texts/68",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 92.20000077,
+            "t": 148.68605533406242,
+            "r": 282.3100007700001,
+            "b": 139.84879566555412,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            41
+          ]
+        }
+      ],
+      "orig": "Dalla Residenza Municipale, li 18-06-2026",
+      "text": "Dalla Residenza Municipale, li 18-06-2026"
+    },
+    {
+      "self_ref": "#/texts/69",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 266.40199519000004,
+            "t": 125.68800846406248,
+            "r": 381.43199519000007,
+            "b": 116.85074879555418,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            22
+          ]
+        }
+      ],
+      "orig": "IL Segretario Comunale",
+      "text": "IL Segretario Comunale"
+    },
+    {
+      "self_ref": "#/texts/70",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 270.84299708000003,
+            "t": 114.18900886406243,
+            "r": 376.98299708,
+            "b": 105.35174919555425,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            21
+          ]
+        }
+      ],
+      "orig": "Dott. Erminio VERNILE",
+      "text": "Dott. Erminio VERNILE"
+    },
+    {
+      "self_ref": "#/texts/71",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 239.10199595,
+            "t": 91.19100967406246,
+            "r": 408.73199595000006,
+            "b": 82.35375000555416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            30
+          ]
+        }
+      ],
+      "orig": "______________________________",
+      "text": "______________________________"
+    }
+  ],
+  "pictures": [],
+  "tables": [
+    {
+      "self_ref": "#/tables/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "table",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 94.24138641357422,
+            "t": 476.7091369628906,
+            "r": 552.83642578125,
+            "b": 366.5215759277344,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "data": {
+        "table_cells": [
+          {
+            "bbox": {
+              "l": 454.18998909,
+              "t": 373.6210058600001,
+              "r": 538.10998909,
+              "b": 382.4582655285083,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 2,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 4,
+            "text": "Presenti / Assenti",
+            "column_header": true,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 95.65000153,
+              "t": 395.74600777000006,
+              "r": 194.04000153000004,
+              "b": 404.58326743850836,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 1,
+            "end_row_offset_idx": 2,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "CARDILLO Benedetto",
+            "column_header": true,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 301.20000458,
+              "t": 395.74600777000006,
+              "r": 337.34000457999997,
+              "b": 404.58326743850836,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 1,
+            "end_row_offset_idx": 2,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "Sindaco",
+            "column_header": true,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 476.13798905,
+              "t": 395.74600777000006,
+              "r": 516.15798905,
+              "b": 404.58326743850836,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 2,
+            "start_row_offset_idx": 1,
+            "end_row_offset_idx": 2,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 4,
+            "text": "Presente",
+            "column_header": true,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 95.65000153,
+              "t": 417.54600701000004,
+              "r": 186.80000153,
+              "b": 426.38326667850833,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 2,
+            "end_row_offset_idx": 3,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "PINCHERA Stefania",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 301.20000458,
+              "t": 417.54600701000004,
+              "r": 359.57000458,
+              "b": 426.38326667850833,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 2,
+            "end_row_offset_idx": 3,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "Vice Sindaco",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 478.08298873999996,
+              "t": 417.54600701000004,
+              "r": 514.21298874,
+              "b": 426.38326667850833,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 2,
+            "end_row_offset_idx": 3,
+            "start_col_offset_idx": 3,
+            "end_col_offset_idx": 4,
+            "text": "Assente",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 95.65000153,
+              "t": 439.34601006,
+              "r": 179.02000153,
+              "b": 448.1832697285083,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 3,
+            "end_row_offset_idx": 4,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "STAGNO Gaetano",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 301.20000458,
+              "t": 439.34601006,
+              "r": 347.88000458,
+              "b": 448.1832697285083,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 3,
+            "end_row_offset_idx": 4,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "Assessore",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 476.13798905,
+              "t": 439.34601006,
+              "r": 516.15798905,
+              "b": 448.1832697285083,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 3,
+            "end_row_offset_idx": 4,
+            "start_col_offset_idx": 3,
+            "end_col_offset_idx": 4,
+            "text": "Presente",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 408.15700912999995,
+              "t": 461.12100490000006,
+              "r": 435.94700912999997,
+              "b": 469.95826456850835,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 4,
+            "end_row_offset_idx": 5,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "Totale",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          }
+        ],
+        "num_rows": 5,
+        "num_cols": 4,
+        "grid": [
+          [
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 454.18998909,
+                "t": 373.6210058600001,
+                "r": 538.10998909,
+                "b": 382.4582655285083,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 2,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 4,
+              "text": "Presenti / Assenti",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 454.18998909,
+                "t": 373.6210058600001,
+                "r": 538.10998909,
+                "b": 382.4582655285083,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 2,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 4,
+              "text": "Presenti / Assenti",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 95.65000153,
+                "t": 395.74600777000006,
+                "r": 194.04000153000004,
+                "b": 404.58326743850836,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "CARDILLO Benedetto",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 301.20000458,
+                "t": 395.74600777000006,
+                "r": 337.34000457999997,
+                "b": 404.58326743850836,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "Sindaco",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 476.13798905,
+                "t": 395.74600777000006,
+                "r": 516.15798905,
+                "b": 404.58326743850836,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 2,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 4,
+              "text": "Presente",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 476.13798905,
+                "t": 395.74600777000006,
+                "r": 516.15798905,
+                "b": 404.58326743850836,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 2,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 4,
+              "text": "Presente",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 95.65000153,
+                "t": 417.54600701000004,
+                "r": 186.80000153,
+                "b": 426.38326667850833,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "PINCHERA Stefania",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 301.20000458,
+                "t": 417.54600701000004,
+                "r": 359.57000458,
+                "b": 426.38326667850833,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "Vice Sindaco",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 478.08298873999996,
+                "t": 417.54600701000004,
+                "r": 514.21298874,
+                "b": 426.38326667850833,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "Assente",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 95.65000153,
+                "t": 439.34601006,
+                "r": 179.02000153,
+                "b": 448.1832697285083,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "STAGNO Gaetano",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 301.20000458,
+                "t": 439.34601006,
+                "r": 347.88000458,
+                "b": 448.1832697285083,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "Assessore",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 476.13798905,
+                "t": 439.34601006,
+                "r": 516.15798905,
+                "b": 448.1832697285083,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "Presente",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 408.15700912999995,
+                "t": 461.12100490000006,
+                "r": 435.94700912999997,
+                "b": 469.95826456850835,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "Totale",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ]
+        ]
+      },
+      "annotations": []
+    }
+  ],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {
+    "1": {
+      "size": {
+        "width": 595.2999877929688,
+        "height": 841.9000244140625
+      },
+      "page_no": 1
+    },
+    "2": {
+      "size": {
+        "width": 595.2999877929688,
+        "height": 841.9000244140625
+      },
+      "page_no": 2
+    },
+    "3": {
+      "size": {
+        "width": 595.2999877929688,
+        "height": 841.9000244140625
+      },
+      "page_no": 3
+    },
+    "4": {
+      "size": {
+        "width": 595.2999877929688,
+        "height": 841.9000244140625
+      },
+      "page_no": 4
+    },
+    "5": {
+      "size": {
+        "width": 595.2999877929688,
+        "height": 841.9000244140625
+      },
+      "page_no": 5
+    },
+    "6": {
+      "size": {
+        "width": 595.2999877929688,
+        "height": 841.9000244140625
+      },
+      "page_no": 6
+    }
+  }
+}

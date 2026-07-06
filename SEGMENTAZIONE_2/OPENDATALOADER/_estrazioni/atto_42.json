@@ -1,0 +1,3585 @@
+{
+  "file name" : "atto_42.pdf",
+  "number of pages" : 12,
+  "author" : "RadiV",
+  "title" : "COMUNE DI POGGIBONSI",
+  "creation date" : "D:20150303112745+01'00'",
+  "modification date" : "D:20160617104615Z",
+  "kids" : [ {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 5,
+    "page number" : 1,
+    "bounding box" : [ 51.1, 743.4, 85.6, 785.3 ],
+    "source" : "atto_42_images/imageFile1.png"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 6,
+    "page number" : 1,
+    "bounding box" : [ 101.2, 743.771, 546.628, 783.99 ],
+    "font" : "ArialMT",
+    "font size" : 36.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "COMUNE DI POGGIBONSI"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 7,
+    "page number" : 1,
+    "bounding box" : [ 253.4, 727.733, 394.394, 743.374 ],
+    "font" : "ArialMT",
+    "font size" : 14.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "PROVINCIA DI SIENA"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 8,
+    "level" : "Doctitle",
+    "page number" : 1,
+    "bounding box" : [ 139.2, 683.686, 456.066, 703.795 ],
+    "heading level" : 1,
+    "font" : "Arial-BoldMT",
+    "font size" : 18.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Deliberazione della Giunta Comunale"
+  }, {
+    "type" : "table",
+    "pdfua_tag" : "Table",
+    "id" : 9,
+    "level" : "1",
+    "page number" : 1,
+    "bounding box" : [ 47.55, 599.85, 551.15, 660.65 ],
+    "number of rows" : 3,
+    "number of columns" : 2,
+    "rows" : [ {
+      "type" : "table row",
+      "row number" : 1,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 47.625, 660.1, 151.15, 660.575 ],
+        "row number" : 1,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 151.15, 660.1, 551.075, 660.575 ],
+        "row number" : 1,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 2,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 47.625, 600.4, 151.15, 660.1 ],
+        "row number" : 2,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 1,
+          "page number" : 1,
+          "bounding box" : [ 51.2, 612.069, 127.93, 648.153 ],
+          "font" : "ArialMT",
+          "font size" : 10.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "N. 55 Data 24/02/2015"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 151.15, 600.4, 551.075, 660.1 ],
+        "row number" : 2,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 2,
+          "page number" : 1,
+          "bounding box" : [ 154.7, 603.181, 547.32, 648.553 ],
+          "font" : "ArialMT",
+          "font size" : 10.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Oggetto: “ISTITUZIONE DELLE Z.T.L. (ZONE A TRAFFICO LIMITATO) E DELLA A.P.U. (AREA PEDONALE URBANA) - ISTITUZIONE DEL SISTEMA DI CONTROLLO ELETTRONICO DEGLI ACCESSI ALLA Z.T.L. 0/24 ED ALLA Z.T.L. 14/20 APPROVAZIONE DEL DISCIPLINARE DELLE Z.T.L. E DELLA A.P.U. ”"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 3,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 47.625, 599.925, 151.15, 600.4 ],
+        "row number" : 3,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 151.15, 599.925, 551.075, 600.4 ],
+        "row number" : 3,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      } ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 10,
+    "page number" : 1,
+    "bounding box" : [ 51.2, 545.469, 544.023, 576.758 ],
+    "font" : "ArialMT",
+    "font size" : 11.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "L’anno (2015) il giorno ventiquattro del mese di Febbraio alle ore 15:30 nei modi di legge, si è riunita nell’apposita sala la Giunta Comunale con l’intervento dei Signori:"
+  }, {
+    "type" : "table",
+    "pdfua_tag" : "Table",
+    "id" : 11,
+    "level" : "2",
+    "page number" : 1,
+    "bounding box" : [ 45.15, 404.95, 551.65, 516.25 ],
+    "number of rows" : 17,
+    "number of columns" : 5,
+    "rows" : [ {
+      "type" : "table row",
+      "row number" : 1,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 45.225, 515.7, 45.7, 516.175 ],
+        "row number" : 1,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 45.7, 515.7, 195.85, 516.175 ],
+        "row number" : 1,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 195.85, 515.7, 430.85, 516.175 ],
+        "row number" : 1,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 430.85, 515.7, 551.1, 516.175 ],
+        "row number" : 1,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 551.1, 515.7, 551.575, 516.175 ],
+        "row number" : 1,
+        "column number" : 5,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 2,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 45.225, 497.9, 45.7, 515.7 ],
+        "row number" : 2,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 45.7, 497.9, 195.85, 515.7 ],
+        "row number" : 2,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 195.85, 497.9, 430.85, 515.7 ],
+        "row number" : 2,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 430.85, 497.9, 551.1, 515.7 ],
+        "row number" : 2,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 3,
+          "page number" : 1,
+          "bounding box" : [ 461.7, 502.769, 520.638, 515.058 ],
+          "font" : "Arial-BoldMT",
+          "font size" : 11.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "PRESENTE"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 551.1, 497.9, 551.575, 515.7 ],
+        "row number" : 2,
+        "column number" : 5,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 3,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 45.225, 484.7, 45.7, 497.9 ],
+        "row number" : 3,
+        "column number" : 1,
+        "row span" : 2,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 45.7, 497.425, 195.85, 497.9 ],
+        "row number" : 3,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 195.85, 497.425, 430.85, 497.9 ],
+        "row number" : 3,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 430.85, 497.425, 551.1, 497.9 ],
+        "row number" : 3,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 551.1, 484.7, 551.575, 497.9 ],
+        "row number" : 3,
+        "column number" : 5,
+        "row span" : 2,
+        "column span" : 1,
+        "kids" : [ ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 4,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 45.7, 484.7, 195.85, 497.425 ],
+        "row number" : 4,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 4,
+          "page number" : 1,
+          "bounding box" : [ 50.9, 484.769, 142.618, 497.058 ],
+          "font" : "ArialMT",
+          "font size" : 11.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "BUSSAGLI DAVID"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 195.85, 484.7, 430.85, 497.425 ],
+        "row number" : 4,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 5,
+          "page number" : 1,
+          "bounding box" : [ 201.3, 484.769, 240.933, 497.058 ],
+          "font" : "ArialMT",
+          "font size" : 11.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Sindaco"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 430.85, 484.7, 551.1, 497.425 ],
+        "row number" : 4,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 6,
+          "page number" : 1,
+          "bounding box" : [ 482.9, 484.769, 499.345, 497.058 ],
+          "font" : "ArialMT",
+          "font size" : 11.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "NO"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 5,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 45.225, 471.5, 45.7, 484.7 ],
+        "row number" : 5,
+        "column number" : 1,
+        "row span" : 2,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 45.7, 484.225, 195.85, 484.7 ],
+        "row number" : 5,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 195.85, 484.225, 430.85, 484.7 ],
+        "row number" : 5,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 430.85, 484.225, 551.1, 484.7 ],
+        "row number" : 5,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 551.1, 471.5, 551.575, 484.7 ],
+        "row number" : 5,
+        "column number" : 5,
+        "row span" : 2,
+        "column span" : 1,
+        "kids" : [ ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 6,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 45.7, 471.5, 195.85, 484.225 ],
+        "row number" : 6,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 7,
+          "page number" : 1,
+          "bounding box" : [ 50.9, 471.569, 167.83, 483.858 ],
+          "font" : "ArialMT",
+          "font size" : 11.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "BECATTELLI SILVANO"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 195.85, 471.5, 430.85, 484.225 ],
+        "row number" : 6,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 8,
+          "page number" : 1,
+          "bounding box" : [ 201.3, 471.569, 265.419, 483.858 ],
+          "font" : "ArialMT",
+          "font size" : 11.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Vice Sindaco"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 430.85, 471.5, 551.1, 484.225 ],
+        "row number" : 6,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 9,
+          "page number" : 1,
+          "bounding box" : [ 486.0, 471.569, 496.351, 483.858 ],
+          "font" : "ArialMT",
+          "font size" : 11.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "SI"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 7,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 45.225, 458.3, 45.7, 471.5 ],
+        "row number" : 7,
+        "column number" : 1,
+        "row span" : 2,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 45.7, 471.025, 195.85, 471.5 ],
+        "row number" : 7,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 195.85, 471.025, 430.85, 471.5 ],
+        "row number" : 7,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 430.85, 471.025, 551.1, 471.5 ],
+        "row number" : 7,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 551.1, 458.3, 551.575, 471.5 ],
+        "row number" : 7,
+        "column number" : 5,
+        "row span" : 2,
+        "column span" : 1,
+        "kids" : [ ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 8,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 45.7, 458.3, 195.85, 471.025 ],
+        "row number" : 8,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 10,
+          "page number" : 1,
+          "bounding box" : [ 50.9, 458.369, 159.789, 470.658 ],
+          "font" : "ArialMT",
+          "font size" : 11.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "CARROZZINO FABIO"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 195.85, 458.3, 430.85, 471.025 ],
+        "row number" : 8,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 11,
+          "page number" : 1,
+          "bounding box" : [ 201.3, 458.369, 252.714, 470.658 ],
+          "font" : "ArialMT",
+          "font size" : 11.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Assessore"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 430.85, 458.3, 551.1, 471.025 ],
+        "row number" : 8,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 12,
+          "page number" : 1,
+          "bounding box" : [ 486.0, 458.369, 496.351, 470.658 ],
+          "font" : "ArialMT",
+          "font size" : 11.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "SI"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 9,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 45.225, 445.1, 45.7, 458.3 ],
+        "row number" : 9,
+        "column number" : 1,
+        "row span" : 2,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 45.7, 457.825, 195.85, 458.3 ],
+        "row number" : 9,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 195.85, 457.825, 430.85, 458.3 ],
+        "row number" : 9,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 430.85, 457.825, 551.1, 458.3 ],
+        "row number" : 9,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 551.1, 445.1, 551.575, 458.3 ],
+        "row number" : 9,
+        "column number" : 5,
+        "row span" : 2,
+        "column span" : 1,
+        "kids" : [ ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 10,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 45.7, 445.1, 195.85, 457.825 ],
+        "row number" : 10,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 13,
+          "page number" : 1,
+          "bounding box" : [ 50.9, 445.169, 127.482, 457.458 ],
+          "font" : "ArialMT",
+          "font size" : 11.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "BERTI NICOLA"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 195.85, 445.1, 430.85, 457.825 ],
+        "row number" : 10,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 14,
+          "page number" : 1,
+          "bounding box" : [ 201.3, 445.169, 252.714, 457.458 ],
+          "font" : "ArialMT",
+          "font size" : 11.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Assessore"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 430.85, 445.1, 551.1, 457.825 ],
+        "row number" : 10,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 15,
+          "page number" : 1,
+          "bounding box" : [ 486.0, 445.169, 496.351, 457.458 ],
+          "font" : "ArialMT",
+          "font size" : 11.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "SI"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 11,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 45.225, 431.9, 45.7, 445.1 ],
+        "row number" : 11,
+        "column number" : 1,
+        "row span" : 2,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 45.7, 444.625, 195.85, 445.1 ],
+        "row number" : 11,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 195.85, 444.625, 430.85, 445.1 ],
+        "row number" : 11,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 430.85, 444.625, 551.1, 445.1 ],
+        "row number" : 11,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 551.1, 431.9, 551.575, 445.1 ],
+        "row number" : 11,
+        "column number" : 5,
+        "row span" : 2,
+        "column span" : 1,
+        "kids" : [ ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 12,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 45.7, 431.9, 195.85, 444.625 ],
+        "row number" : 12,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 16,
+          "page number" : 1,
+          "bounding box" : [ 50.9, 431.969, 182.548, 444.258 ],
+          "font" : "ArialMT",
+          "font size" : 11.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "CONVERTITO FILOMENA"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 195.85, 431.9, 430.85, 444.625 ],
+        "row number" : 12,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 17,
+          "page number" : 1,
+          "bounding box" : [ 201.3, 431.969, 252.714, 444.258 ],
+          "font" : "ArialMT",
+          "font size" : 11.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Assessore"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 430.85, 431.9, 551.1, 444.625 ],
+        "row number" : 12,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 18,
+          "page number" : 1,
+          "bounding box" : [ 486.0, 431.969, 496.351, 444.258 ],
+          "font" : "ArialMT",
+          "font size" : 11.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "SI"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 13,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 45.225, 418.7, 45.7, 431.9 ],
+        "row number" : 13,
+        "column number" : 1,
+        "row span" : 2,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 45.7, 431.425, 195.85, 431.9 ],
+        "row number" : 13,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 195.85, 431.425, 430.85, 431.9 ],
+        "row number" : 13,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 430.85, 431.425, 551.1, 431.9 ],
+        "row number" : 13,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 551.1, 418.7, 551.575, 431.9 ],
+        "row number" : 13,
+        "column number" : 5,
+        "row span" : 2,
+        "column span" : 1,
+        "kids" : [ ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 14,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 45.7, 418.7, 195.85, 431.425 ],
+        "row number" : 14,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 19,
+          "page number" : 1,
+          "bounding box" : [ 50.9, 418.769, 169.92, 431.058 ],
+          "font" : "ArialMT",
+          "font size" : 11.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "SALVADORI SUSANNA"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 195.85, 418.7, 430.85, 431.425 ],
+        "row number" : 14,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 20,
+          "page number" : 1,
+          "bounding box" : [ 201.3, 418.769, 252.714, 431.058 ],
+          "font" : "ArialMT",
+          "font size" : 11.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Assessore"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 430.85, 418.7, 551.1, 431.425 ],
+        "row number" : 14,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 21,
+          "page number" : 1,
+          "bounding box" : [ 486.0, 418.769, 496.351, 431.058 ],
+          "font" : "ArialMT",
+          "font size" : 11.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "SI"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 15,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 45.225, 405.5, 45.7, 418.7 ],
+        "row number" : 15,
+        "column number" : 1,
+        "row span" : 2,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 45.7, 418.225, 195.85, 418.7 ],
+        "row number" : 15,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 195.85, 418.225, 430.85, 418.7 ],
+        "row number" : 15,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 430.85, 418.225, 551.1, 418.7 ],
+        "row number" : 15,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 551.1, 405.5, 551.575, 418.7 ],
+        "row number" : 15,
+        "column number" : 5,
+        "row span" : 2,
+        "column span" : 1,
+        "kids" : [ ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 16,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 45.7, 405.5, 195.85, 418.225 ],
+        "row number" : 16,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 195.85, 405.5, 430.85, 418.225 ],
+        "row number" : 16,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 430.85, 405.5, 551.1, 418.225 ],
+        "row number" : 16,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 17,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 45.225, 405.025, 45.7, 405.5 ],
+        "row number" : 17,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 45.7, 405.025, 195.85, 405.5 ],
+        "row number" : 17,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 195.85, 405.025, 430.85, 405.5 ],
+        "row number" : 17,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 430.85, 405.025, 551.1, 405.5 ],
+        "row number" : 17,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 551.1, 405.025, 551.575, 405.5 ],
+        "row number" : 17,
+        "column number" : 5,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      } ]
+    } ]
+  }, {
+    "type" : "caption",
+    "id" : 12,
+    "page number" : 1,
+    "bounding box" : [ 51.2, 379.857, 247.532, 393.263 ],
+    "linked content id" : 11,
+    "font" : "ArialMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Totale Presenti: 5 Totale assenti: 1"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 13,
+    "page number" : 1,
+    "bounding box" : [ 51.2, 338.457, 362.456, 351.863 ],
+    "font" : "ArialMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Assiste il Segretario Generale Dott. DOTTORI ROBERTO"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 14,
+    "page number" : 1,
+    "bounding box" : [ 51.2, 291.275, 543.486, 315.205 ],
+    "font" : "ArialMT",
+    "font size" : 10.5,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Il VICE SINDACO, constatato che gli intervenuti sono in numero legale, dichiara aperta la riunione ed invita i convocati a deliberare sull’oggetto sopraindicato."
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 15,
+    "level" : "Doctitle",
+    "page number" : 2,
+    "bounding box" : [ 210.2, 764.186, 385.124, 784.295 ],
+    "heading level" : 1,
+    "font" : "Arial-BoldMT",
+    "font size" : 18.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "La Giunta Comunale"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 16,
+    "page number" : 2,
+    "bounding box" : [ 51.2, 670.857, 543.488, 725.663 ],
+    "font" : "ArialMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Premesso che con precedenti deliberazioni e provvedimenti attuativi, nel tempo, questo Ente ha provveduto a disporre in ordine all’istituzione, modifica e disciplina delle ZTL (Zone a Traffico Limitato) e delle APU (Aree Pedonali Urbane) del centro storico del Comune di Poggibonsi ed in particolare richiamate:"
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 17,
+    "level" : "3",
+    "page number" : 2,
+    "bounding box" : [ 69.2, 126.657, 543.644, 670.463 ],
+    "numbering style" : "unordered",
+    "number of list items" : 10,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 69.2, 615.057, 543.644, 670.463 ],
+      "font" : "CourierNewPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- la deliberazione CC n. 53 del 23/04/1991, con la quale, è stata istituita e delimitata, in via di prima sperimentazione, la ZTL e l’APU della città di Poggibonsi, dando mandato alla Giunta Comunale ed al Sindaco di dare attuazione a tale provvedimento;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 69.2, 573.057, 543.524, 614.663 ],
+      "font" : "CourierNewPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- l’ordinanza sindacale n. 29 del 27/03/1992, con la quale si è provveduto alla disciplina di dettaglio del richiamato provvedimento deliberativo, contenente anche la regolamentazione del sistema autorizzatorio per specifiche categorie di utenti;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 69.2, 544.857, 542.96, 572.663 ],
+      "font" : "CourierNewPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- l’ordinanza sindacale n. 58 del 04/05/1996 di parziale modifica della precedente ordinanza n. 29/1992;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 69.2, 489.057, 543.32, 544.463 ],
+      "font" : "CourierNewPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- l’ordinanza sindacale n. 96 del 11/06/1997 di revoca delle precedenti ordinanze n. 29/1992 e n. 58/1996 e contestuale organizzazione delle circolazione e del sistema autorizzatorio, con disciplina dei criteri di esenzione e di rilascio delle autorizzazioni in deroga ad alcune categorie di utenti nelle ZTL ed APU cittadine;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 69.2, 460.857, 543.14, 488.663 ],
+      "font" : "CourierNewPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- l’ordinanza sindacale n. 310 del 05/12/1997 di parziale modifica della precedente ordinanza n. 96/97 in merito all’estensione degli orari di carico e scarico delle merci;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 69.2, 336.057, 543.536, 460.463 ],
+      "font" : "CourierNewPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- la deliberazione GC n. 40 dell’01.4.2008, che, in attuazione degli obiettivi definiti dal Piano Urbano del Traffico del Comune di Poggibonsi, approvato con deliberazione consiliare n. 15 del 26/03/2003, volti al contenimento ed alla riduzione delle criticità e della congestione derivanti dalla circolazione veicolare in ambito urbano, ha disposto la revisione della delimitazione e della regolamentazione della pregressa Z.T.L., con estensione del divieto ai non residenti per l’intera giornata ( H 0/24) e con ampliamento della perimetrazione della Z.T.L. con orario 14.00 alle ore 20.00, istituendo e delimitando la nuova ZTL e la nuova APU, nonché determinando i criteri di rilascio delle autorizzazioni in deroga a determinate categorie di utenti;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 69.2, 280.257, 543.416, 335.663 ],
+      "font" : "CourierNewPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- la deliberazione GC n. 75 del 17.6.2008 avente ad oggetto, tra l’altro, la rettifica dell’elenco delle vie ricomprese nella precedente deliberazione n. 40/2008 ed in particolare l’inserimento della Via Dietro le Mura nel provvedimento ZTL con orario 14/20 per come delineato nella suddetta deliberazione;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 69.2, 210.657, 543.536, 279.863 ],
+      "font" : "CourierNewPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- la deliberazione n 128 del 25/11/2008 avente ad oggetto un’ulteriore modifica della precedente deliberazione n. 40/2008, volta al miglioramento delle condizioni di transito e sosta per alcune categorie di utenti ed in particolare per i residenti e per i titolari di attività produttive ed artigianali aventi sede nella stessa ZTL, nonché all’inserimento nell’elenco delle strade di cui alla ZTL 14/20 della Via San Lucchese;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 69.2, 168.657, 543.092, 210.263 ],
+      "font" : "CourierNewPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- la deliberazione n. 134 del 02/12/2008 di parziale modifica delle precedenti deliberazioni G.C. n. 40/2008 e n. 128/2008 in merito ai criteri di assegnazione dei permessi in deroga ai residenti in ZTL ed APU;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 69.2, 126.657, 543.464, 168.263 ],
+      "font" : "CourierNewPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- le ordinanze dirigenziali attuative delle deliberazioni GC n. 40/2008, n. 75/2008, n. 128/2008 e n. 134/2008 ed in particolare le ordinanze del Dirigente del Settore Polizia Municipale n. 134 dell’11.7.2008 e la n. 257 del 16.12.2008;",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H3",
+    "id" : 18,
+    "level" : "Subtitle",
+    "page number" : 2,
+    "bounding box" : [ 51.2, 99.657, 149.18, 113.063 ],
+    "heading level" : 3,
+    "font" : "Arial-BoldMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Considerato che:"
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 19,
+    "level" : "3",
+    "page number" : 2,
+    "bounding box" : [ 69.2, 57.357, 543.416, 99.564 ],
+    "numbering style" : "unordered",
+    "number of list items" : 1,
+    "next list id" : 20,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 69.2, 57.357, 543.416, 99.564 ],
+      "font" : "SymbolMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : " nel tempo, la regolamentazione delle ZTL ed APU ha subito modifiche, ancorché non sostanziali, la cui frammentazione in vari atti e provvedimenti, poteva pregiudicarne la completa conoscibilità da parte dell’utenza;",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 20,
+    "level" : "3",
+    "page number" : 3,
+    "bounding box" : [ 69.2, 590.357, 543.876, 785.364 ],
+    "numbering style" : "unordered",
+    "number of list items" : 3,
+    "previous list id" : 19,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 69.2, 743.157, 543.512, 785.364 ],
+      "font" : "SymbolMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : " dunque, si è ritenuto opportuno, in un’ottica di trasparenza e pubblicità dell’azione amministrativa, trasfondere in un unico provvedimento organico tutte le norme di disciplina e di regolamentazione della ZTL ed APU cittadine;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 69.2, 674.057, 543.876, 742.763 ],
+      "font" : "SymbolMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : " a tal fine, con deliberazione G.C. n. 49 del 26/02/2013, ferma restando la delimitazione della ZTL ed APU per come regolamentato dalle previgenti disposizioni, è stato quindi approvato un “Disciplinare delle ZTL (Zone a Traffico Limitato) ed APU( Aree Pedonali Urbane”, quale corpus organico per la disciplina della gestione e modalità di fruizione delle ZTL e delle APU;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 69.2, 590.357, 543.584, 673.964 ],
+      "font" : "SymbolMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : " con successiva deliberazione n. 159 del 04/06/2013, recependo alcune necessità di adeguamento e di emendamento derivanti da osservazioni pervenute ad opera delle categorie di utenti maggiormente coinvolte dall’attuazione del suddetto disciplinare, questo organo ha approvato alcune modifiche ed integrazioni al Disciplinare delle ZTL (Zone a Traffico Limitato) ed APU( Aree Pedonali Urbane” approvato con precedente deliberazione G.C. n. 49/2013;",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H3",
+    "id" : 21,
+    "level" : "Subtitle",
+    "page number" : 3,
+    "bounding box" : [ 51.2, 562.457, 135.176, 575.863 ],
+    "heading level" : 3,
+    "font" : "Arial-BoldMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Ricordato che:"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 22,
+    "level" : "4",
+    "page number" : 3,
+    "bounding box" : [ 69.2, 479.657, 543.344, 562.063 ],
+    "font" : "ArialMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : " La Regione Toscana, con delibera GR n. 704 del 01/08/2011, ha individuato gli indirizzi per l’accelerazione della programmazione della spesa del Programma Operativo regionale “Competitività regionale e Occupazione” 2007-2013, indicando, quali priorità di intervento dell’Asse IV “accessibilità ai servizi di trasporto e di telecomunicazioni”, gli obiettivi operativi e le conseguenti attività, interessanti anche i Comuni, come di seguito riportato:"
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 23,
+    "level" : "3",
+    "page number" : 3,
+    "bounding box" : [ 105.2, 423.657, 543.596, 479.063 ],
+    "numbering style" : "unordered",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 105.2, 451.657, 543.596, 479.063 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- Sviluppo di sistemi innovativi di informazione a sostegno della mobilità integrata",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 105.2, 423.657, 543.404, 451.063 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- Realizzazione di una struttura informativa geografica per accessibilità “ I mobility”",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 24,
+    "level" : "4",
+    "page number" : 3,
+    "bounding box" : [ 69.2, 382.257, 543.188, 423.263 ],
+    "font" : "ArialMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : " Con delibera G.R.T. n. 341 del 23/04/2012, la Regione Toscana ha individuato le risorse da destinare ai Comuni, con un impegno di cofinanziamento almeno pari al 50% delle spese totali ammissibili;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 25,
+    "level" : "4",
+    "page number" : 3,
+    "bounding box" : [ 69.2, 340.857, 543.32, 381.863 ],
+    "font" : "ArialMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : " Con successivo Decreto n. 2613 del 23/05/2012 la Regione toscana ha approvato l’avviso rivolto ai Comuni per la selezione dei progetti in ambito di infomobilità corredato della scheda di proposta progettuale;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 26,
+    "level" : "4",
+    "page number" : 3,
+    "bounding box" : [ 69.2, 258.057, 543.368, 340.463 ],
+    "font" : "ArialMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : " Il Comune di Poggibonsi, con la propria deliberazione G.C. n. 245 del 20/09/2012, ha approvato quindi la proposta progettuale denominata “Poggibonsi – i mobility” da presentare alla Regione Toscana per la concessione di un contributo nell’ambito del suddetto Programma operativo Regionale “POR - FESR 2007-2013, Asse IV Accessibilità ai servizi di trasporto e di telecomunicazioni. Attività IV . 4”, individuando il dirigente del Settore Polizia Municipale, responsabile del progetto/RUP"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 27,
+    "level" : "4",
+    "page number" : 3,
+    "bounding box" : [ 69.2, 161.457, 543.584, 257.663 ],
+    "font" : "ArialMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : " Con successivo Decreto dirigenziale n. 6362 del 28/12/2012, pubblicato sul Burt n. 4 – Parte terza del 23/01/2013, la Regione Toscana ha approvato la graduatoria relativa ai progetti di infomobilità, nella quale il progetto “Poggibonsi – I – Mobility” presentato da questo Comune risulta ammesso a cofinanziamento, provvedendo alla successiva sottoscrizione con questo Ente, della convenzione contenente gli impegni per la gestione del contributo (obblighi di monitoraggio e rendicontazione, modalità e tempi di erogazione, ecc) assegnato per la realizzazione del progetto;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 28,
+    "level" : "4",
+    "page number" : 3,
+    "bounding box" : [ 69.2, 64.857, 543.836, 161.063 ],
+    "font" : "ArialMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : " E’ emersa successivamente la necessità di apportare alcune modifiche all’originario progetto, e quindi, con deliberazione G.C. n. 161 del 20/05/2014, il Comune di Poggibonsi ha approvato la nuova scheda progettuale denominata “Poggibonsi – i mobility” il cui schema funzionale prevede la suddivisione in varie azioni di intervento tra le quali rientra la realizzazione di un “SISTEMA DI CONTROLLO DEGLI ACCESSI ALLA ZONA A TRAFFICO LIMITATO (ZTL) DEL COMUNE DI POGGIBONSI” da realizzarsi attraverso la fornitura e posa in opera di varchi"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 29,
+    "page number" : 4,
+    "bounding box" : [ 87.2, 757.757, 543.296, 784.963 ],
+    "font" : "ArialMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "elettronici e di tutto quanto necessario per il loro corretto funzionamento, approvando il relativo piano di spesa;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 30,
+    "level" : "4",
+    "page number" : 4,
+    "bounding box" : [ 69.2, 661.157, 543.596, 757.363 ],
+    "font" : "ArialMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : " Il nuovo progetto di informobilità in questione, ha previsto la suddivisione delle azioni che lo compongono, in due successive fasi, da realizzarsi consecutivamente: tra le azioni che prevedono una tempistica di realizzazione distinta in due fasi, rientrava anche il “sistema di controllo automatizzato degli accessi alla Zona a Traffico limitato” con particolare riferimento alla diversa articolazione oraria in ZTL 0/24 (I° fase) e ZTL 14/20 (II° fase). Nello specifico per la realizzazione della seconda fase era necessario valutare previamente un modesto ampliamento della ZTL 14/20;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 31,
+    "level" : "4",
+    "page number" : 4,
+    "bounding box" : [ 69.2, 605.957, 543.128, 660.763 ],
+    "font" : "ArialMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : " Con nota prot. n. 16261 del 29/05/2014, integrata con nota prot. n. 17556 del 13/06/2014, il nuovo progetto così approvato, veniva inviato alla Regione Toscana, che autorizzava le modifiche progettuali con successiva nota prot. n. 22264 del 29/07/2014"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 32,
+    "level" : "4",
+    "page number" : 4,
+    "bounding box" : [ 69.2, 495.557, 543.512, 605.563 ],
+    "font" : "ArialMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : " Con direttiva G.C. n. 104 del 23/10/2014, questo organo, vista l’unitarietà del sistema di controllo degli accessi, l’opportunità di procedere con speditezza alla fornitura del sistema alla luce della tempistica del progetto “Poggibonsi I – Mobility”, nonché la stretta correlazione delle prestazioni contrattuali, che per ragioni tecniche e di buon funzionamento dell’infrastruttura, richiedono una gestione organica, ha ritenuto necessario disporre l’ampliamento della ZTL 14/20 alla Via S. Martini ed all’intera Via San Francesco, con l’obiettivo di procedere, fin da subito, ad un appalto unitario della fornitura e posa in opera del sistema;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 33,
+    "level" : "4",
+    "page number" : 4,
+    "bounding box" : [ 69.2, 274.757, 543.656, 495.163 ],
+    "font" : "ArialMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : " A seguito di tale atto di indirizzo, il Dirigente del Settore Polizia Municipale con propria determinazione n. 45/PM del 28/10/2014 ha indetto apposita procedura negoziata tramite RDO sul Mercato Elettronico della Pubblica Amministrazione (MEPA) ai sensi dell’art. 125 comma 1, lett. b) e comma 4 del D.lgs 163/2006 e s.m.ei. nonché dell’art. 10, comma 1 lettera q) del Regolamento dei Contratti dell’ Ente , per la fornitura e posa in opera di un sistema di controllo automatizzato degli accessi alla zona a traffico limitato del centro cittadino, provvedendo contestualmente, all’approvazione del relativo progetto, redatto a cura del Settore Polizia Municipale e che prevede la realizzazione di un sistema di controllo telematico ZTL mediante l’installazione di n. 7 (sette) varchi elettronici di lettura delle targhe per il monitoraggio della corsia di ingresso alle ZTL 0/24 e 14/20 per come delineate nei pregressi provvedimenti, completi eti di tutte le apparecchiature hardware, di tutti i componenti software e di tutti gli accessori necessari al loro corretto funzionamento (postazione Centrale di Controllo, segnaletica stradale, pannelli informativi per l’informazione all’utenza dello stato in tempo reale della ZTL - varco attivo/varco non attivo - e relativi orologi indicante l’ora locale ) in corrispondenza dei seguenti siti:"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H3",
+    "id" : 34,
+    "level" : "Subtitle",
+    "page number" : 4,
+    "bounding box" : [ 90.524, 260.657, 139.208, 274.063 ],
+    "heading level" : 3,
+    "font" : "Arial-BoldMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "ZTL 0/24"
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 35,
+    "level" : "5",
+    "page number" : 4,
+    "bounding box" : [ 69.2, 205.457, 316.316, 260.263 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 4,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 4,
+      "bounding box" : [ 69.2, 246.857, 164.492, 260.263 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "n. 1 - Via Riesci;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 4,
+      "bounding box" : [ 69.2, 233.057, 316.316, 246.463 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "n. 2 - Via Trieste, angolo Via San Francesco;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 4,
+      "bounding box" : [ 69.2, 219.257, 306.596, 232.663 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "n. 3 - Via Marmocchi, angolo vicolo Ciaspini",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 4,
+      "bounding box" : [ 69.2, 205.457, 304.064, 218.863 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "n. 4 - Via Grandi, angolo Via Borgo Marturi",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 36,
+    "page number" : 4,
+    "bounding box" : [ 15.2, 177.457, 143.228, 205.063 ],
+    "font" : "ArialMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "n. 5 - L.go Gramsci ZTL 14/20"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 37,
+    "page number" : 4,
+    "bounding box" : [ 15.2, 149.857, 384.62, 177.063 ],
+    "font" : "ArialMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "n. 6 - Via Borgo Marturi ( parte alta) angolo P.zza Matteotti n. 7 - Via San Francesco"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 38,
+    "level" : "4",
+    "page number" : 4,
+    "bounding box" : [ 69.2, 122.257, 543.368, 149.463 ],
+    "font" : "ArialMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : " Con RDO n.645127 (CIG 5988951EB2) pubblicata in data 31/10/2014, è stata attivata la suddetta procedura negoziata;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 39,
+    "level" : "4",
+    "page number" : 4,
+    "bounding box" : [ 69.2, 66.757, 543.284, 121.863 ],
+    "font" : "ArialMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : " Con successiva determinazione dirigenziale n. 132/EU del 11/12/2014, a seguito dell’esame delle offerte pervenute da parte della Commissione Giudicatrice, nominata con determinazione dirigenziale n. 49/PM del 12/11/2014, è stata affidata alla ditta Sismic Sistemi SRL con sede legale in Firenze, via Maria Malibran, 49/51 (P.Iva"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 40,
+    "level" : "5",
+    "page number" : 5,
+    "bounding box" : [ 87.2, 688.357, 543.792, 784.963 ],
+    "font" : "ArialMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "04403120480) la fornitura e posa in opera del sistema di controllo telematico degli accessi ZTL mediante l’installazione di n. 7 (sette) varchi elettronici denominati “S.A.R.T./2”, sistema regolarmente omologato con Decreto del Ministero delle Infrastrutture e dei Trasporti - Dipartimento per i trasporti, la navigazione, gli affari generali ed il personale – Direzione generale per la sicurezza stradale prot. n. 4684 del 03/10/2014, rilasciato alla Società Sismic Sistemi Srl, allegato alla presente deliberazione sub lett.A) onde costituirne parte integrante e sostanziale;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 41,
+    "page number" : 5,
+    "bounding box" : [ 51.2, 660.357, 331.472, 673.763 ],
+    "font" : "ArialMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Ritenuto dunque, alla luce di quanto sopra illustrato:"
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 42,
+    "level" : "3",
+    "page number" : 5,
+    "bounding box" : [ 105.2, 548.757, 543.572, 659.963 ],
+    "numbering style" : "unordered",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 5,
+      "bounding box" : [ 105.2, 604.557, 543.572, 659.963 ],
+      "font" : "CourierNewPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "o dover nuovamente disporre in ordine alla delimitazione della ZTL 14/20 attraverso l’estensione del provvedimento alla Via Simone Martini ed all’intera Via San Francesco, in ossequio alla richiamata direttiva di questo organo n. 104 del 23/10/2014;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 5,
+      "bounding box" : [ 105.2, 548.757, 543.428, 604.163 ],
+      "font" : "CourierNewPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "o dover quindi formalizzare la istituzione della ZTL 0/24, della ZTL 14/20 ed della APU di questo Ente, per come di seguito riportato e meglio illustrato nella planimetria d’insieme, allegata sub lett. B), che costituisce parte integrante e sostanziale del presente provvedimento;",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H3",
+    "id" : 43,
+    "level" : "Subtitle",
+    "page number" : 5,
+    "bounding box" : [ 69.2, 506.857, 542.252, 534.363 ],
+    "heading level" : 3,
+    "font" : "Arial-BoldItalicMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "A) APU con divieto di transito e sosta dalle ore 0.00 alle ore 24.00 a tutti i veicoli, ad eccezione delle categorie esentate e/o autorizzate, nelle seguenti vie e piazze:"
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 44,
+    "level" : "3",
+    "page number" : 5,
+    "bounding box" : [ 69.2, 64.757, 542.372, 506.463 ],
+    "numbering style" : "unordered",
+    "number of list items" : 30,
+    "next list id" : 47,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 5,
+      "bounding box" : [ 69.2, 493.057, 495.272, 506.463 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- Via della Repubblica, limitatamente al tratto da Largo Gramsci a P.zza Cavour;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 5,
+      "bounding box" : [ 69.2, 479.257, 134.504, 492.663 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- Via Pertini;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 5,
+      "bounding box" : [ 69.2, 465.457, 517.244, 478.863 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- P.zza Matteotti, limitatamente al tratto compreso tra via Borgo Marturi e Via Pertini;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 5,
+      "bounding box" : [ 69.2, 451.657, 151.628, 465.063 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- P.zza Cavour;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 5,
+      "bounding box" : [ 69.2, 437.857, 154.652, 451.263 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- Via Becheroni;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 5,
+      "bounding box" : [ 69.2, 424.057, 485.12, 437.463 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- Via Veneto, limitatamente al tratto da P.zza Savonarola a P.zza F.lli Rosselli;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 5,
+      "bounding box" : [ 69.2, 410.257, 220.76, 423.663 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- Via Simone da Poggibonsi;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 5,
+      "bounding box" : [ 69.2, 396.457, 140.756, 409.863 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- P.zza Nagy;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 5,
+      "bounding box" : [ 69.2, 382.657, 125.132, 396.063 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- Via Rugi;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 5,
+      "bounding box" : [ 69.2, 368.857, 131.804, 382.263 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- Via Curiel;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 5,
+      "bounding box" : [ 69.2, 355.057, 445.88, 368.463 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- Vicolo Ciaspini, limitatamente al tratto da Via Montorsoli a Via Gallurì;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 5,
+      "bounding box" : [ 69.2, 341.257, 181.964, 354.663 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- Vicolo Buonaccorsi;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 5,
+      "bounding box" : [ 69.2, 327.457, 165.86, 340.863 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- Via dei Mercanti;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 5,
+      "bounding box" : [ 69.2, 285.557, 542.372, 327.063 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- P.zza F.lli Rosselli, limitatamente al perimetro interno alla Piazza; B) ZTL con divieto di transito e sosta dalle ore 0.00 alle ore 24.00 a tutti i veicoli, ad eccezione delle categorie esentate e/o autorizzate, nelle seguenti vie e piazze:",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 5,
+      "bounding box" : [ 69.2, 271.757, 133.124, 285.163 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- Via Riesci;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 5,
+      "bounding box" : [ 69.2, 257.957, 173.672, 271.363 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- P.zza Savonarola;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 5,
+      "bounding box" : [ 69.2, 244.157, 443.072, 257.563 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- Via Veneto, limitatamente al tratto da P.zza Savonarola a P.zza Frilli;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 5,
+      "bounding box" : [ 69.2, 230.357, 426.884, 243.763 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- P.zza F.lli Rosselli, limitatamente al perimetro esterno alla Piazza;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 5,
+      "bounding box" : [ 69.2, 216.557, 161.876, 229.963 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- Via Frà Nicolao;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 5,
+      "bounding box" : [ 69.2, 202.757, 163.256, 216.163 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- Via della Rocca;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 5,
+      "bounding box" : [ 69.2, 188.957, 162.428, 202.363 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- Via delle Chiavi;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 5,
+      "bounding box" : [ 69.2, 175.157, 170.504, 188.563 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- Vicolo Fracassini;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 5,
+      "bounding box" : [ 69.2, 161.357, 181.172, 174.763 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- P.zza San Lorenzo;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 5,
+      "bounding box" : [ 69.2, 147.557, 518.072, 160.963 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- Via della Repubblica, limitatamente al tratto da P.zza Cavour a Via San Francesco;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 5,
+      "bounding box" : [ 69.2, 133.757, 503.732, 147.163 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- Via Trieste, limitatamente al tratto da Via della Repubblica a Via San Francesco;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 5,
+      "bounding box" : [ 69.2, 119.957, 159.188, 133.363 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- Via Marmocchi;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 5,
+      "bounding box" : [ 69.2, 106.157, 449.312, 119.563 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- Vicolo Ciaspini, limitatamente al tratto da Via Marmocchi a Via Gallurì;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 5,
+      "bounding box" : [ 69.2, 92.357, 195.128, 105.763 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- Vicolo del Poggiarello;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 5,
+      "bounding box" : [ 69.2, 78.557, 135.716, 91.963 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- Via Gallurì;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 5,
+      "bounding box" : [ 69.2, 64.757, 122.336, 78.163 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- Via Frilli;",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 47,
+    "level" : "3",
+    "page number" : 6,
+    "bounding box" : [ 69.2, 730.157, 514.028, 784.963 ],
+    "numbering style" : "unordered",
+    "number of list items" : 4,
+    "previous list id" : 44,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 6,
+      "bounding box" : [ 69.2, 771.557, 155.864, 784.963 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- Via Montorsoli;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 6,
+      "bounding box" : [ 69.2, 757.757, 514.028, 771.163 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- Largo Gramsci, nella parte adiacente le Vie della Repubblica, Montorsoli e Grandi;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 6,
+      "bounding box" : [ 69.2, 743.957, 167.192, 757.363 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- P.zza Amendola;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 6,
+      "bounding box" : [ 69.2, 730.157, 136.592, 743.563 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- Via Grandi;",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 48,
+    "level" : "4",
+    "page number" : 6,
+    "bounding box" : [ 69.2, 702.057, 542.192, 729.563 ],
+    "numbering style" : "english letters",
+    "number of list items" : 1,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 6,
+      "bounding box" : [ 69.2, 702.057, 542.192, 729.563 ],
+      "font" : "Arial-BoldItalicMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "C) ZTL con divieto di transito e sosta dalle ore 14.00 alle ore 20.00 a tutti i veicoli, ad eccezione delle categorie esentate e/o autorizzate, nelle seguenti vie e piazze:",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 49,
+    "level" : "3",
+    "page number" : 6,
+    "bounding box" : [ 69.2, 536.457, 487.268, 701.663 ],
+    "numbering style" : "unordered",
+    "number of list items" : 12,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 6,
+      "bounding box" : [ 69.2, 688.257, 177.992, 701.663 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- Via San Francesco",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 6,
+      "bounding box" : [ 69.2, 674.457, 151.184, 687.863 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- Via S. Martini;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 6,
+      "bounding box" : [ 69.2, 660.657, 424.868, 674.063 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- Via Trieste, tratto compreso tra Via San Francesco e Via Senese;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 6,
+      "bounding box" : [ 69.2, 646.857, 134.864, 660.263 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- P.zza Frilli;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 6,
+      "bounding box" : [ 69.2, 633.057, 487.268, 646.463 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- Via Borgo Marturi, limitatamente al tratto da P.zza Matteotti a Via Marmocchi;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 6,
+      "bounding box" : [ 69.2, 619.257, 175.844, 632.663 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- Via Dietro le Mura;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 6,
+      "bounding box" : [ 69.2, 605.457, 175.748, 618.863 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- Via Poggiobonizio;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 6,
+      "bounding box" : [ 69.2, 591.657, 173.84, 605.063 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- Via Bonizio Segni;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 6,
+      "bounding box" : [ 69.2, 577.857, 131.288, 591.263 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- Via Badia;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 6,
+      "bounding box" : [ 69.2, 564.057, 158.648, 577.463 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- Via L. Da Vinci;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 6,
+      "bounding box" : [ 69.2, 550.257, 207.356, 563.663 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- Via Balugano da Crema;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 6,
+      "bounding box" : [ 69.2, 536.457, 176.72, 549.863 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- Via San Lucchese.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 50,
+    "page number" : 6,
+    "bounding box" : [ 51.2, 480.957, 543.196, 521.963 ],
+    "font" : "ArialMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Precisato che il sistema di controllo elettronico degli accessi, nella zona a traffico limitato del Comune di Poggibonsi (SI), che costituisce parte del più ampio progetto “Poggibonsi IMobility”, ha la finalità di consentire:"
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 51,
+    "level" : "3",
+    "page number" : 6,
+    "bounding box" : [ 69.2, 327.557, 543.736, 480.563 ],
+    "numbering style" : "unordered",
+    "number of list items" : 3,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 6,
+      "bounding box" : [ 69.2, 397.757, 543.736, 480.563 ],
+      "font" : "CourierNewPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- l’identificazione e successivo sanzionamento del transito dei veicoli in violazione alle disposizioni previste per la ZTL, aderendo pienamente ai principi espressi nel D.P.R. 250 del 22/06/1999 ”Regolamento recante norme per l’autorizzazione all’installazione e all’esercizio di impianti per la rilevazione degli accessi di veicoli ai centri storici e alle zone a traffico limitato” e nel rispetto della riservatezza, secondo le prescrizioni emesse dal Garante per la Privacy.;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 6,
+      "bounding box" : [ 69.2, 369.557, 543.308, 397.363 ],
+      "font" : "CourierNewPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- benefici nella gestione automatica della ZTL, offrendo, anche in modo indiretto, maggiori e migliori servizi per gli utenti",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 6,
+      "bounding box" : [ 69.2, 327.557, 543.5, 369.163 ],
+      "font" : "CourierNewPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- il rilevamento dei volumi di traffico ai varchi per fasce orarie, sia dei veicoli in infrazione che di quelli autorizzati, al fine di successive elaborazioni statistiche volte a pianificare eventuali modifiche alla circolazione stradale;",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 52,
+    "page number" : 6,
+    "bounding box" : [ 51.2, 285.757, 543.476, 312.963 ],
+    "font" : "ArialMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Atteso dunque che tale Sistema concorre pertanto a perseguire gli obiettivi insiti nell’istituzione delle ZTL ed APU e quindi:"
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 53,
+    "level" : "4",
+    "page number" : 6,
+    "bounding box" : [ 69.2, 230.557, 527.72, 285.363 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 4,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 6,
+      "bounding box" : [ 69.2, 271.957, 527.72, 285.363 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "1. Ridurre il traffico veicolare privato, incentivando l’uso dei mezzi di trasporto pubblici;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 6,
+      "bounding box" : [ 69.2, 258.157, 374.42, 271.563 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "2. Ridurre i valori di inquinamento acustico e atmosferico;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 6,
+      "bounding box" : [ 69.2, 244.357, 305.744, 257.763 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "3. Migliorare la sicurezza per la cittadinanza;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 6,
+      "bounding box" : [ 69.2, 230.557, 466.688, 243.963 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "4. Rendere il centro storico più fruibile per il transito dei pedoni e dei ciclisti",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 54,
+    "page number" : 6,
+    "bounding box" : [ 51.2, 106.057, 544.048, 216.063 ],
+    "font" : "ArialMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Evidenziato che i suddetti sistemi omologati “S.A.R.T./2” di SISMIC SISTEMI SRL (Decreto del Ministero delle Infrastrutture e dei Trasporti - Dipartimento per i trasporti, la navigazione, gli affari generali ed il personale – Direzione generale per la sicurezza stradale prot. n. 4684 del 03/10/2014) verranno installati, per le finalità e con gli obbiettivi sopra illustrati, nei principali varchi di ingresso alla ZTL 0/24 ed alla ZTL 14/20 ed in particolare nei punti di sorveglianza evidenziati nella richiamata planimetria, allegata sub lett. B) che costituisce parte integrante e sostanziale del presente provvedimento, collocandoli in corrispondenza dei seguenti siti:"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H3",
+    "id" : 55,
+    "level" : "Subtitle",
+    "page number" : 6,
+    "bounding box" : [ 87.2, 91.857, 135.812, 105.263 ],
+    "heading level" : 3,
+    "font" : "Arial-BoldMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "ZTL 0/24"
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 56,
+    "level" : "5",
+    "page number" : 6,
+    "bounding box" : [ 87.2, 64.257, 316.316, 91.463 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "next list id" : 57,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 6,
+      "bounding box" : [ 87.2, 78.057, 164.492, 91.463 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "1 - Via Riesci;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 6,
+      "bounding box" : [ 87.2, 64.257, 316.316, 77.663 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "2 - Via Trieste, angolo Via San Francesco;",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 57,
+    "level" : "5",
+    "page number" : 7,
+    "bounding box" : [ 87.2, 702.257, 384.62, 784.963 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 5,
+    "previous list id" : 56,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 7,
+      "bounding box" : [ 87.2, 771.557, 306.596, 784.963 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "3 - Via Marmocchi, angolo vicolo Ciaspini",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 7,
+      "bounding box" : [ 87.2, 757.757, 304.064, 771.163 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "4 - Via Grandi, angolo Via Borgo Marturi",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 7,
+      "bounding box" : [ 87.2, 729.857, 179.228, 757.363 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "5 - L.go Gramsci ZTL 14/20",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 7,
+      "bounding box" : [ 87.2, 716.057, 384.62, 729.463 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "6 - Via Borgo Marturi ( parte alta) angolo P.zza Matteotti",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 7,
+      "bounding box" : [ 87.2, 702.257, 206.084, 715.663 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "7 - Via San Francesco",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H3",
+    "id" : 58,
+    "level" : "Subtitle",
+    "page number" : 7,
+    "bounding box" : [ 51.2, 674.257, 129.344, 687.663 ],
+    "heading level" : 3,
+    "font" : "Arial-BoldMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Precisato che"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 59,
+    "level" : "6",
+    "page number" : 7,
+    "bounding box" : [ 69.2, 550.057, 543.548, 673.863 ],
+    "font" : "ArialMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : " i suddetti impianti saranno utilizzati per la rilevazione dei dati, riguardanti il luogo, il tempo e l'identificazione dei veicoli che accedono alle ZTL di questo Ente, raccogliendo dati sugli accessi e rilevando immagini solamente in caso di infrazione e che la conseguente procedura sanzionatoria avrà luogo solamente in presenza di violazione documentata dalle immagini rilevate, che verrà conservata per il solo periodo necessario alla contestazione dell'infrazione, all'applicazione della sanzione ed alla definizione dell'eventuale contenzioso. I dati rilevati verranno utilizzati, in forma anonima, nel rispetto delle vigenti disposizioni di legge, anche a fini statistici e per studi, analisi e rilievi di traffico;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 60,
+    "level" : "6",
+    "page number" : 7,
+    "bounding box" : [ 69.2, 508.657, 543.296, 549.663 ],
+    "font" : "ArialMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : " gli impianti verranno gestiti direttamente dal Comando di Polizia Municipale, restando nella loro disponibilità. Al Responsabile nominato da Sindaco ed al personale di vigilanza incaricato, spetterà la custodia e l’utilizzazione dei dati rilevati."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 61,
+    "level" : "6",
+    "page number" : 7,
+    "bounding box" : [ 69.2, 481.057, 543.596, 508.263 ],
+    "font" : "ArialMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : " ferme restando le disposizioni di cui al D.Lgs 196/2003 e successive modificazioni, i dati rilevati sono accessibili per fini di polizia giudiziaria o di indagine penale."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 62,
+    "level" : "6",
+    "page number" : 7,
+    "bounding box" : [ 69.2, 425.857, 543.5, 480.663 ],
+    "font" : "ArialMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : " l'esercizio degli impianti avrà luogo nel rispetto delle norme di omologazione od approvazione, per le finalità per cui sono stati autorizzati, e comunque nei limiti di cui all'articolo 17, comma 133- bis, della legge 15 maggio 1997, n. 127, introdotto dall'articolo 2, comma 33, della legge 16 giugno 1998, n. 191;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 63,
+    "level" : "6",
+    "page number" : 7,
+    "bounding box" : [ 69.2, 398.257, 543.272, 425.463 ],
+    "font" : "ArialMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : " gli impianti in questione non saranno interconnessi con altri strumenti, archivi o banche dati;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 64,
+    "level" : "6",
+    "page number" : 7,
+    "bounding box" : [ 69.2, 301.657, 543.584, 397.863 ],
+    "font" : "ArialMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : " ai fini dell'installazione ed esercizio degli impianti suddetti per la rilevazione degli accessi di veicoli alle ZTL per come sopra individuate ed istituite, ai sensi dell'articolo 17, comma 133-bis, della legge 15 maggio 1997, n. 127, introdotto dall'art. 2, comma 33, della legge 16 giugno 1998, n. 191, questo Ente provvederà a richiedere apposita autorizzazione al Ministero delle Infrastrutture e dei Trasporti - Dipartimento per i trasporti, la navigazione, gli affari generali ed il personale – Direzione generale per la sicurezza stradale, recependo quanto in essa contenuto in ordine all’esercizio;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 65,
+    "page number" : 7,
+    "bounding box" : [ 51.2, 232.357, 543.428, 287.163 ],
+    "font" : "ArialMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Dato atto che, in corrispondenza dei suddetti varchi elettronici, il flusso dei veicoli non autorizzati al transito in ZTL, può regolarmente proseguire, senza la necessità di manovre che possano pregiudicare la sicurezza o creare intralcio alla circolazione, utilizzando percorsi non soggetti a divieto o limitazione alcuna;"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H3",
+    "id" : 66,
+    "level" : "Subtitle",
+    "page number" : 7,
+    "bounding box" : [ 51.2, 204.357, 112.088, 217.763 ],
+    "heading level" : 3,
+    "font" : "Arial-BoldMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Atteso che"
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 67,
+    "level" : "3",
+    "page number" : 7,
+    "bounding box" : [ 69.2, 64.557, 543.572, 203.963 ],
+    "numbering style" : "unordered",
+    "number of list items" : 3,
+    "next list id" : 69,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 7,
+      "bounding box" : [ 69.2, 162.357, 543.44, 203.963 ],
+      "font" : "CourierNewPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- in base alla attuale regolamentazione della circolazione dinamica della ZTL, gli accessi alla medesima risultano così pressoché interamente disciplinati da sistemi di rilevamento elettronico;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 7,
+      "bounding box" : [ 69.2, 106.557, 543.512, 161.963 ],
+      "font" : "CourierNewPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- tra gli accessi alla ZTL 14/20, risulta privo di copertura con sistemi telematici di controllo il solo tratto di Via Badia regolamentato a doppio senso di circolazione per un’estensione all’interno della ZTL inferiore a 100 mt ed in particolare il solo tratto dall’intersezione con Via S. Caterina fino all’intersezione con Via L. Da Vinci;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 7,
+      "bounding box" : [ 69.2, 64.557, 543.572, 106.163 ],
+      "font" : "CourierNewPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- tale tratto di Via Badia risulta del tutto marginare rispetto alla perimetrazione complessiva della ZTL in quanto, oltre a presentare una estensione inferiore a 100 mt, la sua disciplina a doppio senso di circolazione ha la precipua finalità di agevolare",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 69,
+    "level" : "3",
+    "page number" : 8,
+    "bounding box" : [ 69.2, 673.757, 543.632, 784.963 ],
+    "numbering style" : "unordered",
+    "number of list items" : 3,
+    "previous list id" : 67,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "id" : 68,
+      "page number" : 8,
+      "bounding box" : [ 87.2, 771.557, 294.224, 784.963 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "l’accesso ai residenti di Via L. da Vinci;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 8,
+      "bounding box" : [ 69.2, 729.557, 543.632, 771.163 ],
+      "font" : "CourierNewPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- ai fini di una migliore gestione degli strumenti di controllo delle ZTL e della APU, questa Amministrazione provvederà anche al controllo del rispetto dei divieti vigenti attraverso l’operato del proprio personale di vigilanza;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 8,
+      "bounding box" : [ 69.2, 673.757, 543.62, 729.163 ],
+      "font" : "CourierNewPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- il suddetto sistema di controllo telematico degli accessi alla ZTL è espandibile e predisposto, fin da subito, all’installazione di ulteriori varchi e che, pertanto, questo Ente si riserva di disporre nel futuro il completamento della rete di controllo telematico;",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H3",
+    "id" : 70,
+    "level" : "Subtitle",
+    "page number" : 8,
+    "bounding box" : [ 51.2, 645.457, 99.68, 658.863 ],
+    "heading level" : 3,
+    "font" : "Arial-BoldMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Ritenuto"
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 71,
+    "level" : "3",
+    "page number" : 8,
+    "bounding box" : [ 69.2, 217.657, 543.62, 645.063 ],
+    "numbering style" : "unordered",
+    "number of list items" : 4,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 8,
+      "bounding box" : [ 69.2, 535.057, 543.44, 645.063 ],
+      "font" : "Wingdings-Regular",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : " dover quindi istituire il sistema di controllo telematico nei principali varchi di ingresso alla ZTL 0/24 ed alla ZTL 14/20 per come sopra individuati, per un totale di n. 7 varchi da collocarsi nei punti di sorveglianza evidenziati nella già richiamata planimetria, allegata sub lett. B), rinviando ad apposito successivo provvedimento l’attivazione del suddetto sistema, a seguito dell’ottenimento, da parte di questo Ente, dell’autorizzazione del Ministero delle Infrastrutture e dei Trasporti all’installazione ed all’esercizio dei n. 7 impianti predetti, nonché dell’espletamento del periodo di pre – esercizio, nei termini e secondo quanto verrà disposto dal suddetto Ministero;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 8,
+      "bounding box" : [ 69.2, 466.057, 543.224, 534.663 ],
+      "font" : "Wingdings-Regular",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : " altresì dover modificare l’art. 2, comma 1 lett.C) del“Disciplinare delle ZTL (Zone a Traffico Limitato) ed APU (Aree Pedonali Urbane), per la regolamentazione della gestione e modalità di fruizione delle ZTL e delle APU approvato con deliberazione G.C. n. 159 del 04/06/2013, integrando l’elenco delle vie ricomprese nel perimetro della ZTL 14/20 con l’inserimento dell’intera Via San Francesco e della Via S. Martini;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 8,
+      "bounding box" : [ 69.2, 369.457, 543.608, 465.663 ],
+      "font" : "Wingdings-Regular",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : " dover confermare interamente detto Disciplinare, per la parte non emendata al punto precedente, approvando il testo coordinato e già modificato che si allega sub lett. C), a far parte integrante e sostanziale del presente provvedimento, rinviando a successivo provvedimento, contestuale all’attivazione del sistema, l’adozione delle ulteriori integrazioni ed adeguamenti, che si rendessero strettamente necessari e riconducibili in modo specifico a tale nuova modalità di controllo telematico degli accessi ZTL;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 8,
+      "bounding box" : [ 69.2, 217.657, 543.62, 369.063 ],
+      "font" : "Wingdings-Regular",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : " infine dover dare mandato al Dirigente del Settore Polizia Municipale all’adozione di tutti gli atti ed attività gestionali connessi e conseguenti all’adozione del presente provvedimento, con particolare riferimento all’inoltro, come previsto dal DPR 250/1999, della domanda al Ministero delle Infrastrutture e dei Trasporti per la autorizzazione alla installazione ed alla messa in esercizio del sistema di controllo telematico degli accessi alla ZTL 0/24 e ZTL 14/2, costituito da n. 7 (sette) varchi elettronici “SART 2” di Sismic Sistemi SRL, omologati con Decreto del Ministero delle Infrastrutture e dei Trasporti - Dipartimento per i trasporti, la navigazione, gli affari generali ed il personale – Direzione generale per la sicurezza stradale prot. n. 4684 del 03/10/2014 e situati nelle descritte vie di ingresso alle suddette ZTL per come già individuate ai punti precedenti;",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 72,
+    "page number" : 8,
+    "bounding box" : [ 51.2, 162.157, 543.524, 203.163 ],
+    "font" : "ArialMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Ritenuta la propria competenza ai sensi dell’art. 7, comma 1 lett. f) del D.Lgs n. 285/92 e successive modifiche ed integrazioni recante “Nuovo Codice della Strada”, nonché ai sensi dell’art. 48 del D.Lgs n. 267/2000 e s.m.e i.;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 73,
+    "page number" : 8,
+    "bounding box" : [ 51.2, 93.157, 543.116, 147.963 ],
+    "font" : "ArialMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Preso atto del parere favorevole in ordine alla regolarità tecnica espresso dal Dirigente del Settore Polizia Municipale ed in ordine alla regolarità contabile espresso dal Dirigente del Settore Economico-Finanziario, come da allegati alla proposta di delibera, ai sensi dell’art. 49 del D.lgs. n. 267/2000 e ss.mm.;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 74,
+    "page number" : 8,
+    "bounding box" : [ 51.2, 64.704, 179.464, 77.993 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Visto lo Statuto Comunale"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 75,
+    "page number" : 9,
+    "bounding box" : [ 51.2, 701.157, 543.224, 784.663 ],
+    "font" : "ArialMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Visto il D.lgs 267/2000 e ss.mm.ii. Visto il D.Lgs 285/92 e ss.mm.ii Visto il DPR 495/92 e ss.mm.i.i. Visto il DPR 250/1999 avente ad oggetto “Regolamento recante le norme per l’attuazione all’installazione ed all’esercizio degli impianti per la rilevazione degli accessi di veicoli ai centri storici ed alle zone a traffico limitato”;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 76,
+    "page number" : 9,
+    "bounding box" : [ 51.2, 660.557, 410.084, 700.463 ],
+    "font" : "ArialMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Visto l’art 17, comma 133- bis, della legge 15 maggio 1997, n. 127; Con votazione unanime, resa in forma palese, nelle forme di legge;"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H2",
+    "id" : 77,
+    "level" : "Subtitle",
+    "page number" : 9,
+    "bounding box" : [ 262.2, 631.333, 333.656, 646.974 ],
+    "heading level" : 2,
+    "font" : "Arial-BoldMT",
+    "font size" : 14.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "DELIBERA"
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 78,
+    "level" : "4",
+    "page number" : 9,
+    "bounding box" : [ 69.2, 549.057, 543.692, 617.663 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 9,
+      "bounding box" : [ 69.2, 590.457, 543.692, 617.663 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "1. di richiamare ed approvare le premesse sopra riportate che costituiscono parte integrante e sostanziale della presente deliberazione;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 9,
+      "bounding box" : [ 69.2, 549.057, 543.2, 576.263 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "2. di istituire, quindi, le seguenti aree evidenziate nella planimetria allegata sub lett. B), che forma parte integrante e sostanziale del presente provvedimento:",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H3",
+    "id" : 79,
+    "level" : "Subtitle",
+    "page number" : 9,
+    "bounding box" : [ 69.2, 494.157, 542.24, 535.663 ],
+    "heading level" : 3,
+    "font" : "Arial-BoldItalicMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "A) AREA PEDONALE URBANA (APU) con divieto di transito e sosta dalle ore 0.00 alle ore 24.00 a tutti i veicoli, ad eccezione delle categorie esentate e/o autorizzate, nelle seguenti vie e piazze:"
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 80,
+    "level" : "3",
+    "page number" : 9,
+    "bounding box" : [ 69.2, 65.657, 542.456, 493.763 ],
+    "numbering style" : "unordered",
+    "number of list items" : 27,
+    "next list id" : 83,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 9,
+      "bounding box" : [ 69.2, 480.357, 495.272, 493.763 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- Via della Repubblica, limitatamente al tratto da Largo Gramsci a P.zza Cavour;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 9,
+      "bounding box" : [ 69.2, 466.557, 134.504, 479.963 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- Via Pertini;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 9,
+      "bounding box" : [ 69.2, 452.757, 517.244, 466.163 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- P.zza Matteotti, limitatamente al tratto compreso tra via Borgo Marturi e Via Pertini;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 9,
+      "bounding box" : [ 69.2, 438.957, 151.628, 452.363 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- P.zza Cavour;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 9,
+      "bounding box" : [ 69.2, 425.157, 154.652, 438.563 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- Via Becheroni;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 9,
+      "bounding box" : [ 69.2, 411.357, 485.12, 424.763 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- Via Veneto, limitatamente al tratto da P.zza Savonarola a P.zza F.lli Rosselli;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 9,
+      "bounding box" : [ 69.2, 397.557, 220.76, 410.963 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- Via Simone da Poggibonsi;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 9,
+      "bounding box" : [ 69.2, 383.757, 140.756, 397.163 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- P.zza Nagy;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 9,
+      "bounding box" : [ 69.2, 369.957, 125.132, 383.363 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- Via Rugi;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 9,
+      "bounding box" : [ 69.2, 356.157, 131.804, 369.563 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- Via Curiel;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 9,
+      "bounding box" : [ 69.2, 342.357, 445.88, 355.763 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- Vicolo Ciaspini, limitatamente al tratto da Via Montorsoli a Via Gallurì;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 9,
+      "bounding box" : [ 69.2, 328.557, 181.964, 341.963 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- Vicolo Buonaccorsi;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 9,
+      "bounding box" : [ 69.2, 314.757, 165.86, 328.163 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- Via dei Mercanti;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 9,
+      "bounding box" : [ 69.2, 245.057, 542.456, 314.363 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- P.zza F.lli Rosselli, limitatamente al perimetro interno alla Piazza; B) ZONA A TRAFFICO LIMITATO 0/24 (ZTL 0/24) con divieto di transito e sosta dalle ore 0.00 alle ore 24.00 a tutti i veicoli, ad eccezione delle categorie esentate e/o autorizzate, nelle seguenti vie e piazze:",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 9,
+      "bounding box" : [ 69.2, 231.257, 133.124, 244.663 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- Via Riesci;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 9,
+      "bounding box" : [ 69.2, 217.457, 173.672, 230.863 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- P.zza Savonarola;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 9,
+      "bounding box" : [ 69.2, 203.657, 443.072, 217.063 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- Via Veneto, limitatamente al tratto da P.zza Savonarola a P.zza Frilli;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 9,
+      "bounding box" : [ 69.2, 189.857, 426.884, 203.263 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- P.zza F.lli Rosselli, limitatamente al perimetro esterno alla Piazza;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 9,
+      "bounding box" : [ 69.2, 176.057, 161.876, 189.463 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- Via Frà Nicolao;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 9,
+      "bounding box" : [ 69.2, 162.257, 163.256, 175.663 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- Via della Rocca;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 9,
+      "bounding box" : [ 69.2, 148.457, 162.428, 161.863 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- Via delle Chiavi;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 9,
+      "bounding box" : [ 69.2, 134.657, 170.504, 148.063 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- Vicolo Fracassini;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 9,
+      "bounding box" : [ 69.2, 120.857, 181.172, 134.263 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- P.zza San Lorenzo;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 9,
+      "bounding box" : [ 69.2, 107.057, 518.072, 120.463 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- Via della Repubblica, limitatamente al tratto da P.zza Cavour a Via San Francesco;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 9,
+      "bounding box" : [ 69.2, 93.257, 503.732, 106.663 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- Via Trieste, limitatamente al tratto da Via della Repubblica a Via San Francesco;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 9,
+      "bounding box" : [ 69.2, 79.457, 159.188, 92.863 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- Via Marmocchi;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 9,
+      "bounding box" : [ 69.2, 65.657, 449.312, 79.063 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- Vicolo Ciaspini, limitatamente al tratto da Via Marmocchi a Via Gallurì;",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 83,
+    "level" : "3",
+    "page number" : 10,
+    "bounding box" : [ 69.2, 688.757, 514.028, 784.963 ],
+    "numbering style" : "unordered",
+    "number of list items" : 7,
+    "previous list id" : 80,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 10,
+      "bounding box" : [ 69.2, 771.557, 195.128, 784.963 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- Vicolo del Poggiarello;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 10,
+      "bounding box" : [ 69.2, 757.757, 135.716, 771.163 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- Via Gallurì;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 10,
+      "bounding box" : [ 69.2, 743.957, 122.336, 757.363 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- Via Frilli;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 10,
+      "bounding box" : [ 69.2, 730.157, 155.864, 743.563 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- Via Montorsoli;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 10,
+      "bounding box" : [ 69.2, 716.357, 514.028, 729.763 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- Largo Gramsci, nella parte adiacente le Vie della Repubblica, Montorsoli e Grandi;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 10,
+      "bounding box" : [ 69.2, 702.557, 167.192, 715.963 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- P.zza Amendola;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 10,
+      "bounding box" : [ 69.2, 688.757, 136.592, 702.163 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- Via Grandi;",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 84,
+    "level" : "4",
+    "page number" : 10,
+    "bounding box" : [ 69.2, 632.857, 542.204, 674.363 ],
+    "numbering style" : "english letters",
+    "number of list items" : 1,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 10,
+      "bounding box" : [ 69.2, 632.857, 542.204, 674.363 ],
+      "font" : "Arial-BoldItalicMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "C) ZONA A TRAFFICO LIMITATO 14/20 (ZTL 14/20) con divieto di transito e sosta dalle ore 14.00 alle ore 20.00 a tutti i veicoli, ad eccezione delle categorie esentate e/o autorizzate, nelle seguenti vie e piazze:",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 85,
+    "level" : "3",
+    "page number" : 10,
+    "bounding box" : [ 69.2, 467.257, 487.268, 632.463 ],
+    "numbering style" : "unordered",
+    "number of list items" : 12,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 10,
+      "bounding box" : [ 69.2, 619.057, 177.992, 632.463 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- Via San Francesco",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 10,
+      "bounding box" : [ 69.2, 605.257, 151.184, 618.663 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- Via S. Martini;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 10,
+      "bounding box" : [ 69.2, 591.457, 424.868, 604.863 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- Via Trieste, tratto compreso tra Via San Francesco e Via Senese;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 10,
+      "bounding box" : [ 69.2, 577.657, 134.864, 591.063 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- P.zza Frilli;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 10,
+      "bounding box" : [ 69.2, 563.857, 487.268, 577.263 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- Via Borgo Marturi, limitatamente al tratto da P.zza Matteotti a Via Marmocchi;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 10,
+      "bounding box" : [ 69.2, 550.057, 175.844, 563.463 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- Via Dietro le Mura;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 10,
+      "bounding box" : [ 69.2, 536.257, 175.748, 549.663 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- Via Poggiobonizio;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 10,
+      "bounding box" : [ 69.2, 522.457, 173.84, 535.863 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- Via Bonizio Segni;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 10,
+      "bounding box" : [ 69.2, 508.657, 131.288, 522.063 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- Via Badia;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 10,
+      "bounding box" : [ 69.2, 494.857, 158.648, 508.263 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- Via L. Da Vinci;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 10,
+      "bounding box" : [ 69.2, 481.057, 207.356, 494.463 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- Via Balugano da Crema;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 10,
+      "bounding box" : [ 69.2, 467.257, 176.72, 480.663 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- Via San Lucchese.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 86,
+    "level" : "4",
+    "page number" : 10,
+    "bounding box" : [ 51.2, 69.157, 544.124, 454.163 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 3,
+    "next list id" : 88,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 10,
+      "bounding box" : [ 51.2, 329.957, 544.124, 454.163 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "3. di istituire il sistema di controllo telematico nei principali punti di accesso alle ZTL 0/24 e ZTL 14/20 per come delimitate al precedente punto 1, lett. B) e C) del presente deliberato, dando atto che i n. 7 (sette) varchi elettronici del tipo “S.A.R.T./2” , omologati con Decreto del Ministero delle Infrastrutture e dei Trasporti - Dipartimento per i trasporti, la navigazione, gli affari generali ed il personale – Direzione generale per la sicurezza stradale prot. n. 4684 del 03/10/2014 rilasciata a Sismic Sistemi Srl ed allegato sub lett. A), verranno installati nei punti di sorveglianza evidenziati nella richiamata planimetria, allegata sub lett. B) che costituisce parte integrante e sostanziale del presente provvedimento, collocandoli in corrispondenza dei seguenti siti:",
+      "kids" : [ {
+        "type" : "paragraph",
+        "pdfua_tag" : "P",
+        "id" : 1,
+        "page number" : 10,
+        "bounding box" : [ 69.2, 315.857, 117.812, 329.263 ],
+        "font" : "Arial-BoldMT",
+        "font size" : 12.0,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "ZTL 0/24"
+      }, {
+        "type" : "list",
+        "pdfua_tag" : "L",
+        "id" : 2,
+        "level" : "5",
+        "page number" : 10,
+        "bounding box" : [ 69.2, 190.957, 366.62, 315.463 ],
+        "numbering style" : "arabic numbers",
+        "number of list items" : 7,
+        "list items" : [ {
+          "type" : "list item",
+          "pdfua_tag" : "LI",
+          "page number" : 10,
+          "bounding box" : [ 69.2, 302.057, 146.492, 315.463 ],
+          "font" : "ArialMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "1 - Via Riesci;",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "pdfua_tag" : "LI",
+          "page number" : 10,
+          "bounding box" : [ 69.2, 288.257, 298.316, 301.663 ],
+          "font" : "ArialMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "2 - Via Trieste, angolo Via San Francesco;",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "pdfua_tag" : "LI",
+          "page number" : 10,
+          "bounding box" : [ 69.2, 274.457, 288.596, 287.863 ],
+          "font" : "ArialMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "3 - Via Marmocchi, angolo vicolo Ciaspini",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "pdfua_tag" : "LI",
+          "page number" : 10,
+          "bounding box" : [ 69.2, 260.657, 286.064, 274.063 ],
+          "font" : "ArialMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "4 - Via Grandi, angolo Via Borgo Marturi",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "pdfua_tag" : "LI",
+          "page number" : 10,
+          "bounding box" : [ 69.2, 218.557, 161.228, 260.263 ],
+          "font" : "ArialMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "5 - L.go Gramsci ZTL 14/20",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "pdfua_tag" : "LI",
+          "page number" : 10,
+          "bounding box" : [ 69.2, 204.757, 366.62, 218.163 ],
+          "font" : "ArialMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "6 - Via Borgo Marturi ( parte alta) angolo P.zza Matteotti",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "pdfua_tag" : "LI",
+          "page number" : 10,
+          "bounding box" : [ 69.2, 190.957, 188.084, 204.363 ],
+          "font" : "ArialMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "7 - Via San Francesco",
+          "kids" : [ ]
+        } ]
+      } ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 10,
+      "bounding box" : [ 51.2, 110.557, 543.512, 179.163 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "4. di rinviare ad apposito provvedimento la successiva attivazione del sistema, a seguito dell’ottenimento, da parte di questo Ente, dell’autorizzazione del Ministero delle Infrastrutture e dei Trasporti all’installazione ed all’esercizio dei n. 7 (sette) impianti predetti, nonché dell’espletamento del periodo di pre – esercizio, nei termini e secondo quanto verrà disposto dal suddetto Ministero;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 10,
+      "bounding box" : [ 51.2, 69.157, 543.38, 96.363 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "5. di modificare l’art. 2, comma 1 lett.C del “Disciplinare delle ZTL (Zone a Traffico Limitato) ed APU (Aree Pedonali Urbane)”, approvato con deliberazione G.C. n. 159 del",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 88,
+    "level" : "4",
+    "page number" : 11,
+    "bounding box" : [ 50.7, 318.557, 543.632, 784.963 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 7,
+    "previous list id" : 86,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "id" : 87,
+      "page number" : 11,
+      "bounding box" : [ 51.2, 743.957, 543.296, 784.963 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "04/06/2013, integrando l’elenco delle vie ricomprese nel perimetro della ZTL 14/20 con l’inserimento dell’intera Via San Francesco e della Via S. Martini per come previsto al punto 2 lettera C del presente deliberato;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 11,
+      "bounding box" : [ 51.2, 647.357, 543.176, 729.763 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "6. di confermare interamente, per la parte non emendata al precedente punto 5, il “Disciplinare delle ZTL (Zone a Traffico Limitato) ed APU (Aree Pedonali Urbane)” di cui alla richiamata deliberazione GC n. 159/2013, approvando il testo coordinato e già modificato che si allega sub lett. C), a far parte integrante e sostanziale del presente provvedimento, composto di n. 12 articoli, volti alla regolamentazione della gestione e modalità di fruizione delle ZTL e delle APU;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 11,
+      "bounding box" : [ 51.2, 578.357, 543.476, 633.163 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "7. di rinviare ad apposito provvedimento, contestuale all’attivazione del sistema secondo quanto previsto al precedente punto 4), l’adozione delle ulteriori integrazioni ed adeguamenti al suddetto Disciplinare, che si rendessero necessarie e riconducibili in modo specifico a tale nuova modalità di controllo telematico degli accessi ZTL;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 11,
+      "bounding box" : [ 51.2, 484.157, 543.512, 566.563 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "8. di dare mandato al Dirigente del Settore Polizia Municipale di inoltrare al Ministero delle Infrastrutture e dei Trasporti domanda per l’autorizzazione all’installazione e messa in esercizio dei varchi elettronici nei 7 (sette) punti della ZTL definiti al precedente punto 3), in ottemperanza al disposto di cui al DPR n. 250 del 22/06/1999 “Regolamento recante norme per l’autorizzazione all’installazione e all’esercizio di impianti per la rilevazione degli accessi di veicoli ai centri storici e alle zone a traffico limitato”",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 11,
+      "bounding box" : [ 51.2, 442.757, 543.632, 469.963 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "9. di revocare, conseguentemente all’ entrata in vigore del presente atto, tutti i provvedimenti amministrativi incompatibili con la presente deliberazione;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 11,
+      "bounding box" : [ 51.2, 387.557, 543.44, 428.563 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "10. di demandare al Dirigente del Settore Polizia Municipale l’attuazione della presente deliberazione mediante la predisposizione ed adozione di tutti gli atti gestionali all’uopo necessari;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 11,
+      "bounding box" : [ 50.7, 318.557, 543.608, 373.363 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "11. indi, di dichiarare la presente deliberazione, con distinta votazione che ha riportato lo stesso esito della votazione precedente, immediatamente eseguibile ai sensi dell’art. 134 c. 4 del Dlgs 267/2000, stante l’urgenza di provvedere in merito.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 89,
+    "page number" : 12,
+    "bounding box" : [ 51.2, 772.669, 196.62, 784.958 ],
+    "font" : "ArialMT",
+    "font size" : 11.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Letto, approvato e sottoscritto"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 90,
+    "page number" : 12,
+    "bounding box" : [ 109.9, 692.257, 231.484, 719.463 ],
+    "font" : "ArialMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "IL Segretario Generale DOTTORI ROBERTO"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 91,
+    "page number" : 12,
+    "bounding box" : [ 356.9, 692.257, 484.664, 719.463 ],
+    "font" : "ArialMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "IL VICE SINDACO BECATTELLI SILVANO"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 92,
+    "page number" : 12,
+    "bounding box" : [ 51.2, 604.769, 543.857, 642.458 ],
+    "font" : "ArialMT",
+    "font size" : 11.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "La presente deliberazione è stata pubblicata all’Albo pretorio on line in data odierna per 15 giorni consecutivi ai sensi dell’art. 124 – I comma – del Dlgs 267/2000 e diventa esecutiva da tale data ai sensi dell’art. 134 c.4 del Dlgs 267/2000."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 93,
+    "page number" : 12,
+    "bounding box" : [ 65.4, 566.669, 195.914, 578.958 ],
+    "font" : "ArialMT",
+    "font size" : 11.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Poggibonsi, lì 03/03/2015"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H4",
+    "id" : 94,
+    "level" : "Subtitle",
+    "page number" : 12,
+    "bounding box" : [ 333.6, 513.757, 455.16, 540.963 ],
+    "heading level" : 4,
+    "font" : "ArialMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "IL Segretario Generale DOTTORI ROBERTO"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 96,
+    "page number" : 12,
+    "bounding box" : [ 31.2, 66.837, 559.46, 101.511 ],
+    "font" : "TimesNewRomanPS-ItalicMT",
+    "font size" : 10.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Le firme, in formato digitale, sono state apposte sull’originale del presente atto ai sensi dell’art. 24 del D.Lgs. 07/03/2005, n. 82 e s.m.i. (CAD). La presente deliberazione è conservata negli archivi informatici del Comune di Poggibonsi, ai sensi dell’art. 22 del D.Lgs. 82/2005."
+  } ]
+}

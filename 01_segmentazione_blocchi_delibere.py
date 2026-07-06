@@ -7,8 +7,8 @@
 #
 # Nota metodologica:
 # per ora il dispositivo NON viene analizzato. Quando lo script incontra
-# DELIBERA / SI PROPONE DI DELIBERARE, chiude l'ultimo blocco narrativo
-# e si ferma sul documento.
+# DELIBERA chiude la narrativa; PROPONE conserva il proprio dispositivo in un
+# blocco non narrativo e la segmentazione riprende dal marker successivo.
 # ============================================================
 
 from pathlib import Path
@@ -178,11 +178,17 @@ MARKERS = {
         r"(?:che|la|il|lo|le|gli|i|l['’])?"
     ),
 
+    "RICORDANDO": (
+        r"ricordando\b\s*(?:,|:|;)?\s*"
+        r"(?:che|la|il|lo|le|gli|i|l['’])?"
+    ),
+
     # ========================================================
     # Pareri / attestazioni / acquisizioni
     # ========================================================
     "ACQUISITI_PARERI": (
         r"acquisit[oaie]\s*(?:,|:|;)?\s*"
+        r"(?:sulla\s+(?:predetta\s+)?proposta\s*,?\s*)?"
         r"(?:i\s+)?pareri|"
         r"acquisit[oaie]\s+il\s+parere|"
         r"acquisit[oaie]\s+la\s+regolarit[aà]"
@@ -194,7 +200,12 @@ MARKERS = {
     ),
 
     "ATTESTA": (
-        r"(?:si\s+)?attest(?:a|ano|ato|ata|ati|ate)\s*(?:,|:|;)?\s*"
+        r"(?:si\s+)?attest(?:a|ano)\b\s*(?:,|:|;)?\s*"
+        r"(?:che|la|il|lo|le|gli|i|l['’]|ai\s+sensi|per)?"
+    ),
+
+    "ATTESTATO": (
+        r"attestat[oaie]\s*(?:,|:|;)?\s*"
         r"(?:che|la|il|lo|le|gli|i|l['’]|ai\s+sensi|per)?"
     ),
 
@@ -224,6 +235,16 @@ MARKERS = {
         r"(?:che|della|del|dei|degli|delle|dell['’]|in\s+ordine\s+a|relativamente\s+a)?"
     ),
 
+    "ASSUNTO": (
+        r"assunt[oaie]\s*(?:,|:|;)?\s*"
+        r"(?:che|la|il|lo|le|gli|i|l['’]|agli\s+atti|come|quale)?"
+    ),
+
+    "UDITO": (
+        r"udit[oaie]\s*(?:,|:|;)?\s*"
+        r"(?:che|la|il|lo|le|gli|i|l['’]|la\s+proposta|il\s+relatore)?"
+    ),
+
     "ACCERTATO": (
         r"accertat[oaie]\s*(?:,|:|;)?\s*"
         r"(?:che|la|il|lo|le|gli|i|l['’]|di|a|per)?"
@@ -232,6 +253,18 @@ MARKERS = {
     "VERIFICATO": (
         r"verificat[oaie]\s*(?:,|:|;)?\s*"
         r"(?:che|la|il|lo|le|gli|i|l['’]|di|a|per)?"
+    ),
+
+    "LETTO_ESAMINATO": (
+        r"(?:lett[oa]\s+(?:ed?\s+)?esaminat[oa]|"
+        r"letti\s+(?:ed?\s+)?esaminati|"
+        r"lette\s+(?:ed?\s+)?esaminate)\s*(?:,|:|;)?\s*"
+        r"(?:che|la|il|lo|le|gli|i|l['’]|gli\s+atti|la\s+documentazione|la\s+proposta)?"
+    ),
+
+    "LETTO": (
+        r"lett[oaie]\s*(?:,|:|;)?\s*"
+        r"(?:che|la|il|lo|le|gli|i|l['’]|gli\s+atti|la\s+documentazione|la\s+proposta)?"
     ),
 
     "ESAMINATO": (
@@ -297,6 +330,11 @@ MARKERS = {
         r"(?:che|la|il|lo|le|gli|i|l['’]|di|a|per)?"
     ),
 
+    "RIBADITO": (
+        r"ribadit[oaie]\s*(?:,|:|;)?\s*"
+        r"(?:che|la|il|lo|le|gli|i|l['’]|di|a|per|quanto)?"
+    ),
+
     "RICONOSCIUTO": (
         r"riconosciut[oaie]\s*(?:,|:|;)?\s*"
         r"(?:che|la|il|lo|le|gli|i|l['’]|di|a|per|necessario|opportuno|i\s+requisiti)?"
@@ -325,15 +363,20 @@ MACRO_SECTION = {
     "VISTI_PARERI": "PARERI_ATTESTAZIONI",
     "RICHIAMATO": "PREAMBOLO_RIFERIMENTI",
     "RICORDATO": "PREAMBOLO_RIFERIMENTI",
+    "RICORDANDO": "PREAMBOLO_RIFERIMENTI",
     "ACQUISITI_PARERI": "PARERI_ATTESTAZIONI",
     "ACQUISITO": "ISTRUTTORIA",
-    "ATTESTA": "PARERI_ATTESTAZIONI",
+    "ATTESTATO": "PARERI_ATTESTAZIONI",
     "RILASCIATO": "ISTRUTTORIA_PARERI",
     "DATO_ATTO": "ISTRUTTORIA",
     "PRESO_ATTO": "ISTRUTTORIA",
     "TENUTO_CONTO": "ISTRUTTORIA_MOTIVAZIONE",
+    "ASSUNTO": "ISTRUTTORIA",
+    "UDITO": "ISTRUTTORIA",
     "ACCERTATO": "ISTRUTTORIA",
     "VERIFICATO": "ISTRUTTORIA",
+    "LETTO_ESAMINATO": "ISTRUTTORIA_VALUTAZIONE",
+    "LETTO": "ISTRUTTORIA",
     "ESAMINATO": "ISTRUTTORIA_VALUTAZIONE",
     "ANALIZZATO": "ISTRUTTORIA_VALUTAZIONE",
     "PREDISPOSTO": "ISTRUTTORIA",
@@ -346,6 +389,7 @@ MACRO_SECTION = {
     "RILEVATO": "ISTRUTTORIA_MOTIVAZIONE",
     "VALUTATO": "MOTIVAZIONE_VALUTAZIONE",
     "EVIDENZIATO": "MOTIVAZIONE",
+    "RIBADITO": "MOTIVAZIONE",
     "RICONOSCIUTO": "MOTIVAZIONE_VALUTAZIONE",
     "PRECISATO": "ISTRUTTORIA_MOTIVAZIONE",
     "STABILITO": "MOTIVAZIONE_VALUTAZIONE",
@@ -434,12 +478,15 @@ def compact_spaced_markers(text: str) -> str:
         "RILEVATO", "RILEVATA", "RILEVATI", "RILEVATE",
         "RICHIAMATO", "RICHIAMATA", "RICHIAMATI", "RICHIAMATE",
         "RICORDATO", "RICORDATA", "RICORDATI", "RICORDATE",
+        "RICORDANDO",
         "ACCERTATO", "ACCERTATA", "ACCERTATI", "ACCERTATE",
         "VERIFICATO", "VERIFICATA", "VERIFICATI", "VERIFICATE",
         "VALUTATO", "VALUTATA", "VALUTATI", "VALUTATE",
         "EVIDENZIATO", "EVIDENZIATA", "EVIDENZIATI", "EVIDENZIATE",
+        "RIBADITO", "RIBADITA", "RIBADITI", "RIBADITE",
         "RICONOSCIUTO", "RICONOSCIUTA", "RICONOSCIUTI", "RICONOSCIUTE",
         "ANALIZZATO", "ANALIZZATA", "ANALIZZATI", "ANALIZZATE",
+        "LETTO", "LETTA", "LETTI", "LETTE",
         "ESAMINATO", "ESAMINATA", "ESAMINATI", "ESAMINATE",
         "PRECISATO", "PRECISATA", "PRECISATI", "PRECISATE",
         "FORMULATO", "FORMULATA", "FORMULATI", "FORMULATE",
@@ -451,6 +498,8 @@ def compact_spaced_markers(text: str) -> str:
         "DATO", "DATA", "DATI", "DATE",
         "PRESO", "PRESA", "PRESI", "PRESE",
         "TENUTO", "TENUTA", "TENUTI", "TENUTE",
+        "ASSUNTO", "ASSUNTA", "ASSUNTI", "ASSUNTE",
+        "UDITO", "UDITA", "UDITI", "UDITE",
         "ATTO", "CONTO",
         "ATTESTA", "ATTESTANO",
         "ATTESTATO", "ATTESTATA", "ATTESTATI", "ATTESTATE",
@@ -1070,8 +1119,8 @@ def build_blocks(elements: pd.DataFrame) -> pd.DataFrame:
     Ogni nuovo marker apre un nuovo blocco.
     Gli elementi successivi senza marker vengono accodati al blocco corrente.
 
-    Se incontra DELIBERA / PROPONE_DELIBERARE, chiude l'ultimo blocco
-    e interrompe la lettura della parte narrativa del documento.
+    DELIBERA chiude la narrativa; PROPONE_DELIBERARE conserva il dispositivo
+    in un blocco separato e la lettura riprende dal marker narrativo successivo.
     """
     rows = []
 
@@ -1086,6 +1135,7 @@ def build_blocks(elements: pd.DataFrame) -> pd.DataFrame:
         group = group.sort_values("order").copy()
 
         current_block: Optional[Dict[str, Any]] = None
+        proposal_block: Optional[Dict[str, Any]] = None
         block_order = 0
         marker_counts: Dict[str, int] = {}
         skipping_proposal_device = False
@@ -1095,17 +1145,44 @@ def build_blocks(elements: pd.DataFrame) -> pd.DataFrame:
                 row.get("text", ""), str(row.get("role_norm", ""))
             )
 
-            # Dopo PROPONE DI DELIBERARE ignoriamo i punti dispositivi, ma
-            # riapriamo la narrativa se inizia la fase dell'organo deliberante.
+            # Dopo PROPONE raccogliamo il dispositivo in un blocco non
+            # narrativo e riprendiamo dal successivo marker narrativo.
             if skipping_proposal_device:
-                if institutional_heading:
+                next_marker = row.get("marker_detected")
+                next_stop = row.get("stop_detected")
+                if pd.isna(next_marker):
+                    next_marker = None
+                if pd.isna(next_stop):
+                    next_stop = None
+                if next_stop == "DELIBERA":
+                    if proposal_block is not None:
+                        rows.append(proposal_block)
+                        proposal_block = None
+                    break
+                if next_marker not in {None, "DELIBERA", "PROPONE_DELIBERARE"}:
+                    if proposal_block is not None:
+                        rows.append(proposal_block)
+                        proposal_block = None
                     skipping_proposal_device = False
-                continue
+                else:
+                    is_table = row.get("role_norm") == "table" or row.get("label_raw") == "table"
+                    if (
+                        proposal_block is not None
+                        and not institutional_heading
+                        and not is_table
+                        and not bool(row["is_noise"])
+                    ):
+                        proposal_text = str(row.get("text", "")).strip()
+                        if proposal_text:
+                            proposal_block["testo_blocco"] += " " + proposal_text
+                            if pd.notna(row.get("page")):
+                                proposal_block["page_end"] = row.get("page")
+                            proposal_block["n_elementi"] += 1
+                    continue
 
             # L'intestazione dell'organo non è testo narrativo, ma può essere
             # ripetuta a cambio pagina nel mezzo di un blocco: la ignoriamo
-            # senza chiudere il blocco corrente. Dopo una proposta è invece
-            # gestita sopra come segnale di riapertura della narrativa.
+            # senza chiudere il blocco corrente.
             if institutional_heading:
                 continue
 
@@ -1120,7 +1197,8 @@ def build_blocks(elements: pd.DataFrame) -> pd.DataFrame:
             if bool(row["is_noise"]):
                 continue
 
-            text = row["text"]
+            original_text = row["text"]
+            text = original_text
             marker = row["marker_detected"]
             stop_marker = row.get("stop_detected")
             procedural_pos = row.get("procedural_stop_pos")
@@ -1140,8 +1218,8 @@ def build_blocks(elements: pd.DataFrame) -> pd.DataFrame:
             if stop_after_row:
                 text = text[:int(procedural_pos)].rstrip(" ;:,.\t")
 
-            # Stesso trattamento per PROPONE accodato a una frase narrativa;
-            # dopo avere salvato il prefisso, saltiamo i punti dispositivi.
+            # Se PROPONE è accodato a una frase narrativa, conserviamo il
+            # prefisso nel blocco corrente e il resto nel dispositivo separato.
             proposal_after_row = proposal_pos is not None
             if proposal_after_row:
                 text = text[:int(proposal_pos)].rstrip(" ;:,.\t")
@@ -1152,12 +1230,29 @@ def build_blocks(elements: pd.DataFrame) -> pd.DataFrame:
             # confermato da detect_dispositive_stop().
             effective_stop = stop_marker if stop_marker in STOP_MARKERS else None
 
-            # Il dispositivo della proposta è saltato; una successiva
-            # intestazione istituzionale può aprire una seconda narrativa.
+            # Il dispositivo della proposta viene conservato separatamente
+            # fino al successivo marker narrativo.
             if effective_stop == "PROPONE_DELIBERARE":
                 if current_block is not None:
                     rows.append(current_block)
                     current_block = None
+                block_order += 1
+                marker_counts["DISPOSITIVO_PROPOSTA"] = marker_counts.get("DISPOSITIVO_PROPOSTA", 0) + 1
+                proposal_block = {
+                    "id_atto": id_atto,
+                    "tool": tool,
+                    "source_format": source_format,
+                    "ordine_blocco": block_order,
+                    "tipo_blocco": "DISPOSITIVO_PROPOSTA",
+                    "tipo_blocco_progressivo": f"DISPOSITIVO_PROPOSTA_{marker_counts['DISPOSITIVO_PROPOSTA']}",
+                    "macro_sezione": "DISPOSITIVO_PROPOSTA",
+                    "is_narrativa": 0,
+                    "testo_blocco": original_text,
+                    "page_start": row.get("page"),
+                    "page_end": row.get("page"),
+                    "bbox_start": row.get("bbox"),
+                    "n_elementi": 1,
+                }
                 skipping_proposal_device = True
                 continue
 
@@ -1220,11 +1315,31 @@ def build_blocks(elements: pd.DataFrame) -> pd.DataFrame:
                 if current_block is not None:
                     rows.append(current_block)
                     current_block = None
+                block_order += 1
+                marker_counts["DISPOSITIVO_PROPOSTA"] = marker_counts.get("DISPOSITIVO_PROPOSTA", 0) + 1
+                proposal_text = original_text[int(proposal_pos):].strip()
+                proposal_block = {
+                    "id_atto": id_atto,
+                    "tool": tool,
+                    "source_format": source_format,
+                    "ordine_blocco": block_order,
+                    "tipo_blocco": "DISPOSITIVO_PROPOSTA",
+                    "tipo_blocco_progressivo": f"DISPOSITIVO_PROPOSTA_{marker_counts['DISPOSITIVO_PROPOSTA']}",
+                    "macro_sezione": "DISPOSITIVO_PROPOSTA",
+                    "is_narrativa": 0,
+                    "testo_blocco": proposal_text,
+                    "page_start": row.get("page"),
+                    "page_end": row.get("page"),
+                    "bbox_start": row.get("bbox"),
+                    "n_elementi": 1,
+                }
                 skipping_proposal_device = True
                 continue
 
         if current_block is not None:
             rows.append(current_block)
+        if proposal_block is not None:
+            rows.append(proposal_block)
 
     blocks = pd.DataFrame(rows)
 
@@ -1255,6 +1370,7 @@ def add_sequence_flags(blocks: pd.DataFrame) -> pd.DataFrame:
         "PREMESSO": 1,
         "RICHIAMATO": 2,
         "RICORDATO": 2,
+        "RICORDANDO": 2,
         "VISTO": 3,
         "VISTI_PARERI": 3,
         "ACQUISITO": 4,
@@ -1264,18 +1380,24 @@ def add_sequence_flags(blocks: pd.DataFrame) -> pd.DataFrame:
         "DATO_ATTO": 5,
         "PRESO_ATTO": 5,
         "TENUTO_CONTO": 5,
+        "ASSUNTO": 5,
+        "UDITO": 6,
         "ESAMINATO": 6,
         "ANALIZZATO": 6,
         "PREDISPOSTO": 6,
         "FORMULATO": 6,
         "INDIVIDUATO": 6,
         "ACCERTATO": 6,
+        "ATTESTATO": 6,
         "VERIFICATO": 6,
+        "LETTO_ESAMINATO": 6,
+        "LETTO": 6,
         "CONSIDERATO": 7,
         "RILEVATO": 7,
         "ATTESO": 7,
         "RAVVISATO": 7,
         "EVIDENZIATO": 7,
+        "RIBADITO": 7,
         "VALUTATO": 8,
         "RICONOSCIUTO": 8,
         "RITENUTO": 9,
@@ -1300,11 +1422,18 @@ def add_sequence_flags(blocks: pd.DataFrame) -> pd.DataFrame:
 
         group["flag_spezzato"] = flags_spezzato
 
-        # inversione locale semplice rispetto a ordine teorico minimo
-        scores = [expected_order.get(x, 99) for x in seq]
-        inversion = [0]
-        for i in range(1, len(scores)):
-            inversion.append(int(scores[i] < scores[i - 1]))
+        # Inversione locale rispetto all'ordine teorico. Un dispositivo della
+        # proposta separa due narrative e quindi azzera il confronto.
+        inversion = []
+        previous_score: Optional[int] = None
+        for tipo in seq:
+            if tipo == "DISPOSITIVO_PROPOSTA":
+                inversion.append(0)
+                previous_score = None
+                continue
+            score = expected_order.get(tipo, 99)
+            inversion.append(int(previous_score is not None and score < previous_score))
+            previous_score = score
 
         group["flag_inversione_locale"] = inversion
         all_rows.append(group)
@@ -1404,8 +1533,8 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--max-documenti",
         type=int,
-        default=20,
-        help="Numero massimo di PDF da elaborare per ciascun estrattore; 0 = tutti (default: 20)",
+        default=0,
+        help="Numero massimo di PDF da elaborare per ciascun estrattore; 0 = tutti (default: tutti)",
     )
     return parser.parse_args()
 
@@ -1451,7 +1580,7 @@ def main() -> None:
     if args.max_documenti > 0:
         unique_pdf_paths = unique_pdf_paths[:args.max_documenti]
     selected_ids = {path.stem for path in unique_pdf_paths}
-    print(f"PDF selezionati per la prova: {len(unique_pdf_paths)}")
+    print(f"PDF selezionati per l'elaborazione: {len(unique_pdf_paths)}")
 
     for tool_name in ("docling", "opendataloader"):
         tool_dir = out_dir / tool_name.upper()

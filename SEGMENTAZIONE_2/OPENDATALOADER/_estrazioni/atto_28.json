@@ -1,0 +1,3033 @@
+{
+  "file name" : "atto_28.pdf",
+  "number of pages" : 7,
+  "author" : "Arch. Ciro SANTORO",
+  "title" : "Richiamata la delibera della Giunta Comunale n",
+  "creation date" : "D:20200702135000+02'00'",
+  "modification date" : "D:20221006155100+02'00'",
+  "kids" : [ {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 1,
+    "page number" : 1,
+    "bounding box" : [ 40.85, 722.6, 113.6, 817.85 ],
+    "source" : "atto_28_images/imageFile1.png"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 2,
+    "level" : "Doctitle",
+    "page number" : 1,
+    "bounding box" : [ 192.037, 767.026, 480.367, 800.248 ],
+    "heading level" : 1,
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 30.0,
+    "text color" : "[0.0]",
+    "content" : "COMUNE DI MOLISE"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H3",
+    "id" : 3,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 239.738, 750.927, 432.658, 766.431 ],
+    "heading level" : 3,
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 14.0,
+    "text color" : "[0.0]",
+    "content" : "PROVINCIA DI CAMPOBASSO"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 4,
+    "page number" : 1,
+    "bounding box" : [ 246.2, 738.927, 426.2, 750.001 ],
+    "font" : "TimesNewRomanPS-ItalicMT",
+    "font size" : 10.0,
+    "text color" : "[0.0]",
+    "content" : "____________________________________"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H2",
+    "id" : 5,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 204.521, 677.902, 388.031, 697.836 ],
+    "heading level" : 2,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 18.0,
+    "text color" : "[0.0]",
+    "content" : "GIUNTA COMUNALE"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 6,
+    "page number" : 1,
+    "bounding box" : [ 216.593, 653.754, 375.953, 667.043 ],
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "COPIA DI DELIBERAZIONE"
+  }, {
+    "type" : "caption",
+    "id" : 7,
+    "page number" : 1,
+    "bounding box" : [ 243.716, 621.056, 348.836, 634.345 ],
+    "linked content id" : 8,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "N° 23 del 30-04-2026"
+  }, {
+    "type" : "table",
+    "pdfua_tag" : "Table",
+    "id" : 8,
+    "level" : "1",
+    "page number" : 1,
+    "bounding box" : [ 35.2, 570.109, 556.3, 609.056 ],
+    "number of rows" : 1,
+    "number of columns" : 2,
+    "rows" : [ {
+      "type" : "table row",
+      "row number" : 1,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 35.45, 570.609, 93.25, 608.556 ],
+        "row number" : 1,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 1,
+          "page number" : 1,
+          "bounding box" : [ 40.85, 595.907, 87.841, 608.088 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 9.0,
+          "text color" : "[0.0]",
+          "content" : "OGGETTO:"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 93.25, 570.609, 556.05, 608.556 ],
+        "row number" : 1,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 2,
+          "page number" : 1,
+          "bounding box" : [ 98.65, 570.609, 550.644, 608.088 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 9.0,
+          "text color" : "[0.0]",
+          "content" : "APPROVAZIONE DELLA RELAZIONE SULLA GESTIONE (ART. 151, COMMA 6 E ART. 231, COMMA 1, D.LGS. N. 267/2000 E ART. 11, COMMA. 6, D.LGS. N. 118/2011) DELLO SCHEMA DI RENDICONTO DELL'ESERCIZIO 2025"
+        } ]
+      } ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 9,
+    "page number" : 1,
+    "bounding box" : [ 40.85, 528.712, 551.688, 555.8 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "L'anno duemilaventisei, addì trenta del mese di aprile alle ore 10:00. Nella sala delle adunanze della sede municipale del Comune di Molise si è riunita la Giunta Comunale."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 10,
+    "page number" : 1,
+    "bounding box" : [ 40.85, 487.315, 551.69, 514.403 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Presiede l'adunanza Domenico Cirelli nella qualità di Sindaco e sono rispettivamente presenti ed assenti i Sigg.:"
+  }, {
+    "type" : "table",
+    "pdfua_tag" : "Table",
+    "id" : 11,
+    "level" : "2",
+    "page number" : 1,
+    "bounding box" : [ 37.1, 415.82, 555.45, 473.516 ],
+    "number of rows" : 4,
+    "number of columns" : 3,
+    "rows" : [ {
+      "type" : "table row",
+      "row number" : 1,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 37.6, 458.967, 491.5, 473.016 ],
+        "row number" : 1,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 2,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 491.5, 458.967, 554.95, 473.016 ],
+        "row number" : 1,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 3,
+          "page number" : 1,
+          "bounding box" : [ 500.36, 459.217, 546.344, 472.506 ],
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "Presenza"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 2,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 37.6, 444.668, 273.8, 458.967 ],
+        "row number" : 2,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 4,
+          "page number" : 1,
+          "bounding box" : [ 43.85, 444.918, 140.097, 458.207 ],
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "Domenico CIRELLI"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 273.8, 444.668, 491.5, 458.967 ],
+        "row number" : 2,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 5,
+          "page number" : 1,
+          "bounding box" : [ 277.3, 444.918, 317.98, 458.207 ],
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "Sindaco"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 491.5, 444.668, 554.95, 458.967 ],
+        "row number" : 2,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 6,
+          "page number" : 1,
+          "bounding box" : [ 501.362, 444.918, 545.342, 458.207 ],
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "Presente"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 3,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 37.6, 430.369, 273.8, 444.668 ],
+        "row number" : 3,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 7,
+          "page number" : 1,
+          "bounding box" : [ 43.85, 430.619, 165.571, 443.908 ],
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "Dmytro D'ALESSANDRO"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 273.8, 430.369, 491.5, 444.668 ],
+        "row number" : 3,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 8,
+          "page number" : 1,
+          "bounding box" : [ 277.3, 430.619, 326.632, 443.908 ],
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "Assessore"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 491.5, 430.369, 554.95, 444.668 ],
+        "row number" : 3,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 9,
+          "page number" : 1,
+          "bounding box" : [ 501.362, 430.619, 545.342, 443.908 ],
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "Presente"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 4,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 37.6, 416.32, 273.8, 430.369 ],
+        "row number" : 4,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 10,
+          "page number" : 1,
+          "bounding box" : [ 43.85, 416.32, 199.783, 429.609 ],
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "Maria Cristina FRATANTUONO"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 273.8, 416.32, 491.5, 430.369 ],
+        "row number" : 4,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 11,
+          "page number" : 1,
+          "bounding box" : [ 277.3, 416.32, 326.632, 429.609 ],
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "Assessore"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 491.5, 416.32, 554.95, 430.369 ],
+        "row number" : 4,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 12,
+          "page number" : 1,
+          "bounding box" : [ 501.362, 416.32, 545.342, 429.609 ],
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "Presente"
+        } ]
+      } ]
+    } ]
+  }, {
+    "type" : "caption",
+    "id" : 12,
+    "page number" : 1,
+    "bounding box" : [ 203.955, 388.222, 388.599, 401.511 ],
+    "linked content id" : 11,
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Totale: Presenti n. 3 - Assenti n. 0."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 13,
+    "page number" : 1,
+    "bounding box" : [ 40.85, 346.825, 551.69, 373.913 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Partecipa con funzioni consultive, referenti, di assistenza e verbalizzazione (art.97, comma 4, lett. a), del D. Lgs. 267/2000) il Vice Segretario Carmine Arricale."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 14,
+    "page number" : 1,
+    "bounding box" : [ 40.85, 305.428, 551.702, 332.516 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Essendo legale il numero degli intervenuti, Domenico Cirelli nella sua qualità di Sindaco assume la presidenza e dichiara aperta la seduta per la trattazione dell’argomento indicato in oggetto."
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 15,
+    "level" : "3",
+    "page number" : 2,
+    "bounding box" : [ 61.4, 655.111, 554.39, 790.252 ],
+    "numbering style" : "unordered",
+    "number of list items" : 4,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 61.4, 760.787, 554.39, 790.252 ],
+      "font" : "SymbolMT",
+      "font size" : 10.0,
+      "text color" : "[0.0]",
+      "content" : " con deliberazione di Consiglio comunale n. 5 in data 07.03.2025, è stato approvato il Documento unico di programmazione per il periodo 2025-2027;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 61.4, 725.573, 554.39, 755.038 ],
+      "font" : "SymbolMT",
+      "font size" : 10.0,
+      "text color" : "[0.0]",
+      "content" : " con deliberazione di Consiglio comunale n. 6 in data 07.03.2025 è stato approvato il bilancio di previsione finanziario 2025-2027 redatto secondo lo schema di cui all’all. 9 al D.Lgs. n. 118/2011;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 61.4, 690.359, 554.39, 719.824 ],
+      "font" : "SymbolMT",
+      "font size" : 10.0,
+      "text color" : "[0.0]",
+      "content" : " con deliberazione di Consiglio comunale n. 9 in data 30.04.2025 è stato approvato il Rendiconto della gestione per l'esercizio 2024 ai sensi dell'art. 227, d.lgs. n. 267/2000;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 61.4, 655.111, 196.86, 667.362 ],
+      "font" : "SymbolMT",
+      "font size" : 10.0,
+      "text color" : "[0.0]",
+      "content" : " con le seguenti deliberazioni:",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 16,
+    "level" : "3",
+    "page number" : 2,
+    "bounding box" : [ 96.7, 494.312, 554.4, 648.971 ],
+    "numbering style" : "unordered",
+    "number of list items" : 4,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 96.7, 603.401, 554.4, 648.971 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.0,
+      "text color" : "[0.0]",
+      "content" : "- Consiglio comunale n. 12 in data 28.07.2025 ad oggetto: ASSESTAMENTO GENERALE DI BILANCIO E SALVAGUARDIA DEGLI EQUILIBRI PER L'ESERCIZIO 2025 AI SENSI DEGLI ARTT. 175, COMMA 8 E 193 DEL D.LGS. N. 267/2000",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 96.7, 567.038, 554.4, 597.142 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "- Giunta comunale n. 25 in data 09.05.2025 ad oggetto: Variazione al bilancio di cassa 2025 riallineamento stanziamenti di cassa a seguito del riaccertamento ordinario dei residui;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 96.7, 530.675, 554.39, 560.779 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "- Giunta comunale n. 30 in data 05.06.2025 ad oggetto: ART.175 DEL D.LGS. 267/2000 E S.M.I. VARIAZIONE D'URGENZA AL BILANCIO DI PREVISIONE 2025/2027;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 96.7, 494.312, 554.39, 524.416 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "- Giunta comunale n. 55 in data 28.11.2025 ad oggetto: Art.175 del d.lgs. 267/2000 e s.m.i - Variazione di bilancio d'urgenza e aggiornamento del Documento Unico di Programmazione (DUPS) 2025/2027;",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 17,
+    "page number" : 2,
+    "bounding box" : [ 78.7, 477.064, 393.88, 488.138 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.0,
+    "text color" : "[0.0]",
+    "content" : "sono state apportate variazioni al bilancio di previsione finanziario 2025-2027;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 18,
+    "page number" : 2,
+    "bounding box" : [ 43.55, 408.072, 554.4, 453.642 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.0,
+    "text color" : "[0.0]",
+    "content" : "Premesso, altresì, che l’art. 227, c. 2, D. Lgs. 18/08/2000, n. 267 e l’art. 18, c. 1, lett. b), D. Lgs. 23/6/2011, n. 118, prevedono che gli enti locali deliberano entro il 30 aprile dell’anno successivo il rendiconto della gestione composto dal conto del bilancio, dal conto economico e dallo stato patrimoniale;"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H5",
+    "id" : 19,
+    "level" : "Subtitle",
+    "page number" : 2,
+    "bounding box" : [ 43.55, 373.576, 98.82, 384.65 ],
+    "heading level" : 5,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 10.0,
+    "text color" : "[0.0]",
+    "content" : "Rilevato che:"
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 20,
+    "level" : "4",
+    "page number" : 2,
+    "bounding box" : [ 61.4, 287.336, 554.4, 367.402 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 61.4, 321.832, 554.4, 367.402 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.0,
+      "text color" : "[0.0]",
+      "content" : "1. con deliberazione della Giunta comunale n. 22 in data 09.04.2021, questo Comune ha optato per la facoltà di non tenere la contabilità economico-patrimoniale, come consentito dall’art. 232, c. 2, D. Lgs. 18 agosto 2000, n. 267 pertanto allega al rendiconto una situazione patrimoniale al 31 dicembre 2021 redatta con modalità semplificate1;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 61.4, 287.336, 554.39, 315.658 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.0,
+      "text color" : "[0.0]",
+      "content" : "2. con la stessa deliberazione questo Comune ha optato per la facoltà di non redigere il bilancio consolidato, come consentito dall’art. 233-bis, c. 3, D.Lgs. 18 agosto 2000, n. 267;",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 21,
+    "page number" : 2,
+    "bounding box" : [ 43.55, 252.84, 451.22, 263.914 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.0,
+    "text color" : "[0.0]",
+    "content" : "Preso atto, inoltre, di quanto indicato dalla commissione Arconet nella riunione del 20 gennaio 2021:"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 22,
+    "page number" : 2,
+    "bounding box" : [ 79.4, 201.096, 554.4, 246.666 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.0,
+    "text color" : "[0.0]",
+    "content" : "“A decorrere dal rendiconto 2020, la validità della delibera inviata alla BDAP concernente la facoltà di cui all’art. 232, comma 2 del TUEL si estende fino all’esercizio in cui l’ente delibera di voler iniziare a tenere la contabilità economico-patrimoniale o in caso di perdita dei presupposti della popolazione per poter esercitare tale facoltà”."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 23,
+    "page number" : 2,
+    "bounding box" : [ 43.55, 149.352, 554.39, 177.674 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.0,
+    "text color" : "[0.0]",
+    "content" : "Richiamati gli artt. 151, c. 6 e 231, c. 1, del D.Lgs. 18/08/2000, n. 267 i quali prevedono che al rendiconto dell’esercizio sia allegata una relazione sulla gestione da predisporre secondo quanto previsto dall’art. 11, c. 6, del d.Lgs. n. 118/2011;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 24,
+    "page number" : 2,
+    "bounding box" : [ 43.55, 114.856, 400.71, 125.93 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.0,
+    "text color" : "[0.0]",
+    "content" : "Richiamato, altresì l’articolo 11, comma 6, del d.Lgs. n. 118/2011, il quale così dispone:"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 25,
+    "level" : "5",
+    "page number" : 2,
+    "bounding box" : [ 71.9, 74.61, 533.2, 108.682 ],
+    "font" : "TimesNewRomanPS-ItalicMT",
+    "font size" : 10.0,
+    "text color" : "[0.0]",
+    "content" : "6. La relazione sulla gestione allegata al rendiconto è un documento illustrativo della gestione dell'ente, nonché dei fatti di rilievo verificatisi dopo la chiusura dell'esercizio e di ogni eventuale informazione utile ad una migliore comprensione dei dati contabili. In particolare, la relazione illustra:"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 27,
+    "page number" : 2,
+    "bounding box" : [ 43.55, 40.113, 554.397, 60.528 ],
+    "font" : "ArialMT",
+    "font size" : 9.0,
+    "text color" : "[0.0]",
+    "content" : "1 Si veda il D.M. 12 ottobre 2021 concernente le modalità semplificate di elaborazione della Situazione patrimoniale da allegare al rendiconto degli enti locali con popolazione inferiore a 5.000 abitanti che non tengono la contabilità economico patrimoniale."
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 28,
+    "level" : "6",
+    "page number" : 3,
+    "bounding box" : [ 69.2, 380.888, 530.5, 817.425 ],
+    "numbering style" : "english letters",
+    "number of list items" : 15,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 69.2, 806.351, 209.47, 817.425 ],
+      "font" : "TimesNewRomanPS-ItalicMT",
+      "font size" : 10.0,
+      "text color" : "[0.0]",
+      "content" : "a) i criteri di valutazione utilizzati;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 69.2, 794.852, 241.1, 805.926 ],
+      "font" : "TimesNewRomanPS-ItalicMT",
+      "font size" : 10.0,
+      "text color" : "[0.0]",
+      "content" : "b) le principali voci del conto del bilancio;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 69.2, 748.856, 530.5, 794.427 ],
+      "font" : "TimesNewRomanPS-ItalicMT",
+      "font size" : 10.0,
+      "text color" : "[0.0]",
+      "content" : "c) le principali variazioni alle previsioni finanziarie intervenute in corso d'anno, comprendendo l'utilizzazione dei fondi di riserva e gli utilizzi delle quote vincolate e accantonate del risultato di amministrazione al 1° gennaio dell'esercizio precedente, distinguendo i vincoli derivanti dalla legge e dai principi contabili, dai trasferimenti, da mutui e altri finanziamenti, vincoli formalmente attribuiti dall'ente;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 69.2, 691.361, 530.49, 748.431 ],
+      "font" : "TimesNewRomanPS-ItalicMT",
+      "font size" : 10.0,
+      "text color" : "[0.0]",
+      "content" : "d) l'elenco analitico delle quote vincolate e accantonate del risultato di amministrazione al 31 dicembre dell'esercizio precedente, distinguendo i vincoli derivanti dalla legge e dai principi contabili, dai trasferimenti, da mutui e altri finanziamenti, vincoli formalmente attribuiti dall'ente; d-bis) (…); d-ter) (…);",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 69.2, 668.363, 530.5, 690.936 ],
+      "font" : "TimesNewRomanPS-ItalicMT",
+      "font size" : 10.0,
+      "text color" : "[0.0]",
+      "content" : "e) le ragioni della persistenza dei residui con anzianità superiore ai cinque anni e di maggiore consistenza, nonché sulla fondatezza degli stessi, compresi i crediti di cui al comma 4, lettera n);",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 69.2, 622.367, 530.5, 667.938 ],
+      "font" : "TimesNewRomanPS-ItalicMT",
+      "font size" : 10.0,
+      "text color" : "[0.0]",
+      "content" : "f) l'elenco delle movimentazioni effettuate nel corso dell'esercizio sui capitoli di entrata e di spesa riguardanti l'anticipazione, evidenziando l'utilizzo medio e l'utilizzo massimo dell'anticipazione nel corso dell'anno, nel caso in cui il conto del bilancio, in deroga al principio generale dell'integrità, espone il saldo al 31 dicembre dell'anticipazione attivata al netto dei relativi rimborsi;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 69.2, 610.868, 340.75, 621.942 ],
+      "font" : "TimesNewRomanPS-ItalicMT",
+      "font size" : 10.0,
+      "text color" : "[0.0]",
+      "content" : "g) l'elencazione dei diritti reali di godimento e la loro illustrazione;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 69.2, 587.87, 530.49, 610.443 ],
+      "font" : "TimesNewRomanPS-ItalicMT",
+      "font size" : 10.0,
+      "text color" : "[0.0]",
+      "content" : "h) l'elenco dei propri enti e organismi strumentali, con la precisazione che i relativi rendiconti o bilanci di esercizio sono consultabili nel proprio sito internet;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 69.2, 576.371, 466.44, 587.445 ],
+      "font" : "TimesNewRomanPS-ItalicMT",
+      "font size" : 10.0,
+      "text color" : "[0.0]",
+      "content" : "i) l'elenco delle partecipazioni dirette possedute con l'indicazione della relativa quota percentuale;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 69.2, 518.876, 530.5, 575.946 ],
+      "font" : "TimesNewRomanPS-ItalicMT",
+      "font size" : 10.0,
+      "text color" : "[0.0]",
+      "content" : "j) gli esiti della verifica dei crediti e debiti reciproci con i propri enti strumentali e le società controllate e partecipate. La predetta informativa, asseverata dai rispettivi organi di revisione, evidenzia analiticamente eventuali discordanze e ne fornisce la motivazione; in tal caso l'ente assume senza indugio, e comunque non oltre il termine dell'esercizio finanziario in corso, i provvedimenti necessari ai fini della riconciliazione delle partite debitorie e creditorie;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 69.2, 495.878, 530.5, 518.451 ],
+      "font" : "TimesNewRomanPS-ItalicMT",
+      "font size" : 10.0,
+      "text color" : "[0.0]",
+      "content" : "k) gli oneri e gli impegni sostenuti, derivanti da contratti relativi a strumenti finanziari derivati o da contratti di finanziamento che includono una componente derivata;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 69.2, 461.381, 530.5, 495.453 ],
+      "font" : "TimesNewRomanPS-ItalicMT",
+      "font size" : 10.0,
+      "text color" : "[0.0]",
+      "content" : "l) l'elenco delle garanzie principali o sussidiarie prestate dall'ente a favore di enti e di altri soggetti ai sensi delle leggi vigenti, con l'indicazione delle eventuali richieste di escussione nei confronti dell'ente e del rischio di applicazione dell'art. 3, comma 17 della legge 24 dicembre 2003, n. 350;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 69.2, 426.884, 530.5, 460.956 ],
+      "font" : "TimesNewRomanPS-ItalicMT",
+      "font size" : 10.0,
+      "text color" : "[0.0]",
+      "content" : "m) l'elenco descrittivo dei beni appartenenti al patrimonio immobiliare dell'ente alla data di chiusura dell'esercizio cui il conto si riferisce, con l'indicazione delle rispettive destinazioni e degli eventuali proventi da essi prodotti;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 69.2, 403.886, 530.49, 426.459 ],
+      "font" : "TimesNewRomanPS-ItalicMT",
+      "font size" : 10.0,
+      "text color" : "[0.0]",
+      "content" : "n) gli elementi richiesti dall'art. 2427 e dagli altri articoli del codice civile, nonché da altre norme di legge e dai documenti sui principi contabili applicabili;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 69.2, 380.888, 530.49, 403.461 ],
+      "font" : "TimesNewRomanPS-ItalicMT",
+      "font size" : 10.0,
+      "text color" : "[0.0]",
+      "content" : "o) altre informazioni riguardanti i risultati della gestione, richieste dalla legge o necessarie per l'interpretazione del rendiconto.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 29,
+    "page number" : 3,
+    "bounding box" : [ 40.85, 317.645, 551.69, 363.215 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.0,
+    "text color" : "[0.0]",
+    "content" : "Visto il D.M. 12 ottobre 2021 che ha approvato le modalità semplificate di elaborazione della situazione patrimoniale al 31 dicembre 2025 da parte degli enti locali con popolazione inferiore a 5.000 abitanti che rinviano la contabilità economicopatrimoniale;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 30,
+    "page number" : 3,
+    "bounding box" : [ 40.85, 283.149, 168.89, 294.223 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.0,
+    "text color" : "[0.0]",
+    "content" : "Visto il D.M. 7 settembre 2020;"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H5",
+    "id" : 31,
+    "level" : "Subtitle",
+    "page number" : 3,
+    "bounding box" : [ 40.85, 248.653, 103.6, 259.727 ],
+    "heading level" : 5,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 10.0,
+    "text color" : "[0.0]",
+    "content" : "Preso atto che:"
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 32,
+    "level" : "4",
+    "page number" : 3,
+    "bounding box" : [ 58.7, 76.173, 551.7, 242.479 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 4,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 58.7, 214.157, 551.7, 242.479 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.0,
+      "text color" : "[0.0]",
+      "content" : "3. la gestione finanziaria si è svolta in conformità ai principi e alle regole previste in materia di finanza locale e di contabilità pubblica;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 58.7, 162.413, 551.7, 207.983 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.0,
+      "text color" : "[0.0]",
+      "content" : "4. il Tesoriere comunale ha reso il conto della gestione, ai sensi dell’art. 226, D. Lgs. n. 267/2000, debitamente sottoscritto e corredato di tutta la documentazione contabile prevista (reversali di incasso, mandati di pagamento e relativi allegati di svolgimento, ecc.);",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 58.7, 110.669, 551.7, 156.239 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.0,
+      "text color" : "[0.0]",
+      "content" : "5. il responsabile del servizio finanziario ha effettuato la parificazione del conto del tesoriere e degli agenti contabili interni, verificando la corrispondenza delle riscossioni e dei pagamenti effettuati durante l’esercizio finanziario 2025 con le risultanze del conto del bilancio;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 58.7, 76.173, 551.69, 104.495 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.0,
+      "text color" : "[0.0]",
+      "content" : "6. con propria deliberazione n. 22 in data 16/04/2026, è stato approvato il riaccertamento ordinario dei residui ai sensi dell’art. 3, comma 4, del d.Lgs. n. 118/2011;",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 33,
+    "page number" : 4,
+    "bounding box" : [ 43.55, 789.103, 554.4, 817.425 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.0,
+    "text color" : "[0.0]",
+    "content" : "Visto lo schema del rendiconto della gestione dell’esercizio 2025 redatto secondo lo schema di cui all’allegato 10 al D. Lgs. n. 118/2011 che si allega al presente provvedimento quale parte integrante e sostanziale;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 34,
+    "page number" : 4,
+    "bounding box" : [ 43.55, 737.359, 554.39, 765.681 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.0,
+    "text color" : "[0.0]",
+    "content" : "Vista la relazione sulla gestione dell’esercizio 2025, redatta ai sensi dell’art. 11, comma 6, del d.Lgs. n. 118/2011, allegata al presente provvedimento quale parte integrante e sostanziale;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 35,
+    "page number" : 4,
+    "bounding box" : [ 43.55, 702.863, 180.19, 713.937 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.0,
+    "text color" : "[0.0]",
+    "content" : "Ritenuto di provvedere in merito;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 36,
+    "page number" : 4,
+    "bounding box" : [ 43.55, 582.127, 260.72, 679.441 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.0,
+    "text color" : "[0.0]",
+    "content" : "Visto il D.Lgs. 18/08/2000, n. 267; Visto il d.Lgs. n. 118/2011; Visto il D.M. 12 ottobre 2021; Visto lo Statuto Comunale; Visto il vigente Regolamento comunale di contabilità; Ad unanimità di voti espressi nelle forme di legge,"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H5",
+    "id" : 37,
+    "level" : "Subtitle",
+    "page number" : 4,
+    "bounding box" : [ 272.857, 547.631, 325.087, 558.705 ],
+    "heading level" : 5,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 10.0,
+    "text color" : "[0.0]",
+    "content" : "DELIBERA"
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 38,
+    "level" : "4",
+    "page number" : 4,
+    "bounding box" : [ 61.55, 426.895, 554.4, 524.209 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "next list id" : 41,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 4,
+      "bounding box" : [ 61.55, 478.639, 554.4, 524.209 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.0,
+      "text color" : "[0.0]",
+      "content" : "1. di approvare lo schema del rendiconto della gestione relativo all’esercizio finanziario 2025 redatto secondo lo schema di cui all’allegato 10 al D. Lgs. n. 118/2011, il quale è allegato al presente provvedimento quale parte integrante e sostanziale;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 4,
+      "bounding box" : [ 61.55, 426.895, 554.39, 455.217 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.0,
+      "text color" : "[0.0]",
+      "content" : "2. di dare atto che il conto del bilancio dell’esercizio 2025 si chiude con un risultato di amministrazione di € 121.875,14 così come risulta dal seguente prospetto riassuntivo della gestione finanziaria:",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "table",
+    "pdfua_tag" : "Table",
+    "id" : 39,
+    "level" : "5",
+    "page number" : 4,
+    "bounding box" : [ 43.3, 37.405, 526.725, 409.647 ],
+    "number of rows" : 18,
+    "number of columns" : 5,
+    "rows" : [ {
+      "type" : "table row",
+      "row number" : 1,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 43.8, 380.097, 327.55, 409.147 ],
+        "row number" : 1,
+        "column number" : 1,
+        "row span" : 2,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 327.55, 380.097, 345.55, 409.147 ],
+        "row number" : 1,
+        "column number" : 2,
+        "row span" : 2,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 345.55, 394.497, 526.162, 409.147 ],
+        "row number" : 1,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 3,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 1,
+          "page number" : 4,
+          "bounding box" : [ 415.155, 397.473, 456.491, 406.41 ],
+          "font" : "Arial-BoldMT",
+          "font size" : 8.0,
+          "text color" : "[0.0]",
+          "content" : "GESTIONE"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 2,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 345.55, 380.097, 402.1, 394.497 ],
+        "row number" : 2,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 2,
+          "page number" : 4,
+          "bounding box" : [ 357.475, 382.823, 389.923, 391.76 ],
+          "font" : "Arial-BoldMT",
+          "font size" : 8.0,
+          "text color" : "[0.0]",
+          "content" : "RESIDUI"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 402.1, 380.097, 466.0, 394.497 ],
+        "row number" : 2,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 3,
+          "page number" : 4,
+          "bounding box" : [ 406.05, 382.823, 462.05, 391.76 ],
+          "font" : "Arial-BoldMT",
+          "font size" : 8.0,
+          "text color" : "[0.0]",
+          "content" : "COMPETENZA"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 466.0, 380.097, 526.162, 394.497 ],
+        "row number" : 2,
+        "column number" : 5,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 4,
+          "page number" : 4,
+          "bounding box" : [ 480.177, 382.823, 512.177, 391.76 ],
+          "font" : "Arial-BoldMT",
+          "font size" : 8.0,
+          "text color" : "[0.0]",
+          "content" : "TOTALE"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 3,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 43.8, 365.447, 327.55, 380.097 ],
+        "row number" : 3,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 5,
+          "page number" : 4,
+          "bounding box" : [ 46.55, 368.748, 136.913, 376.568 ],
+          "font" : "ArialMT",
+          "font size" : 7.0,
+          "text color" : "[0.0]",
+          "content" : "Fondo di cassa al 1° gennaio"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 327.55, 365.447, 345.55, 380.097 ],
+        "row number" : 3,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 345.55, 365.447, 402.1, 380.097 ],
+        "row number" : 3,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 402.1, 365.447, 466.0, 380.097 ],
+        "row number" : 3,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 466.0, 365.447, 526.162, 380.097 ],
+        "row number" : 3,
+        "column number" : 5,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 6,
+          "page number" : 4,
+          "bounding box" : [ 488.316, 368.748, 523.351, 376.568 ],
+          "font" : "ArialMT",
+          "font size" : 7.0,
+          "text color" : "[0.0]",
+          "content" : "336.356,49"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 4,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 43.8, 336.647, 327.55, 365.447 ],
+        "row number" : 4,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 7,
+          "page number" : 4,
+          "bounding box" : [ 46.55, 339.948, 92.449, 361.918 ],
+          "font" : "ArialMT",
+          "font size" : 7.0,
+          "text color" : "[0.0]",
+          "content" : "RISCOSSIONI PAGAMENTI"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 327.55, 336.647, 345.55, 365.447 ],
+        "row number" : 4,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 8,
+          "page number" : 4,
+          "bounding box" : [ 331.425, 339.373, 341.425, 362.46 ],
+          "font" : "ArialMT",
+          "font size" : 8.0,
+          "text color" : "[0.0]",
+          "content" : "(+) (-)"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 345.55, 336.647, 402.1, 365.447 ],
+        "row number" : 4,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 9,
+          "page number" : 4,
+          "bounding box" : [ 364.066, 339.948, 399.101, 361.918 ],
+          "font" : "ArialMT",
+          "font size" : 7.0,
+          "text color" : "[0.0]",
+          "content" : "272.902,94 426.583,51"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 402.1, 336.647, 466.0, 365.447 ],
+        "row number" : 4,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 10,
+          "page number" : 4,
+          "bounding box" : [ 422.128, 339.948, 463.001, 361.918 ],
+          "font" : "ArialMT",
+          "font size" : 7.0,
+          "text color" : "[0.0]",
+          "content" : "1.057.415,07 859.541,21"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 466.0, 336.647, 526.162, 365.447 ],
+        "row number" : 4,
+        "column number" : 5,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 11,
+          "page number" : 4,
+          "bounding box" : [ 482.478, 339.948, 523.351, 361.918 ],
+          "font" : "ArialMT",
+          "font size" : 7.0,
+          "text color" : "[0.0]",
+          "content" : "1.330.318,01 1.286.124,72"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 5,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 43.8, 321.997, 327.55, 336.647 ],
+        "row number" : 5,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 327.55, 321.997, 345.55, 336.647 ],
+        "row number" : 5,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 345.55, 321.997, 402.1, 336.647 ],
+        "row number" : 5,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 402.1, 321.997, 466.0, 336.647 ],
+        "row number" : 5,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 466.0, 321.997, 526.162, 336.647 ],
+        "row number" : 5,
+        "column number" : 5,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 6,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 43.8, 307.347, 327.55, 321.997 ],
+        "row number" : 6,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 12,
+          "page number" : 4,
+          "bounding box" : [ 46.55, 310.648, 164.031, 318.468 ],
+          "font" : "ArialMT",
+          "font size" : 7.0,
+          "text color" : "[0.0]",
+          "content" : "SALDO DI CASSA AL 31 DICEMBRE"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 327.55, 307.347, 345.55, 321.997 ],
+        "row number" : 6,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 13,
+          "page number" : 4,
+          "bounding box" : [ 331.425, 310.073, 341.425, 319.01 ],
+          "font" : "ArialMT",
+          "font size" : 8.0,
+          "text color" : "[0.0]",
+          "content" : "(=)"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 345.55, 307.347, 402.1, 321.997 ],
+        "row number" : 6,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 402.1, 307.347, 466.0, 321.997 ],
+        "row number" : 6,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 466.0, 307.347, 526.162, 321.997 ],
+        "row number" : 6,
+        "column number" : 5,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 14,
+          "page number" : 4,
+          "bounding box" : [ 488.316, 310.648, 523.351, 318.468 ],
+          "font" : "ArialMT",
+          "font size" : 7.0,
+          "text color" : "[0.0]",
+          "content" : "380.549,78"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 7,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 43.8, 292.697, 327.55, 307.347 ],
+        "row number" : 7,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 327.55, 292.697, 345.55, 307.347 ],
+        "row number" : 7,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 345.55, 292.697, 402.1, 307.347 ],
+        "row number" : 7,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 402.1, 292.697, 466.0, 307.347 ],
+        "row number" : 7,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 466.0, 292.697, 526.162, 307.347 ],
+        "row number" : 7,
+        "column number" : 5,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 8,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 43.8, 278.047, 327.55, 292.697 ],
+        "row number" : 8,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 15,
+          "page number" : 4,
+          "bounding box" : [ 46.55, 281.348, 255.094, 289.168 ],
+          "font" : "ArialMT",
+          "font size" : 7.0,
+          "text color" : "[0.0]",
+          "content" : "PAGAMENTI per azioni esecutive non regolarizzate al 31 dicembre"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 327.55, 278.047, 345.55, 292.697 ],
+        "row number" : 8,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 16,
+          "page number" : 4,
+          "bounding box" : [ 332.429, 283.248, 340.421, 292.185 ],
+          "font" : "ArialMT",
+          "font size" : 8.0,
+          "text color" : "[0.0]",
+          "content" : "(-)"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 345.55, 278.047, 402.1, 292.697 ],
+        "row number" : 8,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 402.1, 278.047, 466.0, 292.697 ],
+        "row number" : 8,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 466.0, 278.047, 526.162, 292.697 ],
+        "row number" : 8,
+        "column number" : 5,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 17,
+          "page number" : 4,
+          "bounding box" : [ 509.726, 284.398, 523.348, 292.218 ],
+          "font" : "ArialMT",
+          "font size" : 7.0,
+          "text color" : "[0.0]",
+          "content" : "0,00"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 9,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 43.8, 263.397, 327.55, 278.047 ],
+        "row number" : 9,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 327.55, 263.397, 345.55, 278.047 ],
+        "row number" : 9,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 345.55, 263.397, 402.1, 278.047 ],
+        "row number" : 9,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 402.1, 263.397, 466.0, 278.047 ],
+        "row number" : 9,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 466.0, 263.397, 526.162, 278.047 ],
+        "row number" : 9,
+        "column number" : 5,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 10,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 43.8, 248.747, 327.55, 263.397 ],
+        "row number" : 10,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 18,
+          "page number" : 4,
+          "bounding box" : [ 46.55, 252.048, 165.578, 259.868 ],
+          "font" : "ArialMT",
+          "font size" : 7.0,
+          "text color" : "[0.0]",
+          "content" : "FONDO DI CASSA AL 31 DICEMBRE"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 327.55, 248.747, 345.55, 263.397 ],
+        "row number" : 10,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 19,
+          "page number" : 4,
+          "bounding box" : [ 331.425, 251.473, 341.425, 260.41 ],
+          "font" : "ArialMT",
+          "font size" : 8.0,
+          "text color" : "[0.0]",
+          "content" : "(=)"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 345.55, 248.747, 402.1, 263.397 ],
+        "row number" : 10,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 402.1, 248.747, 466.0, 263.397 ],
+        "row number" : 10,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 466.0, 248.747, 526.162, 263.397 ],
+        "row number" : 10,
+        "column number" : 5,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 20,
+          "page number" : 4,
+          "bounding box" : [ 488.316, 252.048, 523.351, 259.868 ],
+          "font" : "ArialMT",
+          "font size" : 7.0,
+          "text color" : "[0.0]",
+          "content" : "380.549,78"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 11,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 43.8, 234.097, 327.55, 248.747 ],
+        "row number" : 11,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 327.55, 234.097, 345.55, 248.747 ],
+        "row number" : 11,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 345.55, 234.097, 402.1, 248.747 ],
+        "row number" : 11,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 402.1, 234.097, 466.0, 248.747 ],
+        "row number" : 11,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 466.0, 234.097, 526.162, 248.747 ],
+        "row number" : 11,
+        "column number" : 5,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 12,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 43.8, 173.101, 327.55, 234.097 ],
+        "row number" : 12,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 21,
+          "page number" : 4,
+          "bounding box" : [ 46.55, 222.748, 98.665, 230.568 ],
+          "font" : "ArialMT",
+          "font size" : 7.0,
+          "text color" : "[0.0]",
+          "content" : "RESIDUI ATTIVI"
+        }, {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 22,
+          "page number" : 4,
+          "bounding box" : [ 46.55, 203.599, 312.704, 219.468 ],
+          "font" : "Arial-ItalicMT",
+          "font size" : 7.0,
+          "text color" : "[0.0]",
+          "content" : "di cui residui attivi incassati alla data del 31/12 in conti postali e bancari in attesa del riversamento nel conto di tesoreria principale"
+        }, {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 23,
+          "page number" : 4,
+          "bounding box" : [ 46.55, 176.402, 284.284, 203.37 ],
+          "font" : "Arial-ItalicMT",
+          "font size" : 7.0,
+          "text color" : "[0.0]",
+          "content" : "di cui derivanti da accertamenti di tributi effettuati sulla base della stima del dipartimento delle finanze RESIDUI PASSIVI"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 327.55, 173.101, 345.55, 234.097 ],
+        "row number" : 12,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 24,
+          "page number" : 4,
+          "bounding box" : [ 331.425, 222.173, 341.425, 231.11 ],
+          "font" : "ArialMT",
+          "font size" : 8.0,
+          "text color" : "[0.0]",
+          "content" : "(+)"
+        }, {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 25,
+          "page number" : 4,
+          "bounding box" : [ 332.429, 175.827, 340.421, 184.764 ],
+          "font" : "ArialMT",
+          "font size" : 8.0,
+          "text color" : "[0.0]",
+          "content" : "(-)"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 345.55, 173.101, 402.1, 234.097 ],
+        "row number" : 12,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 26,
+          "page number" : 4,
+          "bounding box" : [ 364.066, 222.748, 399.101, 230.568 ],
+          "font" : "ArialMT",
+          "font size" : 7.0,
+          "text color" : "[0.0]",
+          "content" : "336.502,97"
+        }, {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 27,
+          "page number" : 4,
+          "bounding box" : [ 364.066, 176.402, 399.101, 184.222 ],
+          "font" : "ArialMT",
+          "font size" : 7.0,
+          "text color" : "[0.0]",
+          "content" : "294.976,69"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 402.1, 173.101, 466.0, 234.097 ],
+        "row number" : 12,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 28,
+          "page number" : 4,
+          "bounding box" : [ 427.966, 222.748, 463.001, 230.568 ],
+          "font" : "ArialMT",
+          "font size" : 7.0,
+          "text color" : "[0.0]",
+          "content" : "657.160,78"
+        }, {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 29,
+          "page number" : 4,
+          "bounding box" : [ 427.966, 176.402, 463.001, 184.222 ],
+          "font" : "ArialMT",
+          "font size" : 7.0,
+          "text color" : "[0.0]",
+          "content" : "570.389,71"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 466.0, 173.101, 526.162, 234.097 ],
+        "row number" : 12,
+        "column number" : 5,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 30,
+          "page number" : 4,
+          "bounding box" : [ 488.316, 191.526, 523.351, 230.568 ],
+          "font" : "ArialMT",
+          "font size" : 7.0,
+          "text color" : "[0.0]",
+          "content" : "993.663,75 0,00 0,00"
+        }, {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 31,
+          "page number" : 4,
+          "bounding box" : [ 488.316, 176.402, 523.351, 184.222 ],
+          "font" : "ArialMT",
+          "font size" : 7.0,
+          "text color" : "[0.0]",
+          "content" : "865.366,40"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 13,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 43.8, 158.451, 327.55, 173.101 ],
+        "row number" : 13,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 327.55, 158.451, 345.55, 173.101 ],
+        "row number" : 13,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 345.55, 158.451, 402.1, 173.101 ],
+        "row number" : 13,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 402.1, 158.451, 466.0, 173.101 ],
+        "row number" : 13,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 466.0, 158.451, 526.162, 173.101 ],
+        "row number" : 13,
+        "column number" : 5,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 14,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 43.8, 113.553, 327.55, 158.451 ],
+        "row number" : 14,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "heading",
+          "pdfua_tag" : "H",
+          "id" : 32,
+          "level" : "Subtitle",
+          "page number" : 4,
+          "bounding box" : [ 46.55, 121.852, 317.254, 154.922 ],
+          "heading level" : 7,
+          "font" : "ArialMT",
+          "font size" : 7.0,
+          "text color" : "[0.0]",
+          "content" : "FONDO PLURIENNALE VINCOLATO PER SPESE CORRENTI (1) FONDO PLURIENNALE VINCOLATO PER SPESE IN C.TO CAPITALE (1) FONDO PLURIENNALE VINCOLATO PER INCREMENTO DI ATTIVITÀ FINANZIARIE"
+        }, {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 33,
+          "level" : "1",
+          "page number" : 4,
+          "bounding box" : [ 46.55, 116.453, 52.049, 121.481 ],
+          "font" : "ArialMT",
+          "font size" : 4.5,
+          "text color" : "[0.0]",
+          "content" : "(1)"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 327.55, 113.553, 345.55, 158.451 ],
+        "row number" : 14,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 34,
+          "page number" : 4,
+          "bounding box" : [ 332.429, 117.253, 340.421, 155.464 ],
+          "font" : "ArialMT",
+          "font size" : 8.0,
+          "text color" : "[0.0]",
+          "content" : "(-) (-) (-)"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 345.55, 113.553, 402.1, 158.451 ],
+        "row number" : 14,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 402.1, 113.553, 466.0, 158.451 ],
+        "row number" : 14,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 466.0, 113.553, 526.162, 158.451 ],
+        "row number" : 14,
+        "column number" : 5,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 35,
+          "page number" : 4,
+          "bounding box" : [ 488.316, 117.828, 523.351, 154.922 ],
+          "font" : "ArialMT",
+          "font size" : 7.0,
+          "text color" : "[0.0]",
+          "content" : "0,00 386.971,99 0,00"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 15,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 43.8, 98.903, 327.55, 113.553 ],
+        "row number" : 15,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 327.55, 98.903, 345.55, 113.553 ],
+        "row number" : 15,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 345.55, 98.903, 402.1, 113.553 ],
+        "row number" : 15,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 402.1, 98.903, 466.0, 113.553 ],
+        "row number" : 15,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 466.0, 98.903, 526.162, 113.553 ],
+        "row number" : 15,
+        "column number" : 5,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 16,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 43.8, 84.503, 327.55, 98.903 ],
+        "row number" : 16,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 36,
+          "page number" : 4,
+          "bounding box" : [ 46.55, 87.554, 257.425, 95.374 ],
+          "font" : "ArialMT",
+          "font size" : 7.0,
+          "text color" : "[0.0]",
+          "content" : "RISULTATO DI AMMINISTRAZIONE AL 31 DICEMBRE 2025 (A) (2)"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 327.55, 84.503, 345.55, 98.903 ],
+        "row number" : 16,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 37,
+          "page number" : 4,
+          "bounding box" : [ 331.425, 86.979, 341.425, 95.916 ],
+          "font" : "ArialMT",
+          "font size" : 8.0,
+          "text color" : "[0.0]",
+          "content" : "(=)"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 345.55, 84.503, 402.1, 98.903 ],
+        "row number" : 16,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 402.1, 84.503, 466.0, 98.903 ],
+        "row number" : 16,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 466.0, 84.503, 526.162, 98.903 ],
+        "row number" : 16,
+        "column number" : 5,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 38,
+          "page number" : 4,
+          "bounding box" : [ 488.316, 87.554, 523.351, 95.374 ],
+          "font" : "Arial-BoldMT",
+          "font size" : 7.0,
+          "text color" : "[0.0]",
+          "content" : "121.875,14"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 17,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 43.8, 70.104, 526.162, 84.503 ],
+        "row number" : 17,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 5,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 39,
+          "page number" : 4,
+          "bounding box" : [ 46.8, 70.604, 269.701, 78.424 ],
+          "font" : "Arial-BoldMT",
+          "font size" : 7.0,
+          "text color" : "[0.0]",
+          "content" : "Composizione del risultato di amministrazione al 31 dicembre 2025"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 18,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 43.8, 37.78, 466.0, 70.104 ],
+        "row number" : 18,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 4,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 40,
+          "page number" : 4,
+          "bounding box" : [ 46.55, 39.006, 258.676, 64.525 ],
+          "font" : "ArialMT",
+          "font size" : 7.0,
+          "text color" : "[0.0]",
+          "content" : "Parte accantonata (3) Fondo crediti di dubbia esazione al 31/12/2025 (4) Accantonamento residui perenti al 31/12/2025 (solo per le regioni) (5)"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 466.0, 37.78, 526.162, 70.104 ],
+        "row number" : 18,
+        "column number" : 5,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 41,
+          "page number" : 4,
+          "bounding box" : [ 492.209, 39.006, 523.352, 56.476 ],
+          "font" : "ArialMT",
+          "font size" : 7.0,
+          "text color" : "[0.0]",
+          "content" : "55.403,90 0,00"
+        } ]
+      } ]
+    } ]
+  }, {
+    "type" : "table",
+    "pdfua_tag" : "Table",
+    "id" : 40,
+    "level" : "6",
+    "page number" : 5,
+    "bounding box" : [ 40.6, 641.463, 524.025, 817.85 ],
+    "number of rows" : 10,
+    "number of columns" : 2,
+    "rows" : [ {
+      "type" : "table row",
+      "row number" : 1,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 5,
+        "bounding box" : [ 40.85, 641.963, 463.55, 817.475 ],
+        "row number" : 1,
+        "column number" : 1,
+        "row span" : 10,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 1,
+          "page number" : 5,
+          "bounding box" : [ 43.85, 761.551, 157.852, 817.621 ],
+          "font" : "ArialMT",
+          "font size" : 7.0,
+          "text color" : "[0.0]",
+          "content" : "Fondo anticipazioni liquidità Fondo perdite società partecipate Fondo contenzioso Fondo di garanzia debiti commerciali Fondo obiettivi di finanza pubblica Altri accantonamenti"
+        }, {
+          "type" : "heading",
+          "pdfua_tag" : "H6",
+          "id" : 2,
+          "level" : "Subtitle",
+          "page number" : 5,
+          "bounding box" : [ 366.169, 751.401, 460.298, 759.221 ],
+          "heading level" : 6,
+          "font" : "Arial-BoldMT",
+          "font size" : 7.0,
+          "text color" : "[0.0]",
+          "content" : "Totale parte accantonata (B)"
+        }, {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 3,
+          "page number" : 5,
+          "bounding box" : [ 43.85, 702.607, 188.211, 750.672 ],
+          "font" : "ArialMT",
+          "font size" : 7.0,
+          "text color" : "[0.0]",
+          "content" : "Parte vincolata Vincoli derivanti da leggi e dai principi contabili Vincoli derivanti da trasferimenti Vincoli derivanti da contrazione di mutui Vincoli formalmente attribuiti dall'ente Altri vincoli da specificare"
+        }, {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 4,
+          "page number" : 5,
+          "bounding box" : [ 319.492, 676.96, 460.301, 701.878 ],
+          "font" : "Arial-BoldMT",
+          "font size" : 7.0,
+          "text color" : "[0.0]",
+          "content" : "Totale parte vincolata (C) Totale parte destinata agli investimenti (D)"
+        }, {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 5,
+          "page number" : 5,
+          "bounding box" : [ 320.508, 659.061, 460.298, 666.881 ],
+          "font" : "Arial-BoldMT",
+          "font size" : 7.0,
+          "text color" : "[0.0]",
+          "content" : "Totale parte disponibile (E)=(A)-(B)-(C)-(D)"
+        }, {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 6,
+          "page number" : 5,
+          "bounding box" : [ 102.348, 641.963, 460.299, 658.332 ],
+          "font" : "Arial-BoldMT",
+          "font size" : 7.0,
+          "text color" : "[0.0]",
+          "content" : "F) di cui Disavanzo da debito autorizzato e non contratto (6) Se E è negativo, tale importo è iscritto tra le spese del bilancio di previsione come disavanzo da ripianare (6)"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 5,
+        "bounding box" : [ 463.55, 759.7, 523.4, 817.475 ],
+        "row number" : 1,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 7,
+          "page number" : 5,
+          "bounding box" : [ 499.24, 800.151, 520.648, 817.621 ],
+          "font" : "ArialMT",
+          "font size" : 7.0,
+          "text color" : "[0.0]",
+          "content" : "0,00 500,00"
+        }, {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 8,
+          "page number" : 5,
+          "bounding box" : [ 489.509, 761.551, 520.652, 798.321 ],
+          "font" : "ArialMT",
+          "font size" : 7.0,
+          "text color" : "[0.0]",
+          "content" : "4.900,00 11.840,83 975,00 14.090,00"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 2,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 5,
+        "bounding box" : [ 463.55, 751.276, 523.4, 759.7 ],
+        "row number" : 2,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 9,
+          "page number" : 5,
+          "bounding box" : [ 489.509, 751.401, 520.652, 759.221 ],
+          "font" : "Arial-BoldMT",
+          "font size" : 7.0,
+          "text color" : "[0.0]",
+          "content" : "87.709,73"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 3,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 5,
+        "bounding box" : [ 463.55, 702.232, 523.4, 751.276 ],
+        "row number" : 3,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 10,
+          "page number" : 5,
+          "bounding box" : [ 489.509, 726.754, 520.652, 742.623 ],
+          "font" : "ArialMT",
+          "font size" : 7.0,
+          "text color" : "[0.0]",
+          "content" : "15,49 32.835,30"
+        }, {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 11,
+          "page number" : 5,
+          "bounding box" : [ 499.24, 710.656, 520.648, 726.525 ],
+          "font" : "ArialMT",
+          "font size" : 7.0,
+          "text color" : "[0.0]",
+          "content" : "0,00 500,00"
+        }, {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 12,
+          "page number" : 5,
+          "bounding box" : [ 507.026, 702.607, 520.648, 710.427 ],
+          "font" : "ArialMT",
+          "font size" : 7.0,
+          "text color" : "[0.0]",
+          "content" : "0,00"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 4,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 5,
+        "bounding box" : [ 463.55, 693.933, 523.4, 702.232 ],
+        "row number" : 4,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 13,
+          "page number" : 5,
+          "bounding box" : [ 489.509, 694.058, 520.652, 701.878 ],
+          "font" : "Arial-BoldMT",
+          "font size" : 7.0,
+          "text color" : "[0.0]",
+          "content" : "33.350,79"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 5,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 5,
+        "bounding box" : [ 463.55, 685.259, 523.4, 693.933 ],
+        "row number" : 5,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 6,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 5,
+        "bounding box" : [ 463.55, 675.909, 523.4, 685.259 ],
+        "row number" : 6,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 14,
+          "page number" : 5,
+          "bounding box" : [ 507.026, 676.96, 520.648, 684.78 ],
+          "font" : "Arial-BoldMT",
+          "font size" : 7.0,
+          "text color" : "[0.0]",
+          "content" : "0,00"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 7,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 5,
+        "bounding box" : [ 463.55, 667.36, 523.4, 675.909 ],
+        "row number" : 7,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 8,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 5,
+        "bounding box" : [ 463.55, 658.811, 523.4, 667.36 ],
+        "row number" : 8,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 15,
+          "page number" : 5,
+          "bounding box" : [ 499.24, 659.061, 520.646, 666.881 ],
+          "font" : "Arial-BoldMT",
+          "font size" : 7.0,
+          "text color" : "[0.0]",
+          "content" : "814,62"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 9,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 5,
+        "bounding box" : [ 463.55, 650.262, 523.4, 658.811 ],
+        "row number" : 9,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 16,
+          "page number" : 5,
+          "bounding box" : [ 507.026, 650.512, 520.648, 658.332 ],
+          "font" : "ArialMT",
+          "font size" : 7.0,
+          "text color" : "[0.0]",
+          "content" : "0,00"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 10,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 5,
+        "bounding box" : [ 463.55, 641.963, 523.4, 650.262 ],
+        "row number" : 10,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      } ]
+    } ]
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 41,
+    "level" : "4",
+    "page number" : 5,
+    "bounding box" : [ 58.85, 472.812, 551.7, 623.79 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 4,
+    "previous list id" : 38,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 5,
+      "bounding box" : [ 58.85, 595.468, 551.69, 623.79 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.0,
+      "text color" : "[0.0]",
+      "content" : "3. di approvare la Relazione sulla gestione dell’esercizio 2025, redatta ai sensi dell’art. 11, comma 6, del d.Lgs. n. 118/2011 nonché la nota integrativa che si allegano al presente provvedimento quale parte integrante e sostanziale;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 5,
+      "bounding box" : [ 58.85, 560.972, 551.7, 589.294 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.0,
+      "text color" : "[0.0]",
+      "content" : "4. di trasmettere lo schema di rendiconto e la relazione sulla gestione all’organo di revisione, ai fini della resa del prescritto parere;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 5,
+      "bounding box" : [ 58.85, 509.228, 551.69, 554.798 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.0,
+      "text color" : "[0.0]",
+      "content" : "5. di trasmettere altresì al Consiglio comunale, una volta acquisito il parere dell’organo di revisione, lo schema di rendiconto della gestione dell’esercizio 2025, corredato di tutti i documenti previsti dalla normativa, ai fini della sua approvazione.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 5,
+      "bounding box" : [ 58.85, 472.812, 551.69, 503.086 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "6. di dichiarare, previa unanime votazione favorevole esperita nelle forme di legge, il presente atto immediatamente eseguibile, ai sensi dell’art. n. 134 – 4° comma - del Decreto Lgs.n.267/2000 (T.U.E.L.).",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "table",
+    "pdfua_tag" : "Table",
+    "id" : 42,
+    "level" : "6",
+    "page number" : 6,
+    "bounding box" : [ 37.9, 751.305, 525.75, 790.252 ],
+    "number of rows" : 1,
+    "number of columns" : 2,
+    "rows" : [ {
+      "type" : "table row",
+      "row number" : 1,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 6,
+        "bounding box" : [ 38.15, 751.805, 95.95, 789.752 ],
+        "row number" : 1,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 1,
+          "page number" : 6,
+          "bounding box" : [ 43.55, 777.103, 90.541, 789.284 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 9.0,
+          "text color" : "[0.0]",
+          "content" : "OGGETTO:"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 6,
+        "bounding box" : [ 95.95, 751.805, 525.5, 789.752 ],
+        "row number" : 1,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 2,
+          "page number" : 6,
+          "bounding box" : [ 101.35, 751.805, 520.104, 789.284 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 9.0,
+          "text color" : "[0.0]",
+          "content" : ": APPROVAZIONE DELLA RELAZIONE SULLA GESTIONE (ART. 151, COMMA 6 E ART. 231, COMMA 1, D.LGS. N. 267/2000 E ART. 11, COMMA. 6, D.LGS. N. 118/2011) DELLO SCHEMA DI RENDICONTO DELL'ESERCIZIO 2025"
+        } ]
+      } ]
+    } ]
+  }, {
+    "type" : "table",
+    "pdfua_tag" : "Table",
+    "id" : 43,
+    "level" : "7",
+    "page number" : 6,
+    "bounding box" : [ 39.8, 598.019, 527.35, 737.506 ],
+    "number of rows" : 2,
+    "number of columns" : 1,
+    "next table id" : 44,
+    "rows" : [ {
+      "type" : "table row",
+      "row number" : 1,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 6,
+        "bounding box" : [ 40.3, 702.259, 526.85, 737.006 ],
+        "row number" : 1,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 3,
+          "page number" : 6,
+          "bounding box" : [ 79.085, 702.509, 488.065, 725.082 ],
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "PARERE DI REGOLARITA’ TECNICA ESPRESSO DAL RESPONSABILE DEL SERVIZIO (Art. 49 e 147 bis del D.Lgs. 267/2000)"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 2,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 6,
+        "bounding box" : [ 40.3, 598.519, 526.85, 702.259 ],
+        "row number" : 2,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 4,
+          "page number" : 6,
+          "bounding box" : [ 43.55, 661.763, 523.59, 690.085 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "Il Responsabile del Servizio interessato esprime, ai sensi dell’articolo 49 e 147-bis del D.Lgs. n. 267/2000, parere Favorevole in merito alla regolarità tecnica della deliberazione di Giunta Comunale N. 23 del 30-04-2026."
+        }, {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 5,
+          "page number" : 6,
+          "bounding box" : [ 48.95, 621.517, 459.267, 644.09 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "Lì, 30-04-2026 Il Responsabile del Servizio F.to Domenico Cirelli"
+        } ]
+      } ]
+    } ]
+  }, {
+    "type" : "table",
+    "pdfua_tag" : "Table",
+    "id" : 44,
+    "level" : "7",
+    "page number" : 6,
+    "bounding box" : [ 39.8, 415.986, 527.35, 584.22 ],
+    "number of rows" : 2,
+    "number of columns" : 1,
+    "previous table id" : 43,
+    "rows" : [ {
+      "type" : "table row",
+      "row number" : 1,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 6,
+        "bounding box" : [ 40.3, 548.973, 526.85, 583.72 ],
+        "row number" : 1,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 6,
+          "page number" : 6,
+          "bounding box" : [ 72.137, 549.223, 495.017, 571.796 ],
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "PARERE DI REGOLARITA’ CONTABILE ESPRESSO DAL RESPONSABILE DEL SERVIZIO (Art. 49 e 147 bis del D.Lgs. 267/2000)"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 2,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 6,
+        "bounding box" : [ 40.3, 416.486, 526.85, 548.973 ],
+        "row number" : 2,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 7,
+          "page number" : 6,
+          "bounding box" : [ 43.55, 491.229, 523.59, 536.799 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "Il Responsabile del Servizio Economico - Finanziario esprime, ai sensi dell’articolo 49 e 147-bis del D.Lgs. n. 267/2000, parere Favorevole in merito alla regolarità contabile della deliberazione di Giunta Comunale N. 23 del 3004-2026."
+        }, {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 8,
+          "page number" : 6,
+          "bounding box" : [ 48.95, 462.482, 459.267, 473.556 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "Lì, 30-04-2026 Il Responsabile del Servizio"
+        }, {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 9,
+          "page number" : 6,
+          "bounding box" : [ 353.318, 439.484, 452.728, 462.057 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "Economico - Finanziario F.to Domenico Cirelli"
+        } ]
+      } ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 45,
+    "page number" : 7,
+    "bounding box" : [ 40.85, 748.855, 461.471, 803.541 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Il presente atto viene letto, approvato e sottoscritto come segue: IL SINDACO IL VICE SEGRETARIO F.to Domenico CIRELLI F.to Carmine ARRICALE"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 46,
+    "page number" : 7,
+    "bounding box" : [ 102.675, 714.358, 212.675, 725.432 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.0,
+    "text color" : "[0.0]",
+    "content" : "______________________"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 48,
+    "page number" : 7,
+    "bounding box" : [ 40.85, 685.26, 215.498, 698.549 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Il sottoscritto, visti gli atti di ufficio,"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 49,
+    "page number" : 7,
+    "bounding box" : [ 58.85, 657.662, 322.94, 684.75 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "ATTESTA che la presente deliberazione"
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 50,
+    "level" : "3",
+    "page number" : 7,
+    "bounding box" : [ 58.85, 602.466, 551.702, 643.353 ],
+    "numbering style" : "unordered",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 7,
+      "bounding box" : [ 58.85, 616.265, 551.702, 643.353 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "- è stata affissa all'Albo pretorio comunale il giorno 07-05-2026 per rimanervi 15 giorni consecutivi (art. 124, comma 1 del T.U. 267/2000) al N. 198 del Registro Pubblicazioni;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 7,
+      "bounding box" : [ 58.85, 602.466, 519.746, 615.755 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "- è stata trasmessa in pari data ai Capigruppo consiliari (art. 1254, comma 2 del T.U. 267/2000).",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 51,
+    "page number" : 7,
+    "bounding box" : [ 40.85, 577.168, 478.827, 601.998 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "Dalla residenza comunale, lì 07-05-2026 IL VICE SEGRETARIO F.to Carmine ARRICALE"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 53,
+    "page number" : 7,
+    "bounding box" : [ 40.85, 512.423, 354.734, 525.712 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "E' copia conforme all'originale da servire per uso amministrativo."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 54,
+    "page number" : 7,
+    "bounding box" : [ 40.85, 473.326, 470.43, 498.156 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "Dalla residenza comunale, lì 07-05-2026 IL VICE SEGRETARIO Carmine ARRICALE"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 55,
+    "page number" : 7,
+    "bounding box" : [ 368.825, 450.328, 478.825, 461.402 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.0,
+    "text color" : "[0.0]",
+    "content" : "______________________"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H4",
+    "id" : 57,
+    "level" : "Subtitle",
+    "page number" : 7,
+    "bounding box" : [ 192.921, 417.78, 399.633, 431.069 ],
+    "heading level" : 4,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "DICHIARAZIONE DI ESECUTIVITA’"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 58,
+    "page number" : 7,
+    "bounding box" : [ 40.85, 399.381, 494.69, 412.67 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Il sottoscritto, visti gli atti di ufficio, attesta che la presente deliberazione è divenuta esecutiva:"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 59,
+    "level" : "6",
+    "page number" : 7,
+    "bounding box" : [ 40.85, 360.284, 442.605, 385.114 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "- perché dichiarata immediatamente eseguibile (art. 134, c. 4, del T.U. n. 267/2000). Dalla residenza comunale, lì 30-04-2026 IL VICE SEGRETARIO"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 60,
+    "page number" : 7,
+    "bounding box" : [ 346.21, 347.635, 445.793, 359.816 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "F.to Carmine Arricale"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 62,
+    "page number" : 7,
+    "bounding box" : [ 40.85, 298.988, 110.198, 312.277 ],
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Pubbl. N. 198"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 63,
+    "page number" : 7,
+    "bounding box" : [ 40.85, 257.591, 403.641, 298.478 ],
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "ATTESTAZIONE DI PUBBLICAZIONE Il sottoscritto, visti gli atti di ufficio,"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 64,
+    "page number" : 7,
+    "bounding box" : [ 269.612, 243.792, 322.94, 257.081 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "ATTESTA"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 65,
+    "page number" : 7,
+    "bounding box" : [ 58.85, 202.395, 551.69, 229.483 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "che la presente deliberazione è stata affissa all'Albo pretorio comunale il giorno 07-05-2026 per rimanervi 15 giorni consecutivi."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 66,
+    "page number" : 7,
+    "bounding box" : [ 40.85, 163.298, 481.273, 188.128 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "Dalla residenza comunale, 07-05-2026 IL MESSO COMUNALE F.to Angela Colantoni"
+  } ]
+}

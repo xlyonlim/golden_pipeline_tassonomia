@@ -317,12 +317,6 @@ cognition_df$LarkOwl = relevel(cognition_df$LarkOwl, ref = "Neither")
 str(cognition_df) #check sulla fattorizzazione
 ```
 
-## Standardizzazione dei predittori numerici
-
-I predittori quantitativi selezionati saranno infine standardizzati prima della stima dei modelli, questo per facilitare l'interpretabilità dei coefficienti, espressi in scale di misura del tutto differenti e soprattutto poiché `CognitionZscore` è uno score composito privo di un’unità di misura naturale immediatamente interpretabile.
-
-Nello specifico, il singolo coefficiente non risponderà più all'aumento del valore medio della variabile risposta in vista di un incremento unitario del predittore nella sua scala originale, ma all'aumento del valore medio della risposta dato un incremento di **una deviazione standard** del predittore. Tale processo sarà avviata mediante la funzione `scale()` soltanto una prima analisi esplorativa delle variabili considerate.
-
 # EDA: Analisi esplorativa dei dati
 
 ```{r}
@@ -333,6 +327,8 @@ library(tidyr)
 ```
 
 ## Variabili numeriche
+
+Per le variabile numeriche saranno utilizzati istogrammi per le variabili continue e diagrammi a barre per le variabili discrete. Inoltre, per ogni misura saranno calcolati gli indici descrittivi, al fine di fornire una panoramica completa della variabile.
 
 ### AverageSleep
 
@@ -597,11 +593,15 @@ abline(lm(Happiness ~ DASScore, data = cognition_df),
 
 A una prima ispezione in Figura 11, lo scatterplot descrive una relazione negativa, con concentrazione di valori alti di happiness su valori più bassi di DASScore; sebbene la dispersione dei punti mostra tuttavia che la relazione non è perfetta, l'evidenza grafica è confermata dal coefficiente di correlazione lineare di Bravais e Pearson, che fornisce l'intensità e il verso della relazione, ossia moderatamente negativa. Interessanti sono i valori per cui si registra un alto disagio psicologico e una maggiore felicità percepita: questo fa riflettere sia sulla natura autoreferenziale della variabile, ma anche al fatto che una dimensione non esclude necessariamente in modo deterministico l'altra.
 
+to be continued...
+
+## Variabili categoriche
+
 # Analisi delle correlazioni
 
 L’analisi delle correlazioni consente di esplorare le correlazioni lineari esistenti tra le possibili variabili numeriche presenti all'interno del dataset.
 
-**Nota a piè di pagina \^9:** Si è scelto di privilegiare in questa fase di analizzare la specificazione con le tre sottoscale psicologiche separate, data la struttura non perfettamente sovrapponibile emersa nella presecente analisi EDA e sopratutto per permette di alleggerire l’analisi.
+**Nota a piè di pagina \^9:** Si è scelto di privilegiare in questa fase di analizzare la specificazione con le tre sottoscale psicologiche separate, data la struttura non perfettamente combaciante emersa nella precente EDA al fine di alleggerire, almeno in questo step l’analisi.
 
 ```{r}
 dati_cor_psy = cognition_df[, c("CognitionZscore","AverageSleep","SleepGap","PoorSleepQuality","NumEarlyClass","DepressionScore","AnxietyScore","StressScore","Happiness","Drinks","ClassesMissed","GPA")]
@@ -647,10 +647,50 @@ Questa seconda versione dell'heatmap, contenuta in Figura 13 lascia intendere, a
 
 - **`GPA` e `CognitionZscore`** – Si tratta della correlazione parziale più elevata (≈ 0.24) e anzi, una delle poche che mantiene un'associazione (seppur debole) positiva con `CognitionZscore`. Considerando l'assetto accademico/universitario su cui si imposta l'analisi, tale correlazione ha perfettamento senso, inquadrando il come il `GPA` sia la variabile che conserva la relazione autonoma più evidente con lo score cognitivo.
 
-- **`StressScore` e `CognitionZscore`** – Nel blocco psicologico `StressScore` è l'unica variabile che mantiene la relazione negativa più visibile con la risposta; entre negli altri due casi i valori sono trascurabili, in questo caso il valore valore è debole (≈ 0.11). Dunque valori di stress percepiti alti, potrebbero essere associati a valori dell'indice di cognizione più bassi.
+- **`StressScore` e `CognitionZscore`** – Nel blocco psicologico `StressScore` è l'unica variabile che mantiene la relazione negativa più visibile con la risposta, mentre negli altri due casi i valori sono trascurabili, in questo caso il valore valore è debole (≈ 0.11). Dunque valori di stress percepiti alti, potrebbero essere associati a valori dell'indice di cognizione più bassi.
 
-- **`Drinks`, `ClassesMissed` e `CognitionZscore`** – Le due variabili comportamentali presentano una debole, ma non trascurabile, correlazione parziale negativa con `CognitionZscore`, entrambe pari a circa -0.10. Al netto degli altri predittori numerici, un maggiore consumo di alcol e un maggior numero di lezioni perse tenderebbero quindi ad associarsi a valori lievemente più bassi dello score cognitivo.
+- **`Drinks`, `ClassesMissed` e `CognitionZscore`** – Le due variabili comportamentali presentano una debole, ma non trascurabile, correlazione parziale negativa con la variabile endogena, entrambe pari a circa -0.10. Al netto degli altri predittori numerici, un maggiore consumo di alcol e un maggior numero di lezioni perse tenderebbero quindi ad associarsi a valori lievemente più bassi dello score cognitivo.
+
+# Costruzione del modello di regressione
+
+Prima di procedere alla stima dei modelli di regressione, i predittori numerici vengono standardizzati, così da consentire di rendere confrontabili coefficienti associati a variabili espresse su scale differenti, come ore di sonno, punteggi psicologici, numero di drink, lezioni perse e rendimento scolastico.
+
+Nello specifico, il singolo coefficiente non risponderà più all'aumento del valore medio della variabile risposta dato un incremento unitario del predittore nella sua scala originale, ma all'aumento del valore medio della risposta in vista di un incremento di **una deviazione standard** del predittore. Tale processo è innescato dalla funzione `scale()`.
 
 ```{r}
-?SleepStudy
+# Si crea una copia del dataset per la modellistica
+cognition_model = cognition_df
+
+# Predittori numerici da standardizzare
+var_scalate = c("AverageSleep","SleepGap","PoorSleepQuality","NumEarlyClass","DASScore","DepressionScore","AnxietyScore","StressScore","Happiness","Drinks","ClassesMissed","GPA")
+
+# STANDARDIZZAZIONE E ASSEGNAZIONE SUFFISSO "_z"
+cognition_model[paste0(var_scalate, "_z")] <- scale(cognition_model[var_scalate])
+
+# RIMOZIONE DELLE V.C NON STANDARDIZZATE
+cognition_model = cognition_model[, c("CognitionZscore","AverageSleep_z","SleepGap_z","PoorSleepQuality_z","NumEarlyClass_z","DASScore_z","DepressionScore_z","AnxietyScore_z","StressScore_z","Happiness_z","Drinks_z","ClassesMissed_z","GPA_z",
+  
+#CATEGORICHE AL DI FUORI DELLA STANDARDIZZAZIONE                                      
+  "Gender",
+  "ClassYear",
+  "LarkOwl",
+  "AllNighter")]
+str(cognition_model)
+```
+
+## Regressione multipla con metodo OLS
+
+I modelli che andremo a stimare tramite la funzione `lm()`, che applicano di default il metodo dei minimi quadrati ordinari, che ha come scopo la stima il vettore dei coefficienti minimizzando la somma dei quadrati dei residui. Come già anticipato la stima viene applicata a due specificazioni alternative: una con `DASScore` come misura aggregata del disagio psicologico e una con le tre sottoscale separate `DepressionScore`, `AnxietyScore` e `StressScore`.
+
+```{r}
+mod_cog_das <- lm(CognitionZscore ~ AverageSleep_z + SleepGap_z + PoorSleepQuality_z + NumEarlyClass_z + DASScore_z + Happiness_z + Drinks_z + ClassesMissed_z + GPA_z +
+Gender + ClassYear + LarkOwl + AllNighter, data = cognition_model, method = "qr")
+
+summary(mod_cog_das)
+```
+
+```{r}
+mod_cog_psy <- lm(CognitionZscore ~ AverageSleep_z + SleepGap_z + PoorSleepQuality_z + NumEarlyClass_z + DepressionScore_z + AnxietyScore_z + StressScore_z + Happiness_z + Drinks_z + ClassesMissed_z + GPA_z + Gender + ClassYear + LarkOwl + AllNighter, data = cognition_model, method = "qr")
+
+summary(mod_cog_psy)
 ```

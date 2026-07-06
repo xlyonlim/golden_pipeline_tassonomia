@@ -1,0 +1,2656 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.10.0",
+  "name": "atto_24",
+  "origin": {
+    "mimetype": "application/pdf",
+    "binary_hash": 9306719185766909560,
+    "filename": "atto_24.pdf"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/pictures/0"
+      },
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/tables/0"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/27"
+      },
+      {
+        "$ref": "#/texts/28"
+      },
+      {
+        "$ref": "#/texts/29"
+      },
+      {
+        "$ref": "#/texts/30"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/34"
+      },
+      {
+        "$ref": "#/texts/35"
+      },
+      {
+        "$ref": "#/texts/36"
+      },
+      {
+        "$ref": "#/texts/37"
+      },
+      {
+        "$ref": "#/texts/38"
+      },
+      {
+        "$ref": "#/texts/39"
+      },
+      {
+        "$ref": "#/texts/40"
+      },
+      {
+        "$ref": "#/groups/2"
+      },
+      {
+        "$ref": "#/texts/47"
+      },
+      {
+        "$ref": "#/groups/3"
+      },
+      {
+        "$ref": "#/texts/50"
+      },
+      {
+        "$ref": "#/texts/51"
+      },
+      {
+        "$ref": "#/texts/52"
+      },
+      {
+        "$ref": "#/texts/53"
+      },
+      {
+        "$ref": "#/groups/4"
+      },
+      {
+        "$ref": "#/texts/55"
+      },
+      {
+        "$ref": "#/texts/56"
+      },
+      {
+        "$ref": "#/groups/5"
+      },
+      {
+        "$ref": "#/texts/58"
+      },
+      {
+        "$ref": "#/texts/59"
+      },
+      {
+        "$ref": "#/texts/60"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/17"
+        },
+        {
+          "$ref": "#/texts/18"
+        },
+        {
+          "$ref": "#/texts/19"
+        },
+        {
+          "$ref": "#/texts/20"
+        },
+        {
+          "$ref": "#/texts/21"
+        },
+        {
+          "$ref": "#/texts/22"
+        },
+        {
+          "$ref": "#/texts/23"
+        },
+        {
+          "$ref": "#/texts/24"
+        },
+        {
+          "$ref": "#/texts/25"
+        },
+        {
+          "$ref": "#/texts/26"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/31"
+        },
+        {
+          "$ref": "#/texts/32"
+        },
+        {
+          "$ref": "#/texts/33"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/41"
+        },
+        {
+          "$ref": "#/texts/42"
+        },
+        {
+          "$ref": "#/texts/43"
+        },
+        {
+          "$ref": "#/texts/44"
+        },
+        {
+          "$ref": "#/texts/45"
+        },
+        {
+          "$ref": "#/texts/46"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/48"
+        },
+        {
+          "$ref": "#/texts/49"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/54"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "key_value_area"
+    },
+    {
+      "self_ref": "#/groups/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/57"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "key_value_area"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 157.12000084000002,
+            "t": 751.6410232140624,
+            "r": 476.89900506000004,
+            "b": 728.8263092140625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            20
+          ]
+        }
+      ],
+      "orig": "COMUNE DI MOMPANTERO",
+      "text": "COMUNE DI MOMPANTERO",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 233.32600213,
+            "t": 724.6340241740625,
+            "r": 400.69400323,
+            "b": 715.8591341740624,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            30
+          ]
+        }
+      ],
+      "orig": "CITTA' METROPOLITANA DI TORINO",
+      "text": "CITTA' METROPOLITANA DI TORINO"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 274.50700188,
+            "t": 712.5640244840625,
+            "r": 359.51199639000004,
+            "b": 703.7891344840625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            15
+          ]
+        }
+      ],
+      "orig": "_______________",
+      "text": "_______________"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 150.25099563999999,
+            "t": 630.0400233640624,
+            "r": 421.97298606,
+            "b": 594.8211951640625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            47
+          ]
+        }
+      ],
+      "orig": "VERBALE DI DELIBERAZIONE DELLA  GIUNTA COMUNALE",
+      "text": "VERBALE DI DELIBERAZIONE DELLA  GIUNTA COMUNALE",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 258.8079958,
+            "t": 577.6190305040626,
+            "r": 295.55599579,
+            "b": 568.8441405040626,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "N.    45",
+      "text": "N.    45"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 538.0360239240625,
+            "r": 528.29099826,
+            "b": 509.564859458151,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            115
+          ]
+        }
+      ],
+      "orig": "OGGETTO  : CONCESSIONE  PATROCINIO  PER  LA  MANIFESTAZIONE SPORTIVA \"VERTICAL DEL ROCCIAMELONE\" DEL 12 LUGLIO 2026",
+      "text": "OGGETTO  : CONCESSIONE  PATROCINIO  PER  LA  MANIFESTAZIONE SPORTIVA \"VERTICAL DEL ROCCIAMELONE\" DEL 12 LUGLIO 2026",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 489.9540169540625,
+            "r": 527.82300266,
+            "b": 460.38663608406256,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            154
+          ]
+        }
+      ],
+      "orig": "L'anno  duemilaventisei, addì  ventinove, del mese di  giugno, alle ore  quindici e minuti  zero, regolarmente convocata, si è riunita la Giunta Comunale.",
+      "text": "L'anno  duemilaventisei, addì  ventinove, del mese di  giugno, alle ore  quindici e minuti  zero, regolarmente convocata, si è riunita la Giunta Comunale."
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 450.1240303840625,
+            "r": 527.82800754,
+            "b": 420.55664951406254,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            131
+          ]
+        }
+      ],
+      "orig": "Presso la sala comunale è presente il Sindaco, Davide Gastaldo, che interviene con gli assessori della quale sono membri i Signori:",
+      "text": "Presso la sala comunale è presente il Sindaco, Davide Gastaldo, che interviene con gli assessori della quale sono membri i Signori:"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 241.20503428406255,
+            "r": 331.66899924,
+            "b": 230.67516628406258,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            49
+          ]
+        }
+      ],
+      "orig": "Presiede la seduta il  SINDACO - DAVIDE GASTALDO.",
+      "text": "Presiede la seduta il  SINDACO - DAVIDE GASTALDO."
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 190.51100352406252,
+            "r": 528.14199118,
+            "b": 136.52913490406263,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            199
+          ]
+        }
+      ],
+      "orig": "Il Presidente, rilevata la partecipazione di tutti gli Assessori, dichiara validamente costituita l'adunanza  con  la  partecipazione  del  Segretario dott.ssa  Marietta  CARCIONE in videoconferenza.",
+      "text": "Il Presidente, rilevata la partecipazione di tutti gli Assessori, dichiara validamente costituita l'adunanza  con  la  partecipazione  del  Segretario dott.ssa  Marietta  CARCIONE in videoconferenza."
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 52.622010064062465,
+            "r": 518.3339992399995,
+            "b": 45.552202329255806,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            122
+          ]
+        }
+      ],
+      "orig": "Documento prodotto con sistema automatizzato del Comune di Mompantero.  Responsabile Procedimento: GUERCIO Cinzia  (D.Lgs.",
+      "text": "Documento prodotto con sistema automatizzato del Comune di Mompantero.  Responsabile Procedimento: GUERCIO Cinzia  (D.Lgs."
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 43.42300923406242,
+            "r": 397.64599923999975,
+            "b": 36.353201499255874,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            103
+          ]
+        }
+      ],
+      "orig": "n. 39/93 art.3). La presente copia è destinata unicamente alla pubblicazione sull'albo pretorio on-line",
+      "text": "n. 39/93 art.3). La presente copia è destinata unicamente alla pubblicazione sull'albo pretorio on-line"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 768.8080237140625,
+            "r": 527.82001194,
+            "b": 747.2056449040625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            129
+          ]
+        }
+      ],
+      "orig": "Si  dà  atto  che  l'Assessore  CHIOLERO  Lino  partecipa  alla  seduta  in  videoconferenza  ai  sensi  del vigente regolamento.",
+      "text": "Si  dà  atto  che  l'Assessore  CHIOLERO  Lino  partecipa  alla  seduta  in  videoconferenza  ai  sensi  del vigente regolamento."
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 688.7930240540626,
+            "r": 176.64399485,
+            "b": 678.1883124518527,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            23
+          ]
+        }
+      ],
+      "orig": "Su proposta del Sindaco",
+      "text": "Su proposta del Sindaco",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 216.13000107,
+            "t": 661.1950244740625,
+            "r": 354.15598825,
+            "b": 650.5903128718526,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            18
+          ]
+        }
+      ],
+      "orig": "LA GIUNTA COMUNALE",
+      "text": "LA GIUNTA COMUNALE",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 633.5970249040626,
+            "r": 527.73600534,
+            "b": 540.1983174518526,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            572
+          ]
+        }
+      ],
+      "orig": "Vista  la  lettera  dell'Associazione  sportiva  dilettantistica  PIOSSASCO  TRAIL  RUNNERS ASD, con sede legale a Piossasco (TO) in Via Magenta n.1, acclarata al prot.n.0002249 del  29.06.2026,  in  cui  si  richiede:  di  poter  svolgere  una  competizione  'Vertical  del Rocciamelone' nella giornata di sabato 12 luglio 2026 o in caso di mal tempo domenica 13 luglio 2026, con partenza davanti al Rifugio La Riposa, di avere il patrocinio del Comune, di accordare autorizzazione all'accesso di strade interpoderali per approntare il percorso e garantirne la sicurezza;",
+      "text": "Vista  la  lettera  dell'Associazione  sportiva  dilettantistica  PIOSSASCO  TRAIL  RUNNERS ASD, con sede legale a Piossasco (TO) in Via Magenta n.1, acclarata al prot.n.0002249 del  29.06.2026,  in  cui  si  richiede:  di  poter  svolgere  una  competizione  'Vertical  del Rocciamelone' nella giornata di sabato 12 luglio 2026 o in caso di mal tempo domenica 13 luglio 2026, con partenza davanti al Rifugio La Riposa, di avere il patrocinio del Comune, di accordare autorizzazione all'accesso di strade interpoderali per approntare il percorso e garantirne la sicurezza;"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 523.2050189840626,
+            "r": 527.7289863,
+            "b": 485.0023068618526,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            268
+          ]
+        }
+      ],
+      "orig": "Atteso  che  la  succitata  associazione  sportiva  ha  richiesto  nulla  osta  per  lo  svolgimento della  manifestazione  all'Ente  di  Gestione  Parchi  Alpi  Cozie  e  per  quanto  concerne responsabilità, sicurezza e gestione dell'evento dichiarando quanto segue:",
+      "text": "Atteso  che  la  succitata  associazione  sportiva  ha  richiesto  nulla  osta  per  lo  svolgimento della  manifestazione  all'Ente  di  Gestione  Parchi  Alpi  Cozie  e  per  quanto  concerne responsabilità, sicurezza e gestione dell'evento dichiarando quanto segue:"
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 481.80803107406257,
+            "r": 527.7329841000001,
+            "b": 457.40431873185264,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            175
+          ]
+        }
+      ],
+      "orig": "· La società sportiva è affiliata alla FISKY Federazione Italiana Skyrunning, ed ha iscritta nel calendario nazionale del Coni per il 2026 la competizione sportiva in oggetto;",
+      "text": "La società sportiva è affiliata alla FISKY Federazione Italiana Skyrunning, ed ha iscritta nel calendario nazionale del Coni per il 2026 la competizione sportiva in oggetto;",
+      "enumerated": false,
+      "marker": "·"
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 454.2100238640625,
+            "r": 460.98899607,
+            "b": 443.6053122618526,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            81
+          ]
+        }
+      ],
+      "orig": "· Il numero presunto dei partecipanti alla competizione sportiva è di 200 atleti;",
+      "text": "Il numero presunto dei partecipanti alla competizione sportiva è di 200 atleti;",
+      "enumerated": false,
+      "marker": "·"
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 440.41101263406256,
+            "r": 380.26899485,
+            "b": 429.8063010318526,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            63
+          ]
+        }
+      ],
+      "orig": "· La competizione sportiva in oggetto ha carattere competitivo;",
+      "text": "La competizione sportiva in oggetto ha carattere competitivo;",
+      "enumerated": false,
+      "marker": "·"
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 426.61203192406253,
+            "r": 527.7280097400001,
+            "b": 402.2083195818526,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            178
+          ]
+        }
+      ],
+      "orig": "·  Alla  partenza,  durante  tutto  il  percorso  e  al  traguardo,  sarà  assicurato  il  regolare svolgimento della competizione con proprio personale appositamente incaricato;",
+      "text": " Alla  partenza,  durante  tutto  il  percorso  e  al  traguardo,  sarà  assicurato  il  regolare svolgimento della competizione con proprio personale appositamente incaricato;",
+      "enumerated": false,
+      "marker": "·"
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 399.01400946406255,
+            "r": 527.7280097400001,
+            "b": 374.61029712185257,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            155
+          ]
+        }
+      ],
+      "orig": "· Sarà assicurata una costante assistenza sanitaria con presenza di almeno un'ambulanza e di personale medico in grado di intervenire in caso di necessità;",
+      "text": "Sarà assicurata una costante assistenza sanitaria con presenza di almeno un'ambulanza e di personale medico in grado di intervenire in caso di necessità;",
+      "enumerated": false,
+      "marker": "·"
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 371.41601752406257,
+            "r": 429.61201242,
+            "b": 360.81130592185264,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            75
+          ]
+        }
+      ],
+      "orig": "· La sicurezza degli attraversamenti stradali, sarà garantita da volontari;",
+      "text": "La sicurezza degli attraversamenti stradali, sarà garantita da volontari;",
+      "enumerated": false,
+      "marker": "·"
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 357.61703680406254,
+            "r": 471.64600901,
+            "b": 347.0123252018526,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            83
+          ]
+        }
+      ],
+      "orig": "· La sicurezza lungo il tracciato sarà garantita dai volontari del Soccorso Alpino;",
+      "text": "La sicurezza lungo il tracciato sarà garantita dai volontari del Soccorso Alpino;",
+      "enumerated": false,
+      "marker": "·"
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 343.8180255740625,
+            "r": 527.73600534,
+            "b": 264.21831409185256,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            527
+          ]
+        }
+      ],
+      "orig": "·  L'Ente  Organizzatore  ha  provveduto  alla  verifica  dell'intero  percorso  di  gara,  con sopralluogo  effettuato  da  proprio  personale,  e  dalla  guida  alpina  responsabile  rilevando che  le  attuali  condizioni  delle  strade  interessate  sono  idonee  allo  svolgimento  della competizione  sportiva  in  oggetto,  mantenendo  sollevata  ed  indenne  l'Amministrazione Comunale  da  qualsiasi  responsabilità  conseguente  a  sinistri,  danni  o  altro,  verificatesi durante o in conseguenza della competizione;",
+      "text": " L'Ente  Organizzatore  ha  provveduto  alla  verifica  dell'intero  percorso  di  gara,  con sopralluogo  effettuato  da  proprio  personale,  e  dalla  guida  alpina  responsabile  rilevando che  le  attuali  condizioni  delle  strade  interessate  sono  idonee  allo  svolgimento  della competizione  sportiva  in  oggetto,  mantenendo  sollevata  ed  indenne  l'Amministrazione Comunale  da  qualsiasi  responsabilità  conseguente  a  sinistri,  danni  o  altro,  verificatesi durante o in conseguenza della competizione;",
+      "enumerated": false,
+      "marker": "·"
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 261.0240192340625,
+            "r": 527.73600534,
+            "b": 222.82130711185255,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            230
+          ]
+        }
+      ],
+      "orig": "·  La competizione in oggetto è regolarmente assicurata per la responsabilità civile verso terzi, nonché per eventuali danni a cose, comprese le strade e le relative attrezzature, con polizza della Federazione Italiana Skyrunning;",
+      "text": " La competizione in oggetto è regolarmente assicurata per la responsabilità civile verso terzi, nonché per eventuali danni a cose, comprese le strade e le relative attrezzature, con polizza della Federazione Italiana Skyrunning;",
+      "enumerated": false,
+      "marker": "·"
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 219.62701605406255,
+            "r": 527.7249885,
+            "b": 195.22330371185262,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            132
+          ]
+        }
+      ],
+      "orig": "·  La  polizza  assicurativa  verrà  attivata  5  giorni  prima  della  data  della  manifestazione  e verrà mandata copia via mail;",
+      "text": " La  polizza  assicurativa  verrà  attivata  5  giorni  prima  della  data  della  manifestazione  e verrà mandata copia via mail;",
+      "enumerated": false,
+      "marker": "·"
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 178.2300128840625,
+            "r": 527.73600534,
+            "b": 84.83130543185257,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            646
+          ]
+        }
+      ],
+      "orig": "Rilevato  che  le  linee  di  governo  di  questo  Comune  per  il  quinquennio  2021/2026  fanno emergere l'indirizzo di convogliare l'impiego delle risorse verso obiettivi tesi allo sviluppo del  Paese  e  al  miglioramento  della  vita  dei  suoi  abitanti.  Un  reale  sviluppo  del  Paese implica la rivalutazione del senso di comunità e lo sforzo congiunto di privati e istituzioni, con riconoscimento delle fondamenta delle identità storiche e culturali. La responsabilizzazione dei cittadini e delle associazioni è presupposto di servizio al Paese e lo rende compatto e collaborativo, creando solida trama sociale per garantire il futuro;",
+      "text": "Rilevato  che  le  linee  di  governo  di  questo  Comune  per  il  quinquennio  2021/2026  fanno emergere l'indirizzo di convogliare l'impiego delle risorse verso obiettivi tesi allo sviluppo del  Paese  e  al  miglioramento  della  vita  dei  suoi  abitanti.  Un  reale  sviluppo  del  Paese implica la rivalutazione del senso di comunità e lo sforzo congiunto di privati e istituzioni, con riconoscimento delle fondamenta delle identità storiche e culturali. La responsabilizzazione dei cittadini e delle associazioni è presupposto di servizio al Paese e lo rende compatto e collaborativo, creando solida trama sociale per garantire il futuro;"
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 67.83804510406253,
+            "r": 529.48499826,
+            "b": 57.2333335018526,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            93
+          ]
+        }
+      ],
+      "orig": "Dato atto che l'iniziativa sopra menzionata riveste carattere di interesse pubblico generale;",
+      "text": "Dato atto che l'iniziativa sopra menzionata riveste carattere di interesse pubblico generale;"
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 52.622010064062465,
+            "r": 518.3339992399995,
+            "b": 36.353201499255874,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            226
+          ]
+        }
+      ],
+      "orig": "Documento prodotto con sistema automatizzato del Comune di Mompantero.  Responsabile Procedimento: GUERCIO Cinzia  (D.Lgs. n. 39/93 art.3). La presente copia è destinata unicamente alla pubblicazione sull'albo pretorio on-line",
+      "text": "Documento prodotto con sistema automatizzato del Comune di Mompantero.  Responsabile Procedimento: GUERCIO Cinzia  (D.Lgs. n. 39/93 art.3). La presente copia è destinata unicamente alla pubblicazione sull'albo pretorio on-line"
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 768.7370242940625,
+            "r": 527.73100046,
+            "b": 744.3333119518526,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            139
+          ]
+        }
+      ],
+      "orig": "Ritenuto  di  dover  contribuire  alla  realizzazione  della  iniziativa  attraverso  la  concessione del proprio patrocinio e consentendo:",
+      "text": "Ritenuto  di  dover  contribuire  alla  realizzazione  della  iniziativa  attraverso  la  concessione del proprio patrocinio e consentendo:"
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 741.1390247240626,
+            "r": 194.63900522000003,
+            "b": 730.5343131218526,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            27
+          ]
+        }
+      ],
+      "orig": "- l'uso del logo del Comune",
+      "text": "l'uso del logo del Comune",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 727.3400249340625,
+            "r": 527.73600534,
+            "b": 702.9363125918526,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            103
+          ]
+        }
+      ],
+      "orig": "-  l'esenzione  del  pagamento  dell'imposta  sulle  pubbliche  affissioni  per  pubblicizzare l'evento",
+      "text": " l'esenzione  del  pagamento  dell'imposta  sulle  pubbliche  affissioni  per  pubblicizzare l'evento",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 699.7420253640626,
+            "r": 527.73200754,
+            "b": 661.5393132418526,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            248
+          ]
+        }
+      ],
+      "orig": "-  il  permesso  ad  accedere  a  strade  interpoderali,  strade  bianche  nel  Comune  di Mompantero, con vari mezzi per poter preparare e mettere in sicurezza il tracciato di gara, con vari interventi di manutenzione dal 01/07/2026 al 27/07/2026;",
+      "text": " il  permesso  ad  accedere  a  strade  interpoderali,  strade  bianche  nel  Comune  di Mompantero, con vari mezzi per poter preparare e mettere in sicurezza il tracciato di gara, con vari interventi di manutenzione dal 01/07/2026 al 27/07/2026;",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 644.5460185940626,
+            "r": 527.73399118,
+            "b": 620.1423062518527,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            114
+          ]
+        }
+      ],
+      "orig": "Dato atto che la realizzazione dell'evento non comporta alcuna altra spesa diretta a carico del bilancio comunale;",
+      "text": "Dato atto che la realizzazione dell'evento non comporta alcuna altra spesa diretta a carico del bilancio comunale;"
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 603.1490306740625,
+            "r": 527.7329841000001,
+            "b": 564.9463185518525,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            209
+          ]
+        }
+      ],
+      "orig": "Dato  atto  altresì  che  la  concessione  del  patrocinio  non  comporta  il  sorgere  in  capo all'Amministrazione  di  obblighi  o  responsabilità  di  qualsiasi  genere  in  ordine  all'evento patrocinato;",
+      "text": "Dato  atto  altresì  che  la  concessione  del  patrocinio  non  comporta  il  sorgere  in  capo all'Amministrazione  di  obblighi  o  responsabilità  di  qualsiasi  genere  in  ordine  all'evento patrocinato;"
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 547.9530315340626,
+            "r": 527.73200754,
+            "b": 495.95131962185263,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            292
+          ]
+        }
+      ],
+      "orig": "Considerato che la proposta operativa ha ottenuto il parere favorevole espresso ai sensi dell'art.  49  del  D.Lgs.  18.8.2000  n.  267,  così  come  modificato  dal  D.L.  n.  174/2012,  in merito alla regolarità tecnica-contabile da parte del Responsabile dell'area amministrativacontabile;",
+      "text": "Considerato che la proposta operativa ha ottenuto il parere favorevole espresso ai sensi dell'art.  49  del  D.Lgs.  18.8.2000  n.  267,  così  come  modificato  dal  D.L.  n.  174/2012,  in merito alla regolarità tecnica-contabile da parte del Responsabile dell'area amministrativacontabile;"
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 478.9580211540625,
+            "r": 527.7249885,
+            "b": 454.5543088118526,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            112
+          ]
+        }
+      ],
+      "orig": "Visto l'art. 48 D.Lgs. 18.8.2000 n. 267 che demanda alla G.C. l'ordinaria amministrazione di funzioni e servizi;",
+      "text": "Visto l'art. 48 D.Lgs. 18.8.2000 n. 267 che demanda alla G.C. l'ordinaria amministrazione di funzioni e servizi;"
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 437.5610179840626,
+            "r": 528.16401438,
+            "b": 426.95630638185264,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            85
+          ]
+        }
+      ],
+      "orig": "Con votazione unanime e favorevole espressa in forma palese mediante assenso verbale;",
+      "text": "Con votazione unanime e favorevole espressa in forma palese mediante assenso verbale;"
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 253.79699326,
+            "t": 409.9630260340625,
+            "r": 316.48798898999996,
+            "b": 399.3583144318526,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "DELIBERA",
+      "text": "DELIBERA",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 382.36503409406254,
+            "r": 527.73399118,
+            "b": 357.96132175185255,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            130
+          ]
+        }
+      ],
+      "orig": "Per le motivazioni riportate nella premessa narrativa al presente dispositivo e richiamate a farne parte integrante e sostanziale.",
+      "text": "Per le motivazioni riportate nella premessa narrativa al presente dispositivo e richiamate a farne parte integrante e sostanziale."
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 340.96803092406253,
+            "r": 527.7289863,
+            "b": 316.5643185818526,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            164
+          ]
+        }
+      ],
+      "orig": "1.  Di  contribuire  alla  realizzazione  della  iniziativa  sportiva  'Vertical  del  Rocciamelone' attraverso la concessione del proprio patrocinio e consentendo:",
+      "text": " Di  contribuire  alla  realizzazione  della  iniziativa  sportiva  'Vertical  del  Rocciamelone' attraverso la concessione del proprio patrocinio e consentendo:",
+      "enumerated": true,
+      "marker": "1."
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 313.3700389740625,
+            "r": 194.63900522000003,
+            "b": 302.76532737185266,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            27
+          ]
+        }
+      ],
+      "orig": "- l'uso del logo del Comune",
+      "text": "l'uso del logo del Comune",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 299.5710277440626,
+            "r": 527.73600534,
+            "b": 275.16731540185253,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            103
+          ]
+        }
+      ],
+      "orig": "-  l'esenzione  del  pagamento  dell'imposta  sulle  pubbliche  affissioni  per  pubblicizzare l'evento",
+      "text": " l'esenzione  del  pagamento  dell'imposta  sulle  pubbliche  affissioni  per  pubblicizzare l'evento",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 271.97303580406253,
+            "r": 527.73200754,
+            "b": 233.77032368185257,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            248
+          ]
+        }
+      ],
+      "orig": "-  il  permesso  ad  accedere  a  strade  interpoderali,  strade  bianche  nel  Comune  di Mompantero, con vari mezzi per poter preparare e mettere in sicurezza il tracciato di gara, con vari interventi di manutenzione dal 01/07/2026 al 27/07/2026.",
+      "text": " il  permesso  ad  accedere  a  strade  interpoderali,  strade  bianche  nel  Comune  di Mompantero, con vari mezzi per poter preparare e mettere in sicurezza il tracciato di gara, con vari interventi di manutenzione dal 01/07/2026 al 27/07/2026.",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 216.77705191406255,
+            "r": 527.73499826,
+            "b": 164.77534000185256,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            297
+          ]
+        }
+      ],
+      "orig": "2.  Di  dare  atto  che  la  concessione  del  patrocinio  non  comporta  il  sorgere  in  capo  al Comune  di  Mompantero  di  obblighi  o  responsabilità  di  qualsiasi  genere  in  ordine  alla manifestazione patrocinata intendendosi lo stesso comune manlevato da ogni coinvolgimento in merito.",
+      "text": " Di  dare  atto  che  la  concessione  del  patrocinio  non  comporta  il  sorgere  in  capo  al Comune  di  Mompantero  di  obblighi  o  responsabilità  di  qualsiasi  genere  in  ordine  alla manifestazione patrocinata intendendosi lo stesso comune manlevato da ogni coinvolgimento in merito.",
+      "enumerated": true,
+      "marker": "2."
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 147.78199576406257,
+            "r": 527.73600534,
+            "b": 81.98128788185261,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            444
+          ]
+        }
+      ],
+      "orig": "3.  Di  dare  atto  che,  ai  fini  della  realizzazione  della  manifestazione  sportiva  'Vertical  del Rocciamelone'  che  si  terrà  sabato  12  luglio  2026  o  in  caso  di  avverse  condizioni meteorologiche domenica 13 luglio 2026, l'Associazione sportiva dilettantistica PIOSSASCO TRAIL RUNNERS ASD, con sede legale a Piossasco (TO) in Via Magenta n.1, deve aver ottenuto il nulla osta da parte dell'Ente di Gestione Parchi Alpi Cozie.",
+      "text": " Di  dare  atto  che,  ai  fini  della  realizzazione  della  manifestazione  sportiva  'Vertical  del Rocciamelone'  che  si  terrà  sabato  12  luglio  2026  o  in  caso  di  avverse  condizioni meteorologiche domenica 13 luglio 2026, l'Associazione sportiva dilettantistica PIOSSASCO TRAIL RUNNERS ASD, con sede legale a Piossasco (TO) in Via Magenta n.1, deve aver ottenuto il nulla osta da parte dell'Ente di Gestione Parchi Alpi Cozie.",
+      "enumerated": true,
+      "marker": "3."
+    },
+    {
+      "self_ref": "#/texts/47",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 52.622010064062465,
+            "r": 518.3339992399995,
+            "b": 36.353201499255874,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            226
+          ]
+        }
+      ],
+      "orig": "Documento prodotto con sistema automatizzato del Comune di Mompantero.  Responsabile Procedimento: GUERCIO Cinzia  (D.Lgs. n. 39/93 art.3). La presente copia è destinata unicamente alla pubblicazione sull'albo pretorio on-line",
+      "text": "Documento prodotto con sistema automatizzato del Comune di Mompantero.  Responsabile Procedimento: GUERCIO Cinzia  (D.Lgs. n. 39/93 art.3). La presente copia è destinata unicamente alla pubblicazione sull'albo pretorio on-line"
+    },
+    {
+      "self_ref": "#/texts/48",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 782.5360240840625,
+            "r": 527.73200754,
+            "b": 744.3333119618526,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            194
+          ]
+        }
+      ],
+      "orig": "4.  Di  inviare  copia  della  presente  deliberazione  dell'Associazione  sportiva  dilettantistica PIOSSASCO  TRAIL  RUNNERS  ASD,  con  sede  legale  a  Piossasco  (TO)  in  Via Magenta n. 1.",
+      "text": " Di  inviare  copia  della  presente  deliberazione  dell'Associazione  sportiva  dilettantistica PIOSSASCO  TRAIL  RUNNERS  ASD,  con  sede  legale  a  Piossasco  (TO)  in  Via Magenta n. 1.",
+      "enumerated": true,
+      "marker": "4."
+    },
+    {
+      "self_ref": "#/texts/49",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 726.9960243940625,
+            "r": 527.8289841000001,
+            "b": 690.7896435840624,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            225
+          ]
+        }
+      ],
+      "orig": "5. Di  dichiarare  la  presente  deliberazione,  con  separata  e  successiva  votazione  favorevole unanime,  palesemente  espressa  per  alzata  di  mano,  immediatamente  eseguibile,  art.  134 comma 4)del D.Lgs. 267/2000.",
+      "text": "Di  dichiarare  la  presente  deliberazione,  con  separata  e  successiva  votazione  favorevole unanime,  palesemente  espressa  per  alzata  di  mano,  immediatamente  eseguibile,  art.  134 comma 4)del D.Lgs. 267/2000.",
+      "enumerated": true,
+      "marker": "5."
+    },
+    {
+      "self_ref": "#/texts/50",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 52.622010064062465,
+            "r": 518.3339992399995,
+            "b": 36.353201499255874,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            226
+          ]
+        }
+      ],
+      "orig": "Documento prodotto con sistema automatizzato del Comune di Mompantero.  Responsabile Procedimento: GUERCIO Cinzia  (D.Lgs. n. 39/93 art.3). La presente copia è destinata unicamente alla pubblicazione sull'albo pretorio on-line",
+      "text": "Documento prodotto con sistema automatizzato del Comune di Mompantero.  Responsabile Procedimento: GUERCIO Cinzia  (D.Lgs. n. 39/93 art.3). La presente copia è destinata unicamente alla pubblicazione sull'albo pretorio on-line"
+    },
+    {
+      "self_ref": "#/texts/51",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 770.0840235040625,
+            "r": 216.9829946,
+            "b": 759.5541555040625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            33
+          ]
+        }
+      ],
+      "orig": "Letto, confermato e sottoscritto.",
+      "text": "Letto, confermato e sottoscritto."
+    },
+    {
+      "self_ref": "#/texts/52",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 90.61200094,
+            "t": 730.9760227440626,
+            "r": 177.13099865,
+            "b": 720.4461547440625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            13
+          ]
+        }
+      ],
+      "orig": "IL PRESIDENTE",
+      "text": "IL PRESIDENTE"
+    },
+    {
+      "self_ref": "#/texts/53",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 77.39899969,
+            "t": 717.9400224940625,
+            "r": 190.34399609000002,
+            "b": 707.4101544940625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            20
+          ]
+        }
+      ],
+      "orig": "Firmato digitalmente",
+      "text": "Firmato digitalmente"
+    },
+    {
+      "self_ref": "#/texts/54",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 63.77599859,
+            "t": 704.9040222440625,
+            "r": 203.96699719,
+            "b": 694.3741542440624,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            22
+          ]
+        }
+      ],
+      "orig": "F.to : GASTALDO DAVIDE",
+      "text": "F.to : GASTALDO DAVIDE"
+    },
+    {
+      "self_ref": "#/texts/55",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 349.95299959,
+            "t": 730.9760227440626,
+            "r": 502.58999829,
+            "b": 720.4461547440625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            22
+          ]
+        }
+      ],
+      "orig": "IL SEGRETARIO COMUNALE",
+      "text": "IL SEGRETARIO COMUNALE"
+    },
+    {
+      "self_ref": "#/texts/56",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 369.79899739999996,
+            "t": 717.9400224940625,
+            "r": 482.74400524,
+            "b": 707.4101544940625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            20
+          ]
+        }
+      ],
+      "orig": "Firmato digitalmente",
+      "text": "Firmato digitalmente"
+    },
+    {
+      "self_ref": "#/texts/57",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 338.00599909,
+            "t": 704.9040222440625,
+            "r": 514.53700451,
+            "b": 694.3741542440624,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            31
+          ]
+        }
+      ],
+      "orig": "F.to : Dr.ssa Marietta CARCIONE",
+      "text": "F.to : Dr.ssa Marietta CARCIONE"
+    },
+    {
+      "self_ref": "#/texts/58",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 648.3030219840625,
+            "r": 503.82598629999995,
+            "b": 625.9330361787033,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            101
+          ]
+        }
+      ],
+      "orig": "Copia conforme all'originale firmato digitalmente, per gli usi consentiti dalla Legge. lì, 30/06/2026",
+      "text": "Copia conforme all'originale firmato digitalmente, per gli usi consentiti dalla Legge. lì, 30/06/2026"
+    },
+    {
+      "self_ref": "#/texts/59",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 293.56299638999997,
+            "t": 635.6540218140625,
+            "r": 520.94399778,
+            "b": 613.2840369687034,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            46
+          ]
+        }
+      ],
+      "orig": "IL SEGRETARIO COMUNALEDr.ssa Marietta CARCIONE",
+      "text": "IL SEGRETARIO COMUNALEDr.ssa Marietta CARCIONE"
+    },
+    {
+      "self_ref": "#/texts/60",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 52.622010064062465,
+            "r": 518.3339992399995,
+            "b": 36.353201499255874,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            226
+          ]
+        }
+      ],
+      "orig": "Documento prodotto con sistema automatizzato del Comune di Mompantero.  Responsabile Procedimento: GUERCIO Cinzia  (D.Lgs. n. 39/93 art.3). La presente copia è destinata unicamente alla pubblicazione sull'albo pretorio on-line",
+      "text": "Documento prodotto con sistema automatizzato del Comune di Mompantero.  Responsabile Procedimento: GUERCIO Cinzia  (D.Lgs. n. 39/93 art.3). La presente copia è destinata unicamente alla pubblicazione sull'albo pretorio on-line"
+    }
+  ],
+  "pictures": [
+    {
+      "self_ref": "#/pictures/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 73.26402282714844,
+            "t": 750.2771377563477,
+            "r": 135.4271697998047,
+            "b": 661.7667388916016,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    }
+  ],
+  "tables": [
+    {
+      "self_ref": "#/tables/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "table",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 60.828025817871094,
+            "t": 413.9450988769531,
+            "r": 505.1907653808594,
+            "b": 273.33416748046875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "data": {
+        "table_cells": [
+          {
+            "bbox": {
+              "l": 194.32299805,
+              "t": 432.62901112,
+              "r": 300.32499573,
+              "b": 443.15887912,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 2,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 2,
+            "text": "Cognome e Nome",
+            "column_header": true,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 441.89499379,
+              "t": 432.62901112,
+              "r": 495.21099379000003,
+              "b": 443.15887912,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "Presente",
+            "column_header": true,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 65.75,
+              "t": 462.34701153,
+              "r": 260.03400476,
+              "b": 472.87687953,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 1,
+            "end_row_offset_idx": 2,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "1. GASTALDO DAVIDE - Sindaco",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 463.83599472000003,
+              "t": 462.34701153,
+              "r": 473.26799472000005,
+              "b": 472.87687953,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 1,
+            "end_row_offset_idx": 2,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "Sì",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 65.75,
+              "t": 484.07301135999995,
+              "r": 320.2450033,
+              "b": 494.60287936,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 2,
+            "end_row_offset_idx": 3,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "2. PESANDO MARIA LAURA - Vice Sindaco",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 463.83599472000003,
+              "t": 484.07301135999995,
+              "r": 473.26799472000005,
+              "b": 494.60287936,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 2,
+            "end_row_offset_idx": 3,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "Sì",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 65.75,
+              "t": 505.79900928999996,
+              "r": 254.83400305000004,
+              "b": 516.32887729,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 3,
+            "end_row_offset_idx": 4,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "3. CHIOLERO LINO - Assessore",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 463.83599472000003,
+              "t": 505.79900928999996,
+              "r": 473.26799472000005,
+              "b": 516.32887729,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 3,
+            "end_row_offset_idx": 4,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "Sì",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 345.63800049,
+              "t": 542.00900837,
+              "r": 428.90400658999994,
+              "b": 567.02287753,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 4,
+            "end_row_offset_idx": 5,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "Totale Presenti: Totale Assenti:",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 465.27399445000003,
+              "t": 542.00900837,
+              "r": 471.82599445000005,
+              "b": 552.53887637,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 4,
+            "end_row_offset_idx": 5,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "3",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 465.27399445000003,
+              "t": 556.4930095299999,
+              "r": 471.82599445000005,
+              "b": 567.02287753,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 5,
+            "end_row_offset_idx": 6,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "0",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          }
+        ],
+        "num_rows": 6,
+        "num_cols": 3,
+        "grid": [
+          [
+            {
+              "bbox": {
+                "l": 194.32299805,
+                "t": 432.62901112,
+                "r": 300.32499573,
+                "b": 443.15887912,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 2,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 2,
+              "text": "Cognome e Nome",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 194.32299805,
+                "t": 432.62901112,
+                "r": 300.32499573,
+                "b": 443.15887912,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 2,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 2,
+              "text": "Cognome e Nome",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 441.89499379,
+                "t": 432.62901112,
+                "r": 495.21099379000003,
+                "b": 443.15887912,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "Presente",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 65.75,
+                "t": 462.34701153,
+                "r": 260.03400476,
+                "b": 472.87687953,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "1. GASTALDO DAVIDE - Sindaco",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 463.83599472000003,
+                "t": 462.34701153,
+                "r": 473.26799472000005,
+                "b": 472.87687953,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "Sì",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 65.75,
+                "t": 484.07301135999995,
+                "r": 320.2450033,
+                "b": 494.60287936,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "2. PESANDO MARIA LAURA - Vice Sindaco",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 463.83599472000003,
+                "t": 484.07301135999995,
+                "r": 473.26799472000005,
+                "b": 494.60287936,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "Sì",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 65.75,
+                "t": 505.79900928999996,
+                "r": 254.83400305000004,
+                "b": 516.32887729,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "3. CHIOLERO LINO - Assessore",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 463.83599472000003,
+                "t": 505.79900928999996,
+                "r": 473.26799472000005,
+                "b": 516.32887729,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "Sì",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 345.63800049,
+                "t": 542.00900837,
+                "r": 428.90400658999994,
+                "b": 567.02287753,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "Totale Presenti: Totale Assenti:",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 465.27399445000003,
+                "t": 542.00900837,
+                "r": 471.82599445000005,
+                "b": 552.53887637,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "3",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 5,
+              "end_row_offset_idx": 6,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 5,
+              "end_row_offset_idx": 6,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 465.27399445000003,
+                "t": 556.4930095299999,
+                "r": 471.82599445000005,
+                "b": 567.02287753,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 5,
+              "end_row_offset_idx": 6,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "0",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ]
+        ]
+      },
+      "annotations": []
+    }
+  ],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {
+    "1": {
+      "size": {
+        "width": 595.2999877929688,
+        "height": 841.9000244140625
+      },
+      "page_no": 1
+    },
+    "2": {
+      "size": {
+        "width": 595.2999877929688,
+        "height": 841.9000244140625
+      },
+      "page_no": 2
+    },
+    "3": {
+      "size": {
+        "width": 595.2999877929688,
+        "height": 841.9000244140625
+      },
+      "page_no": 3
+    },
+    "4": {
+      "size": {
+        "width": 595.2999877929688,
+        "height": 841.9000244140625
+      },
+      "page_no": 4
+    },
+    "5": {
+      "size": {
+        "width": 595.2999877929688,
+        "height": 841.9000244140625
+      },
+      "page_no": 5
+    }
+  }
+}

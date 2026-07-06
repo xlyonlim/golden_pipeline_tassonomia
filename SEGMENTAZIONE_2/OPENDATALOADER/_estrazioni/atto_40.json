@@ -1,0 +1,1137 @@
+{
+  "file name" : "atto_40.pdf",
+  "number of pages" : 5,
+  "author" : "angelo",
+  "title" : "#4",
+  "creation date" : "D:20140514105200+02'00'",
+  "modification date" : "D:20230515172700+02'00'",
+  "kids" : [ {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 12,
+    "page number" : 1,
+    "bounding box" : [ 265.1, 725.85, 313.25, 799.35 ],
+    "source" : "atto_40_images/imageFile1.png"
+  }, {
+    "type" : "text block",
+    "id" : 13,
+    "page number" : 1,
+    "bounding box" : [ 453.35, 775.452, 525.4, 787.951 ],
+    "kids" : [ {
+      "type" : "paragraph",
+      "pdfua_tag" : "P",
+      "id" : 1,
+      "page number" : 1,
+      "bounding box" : [ 474.372, 775.952, 504.372, 787.026 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.0,
+      "text color" : "[0.0]",
+      "content" : "COPIA"
+    } ]
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 14,
+    "level" : "Doctitle",
+    "page number" : 1,
+    "bounding box" : [ 205.398, 671.962, 372.942, 700.755 ],
+    "heading level" : 1,
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 26.0,
+    "text color" : "[0.0]",
+    "content" : "Comune di Jelsi"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 15,
+    "page number" : 1,
+    "bounding box" : [ 238.069, 660.463, 340.279, 671.537 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.0,
+    "text color" : "[0.0]",
+    "content" : "Provincia di Campobasso"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H2",
+    "id" : 16,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 75.498, 619.067, 502.858, 636.786 ],
+    "heading level" : 2,
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 16.0,
+    "text color" : "[0.0]",
+    "content" : "DELIBERAZIONE DELLA GIUNTA MUNICIPALE N° 15"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 18,
+    "page number" : 1,
+    "bounding box" : [ 56.7, 575.342, 475.61, 586.67 ],
+    "font" : "CourierNewPS-BoldMT",
+    "font size" : 10.0,
+    "text color" : "[0.0]",
+    "content" : "OGGETTO: Associazione Nazionale Città dell'Olio - Iniziativa \"Merenda"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 19,
+    "page number" : 1,
+    "bounding box" : [ 115.55, 564.014, 511.61, 575.342 ],
+    "font" : "CourierNewPS-BoldMT",
+    "font size" : 10.0,
+    "text color" : "[0.0]",
+    "content" : "dell'Oliveta\" VI Edizione (25 aprile - 28 giugno 2026). Adesione."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 21,
+    "page number" : 1,
+    "bounding box" : [ 56.7, 462.622, 521.652, 503.509 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "L’anno duemilaventisei, addì diciotto, del mese di febbraio, alle ore 13:30 nella sede comunale, si è riunita la Giunta Municipale convocata nelle forme di legge. Presiede l’adunanza il signor Mauri Egidio nella sua qualità di Sindaco."
+  }, {
+    "type" : "table",
+    "pdfua_tag" : "Table",
+    "id" : 22,
+    "level" : "1",
+    "page number" : 1,
+    "bounding box" : [ 52.825, 376.828, 524.875, 421.225 ],
+    "number of rows" : 3,
+    "number of columns" : 3,
+    "rows" : [ {
+      "type" : "table row",
+      "row number" : 1,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 53.575, 406.301, 255.15, 420.475 ],
+        "row number" : 1,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 2,
+          "page number" : 1,
+          "bounding box" : [ 65.2, 406.676, 134.2, 419.965 ],
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "Mauri Egidio"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 255.15, 406.301, 474.9, 420.475 ],
+        "row number" : 1,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 3,
+          "page number" : 1,
+          "bounding box" : [ 258.65, 406.676, 299.33, 419.965 ],
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "Sindaco"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 474.9, 406.301, 524.125, 420.475 ],
+        "row number" : 1,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 4,
+          "page number" : 1,
+          "bounding box" : [ 478.4, 406.676, 485.732, 419.965 ],
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "P"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 2,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 53.575, 391.752, 255.15, 406.301 ],
+        "row number" : 2,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 5,
+          "page number" : 1,
+          "bounding box" : [ 56.7, 392.127, 139.02, 405.416 ],
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "Paolucci Davide"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 255.15, 391.752, 474.9, 406.301 ],
+        "row number" : 2,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 6,
+          "page number" : 1,
+          "bounding box" : [ 258.65, 392.127, 324.986, 405.416 ],
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "Vice Sindaco"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 474.9, 391.752, 524.125, 406.301 ],
+        "row number" : 2,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 7,
+          "page number" : 1,
+          "bounding box" : [ 478.4, 392.127, 485.732, 405.416 ],
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "P"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 3,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 53.575, 377.578, 255.15, 391.752 ],
+        "row number" : 3,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 8,
+          "page number" : 1,
+          "bounding box" : [ 56.7, 377.578, 147.696, 390.867 ],
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "Passarelli Andrea"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 255.15, 377.578, 474.9, 391.752 ],
+        "row number" : 3,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 9,
+          "page number" : 1,
+          "bounding box" : [ 258.65, 377.578, 307.982, 390.867 ],
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "Assessore"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 474.9, 377.578, 524.125, 391.752 ],
+        "row number" : 3,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 10,
+          "page number" : 1,
+          "bounding box" : [ 478.4, 377.578, 485.732, 390.867 ],
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "P"
+        } ]
+      } ]
+    } ]
+  }, {
+    "type" : "caption",
+    "id" : 23,
+    "page number" : 1,
+    "bounding box" : [ 61.7, 363.029, 197.672, 376.318 ],
+    "linked content id" : 22,
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "presenti n. 3 e assenti n. 0"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 24,
+    "page number" : 1,
+    "bounding box" : [ 56.7, 294.034, 457.188, 307.323 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Partecipa il Segretario Dott.ssa Manes Maria incaricato della redazione del verbale."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 25,
+    "page number" : 1,
+    "bounding box" : [ 246.012, 225.039, 332.34, 238.328 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "IL PRESIDENTE"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 26,
+    "page number" : 1,
+    "bounding box" : [ 56.7, 183.642, 521.64, 210.73 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Constatato il numero legale degli intervenuti, dichiara aperta l’adunanza ed invita i presenti alla trattazione dell’argomento indicato in oggetto."
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H2",
+    "id" : 28,
+    "level" : "Subtitle",
+    "page number" : 2,
+    "bounding box" : [ 245.851, 781.052, 332.491, 798.771 ],
+    "heading level" : 2,
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 16.0,
+    "text color" : "[0.0]",
+    "content" : "LA GIUNTA"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 29,
+    "page number" : 2,
+    "bounding box" : [ 56.7, 725.856, 521.644, 766.743 ],
+    "font" : "TimesNewRomanPS-ItalicMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "FORMULATA – dal Sindaco - giusta proposta sull’argomento <<Associazione Nazionale Città dell'Olio - iniziativa \"Merenda nell'Oliveta\" VI^ ed. 2026 (dal 25 aprile al 28 giugno 2026). Adesione >>, nei termini di seguito riportati:"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 30,
+    "page number" : 2,
+    "bounding box" : [ 92.7, 698.258, 521.652, 725.346 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "<<PREMESSO: CHE l’Associazione Nazionale Città dell’Olio organizza l’evento \"Merenda"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 31,
+    "page number" : 2,
+    "bounding box" : [ 56.7, 670.66, 521.652, 697.748 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "nell'Oliveta” per promuovere il paesaggio e il territorio olivicolo, nonché sviluppare il turismo dell’olio;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 33,
+    "page number" : 2,
+    "bounding box" : [ 56.7, 615.464, 521.652, 670.15 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "CHE la stessa - con nota contraddistinta da n. 100/AB/bs di protocollo - ha richiesto l’adesione dei vari Enti Soci, dando facoltà ad ogni singola Amministrazione partecipante di ampliare l’offerta delle iniziative collegate al tema della degustazione dell’olio extra vergine di oliva e dei prodotti tipici, della cultura e dalla tradizione legate al territorio;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 35,
+    "page number" : 2,
+    "bounding box" : [ 56.7, 587.866, 521.652, 614.954 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "CHE detta comunicazione, in allegato, recava il modello di scheda per l’adesione all’iniziativa “Merenda nell’Oliveta” – ed. 2026;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 37,
+    "page number" : 2,
+    "bounding box" : [ 56.7, 518.871, 521.652, 587.356 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "CHE la “Merenda nell’Oliveta” ha come obiettivo far vivere ai partecipanti un’esperienza del paesaggio olivicolo e dell’ambiente in maniera “stanziale” - da soli o in compagnia - trascorrendo una giornata all’aria aperta immersi nel paesaggio olivicolo, far riscoprire il valore della convivialità e dello stare insieme alla scoperta di luoghi suggestivi e meno conosciuti;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 39,
+    "page number" : 2,
+    "bounding box" : [ 56.7, 491.273, 521.652, 518.361 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "CHE per quest’anno – 80° Anniversario della Repubblica – il tema scelto è “ Un Olivo per la Repubblica: radici comuni, valori condivisi”;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 41,
+    "page number" : 2,
+    "bounding box" : [ 92.7, 477.474, 521.652, 490.763 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "TENUTO CONTO che questo Comune è partner dell’Associazione Nazionale Città"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 42,
+    "page number" : 2,
+    "bounding box" : [ 56.7, 436.077, 521.652, 476.964 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "dell’Olio; VISTO lo Statuto dell’Associazione Nazionale Città dell’Olio; ACQUISITA la scheda progettuale della “Merenda nell’Oliveta” VI^ ed. 2026 (dal 25"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 43,
+    "page number" : 2,
+    "bounding box" : [ 56.7, 408.479, 521.64, 435.567 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "aprile al 28 giugno 2026), in una data da individuare - inviata dall’Associazione in uno con l’invito a prestarvi adesione;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 44,
+    "page number" : 2,
+    "bounding box" : [ 56.7, 380.881, 521.652, 407.969 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "DATO ATTO che l’Associazione Nazionale Città dell’Olio - in quanto ente capofila e segreteria organizzativa del progetto - fornirà a tutti gli Enti aderenti:"
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 45,
+    "level" : "2",
+    "page number" : 2,
+    "bounding box" : [ 74.7, 298.087, 521.652, 380.371 ],
+    "numbering style" : "unordered",
+    "number of list items" : 5,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 74.7, 367.082, 230.712, 380.371 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "- il format grafico dell’evento,",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 74.7, 353.283, 337.644, 366.572 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "- l’assistenza per la redazione del programma locale,",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 74.7, 339.484, 228.048, 352.773 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "- un ufficio stampa nazionale,",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 74.7, 325.685, 450.694, 338.974 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "- un sito internet dedicato www.cittadellolio.it e www.merendanelloliveta.it;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 74.7, 298.087, 521.652, 325.175 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "- profili social dedicati; STABILITO che, invece, ogni Amministrazione aderente dovrà occuparsi",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 46,
+    "page number" : 2,
+    "bounding box" : [ 56.7, 270.489, 521.64, 297.577 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "dell’organizzazione dell’iniziativa a livello territoriale: attraverso le azioni ritenute più opportune, individuando una o più date nell’arco temporale dal 25 aprile al 28 giugno 2026;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 47,
+    "page number" : 2,
+    "bounding box" : [ 92.7, 242.891, 521.652, 269.979 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "ATTESO: CHE questo Comune – rilevata la meritevolezza dell’iniziativa - intende prestarvi"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 48,
+    "page number" : 2,
+    "bounding box" : [ 56.7, 229.092, 102.024, 242.381 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "adesione:"
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 49,
+    "level" : "2",
+    "page number" : 2,
+    "bounding box" : [ 74.7, 77.303, 521.652, 228.582 ],
+    "numbering style" : "unordered",
+    "number of list items" : 4,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 74.7, 187.695, 521.652, 228.582 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "- compartecipando con il richiesto contributo straordinario (da versare a titolo di spesa di iscrizione all’evento) quantificato, in base alla classe demografica di appartenenza (Comuni da 0 a 5.000 abitanti): in €. 100,00;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 74.7, 146.298, 521.652, 187.185 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "- impegnandosi a sviluppare ogni azione utile al fine dell’ottimale realizzazione dell’iniziativa; PRECISATO che:",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 74.7, 104.901, 521.652, 145.788 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "- per la realizzazione dell’evento, a livello locale, l’Ente si avvarrà della fattiva collaborazione della Pro Loco di Jelsi che, interpellata per le vie brevi, ha assicurato disponibilità a titolo gratuito;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 74.7, 77.303, 516.276, 104.391 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "- la data dell’evento sarà concordata con il Coordinamento regionale delle Città dell’Olio; VISTO il bilancio comunale;",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 51,
+    "page number" : 3,
+    "bounding box" : [ 56.7, 758.053, 521.64, 798.94 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "INDIVIDUATO, a copertura della spesa occorrente – su indicazione del Responsabile dell’Area Contabile – lo stanziamento di cui al cap. 231/1 codice 06.01-1.03.02.99.003 del bilancio comunale;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 52,
+    "page number" : 3,
+    "bounding box" : [ 56.7, 730.455, 521.652, 757.543 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "PRECISATO che la natura dell’evento, riconduce l’iniziativa entro la sfera di competenza dell’Area Amministrativa;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 53,
+    "page number" : 3,
+    "bounding box" : [ 56.7, 702.857, 521.652, 729.945 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "ACQUISITI, dai Responsabili delle Aree Amministrativa e Contabile - ai sensi dell’art. 49 del D. Lgs. 267/2000 – giusto parere favorevole in ordine alla regolarità contabile;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 54,
+    "page number" : 3,
+    "bounding box" : [ 92.7, 661.46, 521.654, 702.347 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "PROPONE DI CONFERMARE quanto esposto in premessa; DI ADERIRE, alla iniziativa “Merenda nell’Oliveta” VIa edizione, proposta"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 55,
+    "page number" : 3,
+    "bounding box" : [ 56.7, 633.862, 521.64, 660.95 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "dall’Associazione Nazionale Città dell’Olio e prevista – in una giornata, a scelta di ciascun Ente aderente - nell’arco temporale dal 25 aprile al 28 giugno 2026;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 56,
+    "page number" : 3,
+    "bounding box" : [ 56.7, 592.465, 521.652, 633.352 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "DI PRENDERE ATTO che, a livello locale, la manifestazione sarà organizzata dall’Amministrazione l’Amministrazione, che si avvarrà della fattiva collaborazione della Pro Loco di Jelsi che, interpellata per le vie brevi, ha assicurato disponibilità a titolo gratuito;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 57,
+    "page number" : 3,
+    "bounding box" : [ 56.7, 564.867, 521.64, 591.955 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "DI PRECISARE che la data dell’evento sarà concordata con il Coordinamento regionale delle Città dell’Olio;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 58,
+    "page number" : 3,
+    "bounding box" : [ 56.7, 537.269, 521.652, 564.357 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "DI ASSUMERE l’impegno di versare - a titolo di spesa di iscrizione all’evento – il contributo straordinario richiesi: di €. 100,00;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 59,
+    "page number" : 3,
+    "bounding box" : [ 56.7, 509.671, 521.64, 536.759 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "DI INDICARE a copertura della spesa occorrente, lo stanziamento di cui al cap. 231/1 codice 06.01-1.03.02.99.003 del bilancio comunale;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 60,
+    "page number" : 3,
+    "bounding box" : [ 56.7, 468.274, 521.652, 509.161 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.05098039]",
+    "content" : "DI APPROVARE l’allegato modello di scheda di adesione - che costituisce parte integrante e sostanziale del presente provvedimento – inerente all’iniziativa riguardante questo Comune;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 61,
+    "page number" : 3,
+    "bounding box" : [ 56.7, 440.676, 521.64, 467.764 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "DI ASSUMERE l’impegno di sviluppare ogni azione utile al fine dell’ottimale realizzazione dell’iniziativa;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 62,
+    "page number" : 3,
+    "bounding box" : [ 56.7, 413.078, 521.64, 440.166 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "DI RIMETTERE copia del provvedimento al Responsabile dell’Area Amministrativa, per gli adempimenti consequenziali.>>;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 63,
+    "page number" : 3,
+    "bounding box" : [ 92.1, 371.681, 521.64, 412.568 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "________............................______________ RITENUTA la su esposta proposta meritevole di recepimento/accoglimento; DATO ATTO che, sulla stessa risultano acquisiti i pareri favorevoli di regolarità tecnica"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 64,
+    "page number" : 3,
+    "bounding box" : [ 56.7, 344.083, 521.64, 371.171 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "e contabile resi dai Responsabili delle Aree Amministrativa e Contabile, ai sensi e per gli effetti dell’art. 49 del T.U.E.L. n. 267/2000;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 65,
+    "page number" : 3,
+    "bounding box" : [ 92.1, 330.284, 521.652, 343.573 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "ASSEGNATA la responsabilità del procedimento, in capo alla sig.ra Valiante Vincenza,"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 66,
+    "page number" : 3,
+    "bounding box" : [ 56.7, 288.887, 441.948, 329.774 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "nella sua qualità di Responsabile dell’Area Amministrativa del Comune di Jelsi; ATTESO procedere alla votazione; RICEVUTA espressione dai presenti:"
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 67,
+    "level" : "2",
+    "page number" : 3,
+    "bounding box" : [ 92.7, 233.691, 521.652, 288.377 ],
+    "numbering style" : "unordered",
+    "number of list items" : 3,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 92.7, 275.088, 320.652, 288.377 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "- dal Sindaco, Egidio Mauri: di voto favorevole",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 92.7, 261.289, 360.948, 274.578 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "- dal Vice Sindaco, Davide Paolucci: di voto favorevole",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 92.7, 233.691, 521.652, 260.779 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "- dall’Assessore, Andrea Passarelli: voto favorevole DATO ATTO che la proposta – nella sua interezza ed omogeneità - risulta approvata con",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 68,
+    "page number" : 3,
+    "bounding box" : [ 56.7, 219.892, 250.644, 233.181 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "voto UNANIME favorevole dei presenti"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H2",
+    "id" : 69,
+    "level" : "Subtitle",
+    "page number" : 3,
+    "bounding box" : [ 267.624, 201.494, 346.728, 219.213 ],
+    "heading level" : 2,
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 16.0,
+    "text color" : "[0.0]",
+    "content" : "DELIBERA"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 70,
+    "page number" : 3,
+    "bounding box" : [ 56.7, 160.097, 521.652, 200.984 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "DI CONFERMARE tutto quanto esposto in premessa, sul presupposto che costituisce parte integrante e sostanziale del presente dispositivo, formandone adeguata motivazione, ai sensi e per gli effetti di cui all’art. 3 della L. n. 241/1990 e ss.mm.ii.;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 71,
+    "page number" : 3,
+    "bounding box" : [ 56.7, 118.7, 521.652, 159.587 ],
+    "font" : "TimesNewRomanPS-ItalicMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "DI PRENDERE ATTO della proposta formulata dal Sindaco in merito all’oggetto <<Associazione Nazionale Città dell'Olio - iniziativa \"Merenda nell'Oliveta\" VI^ ed. 2026 (dal 25 aprile al 28 giugno 2026). Adesione>>;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 72,
+    "page number" : 3,
+    "bounding box" : [ 56.7, 91.102, 521.652, 118.19 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "DI RECEPIRE la stessa, in toto, nei termini su esposti che, conseguentemente – tutti – si richiamano, approvano e riportano:"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 74,
+    "page number" : 4,
+    "bounding box" : [ 56.7, 758.053, 521.654, 799.012 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "DI ADERIRE, alla iniziativa “Merenda nell’Oliveta” VIa edizione, proposta dall’Associazione Nazionale Città dell’Olio e prevista – in una giornata, a scelta di ciascun Ente aderente - nell’arco temporale dal 25 aprile al 28 giugno 2026;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 75,
+    "page number" : 4,
+    "bounding box" : [ 56.7, 716.656, 521.652, 757.543 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "DI PRENDERE ATTO che, a livello locale, la manifestazione sarà organizzata dall’Amministrazione l’Amministrazione, che si avvarrà della fattiva collaborazione della Pro Loco di Jelsi che, interpellata per le vie brevi, ha assicurato disponibilità a titolo gratuito;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 76,
+    "page number" : 4,
+    "bounding box" : [ 56.7, 689.058, 521.64, 716.146 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "DI PRECISARE che la data dell’evento sarà concordata con il Coordinamento regionale delle Città dell’Olio;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 77,
+    "page number" : 4,
+    "bounding box" : [ 56.7, 661.46, 521.652, 688.548 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "DI ASSUMERE l’impegno di versare - a titolo di spesa di iscrizione all’evento – il contributo straordinario richiesi: di €. 100,00;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 78,
+    "page number" : 4,
+    "bounding box" : [ 56.7, 633.862, 521.64, 660.95 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "DI INDICARE a copertura della spesa occorrente, lo stanziamento di cui al cap. 231/1 codice 06.01-1.03.02.99.003 del bilancio comunale;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 79,
+    "page number" : 4,
+    "bounding box" : [ 56.7, 592.465, 521.652, 633.352 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.05098039]",
+    "content" : "DI APPROVARE l’allegato modello di scheda di adesione - che costituisce parte integrante e sostanziale del presente provvedimento – inerente all’iniziativa riguardante questo Comune;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 80,
+    "page number" : 4,
+    "bounding box" : [ 56.7, 564.867, 521.64, 591.955 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "DI ASSUMERE l’impegno di sviluppare ogni azione utile al fine dell’ottimale realizzazione dell’iniziativa;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 81,
+    "page number" : 4,
+    "bounding box" : [ 56.7, 537.269, 521.64, 564.357 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "DI RIMETTERE copia del provvedimento al Responsabile dell’Area Amministrativa, per gli adempimenti consequenziali;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 82,
+    "page number" : 4,
+    "bounding box" : [ 56.7, 509.671, 528.792, 536.759 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "DI COMUNICARE il presente deliberato ai capigruppo consiliari ai sensi dell’art.125 del T.U. n.267/2000."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 83,
+    "page number" : 4,
+    "bounding box" : [ 56.7, 482.073, 528.804, 509.161 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "DI RENDERE con separata votazione unanime, ai sensi dell’art.134, comma 4 del T.U. n.267/2000, il presente deliberato IMMEDIATAMENTE ESEGUIBILE."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 85,
+    "page number" : 5,
+    "bounding box" : [ 56.7, 785.651, 203.664, 798.94 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Letto, approvato e sottoscritto."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 86,
+    "page number" : 5,
+    "bounding box" : [ 128.009, 744.254, 487.151, 771.342 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "IL PRESIDENTE IL SEGRETARIO COMUNALE F.to Mauri Egidio F.to Dott.ssa Manes Maria"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 88,
+    "page number" : 5,
+    "bounding box" : [ 56.7, 686.558, 487.151, 727.445 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "E’ copia conforme all’originale Dalla Sede Municipale, lì _____________ IL SEGRETARIO COMUNALE"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 89,
+    "page number" : 5,
+    "bounding box" : [ 354.328, 672.759, 459.976, 686.048 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Dott.ssa Manes Maria"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 91,
+    "page number" : 5,
+    "bounding box" : [ 56.7, 638.06, 333.648, 651.349 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Il sottoscritto Segretario Comunale, visti gli atti d’ufficio,"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 92,
+    "page number" : 5,
+    "bounding box" : [ 56.7, 605.862, 320.177, 632.95 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "CERTIFICA che la presente deliberazione:"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 93,
+    "level" : "3",
+    "page number" : 5,
+    "bounding box" : [ 92.7, 559.865, 513.24, 600.846 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : " Viene pubblicata mediante affissione all’Albo Pretorio comunale il 26-02-2026 per rimanervi 15 giorni consecutivi, come prescritto dall’art.124, comma1, del T.U. n.267/2000;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 94,
+    "level" : "3",
+    "page number" : 5,
+    "bounding box" : [ 92.7, 527.667, 521.652, 554.849 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : " Viene comunicata, con lettera n. 839 in data 26-02-2026 ai capigruppo consiliari come prescritto dall’art.125, del T.U. n.267/2000;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 95,
+    "page number" : 5,
+    "bounding box" : [ 58.6, 495.469, 491.968, 522.557 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Dalla Sede Municipale, lì 26-02-2026 Il Responsabile delle Pubblicazioni F.to Dott.ssa Manes Maria"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 97,
+    "page number" : 5,
+    "bounding box" : [ 191.526, 460.771, 386.826, 474.06 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "DICHIARAZIONE DI ESECUTIVITA’"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 98,
+    "level" : "3",
+    "page number" : 5,
+    "bounding box" : [ 92.7, 442.372, 390.924, 455.755 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : " dichiarata immediatamente eseguibile (art.134, comma 4);"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 99,
+    "level" : "3",
+    "page number" : 5,
+    "bounding box" : [ 92.7, 410.174, 521.64, 437.356 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : " sono decorsi 10 giorni dalla data di inizio della pubblicazione, non essendo pervenuta richiesta di invio al controllo (art.134, comma 3, del T.U. n.267/2000);"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 100,
+    "level" : "3",
+    "page number" : 5,
+    "bounding box" : [ 92.7, 364.177, 521.652, 405.158 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : " sono decorsi 30 giorni dalla ricezione dell’atto (art.134, comma 1, del T.U. n.267/2000), senza che l’organo regionale di controllo abbia comunicato provvedimento di annullamento;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 101,
+    "page number" : 5,
+    "bounding box" : [ 58.6, 322.78, 487.151, 349.868 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Dalla Sede Municipale, lì 18-02-2026 IL SEGRETARIO COMUNALE F.to Dott.ssa Manes Maria"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 103,
+    "page number" : 5,
+    "bounding box" : [ 56.7, 251.284, 471.641, 301.371 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "PARERE DI REGOLARITÀ TECNICA Si attesta la regolarità e la correttezza dell’azione amministrativa. Jelsi, Il Responsabile del Settore"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 104,
+    "page number" : 5,
+    "bounding box" : [ 183.015, 209.887, 462.634, 250.774 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "F.to Valiante Vincenza PARERE DI REGOLARITÀ CONTABILE"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 105,
+    "page number" : 5,
+    "bounding box" : [ 56.7, 154.691, 521.652, 209.377 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "VISTO, si attesta: > La regolarità contabile del provvedimento retroscritto; > La copertura finanziaria dell’impegno di spesa dallo stesso disposto sull’intervento del bilancio nel medesimo indicato."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 106,
+    "page number" : 5,
+    "bounding box" : [ 58.6, 113.294, 500.464, 140.382 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Jelsi, 25-02-2026 Il Responsabile del Settore Finanziario F.to Dr.ssa Di Giglio Concettina"
+  } ]
+}

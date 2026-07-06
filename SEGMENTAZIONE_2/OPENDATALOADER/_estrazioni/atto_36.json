@@ -1,0 +1,1145 @@
+{
+  "file name" : "atto_36.pdf",
+  "number of pages" : 4,
+  "author" : "calfa",
+  "title" : "Logo",
+  "creation date" : "D:20260527124057+02'00'",
+  "modification date" : "D:20260527124057+02'00'",
+  "kids" : [ {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 23,
+    "page number" : 1,
+    "bounding box" : [ 93.024, 705.025, 502.248, 717.531 ],
+    "font" : "CourierNewPS-BoldMT",
+    "font size" : 11.04,
+    "text color" : "[0.0]",
+    "content" : "ESTRATTO DAL VERBALE DELLE DELIBERAZIONI DELLA GIUNTA COMUNALE"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 24,
+    "page number" : 1,
+    "bounding box" : [ 56.64, 667.585, 533.764, 680.091 ],
+    "font" : "CourierNewPS-BoldMT",
+    "font size" : 11.04,
+    "text color" : "[0.0]",
+    "content" : "Deliberazione N. 331 Seduta del 19/12/2019"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 25,
+    "page number" : 1,
+    "bounding box" : [ 56.64, 580.345, 538.73, 617.811 ],
+    "font" : "CourierNewPS-BoldMT",
+    "font size" : 11.04,
+    "text color" : "[0.0]",
+    "content" : "Oggetto: VISITING PISTOIA 2019/2020 - CONTRIBUTO PER L’APERTURA AI TURISTI DELLA CHIESA DI SAN GIOVANNI FUORCIVITAS NEL PERIODO DELLE FESTIVITA’ NATALIZIE.-"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H2",
+    "id" : 26,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 56.64, 529.386, 531.84, 542.98 ],
+    "heading level" : 2,
+    "font" : "CourierNewPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "------------------------------------------------------------------"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 27,
+    "page number" : 1,
+    "bounding box" : [ 56.64, 451.195, 538.484, 488.661 ],
+    "font" : "CourierNewPSMT",
+    "font size" : 11.04,
+    "text color" : "[0.0]",
+    "content" : "L’anno Duemiladiciannove il giorno diciannove del mese di Dicembre alle ore 10:45 nel Palazzo Comunale e nella sala delle proprie sedute, si e’ riunita la Giunta Comunale."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 28,
+    "page number" : 1,
+    "bounding box" : [ 92.064, 413.875, 276.888, 426.381 ],
+    "font" : "CourierNewPSMT",
+    "font size" : 11.04,
+    "text color" : "[0.0]",
+    "content" : "Sono intervenuti i Signori :"
+  }, {
+    "type" : "table",
+    "pdfua_tag" : "Table",
+    "id" : 29,
+    "level" : "1",
+    "page number" : 1,
+    "bounding box" : [ 52.92, 259.85, 542.38, 378.67 ],
+    "number of rows" : 10,
+    "number of columns" : 3,
+    "rows" : [ {
+      "type" : "table row",
+      "row number" : 1,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 53.4, 366.53, 155.66, 378.192 ],
+        "row number" : 1,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 1,
+          "page number" : 1,
+          "bounding box" : [ 77.424, 366.899, 131.4, 378.182 ],
+          "font" : "CourierNewPSMT",
+          "font size" : 9.96,
+          "text color" : "[0.0]",
+          "content" : "Qualifica"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 155.66, 366.53, 452.735, 378.192 ],
+        "row number" : 1,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 2,
+          "page number" : 1,
+          "bounding box" : [ 274.25, 366.899, 334.226, 378.182 ],
+          "font" : "CourierNewPSMT",
+          "font size" : 9.96,
+          "text color" : "[0.0]",
+          "content" : "Componente"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 452.735, 366.53, 541.9, 378.192 ],
+        "row number" : 1,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 3,
+          "page number" : 1,
+          "bounding box" : [ 473.5, 366.899, 521.476, 378.182 ],
+          "font" : "CourierNewPSMT",
+          "font size" : 9.96,
+          "text color" : "[0.0]",
+          "content" : "Presente"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 2,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 53.4, 354.77, 155.66, 366.53 ],
+        "row number" : 2,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 4,
+          "page number" : 1,
+          "bounding box" : [ 56.64, 355.019, 98.616, 366.302 ],
+          "font" : "CourierNewPSMT",
+          "font size" : 9.96,
+          "text color" : "[0.0]",
+          "content" : "Sindaco"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 155.66, 354.77, 452.735, 366.53 ],
+        "row number" : 2,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 5,
+          "page number" : 1,
+          "bounding box" : [ 159.26, 355.019, 261.236, 366.302 ],
+          "font" : "CourierNewPSMT",
+          "font size" : 9.96,
+          "text color" : "[0.0]",
+          "content" : "TOMASI ALESSANDRO"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 452.735, 354.77, 541.9, 366.53 ],
+        "row number" : 2,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 6,
+          "page number" : 1,
+          "bounding box" : [ 456.34, 355.019, 462.316, 366.302 ],
+          "font" : "CourierNewPSMT",
+          "font size" : 9.96,
+          "text color" : "[0.0]",
+          "content" : "S"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 3,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 53.4, 342.89, 155.66, 354.77 ],
+        "row number" : 3,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 7,
+          "page number" : 1,
+          "bounding box" : [ 56.64, 343.259, 128.616, 354.542 ],
+          "font" : "CourierNewPSMT",
+          "font size" : 9.96,
+          "text color" : "[0.0]",
+          "content" : "Vice Sindaco"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 155.66, 342.89, 452.735, 354.77 ],
+        "row number" : 3,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 8,
+          "page number" : 1,
+          "bounding box" : [ 159.26, 343.259, 291.236, 354.542 ],
+          "font" : "CourierNewPSMT",
+          "font size" : 9.96,
+          "text color" : "[0.0]",
+          "content" : "CELESTI ANNA MARIA IDA"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 452.735, 342.89, 541.9, 354.77 ],
+        "row number" : 3,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 9,
+          "page number" : 1,
+          "bounding box" : [ 456.34, 343.259, 462.316, 354.542 ],
+          "font" : "CourierNewPSMT",
+          "font size" : 9.96,
+          "text color" : "[0.0]",
+          "content" : "N"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 4,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 53.4, 331.13, 155.66, 342.89 ],
+        "row number" : 4,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 10,
+          "page number" : 1,
+          "bounding box" : [ 56.64, 331.379, 110.616, 342.662 ],
+          "font" : "CourierNewPSMT",
+          "font size" : 9.96,
+          "text color" : "[0.0]",
+          "content" : "Assessore"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 155.66, 331.13, 452.735, 342.89 ],
+        "row number" : 4,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 11,
+          "page number" : 1,
+          "bounding box" : [ 159.26, 331.379, 249.236, 342.662 ],
+          "font" : "CourierNewPSMT",
+          "font size" : 9.96,
+          "text color" : "[0.0]",
+          "content" : "RISALITI GIANNA"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 452.735, 331.13, 541.9, 342.89 ],
+        "row number" : 4,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 12,
+          "page number" : 1,
+          "bounding box" : [ 456.34, 331.379, 462.316, 342.662 ],
+          "font" : "CourierNewPSMT",
+          "font size" : 9.96,
+          "text color" : "[0.0]",
+          "content" : "S"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 5,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 53.4, 319.25, 155.66, 331.13 ],
+        "row number" : 5,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 13,
+          "page number" : 1,
+          "bounding box" : [ 56.64, 319.499, 110.616, 330.782 ],
+          "font" : "CourierNewPSMT",
+          "font size" : 9.96,
+          "text color" : "[0.0]",
+          "content" : "Assessore"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 155.66, 319.25, 452.735, 331.13 ],
+        "row number" : 5,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 14,
+          "page number" : 1,
+          "bounding box" : [ 159.26, 319.499, 267.236, 330.782 ],
+          "font" : "CourierNewPSMT",
+          "font size" : 9.96,
+          "text color" : "[0.0]",
+          "content" : "SABELLA ALESSANDRO"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 452.735, 319.25, 541.9, 331.13 ],
+        "row number" : 5,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 15,
+          "page number" : 1,
+          "bounding box" : [ 456.34, 319.499, 462.316, 330.782 ],
+          "font" : "CourierNewPSMT",
+          "font size" : 9.96,
+          "text color" : "[0.0]",
+          "content" : "N"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 6,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 53.4, 307.37, 155.66, 319.25 ],
+        "row number" : 6,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 16,
+          "page number" : 1,
+          "bounding box" : [ 56.64, 307.739, 110.616, 319.022 ],
+          "font" : "CourierNewPSMT",
+          "font size" : 9.96,
+          "text color" : "[0.0]",
+          "content" : "Assessore"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 155.66, 307.37, 452.735, 319.25 ],
+        "row number" : 6,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 17,
+          "page number" : 1,
+          "bounding box" : [ 159.26, 307.739, 267.236, 319.022 ],
+          "font" : "CourierNewPSMT",
+          "font size" : 9.96,
+          "text color" : "[0.0]",
+          "content" : "FROSINI ALESSANDRA"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 452.735, 307.37, 541.9, 319.25 ],
+        "row number" : 6,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 18,
+          "page number" : 1,
+          "bounding box" : [ 456.34, 307.739, 462.316, 319.022 ],
+          "font" : "CourierNewPSMT",
+          "font size" : 9.96,
+          "text color" : "[0.0]",
+          "content" : "S"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 7,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 53.4, 295.61, 155.66, 307.37 ],
+        "row number" : 7,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 19,
+          "page number" : 1,
+          "bounding box" : [ 56.64, 295.859, 110.616, 307.142 ],
+          "font" : "CourierNewPSMT",
+          "font size" : 9.96,
+          "text color" : "[0.0]",
+          "content" : "Assessore"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 155.66, 295.61, 452.735, 307.37 ],
+        "row number" : 7,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 20,
+          "page number" : 1,
+          "bounding box" : [ 159.26, 295.859, 273.236, 307.142 ],
+          "font" : "CourierNewPSMT",
+          "font size" : 9.96,
+          "text color" : "[0.0]",
+          "content" : "CAPECCHI ALESSANDRO"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 452.735, 295.61, 541.9, 307.37 ],
+        "row number" : 7,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 21,
+          "page number" : 1,
+          "bounding box" : [ 456.34, 295.859, 462.316, 307.142 ],
+          "font" : "CourierNewPSMT",
+          "font size" : 9.96,
+          "text color" : "[0.0]",
+          "content" : "S"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 8,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 53.4, 283.73, 155.66, 295.61 ],
+        "row number" : 8,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 22,
+          "page number" : 1,
+          "bounding box" : [ 56.64, 284.099, 110.616, 295.382 ],
+          "font" : "CourierNewPSMT",
+          "font size" : 9.96,
+          "text color" : "[0.0]",
+          "content" : "Assessore"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 155.66, 283.73, 452.735, 295.61 ],
+        "row number" : 8,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 23,
+          "page number" : 1,
+          "bounding box" : [ 159.26, 284.099, 243.236, 295.382 ],
+          "font" : "CourierNewPSMT",
+          "font size" : 9.96,
+          "text color" : "[0.0]",
+          "content" : "MAGNI GABRIELE"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 452.735, 283.73, 541.9, 295.61 ],
+        "row number" : 8,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 24,
+          "page number" : 1,
+          "bounding box" : [ 456.34, 284.099, 462.316, 295.382 ],
+          "font" : "CourierNewPSMT",
+          "font size" : 9.96,
+          "text color" : "[0.0]",
+          "content" : "S"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 9,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 53.4, 271.97, 155.66, 283.73 ],
+        "row number" : 9,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 25,
+          "page number" : 1,
+          "bounding box" : [ 56.64, 272.219, 110.616, 283.502 ],
+          "font" : "CourierNewPSMT",
+          "font size" : 9.96,
+          "text color" : "[0.0]",
+          "content" : "Assessore"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 155.66, 271.97, 452.735, 283.73 ],
+        "row number" : 9,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 26,
+          "page number" : 1,
+          "bounding box" : [ 159.26, 272.219, 273.236, 283.502 ],
+          "font" : "CourierNewPSMT",
+          "font size" : 9.96,
+          "text color" : "[0.0]",
+          "content" : "SEMPLICI MARGHERITA"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 452.735, 271.97, 541.9, 283.73 ],
+        "row number" : 9,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 27,
+          "page number" : 1,
+          "bounding box" : [ 456.34, 272.219, 462.316, 283.502 ],
+          "font" : "CourierNewPSMT",
+          "font size" : 9.96,
+          "text color" : "[0.0]",
+          "content" : "S"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 10,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 53.4, 260.33, 155.66, 271.97 ],
+        "row number" : 10,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 28,
+          "page number" : 1,
+          "bounding box" : [ 56.64, 260.459, 110.616, 271.742 ],
+          "font" : "CourierNewPSMT",
+          "font size" : 9.96,
+          "text color" : "[0.0]",
+          "content" : "Assessore"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 155.66, 260.33, 452.735, 271.97 ],
+        "row number" : 10,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 29,
+          "page number" : 1,
+          "bounding box" : [ 159.26, 260.459, 267.236, 271.742 ],
+          "font" : "CourierNewPSMT",
+          "font size" : 9.96,
+          "text color" : "[0.0]",
+          "content" : "BARTOLOMEI ALESSIO"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 452.735, 260.33, 541.9, 271.97 ],
+        "row number" : 10,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 30,
+          "page number" : 1,
+          "bounding box" : [ 456.34, 260.459, 462.316, 271.742 ],
+          "font" : "CourierNewPSMT",
+          "font size" : 9.96,
+          "text color" : "[0.0]",
+          "content" : "S"
+        } ]
+      } ]
+    } ]
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H3",
+    "id" : 30,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 400.03, 214.535, 538.684, 239.521 ],
+    "heading level" : 3,
+    "font" : "CourierNewPS-BoldMT",
+    "font size" : 11.04,
+    "text color" : "[0.0]",
+    "content" : "Totale: Presenti n. 7 Assenti n. 2"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 31,
+    "page number" : 1,
+    "bounding box" : [ 56.64, 147.665, 485.734, 160.171 ],
+    "font" : "CourierNewPSMT",
+    "font size" : 11.04,
+    "text color" : "[0.0]",
+    "content" : "Partecipa il Segretario Generale del Comune, Dr. PANCARI RAFFAELE"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 32,
+    "page number" : 1,
+    "bounding box" : [ 56.64, 72.909, 518.714, 97.895 ],
+    "font" : "CourierNewPSMT",
+    "font size" : 11.04,
+    "text color" : "[0.0]",
+    "content" : "Il Presidente TOMASI ALESSANDRO da’ atto che il numero dei presenti e’ quello richiesto dalla legge per poter validamente deliberare."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 35,
+    "page number" : 2,
+    "bounding box" : [ 238.25, 723.145, 357.074, 735.651 ],
+    "font" : "CourierNewPSMT",
+    "font size" : 11.04,
+    "text color" : "[0.0]",
+    "content" : "LA GIUNTA COMUNALE"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 36,
+    "page number" : 2,
+    "bounding box" : [ 56.64, 673.225, 538.691, 698.211 ],
+    "font" : "CourierNewPSMT",
+    "font size" : 11.04,
+    "text color" : "[0.0]",
+    "content" : "Udita la relazione del Sindaco Alessandro Tomasi in merito all’argomento in oggetto;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 37,
+    "page number" : 2,
+    "bounding box" : [ 56.64, 610.945, 538.503, 660.891 ],
+    "font" : "CourierNewPSMT",
+    "font size" : 11.04,
+    "text color" : "[0.0]",
+    "content" : "“”Visto il “programma di mandato” approvato con deliberazione di Consiglio Comunale n. 68 del 14.07.2017 che prevede una vera e propria partecipazione di tutta la città all’organizzazione e alla diffusione del programma degli eventi per la crescita del turismo;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 38,
+    "page number" : 2,
+    "bounding box" : [ 56.64, 536.155, 538.569, 598.491 ],
+    "font" : "CourierNewPSMT",
+    "font size" : 11.04,
+    "text color" : "[0.0]",
+    "content" : "Visto che nello stesso programma di mandato è specificatamente indicata la necessità di coordinamento tra tutti i soggetti proprietari dei beni architettonici e monumentali (Diocesi, Soprintendenza, Comune di Pistoia) affinchè si possano organizzare le aperture anche attraverso l’aiuto delle tante associazioni culturali della città;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 39,
+    "page number" : 2,
+    "bounding box" : [ 56.64, 461.395, 538.748, 523.701 ],
+    "font" : "CourierNewPSMT",
+    "font size" : 11.04,
+    "text color" : "[0.0]",
+    "content" : "Vista la lettera del Vescovo di Pistoia, il quale, tramite il suo portavoce e la Fondazione San Atto, porta a conoscenza del Comune che ha intenzione di ristrutturare l’apertura delle chiese cittadine, tramite un progtto di apertura che sarà curato dalla Fondazione San Atto e che prevede tra l’altro l’addestramento di personale ad hoc formato;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 40,
+    "page number" : 2,
+    "bounding box" : [ 56.64, 399.115, 538.45, 448.941 ],
+    "font" : "CourierNewPSMT",
+    "font size" : 11.04,
+    "text color" : "[0.0]",
+    "content" : "Considerato tuttavia, continua la lettera di S.E. Mons. Vescovo, tale progetto avrà concreta attuazione nel prossimo 2020 e visto che per le festività natalizie si corre il rischio che la Chiesa di San Giovanni Fuorcivitas osservi una ridottissima apertura;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 41,
+    "page number" : 2,
+    "bounding box" : [ 56.64, 361.655, 538.391, 386.661 ],
+    "font" : "CourierNewPSMT",
+    "font size" : 11.04,
+    "text color" : "[0.0]",
+    "content" : "Considerato altresì che il progetto “Obiettivo Pistoia” non copre l’apertura per le festività di questa importante Chiesa;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 42,
+    "page number" : 2,
+    "bounding box" : [ 56.64, 299.375, 538.56, 349.321 ],
+    "font" : "CourierNewPSMT",
+    "font size" : 11.04,
+    "text color" : "[0.0]",
+    "content" : "Considerato l’affluenza dei turisti nella chiesa di San Giovanni Fuorcivitas, dove concorrono per ammirare l’opera di Della Robbia “la visitazione”, la quale è tornata nella chiesa dopo il grande successo dell’esposizione nella chiesa di San Leone;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 43,
+    "page number" : 2,
+    "bounding box" : [ 56.64, 249.575, 538.547, 286.921 ],
+    "font" : "CourierNewPSMT",
+    "font size" : 11.04,
+    "text color" : "[0.0]",
+    "content" : "Considerato che è interesse del Comune di Pistoia che la chiesa di San Giovanni Fuorcivitas, tra le più importanti chiese cittadine, osservi un orario di apertura fruibile da parte dei turisti;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 44,
+    "page number" : 2,
+    "bounding box" : [ 56.64, 187.295, 538.528, 237.121 ],
+    "font" : "CourierNewPSMT",
+    "font size" : 11.04,
+    "text color" : "[0.0]",
+    "content" : "Pertanto al Comune di Pistoia è necessario attribuire un contributo di € 1.000,00 per l’apertura della Chiesa di San Giovanni Fuorcivitas nel periodo delle festività, con orario 11-17 dal 19 dicembre al 12 gennaio, ad integrazione dell’orario 9-18 che sarà osservato dalla Chiesa;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 45,
+    "page number" : 2,
+    "bounding box" : [ 56.64, 137.345, 538.565, 174.811 ],
+    "font" : "CourierNewPSMT",
+    "font size" : 11.04,
+    "text color" : "[0.0]",
+    "content" : "Precisato che il contributo sarà erogato alla Fondazione San Atto per l’inclusione e la solidarietà ONLUS, Via Puccini 29, 51100 Pistoia, CF e P.IVA 01900090471;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 46,
+    "page number" : 2,
+    "bounding box" : [ 56.64, 62.589, 538.525, 124.891 ],
+    "font" : "CourierNewPSMT",
+    "font size" : 11.04,
+    "text color" : "[0.0]",
+    "content" : "Precisato altresì che sulla liquidazione dei contributi di cui sopra, non è prevista la ritenuta d’acconto del 4% di cui all’art. 28 comma 2 del DPR 29 settembre 1973 n. 600 “Ritenuta sui compensi per avviamento commerciale e sui contributi degli enti pubblici” per assoluta mancanza di qualsiasi attività produttiva di reddito d’impresa;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 49,
+    "page number" : 3,
+    "bounding box" : [ 56.64, 685.705, 538.613, 723.171 ],
+    "font" : "CourierNewPSMT",
+    "font size" : 11.04,
+    "text color" : "[0.0]",
+    "content" : "Visto che con deliberazione del Consiglio Comunale n. 42 del 14.03.2019 è stato approvato il bilancio armonizzato di previsione finanziaria 2019/2021;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 50,
+    "page number" : 3,
+    "bounding box" : [ 56.64, 623.425, 538.713, 673.251 ],
+    "font" : "CourierNewPSMT",
+    "font size" : 11.04,
+    "text color" : "[0.0]",
+    "content" : "Visto che l’armonizzazione dei sistemi contabili e degli schemi di bilancio delle amministrazioni pubbliche costituisce il cardine irrinunciabile della riforma della contabilità pubblica (legge n. 196/2019) e della riforma federale prevista dalla legge n. 42/2009;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 51,
+    "page number" : 3,
+    "bounding box" : [ 56.64, 548.635, 538.464, 610.971 ],
+    "font" : "CourierNewPSMT",
+    "font size" : 11.04,
+    "text color" : "[0.0]",
+    "content" : "Dato atto che per gli enti territoriali è stata attuata la delega del Governo del decreto legislativo 23 giugno 2011 n. 118 “Disposizioni per l’armonizzazione dei sistemi contabili e degli schemi di bilancio delle Regioni, degli enti locali e dei loro organismi, a norma degli articoli 1 e 2 della legge 5 maggio 2009, n. 42”;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 52,
+    "page number" : 3,
+    "bounding box" : [ 56.64, 511.195, 538.492, 536.181 ],
+    "font" : "CourierNewPSMT",
+    "font size" : 11.04,
+    "text color" : "[0.0]",
+    "content" : "Tenuto conto del Decreto Legislativo 10 agosto 2014, n. 126, avente ad oggetto: “Disposizioni integrative e correttive del D.Lgs. 118/2011”;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 53,
+    "page number" : 3,
+    "bounding box" : [ 56.64, 448.915, 538.713, 498.861 ],
+    "font" : "CourierNewPSMT",
+    "font size" : 11.04,
+    "text color" : "[0.0]",
+    "content" : "Visto che con deliberazione n. 106 adottata dalla Giunta Comunale nella seduta del 09.05.2019 è stato approvato il Piano Esecutivo di Gestione (PEG) relativo a questo centro di responsabilità nel quale è ricompreso il progetto di cui trattasi;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 54,
+    "page number" : 3,
+    "bounding box" : [ 56.64, 411.595, 538.724, 436.581 ],
+    "font" : "CourierNewPSMT",
+    "font size" : 11.04,
+    "text color" : "[0.0]",
+    "content" : "Atteso che il progetto persegue gli obiettivi strategici della valorizzazione di Pistoia città aperta e accessibile””."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 55,
+    "page number" : 3,
+    "bounding box" : [ 56.64, 324.335, 538.613, 399.141 ],
+    "font" : "CourierNewPSMT",
+    "font size" : 11.04,
+    "text color" : "[0.0]",
+    "content" : "Visto il parere di regolarità tecnica, rilasciato ai sensi dell’art. 49, 1° comma del D.Lgs. 267/2000, dal Dirigente del Servizio Cultura e Tradizioni, Turismo e Informatica, Dr. Giovanni Lozzi, contenente anche l’attestazione che al presente provvedimento non hanno preso parte soggetti in conflitto di interessi, anche potenziale, allegato all’originale della presente deliberazione;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 56,
+    "page number" : 3,
+    "bounding box" : [ 56.64, 262.055, 538.742, 311.881 ],
+    "font" : "CourierNewPSMT",
+    "font size" : 11.04,
+    "text color" : "[0.0]",
+    "content" : "Visto il parere di regolarità contabile, rilasciato ai sensi dell’art. 49, 1° comma del D.Lgs. 267/2000, dal Responsabile del Servizio Finanziario e Controllo Aziende Partecipate, allegato all’originale della presente deliberazione;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 57,
+    "page number" : 3,
+    "bounding box" : [ 92.064, 162.305, 514.488, 249.601 ],
+    "font" : "CourierNewPSMT",
+    "font size" : 11.04,
+    "text color" : "[0.0]",
+    "content" : "Visto il D.Lgs. 267/2000; Ritenuto di dover provvedere in ordine a tutto quanto sopra; Preso atto della proposta formulata dal Dirigente competente; Ad unanimità di voti dei presenti e partecipanti alla votazione;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 58,
+    "page number" : 3,
+    "bounding box" : [ 288.89, 137.345, 341.714, 149.851 ],
+    "font" : "CourierNewPSMT",
+    "font size" : 11.04,
+    "text color" : "[0.0]",
+    "content" : "DELIBERA"
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 59,
+    "level" : "2",
+    "page number" : 3,
+    "bounding box" : [ 56.64, 87.549, 538.591, 124.891 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "next list id" : 62,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 56.64, 87.549, 538.591, 124.891 ],
+      "font" : "CourierNewPSMT",
+      "font size" : 11.04,
+      "text color" : "[0.0]",
+      "content" : "1) di approvare, per le motivazioni di cui in narrativa, la proposta di apertura ai turisti della Chiesa di San Giovanni Fuorcivitas nel periodo delle festività natalizie, come meglio in narrativa specificato;",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 62,
+    "level" : "2",
+    "page number" : 4,
+    "bounding box" : [ 56.64, 411.595, 538.804, 735.651 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 6,
+    "previous list id" : 59,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 4,
+      "bounding box" : [ 56.64, 698.185, 538.804, 735.651 ],
+      "font" : "CourierNewPSMT",
+      "font size" : 11.04,
+      "text color" : "[0.0]",
+      "content" : "2) di erogare un contributo di € 1.000,00 alla Fondazione San Atto per l’inclusione e la solidarietà ONLUS, Via Puccini 29, 51100 Pistoia, CF e P.IVA 01900090471;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 4,
+      "bounding box" : [ 56.64, 635.905, 538.6, 685.731 ],
+      "font" : "CourierNewPSMT",
+      "font size" : 11.04,
+      "text color" : "[0.0]",
+      "content" : "3) di dare atto che la somma di € 1.000,00 è stata prenotata al Cap. 57150/IS “Contributi vari – Finanziato con introiti da imposta di soggiorno” Imp. 577 del Bil. 2020, rimandando l’effettivo impegno di spesa a successiva determinazione dirigenziale;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 4,
+      "bounding box" : [ 56.64, 598.465, 538.426, 623.451 ],
+      "font" : "CourierNewPSMT",
+      "font size" : 11.04,
+      "text color" : "[0.0]",
+      "content" : "4) di dare atto che il soggetto beneficiario del presente provvedimento dovrà essere inserito nell’albo comunale dei beneficiari di contributo;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 4,
+      "bounding box" : [ 56.64, 561.115, 538.464, 586.131 ],
+      "font" : "CourierNewPSMT",
+      "font size" : 11.04,
+      "text color" : "[0.0]",
+      "content" : "5) di dare altresì atto, che il contributo verrà liquidato con successivo atto dirigenziale a seguito di presentazione del relativo rendiconto;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 4,
+      "bounding box" : [ 56.64, 511.195, 538.616, 548.661 ],
+      "font" : "CourierNewPSMT",
+      "font size" : 11.04,
+      "text color" : "[0.0]",
+      "content" : "6) di trasmettere copia della presente deliberazione ai responsabili preposti alle seguenti strutture per i provvedimenti connessi e conseguenti di attuazione:",
+      "kids" : [ {
+        "type" : "list",
+        "pdfua_tag" : "L",
+        "id" : 21,
+        "level" : "3",
+        "page number" : 4,
+        "bounding box" : [ 56.64, 448.915, 538.546, 511.341 ],
+        "numbering style" : "unordered",
+        "number of list items" : 3,
+        "list items" : [ {
+          "type" : "list item",
+          "pdfua_tag" : "LI",
+          "page number" : 4,
+          "bounding box" : [ 56.64, 486.355, 538.514, 511.341 ],
+          "font" : "CourierNewPSMT",
+          "font size" : 11.04,
+          "text color" : "[0.0]",
+          "content" : "- Dr. Giovanni Lozzi – Dirigente Servizio Cultura e Tradizioni, Turismo e Informatica",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "pdfua_tag" : "LI",
+          "page number" : 4,
+          "bounding box" : [ 56.64, 461.395, 538.546, 486.381 ],
+          "font" : "CourierNewPSMT",
+          "font size" : 11.04,
+          "text color" : "[0.0]",
+          "content" : "- Dr. Franco Ancillotti – Dirigente Servizio Finanziario e Controllo Aziende Partecipate",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "pdfua_tag" : "LI",
+          "page number" : 4,
+          "bounding box" : [ 56.64, 448.915, 380.114, 461.421 ],
+          "font" : "CourierNewPSMT",
+          "font size" : 11.04,
+          "text color" : "[0.0]",
+          "content" : "- Dr. Metello Bonanno – Responsabile U.O. Turismo",
+          "kids" : [ ]
+        } ]
+      } ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 4,
+      "bounding box" : [ 56.64, 411.595, 538.58, 436.581 ],
+      "font" : "CourierNewPSMT",
+      "font size" : 11.04,
+      "text color" : "[0.0]",
+      "content" : "7) di comunicare la presente deliberazione ai capigruppo consiliari, ai sensi dell’art. 125 del D.Lgvo 18 Agosto 2000, n. 267.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 63,
+    "page number" : 4,
+    "bounding box" : [ 92.064, 385.315, 191.088, 397.821 ],
+    "font" : "CourierNewPSMT",
+    "font size" : 11.04,
+    "text color" : "[0.0]",
+    "content" : "Successivamente"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 64,
+    "page number" : 4,
+    "bounding box" : [ 92.064, 335.375, 524.39, 372.841 ],
+    "font" : "CourierNewPSMT",
+    "font size" : 11.04,
+    "text color" : "[0.0]",
+    "content" : "La Giunta Comunale Attesa l’urgenza di provvedere in merito al fine di procedere con"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 65,
+    "page number" : 4,
+    "bounding box" : [ 56.64, 273.095, 514.488, 335.521 ],
+    "font" : "CourierNewPSMT",
+    "font size" : 11.04,
+    "text color" : "[0.0]",
+    "content" : "tempestività agli adempimenti connessi con il presente atto; Visto l’art. 134, 4 comma del D.lgvo 18 Agosto 2000, n. 267; Ad unanimità di voti dei presenti e partecipanti alla votazione;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 66,
+    "page number" : 4,
+    "bounding box" : [ 92.064, 223.295, 435.288, 260.761 ],
+    "font" : "CourierNewPSMT",
+    "font size" : 11.04,
+    "text color" : "[0.0]",
+    "content" : "D I C H I A R A La presente deliberazione immediatamente eseguibile."
+  } ]
+}

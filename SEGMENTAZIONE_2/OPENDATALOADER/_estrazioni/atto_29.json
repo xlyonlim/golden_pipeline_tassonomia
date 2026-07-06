@@ -1,0 +1,688 @@
+{
+  "file name" : "atto_29.pdf",
+  "number of pages" : 4,
+  "author" : null,
+  "title" : null,
+  "creation date" : "D:20000804064600Z",
+  "modification date" : "D:20260629101700Z",
+  "kids" : [ {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 21,
+    "page number" : 1,
+    "bounding box" : [ 74.4, 662.096, 134.9, 749.096 ],
+    "source" : "atto_29_images/imageFile1.png"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 11,
+    "level" : "Doctitle",
+    "page number" : 1,
+    "bounding box" : [ 157.12, 727.369, 473.804, 758.752 ],
+    "heading level" : 1,
+    "font" : "Tahoma",
+    "font size" : 26.0,
+    "text color" : "[0.0]",
+    "content" : "COMUNE DI MOMPANTERO"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 12,
+    "page number" : 1,
+    "bounding box" : [ 233.326, 703.229, 397.582, 727.369 ],
+    "font" : "Tahoma",
+    "font size" : 10.0,
+    "text color" : "[0.0]",
+    "content" : "CITTA’ METROPOLITANA DI TORINO _______________"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H2",
+    "id" : 13,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 150.251, 613.236, 416.702, 634.963 ],
+    "heading level" : 2,
+    "font" : "Tahoma-Bold",
+    "font size" : 18.0,
+    "text color" : "[0.0]",
+    "content" : "VERBALE DI DELIBERAZIONE"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H3",
+    "id" : 14,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 172.857, 593.924, 394.094, 613.237 ],
+    "heading level" : 3,
+    "font" : "Tahoma-Bold",
+    "font size" : 16.0,
+    "text color" : "[0.0]",
+    "content" : "DELLA GIUNTA COMUNALE"
+  }, {
+    "type" : "text block",
+    "id" : 15,
+    "page number" : 1,
+    "bounding box" : [ 240.25, 566.784, 312.65, 581.854 ],
+    "kids" : [ {
+      "type" : "paragraph",
+      "pdfua_tag" : "P",
+      "id" : 1,
+      "page number" : 1,
+      "bounding box" : [ 258.808, 568.284, 294.097, 580.354 ],
+      "font" : "Tahoma-Bold",
+      "font size" : 10.0,
+      "text color" : "[0.0]",
+      "content" : "N. 41"
+    } ]
+  }, {
+    "type" : "text block",
+    "id" : 16,
+    "page number" : 1,
+    "bounding box" : [ 36.6, 475.248, 530.35, 542.644 ],
+    "kids" : [ {
+      "type" : "heading",
+      "pdfua_tag" : "H4",
+      "id" : 2,
+      "level" : "Subtitle",
+      "page number" : 1,
+      "bounding box" : [ 42.55, 476.748, 524.399, 540.686 ],
+      "heading level" : 4,
+      "font" : "Arial-BoldMT",
+      "font size" : 14.0,
+      "text color" : "[0.0]",
+      "content" : "OGGETTO : AGGIORNAMENTO DELLA SOTTOSEZIONE 2.2.\" PERFORMANCE\" DEL PIANO INTEGRATO DI ATTIVITÀ E DI ORGANIZZAZIONE (P.I.A.O.) 2026-2028, APPROVATO CON DELIBERA DELLA G.C. N.26 DEL 25.03.2026"
+    } ]
+  }, {
+    "type" : "caption",
+    "id" : 17,
+    "page number" : 1,
+    "bounding box" : [ 42.55, 387.742, 524.403, 460.764 ],
+    "linked content id" : 18,
+    "font" : "Tahoma",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "L’anno duemilaventisei, addì venticinque, del mese di giugno, alle ore dieci e minuti quindici, regolarmente convocata, si è riunita la Giunta Comunale. E’ presente il Sindaco, Davide Gastaldo, che interviene in videoconferenza con gli assessori della quale sono membri i Signori:"
+  }, {
+    "type" : "table",
+    "pdfua_tag" : "Table",
+    "id" : 18,
+    "level" : "1",
+    "page number" : 1,
+    "bounding box" : [ 61.875, 241.256, 505.075, 381.104 ],
+    "number of rows" : 2,
+    "number of columns" : 2,
+    "rows" : [ {
+      "type" : "table row",
+      "row number" : 1,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 62.625, 365.495, 432.4, 380.354 ],
+        "row number" : 1,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 3,
+          "page number" : 1,
+          "bounding box" : [ 194.323, 365.87, 300.325, 380.355 ],
+          "font" : "Tahoma-Bold",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "Cognome e Nome"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 432.4, 365.495, 504.325, 380.354 ],
+        "row number" : 1,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 4,
+          "page number" : 1,
+          "bounding box" : [ 441.895, 365.87, 495.211, 380.355 ],
+          "font" : "Tahoma-Bold",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "Presente"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 2,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 62.625, 242.006, 432.4, 365.495 ],
+        "row number" : 2,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "list",
+          "pdfua_tag" : "L",
+          "id" : 5,
+          "level" : "1",
+          "page number" : 1,
+          "bounding box" : [ 65.75, 292.701, 320.245, 350.637 ],
+          "numbering style" : "arabic numbers",
+          "number of list items" : 3,
+          "list items" : [ {
+            "type" : "list item",
+            "pdfua_tag" : "LI",
+            "page number" : 1,
+            "bounding box" : [ 65.75, 336.152, 260.034, 350.637 ],
+            "font" : "Tahoma-Bold",
+            "font size" : 12.0,
+            "text color" : "[0.0]",
+            "content" : "1. GASTALDO DAVIDE - Sindaco",
+            "kids" : [ ]
+          }, {
+            "type" : "list item",
+            "pdfua_tag" : "LI",
+            "page number" : 1,
+            "bounding box" : [ 65.75, 314.426, 320.245, 328.911 ],
+            "font" : "Tahoma-Bold",
+            "font size" : 12.0,
+            "text color" : "[0.0]",
+            "content" : "2. PESANDO MARIA LAURA - Vice Sindaco",
+            "kids" : [ ]
+          }, {
+            "type" : "list item",
+            "pdfua_tag" : "LI",
+            "page number" : 1,
+            "bounding box" : [ 65.75, 292.701, 254.834, 307.185 ],
+            "font" : "Tahoma-Bold",
+            "font size" : 12.0,
+            "text color" : "[0.0]",
+            "content" : "3. CHIOLERO LINO - Assessore",
+            "kids" : [ ]
+          } ]
+        }, {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 6,
+          "page number" : 1,
+          "bounding box" : [ 345.638, 242.007, 428.904, 270.975 ],
+          "font" : "Tahoma",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "Totale Presenti: Totale Assenti:"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 432.4, 242.006, 504.325, 365.495 ],
+        "row number" : 2,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 7,
+          "page number" : 1,
+          "bounding box" : [ 463.836, 292.701, 473.268, 350.637 ],
+          "font" : "Tahoma",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "Sì Sì Sì"
+        }, {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 8,
+          "page number" : 1,
+          "bounding box" : [ 465.274, 242.007, 471.826, 270.975 ],
+          "font" : "Tahoma",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "3 0"
+        } ]
+      } ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 19,
+    "page number" : 1,
+    "bounding box" : [ 42.55, 197.805, 430.89, 212.289 ],
+    "font" : "Tahoma",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Presiede la seduta il SINDACO – DAVIDE GASTALDO in videoconferenza."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 20,
+    "page number" : 1,
+    "bounding box" : [ 42.55, 103.658, 524.402, 161.595 ],
+    "font" : "Tahoma",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Il Presidente, rilevata la partecipazione di tutti gli Assessori, dichiara validamente costituita l’adunanza con la partecipazione del Segretario dott.ssa Marietta CARCIONE in videoconferenza."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 23,
+    "page number" : 2,
+    "bounding box" : [ 42.55, 761.073, 524.39, 786.3 ],
+    "font" : "Tahoma",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "Si dà atto che il Vicesindaco PESANDO Maria Laura e l’Assessore CHIOLERO Lino partecipano alla seduta in videoconferenza ai sensi del vigente regolamento."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 24,
+    "page number" : 2,
+    "bounding box" : [ 230.305, 705.941, 364.989, 719.347 ],
+    "font" : "ArialMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "LA GIUNTA COMUNALE"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 25,
+    "page number" : 2,
+    "bounding box" : [ 56.7, 554.152, 538.599, 691.749 ],
+    "font" : "Arial-ItalicMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Visto il D.L. 9 giugno 2021, n. 80, conv. dalla legge 6 agosto 2021, n. 113, il cui art. 6, primo comma, stabilisce che “Per assicurare la qualità e la trasparenza dell'attività amministrativa e migliorare la qualità dei servizi ai cittadini e alle imprese e procedere alla costante e progressiva semplificazione e reingegnerizzazione dei processi anche in materia di diritto di accesso, le pubbliche amministrazioni, con esclusione delle scuole di ogni ordine e grado e delle istituzioni educative, di cui all’articolo 1, comma 2, del decreto legislativo 30 marzo 2001, n. 165, con più di cinquanta dipendenti, entro il 31 gennaio di ogni anno adottano il Piano integrato di attività e organizzazione, di seguito denominato Piano, nel rispetto delle vigenti discipline di settore e, in particolare, del decreto legislativo 27 ottobre 2009, n. 150 e della legge 6 novembre 2012, n.190”;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 26,
+    "page number" : 2,
+    "bounding box" : [ 56.7, 471.358, 538.594, 539.96 ],
+    "font" : "Arial-ItalicMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Considerato che il settimo comma del richiamato art. 6, stabilisce che “In caso di mancata adozione del Piano trovano applicazione le sanzioni di cui all’articolo 10, comma 5, del decreto legislativo 27 ottobre 2009, n. 150, ferme restando quelle previste dall’articolo 19, comma 5, lettera b), del decreto-legge 24 giugno 2014, n. 90, convertito, con modificazioni, dalla legge 11 agosto 2014, n. 114”;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 27,
+    "page number" : 2,
+    "bounding box" : [ 56.7, 443.76, 232.757, 457.166 ],
+    "font" : "ArialMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Tenuto conto di quanto stabilito:"
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 28,
+    "level" : "2",
+    "page number" : 2,
+    "bounding box" : [ 56.7, 57.388, 538.596, 443.367 ],
+    "numbering style" : "english letters",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 56.7, 374.765, 538.594, 443.367 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "a) dal D.P.R. 24 giugno 2022 n.81, con il quale è stato approvato il Regolamento recante individuazione degli adempimenti relativi ai Piani assorbiti dal Piano integrato di attività e organizzazione, il cui art.1, c.1, prevede, per i comuni con più di 50 dipendenti, la soppressione dei seguenti adempimenti, in quanto assorbiti nelle apposite sezioni del Piano integrato di attività e organizzazione (PIAO):",
+      "kids" : [ {
+        "type" : "list",
+        "pdfua_tag" : "L",
+        "id" : 9,
+        "level" : "3",
+        "page number" : 2,
+        "bounding box" : [ 74.7, 236.775, 538.592, 374.372 ],
+        "numbering style" : "arabic numbers",
+        "number of list items" : 6,
+        "list items" : [ {
+          "type" : "list item",
+          "pdfua_tag" : "LI",
+          "page number" : 2,
+          "bounding box" : [ 74.7, 347.167, 538.591, 374.372 ],
+          "font" : "ArialMT",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "1) Piano dei fabbisogni di personale, di cui all’art. 6, commi 1, 4, 6, e art. 6-ter, D.Lgs. 30 marzo 2001, n. 165;",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "pdfua_tag" : "LI",
+          "page number" : 2,
+          "bounding box" : [ 74.7, 333.368, 531.681, 346.774 ],
+          "font" : "ArialMT",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "2) Piano delle azioni concrete, di cui all’art. 60 bis, c. 2, D.Lgs. 30 marzo 2001, n.165;",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "pdfua_tag" : "LI",
+          "page number" : 2,
+          "bounding box" : [ 74.7, 305.77, 538.588, 332.975 ],
+          "font" : "ArialMT",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "3) Piano della performance, di cui all’art. 10, c. 1, lett. a) e c. 1-ter, D.Lgs. 27 ottobre 2009, n. 150;",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "pdfua_tag" : "LI",
+          "page number" : 2,
+          "bounding box" : [ 74.7, 278.172, 538.589, 305.377 ],
+          "font" : "ArialMT",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "4) Piano Triennale per la Prevenzione della Corruzione e della Trasparenza di cui all’art. 1, commi 5, lett. a) e 60, lett. a), legge 6 novembre 2012, n. 190;",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "pdfua_tag" : "LI",
+          "page number" : 2,
+          "bounding box" : [ 74.7, 250.574, 538.592, 277.779 ],
+          "font" : "ArialMT",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "5) Piano organizzativo del lavoro agile, di cui all’art. 14, c. 1, legge 7 agosto 2015, n. 124;",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "pdfua_tag" : "LI",
+          "page number" : 2,
+          "bounding box" : [ 74.7, 236.775, 490.999, 250.181 ],
+          "font" : "ArialMT",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "6) Piano di azioni positive, di cui all’art. 48, c. 1, D.Lgs. 11 aprile 2006, n. 198;",
+          "kids" : [ ]
+        } ]
+      }, {
+        "type" : "paragraph",
+        "pdfua_tag" : "P",
+        "id" : 10,
+        "page number" : 2,
+        "bounding box" : [ 56.7, 153.981, 538.595, 236.382 ],
+        "font" : "ArialMT",
+        "font size" : 12.0,
+        "text color" : "[0.0]",
+        "content" : "mentre per le amministrazioni con non più di 50 dipendenti il terzo comma dello stesso articolo, stabilisce che sono tenute al rispetto degli adempimenti semplificati come stabiliti da apposito D.M., poi emanato in data 30 giugno 2022, di cui alla successiva lett. b), disponendo che per le Amministrazioni tenute alla redazione del PIAO, tutti i richiami ai piani sopra elencati – ed ai connessi adempimenti – sono da intendersi riferiti alla corrispondente sezione del PIAO e quindi alla sua approvazione;"
+      } ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 56.7, 57.388, 538.596, 139.789 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "b) dal D.M. 30 giugno 2022 n.132, con il quale è stato approvato il Regolamento la definizione del contenuto del Piano Integrato di Attività e Organizzazione, nonché le modalità semplificate per l’adozione dello stesso per gli Enti con meno di 50 dipendenti di cui agli artt. 1, c.2, e 6; Rilevato che:",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 30,
+    "level" : "4",
+    "page number" : 3,
+    "bounding box" : [ 74.7, 728.506, 538.592, 785.201 ],
+    "numbering style" : "unordered",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 74.7, 756.853, 538.592, 785.201 ],
+      "font" : "Tahoma",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "- con deliberazione del 04.12.2025 n.15, il Consiglio Comunale ha approvato il Documento Unico di Programmazione per il triennio 2026-2028;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 74.7, 728.506, 538.592, 756.854 ],
+      "font" : "Tahoma",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "- con deliberazione del 04.12.2025 n.16, il Consiglio Comunale ha approvato il Bilancio di previsione per il triennio 2026-2028;",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 31,
+    "page number" : 3,
+    "bounding box" : [ 56.7, 673.31, 538.591, 700.515 ],
+    "font" : "ArialMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Richiamata la deliberazione della G.C. n.26 del 25.03.2026 con la quale è stato approvato il Piano Integrato di Attività e di Organizzazione (PIAO) per triennio 2026-2028;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 32,
+    "page number" : 3,
+    "bounding box" : [ 56.7, 618.114, 538.596, 659.118 ],
+    "font" : "ArialMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Dato atto che, con decorrenza dal 18.05.2026, è stata individuata una nuova Responsabile dell’Area Tecnica/Manutentiva, titolare di incarico di Elevata Qualificazione, alla quale sono state attribuite le relative funzioni e responsabilità organizzative;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 33,
+    "page number" : 3,
+    "bounding box" : [ 56.7, 549.119, 538.607, 603.922 ],
+    "font" : "ArialMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Preso atto che sono stati individuati gli obiettivi gestionali da conseguire per l’anno 2026, si rende necessario procedere all’aggiornamento della Sottosezione 2.2 – “Piano della Performance” del PIAO mediante l’integrazione della scheda di cui all’Allegato A), che costituisce parte integrante e sostanziale del presente provvedimento."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 34,
+    "page number" : 3,
+    "bounding box" : [ 56.7, 507.722, 538.581, 534.927 ],
+    "font" : "ArialMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Acquisiti i pareri favorevoli resi ai sensi ai sensi dell’art. 49, comma 1, del D. Lgs. del 18 agosto 2000 n. 267 e s.m.i. e precisamente:"
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 35,
+    "level" : "4",
+    "page number" : 3,
+    "bounding box" : [ 74.7, 480.071, 485.001, 507.329 ],
+    "numbering style" : "unordered",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 74.7, 493.87, 485.001, 507.329 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "- in ordine alla regolarità tecnica dal responsabile dal Segretario Comunale;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 74.7, 480.071, 476.99, 493.53 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "- in ordine alla regolarità contabile dal responsabile del servizio finanziario",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H5",
+    "id" : 36,
+    "level" : "Subtitle",
+    "page number" : 3,
+    "bounding box" : [ 56.7, 466.325, 90.036, 479.731 ],
+    "heading level" : 5,
+    "font" : "Arial-BoldMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Visto:"
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 37,
+    "level" : "4",
+    "page number" : 3,
+    "bounding box" : [ 92.7, 424.875, 538.598, 465.932 ],
+    "numbering style" : "unordered",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 92.7, 438.727, 538.598, 465.932 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "- il decreto legislativo 18 agosto 2000, n. 267, recante “Testo unico delle leggi sull'ordinamento degli enti locali”, ed in particolare gli artt. 6, 7 e 38;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 92.7, 424.875, 500.914, 438.334 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "- Il vigente Regolamento sull’ordinamento generale degli uffici e dei servizi;",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 38,
+    "page number" : 3,
+    "bounding box" : [ 56.7, 397.33, 522.305, 410.736 ],
+    "font" : "ArialMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Con votazione unanime favorevole espressa in forma palese mediante assenso verbale"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H5",
+    "id" : 39,
+    "level" : "Subtitle",
+    "page number" : 3,
+    "bounding box" : [ 266.982, 369.732, 328.314, 383.138 ],
+    "heading level" : 5,
+    "font" : "Arial-BoldMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "DELIBERA"
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 40,
+    "level" : "3",
+    "page number" : 3,
+    "bounding box" : [ 56.7, 190.345, 538.6, 355.54 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 3,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 56.7, 328.335, 538.59, 355.54 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "1. Di richiamare la premessa narrativa a far parte integrante e sostanziale del presente dispositivo.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 56.7, 245.541, 538.596, 314.143 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "2. Di approvare l’aggiornamento al Piano Integrato di Attività e Organizzazione 2026-2028, come da l’allegata scheda A) alla presente deliberazione per farne parte integrante e sostanziale, con cui sono stati individuati gli obiettivi gestionali 2026 assegnati al Funzionario con incarico di posizione di Elevata Qualificazione per l’Area Tecnica/Manutentiva.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 56.7, 190.345, 538.6, 231.349 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "3. Di dichiarare la presente deliberazione immediatamente eseguibile ai sensi di legge con una seconda distinta votazione unanime favorevole espressa in forma palese mediante assenso verbale.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 42,
+    "page number" : 4,
+    "bounding box" : [ 42.55, 745.846, 213.246, 760.33 ],
+    "font" : "Tahoma",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Letto, confermato e sottoscritto."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 43,
+    "page number" : 4,
+    "bounding box" : [ 63.776, 680.666, 200.225, 721.222 ],
+    "font" : "Tahoma",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "IL PRESIDENTE Firmato digitalmente F.to : GASTALDO DAVIDE"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 44,
+    "page number" : 4,
+    "bounding box" : [ 338.006, 680.666, 510.787, 721.222 ],
+    "font" : "Tahoma",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "IL SEGRETARIO COMUNALE Firmato digitalmente F.to : Dr.ssa Marietta CARCIONE"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 46,
+    "page number" : 4,
+    "bounding box" : [ 42.55, 612.411, 517.883, 637.349 ],
+    "font" : "ArialMT",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "Copia conforme all'originale firmato digitalmente, per gli usi consentiti dalla Legge. lì, 29/06/2026 IL SEGRETARIO COMUNALEDr.ssa Marietta"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 47,
+    "page number" : 4,
+    "bounding box" : [ 376.694, 599.762, 434.752, 612.051 ],
+    "font" : "ArialMT",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "CARCIONE"
+  } ]
+}

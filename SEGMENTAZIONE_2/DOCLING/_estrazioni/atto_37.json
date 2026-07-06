@@ -1,0 +1,3614 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.10.0",
+  "name": "atto_37",
+  "origin": {
+    "mimetype": "application/pdf",
+    "binary_hash": 5330163345160299597,
+    "filename": "atto_37.pdf"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/pictures/0"
+      },
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/tables/0"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/pictures/1"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/groups/2"
+      },
+      {
+        "$ref": "#/texts/25"
+      },
+      {
+        "$ref": "#/texts/26"
+      },
+      {
+        "$ref": "#/texts/27"
+      },
+      {
+        "$ref": "#/groups/3"
+      },
+      {
+        "$ref": "#/texts/29"
+      },
+      {
+        "$ref": "#/pictures/2"
+      },
+      {
+        "$ref": "#/texts/30"
+      },
+      {
+        "$ref": "#/texts/31"
+      },
+      {
+        "$ref": "#/groups/4"
+      },
+      {
+        "$ref": "#/texts/33"
+      },
+      {
+        "$ref": "#/groups/5"
+      },
+      {
+        "$ref": "#/texts/36"
+      },
+      {
+        "$ref": "#/texts/37"
+      },
+      {
+        "$ref": "#/texts/38"
+      },
+      {
+        "$ref": "#/texts/39"
+      },
+      {
+        "$ref": "#/texts/40"
+      },
+      {
+        "$ref": "#/texts/41"
+      },
+      {
+        "$ref": "#/pictures/3"
+      },
+      {
+        "$ref": "#/texts/42"
+      },
+      {
+        "$ref": "#/texts/43"
+      },
+      {
+        "$ref": "#/texts/44"
+      },
+      {
+        "$ref": "#/texts/45"
+      },
+      {
+        "$ref": "#/texts/46"
+      },
+      {
+        "$ref": "#/texts/47"
+      },
+      {
+        "$ref": "#/texts/48"
+      },
+      {
+        "$ref": "#/groups/6"
+      },
+      {
+        "$ref": "#/texts/56"
+      },
+      {
+        "$ref": "#/texts/57"
+      },
+      {
+        "$ref": "#/texts/58"
+      },
+      {
+        "$ref": "#/texts/59"
+      },
+      {
+        "$ref": "#/texts/60"
+      },
+      {
+        "$ref": "#/pictures/4"
+      },
+      {
+        "$ref": "#/texts/61"
+      },
+      {
+        "$ref": "#/texts/62"
+      },
+      {
+        "$ref": "#/texts/63"
+      },
+      {
+        "$ref": "#/texts/64"
+      },
+      {
+        "$ref": "#/texts/65"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/17"
+        },
+        {
+          "$ref": "#/texts/18"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/20"
+        },
+        {
+          "$ref": "#/texts/21"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/23"
+        },
+        {
+          "$ref": "#/texts/24"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/28"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/32"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/34"
+        },
+        {
+          "$ref": "#/texts/35"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/49"
+        },
+        {
+          "$ref": "#/texts/50"
+        },
+        {
+          "$ref": "#/texts/51"
+        },
+        {
+          "$ref": "#/texts/52"
+        },
+        {
+          "$ref": "#/texts/53"
+        },
+        {
+          "$ref": "#/texts/54"
+        },
+        {
+          "$ref": "#/texts/55"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 216.05,
+            "t": 767.7861429101563,
+            "r": 383.26,
+            "b": 750.6812357175809,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            19
+          ]
+        }
+      ],
+      "orig": "COMUNE  DI  PISTOIA",
+      "text": "COMUNE  DI  PISTOIA"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 93.024,
+            "t": 715.3283029101564,
+            "r": 508.92400000000004,
+            "b": 706.5866109053544,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            62
+          ]
+        }
+      ],
+      "orig": "ESTRATTO DAL VERBALE DELLE DELIBERAZIONI DELLA GIUNTA COMUNALE",
+      "text": "ESTRATTO DAL VERBALE DELLE DELIBERAZIONI DELLA GIUNTA COMUNALE",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 56.64,
+            "t": 677.8883029101563,
+            "r": 201.914,
+            "b": 669.1466109053544,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            20
+          ]
+        }
+      ],
+      "orig": "Deliberazione N. 338",
+      "text": "Deliberazione N. 338"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 388.51,
+            "t": 677.8883029101563,
+            "r": 540.364,
+            "b": 669.1466109053544,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            22
+          ]
+        }
+      ],
+      "orig": "Seduta del  19/12/2019",
+      "text": "Seduta del  19/12/2019"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 56.64,
+            "t": 615.6083029101563,
+            "r": 545.2840000000002,
+            "b": 594.3866109053544,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            132
+          ]
+        }
+      ],
+      "orig": "Oggetto: SISTEMA INTEGRATO DI INTERVENTI E SERVIZI SOCIALI - CONTRIBUTO ECONOMICO ALLA FONDAZIONE MAIC - ANNO 2019 - PROVVEDIMENTI.-",
+      "text": "Oggetto: SISTEMA INTEGRATO DI INTERVENTI E SERVIZI SOCIALI - CONTRIBUTO ECONOMICO ALLA FONDAZIONE MAIC - ANNO 2019 - PROVVEDIMENTI.-"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 56.64,
+            "t": 552.8259829101563,
+            "r": 539.1400000000001,
+            "b": 543.8098052390878,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            66
+          ]
+        }
+      ],
+      "orig": "------------------------------------------------------------------",
+      "text": "------------------------------------------------------------------"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 56.64,
+            "t": 498.93830291015627,
+            "r": 545.0840000000009,
+            "b": 465.46261945277337,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            171
+          ]
+        }
+      ],
+      "orig": "L'anno Duemiladiciannove il giorno diciannove del mese di Dicembre alle ore 10:45 nel Palazzo Comunale e nella sala delle proprie sedute, si e' riunita la Giunta Comunale.",
+      "text": "L'anno Duemiladiciannove il giorno diciannove del mese di Dicembre alle ore 10:45 nel Palazzo Comunale e nella sala delle proprie sedute, si e' riunita la Giunta Comunale."
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 92.064,
+            "t": 436.3175029101563,
+            "r": 283.514,
+            "b": 428.02261945277337,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            28
+          ]
+        }
+      ],
+      "orig": "Sono intervenuti i Signori :",
+      "text": "Sono intervenuti i Signori :"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 400.03,
+            "t": 249.79830291015628,
+            "r": 538.684,
+            "b": 241.05661090535432,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            21
+          ]
+        }
+      ],
+      "orig": "Totale: Presenti n. 7",
+      "text": "Totale: Presenti n. 7"
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 393.43,
+            "t": 237.31830291015626,
+            "r": 545.284,
+            "b": 228.5766109053544,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            14
+          ]
+        }
+      ],
+      "orig": "Assenti  n.  2",
+      "text": "Assenti  n.  2"
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 56.64,
+            "t": 170.44830291015626,
+            "r": 485.7340000000004,
+            "b": 161.7066109053544,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            65
+          ]
+        }
+      ],
+      "orig": "Partecipa il Segretario Generale del Comune, Dr. PANCARI RAFFAELE",
+      "text": "Partecipa il Segretario Generale del Comune, Dr. PANCARI RAFFAELE"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 56.64,
+            "t": 108.16830291015629,
+            "r": 525.3140000000009,
+            "b": 87.17661945277337,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            133
+          ]
+        }
+      ],
+      "orig": "Il Presidente TOMASI ALESSANDRO da' atto che il numero dei presenti e' quello richiesto dalla legge per poter validamente deliberare.",
+      "text": "Il Presidente TOMASI ALESSANDRO da' atto che il numero dei presenti e' quello richiesto dalla legge per poter validamente deliberare."
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 56.64,
+            "t": 45.55150291015627,
+            "r": 545.284,
+            "b": 37.25661945277329,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            76
+          ]
+        }
+      ],
+      "orig": "Del. G.C.n. 338 del 19/12/2019   -----------------------------   Foglio n. 1",
+      "text": "Del. G.C.n. 338 del 19/12/2019   -----------------------------   Foglio n. 1"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 216.05,
+            "t": 767.7861429101563,
+            "r": 383.26,
+            "b": 750.6812357175809,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            19
+          ]
+        }
+      ],
+      "orig": "COMUNE  DI  PISTOIA",
+      "text": "COMUNE  DI  PISTOIA"
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 238.25,
+            "t": 733.2275029101563,
+            "r": 363.694,
+            "b": 724.9326194527733,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            18
+          ]
+        }
+      ],
+      "orig": "LA GIUNTA COMUNALE",
+      "text": "LA GIUNTA COMUNALE",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 56.64,
+            "t": 695.7875029101563,
+            "r": 545.1710400000011,
+            "b": 675.0126194527733,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            84
+          ]
+        }
+      ],
+      "orig": "Udita la relazione del Sindaco Alessandro Tomasi in merito all'argomento in oggetto;",
+      "text": "Udita la relazione del Sindaco Alessandro Tomasi in merito all'argomento in oggetto;"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 56.64,
+            "t": 645.9875029101563,
+            "r": 142.46399999999994,
+            "b": 637.6926194527733,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            13
+          ]
+        }
+      ],
+      "orig": "''Richiamate:",
+      "text": "''Richiamate:",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 56.64,
+            "t": 633.5075029101563,
+            "r": 545.2840000000001,
+            "b": 600.2526194527733,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            194
+          ]
+        }
+      ],
+      "orig": "- la delibera del Consiglio Comunale n. 42 del 14/03/2019 con al quale è stato approvato il Bilancio armonizzato di previsione finanziaria 2019/2021 -Documento Unico di Programmazione 2019/2021;",
+      "text": "la delibera del Consiglio Comunale n. 42 del 14/03/2019 con al quale è stato approvato il Bilancio armonizzato di previsione finanziaria 2019/2021 -Documento Unico di Programmazione 2019/2021;",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 56.64,
+            "t": 596.2883029101563,
+            "r": 545.178240000001,
+            "b": 562.9026194527733,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            186
+          ]
+        }
+      ],
+      "orig": "-la  delibera  di  G.C.  n.  106  del  9  maggio  2019,  immediatamente eseguibile, con la quale è stato approvato il Piano Esecutivo di Gestione (P.E.G.) relativo al triennio 2019-2021;",
+      "text": "-la  delibera  di  G.C.  n.  106  del  9  maggio  2019,  immediatamente eseguibile, con la quale è stato approvato il Piano Esecutivo di Gestione (P.E.G.) relativo al triennio 2019-2021;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 35.04,
+            "t": 546.2375029101563,
+            "r": 147.284,
+            "b": 537.9426194527733,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            13
+          ]
+        }
+      ],
+      "orig": "Premesso che:",
+      "text": "Premesso che:",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 56.64,
+            "t": 533.7575029101563,
+            "r": 545.2041600000009,
+            "b": 475.66261945277336,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            349
+          ]
+        }
+      ],
+      "orig": "-  al  fine  di  assicurare  alle  persone  e  alle  famiglie,  soprattutto  a quelle appartenenti alle fasce più deboli, è opportuno creare e sostenere, a cura degli enti locali, un sistema integrato di interventi e servizi  sociali  nel  tentativo  di  eliminare  o  quantomeno  ridurre  le condizioni di bisogno o disagio individuale e familiare;",
+      "text": " al  fine  di  assicurare  alle  persone  e  alle  famiglie,  soprattutto  a quelle appartenenti alle fasce più deboli, è opportuno creare e sostenere, a cura degli enti locali, un sistema integrato di interventi e servizi  sociali  nel  tentativo  di  eliminare  o  quantomeno  ridurre  le condizioni di bisogno o disagio individuale e familiare;",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 56.64,
+            "t": 471.47750291015626,
+            "r": 545.2070400000011,
+            "b": 400.90261945277337,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            399
+          ]
+        }
+      ],
+      "orig": "- in funzione della sussidiarietà amministrativa orizzontale di cui gli enti  pubblici  sono  titolari  e  per  la  quale  svolgono  un  ruolo  di coordinamento, controllo e promozione, di cui all'art. 118 comma 4 della Costituzione  in  base  alla  quale  si  valorizzano  le  risorse  del  Terzo Settore presenti sul territorio, non esclusivamente finanziarie, valutate come serie e significative;",
+      "text": "in funzione della sussidiarietà amministrativa orizzontale di cui gli enti  pubblici  sono  titolari  e  per  la  quale  svolgono  un  ruolo  di coordinamento, controllo e promozione, di cui all'art. 118 comma 4 della Costituzione  in  base  alla  quale  si  valorizzano  le  risorse  del  Terzo Settore presenti sul territorio, non esclusivamente finanziarie, valutate come serie e significative;",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 56.64,
+            "t": 384.2375029101563,
+            "r": 459.2640000000005,
+            "b": 375.9426194527734,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            61
+          ]
+        }
+      ],
+      "orig": "Richiamato a questo proposito l'art. 1 della L. 328/2000 che:",
+      "text": "Richiamato a questo proposito l'art. 1 della L. 328/2000 che:",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 56.64,
+            "t": 371.7375029101563,
+            "r": 545.1744000000008,
+            "b": 338.60261945277335,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            190
+          ]
+        }
+      ],
+      "orig": ". al comma 3 riconosce il ruolo centrale dei comuni per la programmazione integrata  degli  interventi  e  servizi  sociali,  secondo  i  principi  di sussidiarietà, cooperazione, efficacia;",
+      "text": ". al comma 3 riconosce il ruolo centrale dei comuni per la programmazione integrata  degli  interventi  e  servizi  sociali,  secondo  i  principi  di sussidiarietà, cooperazione, efficacia;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 56.64,
+            "t": 334.41750291015626,
+            "r": 545.2152000000011,
+            "b": 301.16261945277336,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            212
+          ]
+        }
+      ],
+      "orig": ". ai commi 4 e 5 riconosce e favorisce il coinvolgimento degli organismi, enti, associazioni di cittadini, confessioni religiose e altri soggetti sociali operanti sul territorio allo scopo di creare tale sistema;",
+      "text": ". ai commi 4 e 5 riconosce e favorisce il coinvolgimento degli organismi, enti, associazioni di cittadini, confessioni religiose e altri soggetti sociali operanti sul territorio allo scopo di creare tale sistema;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 56.64,
+            "t": 284.4975029101563,
+            "r": 545.1744000000008,
+            "b": 226.40261945277337,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            341
+          ]
+        }
+      ],
+      "orig": "Richiamata  inoltre  la  L.  R.T.  n.  41/2005  in  cui  si  ribadisce  che  il percorso  di  integrazione  e  partecipazione  tra  pubblico  e  privato  è finalizzato  a  garantire  il  rispetto  di  tutti  i  cittadini  di  godere  di pari diritti e garanzia di creazione di nuovi spazi procedurali nei quali vi sia tutela di tale diritto;",
+      "text": "Richiamata  inoltre  la  L.  R.T.  n.  41/2005  in  cui  si  ribadisce  che  il percorso  di  integrazione  e  partecipazione  tra  pubblico  e  privato  è finalizzato  a  garantire  il  rispetto  di  tutti  i  cittadini  di  godere  di pari diritti e garanzia di creazione di nuovi spazi procedurali nei quali vi sia tutela di tale diritto;"
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 56.64,
+            "t": 209.7375029101563,
+            "r": 545.2744000000002,
+            "b": 151.6126194527733,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            352
+          ]
+        }
+      ],
+      "orig": "Visto il Programma di Mandato del Sindaco Alessandro Tomasi 2017-2022 con il  quale  si  garantisce  l'impegno  dell'amministrazione  a  promuovere  il welfare  comunitario  mettendo  al  centro  la  persona,  la  famiglia  e all'attivazione di tutti gli strumenti in possesso dell'amministrazione per prevenire e tamponare le situazioni di difficoltà;",
+      "text": "Visto il Programma di Mandato del Sindaco Alessandro Tomasi 2017-2022 con il  quale  si  garantisce  l'impegno  dell'amministrazione  a  promuovere  il welfare  comunitario  mettendo  al  centro  la  persona,  la  famiglia  e all'attivazione di tutti gli strumenti in possesso dell'amministrazione per prevenire e tamponare le situazioni di difficoltà;"
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 56.64,
+            "t": 134.94750291015635,
+            "r": 545.1944000000009,
+            "b": 114.17261945277335,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            87
+          ]
+        }
+      ],
+      "orig": "Richiamata la delibera della Giunta Comunale n. 324 del 12 dicembre 2018, con la quale:",
+      "text": "Richiamata la delibera della Giunta Comunale n. 324 del 12 dicembre 2018, con la quale:"
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 56.64,
+            "t": 110.10750291015631,
+            "r": 545.284,
+            "b": 64.3766194527733,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            305
+          ]
+        }
+      ],
+      "orig": "a) è stato preso atto del progetto con valenza quadriennale (2018-2021) presentato  dalla  Fondazione  Maria  Assunta  in  Cielo  di  Pistoia  (abbr. Fondazione  MAiC),  concernente  la  presa  in  carico  globale  di  minori  in condizione  di  disabilità  e  con  particolari  situazioni  familiari  nel",
+      "text": "è stato preso atto del progetto con valenza quadriennale (2018-2021) presentato  dalla  Fondazione  Maria  Assunta  in  Cielo  di  Pistoia  (abbr. Fondazione  MAiC),  concernente  la  presa  in  carico  globale  di  minori  in condizione  di  disabilità  e  con  particolari  situazioni  familiari  nel",
+      "enumerated": true,
+      "marker": "a)"
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 56.64,
+            "t": 45.55150291015627,
+            "r": 545.284,
+            "b": 37.25661945277329,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            76
+          ]
+        }
+      ],
+      "orig": "Del. G.C.n. 338 del 19/12/2019   -----------------------------   Foglio n. 2",
+      "text": "Del. G.C.n. 338 del 19/12/2019   -----------------------------   Foglio n. 2"
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 216.05,
+            "t": 767.7861429101563,
+            "r": 383.26,
+            "b": 750.6812357175809,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            19
+          ]
+        }
+      ],
+      "orig": "COMUNE  DI  PISTOIA",
+      "text": "COMUNE  DI  PISTOIA",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.64,
+            "t": 733.2275029101563,
+            "r": 545.2372800000011,
+            "b": 712.4526194527733,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            103
+          ]
+        }
+      ],
+      "orig": "Comune di Pistoia, attraverso percorsi abilitativi/riabilitativi comprensivi del servizio di trasporto;",
+      "text": "Comune di Pistoia, attraverso percorsi abilitativi/riabilitativi comprensivi del servizio di trasporto;"
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.64,
+            "t": 708.2675029101563,
+            "r": 545.2672000000002,
+            "b": 637.6926194527733,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            394
+          ]
+        }
+      ],
+      "orig": "b)  contestualmente  è  stata  approvata  la  concessione  di  un  contributo economico di € 40.000,00 a parziale copertura delle spese sostenute per le attività del progetto nell'anno 2018, prescrivendo che la Fondazione MAIC, in ossequio al principio di trasparenza, menzioni tale contributo del  Comune  di  Pistoia  in  ogni  operazione  di  pubblicizzazione  delle attività corrispondenti;",
+      "text": " contestualmente  è  stata  approvata  la  concessione  di  un  contributo economico di € 40.000,00 a parziale copertura delle spese sostenute per le attività del progetto nell'anno 2018, prescrivendo che la Fondazione MAIC, in ossequio al principio di trasparenza, menzioni tale contributo del  Comune  di  Pistoia  in  ogni  operazione  di  pubblicizzazione  delle attività corrispondenti;",
+      "enumerated": true,
+      "marker": "b)"
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.64,
+            "t": 621.0275029101563,
+            "r": 168.884,
+            "b": 612.7326194527733,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            16
+          ]
+        }
+      ],
+      "orig": "Considerato che:",
+      "text": "Considerato che:",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.64,
+            "t": 608.5475029101563,
+            "r": 545.2353600000009,
+            "b": 562.9026194527733,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            262
+          ]
+        }
+      ],
+      "orig": "-  è  attivo  da  molti  anni  un  vero  e  proprio  scambio  professionale  tra assistenti  sociali  della  Fondazione  MAIC  e  del  Comune  di  Pistoia  che porta ad una presa in carico condivisa dei cittadini utenti, attraverso un lavoro di equipe e di rete;",
+      "text": " è  attivo  da  molti  anni  un  vero  e  proprio  scambio  professionale  tra assistenti  sociali  della  Fondazione  MAIC  e  del  Comune  di  Pistoia  che porta ad una presa in carico condivisa dei cittadini utenti, attraverso un lavoro di equipe e di rete;",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.64,
+            "t": 558.7175029101563,
+            "r": 545.178240000001,
+            "b": 488.1426194527734,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            440
+          ]
+        }
+      ],
+      "orig": "-  la  Fondazione  MAIC  è  una  realtà  strutturata  e  organizzata  sul territorio  comunale  che  da  molti  anni  si  occupa  della  cura  e  della riabilitazione  di  minorenni  ed  adulti  in  condizione  di  disabilità, garantendo  una  gestione  del  progetto  riabilitativo  nella  sua  totalità attraverso interventi predisposti da un'equipe multidisciplinare (rapporti con la scuola, sostegno psicoeducativo della famiglia ecc…);",
+      "text": " la  Fondazione  MAIC  è  una  realtà  strutturata  e  organizzata  sul territorio  comunale  che  da  molti  anni  si  occupa  della  cura  e  della riabilitazione  di  minorenni  ed  adulti  in  condizione  di  disabilità, garantendo  una  gestione  del  progetto  riabilitativo  nella  sua  totalità attraverso interventi predisposti da un'equipe multidisciplinare (rapporti con la scuola, sostegno psicoeducativo della famiglia ecc…);",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.64,
+            "t": 471.47750291015626,
+            "r": 545.126880000001,
+            "b": 400.90261945277337,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            432
+          ]
+        }
+      ],
+      "orig": "Considerata  inoltre  la  collaborazione  con  la  Fondazione  MAIC  come  la naturale prosecuzione del proprio ruolo istituzionale al fine di mantenere  e  rafforzare  i  servizi  di  sostegno  alla  disabilità  e  al trasporto sociale che favorisce la piena realizzazione degli interventi; Tenuto conto dell'elevato numero di utenti disabili che frequentano il centro di riabilitazione della Fondazione MAIC (circa 300 minorenni);",
+      "text": "Considerata  inoltre  la  collaborazione  con  la  Fondazione  MAIC  come  la naturale prosecuzione del proprio ruolo istituzionale al fine di mantenere  e  rafforzare  i  servizi  di  sostegno  alla  disabilità  e  al trasporto sociale che favorisce la piena realizzazione degli interventi; Tenuto conto dell'elevato numero di utenti disabili che frequentano il centro di riabilitazione della Fondazione MAIC (circa 300 minorenni);"
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.64,
+            "t": 384.2375029101563,
+            "r": 545.2888000000003,
+            "b": 288.68261945277334,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            533
+          ]
+        }
+      ],
+      "orig": "Considerato  che,  in  virtù  della  valenza  quadriennale  del  progetto,  è stata presentata la richiesta di un contributo dalla Fondazione MAiC al Servizio Personale e Politiche di Inclusione Sociale fino ad un massimo di €  40.000,00,  a  parziale  copertura  delle  spese  sostenute  per  il servizio  di  presa  in  carico  globale  di  minorenni  in  condizioni  di disabilità e con particolari situazioni familiari, come da progetto con valenza  quadriennale  (2018-2021)  presentato  dalla  Fondazione  MAIC  lo scorso anno;",
+      "text": "Considerato  che,  in  virtù  della  valenza  quadriennale  del  progetto,  è stata presentata la richiesta di un contributo dalla Fondazione MAiC al Servizio Personale e Politiche di Inclusione Sociale fino ad un massimo di €  40.000,00,  a  parziale  copertura  delle  spese  sostenute  per  il servizio  di  presa  in  carico  globale  di  minorenni  in  condizioni  di disabilità e con particolari situazioni familiari, come da progetto con valenza  quadriennale  (2018-2021)  presentato  dalla  Fondazione  MAIC  lo scorso anno;"
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.64,
+            "t": 272.1375029101563,
+            "r": 545.2390400000011,
+            "b": 213.92261945277335,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            309
+          ]
+        }
+      ],
+      "orig": "Ritenuto opportuno prevedere un contributo per il corrente anno 2019 fino ad  un  massimo  di  €  40.000,00,  prescrivendo  che  la  Fondazione  MAIC,  in ossequio al principio di trasparenza, menzioni tale contributo del Comune di Pistoia in ogni operazione di pubblicizzazione delle attività corrispondenti;",
+      "text": "Ritenuto opportuno prevedere un contributo per il corrente anno 2019 fino ad  un  massimo  di  €  40.000,00,  prescrivendo  che  la  Fondazione  MAIC,  in ossequio al principio di trasparenza, menzioni tale contributo del Comune di Pistoia in ogni operazione di pubblicizzazione delle attività corrispondenti;"
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.64,
+            "t": 197.3775029101563,
+            "r": 545.2818400000006,
+            "b": 126.65261945277337,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            434
+          ]
+        }
+      ],
+      "orig": "Evidenziato che  all'emanazione  del  presente  provvedimento,  sia  in  fase istruttoria che in fase decisionale, non hanno preso parte soggetti in conflitto  di  interessi,  anche  potenziali,  ai  sensi  del  D.P.R.  62/2013 nonché  di  quanto  stabilito  dal  Piano  triennale  di  prevenzione  della corruzione contenente il Piano per la trasparenza 2019-21, approvato con la Delibera di Giunta Comunale n. 136 del 03/06/2019 ''.",
+      "text": "Evidenziato che  all'emanazione  del  presente  provvedimento,  sia  in  fase istruttoria che in fase decisionale, non hanno preso parte soggetti in conflitto  di  interessi,  anche  potenziali,  ai  sensi  del  D.P.R.  62/2013 nonché  di  quanto  stabilito  dal  Piano  triennale  di  prevenzione  della corruzione contenente il Piano per la trasparenza 2019-21, approvato con la Delibera di Giunta Comunale n. 136 del 03/06/2019 ''."
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.64,
+            "t": 110.10750291015631,
+            "r": 545.189760000001,
+            "b": 64.3766194527733,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            285
+          ]
+        }
+      ],
+      "orig": "Visto il parere di regolarità tecnica, rilasciato ai sensi dell'art. 49, 1° comma del D.Lgs. 267/2000, dal Dirigente del Servizio Personale  e  Politiche  di  Inclusione  Sociale,  Dr.ssa  Chiara  Pierotti, contenente  anche  l'attestazione  che  al  presente  procedimento  non  hanno",
+      "text": "Visto il parere di regolarità tecnica, rilasciato ai sensi dell'art. 49, 1° comma del D.Lgs. 267/2000, dal Dirigente del Servizio Personale  e  Politiche  di  Inclusione  Sociale,  Dr.ssa  Chiara  Pierotti, contenente  anche  l'attestazione  che  al  presente  procedimento  non  hanno"
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.64,
+            "t": 45.55150291015627,
+            "r": 545.284,
+            "b": 37.25661945277329,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            76
+          ]
+        }
+      ],
+      "orig": "Del. G.C.n. 338 del 19/12/2019   -----------------------------   Foglio n. 3",
+      "text": "Del. G.C.n. 338 del 19/12/2019   -----------------------------   Foglio n. 3"
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 216.05,
+            "t": 767.7861429101563,
+            "r": 383.26,
+            "b": 750.6812357175809,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            19
+          ]
+        }
+      ],
+      "orig": "COMUNE  DI  PISTOIA",
+      "text": "COMUNE  DI  PISTOIA",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 56.64,
+            "t": 733.2275029101563,
+            "r": 545.232080000001,
+            "b": 699.9726194527733,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            154
+          ]
+        }
+      ],
+      "orig": "preso  parte  soggetti  in  conflitto  di  interesse,  anche  potenziale,  ai sensi del DPR 62/ 2013, allegato all'originale della presente deliberazione;",
+      "text": "preso  parte  soggetti  in  conflitto  di  interesse,  anche  potenziale,  ai sensi del DPR 62/ 2013, allegato all'originale della presente deliberazione;"
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 56.64,
+            "t": 683.3075029101562,
+            "r": 545.222880000001,
+            "b": 637.6926194527733,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            240
+          ]
+        }
+      ],
+      "orig": "Visto  il  parere  di  regolarità  contabile,  rilasciato  ai  sensi dell'art. 49, 1° comma del D.Lgs. 267/2000, dal Responsabile del Servizio Finanziario e Controllo Aziende Partecipate, allegato all'originale della presente deliberazione;",
+      "text": "Visto  il  parere  di  regolarità  contabile,  rilasciato  ai  sensi dell'art. 49, 1° comma del D.Lgs. 267/2000, dal Responsabile del Servizio Finanziario e Controllo Aziende Partecipate, allegato all'originale della presente deliberazione;"
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 92.064,
+            "t": 621.0275029101563,
+            "r": 263.714,
+            "b": 612.7326194527733,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            25
+          ]
+        }
+      ],
+      "orig": "Visto il D.Lgs. 267/2000;",
+      "text": "Visto il D.Lgs. 267/2000;"
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 92.064,
+            "t": 596.0675029101562,
+            "r": 501.36400000000003,
+            "b": 562.9026194527733,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            122
+          ]
+        }
+      ],
+      "orig": "Ritenuto di dover provvedere in ordine a tutto quanto sopra; Preso atto della proposta formulata dal Dirigente competente;",
+      "text": "Ritenuto di dover provvedere in ordine a tutto quanto sopra; Preso atto della proposta formulata dal Dirigente competente;"
+    },
+    {
+      "self_ref": "#/texts/47",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 92.064,
+            "t": 546.2375029101563,
+            "r": 521.164,
+            "b": 537.9426194527733,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            64
+          ]
+        }
+      ],
+      "orig": "Ad unanimità di voti dei presenti e partecipanti alla votazione;",
+      "text": "Ad unanimità di voti dei presenti e partecipanti alla votazione;"
+    },
+    {
+      "self_ref": "#/texts/48",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 288.89,
+            "t": 521.2775029101563,
+            "r": 348.334,
+            "b": 512.9826194527733,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "DELIBERA",
+      "text": "DELIBERA",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/49",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 56.64,
+            "t": 496.4375029101563,
+            "r": 545.2705600000002,
+            "b": 375.9426194527734,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            676
+          ]
+        }
+      ],
+      "orig": "1) di approvare per i motivi di cui in narrativa, che integralmente si richiamano, la concessione di un contributo per l'anno 2019 fino ad un massimo di € 40.000,00 a parziale copertura delle spese sostenute per il servizio  di  presa  in  carico  globale  di  minorenni  in  condizioni  di disabilità e con particolari situazioni familiari, come da progetto con valenza  quadriennale  (2018-2021)  presentato  dalla  Fondazione  MAIC  lo scorso  anno,  prescrivendo  che  la  stessa  Fondazione,  in  ossequio  al principio di trasparenza, menzioni tale contributo del Comune di Pistoia in ogni operazione di pubblicizzazione delle attività corrispondenti al progetto stesso;",
+      "text": "di approvare per i motivi di cui in narrativa, che integralmente si richiamano, la concessione di un contributo per l'anno 2019 fino ad un massimo di € 40.000,00 a parziale copertura delle spese sostenute per il servizio  di  presa  in  carico  globale  di  minorenni  in  condizioni  di disabilità e con particolari situazioni familiari, come da progetto con valenza  quadriennale  (2018-2021)  presentato  dalla  Fondazione  MAIC  lo scorso  anno,  prescrivendo  che  la  stessa  Fondazione,  in  ossequio  al principio di trasparenza, menzioni tale contributo del Comune di Pistoia in ogni operazione di pubblicizzazione delle attività corrispondenti al progetto stesso;",
+      "enumerated": true,
+      "marker": "1)"
+    },
+    {
+      "self_ref": "#/texts/50",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 56.64,
+            "t": 359.2575029101563,
+            "r": 545.284,
+            "b": 326.1226194527733,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            214
+          ]
+        }
+      ],
+      "orig": "2) di dare atto che la somma complessiva di € 40.000,00 è stata penotata al Cap. 78150/00 'Contributi vari' Imp. 3047 del Bil. 2019, rimandando l'effettivo impegno di spesa a successiva determinazione dirigenziale;",
+      "text": "di dare atto che la somma complessiva di € 40.000,00 è stata penotata al Cap. 78150/00 'Contributi vari' Imp. 3047 del Bil. 2019, rimandando l'effettivo impegno di spesa a successiva determinazione dirigenziale;",
+      "enumerated": true,
+      "marker": "2)"
+    },
+    {
+      "self_ref": "#/texts/51",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 56.64,
+            "t": 309.45750291015634,
+            "r": 545.195520000001,
+            "b": 276.20261945277343,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            167
+          ]
+        }
+      ],
+      "orig": "3)  di  trasmettere  copia  della  presente  deliberazione  ai  responsabili preposti alle seguenti strutture per i provvedimenti connessi e conseguenti di attuazione:",
+      "text": " di  trasmettere  copia  della  presente  deliberazione  ai  responsabili preposti alle seguenti strutture per i provvedimenti connessi e conseguenti di attuazione:",
+      "enumerated": true,
+      "marker": "3)"
+    },
+    {
+      "self_ref": "#/texts/52",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 56.64,
+            "t": 272.1375029101563,
+            "r": 545.1965600000007,
+            "b": 251.3626194527733,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            88
+          ]
+        }
+      ],
+      "orig": "- Dr.ssa Chiara Pierotti -Dirigente Servizio Personale e Politiche di Inclusione Sociale",
+      "text": "Dr.ssa Chiara Pierotti -Dirigente Servizio Personale e Politiche di Inclusione Sociale",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/53",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 56.64,
+            "t": 247.17750291015625,
+            "r": 545.2584800000012,
+            "b": 226.40261945277337,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            94
+          ]
+        }
+      ],
+      "orig": "-  Dr.  Franco  Ancillotti -Dirigente  Servizio  Finanziario  e  Controllo Aziende Partecipate",
+      "text": " Dr.  Franco  Ancillotti -Dirigente  Servizio  Finanziario  e  Controllo Aziende Partecipate",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/54",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 56.64,
+            "t": 222.21750291015633,
+            "r": 538.5640000000001,
+            "b": 213.92261945277335,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            71
+          ]
+        }
+      ],
+      "orig": "- Dr. Angelo Ferrario -Responsabile U.O. Comunicazione e Partecipazione",
+      "text": "Dr. Angelo Ferrario -Responsabile U.O. Comunicazione e Partecipazione",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/55",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 56.64,
+            "t": 197.3775029101563,
+            "r": 545.1940800000011,
+            "b": 176.57261945277332,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            126
+          ]
+        }
+      ],
+      "orig": "4) di comunicare la presente deliberazione ai capigruppo consiliari, ai sensi dell'art. 125 del D.Lgvo 18 Agosto 2000, n. 267.",
+      "text": "di comunicare la presente deliberazione ai capigruppo consiliari, ai sensi dell'art. 125 del D.Lgvo 18 Agosto 2000, n. 267.",
+      "enumerated": true,
+      "marker": "4)"
+    },
+    {
+      "self_ref": "#/texts/56",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 92.064,
+            "t": 159.90750291015627,
+            "r": 197.714,
+            "b": 151.6126194527733,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            15
+          ]
+        }
+      ],
+      "orig": "Successivamente",
+      "text": "Successivamente"
+    },
+    {
+      "self_ref": "#/texts/57",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 231.17,
+            "t": 134.94750291015635,
+            "r": 356.61400000000003,
+            "b": 126.65261945277337,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            18
+          ]
+        }
+      ],
+      "orig": "La Giunta Comunale",
+      "text": "La Giunta Comunale",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/58",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 56.64,
+            "t": 110.10750291015631,
+            "r": 531.014400000001,
+            "b": 89.33661945277333,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            126
+          ]
+        }
+      ],
+      "orig": "Attesa l'urgenza di provvedere in merito al fine di procedere con tempestività agli adempimenti connessi con il presente atto;",
+      "text": "Attesa l'urgenza di provvedere in merito al fine di procedere con tempestività agli adempimenti connessi con il presente atto;"
+    },
+    {
+      "self_ref": "#/texts/59",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 92.064,
+            "t": 72.67150291015628,
+            "r": 488.08800000000065,
+            "b": 64.3766194527733,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            60
+          ]
+        }
+      ],
+      "orig": "Visto l'art. 134, 4 comma del D.lgvo 18 Agosto 2000, n. 267;",
+      "text": "Visto l'art. 134, 4 comma del D.lgvo 18 Agosto 2000, n. 267;"
+    },
+    {
+      "self_ref": "#/texts/60",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 56.64,
+            "t": 45.55150291015627,
+            "r": 545.284,
+            "b": 37.25661945277329,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            76
+          ]
+        }
+      ],
+      "orig": "Del. G.C.n. 338 del 19/12/2019   -----------------------------   Foglio n. 4",
+      "text": "Del. G.C.n. 338 del 19/12/2019   -----------------------------   Foglio n. 4"
+    },
+    {
+      "self_ref": "#/texts/61",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 216.05,
+            "t": 767.7861429101563,
+            "r": 383.26,
+            "b": 750.6812357175809,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            19
+          ]
+        }
+      ],
+      "orig": "COMUNE  DI  PISTOIA",
+      "text": "COMUNE  DI  PISTOIA"
+    },
+    {
+      "self_ref": "#/texts/62",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 92.064,
+            "t": 720.7475029101563,
+            "r": 521.164,
+            "b": 712.4526194527733,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            64
+          ]
+        }
+      ],
+      "orig": "Ad unanimità di voti dei presenti e partecipanti alla votazione;",
+      "text": "Ad unanimità di voti dei presenti e partecipanti alla votazione;"
+    },
+    {
+      "self_ref": "#/texts/63",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 241.01,
+            "t": 695.7875029101563,
+            "r": 346.654,
+            "b": 687.4926194527733,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            15
+          ]
+        }
+      ],
+      "orig": "D I C H I A R A",
+      "text": "D I C H I A R A"
+    },
+    {
+      "self_ref": "#/texts/64",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 92.064,
+            "t": 670.8275029101562,
+            "r": 441.934,
+            "b": 662.5326194527732,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            52
+          ]
+        }
+      ],
+      "orig": "La presente deliberazione immediatamente eseguibile.",
+      "text": "La presente deliberazione immediatamente eseguibile."
+    },
+    {
+      "self_ref": "#/texts/65",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 56.64,
+            "t": 45.55150291015627,
+            "r": 545.284,
+            "b": 37.25661945277329,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            76
+          ]
+        }
+      ],
+      "orig": "Del. G.C.n. 338 del 19/12/2019   -----------------------------   Foglio n. 5",
+      "text": "Del. G.C.n. 338 del 19/12/2019   -----------------------------   Foglio n. 5"
+    }
+  ],
+  "pictures": [
+    {
+      "self_ref": "#/pictures/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 215.59764099121094,
+            "t": 806.2740097045898,
+            "r": 378.67041015625,
+            "b": 754.2344055175781,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 215.35162353515625,
+            "t": 806.5104026794434,
+            "r": 378.8067932128906,
+            "b": 754.0325241088867,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 215.370849609375,
+            "t": 806.5380058288574,
+            "r": 378.54010009765625,
+            "b": 754.2029495239258,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 215.32188415527344,
+            "t": 806.5012054443359,
+            "r": 378.73736572265625,
+            "b": 754.3330612182617,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 215.39059448242188,
+            "t": 806.3018341064453,
+            "r": 378.73541259765625,
+            "b": 753.8176040649414,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    }
+  ],
+  "tables": [
+    {
+      "self_ref": "#/tables/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "table",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 51.943519592285156,
+            "t": 391.7966003417969,
+            "r": 542.7304077148438,
+            "b": 272.32958984375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "data": {
+        "table_cells": [
+          {
+            "bbox": {
+              "l": 77.424,
+              "t": 453.42452,
+              "r": 131.4,
+              "b": 460.90794746698674,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Qualifica",
+            "column_header": true,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 274.25,
+              "t": 453.42452,
+              "r": 334.226,
+              "b": 460.90794746698674,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "Componente",
+            "column_header": true,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 473.5,
+              "t": 453.42452,
+              "r": 521.476,
+              "b": 460.90794746698674,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "Presente",
+            "column_header": true,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 56.64,
+              "t": 465.32451999999995,
+              "r": 98.616,
+              "b": 472.8079474669867,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 1,
+            "end_row_offset_idx": 2,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Sindaco",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 159.26,
+              "t": 465.32451999999995,
+              "r": 261.236,
+              "b": 472.8079474669867,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 1,
+            "end_row_offset_idx": 2,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "TOMASI ALESSANDRO",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 456.34,
+              "t": 465.32451999999995,
+              "r": 462.316,
+              "b": 472.8079474669867,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 1,
+            "end_row_offset_idx": 2,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "S",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 56.64,
+              "t": 477.20451999999995,
+              "r": 128.616,
+              "b": 484.6879474669867,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 2,
+            "end_row_offset_idx": 3,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Vice Sindaco",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 159.26,
+              "t": 477.20451999999995,
+              "r": 291.236,
+              "b": 484.6879474669867,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 2,
+            "end_row_offset_idx": 3,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "CELESTI ANNA MARIA IDA",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 456.34,
+              "t": 477.20451999999995,
+              "r": 462.316,
+              "b": 484.6879474669867,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 2,
+            "end_row_offset_idx": 3,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "N",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 56.64,
+              "t": 488.96451999999994,
+              "r": 110.616,
+              "b": 496.4479474669867,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 3,
+            "end_row_offset_idx": 4,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Assessore",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 159.26,
+              "t": 488.96451999999994,
+              "r": 249.236,
+              "b": 496.4479474669867,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 3,
+            "end_row_offset_idx": 4,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "RISALITI GIANNA",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 456.34,
+              "t": 488.96451999999994,
+              "r": 462.316,
+              "b": 496.4479474669867,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 3,
+            "end_row_offset_idx": 4,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "S",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 56.64,
+              "t": 500.84451999999993,
+              "r": 110.616,
+              "b": 508.3279474669867,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 4,
+            "end_row_offset_idx": 5,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Assessore",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 159.26,
+              "t": 500.84451999999993,
+              "r": 267.236,
+              "b": 508.3279474669867,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 4,
+            "end_row_offset_idx": 5,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "SABELLA ALESSANDRO",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 456.34,
+              "t": 500.84451999999993,
+              "r": 462.316,
+              "b": 508.3279474669867,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 4,
+            "end_row_offset_idx": 5,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "N",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 56.64,
+              "t": 512.60452,
+              "r": 110.616,
+              "b": 520.0879474669867,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 5,
+            "end_row_offset_idx": 6,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Assessore",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 159.26,
+              "t": 512.60452,
+              "r": 267.236,
+              "b": 520.0879474669867,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 5,
+            "end_row_offset_idx": 6,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "FROSINI ALESSANDRA",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 456.34,
+              "t": 512.60452,
+              "r": 462.316,
+              "b": 520.0879474669867,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 5,
+            "end_row_offset_idx": 6,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "S",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 56.64,
+              "t": 524.48452,
+              "r": 110.616,
+              "b": 531.9679474669867,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 6,
+            "end_row_offset_idx": 7,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Assessore",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 159.26,
+              "t": 524.48452,
+              "r": 273.236,
+              "b": 531.9679474669867,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 6,
+            "end_row_offset_idx": 7,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "CAPECCHI ALESSANDRO",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 456.34,
+              "t": 524.48452,
+              "r": 462.316,
+              "b": 531.9679474669867,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 6,
+            "end_row_offset_idx": 7,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "S",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 56.64,
+              "t": 536.24452,
+              "r": 110.616,
+              "b": 543.7279474669867,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 7,
+            "end_row_offset_idx": 8,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Assessore",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 159.26,
+              "t": 536.24452,
+              "r": 243.236,
+              "b": 543.7279474669867,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 7,
+            "end_row_offset_idx": 8,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "MAGNI GABRIELE",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 456.34,
+              "t": 536.24452,
+              "r": 462.316,
+              "b": 543.7279474669867,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 7,
+            "end_row_offset_idx": 8,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "S",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 56.64,
+              "t": 548.12452,
+              "r": 110.616,
+              "b": 555.6079474669867,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 8,
+            "end_row_offset_idx": 9,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Assessore",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 159.26,
+              "t": 548.12452,
+              "r": 273.236,
+              "b": 555.6079474669867,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 8,
+            "end_row_offset_idx": 9,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "SEMPLICI MARGHERITA",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 456.34,
+              "t": 548.12452,
+              "r": 462.316,
+              "b": 555.6079474669867,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 8,
+            "end_row_offset_idx": 9,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "S",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 56.64,
+              "t": 560.00452,
+              "r": 110.616,
+              "b": 567.4879474669867,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 9,
+            "end_row_offset_idx": 10,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Assessore",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 159.26,
+              "t": 560.00452,
+              "r": 267.236,
+              "b": 567.4879474669867,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 9,
+            "end_row_offset_idx": 10,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "BARTOLOMEI ALESSIO",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 456.34,
+              "t": 560.00452,
+              "r": 462.316,
+              "b": 567.4879474669867,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 9,
+            "end_row_offset_idx": 10,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "S",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          }
+        ],
+        "num_rows": 10,
+        "num_cols": 3,
+        "grid": [
+          [
+            {
+              "bbox": {
+                "l": 77.424,
+                "t": 453.42452,
+                "r": 131.4,
+                "b": 460.90794746698674,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Qualifica",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 274.25,
+                "t": 453.42452,
+                "r": 334.226,
+                "b": 460.90794746698674,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "Componente",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 473.5,
+                "t": 453.42452,
+                "r": 521.476,
+                "b": 460.90794746698674,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "Presente",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 56.64,
+                "t": 465.32451999999995,
+                "r": 98.616,
+                "b": 472.8079474669867,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Sindaco",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 159.26,
+                "t": 465.32451999999995,
+                "r": 261.236,
+                "b": 472.8079474669867,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "TOMASI ALESSANDRO",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 456.34,
+                "t": 465.32451999999995,
+                "r": 462.316,
+                "b": 472.8079474669867,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "S",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 56.64,
+                "t": 477.20451999999995,
+                "r": 128.616,
+                "b": 484.6879474669867,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Vice Sindaco",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 159.26,
+                "t": 477.20451999999995,
+                "r": 291.236,
+                "b": 484.6879474669867,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "CELESTI ANNA MARIA IDA",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 456.34,
+                "t": 477.20451999999995,
+                "r": 462.316,
+                "b": 484.6879474669867,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "N",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 56.64,
+                "t": 488.96451999999994,
+                "r": 110.616,
+                "b": 496.4479474669867,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Assessore",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 159.26,
+                "t": 488.96451999999994,
+                "r": 249.236,
+                "b": 496.4479474669867,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "RISALITI GIANNA",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 456.34,
+                "t": 488.96451999999994,
+                "r": 462.316,
+                "b": 496.4479474669867,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "S",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 56.64,
+                "t": 500.84451999999993,
+                "r": 110.616,
+                "b": 508.3279474669867,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Assessore",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 159.26,
+                "t": 500.84451999999993,
+                "r": 267.236,
+                "b": 508.3279474669867,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "SABELLA ALESSANDRO",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 456.34,
+                "t": 500.84451999999993,
+                "r": 462.316,
+                "b": 508.3279474669867,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "N",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 56.64,
+                "t": 512.60452,
+                "r": 110.616,
+                "b": 520.0879474669867,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 5,
+              "end_row_offset_idx": 6,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Assessore",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 159.26,
+                "t": 512.60452,
+                "r": 267.236,
+                "b": 520.0879474669867,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 5,
+              "end_row_offset_idx": 6,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "FROSINI ALESSANDRA",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 456.34,
+                "t": 512.60452,
+                "r": 462.316,
+                "b": 520.0879474669867,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 5,
+              "end_row_offset_idx": 6,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "S",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 56.64,
+                "t": 524.48452,
+                "r": 110.616,
+                "b": 531.9679474669867,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 6,
+              "end_row_offset_idx": 7,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Assessore",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 159.26,
+                "t": 524.48452,
+                "r": 273.236,
+                "b": 531.9679474669867,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 6,
+              "end_row_offset_idx": 7,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "CAPECCHI ALESSANDRO",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 456.34,
+                "t": 524.48452,
+                "r": 462.316,
+                "b": 531.9679474669867,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 6,
+              "end_row_offset_idx": 7,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "S",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 56.64,
+                "t": 536.24452,
+                "r": 110.616,
+                "b": 543.7279474669867,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 7,
+              "end_row_offset_idx": 8,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Assessore",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 159.26,
+                "t": 536.24452,
+                "r": 243.236,
+                "b": 543.7279474669867,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 7,
+              "end_row_offset_idx": 8,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "MAGNI GABRIELE",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 456.34,
+                "t": 536.24452,
+                "r": 462.316,
+                "b": 543.7279474669867,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 7,
+              "end_row_offset_idx": 8,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "S",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 56.64,
+                "t": 548.12452,
+                "r": 110.616,
+                "b": 555.6079474669867,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 8,
+              "end_row_offset_idx": 9,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Assessore",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 159.26,
+                "t": 548.12452,
+                "r": 273.236,
+                "b": 555.6079474669867,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 8,
+              "end_row_offset_idx": 9,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "SEMPLICI MARGHERITA",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 456.34,
+                "t": 548.12452,
+                "r": 462.316,
+                "b": 555.6079474669867,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 8,
+              "end_row_offset_idx": 9,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "S",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 56.64,
+                "t": 560.00452,
+                "r": 110.616,
+                "b": 567.4879474669867,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 9,
+              "end_row_offset_idx": 10,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Assessore",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 159.26,
+                "t": 560.00452,
+                "r": 267.236,
+                "b": 567.4879474669867,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 9,
+              "end_row_offset_idx": 10,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "BARTOLOMEI ALESSIO",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 456.34,
+                "t": 560.00452,
+                "r": 462.316,
+                "b": 567.4879474669867,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 9,
+              "end_row_offset_idx": 10,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "S",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ]
+        ]
+      },
+      "annotations": []
+    }
+  ],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {
+    "1": {
+      "size": {
+        "width": 595.3200073242188,
+        "height": 841.9199829101562
+      },
+      "page_no": 1
+    },
+    "2": {
+      "size": {
+        "width": 595.3200073242188,
+        "height": 841.9199829101562
+      },
+      "page_no": 2
+    },
+    "3": {
+      "size": {
+        "width": 595.3200073242188,
+        "height": 841.9199829101562
+      },
+      "page_no": 3
+    },
+    "4": {
+      "size": {
+        "width": 595.3200073242188,
+        "height": 841.9199829101562
+      },
+      "page_no": 4
+    },
+    "5": {
+      "size": {
+        "width": 595.3200073242188,
+        "height": 841.9199829101562
+      },
+      "page_no": 5
+    }
+  }
+}

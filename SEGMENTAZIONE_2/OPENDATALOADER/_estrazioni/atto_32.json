@@ -1,0 +1,503 @@
+{
+  "file name" : "atto_32.pdf",
+  "number of pages" : 4,
+  "author" : "PC",
+  "title" : null,
+  "creation date" : "D:20240820085300+02'00'",
+  "modification date" : "D:20241010090300+02'00'",
+  "kids" : [ {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 7,
+    "page number" : 1,
+    "bounding box" : [ 274.925, 729.5, 320.425, 799.45 ],
+    "source" : "atto_32_images/imageFile1.png"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H2",
+    "id" : 8,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 157.911, 708.802, 437.433, 728.736 ],
+    "heading level" : 2,
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 18.0,
+    "text color" : "[0.0]",
+    "content" : "C I T TÀ D I C A M P O B A S S O"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H3",
+    "id" : 9,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 176.653, 682.354, 419.701, 695.643 ],
+    "heading level" : 3,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "DELIBERAZIONE DELLA GIUNTA COMUNALE"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H4",
+    "id" : 11,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 384.87, 633.38, 486.983, 645.561 ],
+    "heading level" : 4,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "DELIBERAZIONE N. 84"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H4",
+    "id" : 12,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 47.95, 586.105, 512.909, 598.286 ],
+    "heading level" : 4,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 9.0,
+    "text color" : "[0.0]",
+    "content" : "OGGETTO: TERZA EDIZIONE DEL \"MUSICA ITALIA GRAND PRIZE\". CONCESSIONE CONTRIBUTO."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 14,
+    "page number" : 1,
+    "bounding box" : [ 42.55, 496.959, 552.796, 547.086 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "L’anno duemilaventisei il giorno dieci del mese di aprile alle ore 9:12 in Campobasso, nella Sede Comunale. A seguito della convocazione disposta dalla Sindaca Marialuisa Forte si è riunita la Giunta Comunale nelle persone dei Signori:"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 15,
+    "page number" : 1,
+    "bounding box" : [ 42.55, 298.198, 417.43, 449.264 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.0,
+    "text color" : "[0.0]",
+    "content" : "Forte Marialuisa Sindaca Presente Chierchia Bibiana Assessore Presente in videoconferenza Cretella Simone Assessore Presente Maio Mimmo Assessore Presente in videoconferenza Trivisonno Giuseppe Vice Sindaco Presente Fraracci Adele Assessore Presente in videoconferenza Marcheggiani Angelo Assessore Presente in videoconferenza Panichella Giuseppina Assessore Presente Bucci Raffaele Assessore Presente"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 16,
+    "page number" : 1,
+    "bounding box" : [ 42.55, 272.2, 188.92, 283.274 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.0,
+    "text color" : "[0.0]",
+    "content" : "presenti num. 9 e assenti num. 0."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 17,
+    "page number" : 1,
+    "bounding box" : [ 42.55, 248.052, 448.483, 260.233 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "Con la partecipazione del Segretario Generale del Comune Dirigente Anna Maria Guglielmi"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 18,
+    "page number" : 1,
+    "bounding box" : [ 42.55, 197.456, 513.845, 209.637 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "Il Presidente, constatata la legalità dell’adunanza, invita la giunta alla trattazione dell’argomento in oggetto"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 19,
+    "level" : "Doctitle",
+    "page number" : 2,
+    "bounding box" : [ 137.204, 778.752, 458.144, 798.686 ],
+    "heading level" : 1,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 18.0,
+    "text color" : "[0.0]",
+    "content" : "Deliberazione Numero 84 del 10-04-2026"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 20,
+    "page number" : 2,
+    "bounding box" : [ 42.55, 749.304, 507.709, 761.485 ],
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 9.0,
+    "text color" : "[0.0]",
+    "content" : "OGGETTO: TERZA EDIZIONE DEL \"MUSICA ITALIA GRAND PRIZE\". CONCESSIONE CONTRIBUTO."
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H3",
+    "id" : 21,
+    "level" : "Subtitle",
+    "page number" : 2,
+    "bounding box" : [ 226.671, 695.655, 368.679, 708.944 ],
+    "heading level" : 3,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "LA GIUNTA COMUNALE"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 22,
+    "page number" : 2,
+    "bounding box" : [ 42.55, 626.66, 552.802, 681.346 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Su proposta dell’Assessore alla Cultura, prof.ssa Adele Fraracci, in base all'istruttoria del Dirigente dell’Area Servizi Culturali e Servizi Demografici - Settore Politiche Culturali, del Turismo e della Pubblica Istruzione, avv. Annamaria Macchiarola, ai sensi del decreto sindacale n. 7 del 31/03/2026 Registro Generale Decreti n. 7 del 31/03/2026;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 23,
+    "page number" : 2,
+    "bounding box" : [ 42.55, 543.866, 552.802, 612.351 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Premesso che tra gli obiettivi strategici dell’Amministrazione Comunale vi è quello di incentivare ogni iniziativa/attività tesa alla promozione e alla valorizzazione del territorio, favorendo la crescita sociale e culturale della comunità locale, nella convinzione che le attività artistiche, culturali e musicali abbiano, oltre che una marcata valenza di attrazione turistico-culturale, anche una forte valenza sul piano dello sviluppo socio-economico;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 24,
+    "page number" : 2,
+    "bounding box" : [ 42.55, 461.072, 552.802, 529.557 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Considerato che con nota acquisita al protocollo generale dell’Ente in data 01/04/2026 prot. n. 24080 l’Associazione Culturale Musica Cultura e Territorio ha chiesto a questa Amministrazione un contributo economico di Euro 2.000,00 a parziale copertura delle spese occorrenti per la realizzazione della terza edizione del “Musica Italia Grand Prize”, in programma a Campobasso dal 13 al 19 Aprile 2026, da destinare a n. 2 borse di studio da assegnare nella sezione “Grand Prize”;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 25,
+    "page number" : 2,
+    "bounding box" : [ 42.55, 419.675, 552.802, 446.763 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Visto il preventivo spese relativo alla realizzazione della predetta iniziativa, pari all'importo di euro 50.000,00, di cui alla suindicata nota prot. n. 24080;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 26,
+    "page number" : 2,
+    "bounding box" : [ 42.55, 364.479, 552.802, 405.366 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Dato atto che il “Musica Italia Grand Prize” è un concorso internazionale di esecuzione musicale, aperto alla partecipazione di musicisti di tutte le età e nazionalità e a concorrenti di tutte le formazioni fino a un massimo di 6 elementi;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 27,
+    "page number" : 2,
+    "bounding box" : [ 42.55, 309.283, 552.79, 350.17 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Considerato che la manifestazione è volta a dare un forte impulso alla crescita tecnica, artistica e professionale sia dei giovani talent che dei musicisti professionisti della musica classica, in cerca di nuove possibilità e di nuovi circuiti in cui accreditarsi, aumentando l’ampiezza del loro network professionale;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 28,
+    "page number" : 2,
+    "bounding box" : [ 42.55, 254.087, 552.802, 294.974 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Tenuto conto che “Perfezione tecnica, qualità interpretative, capacità di fraseggio, presenza scenica, comunicativa, empatia, abilità nel concepire programmi musicali interessanti” sono le qualità principali su cui si baseranno le valutazioni tecniche delle prestigiose Giurie del Musica Italia;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 29,
+    "page number" : 2,
+    "bounding box" : [ 42.55, 212.69, 552.802, 239.778 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Preso atto che il concorso si avvale del partenariato della Regione Molise, del Conservatorio Statale di Musica “L. Perosi”, del Convitto Nazionale “M. Pagano” e di sponsor privati;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 30,
+    "page number" : 2,
+    "bounding box" : [ 42.55, 171.293, 552.802, 198.381 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Dato atto della rilevanza culturale e artistica dell’iniziativa in questione avente anche una funzione di promozione del territorio;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 31,
+    "page number" : 2,
+    "bounding box" : [ 42.55, 102.298, 552.802, 156.984 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Considerato che l’art. 5, lett. b), del Regolamento comunale per la concessione di sovvenzioni, contributi e attribuzioni di vantaggi economici consente l’intervento finanziario del Comune “per l’effettuazione di manifestazioni, iniziative e progetti di interesse diretto del Comune o comunque relative alla cittadinanza del Capoluogo”;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 32,
+    "page number" : 2,
+    "bounding box" : [ 42.55, 60.901, 552.79, 87.989 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Visto l’art. 5, lett. e), del precitato Regolamento comunale, modificato con delibera di C.C. n. 51 del 9/10/2003, che prevede che l’intervento del Comune per le concessioni di cui alla suddetta lett. b) “può"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 34,
+    "page number" : 3,
+    "bounding box" : [ 42.55, 758.053, 552.802, 798.94 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "riguardare massimo il 30% della spesa preventivata per la manifestazione, l’iniziativa o il progetto” e che “il contributo non può in ogni caso essere superiore alla differenza tra le spese sostenute ed i ricavi conseguiti”;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 35,
+    "page number" : 3,
+    "bounding box" : [ 42.55, 675.259, 559.942, 743.744 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Ritenuto che tale iniziativa rientra nelle finalità istituzionali dell’Ente in quanto mira a conseguire l’interesse della collettività cittadina, conformemente all’art. 1, n. 5, dello Statuto Comunale, ai sensi del quale il Comune si impegna a promuovere e sviluppare la cultura come fattore di identità cittadina e regionale molisana ed è perfettamente coerente con gli scopi che si propone di realizzare l’Assessorato alla Cultura;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 36,
+    "page number" : 3,
+    "bounding box" : [ 42.55, 620.063, 559.954, 660.95 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Ritenuto, altresì, che la partecipazione dell’Ente alla realizzazione di iniziative culturali di particolare rilievo artistico e mediatico rappresenta un efficace strumento di promozione dell’immagine della città e di sostegno alle attività culturali del territorio;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 37,
+    "page number" : 3,
+    "bounding box" : [ 42.55, 564.867, 552.802, 605.754 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Ritenuto, in considerazione della rilevanza di detta iniziativa, di prevedere un contributo di euro 2.000,00 per la realizzazione della terza edizione del “Musica Italia Grand Prize”, in programma a Campobasso dal 13 al 19 Aprile 2026, a cura dell’Associazione Culturale Musica Cultura e Territorio;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 38,
+    "page number" : 3,
+    "bounding box" : [ 42.55, 509.671, 552.79, 550.558 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Ritenuto, inoltre, di demandare al Responsabile del Servizio l’assunzione dell’impegno di spesa di euro 2.000,00 sul Capitolo 4660 – Bilancio 2026 – “Contributi ad Enti Teatrali Istituti ed Associazioni per Finalità Culturali e Musicali”;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 39,
+    "page number" : 3,
+    "bounding box" : [ 42.55, 468.274, 552.802, 495.362 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Ritenuto, poi, di erogare la predetta somma a iniziativa avvenuta e previa presentazione della rendicontazione delle spese sostenute;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 40,
+    "page number" : 3,
+    "bounding box" : [ 42.55, 413.078, 552.802, 453.965 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Valutati gli aspetti sostanziali della presente deliberazione, il Dirigente del Settore competente a rilasciare il parere di regolarità tecnica ai sensi dell’art. 49, comma 1, del D. Lgs. n.267/00, dichiara che la stessa comporta riflessi diretti sul bilancio e sulla situazione economica e finanziaria dell’Ente;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 41,
+    "page number" : 3,
+    "bounding box" : [ 42.55, 330.284, 529.39, 398.769 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Visti i pareri favorevoli di regolarità tecnica e contabile resi ai sensi dell’art. 49 del D.Lgs. 267/2000; Visto il vigente Statuto comunale; Visto il D.Lgs. n. 267/2000 e s.m.i.;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 42,
+    "page number" : 3,
+    "bounding box" : [ 42.55, 276.238, 549.946, 317.125 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Vista la Deliberazione di Giunta Comunale n. 105 del 13/04/2022 avente ad oggetto: \"Svolgimento delle sedute di Giunta Comunale in audioconferenza, videoconferenza e/o teleconferenza. Aggiornamento linee guida approvate con Delibera di Giunta Comunale n. 59 del 09/03/2020\"."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 43,
+    "page number" : 3,
+    "bounding box" : [ 42.55, 248.64, 322.438, 261.929 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Con votazione unanime e palese, resa nelle forme di legge"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H3",
+    "id" : 44,
+    "level" : "Subtitle",
+    "page number" : 3,
+    "bounding box" : [ 264.908, 221.042, 327.584, 234.331 ],
+    "heading level" : 3,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "DELIBERA"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 45,
+    "page number" : 3,
+    "bounding box" : [ 42.55, 195.744, 431.17, 209.033 ],
+    "font" : "TimesNewRomanPS-ItalicMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Per i motivi espressi in narrativa, che qui si intendono integralmente richiamati:"
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 46,
+    "level" : "1",
+    "page number" : 3,
+    "bounding box" : [ 60.55, 57.754, 552.802, 181.435 ],
+    "numbering style" : "unordered",
+    "number of list items" : 4,
+    "next list id" : 49,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 60.55, 126.749, 552.802, 181.435 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "- di approvare la concessione di un contributo di euro 2.000,00 in favore dell’Associazione Culturale Musica Cultura e Territorio per la realizzazione della terza edizione del “Musica Italia Grand Prize”, in programma a Campobasso dal 13 al 19 Aprile 2026, da destinare a n. 2 borse di studio da assegnare nella sezione “Grand Prize”;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 60.55, 99.151, 552.79, 126.239 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "- di dare atto che l'iniziativa in parola rientra nelle finalità istituzionali dell’Ente in quanto mira a conseguire l’interesse della collettività cittadina;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 60.55, 71.553, 552.79, 98.641 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "- di dare atto, altresì, che la suindicata spesa non si pone in contrasto con le norme di cui alla L. n. 94/2012, alla L. n. 135/2012, alla L. n. 89/2014 e di cui all’art. 6 della L. n. 122/2010;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 60.55, 57.754, 552.79, 71.043 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "- di demandare al Dirigente del Settore Politiche Culturali, del Turismo e della Pubblica Istruzione",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 49,
+    "level" : "1",
+    "page number" : 4,
+    "bounding box" : [ 60.55, 592.465, 552.802, 798.94 ],
+    "numbering style" : "unordered",
+    "number of list items" : 4,
+    "previous list id" : 46,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "id" : 48,
+      "page number" : 4,
+      "bounding box" : [ 78.55, 716.656, 552.802, 798.94 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "l’adozione dei necessari e successivi atti amministrativi e gestionali conseguenti alla presente deliberazione, ivi comprese l’assunzione del relativo impegno di spesa, per un importo complessivo di euro 2.000,00, sul Capitolo 4660 – Bilancio 2026 – “Contributi ad Enti Teatrali Istituti ed Associazioni per Finalità Culturali e Musicali, ecc.”, e la liquidazione del contributo in questione a iniziativa avvenuta e previa presentazione della relativa rendicontazione contabile inerente alle spese e ai ricavi;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 4,
+      "bounding box" : [ 60.55, 689.058, 552.79, 716.146 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "- di stabilire che l’Associazione in questione, soggetto organizzatore della sopra indicata iniziativa, dovrà acquisire, prima dello svolgimento della stessa, tutte le necessarie autorizzazioni;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 4,
+      "bounding box" : [ 60.55, 633.862, 552.802, 688.548 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "- di dare atto che l’Amministrazione Comunale è esonerata da ogni responsabilità per eventuali danni alle strutture, a persone o cose che abbiano a verificarsi durante lo svolgimento della suindicata iniziativa, per cui ogni responsabilità graverà sul soggetto organizzatore e realizzatore della stessa, che dovrà provvedere a tutti gli adempimenti, inclusi quelli inerenti alla sicurezza;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 4,
+      "bounding box" : [ 60.55, 592.465, 552.79, 633.352 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "- di dichiarare, con separata ed unanime votazione palese, il presente atto immediatamente eseguibile ai sensi dell'articolo 134, comma 4, del decreto legislativo 18 agosto 2000, n. 267, stante l’urgenza di provvedere, in considerazione dell’imminenza dell’iniziativa.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 50,
+    "page number" : 4,
+    "bounding box" : [ 42.55, 475.174, 307.786, 488.463 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Il presente verbale viene sottoscritto con firma digitale."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 51,
+    "page number" : 4,
+    "bounding box" : [ 132.102, 433.777, 487.03, 460.865 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "La Sindaca Il Segretario Generale Marialuisa Forte Anna Maria Guglielmi"
+  } ]
+}

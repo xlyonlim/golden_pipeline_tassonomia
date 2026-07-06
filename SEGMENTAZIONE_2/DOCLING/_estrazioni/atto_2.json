@@ -1,0 +1,2837 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.10.0",
+  "name": "atto_2",
+  "origin": {
+    "mimetype": "application/pdf",
+    "binary_hash": 16791459893925151677,
+    "filename": "atto_2.pdf"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/tables/0"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/groups/2"
+      },
+      {
+        "$ref": "#/texts/26"
+      },
+      {
+        "$ref": "#/texts/27"
+      },
+      {
+        "$ref": "#/groups/3"
+      },
+      {
+        "$ref": "#/texts/30"
+      },
+      {
+        "$ref": "#/texts/31"
+      },
+      {
+        "$ref": "#/texts/32"
+      },
+      {
+        "$ref": "#/texts/33"
+      },
+      {
+        "$ref": "#/texts/34"
+      },
+      {
+        "$ref": "#/groups/4"
+      },
+      {
+        "$ref": "#/texts/38"
+      },
+      {
+        "$ref": "#/texts/39"
+      },
+      {
+        "$ref": "#/texts/40"
+      },
+      {
+        "$ref": "#/groups/5"
+      },
+      {
+        "$ref": "#/texts/64"
+      },
+      {
+        "$ref": "#/texts/65"
+      },
+      {
+        "$ref": "#/texts/66"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/10"
+        },
+        {
+          "$ref": "#/texts/11"
+        },
+        {
+          "$ref": "#/texts/12"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/16"
+        },
+        {
+          "$ref": "#/texts/17"
+        },
+        {
+          "$ref": "#/texts/18"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/21"
+        },
+        {
+          "$ref": "#/texts/22"
+        },
+        {
+          "$ref": "#/texts/23"
+        },
+        {
+          "$ref": "#/texts/24"
+        },
+        {
+          "$ref": "#/texts/25"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "key_value_area"
+    },
+    {
+      "self_ref": "#/groups/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/28"
+        },
+        {
+          "$ref": "#/texts/29"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/35"
+        },
+        {
+          "$ref": "#/texts/36"
+        },
+        {
+          "$ref": "#/texts/37"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/41"
+        },
+        {
+          "$ref": "#/texts/42"
+        },
+        {
+          "$ref": "#/texts/43"
+        },
+        {
+          "$ref": "#/texts/44"
+        },
+        {
+          "$ref": "#/texts/45"
+        },
+        {
+          "$ref": "#/texts/46"
+        },
+        {
+          "$ref": "#/texts/47"
+        },
+        {
+          "$ref": "#/texts/48"
+        },
+        {
+          "$ref": "#/texts/49"
+        },
+        {
+          "$ref": "#/texts/50"
+        },
+        {
+          "$ref": "#/texts/51"
+        },
+        {
+          "$ref": "#/texts/52"
+        },
+        {
+          "$ref": "#/texts/53"
+        },
+        {
+          "$ref": "#/texts/54"
+        },
+        {
+          "$ref": "#/texts/55"
+        },
+        {
+          "$ref": "#/texts/56"
+        },
+        {
+          "$ref": "#/texts/57"
+        },
+        {
+          "$ref": "#/texts/58"
+        },
+        {
+          "$ref": "#/texts/59"
+        },
+        {
+          "$ref": "#/texts/60"
+        },
+        {
+          "$ref": "#/texts/61"
+        },
+        {
+          "$ref": "#/texts/62"
+        },
+        {
+          "$ref": "#/texts/63"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "form_area"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 193.11000061,
+            "t": 792.8310255840624,
+            "r": 457.78200061,
+            "b": 773.0913892204261,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            17
+          ]
+        }
+      ],
+      "orig": "COMUNE DI AUSONIA",
+      "text": "COMUNE DI AUSONIA",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 234.95000457999998,
+            "t": 766.8640247540625,
+            "r": 414.44600457999996,
+            "b": 752.0592974813352,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            22
+          ]
+        }
+      ],
+      "orig": "Provincia di Frosinone",
+      "text": "Provincia di Frosinone",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 130.50699996999998,
+            "t": 678.2560247040625,
+            "r": 517.8869999700001,
+            "b": 666.7412368252745,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            44
+          ]
+        }
+      ],
+      "orig": "COPIA DI DELIBERAZIONE DELLA GIUNTA COMUNALE",
+      "text": "COPIA DI DELIBERAZIONE DELLA GIUNTA COMUNALE",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 219.72599793,
+            "t": 635.2540186140625,
+            "r": 429.0679979299998,
+            "b": 622.8818550781509,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            33
+          ]
+        }
+      ],
+      "orig": "Verbale n.  43    del  11-06-2026",
+      "text": "Verbale n.  43    del  11-06-2026",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 92.15000153,
+            "t": 605.8000240140625,
+            "r": 555.5300030599997,
+            "b": 560.6097619655542,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            277
+          ]
+        }
+      ],
+      "orig": "OGGETTO:  Conferimento incarico a Legale di fiducia per recupero spese di lite liquidate in favore  del  Comune  di  Ausonia,  nei  confronti  del  Sig.  A.  Miele  a  seguito  della Sentenza  n.°  819/2017  del  Tribunale  di  Cassino  e  05014/2023  del  Consiglio  di Stato.",
+      "text": "OGGETTO:  Conferimento incarico a Legale di fiducia per recupero spese di lite liquidate in favore  del  Comune  di  Ausonia,  nei  confronti  del  Sig.  A.  Miele  a  seguito  della Sentenza  n.°  819/2017  del  Tribunale  di  Cassino  e  05014/2023  del  Consiglio  di Stato."
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 92.15000153,
+            "t": 544.8550319540625,
+            "r": 556.0820015300003,
+            "b": 492.85332004185256,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            297
+          ]
+        }
+      ],
+      "orig": "L'anno  duemilaventisei, il giorno  undici del mese di giugno alle ore 13:05 e seg. in Ausonia e nella residenza municipale, nella sala delle adunanze, previa l'osservanza di tutte le formalità prescritte dalle vigenti leggi, sono stati oggi convocati in seduta i componenti della Giunta Comunale.",
+      "text": "L'anno  duemilaventisei, il giorno  undici del mese di giugno alle ore 13:05 e seg. in Ausonia e nella residenza municipale, nella sala delle adunanze, previa l'osservanza di tutte le formalità prescritte dalle vigenti leggi, sono stati oggi convocati in seduta i componenti della Giunta Comunale."
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 162.95000153,
+            "t": 475.8600368340625,
+            "r": 389.7500015300001,
+            "b": 465.25532523185257,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            42
+          ]
+        }
+      ],
+      "orig": "Fatto normale appello nominale, risultano:",
+      "text": "Fatto normale appello nominale, risultano:"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 92.15000153,
+            "t": 315.1640224340624,
+            "r": 556.0820015300005,
+            "b": 263.16231052185253,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            304
+          ]
+        }
+      ],
+      "orig": "Assiste il Segretario Comunale Erminio VERNILE, il quale provvede alla redazione del presente  verbale.  Essendo  legale  il  numero  degli  intervenuti,  il  Dott.  Benedetto CARDILLO  -  Sindaco,  assume  la  Presidenza  e  dichiara  aperta  la  seduta  per  la trattazione dell'oggetto sopra indicato.",
+      "text": "Assiste il Segretario Comunale Erminio VERNILE, il quale provvede alla redazione del presente  verbale.  Essendo  legale  il  numero  degli  intervenuti,  il  Dott.  Benedetto CARDILLO  -  Sindaco,  assume  la  Presidenza  e  dichiara  aperta  la  seduta  per  la trattazione dell'oggetto sopra indicato."
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 92.15000153,
+            "t": 259.96800802406244,
+            "r": 95.48600153,
+            "b": 249.3632964218525,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": ".",
+      "text": "."
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 754.7340266640624,
+            "r": 98.19399924,
+            "b": 744.8642084822443,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            9
+          ]
+        }
+      ],
+      "orig": "Premesso:",
+      "text": "Premesso:",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 60.54999924,
+            "t": 740.9460246440624,
+            "r": 506.1459992399999,
+            "b": 689.7122090022442,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            296
+          ]
+        }
+      ],
+      "orig": "-che , a seguito di vertenza promossa dal Sig. Antonio Miele innanzi al Tribunale Civile di Cassino fu emessa Sentenza favorevole al Comune di Ausonia n.° 819/2017 con la quale il Miele veniva condannato al pagamento delle spese legali in favore del Comune di Ausonia per complessivi €. 7.232,96;",
+      "text": "-che , a seguito di vertenza promossa dal Sig. Antonio Miele innanzi al Tribunale Civile di Cassino fu emessa Sentenza favorevole al Comune di Ausonia n.° 819/2017 con la quale il Miele veniva condannato al pagamento delle spese legali in favore del Comune di Ausonia per complessivi €. 7.232,96;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 60.54999924,
+            "t": 685.7940242240625,
+            "r": 506.1459992399999,
+            "b": 634.5602085822443,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            348
+          ]
+        }
+      ],
+      "orig": "-che ,  a  seguito  di  successivo  Ricorso  promosso  dal  medesimo  Sig.  Antonio  Miele innanzi al Consiglio di Stato fu, parimenti, emessa Sentenza favorevole al Comune di Ausonia  n.°  05014/2023  con  la  quale  il  ricorrente  Miele  veniva  condannato  al pagamento delle spese legali in favore di questo Comune per complessivi €. 5.836,48;",
+      "text": "-che ,  a  seguito  di  successivo  Ricorso  promosso  dal  medesimo  Sig.  Antonio  Miele innanzi al Consiglio di Stato fu, parimenti, emessa Sentenza favorevole al Comune di Ausonia  n.°  05014/2023  con  la  quale  il  ricorrente  Miele  veniva  condannato  al pagamento delle spese legali in favore di questo Comune per complessivi €. 5.836,48;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 60.54999924,
+            "t": 630.6420314240625,
+            "r": 506.14599924000015,
+            "b": 551.8322117522443,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            491
+          ]
+        }
+      ],
+      "orig": "-che ,  pertanto,  la  parte  soccombente  è  risultata  condannata  alla  rifusione  delle  spese legali nei confronti dell'Ente, nei due giudizi, per complessivi €. 13.069,44, somma che questo Comune era tenuto a liquidare all'Avv.to Ivan Caserta, con Studio in Pontecorvo (FR)  in  quanto  incaricato  della  difesa  degli  interessi  del  Comune  in  ambedue  i sopracitati  procedimenti,  giuste  Deliberazioni  della  Giunta  Comunale  n.°  113  del 05.10.2015 e n.° 48 del 15.05.2017;",
+      "text": "-che ,  pertanto,  la  parte  soccombente  è  risultata  condannata  alla  rifusione  delle  spese legali nei confronti dell'Ente, nei due giudizi, per complessivi €. 13.069,44, somma che questo Comune era tenuto a liquidare all'Avv.to Ivan Caserta, con Studio in Pontecorvo (FR)  in  quanto  incaricato  della  difesa  degli  interessi  del  Comune  in  ambedue  i sopracitati  procedimenti,  giuste  Deliberazioni  della  Giunta  Comunale  n.°  113  del 05.10.2015 e n.° 48 del 15.05.2017;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 534.1260402140624,
+            "r": 506.1459992399999,
+            "b": 496.6802227722443,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            267
+          ]
+        }
+      ],
+      "orig": "Considerato che, a fronte della complessiva somma dovuta dalla parte soccombente pari ad €. 13.069,44,  ad  oggi  il  Sig.  Antonio  Miele,  nonostante  ripetuti  solleciti,  è  ancora  debitore  nei confronti del Comune di Ausonia di un importo pari ad €. 10.569,44;",
+      "text": "Considerato che, a fronte della complessiva somma dovuta dalla parte soccombente pari ad €. 13.069,44,  ad  oggi  il  Sig.  Antonio  Miele,  nonostante  ripetuti  solleciti,  è  ancora  debitore  nei confronti del Comune di Ausonia di un importo pari ad €. 10.569,44;"
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 478.9740321540625,
+            "r": 506.14599924000004,
+            "b": 441.52821471224433,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            273
+          ]
+        }
+      ],
+      "orig": "Ravvisata ,  pertanto,  l'opportunità  di  agire  stragiudizialmente,  prima,  ed  eventualmente  in giudizio, poi, al fine di ottenere il pagamento delle sopra quantificate spese legali conferendo incarico ad un Legale di fiducia a tutela degli interessi di questo Comune;",
+      "text": "Ravvisata ,  pertanto,  l'opportunità  di  agire  stragiudizialmente,  prima,  ed  eventualmente  in giudizio, poi, al fine di ottenere il pagamento delle sopra quantificate spese legali conferendo incarico ad un Legale di fiducia a tutela degli interessi di questo Comune;"
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 423.8220240940625,
+            "r": 506.14599924,
+            "b": 372.5882084522443,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            394
+          ]
+        }
+      ],
+      "orig": "Vista la nota pervenuta in data 12.05.2026 (acquisita al protocollo con il n.° 2965), con la quale l'Avv.  Emiliano  Simeone,  con  Studio  in  Spigno  Saturnia  (LT)  -  Piazza  Dante  n.°  1,  previ informali contatti, ha manifestato la propria disponibilità ad accettare l'incarico professionale di cui trattasi a tutela del Comune verso il corrispettivo di seguito analiticamente riportato:",
+      "text": "Vista la nota pervenuta in data 12.05.2026 (acquisita al protocollo con il n.° 2965), con la quale l'Avv.  Emiliano  Simeone,  con  Studio  in  Spigno  Saturnia  (LT)  -  Piazza  Dante  n.°  1,  previ informali contatti, ha manifestato la propria disponibilità ad accettare l'incarico professionale di cui trattasi a tutela del Comune verso il corrispettivo di seguito analiticamente riportato:"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 60.54999924,
+            "t": 368.6700160440625,
+            "r": 297.92199886000014,
+            "b": 358.80019786224426,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            48
+          ]
+        }
+      ],
+      "orig": "-€. 492,00 per Atto di significazione e diffida;",
+      "text": "-€. 492,00 per Atto di significazione e diffida;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 60.54999924,
+            "t": 354.8820216540625,
+            "r": 349.2339988600001,
+            "b": 345.01220347224427,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            56
+          ]
+        }
+      ],
+      "orig": "-€. 808,88 per eventuale Ricorso per Decreto Ingiuntivo;",
+      "text": "-€. 808,88 per eventuale Ricorso per Decreto Ingiuntivo;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 60.54999924,
+            "t": 341.0940272740625,
+            "r": 275.5899988600001,
+            "b": 331.2242090922443,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            42
+          ]
+        }
+      ],
+      "orig": "-€. 276,12 per eventuale Atto di Precetto;",
+      "text": "-€. 276,12 per eventuale Atto di Precetto;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 327.30603288406246,
+            "r": 506.14599924,
+            "b": 303.6482136422443,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            153
+          ]
+        }
+      ],
+      "orig": "il tutto per un ammontare massimo complessivo di €. 1.577,00 oltre spese per eventuale azione esecutiva mobiliare/immobiliare nei confronti del debitore;",
+      "text": "il tutto per un ammontare massimo complessivo di €. 1.577,00 oltre spese per eventuale azione esecutiva mobiliare/immobiliare nei confronti del debitore;"
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 285.9420192140625,
+            "r": 268.52199924000007,
+            "b": 276.07220103224427,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            46
+          ]
+        }
+      ],
+      "orig": "Valutata l'opportunità di procedere in merito;",
+      "text": "Valutata l'opportunità di procedere in merito;"
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 252.3660304440624,
+            "r": 384.8379992400001,
+            "b": 242.49621226224428,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            72
+          ]
+        }
+      ],
+      "orig": "Valutata , altresì, la propria competenza ai sensi del D. Lgs. 267/2000;",
+      "text": "Valutata , altresì, la propria competenza ai sensi del D. Lgs. 267/2000;"
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 232.57800554406242,
+            "r": 233.34999924000002,
+            "b": 222.7081873622443,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            39
+          ]
+        }
+      ],
+      "orig": "Visto il D.Lgs. n.° 267 del 18.08.2000;",
+      "text": "Visto il D.Lgs. n.° 267 del 18.08.2000;"
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 218.79004167406242,
+            "r": 69.21399923999999,
+            "b": 208.9202234922443,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "Visto",
+      "text": "Visto"
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 69.21399923999999,
+            "t": 218.79004167406242,
+            "r": 210.21399924000005,
+            "b": 208.9202234922443,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            28
+          ]
+        }
+      ],
+      "orig": "il vigente Statuto comunale;",
+      "text": "il vigente Statuto comunale;"
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 205.00201677406244,
+            "r": 506.14599923999987,
+            "b": 181.34419753224427,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            107
+          ]
+        }
+      ],
+      "orig": "Acquisiti i pareri di regolarità tecnica e contabile ai sensi dell'Art. 49 del TUEL 267/00 e ss. mm. e ii.;",
+      "text": "Acquisiti i pareri di regolarità tecnica e contabile ai sensi dell'Art. 49 del TUEL 267/00 e ss. mm. e ii.;"
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 163.63800310406248,
+            "r": 324.81399924000004,
+            "b": 153.76818492224436,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            56
+          ]
+        }
+      ],
+      "orig": "Con votazione unanime e favorevole resa in forma palese;",
+      "text": "Con votazione unanime e favorevole resa in forma palese;"
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 231.01200486000002,
+            "t": 136.06201433406238,
+            "r": 317.6880048599999,
+            "b": 126.19219615224426,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            15
+          ]
+        }
+      ],
+      "orig": "D E L I B E R A",
+      "text": "D E L I B E R A",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 108.4860255640624,
+            "r": 440.40999923999993,
+            "b": 84.82820632224423,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            99
+          ]
+        }
+      ],
+      "orig": "1 )-Di considerare la premessa narrativa parte integrante e sostanziale del presente provvedimento;",
+      "text": "1 )-Di considerare la premessa narrativa parte integrante e sostanziale del presente provvedimento;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 67.12201189406244,
+            "r": 506.14599924000004,
+            "b": 43.464192652244265,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            204
+          ]
+        }
+      ],
+      "orig": "2)-  Di  conferire  incarico  professionale  in  via  stragiudiziale  ed,  eventualmente,  giudiziale innanzi  agli  Organi  di  Giustizia  competenti,  nei  confronti  del  Sig.  Antonio  Miele,  nato  a",
+      "text": "2)-  Di  conferire  incarico  professionale  in  via  stragiudiziale  ed,  eventualmente,  giudiziale innanzi  agli  Organi  di  Giustizia  competenti,  nei  confronti  del  Sig.  Antonio  Miele,  nato  a",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 201.85299301,
+            "t": 782.3100249640624,
+            "r": 346.8489930099999,
+            "b": 772.4402067822443,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            18
+          ]
+        }
+      ],
+      "orig": "LA GIUNTA COMUNALE",
+      "text": "LA GIUNTA COMUNALE",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 92.15000153,
+            "t": 796.0980250740624,
+            "r": 555.7460015300001,
+            "b": 731.0762074222442,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            412
+          ]
+        }
+      ],
+      "orig": "Formia (LT) il 22 luglio 1960 ed ivi residente, alla via Virgilio, n.° 15, al fine di recuperare la somma complessiva di €. 10.569,44 oltre ogni accessorio di legge, dovuta dal Sig. A. Miele medesimo a titolo di rifusione delle spese legali in favore del Comune di Ausonia a seguito della Sentenza emessa dal Tribunale Civile di Cassino n.° 819/2017 e della Sentenza emessa dal Consiglio di Stato n.° 05014/2023;",
+      "text": "Formia (LT) il 22 luglio 1960 ed ivi residente, alla via Virgilio, n.° 15, al fine di recuperare la somma complessiva di €. 10.569,44 oltre ogni accessorio di legge, dovuta dal Sig. A. Miele medesimo a titolo di rifusione delle spese legali in favore del Comune di Ausonia a seguito della Sentenza emessa dal Tribunale Civile di Cassino n.° 819/2017 e della Sentenza emessa dal Consiglio di Stato n.° 05014/2023;"
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 92.15000153,
+            "t": 713.3700282440625,
+            "r": 555.7460015300001,
+            "b": 675.9242108022444,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            223
+          ]
+        }
+      ],
+      "orig": "3)-  Di  autorizzare  il  Sindaco,  in  qualità  di  Legale  Rappresentante  dell'Ente,  a  costituirsi  in giudizio in nome e per conto del Comune di Ausonia con conseguente potere di sottoscrizione del mandato 'ad litem';",
+      "text": "3)-  Di  autorizzare  il  Sindaco,  in  qualità  di  Legale  Rappresentante  dell'Ente,  a  costituirsi  in giudizio in nome e per conto del Comune di Ausonia con conseguente potere di sottoscrizione del mandato 'ad litem';"
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 92.15000153,
+            "t": 658.2180201940624,
+            "r": 555.74600153,
+            "b": 606.9842045522443,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            314
+          ]
+        }
+      ],
+      "orig": "4)-Di Nominare, per le finalità di cui al precedente punto n.° 2 del presente deliberato, l'Avv. Emiliano Simeone, con Studio in Spigno Saturnia (LT) - Piazza Dante n.° 1, per la difesa degli interessi  del  Comune con ampia facoltà di dire, eccepire, dedurre quanto riterrà necessario e conveniente per il Comune;",
+      "text": "4)-Di Nominare, per le finalità di cui al precedente punto n.° 2 del presente deliberato, l'Avv. Emiliano Simeone, con Studio in Spigno Saturnia (LT) - Piazza Dante n.° 1, per la difesa degli interessi  del  Comune con ampia facoltà di dire, eccepire, dedurre quanto riterrà necessario e conveniente per il Comune;"
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 92.15000153,
+            "t": 589.2780177540624,
+            "r": 555.7340015300001,
+            "b": 565.6201985122442,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            131
+          ]
+        }
+      ],
+      "orig": "5)- Di dare atto che alla succitata Professionista sarà riconosciuto il compenso professionale di seguito analiticamente riportato:",
+      "text": "5)- Di dare atto che alla succitata Professionista sarà riconosciuto il compenso professionale di seguito analiticamente riportato:"
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 110.15000153,
+            "t": 561.7020289840624,
+            "r": 347.52200115000016,
+            "b": 551.8322108022443,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            48
+          ]
+        }
+      ],
+      "orig": "-€. 492,00 per Atto di significazione e diffida;",
+      "text": "-€. 492,00 per Atto di significazione e diffida;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 110.15000153,
+            "t": 547.9140193340625,
+            "r": 398.8340011500001,
+            "b": 538.0442011522443,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            56
+          ]
+        }
+      ],
+      "orig": "-€. 808,88 per eventuale Ricorso per Decreto Ingiuntivo;",
+      "text": "-€. 808,88 per eventuale Ricorso per Decreto Ingiuntivo;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 110.15000153,
+            "t": 534.1260402140624,
+            "r": 325.19000115000006,
+            "b": 524.2562220322443,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            42
+          ]
+        }
+      ],
+      "orig": "-€. 276,12 per eventuale Atto di Precetto;",
+      "text": "-€. 276,12 per eventuale Atto di Precetto;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 92.15000153,
+            "t": 520.3380153040624,
+            "r": 555.7460015300001,
+            "b": 496.68019606224425,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            153
+          ]
+        }
+      ],
+      "orig": "il tutto per un ammontare massimo complessivo di €. 1.577,00 oltre spese per eventuale azione esecutiva mobiliare/immobiliare nei confronti del debitore;",
+      "text": "il tutto per un ammontare massimo complessivo di €. 1.577,00 oltre spese per eventuale azione esecutiva mobiliare/immobiliare nei confronti del debitore;"
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 92.15000153,
+            "t": 478.9740321540625,
+            "r": 555.7460015300001,
+            "b": 441.52821471224433,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            220
+          ]
+        }
+      ],
+      "orig": "6)-  Di  stanziare  ed  impegnare  la  suddetta  somma  a  valere  sul  Bilancio  di  Previsione  2026, gestione  competenza  -  Cap.  1058-  Codice  01.11-1.10.05.04.001  'Spese  per  liti,  arbitraggi  e risarcimenti';",
+      "text": "6)-  Di  stanziare  ed  impegnare  la  suddetta  somma  a  valere  sul  Bilancio  di  Previsione  2026, gestione  competenza  -  Cap.  1058-  Codice  01.11-1.10.05.04.001  'Spese  per  liti,  arbitraggi  e risarcimenti';"
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 92.15000153,
+            "t": 423.8220240940625,
+            "r": 555.74600153,
+            "b": 386.3582050922443,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            210
+          ]
+        }
+      ],
+      "orig": "Di dichiarare con separata, favorevole e palese votazione, il presente provvedimento immediatamente  eseguibile  ai  sensi  e  per  gli  effetti  dell'articolo  134,  comma  4,  del  D.  Lgs. 18.08.2000 n. 267.",
+      "text": "Di dichiarare con separata, favorevole e palese votazione, il presente provvedimento immediatamente  eseguibile  ai  sensi  e  per  gli  effetti  dell'articolo  134,  comma  4,  del  D.  Lgs. 18.08.2000 n. 267."
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 772.6320258740625,
+            "r": 185.39999924000003,
+            "b": 763.7947662055542,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            33
+          ]
+        }
+      ],
+      "orig": "Letto, confermato e sottoscritto.",
+      "text": "Letto, confermato e sottoscritto."
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 129.71899796,
+            "t": 749.6340266840625,
+            "r": 183.05899796,
+            "b": 740.7967670155542,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            10
+          ]
+        }
+      ],
+      "orig": "IL Sindaco",
+      "text": "IL Sindaco"
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 330.68099595,
+            "t": 749.6340266840625,
+            "r": 453.50099594999995,
+            "b": 729.2977674155542,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            49
+          ]
+        }
+      ],
+      "orig": "IL Segretario Comunale f.to Dott. Erminio VERNILE",
+      "text": "IL Segretario Comunale f.to Dott. Erminio VERNILE"
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 85.52000046,
+            "t": 738.1350270840625,
+            "r": 227.26000046000001,
+            "b": 729.2977674155542,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            29
+          ]
+        }
+      ],
+      "orig": "f.to Dott. Benedetto CARDILLO",
+      "text": "f.to Dott. Benedetto CARDILLO"
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 71.57699966999999,
+            "t": 715.1370278940625,
+            "r": 241.20699967000004,
+            "b": 706.2997682255542,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            30
+          ]
+        }
+      ],
+      "orig": "______________________________",
+      "text": "______________________________"
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 307.27699662,
+            "t": 715.1370278940625,
+            "r": 476.90699662000003,
+            "b": 706.2997682255542,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            30
+          ]
+        }
+      ],
+      "orig": "______________________________",
+      "text": "______________________________"
+    },
+    {
+      "self_ref": "#/texts/47",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 77.94999924,
+            "t": 656.1420184740625,
+            "r": 328.04999924,
+            "b": 647.3047588055542,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            63
+          ]
+        }
+      ],
+      "orig": "Il sottoscritto Segretario Comunale, visti gli atti di ufficio:",
+      "text": "Il sottoscritto Segretario Comunale, visti gli atti di ufficio:"
+    },
+    {
+      "self_ref": "#/texts/48",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 249.79600144,
+            "t": 633.1440326340625,
+            "r": 298.68600144,
+            "b": 624.3067729655542,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            7
+          ]
+        }
+      ],
+      "orig": "ATTESTA",
+      "text": "ATTESTA",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/49",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 610.1460315340624,
+            "r": 180.96999924000002,
+            "b": 601.3087718655541,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            30
+          ]
+        }
+      ],
+      "orig": "Che la presente deliberazione:",
+      "text": "Che la presente deliberazione:"
+    },
+    {
+      "self_ref": "#/texts/50",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "checkbox_selected",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 577.4790222540624,
+            "r": 447.4999984799998,
+            "b": 566.3790222540624,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            85
+          ]
+        }
+      ],
+      "orig": " viene dichiarata immediatamente eseguibile (art. 134, 4° comma del D. Lvo 267/2000)",
+      "text": " viene dichiarata immediatamente eseguibile (art. 134, 4° comma del D. Lvo 267/2000)"
+    },
+    {
+      "self_ref": "#/texts/51",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "checkbox_unselected",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 554.4810211540625,
+            "r": 218.94999848000006,
+            "b": 543.3810211540625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            36
+          ]
+        }
+      ],
+      "orig": " è divenuta esecutiva il 11-06-2026",
+      "text": " è divenuta esecutiva il 11-06-2026"
+    },
+    {
+      "self_ref": "#/texts/52",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "checkbox_selected",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 519.9840118840625,
+            "r": 339.5499984799999,
+            "b": 508.8840118840625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            64
+          ]
+        }
+      ],
+      "orig": " viene comunicata in elenco ai Capigruppo Consiliari (art. 125)",
+      "text": " viene comunicata in elenco ai Capigruppo Consiliari (art. 125)"
+    },
+    {
+      "self_ref": "#/texts/53",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 212.83100367,
+            "t": 495.15602604406246,
+            "r": 335.65100366999997,
+            "b": 474.81976677555417,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            49
+          ]
+        }
+      ],
+      "orig": "IL Segretario Comunale f.to Dott. Erminio VERNILE",
+      "text": "IL Segretario Comunale f.to Dott. Erminio VERNILE"
+    },
+    {
+      "self_ref": "#/texts/54",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 189.42700053,
+            "t": 460.6590272540625,
+            "r": 359.05700053000004,
+            "b": 451.8217675855542,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            30
+          ]
+        }
+      ],
+      "orig": "______________________________",
+      "text": "______________________________"
+    },
+    {
+      "self_ref": "#/texts/55",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 401.6640216440625,
+            "r": 298.23999924000003,
+            "b": 392.8267619755542,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            61
+          ]
+        }
+      ],
+      "orig": "Il sottoscritto responsabile del servizio delle pubblicazioni",
+      "text": "Il sottoscritto responsabile del servizio delle pubblicazioni"
+    },
+    {
+      "self_ref": "#/texts/56",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 250.34699631,
+            "t": 378.66603580406246,
+            "r": 298.13699631,
+            "b": 369.82877613555416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            7
+          ]
+        }
+      ],
+      "orig": "ATTESTA",
+      "text": "ATTESTA",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/57",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 355.66801944406245,
+            "r": 505.92999924000003,
+            "b": 323.83276153555414,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            293
+          ]
+        }
+      ],
+      "orig": "Che la presente deliberazione è stata pubblicata, in data odierna, per 15 giorni consecutivi dal 15-06- 2026 al 30-06-2026 al numero 366 nel sito web istituzionale di questo Comune accessibile al pubblico al portale www.comunediausonia.it (art. 32, comma 1, della legge 18 giugno 2009, n. 69).",
+      "text": "Che la presente deliberazione è stata pubblicata, in data odierna, per 15 giorni consecutivi dal 15-06- 2026 al 30-06-2026 al numero 366 nel sito web istituzionale di questo Comune accessibile al pubblico al portale www.comunediausonia.it (art. 32, comma 1, della legge 18 giugno 2009, n. 69)."
+    },
+    {
+      "self_ref": "#/texts/58",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 298.17302433406246,
+            "r": 233.2099992400001,
+            "b": 289.33576466555417,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            41
+          ]
+        }
+      ],
+      "orig": "Dalla Residenza Municipale, lì 15-06-2026",
+      "text": "Dalla Residenza Municipale, lì 15-06-2026"
+    },
+    {
+      "self_ref": "#/texts/59",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 164.77399588999998,
+            "t": 275.1750079740625,
+            "r": 383.7039958900001,
+            "b": 254.83874870555428,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            67
+          ]
+        }
+      ],
+      "orig": "IL Responsabile Procedimento Pubblicazione f.to Sig. Onofrio CORENO",
+      "text": "IL Responsabile Procedimento Pubblicazione f.to Sig. Onofrio CORENO"
+    },
+    {
+      "self_ref": "#/texts/60",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 189.42699671999998,
+            "t": 240.6780091840625,
+            "r": 359.05699672000003,
+            "b": 231.8407495155542,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            30
+          ]
+        }
+      ],
+      "orig": "______________________________",
+      "text": "______________________________"
+    },
+    {
+      "self_ref": "#/texts/61",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 194.68202701406244,
+            "r": 501.37999924,
+            "b": 185.84476734555415,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            82
+          ]
+        }
+      ],
+      "orig": "__________________________________________________________________________________",
+      "text": "__________________________________________________________________________________"
+    },
+    {
+      "self_ref": "#/texts/62",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 92.20000077,
+            "t": 171.6840411740625,
+            "r": 390.11000077000006,
+            "b": 162.8467815055542,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            69
+          ]
+        }
+      ],
+      "orig": "Copia conforme all'originale, in carta libera per uso amministrativo.",
+      "text": "Copia conforme all'originale, in carta libera per uso amministrativo."
+    },
+    {
+      "self_ref": "#/texts/63",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 92.20000077,
+            "t": 148.68605533406242,
+            "r": 282.3100007700001,
+            "b": 139.84879566555412,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            41
+          ]
+        }
+      ],
+      "orig": "Dalla Residenza Municipale, li 15-06-2026",
+      "text": "Dalla Residenza Municipale, li 15-06-2026"
+    },
+    {
+      "self_ref": "#/texts/64",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 266.40199519000004,
+            "t": 125.68800846406248,
+            "r": 381.43199519000007,
+            "b": 116.85074879555418,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            22
+          ]
+        }
+      ],
+      "orig": "IL Segretario Comunale",
+      "text": "IL Segretario Comunale"
+    },
+    {
+      "self_ref": "#/texts/65",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 270.84299708000003,
+            "t": 114.18900886406243,
+            "r": 376.98299708,
+            "b": 105.35174919555425,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            21
+          ]
+        }
+      ],
+      "orig": "Dott. Erminio VERNILE",
+      "text": "Dott. Erminio VERNILE"
+    },
+    {
+      "self_ref": "#/texts/66",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 239.10199595,
+            "t": 91.19100967406246,
+            "r": 408.73199595000006,
+            "b": 82.35375000555416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            30
+          ]
+        }
+      ],
+      "orig": "______________________________",
+      "text": "______________________________"
+    }
+  ],
+  "pictures": [],
+  "tables": [
+    {
+      "self_ref": "#/tables/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "table",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 94.17060089111328,
+            "t": 453.13604736328125,
+            "r": 552.73388671875,
+            "b": 344.15594482421875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "data": {
+        "table_cells": [
+          {
+            "bbox": {
+              "l": 454.18998909,
+              "t": 396.61899170000004,
+              "r": 538.10998909,
+              "b": 405.4562513685083,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 2,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 4,
+            "text": "Presenti / Assenti",
+            "column_header": true,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 95.65000153,
+              "t": 418.74399361,
+              "r": 194.04000153000004,
+              "b": 427.5812532785083,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 1,
+            "end_row_offset_idx": 2,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "CARDILLO Benedetto",
+            "column_header": true,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 301.20000458,
+              "t": 418.74399361,
+              "r": 337.34000457999997,
+              "b": 427.5812532785083,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 1,
+            "end_row_offset_idx": 2,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "Sindaco",
+            "column_header": true,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 476.13798905,
+              "t": 418.74399361,
+              "r": 516.15798905,
+              "b": 427.5812532785083,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 2,
+            "start_row_offset_idx": 1,
+            "end_row_offset_idx": 2,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 4,
+            "text": "Presente",
+            "column_header": true,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 95.65000153,
+              "t": 440.54399285,
+              "r": 186.80000153,
+              "b": 449.3812525185083,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 2,
+            "end_row_offset_idx": 3,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "PINCHERA Stefania",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 301.20000458,
+              "t": 440.54399285,
+              "r": 359.57000458,
+              "b": 449.3812525185083,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 2,
+            "end_row_offset_idx": 3,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "Vice Sindaco",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 476.13798905,
+              "t": 440.54399285,
+              "r": 516.15798905,
+              "b": 449.3812525185083,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 2,
+            "end_row_offset_idx": 3,
+            "start_col_offset_idx": 3,
+            "end_col_offset_idx": 4,
+            "text": "Presente",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 95.65000153,
+              "t": 462.3439959,
+              "r": 179.02000153,
+              "b": 471.1812555685083,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 3,
+            "end_row_offset_idx": 4,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "STAGNO Gaetano",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 301.20000458,
+              "t": 462.3439959,
+              "r": 347.88000458,
+              "b": 471.1812555685083,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 3,
+            "end_row_offset_idx": 4,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "Assessore",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 476.13798905,
+              "t": 462.3439959,
+              "r": 516.15798905,
+              "b": 471.1812555685083,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 3,
+            "end_row_offset_idx": 4,
+            "start_col_offset_idx": 3,
+            "end_col_offset_idx": 4,
+            "text": "Presente",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 408.15700912999995,
+              "t": 484.11899074,
+              "r": 435.94700912999997,
+              "b": 492.9562504085083,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 4,
+            "end_row_offset_idx": 5,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "Totale",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 525.8810006,
+              "t": 484.11899074,
+              "r": 531.4410006,
+              "b": 492.9562504085083,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 4,
+            "end_row_offset_idx": 5,
+            "start_col_offset_idx": 3,
+            "end_col_offset_idx": 4,
+            "text": "0",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          }
+        ],
+        "num_rows": 5,
+        "num_cols": 4,
+        "grid": [
+          [
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 454.18998909,
+                "t": 396.61899170000004,
+                "r": 538.10998909,
+                "b": 405.4562513685083,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 2,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 4,
+              "text": "Presenti / Assenti",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 454.18998909,
+                "t": 396.61899170000004,
+                "r": 538.10998909,
+                "b": 405.4562513685083,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 2,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 4,
+              "text": "Presenti / Assenti",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 95.65000153,
+                "t": 418.74399361,
+                "r": 194.04000153000004,
+                "b": 427.5812532785083,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "CARDILLO Benedetto",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 301.20000458,
+                "t": 418.74399361,
+                "r": 337.34000457999997,
+                "b": 427.5812532785083,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "Sindaco",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 476.13798905,
+                "t": 418.74399361,
+                "r": 516.15798905,
+                "b": 427.5812532785083,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 2,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 4,
+              "text": "Presente",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 476.13798905,
+                "t": 418.74399361,
+                "r": 516.15798905,
+                "b": 427.5812532785083,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 2,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 4,
+              "text": "Presente",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 95.65000153,
+                "t": 440.54399285,
+                "r": 186.80000153,
+                "b": 449.3812525185083,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "PINCHERA Stefania",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 301.20000458,
+                "t": 440.54399285,
+                "r": 359.57000458,
+                "b": 449.3812525185083,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "Vice Sindaco",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 476.13798905,
+                "t": 440.54399285,
+                "r": 516.15798905,
+                "b": 449.3812525185083,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "Presente",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 95.65000153,
+                "t": 462.3439959,
+                "r": 179.02000153,
+                "b": 471.1812555685083,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "STAGNO Gaetano",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 301.20000458,
+                "t": 462.3439959,
+                "r": 347.88000458,
+                "b": 471.1812555685083,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "Assessore",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 476.13798905,
+                "t": 462.3439959,
+                "r": 516.15798905,
+                "b": 471.1812555685083,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "Presente",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 408.15700912999995,
+                "t": 484.11899074,
+                "r": 435.94700912999997,
+                "b": 492.9562504085083,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "Totale",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 525.8810006,
+                "t": 484.11899074,
+                "r": 531.4410006,
+                "b": 492.9562504085083,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "0",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ]
+        ]
+      },
+      "annotations": []
+    }
+  ],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {
+    "1": {
+      "size": {
+        "width": 595.2999877929688,
+        "height": 841.9000244140625
+      },
+      "page_no": 1
+    },
+    "2": {
+      "size": {
+        "width": 595.2999877929688,
+        "height": 841.9000244140625
+      },
+      "page_no": 2
+    },
+    "3": {
+      "size": {
+        "width": 595.2999877929688,
+        "height": 841.9000244140625
+      },
+      "page_no": 3
+    },
+    "4": {
+      "size": {
+        "width": 595.2999877929688,
+        "height": 841.9000244140625
+      },
+      "page_no": 4
+    }
+  }
+}

@@ -1,0 +1,1040 @@
+{
+  "file name" : "atto_46.pdf",
+  "number of pages" : 4,
+  "author" : "Erminio",
+  "title" : "ORIGINALE",
+  "creation date" : "D:20100629172300+02'00'",
+  "modification date" : "D:20260529121900+02'00'",
+  "kids" : [ {
+    "type" : "table",
+    "pdfua_tag" : "Table",
+    "id" : 8,
+    "level" : "1",
+    "page number" : 1,
+    "bounding box" : [ 65.25, 657.892, 526.3, 763.952 ],
+    "number of rows" : 1,
+    "number of columns" : 2,
+    "rows" : [ {
+      "type" : "table row",
+      "row number" : 1,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 65.5, 658.392, 184.3, 763.452 ],
+        "row number" : 1,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "image",
+          "pdfua_tag" : "Figure",
+          "id" : 1,
+          "page number" : 1,
+          "bounding box" : [ 79.0, 658.392, 170.8, 763.452 ],
+          "source" : "atto_46_images/imageFile1.png"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 184.3, 658.392, 526.05, 763.452 ],
+        "row number" : 1,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "heading",
+          "pdfua_tag" : "H1",
+          "id" : 2,
+          "level" : "Doctitle",
+          "page number" : 1,
+          "bounding box" : [ 241.154, 722.056, 469.178, 761.923 ],
+          "heading level" : 1,
+          "font" : "TimesNewRomanPS-BoldItalicMT",
+          "font size" : 36.0,
+          "text color" : "[0.0]",
+          "content" : "Città di Solofra"
+        }, {
+          "type" : "heading",
+          "pdfua_tag" : "H2",
+          "id" : 3,
+          "level" : "Subtitle",
+          "page number" : 1,
+          "bounding box" : [ 283.174, 703.658, 427.174, 721.377 ],
+          "heading level" : 2,
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 16.0,
+          "text color" : "[0.0]",
+          "content" : "Provincia di Avellino"
+        } ]
+      } ]
+    } ]
+  }, {
+    "type" : "text block",
+    "id" : 11,
+    "page number" : 1,
+    "bounding box" : [ 460.5, 629.294, 524.75, 646.393 ],
+    "kids" : [ {
+      "type" : "heading",
+      "pdfua_tag" : "H3",
+      "id" : 6,
+      "level" : "Subtitle",
+      "page number" : 1,
+      "bounding box" : [ 466.15, 629.794, 511.258, 645.298 ],
+      "heading level" : 3,
+      "font" : "TimesNewRomanPS-BoldMT",
+      "font size" : 14.0,
+      "text color" : "[0.0]",
+      "content" : "COPIA"
+    } ]
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H5",
+    "id" : 12,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 101.179, 602.846, 494.176, 615.027 ],
+    "heading level" : 5,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "DELLA DELIBERAZIONE DELLA GIUNTA COMUNALE N.94 DEL 28-05-2026"
+  }, {
+    "type" : "text block",
+    "id" : 10,
+    "page number" : 1,
+    "bounding box" : [ 66.675, 518.622, 562.675, 588.322 ],
+    "kids" : [ {
+      "type" : "heading",
+      "pdfua_tag" : "H3",
+      "id" : 4,
+      "level" : "Subtitle",
+      "page number" : 1,
+      "bounding box" : [ 139.566, 559.149, 455.784, 574.653 ],
+      "heading level" : 3,
+      "font" : "TimesNewRomanPS-BoldMT",
+      "font size" : 14.0,
+      "text color" : "[0.0]",
+      "content" : "DELIBERAZIONE DELLA GIUNTA COMUNALE"
+    }, {
+      "type" : "paragraph",
+      "pdfua_tag" : "P",
+      "id" : 5,
+      "page number" : 1,
+      "bounding box" : [ 74.4, 526.951, 501.442, 542.455 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 14.0,
+      "text color" : "[0.0]",
+      "content" : "Numero 94 Del 28-05-2026"
+    } ]
+  }, {
+    "type" : "table",
+    "pdfua_tag" : "Table",
+    "id" : 13,
+    "level" : "2",
+    "page number" : 1,
+    "bounding box" : [ 67.15, 444.956, 528.2, 499.353 ],
+    "number of rows" : 1,
+    "number of columns" : 2,
+    "rows" : [ {
+      "type" : "table row",
+      "row number" : 1,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 67.4, 445.456, 130.35, 498.853 ],
+        "row number" : 1,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 7,
+          "page number" : 1,
+          "bounding box" : [ 76.55, 479.054, 121.202, 492.343 ],
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "Oggetto:"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 130.35, 445.456, 527.95, 498.853 ],
+        "row number" : 1,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 8,
+          "page number" : 1,
+          "bounding box" : [ 133.85, 451.456, 518.798, 492.343 ],
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "ATTO DI INDIRIZZO PER L'ASSEGNAZIONE DI N.3 SUOLI CIMITERIALI RESI DISPONIBILI A SEGUITO DI RINUNCE DA PARTE DEI CONCESSIONARI E N.3 SUOLI NON ASSEGNATI."
+        } ]
+      } ]
+    } ]
+  }, {
+    "type" : "caption",
+    "id" : 14,
+    "page number" : 1,
+    "bounding box" : [ 70.9, 362.162, 524.452, 430.647 ],
+    "linked content id" : 13,
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "L'anno duemilaventisei addì ventotto del mese di maggio alle ore 16:10, si è riunita la Giunta Comunale in modalità telematica, utilizzando un sistema di videoconferenza, secondo quanto disposto dal Regolamento approvato con delibera di Giunta Comunale n.140/2022. Partecipa il VICE SEGRETARIO dr.ssa DE STEFANO Maria Michela, presente nella sede comunale, il quale provvede alla redazione del presente verbale."
+  }, {
+    "type" : "caption",
+    "id" : 15,
+    "page number" : 1,
+    "bounding box" : [ 70.9, 334.564, 176.884, 347.853 ],
+    "linked content id" : 16,
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "All’ appello risultano:"
+  }, {
+    "type" : "table",
+    "pdfua_tag" : "Table",
+    "id" : 16,
+    "level" : "3",
+    "page number" : 1,
+    "bounding box" : [ 67.025, 253.42, 560.325, 334.564 ],
+    "number of rows" : 6,
+    "number of columns" : 3,
+    "rows" : [ {
+      "type" : "table row",
+      "row number" : 1,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 67.775, 320.79, 290.65, 333.814 ],
+        "row number" : 1,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 9,
+          "page number" : 1,
+          "bounding box" : [ 70.9, 321.165, 156.766, 333.346 ],
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 11.0,
+          "text color" : "[0.0]",
+          "content" : "MORETTI Nicola"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 290.65, 320.79, 510.35, 333.814 ],
+        "row number" : 1,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 10,
+          "page number" : 1,
+          "bounding box" : [ 294.15, 321.165, 344.882, 333.346 ],
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 11.0,
+          "text color" : "[0.0]",
+          "content" : "SINDACO"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 510.35, 320.79, 559.575, 333.814 ],
+        "row number" : 1,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 11,
+          "page number" : 1,
+          "bounding box" : [ 513.85, 321.165, 520.571, 333.346 ],
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 11.0,
+          "text color" : "[0.0]",
+          "content" : "P"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 2,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 67.775, 307.391, 290.65, 320.79 ],
+        "row number" : 2,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 12,
+          "page number" : 1,
+          "bounding box" : [ 70.9, 307.766, 175.411, 319.947 ],
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 11.0,
+          "text color" : "[0.0]",
+          "content" : "DE STEFANO Orsola"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 290.65, 307.391, 510.35, 320.79 ],
+        "row number" : 2,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 13,
+          "page number" : 1,
+          "bounding box" : [ 294.15, 307.766, 357.741, 319.947 ],
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 11.0,
+          "text color" : "[0.0]",
+          "content" : "ASSESSORE"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 510.35, 307.391, 559.575, 320.79 ],
+        "row number" : 2,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 14,
+          "page number" : 1,
+          "bounding box" : [ 513.85, 307.766, 521.792, 319.947 ],
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 11.0,
+          "text color" : "[0.0]",
+          "content" : "A"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 3,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 67.775, 293.992, 290.65, 307.391 ],
+        "row number" : 3,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 15,
+          "page number" : 1,
+          "bounding box" : [ 70.9, 294.367, 167.15, 306.548 ],
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 11.0,
+          "text color" : "[0.0]",
+          "content" : "VIETRI Mariangela"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 290.65, 293.992, 510.35, 307.391 ],
+        "row number" : 3,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 16,
+          "page number" : 1,
+          "bounding box" : [ 294.15, 294.367, 357.741, 306.548 ],
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 11.0,
+          "text color" : "[0.0]",
+          "content" : "ASSESSORE"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 510.35, 293.992, 559.575, 307.391 ],
+        "row number" : 3,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 17,
+          "page number" : 1,
+          "bounding box" : [ 513.85, 294.367, 520.571, 306.548 ],
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 11.0,
+          "text color" : "[0.0]",
+          "content" : "P"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 4,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 67.775, 280.593, 290.65, 293.992 ],
+        "row number" : 4,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 18,
+          "page number" : 1,
+          "bounding box" : [ 70.9, 280.968, 167.139, 293.149 ],
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 11.0,
+          "text color" : "[0.0]",
+          "content" : "NORMANNO Paolo"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 290.65, 280.593, 510.35, 293.992 ],
+        "row number" : 4,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 19,
+          "page number" : 1,
+          "bounding box" : [ 294.15, 280.968, 413.06, 293.149 ],
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 11.0,
+          "text color" : "[0.0]",
+          "content" : "ASSESSORE ESTERNO"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 510.35, 280.593, 559.575, 293.992 ],
+        "row number" : 4,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 20,
+          "page number" : 1,
+          "bounding box" : [ 513.85, 280.968, 520.571, 293.149 ],
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 11.0,
+          "text color" : "[0.0]",
+          "content" : "P"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 5,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 67.775, 267.194, 290.65, 280.593 ],
+        "row number" : 5,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 21,
+          "page number" : 1,
+          "bounding box" : [ 70.9, 267.569, 185.476, 279.75 ],
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 11.0,
+          "text color" : "[0.0]",
+          "content" : "MARTUCCI Gelsomina"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 290.65, 267.194, 510.35, 280.593 ],
+        "row number" : 5,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 22,
+          "page number" : 1,
+          "bounding box" : [ 294.15, 267.569, 357.741, 279.75 ],
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 11.0,
+          "text color" : "[0.0]",
+          "content" : "ASSESSORE"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 510.35, 267.194, 559.575, 280.593 ],
+        "row number" : 5,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 23,
+          "page number" : 1,
+          "bounding box" : [ 513.85, 267.569, 520.571, 279.75 ],
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 11.0,
+          "text color" : "[0.0]",
+          "content" : "P"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 6,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 67.775, 254.17, 290.65, 267.194 ],
+        "row number" : 6,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 24,
+          "page number" : 1,
+          "bounding box" : [ 70.9, 254.17, 162.266, 266.351 ],
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 11.0,
+          "text color" : "[0.0]",
+          "content" : "PETRONE Aurelio"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 290.65, 254.17, 510.35, 267.194 ],
+        "row number" : 6,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 25,
+          "page number" : 1,
+          "bounding box" : [ 294.15, 254.17, 357.741, 266.351 ],
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 11.0,
+          "text color" : "[0.0]",
+          "content" : "ASSESSORE"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 510.35, 254.17, 559.575, 267.194 ],
+        "row number" : 6,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 26,
+          "page number" : 1,
+          "bounding box" : [ 513.85, 254.17, 520.571, 266.351 ],
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 11.0,
+          "text color" : "[0.0]",
+          "content" : "P"
+        } ]
+      } ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 17,
+    "page number" : 1,
+    "bounding box" : [ 453.124, 225.822, 524.454, 252.91 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "N. presenti 5 N. assenti 1"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 18,
+    "page number" : 1,
+    "bounding box" : [ 70.9, 184.425, 524.44, 211.513 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Si dà evidenza che MORETTI, VIETRI, PETRONE e NORMANNO sono intervenuti in sede comunale; MARTUCCI è intervenuta da remoto."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 19,
+    "page number" : 1,
+    "bounding box" : [ 70.9, 143.028, 524.44, 170.116 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Il Presidente constatato il numero legale degli intervenuti dichiara aperta la seduta per la trattazione dell’oggetto sopra indicato."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 9,
+    "page number" : 1,
+    "bounding box" : [ 70.9, 35.45, 409.34, 46.524 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.0,
+    "text color" : "[0.0]",
+    "content" : "COPIA DI DELIBERA DI GIUNTA n. 94 del 28-05-2026 - CITTA' DI SOLOFRA"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H4",
+    "id" : 20,
+    "level" : "Subtitle",
+    "page number" : 2,
+    "bounding box" : [ 70.9, 705.922, 368.674, 737.999 ],
+    "heading level" : 4,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "LA GIUNTA COMUNALE PREMESSO CHE:"
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 21,
+    "level" : "4",
+    "page number" : 2,
+    "bounding box" : [ 88.9, 568.042, 524.44, 705.423 ],
+    "numbering style" : "unordered",
+    "number of list items" : 4,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 88.9, 650.77, 524.44, 705.423 ],
+      "font" : "SymbolMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : " con deliberazione di Giunta Comunale n. 193 del 29.11.2024 si è proceduto all'approvazione degli esiti della manifestazione di interesse finalizzata all'assegnazione di suoli cimiteriali destinati alla realizzazione di cappelle e/o sepolture private, con contestuale individuazione degli assegnatari;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 88.9, 623.194, 524.44, 650.271 ],
+      "font" : "SymbolMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : " successivamente alcuni assegnatari hanno formalmente comunicato la rinuncia all'assegnazione dei rispettivi suoli cimiteriali;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 88.9, 595.618, 524.44, 622.695 ],
+      "font" : "SymbolMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : " con deliberazione di Giunta Comunale n. 21 del 29.01.2026 è stata presa formalmente d'atto delle suddette rinunce, determinando la disponibilità di n. 3 suoli cimiteriali;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 88.9, 568.042, 524.44, 595.119 ],
+      "font" : "SymbolMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : " risultano altresì disponibili ulteriori n. 3 suoli cimiteriali che, pur ricompresi nella programmazione dell'Ente, non sono stati oggetto di precedente assegnazione;",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 22,
+    "page number" : 2,
+    "bounding box" : [ 70.9, 540.466, 185.896, 553.755 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "CONSIDERATO CHE:"
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 23,
+    "level" : "4",
+    "page number" : 2,
+    "bounding box" : [ 88.9, 471.526, 524.452, 539.967 ],
+    "numbering style" : "unordered",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 88.9, 499.102, 524.452, 539.967 ],
+      "font" : "SymbolMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : " è interesse dell'Amministrazione Comunale garantire la piena utilizzazione delle aree cimiteriali disponibili, nel rispetto dei principi di trasparenza, imparzialità e parità di trattamento;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 88.9, 471.526, 524.44, 498.603 ],
+      "font" : "SymbolMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : " occorre fornire specifico indirizzo al Responsabile dell’Area I AA.GG. affinché proceda all'assegnazione dei predetti n. 6 suoli cimiteriali disponibili;",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 24,
+    "page number" : 2,
+    "bounding box" : [ 70.9, 430.162, 524.44, 457.239 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "RITENUTO opportuno demandare al Responsabile del Settore competente l'adozione di tutti gli atti gestionali necessari e conseguenti al presente provvedimento;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 25,
+    "page number" : 2,
+    "bounding box" : [ 70.9, 375.01, 448.468, 415.875 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "VISTO il D.Lgs. n. 267/2000; CON VOTAZIONE unanime e favorevole espresse nei modi e forme di legge;"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H4",
+    "id" : 26,
+    "level" : "Subtitle",
+    "page number" : 2,
+    "bounding box" : [ 266.337, 356.222, 329.013, 369.511 ],
+    "heading level" : 4,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "DELIBERA"
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 27,
+    "level" : "5",
+    "page number" : 2,
+    "bounding box" : [ 88.9, 199.554, 524.44, 350.723 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 3,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 88.9, 323.646, 524.44, 350.723 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "1. Di richiamare integralmente la premessa quale parte integrante e sostanziale del presente provvedimento.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 88.9, 309.858, 307.204, 323.147 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "2. Di prendere atto che risultano disponibili:",
+      "kids" : [ {
+        "type" : "list",
+        "pdfua_tag" : "L",
+        "id" : 7,
+        "level" : "4",
+        "page number" : 2,
+        "bounding box" : [ 124.9, 240.511, 524.44, 309.359 ],
+        "numbering style" : "unordered",
+        "number of list items" : 2,
+        "list items" : [ {
+          "type" : "list item",
+          "pdfua_tag" : "LI",
+          "page number" : 2,
+          "bounding box" : [ 124.9, 254.706, 524.44, 309.359 ],
+          "font" : "CourierNewPSMT",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "o n. 3 suoli cimiteriali resisi liberi a seguito delle rinunce degli assegnatari individuati con deliberazione di Giunta Comunale n. 193 del 29.11.2024 e delle quali si è preso atto con deliberazione di Giunta Comunale n. 21 del 29.01.2026;",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "pdfua_tag" : "LI",
+          "page number" : 2,
+          "bounding box" : [ 124.9, 240.511, 352.216, 254.207 ],
+          "font" : "CourierNewPSMT",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "o n. 3 ulteriori suoli cimiteriali mai assegnati.",
+          "kids" : [ ]
+        } ]
+      } ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 88.9, 199.554, 524.44, 240.419 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "3. Di fornire atto di indirizzo al Responsabile dell’Area I AA.GG affinché provveda all'assegnazione dei complessivi n. 6 suoli cimiteriali disponibili, mediante l'attivazione di una nuova procedura pubblica.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H4",
+    "id" : 28,
+    "level" : "Subtitle",
+    "page number" : 2,
+    "bounding box" : [ 284.343, 171.978, 311.007, 185.267 ],
+    "heading level" : 4,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "INDI"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 29,
+    "page number" : 2,
+    "bounding box" : [ 70.9, 158.19, 388.456, 171.479 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Data l’urgenza, con votazione separata e voto unanime favorevole"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 30,
+    "page number" : 2,
+    "bounding box" : [ 70.9, 116.826, 524.44, 157.691 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "DELIBERA Di rendere il presente atto immediatamente eseguibile, ai sensi dell’art. 134, comma 4, del T.U.E.L. approvato con Decreto Lgs. del 18.08.2000 n.267."
+  }, {
+    "type" : "caption",
+    "id" : 33,
+    "page number" : 4,
+    "bounding box" : [ 70.9, 715.904, 503.794, 770.59 ],
+    "linked content id" : 34,
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Letto approvato e sottoscritto: Il SINDACO Il VICE SEGRETARIO F.to Nicola MORETTI F.to dr.ssa DE STEFANO Maria Michela"
+  }, {
+    "type" : "table",
+    "pdfua_tag" : "Table",
+    "id" : 34,
+    "level" : "6",
+    "page number" : 4,
+    "bounding box" : [ 67.15, 177.58, 542.65, 702.105 ],
+    "number of rows" : 2,
+    "number of columns" : 1,
+    "rows" : [ {
+      "type" : "table row",
+      "row number" : 1,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 67.65, 325.281, 542.15, 701.605 ],
+        "row number" : 1,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "heading",
+          "pdfua_tag" : "H3",
+          "id" : 1,
+          "level" : "Subtitle",
+          "page number" : 4,
+          "bounding box" : [ 213.11, 659.707, 396.692, 675.348 ],
+          "heading level" : 3,
+          "font" : "Arial-BoldItalicMT",
+          "font size" : 14.0,
+          "text color" : "[0.0]",
+          "content" : "Certificato di Pubblicazione"
+        }, {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 2,
+          "page number" : 4,
+          "bounding box" : [ 70.9, 587.712, 538.9, 642.398 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "Certificasi dal sottoscritto VICE SEGRETARIO che, giusta conforme attestazione del Preposto alla pubblicazione on-line, copia della presente deliberazione è pubblicata all’albo Pretorio, il giorno 01-06-2026 per quindici giorni consecutivi e vi rimarrà fino al giorno 16-06-2026"
+        }, {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 3,
+          "page number" : 4,
+          "bounding box" : [ 70.9, 560.114, 203.548, 573.403 ],
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "www.comune.solofra.av.it"
+        }, {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 4,
+          "page number" : 4,
+          "bounding box" : [ 70.9, 518.717, 201.58, 532.006 ],
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "dal Municipio 01-06-2026"
+        }, {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 5,
+          "page number" : 4,
+          "bounding box" : [ 70.9, 394.526, 538.9, 490.609 ],
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "Il VICE SEGRETARIO F.to dr.ssa DE STEFANO Maria Michela ______________________________________________________________________________ Copia conforme all’originale per uso Amministrativo e di Ufficio dal Municipio, lì ______________"
+        }, {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 6,
+          "page number" : 4,
+          "bounding box" : [ 266.578, 339.33, 455.578, 380.217 ],
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "Il VICE SEGRETARIO dr.ssa DE STEFANO Maria Michela ____________________"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 2,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 67.65, 178.08, 542.15, 325.281 ],
+        "row number" : 2,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "heading",
+          "pdfua_tag" : "H3",
+          "id" : 7,
+          "level" : "Subtitle",
+          "page number" : 4,
+          "bounding box" : [ 256.672, 296.932, 353.132, 312.573 ],
+          "heading level" : 3,
+          "font" : "Arial-BoldItalicMT",
+          "font size" : 14.0,
+          "text color" : "[0.0]",
+          "content" : "ESECUTIVITA’"
+        }, {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 8,
+          "page number" : 4,
+          "bounding box" : [ 70.9, 254.835, 530.08, 281.923 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "Il sottoscritto VICE SEGRETARIO certifica che la su estesa deliberazione è divenuta esecutiva per decorrenza del termine________________________"
+        }, {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 9,
+          "page number" : 4,
+          "bounding box" : [ 70.9, 219.477, 366.946, 254.835 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : " Ai sensi dell’art. 134/3 del D. leg.vo n.267/2000 Dal Municipio, lì………………………."
+        }, {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 10,
+          "page number" : 4,
+          "bounding box" : [ 209.088, 178.08, 400.716, 205.168 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "Il VICE SEGRETARIO ( dr.ssa DE STEFANO Maria Michela)"
+        } ]
+      } ]
+    } ]
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H4",
+    "id" : 35,
+    "level" : "Subtitle",
+    "page number" : 4,
+    "bounding box" : [ 176.327, 136.183, 419.027, 177.07 ],
+    "heading level" : 4,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "TRASMESSA AI CAPIGRUPPO IN ELENCO CON NOTA N. 8857 DEL 01-06-2026 L’ADDETTO"
+  } ]
+}

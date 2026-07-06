@@ -1,0 +1,879 @@
+{
+  "file name" : "atto_25.pdf",
+  "number of pages" : 5,
+  "author" : null,
+  "title" : null,
+  "creation date" : "D:20000804064600Z",
+  "modification date" : "D:20260629131600Z",
+  "kids" : [ {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 28,
+    "page number" : 1,
+    "bounding box" : [ 88.55, 662.096, 149.05, 749.096 ],
+    "source" : "atto_25_images/imageFile1.png"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 18,
+    "level" : "Doctitle",
+    "page number" : 1,
+    "bounding box" : [ 171.27, 727.369, 487.954, 758.752 ],
+    "heading level" : 1,
+    "font" : "Tahoma",
+    "font size" : 26.0,
+    "text color" : "[0.0]",
+    "content" : "COMUNE DI MOMPANTERO"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 19,
+    "page number" : 1,
+    "bounding box" : [ 247.476, 703.229, 411.732, 727.369 ],
+    "font" : "Tahoma",
+    "font size" : 10.0,
+    "text color" : "[0.0]",
+    "content" : "CITTA’ METROPOLITANA DI TORINO _______________"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H2",
+    "id" : 20,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 164.426, 613.236, 430.877, 634.963 ],
+    "heading level" : 2,
+    "font" : "Tahoma-Bold",
+    "font size" : 18.0,
+    "text color" : "[0.0]",
+    "content" : "VERBALE DI DELIBERAZIONE"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H3",
+    "id" : 21,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 187.032, 593.924, 408.269, 613.237 ],
+    "heading level" : 3,
+    "font" : "Tahoma-Bold",
+    "font size" : 16.0,
+    "text color" : "[0.0]",
+    "content" : "DELLA GIUNTA COMUNALE"
+  }, {
+    "type" : "text block",
+    "id" : 22,
+    "page number" : 1,
+    "bounding box" : [ 254.4, 566.784, 326.8, 581.854 ],
+    "kids" : [ {
+      "type" : "paragraph",
+      "pdfua_tag" : "P",
+      "id" : 1,
+      "page number" : 1,
+      "bounding box" : [ 272.958, 568.284, 308.247, 580.354 ],
+      "font" : "Tahoma-Bold",
+      "font size" : 10.0,
+      "text color" : "[0.0]",
+      "content" : "N. 44"
+    } ]
+  }, {
+    "type" : "text block",
+    "id" : 23,
+    "page number" : 1,
+    "bounding box" : [ 50.75, 507.446, 544.55, 542.644 ],
+    "kids" : [ {
+      "type" : "heading",
+      "pdfua_tag" : "H4",
+      "id" : 2,
+      "level" : "Subtitle",
+      "page number" : 1,
+      "bounding box" : [ 56.7, 508.946, 538.6, 540.686 ],
+      "heading level" : 4,
+      "font" : "Arial-BoldMT",
+      "font size" : 14.0,
+      "text color" : "[0.0]",
+      "content" : "OGGETTO : MANTENIMENTO SERVIZI DI ATTIVITA' DEI PLESSI DI SCUOLA STATALE IN DEROGA A.S. 2027/2028"
+    } ]
+  }, {
+    "type" : "caption",
+    "id" : 24,
+    "page number" : 1,
+    "bounding box" : [ 56.7, 419.94, 538.598, 492.962 ],
+    "linked content id" : 25,
+    "font" : "Tahoma",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "L’anno duemilaventisei, addì ventinove, del mese di giugno, alle ore quindici e minuti zero, regolarmente convocata, si è riunita la Giunta Comunale. Presso la sala comunale è presente il Sindaco, Davide Gastaldo, che interviene con gli assessori della quale sono membri i Signori:"
+  }, {
+    "type" : "table",
+    "pdfua_tag" : "Table",
+    "id" : 25,
+    "level" : "1",
+    "page number" : 1,
+    "bounding box" : [ 76.05, 273.454, 519.25, 413.302 ],
+    "number of rows" : 2,
+    "number of columns" : 2,
+    "rows" : [ {
+      "type" : "table row",
+      "row number" : 1,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 76.8, 397.693, 446.575, 412.552 ],
+        "row number" : 1,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 3,
+          "page number" : 1,
+          "bounding box" : [ 208.498, 398.068, 314.5, 412.553 ],
+          "font" : "Tahoma-Bold",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "Cognome e Nome"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 446.575, 397.693, 518.5, 412.552 ],
+        "row number" : 1,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 4,
+          "page number" : 1,
+          "bounding box" : [ 456.07, 398.068, 509.386, 412.553 ],
+          "font" : "Tahoma-Bold",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "Presente"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 2,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 76.8, 274.204, 446.575, 397.693 ],
+        "row number" : 2,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "list",
+          "pdfua_tag" : "L",
+          "id" : 5,
+          "level" : "1",
+          "page number" : 1,
+          "bounding box" : [ 79.925, 324.898, 334.42, 382.835 ],
+          "numbering style" : "arabic numbers",
+          "number of list items" : 3,
+          "list items" : [ {
+            "type" : "list item",
+            "pdfua_tag" : "LI",
+            "page number" : 1,
+            "bounding box" : [ 79.925, 368.35, 274.209, 382.835 ],
+            "font" : "Tahoma-Bold",
+            "font size" : 12.0,
+            "text color" : "[0.0]",
+            "content" : "1. GASTALDO DAVIDE - Sindaco",
+            "kids" : [ ]
+          }, {
+            "type" : "list item",
+            "pdfua_tag" : "LI",
+            "page number" : 1,
+            "bounding box" : [ 79.925, 346.624, 334.42, 361.109 ],
+            "font" : "Tahoma-Bold",
+            "font size" : 12.0,
+            "text color" : "[0.0]",
+            "content" : "2. PESANDO MARIA LAURA - Vice Sindaco",
+            "kids" : [ ]
+          }, {
+            "type" : "list item",
+            "pdfua_tag" : "LI",
+            "page number" : 1,
+            "bounding box" : [ 79.925, 324.898, 269.009, 339.383 ],
+            "font" : "Tahoma-Bold",
+            "font size" : 12.0,
+            "text color" : "[0.0]",
+            "content" : "3. CHIOLERO LINO - Assessore",
+            "kids" : [ ]
+          } ]
+        }, {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 6,
+          "page number" : 1,
+          "bounding box" : [ 359.813, 274.204, 443.079, 303.173 ],
+          "font" : "Tahoma",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "Totale Presenti: Totale Assenti:"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 446.575, 274.204, 518.5, 397.693 ],
+        "row number" : 2,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 7,
+          "page number" : 1,
+          "bounding box" : [ 478.011, 324.898, 487.443, 382.835 ],
+          "font" : "Tahoma",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "Sì Sì Sì"
+        }, {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 8,
+          "page number" : 1,
+          "bounding box" : [ 479.449, 274.204, 486.001, 303.173 ],
+          "font" : "Tahoma",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "3 0"
+        } ]
+      } ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 26,
+    "page number" : 1,
+    "bounding box" : [ 56.7, 230.003, 342.077, 244.487 ],
+    "font" : "Tahoma",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Presiede la seduta il SINDACO – DAVIDE GASTALDO."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 27,
+    "page number" : 1,
+    "bounding box" : [ 56.7, 135.856, 538.606, 193.793 ],
+    "font" : "Tahoma",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Il Presidente, rilevata la partecipazione di tutti gli Assessori, dichiara validamente costituita l’adunanza con la partecipazione del Segretario dott.ssa Marietta CARCIONE in videoconferenza."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 31,
+    "page number" : 2,
+    "bounding box" : [ 56.7, 761.073, 538.598, 786.3 ],
+    "font" : "Tahoma",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "Si dà atto che l’Assessore CHIOLERO Lino partecipa alla seduta in videoconferenza ai sensi del vigente regolamento."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 32,
+    "page number" : 2,
+    "bounding box" : [ 240.836, 733.539, 354.462, 746.816 ],
+    "font" : "Tahoma",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "LA GIUNTA COMUNALE"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 33,
+    "page number" : 2,
+    "bounding box" : [ 56.7, 680.431, 538.594, 720.262 ],
+    "font" : "Tahoma",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "Vista la comunicazione acclarata al prot.n. 2112 del 17/06/2026 della Città Metropolitana di Torino Direzione Istruzione e Sviluppo Sociale relativa a “Programmazione e dimensionamento della rete scolastica e punti di erogazione in deroga per l’a.s. 2027/2028”;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 34,
+    "page number" : 2,
+    "bounding box" : [ 56.7, 614.046, 538.599, 667.154 ],
+    "font" : "Tahoma",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "Dato atto che la Regione Piemonte ha trasmesso l’atto di indirizzo regionale per il triennio aa.ss. 2027/2028-2028/2029-2029/2030 (D.C.R. n. 157-13692 del 09.06.2026), l’Allegato A alla D.G.R. n.2677 del 15.06.2026 recante i criteri e le modalità per la Programmazione della rete scolastica 2027/2028;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 35,
+    "page number" : 2,
+    "bounding box" : [ 56.7, 574.215, 538.586, 600.769 ],
+    "font" : "Tahoma",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "Viste le soglie numeriche minime prescritte dalla D.G.R. n. 157-13692 del 09.06.2026 necessarie per mantenere aperti i punti di erogazione servizio (p.e.s.) nei Comuni montani o marginali:"
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 36,
+    "level" : "2",
+    "page number" : 2,
+    "bounding box" : [ 55.907, 229.013, 542.441, 574.215 ],
+    "numbering style" : "unordered",
+    "number of list items" : 7,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 56.7, 560.938, 320.323, 574.215 ],
+      "font" : "Tahoma",
+      "font size" : 11.0,
+      "text color" : "[0.0]",
+      "content" : "- Scuola dell’infanzia costituiti con almeno 10 bambini;",
+      "kids" : [ {
+        "type" : "paragraph",
+        "pdfua_tag" : "P",
+        "id" : 15,
+        "page number" : 2,
+        "bounding box" : [ 56.7, 521.107, 538.583, 547.661 ],
+        "font" : "Tahoma",
+        "font size" : 11.0,
+        "text color" : "[0.0]",
+        "content" : "Richiamati i criteri adottati ai sensi della D.C.R. n. 157-13692 del 09.06.2026 e considerato che nel documento si specifica che:"
+      }, {
+        "type" : "paragraph",
+        "pdfua_tag" : "P",
+        "id" : 16,
+        "page number" : 2,
+        "bounding box" : [ 56.7, 454.722, 538.596, 507.83 ],
+        "font" : "Tahoma",
+        "font size" : 11.0,
+        "text color" : "[0.0]",
+        "content" : "2.3. INTERVENTI DI REVISIONE DELLA RETE SCOLASTICA SU SINGOLI PUNTI DI EROGAZIONE DEL SERVIZIO I Comuni, le Province e la Città metropolitana di Torino possono presentare le seguenti proposte di revisione della rete scolastica riguardanti i singoli PES:"
+      }, {
+        "type" : "paragraph",
+        "pdfua_tag" : "P",
+        "id" : 17,
+        "page number" : 2,
+        "bounding box" : [ 55.907, 401.614, 542.439, 454.722 ],
+        "font" : "Tahoma,Italic",
+        "font size" : 11.651,
+        "text color" : "[0.0]",
+        "content" : "Mantenimento in deroga: Mantenimento del funzionamento di PES del I ciclo di istruzione riconosciuti con codice meccanografico ministeriale, funzionanti nell’a.s. 2026/27 e siti in comuni montani e/o in comuni in situazione di marginalità di cui alla deliberazione della Giunta regionale del 21 novembre 2008, n. 1-10104"
+      } ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 55.907, 375.06, 542.429, 401.614 ],
+      "font" : "Tahoma,Italic",
+      "font size" : 11.651,
+      "text color" : "[0.0]",
+      "content" : "- PES scuola dell’infanzia con meno di 20 alunni e con una monosezione, purché di almeno 10 bambini.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 55.907, 348.506, 542.441, 375.06 ],
+      "font" : "Tahoma,Italic",
+      "font size" : 11.651,
+      "text color" : "[0.0]",
+      "content" : "- PES scuola primaria con meno di 35 alunni: con almeno una classe intera di non meno di 10 alunni o, in caso di unica pluriclasse, con minimo di 8 e massimo di 18 alunni.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 55.907, 308.675, 411.795, 348.506 ],
+      "font" : "Tahoma,Italic",
+      "font size" : 11.651,
+      "text color" : "[0.0]",
+      "content" : "- PES secondaria di I grado con meno di 40 alunni, e almeno 20 alunni. 2.3.2.e. Mantenimento in deroga PES Il Comune montano e/o marginale:",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 56.7, 268.844, 538.611, 308.675 ],
+      "font" : "Tahoma",
+      "font size" : 11.0,
+      "text color" : "[0.0]",
+      "content" : "- effettua un’analisi volta a valutare l’opportunità del mantenimento del PES, anche tenuto conto delle condizioni di sicurezza e delle caratteristiche dell’edificio scolastico presso cui è ubicato il servizio scolastico;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 56.7, 242.29, 538.599, 268.844 ],
+      "font" : "Tahoma",
+      "font size" : 11.0,
+      "text color" : "[0.0]",
+      "content" : "- sente l’istituzione scolastica di riferimento, che esprime il proprio parere preferibilmente tramite Deliberazione del Consiglio di istituto;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 56.7, 229.013, 455.277, 242.29 ],
+      "font" : "Tahoma",
+      "font size" : 11.0,
+      "text color" : "[0.0]",
+      "content" : "- con propria deliberazione di richiesta di mantenimento in deroga del PES, indica:",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 37,
+    "level" : "2",
+    "page number" : 2,
+    "bounding box" : [ 55.907, 149.351, 542.446, 229.013 ],
+    "numbering style" : "unordered",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 55.907, 175.905, 542.446, 229.013 ],
+      "font" : "Tahoma",
+      "font size" : 11.651,
+      "text color" : "[0.0]",
+      "content" : "• la consistenza numerica dell’utenza attesa per l’a.s. 2027/28 sulla base delle nascite del bacino d’utenza del PES e sull’andamento della frequenza nell’ultimo triennio ai fini dell’indicazione del rispetto dei parametri minimi per il mantenimento indicati al precedente paragrafo 2.3 Interventi di revisione della rete scolastica su singoli punti di erogazione del servizio;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 56.7, 149.351, 538.588, 175.905 ],
+      "font" : "Tahoma",
+      "font size" : 11.0,
+      "text color" : "[0.0]",
+      "content" : "• le condizioni presenti per il mantenimento in deroga sulla base delle seguenti distanze e dei tempi di percorrenza relativi al PES più vicino:",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 38,
+    "level" : "3",
+    "page number" : 2,
+    "bounding box" : [ 92.1, 69.689, 538.598, 149.351 ],
+    "numbering style" : "unordered",
+    "number of list items" : 3,
+    "next list id" : 41,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 92.1, 122.797, 538.591, 149.351 ],
+      "font" : "Tahoma",
+      "font size" : 11.0,
+      "text color" : "[0.0]",
+      "content" : "- per le scuole dell’infanzia: entro km 5 di distanza con un tempo di percorrenza medio in auto di 15 minuti; ◦",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 92.1, 96.243, 538.585, 122.797 ],
+      "font" : "Tahoma",
+      "font size" : 11.0,
+      "text color" : "[0.0]",
+      "content" : "- per le scuole primarie: da km 5 a km 9 con un tempo di percorrenza medio in auto di 20 minuti; ◦",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 92.1, 69.689, 538.598, 96.243 ],
+      "font" : "Tahoma",
+      "font size" : 11.0,
+      "text color" : "[0.0]",
+      "content" : "- per le scuole secondarie di I grado: entro km 10 con un tempo di percorrenza medio di 30 minuti.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 41,
+    "level" : "3",
+    "page number" : 3,
+    "bounding box" : [ 56.7, 400.167, 538.602, 785.2 ],
+    "numbering style" : "unordered",
+    "number of list items" : 11,
+    "previous list id" : 38,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "id" : 40,
+      "page number" : 3,
+      "bounding box" : [ 56.7, 758.646, 538.586, 785.2 ],
+      "font" : "Tahoma",
+      "font size" : 11.0,
+      "text color" : "[0.0]",
+      "content" : "La richiesta di mantenimento in deroga non è valida, e non può essere inserita né nel Piano provinciale né nel Piano regionale, qualora:",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 56.7, 732.092, 538.588, 758.646 ],
+      "font" : "Tahoma",
+      "font size" : 11.0,
+      "text color" : "[0.0]",
+      "content" : "- il Comune non indichi il numero di alunni attesi per l’a.s. 2027/28 nel PES per il quale si richiede il mantenimento in deroga;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 56.7, 705.538, 538.581, 732.092 ],
+      "font" : "Tahoma",
+      "font size" : 11.0,
+      "text color" : "[0.0]",
+      "content" : "- il numero di alunni attesi risulti superiore a 20 alunni per la scuola dell’infanzia, a 35 alunni per la scuola primaria, a 40 alunni per la scuola secondaria di I grado14;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 56.7, 692.261, 498.306, 705.538 ],
+      "font" : "Tahoma",
+      "font size" : 11.0,
+      "text color" : "[0.0]",
+      "content" : "- la richiesta di mantenimento in deroga riguardi un PES non funzionante nell’a.s. 2026/27;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 56.7, 665.707, 538.58, 692.261 ],
+      "font" : "Tahoma",
+      "font size" : 11.0,
+      "text color" : "[0.0]",
+      "content" : "- la richiesta di mantenimento in deroga non riguardi la sede del PES ma una succursale o aule staccate.",
+      "kids" : [ {
+        "type" : "paragraph",
+        "pdfua_tag" : "P",
+        "id" : 11,
+        "page number" : 3,
+        "bounding box" : [ 56.7, 625.876, 538.592, 652.43 ],
+        "font" : "Tahoma",
+        "font size" : 11.0,
+        "text color" : "[0.0]",
+        "content" : "Dato atto che sul territorio del Comune di Mompantero è attiva e funzionante per l’a.s. 2025/2026 la Scuola dell’infanzia composta da 1 sezione per un totale di n. 22 alunni;"
+      }, {
+        "type" : "paragraph",
+        "pdfua_tag" : "P",
+        "id" : 12,
+        "page number" : 3,
+        "bounding box" : [ 56.7, 599.322, 502.26, 612.599 ],
+        "font" : "Tahoma",
+        "font size" : 11.0,
+        "text color" : "[0.0]",
+        "content" : "Considerata l’analisi volta a valutare l’opportunità del mantenimento del PES e qui riportata:"
+      }, {
+        "type" : "paragraph",
+        "pdfua_tag" : "P",
+        "id" : 13,
+        "page number" : 3,
+        "bounding box" : [ 56.7, 532.937, 538.603, 586.045 ],
+        "font" : "Tahoma",
+        "font size" : 11.0,
+        "text color" : "[0.0]",
+        "content" : "ANALISI in base ai criteri della DCR volta a valutare l’opportunità del mantenimento del PES In generale si ritiene opportuna la deroga per il mantenimento del suddetto plesso anche per l’a.s. 2027/2028, per la primaria esigenza di mantenere il servizio scolastico come punto di riferimento culturale e di aggregazione della comunità locale;"
+      }, {
+        "type" : "paragraph",
+        "pdfua_tag" : "P",
+        "id" : 14,
+        "page number" : 3,
+        "bounding box" : [ 56.7, 493.106, 387.795, 519.66 ],
+        "font" : "Tahoma",
+        "font size" : 11.0,
+        "text color" : "[0.0]",
+        "content" : "Utenza attesa per l’a.s. 2027/2028 – andamento ultimo quinquennio Scuola dell’Infanzia:"
+      } ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 56.7, 479.829, 215.218, 493.106 ],
+      "font" : "Tahoma",
+      "font size" : 11.0,
+      "text color" : "[0.0]",
+      "content" : "- Iscritti nell’a.s. 2022/2023 n.21",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 56.7, 466.552, 215.218, 479.829 ],
+      "font" : "Tahoma",
+      "font size" : 11.0,
+      "text color" : "[0.0]",
+      "content" : "- Iscritti nell’a.s. 2023/2024 n.19",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 56.7, 453.275, 215.218, 466.552 ],
+      "font" : "Tahoma",
+      "font size" : 11.0,
+      "text color" : "[0.0]",
+      "content" : "- Iscritti nell’a.s. 2024/2025 n.20",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 56.7, 439.998, 215.218, 453.275 ],
+      "font" : "Tahoma",
+      "font size" : 11.0,
+      "text color" : "[0.0]",
+      "content" : "- Iscritti nell’a.s. 2025/2026 n.22",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 56.7, 426.721, 215.218, 439.998 ],
+      "font" : "Tahoma",
+      "font size" : 11.0,
+      "text color" : "[0.0]",
+      "content" : "- Iscritti nell’a.s. 2026/2027 n.17",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 56.7, 400.167, 538.602, 426.721 ],
+      "font" : "Tahoma",
+      "font size" : 11.0,
+      "text color" : "[0.0]",
+      "content" : "- Attesa nell’a.s. 2027/2028 n. 19 bambini residenti più altre eventuali iscrizioni di bambini non residenti provenienti dal limitrofo Comune di Susa (numero consolidato nel tempo)",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 42,
+    "page number" : 3,
+    "bounding box" : [ 56.7, 293.951, 538.603, 386.89 ],
+    "font" : "Tahoma",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "Condizioni di sicurezza e delle caratteristiche dell’edificio scolastico presso cui è ubicato il servizio scolastico; L’edificio scolastico è in buone condizioni ed è stato sottoposto a verifica degli standard di sicurezza e salubrità con delibera di G.C. n. 35 del 31.07.2014 con l’approvazione degli elaborati redatti dall’ arch. Luca Braida Bruno. L’edificio è facilmente raggiungibile essendo situato sulla strada provinciale 209; vi è un parcheggio nelle vicinanze e non vi sono barriere architettoniche."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 43,
+    "page number" : 3,
+    "bounding box" : [ 56.7, 254.12, 538.592, 280.674 ],
+    "font" : "Tahoma",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "PES, ubicati nel comune e/o in altro comune che permettano un facile accesso da parte degli alunni, secondo le condizioni di accesso relative alle distanze indicate:"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H5",
+    "id" : 44,
+    "level" : "Subtitle",
+    "page number" : 3,
+    "bounding box" : [ 55.907, 227.566, 444.433, 240.843 ],
+    "heading level" : 5,
+    "font" : "Tahoma,Italic",
+    "font size" : 11.651,
+    "text color" : "[0.0]",
+    "content" : "Per le scuole dell’infanzia non più di Km 5 da percorrere in non più di 15 minuti"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 45,
+    "page number" : 3,
+    "bounding box" : [ 56.7, 121.35, 538.592, 214.289 ],
+    "font" : "Tahoma",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "Sul territorio comunale non vi sono altri punti di erogazione scolastica. E’ presente sul territorio del Comune di Susa e di Venaus la scuola dell’infanzia, entrambi distanti non più di Km. 5 percorribili in non più di 15 minuti Dato atto che il Comune di Mompantero è un comune montano ed ha il diritto della scuola statale in deroga;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 46,
+    "page number" : 3,
+    "bounding box" : [ 56.7, 68.242, 538.597, 108.073 ],
+    "font" : "Tahoma",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "Dato atto che con nota prot. n. 0002118 del 18.06.2026 è stato richiesto il parere all’Istituto Comprensivo Statale di Susa sul mantenimento in deroga della sezione della scuola dell’infanzia di Mompantero, non potendo disporre di un dato certo sugli iscritti per l’a.s. 2027/2028, considerato"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 48,
+    "page number" : 4,
+    "bounding box" : [ 56.7, 758.646, 538.604, 785.2 ],
+    "font" : "Tahoma",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "tuttavia che il numero degli iscritti è sempre stato di 19/20 in quanto frequentano la scuola di Mompantero alunni provenienti da altri Comuni;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 49,
+    "page number" : 4,
+    "bounding box" : [ 56.7, 692.261, 538.601, 745.369 ],
+    "font" : "Tahoma",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "Vista la comunicazione acclarata al prot. n. 0002237 del 29/06/2026 dell’Istituto Comprensivo di Susa a firma del Dirigente Scolastico, con la quale si comunica che per l’a.s. 2027/2028 non sono previsti accorpamenti di classi o spostamento fisici di classi (allegata al presente atto per farne parte integrante);"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 50,
+    "page number" : 4,
+    "bounding box" : [ 56.7, 599.322, 538.595, 678.984 ],
+    "font" : "Tahoma",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "Ritenuto di fondamentale importanza il mantenimento della scuola dell’infanzia, in deroga ai criteri previsti per le scuole site in comuni montani e/o in situazioni di marginalità di cui alla D.G.R. 21/11/2008, n. 1 – 10104, per evitare che il territorio venga depauperato dei servizi scolastici con conseguente spopolamento dei comuni montani, il mantenimento delle attività economiche della montagna è strettamente correlato al mantenimento della residenzialità delle famiglie, con i loro valori, con la cura del territorio, elemento indispensabile per l’economia globale delle nostre valli;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 51,
+    "page number" : 4,
+    "bounding box" : [ 56.7, 572.768, 310.88, 586.045 ],
+    "font" : "Tahoma",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "Visto il d.lgs. 18 agosto 2000, n. 267 e ss. mm. e ii.;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 52,
+    "page number" : 4,
+    "bounding box" : [ 56.7, 519.66, 538.598, 559.491 ],
+    "font" : "Tahoma",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "Preso atto che sulla proposta di deliberazione di cui al presente verbale, ex art. 49 del d.lgs. 267/2000, ha espresso parere favorevole il responsabile dell’Area Amministrativa – Contabile, per quanto di propria competenza in ordine alla regolarità tecnica;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 53,
+    "page number" : 4,
+    "bounding box" : [ 56.7, 466.552, 431.398, 506.383 ],
+    "font" : "Tahoma",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "Con votazione favorevole unanime, palesemente espressa per alzata di mano DELIBERA"
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 54,
+    "level" : "4",
+    "page number" : 4,
+    "bounding box" : [ 56.7, 280.674, 538.599, 453.275 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 4,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 4,
+      "bounding box" : [ 56.7, 426.721, 538.594, 453.275 ],
+      "font" : "Tahoma",
+      "font size" : 11.0,
+      "text color" : "[0.0]",
+      "content" : "1. Di dare atto che la premessa narrativa costituisce parte integrante e sostanziale del presente dispositivo;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 4,
+      "bounding box" : [ 56.7, 373.613, 538.593, 413.444 ],
+      "font" : "Tahoma",
+      "font size" : 11.0,
+      "text color" : "[0.0]",
+      "content" : "2. Di richiedere l’applicazione delle disposizioni di cui in premessa per mantenere i SERVIZI DEI PLESSI DI SCUOLA STATALE IN DEROGA A.S. 2027/2028 relativi al plesso scolastico presente nel comune di Mompantero: n.1 scuola infanzia (1 sezione)",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 4,
+      "bounding box" : [ 56.7, 333.782, 538.596, 360.336 ],
+      "font" : "Tahoma",
+      "font size" : 11.0,
+      "text color" : "[0.0]",
+      "content" : "3. Di trasmettere la presente deliberazione alla Direzione Area Istruzione e Sviluppo Sociale della Città Metropolitana di Torino tramite piattaforma MOOn.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 4,
+      "bounding box" : [ 56.7, 280.674, 538.599, 320.505 ],
+      "font" : "Tahoma",
+      "font size" : 11.0,
+      "text color" : "[0.0]",
+      "content" : "4. Di dichiarare la presente deliberazione, con separata e successiva votazione favorevole unanime, palesemente espressa per alzata di mano, immediatamente eseguibile, art. 134 comma 4)del D.Lgs. 267/2000.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 56,
+    "page number" : 5,
+    "bounding box" : [ 42.55, 758.882, 213.246, 773.366 ],
+    "font" : "Tahoma",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Letto, confermato e sottoscritto."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 57,
+    "page number" : 5,
+    "bounding box" : [ 63.776, 693.702, 200.225, 734.258 ],
+    "font" : "Tahoma",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "IL PRESIDENTE Firmato digitalmente F.to : GASTALDO DAVIDE"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 58,
+    "page number" : 5,
+    "bounding box" : [ 338.006, 693.702, 510.787, 734.258 ],
+    "font" : "Tahoma",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "IL SEGRETARIO COMUNALE Firmato digitalmente F.to : Dr.ssa Marietta CARCIONE"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 60,
+    "page number" : 5,
+    "bounding box" : [ 42.55, 625.447, 517.883, 650.385 ],
+    "font" : "ArialMT",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "Copia conforme all'originale firmato digitalmente, per gli usi consentiti dalla Legge. lì, 30/06/2026 IL SEGRETARIO COMUNALEDr.ssa Marietta"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 61,
+    "page number" : 5,
+    "bounding box" : [ 376.694, 612.798, 434.752, 625.087 ],
+    "font" : "ArialMT",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "CARCIONE"
+  } ]
+}

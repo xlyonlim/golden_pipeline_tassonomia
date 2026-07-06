@@ -1,0 +1,780 @@
+{
+  "file name" : "atto_2.pdf",
+  "number of pages" : 4,
+  "author" : "Domenico Petronio",
+  "title" : "originale GM corta",
+  "creation date" : "D:20130402121000+02'00'",
+  "modification date" : "D:20230601170200+02'00'",
+  "kids" : [ {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 3,
+    "level" : "Doctitle",
+    "page number" : 1,
+    "bounding box" : [ 193.11, 771.752, 451.782, 798.33 ],
+    "heading level" : 1,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 24.0,
+    "text color" : "[0.0]",
+    "content" : "COMUNE DI AUSONIA"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H2",
+    "id" : 4,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 234.95, 751.054, 409.946, 770.988 ],
+    "heading level" : 2,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 18.0,
+    "text color" : "[0.0]",
+    "content" : "Provincia di Frosinone"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H3",
+    "id" : 5,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 130.507, 665.96, 514.387, 681.464 ],
+    "heading level" : 3,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 14.0,
+    "text color" : "[0.0]",
+    "content" : "COPIA DI DELIBERAZIONE DELLA GIUNTA COMUNALE"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H3",
+    "id" : 6,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 219.726, 622.263, 425.176, 637.904 ],
+    "heading level" : 3,
+    "font" : "Arial-BoldMT",
+    "font size" : 14.0,
+    "text color" : "[0.0]",
+    "content" : "Verbale n. 43 del 11-06-2026"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 7,
+    "page number" : 1,
+    "bounding box" : [ 92.15, 560.168, 552.75, 608.071 ],
+    "font" : "Arial-BoldMT",
+    "font size" : 10.0,
+    "text color" : "[0.0]",
+    "content" : "OGGETTO: Conferimento incarico a Legale di fiducia per recupero spese di lite liquidate in favore del Comune di Ausonia, nei confronti del Sig. A. Miele a seguito della Sentenza n.° 819/2017 del Tribunale di Cassino e 05014/2023 del Consiglio di Stato."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 8,
+    "page number" : 1,
+    "bounding box" : [ 92.15, 492.323, 552.746, 547.126 ],
+    "font" : "ArialMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "L’anno duemilaventisei, il giorno undici del mese di giugno alle ore 13:05 e seg. in Ausonia e nella residenza municipale, nella sala delle adunanze, previa l'osservanza di tutte le formalità prescritte dalle vigenti leggi, sono stati oggi convocati in seduta i componenti della Giunta Comunale."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 9,
+    "page number" : 1,
+    "bounding box" : [ 162.95, 464.725, 386.414, 478.131 ],
+    "font" : "ArialMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Fatto normale appello nominale, risultano:"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 11,
+    "page number" : 1,
+    "bounding box" : [ 95.65, 370.277, 359.57, 425.049 ],
+    "font" : "ArialMT",
+    "font size" : 10.0,
+    "text color" : "[0.0]",
+    "content" : "CARDILLO Benedetto Sindaco PINCHERA Stefania Vice Sindaco STAGNO Gaetano Assessore"
+  }, {
+    "type" : "table",
+    "pdfua_tag" : "Table",
+    "id" : 10,
+    "level" : "1",
+    "page number" : 1,
+    "bounding box" : [ 439.2, 343.126, 553.1, 453.226 ],
+    "number of rows" : 5,
+    "number of columns" : 2,
+    "rows" : [ {
+      "type" : "table row",
+      "row number" : 1,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 439.7, 430.526, 552.6, 452.726 ],
+        "row number" : 1,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 2,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 1,
+          "page number" : 1,
+          "bounding box" : [ 454.19, 436.002, 538.11, 447.174 ],
+          "font" : "Arial-BoldMT",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "Presenti / Assenti"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 2,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 439.7, 408.726, 552.6, 430.526 ],
+        "row number" : 2,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 2,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 2,
+          "page number" : 1,
+          "bounding box" : [ 476.138, 413.877, 516.158, 425.049 ],
+          "font" : "ArialMT",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "Presente"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 3,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 439.7, 386.926, 552.6, 408.726 ],
+        "row number" : 3,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 2,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 3,
+          "page number" : 1,
+          "bounding box" : [ 476.138, 392.077, 516.158, 403.249 ],
+          "font" : "ArialMT",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "Presente"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 4,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 439.7, 364.876, 552.6, 386.926 ],
+        "row number" : 4,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 2,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 4,
+          "page number" : 1,
+          "bounding box" : [ 476.138, 370.277, 516.158, 381.449 ],
+          "font" : "ArialMT",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "Presente"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 5,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 439.7, 343.626, 496.15, 364.876 ],
+        "row number" : 5,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 5,
+          "page number" : 1,
+          "bounding box" : [ 469.191, 348.502, 474.741, 359.674 ],
+          "font" : "ArialMT",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "3"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 496.15, 343.626, 552.6, 364.876 ],
+        "row number" : 5,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 6,
+          "page number" : 1,
+          "bounding box" : [ 525.891, 348.502, 531.441, 359.674 ],
+          "font" : "ArialMT",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "0"
+        } ]
+      } ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 12,
+    "page number" : 1,
+    "bounding box" : [ 408.157, 348.502, 435.947, 359.674 ],
+    "font" : "ArialMT",
+    "font size" : 10.0,
+    "text color" : "[0.0]",
+    "content" : "Totale"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 13,
+    "page number" : 1,
+    "bounding box" : [ 92.15, 262.632, 552.746, 317.435 ],
+    "font" : "ArialMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Assiste il Segretario Comunale Erminio VERNILE, il quale provvede alla redazione del presente verbale. Essendo legale il numero degli intervenuti, il Dott. Benedetto CARDILLO - Sindaco, assume la Presidenza e dichiara aperta la seduta per la trattazione dell’oggetto sopra indicato."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 14,
+    "level" : "2",
+    "page number" : 1,
+    "bounding box" : [ 92.15, 248.833, 95.486, 262.239 ],
+    "font" : "ArialMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 15,
+    "page number" : 2,
+    "bounding box" : [ 42.55, 744.194, 343.849, 785.059 ],
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "LA GIUNTA COMUNALE Premesso:"
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 16,
+    "level" : "3",
+    "page number" : 2,
+    "bounding box" : [ 60.55, 551.162, 503.158, 743.695 ],
+    "numbering style" : "unordered",
+    "number of list items" : 3,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 60.55, 689.042, 503.146, 743.695 ],
+      "font" : "TimesNewRomanPS-BoldMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "- che, a seguito di vertenza promossa dal Sig. Antonio Miele innanzi al Tribunale Civile di Cassino fu emessa Sentenza favorevole al Comune di Ausonia n.° 819/2017 con la quale il Miele veniva condannato al pagamento delle spese legali in favore del Comune di Ausonia per complessivi €. 7.232,96;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 60.55, 633.89, 503.146, 688.543 ],
+      "font" : "TimesNewRomanPS-BoldMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "- che, a seguito di successivo Ricorso promosso dal medesimo Sig. Antonio Miele innanzi al Consiglio di Stato fu, parimenti, emessa Sentenza favorevole al Comune di Ausonia n.° 05014/2023 con la quale il ricorrente Miele veniva condannato al pagamento delle spese legali in favore di questo Comune per complessivi €. 5.836,48;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 60.55, 551.162, 503.158, 633.391 ],
+      "font" : "TimesNewRomanPS-BoldMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "- che, pertanto, la parte soccombente è risultata condannata alla rifusione delle spese legali nei confronti dell’Ente, nei due giudizi, per complessivi €. 13.069,44, somma che questo Comune era tenuto a liquidare all’Avv.to Ivan Caserta, con Studio in Pontecorvo (FR) in quanto incaricato della difesa degli interessi del Comune in ambedue i sopracitati procedimenti, giuste Deliberazioni della Giunta Comunale n.° 113 del 05.10.2015 e n.° 48 del 15.05.2017;",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 17,
+    "page number" : 2,
+    "bounding box" : [ 42.55, 496.01, 503.146, 536.875 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Considerato che, a fronte della complessiva somma dovuta dalla parte soccombente pari ad €. 13.069,44, ad oggi il Sig. Antonio Miele, nonostante ripetuti solleciti, è ancora debitore nei confronti del Comune di Ausonia di un importo pari ad €. 10.569,44;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 18,
+    "page number" : 2,
+    "bounding box" : [ 42.55, 440.858, 503.146, 481.723 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Ravvisata, pertanto, l’opportunità di agire stragiudizialmente, prima, ed eventualmente in giudizio, poi, al fine di ottenere il pagamento delle sopra quantificate spese legali conferendo incarico ad un Legale di fiducia a tutela degli interessi di questo Comune;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 19,
+    "page number" : 2,
+    "bounding box" : [ 42.55, 371.918, 503.146, 426.571 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Vista la nota pervenuta in data 12.05.2026 (acquisita al protocollo con il n.° 2965), con la quale l'Avv. Emiliano Simeone, con Studio in Spigno Saturnia (LT) – Piazza Dante n.° 1, previ informali contatti, ha manifestato la propria disponibilità ad accettare l’incarico professionale di cui trattasi a tutela del Comune verso il corrispettivo di seguito analiticamente riportato:"
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 20,
+    "level" : "3",
+    "page number" : 2,
+    "bounding box" : [ 60.55, 330.554, 346.222, 371.419 ],
+    "numbering style" : "unordered",
+    "number of list items" : 3,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 60.55, 358.13, 294.91, 371.419 ],
+      "font" : "TimesNewRomanPS-BoldMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "- €. 492,00 per Atto di significazione e diffida;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 60.55, 344.342, 346.222, 357.631 ],
+      "font" : "TimesNewRomanPS-BoldMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "- €. 808,88 per eventuale Ricorso per Decreto Ingiuntivo;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 60.55, 330.554, 272.578, 343.843 ],
+      "font" : "TimesNewRomanPS-BoldMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "- €. 276,12 per eventuale Atto di Precetto;",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 21,
+    "page number" : 2,
+    "bounding box" : [ 42.55, 302.978, 503.146, 330.055 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "il tutto per un ammontare massimo complessivo di €. 1.577,00 oltre spese per eventuale azione esecutiva mobiliare/immobiliare nei confronti del debitore;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 22,
+    "page number" : 2,
+    "bounding box" : [ 42.55, 153.098, 503.146, 288.691 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Valutata l’opportunità di procedere in merito; Valutata, altresì, la propria competenza ai sensi del D. Lgs. 267/2000; Visto il D.Lgs. n.° 267 del 18.08.2000; Visto il vigente Statuto comunale; Acquisiti i pareri di regolarità tecnica e contabile ai sensi dell’Art. 49 del TUEL 267/00 e ss. mm. e ii.; Con votazione unanime e favorevole resa in forma palese;"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H4",
+    "id" : 23,
+    "level" : "Subtitle",
+    "page number" : 2,
+    "bounding box" : [ 231.012, 125.522, 314.688, 138.811 ],
+    "heading level" : 4,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "D E L I B E R A"
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 24,
+    "level" : "4",
+    "page number" : 2,
+    "bounding box" : [ 42.55, 42.794, 503.146, 111.235 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "next list id" : 26,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 42.55, 84.158, 437.41, 111.235 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "1)- Di considerare la premessa narrativa parte integrante e sostanziale del presente provvedimento;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 42.55, 42.794, 503.146, 69.871 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "2)- Di conferire incarico professionale in via stragiudiziale ed, eventualmente, giudiziale innanzi agli Organi di Giustizia competenti, nei confronti del Sig. Antonio Miele, nato a",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 26,
+    "level" : "4",
+    "page number" : 3,
+    "bounding box" : [ 92.15, 440.858, 552.746, 798.847 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 5,
+    "previous list id" : 24,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "id" : 25,
+      "page number" : 3,
+      "bounding box" : [ 92.15, 730.406, 552.746, 798.847 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "Formia (LT) il 22 luglio 1960 ed ivi residente, alla via Virgilio, n.° 15, al fine di recuperare la somma complessiva di €. 10.569,44 oltre ogni accessorio di legge, dovuta dal Sig. A. Miele medesimo a titolo di rifusione delle spese legali in favore del Comune di Ausonia a seguito della Sentenza emessa dal Tribunale Civile di Cassino n.° 819/2017 e della Sentenza emessa dal Consiglio di Stato n.° 05014/2023;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 92.15, 675.254, 552.734, 716.119 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "3)- Di autorizzare il Sindaco, in qualità di Legale Rappresentante dell’Ente, a costituirsi in giudizio in nome e per conto del Comune di Ausonia con conseguente potere di sottoscrizione del mandato “ad litem”;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 92.15, 606.314, 552.746, 660.967 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "4)-Di Nominare, per le finalità di cui al precedente punto n.° 2 del presente deliberato, l'Avv. Emiliano Simeone, con Studio in Spigno Saturnia (LT) – Piazza Dante n.° 1, per la difesa degli interessi del Comune con ampia facoltà di dire, eccepire, dedurre quanto riterrà necessario e conveniente per il Comune;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 92.15, 564.95, 552.734, 592.027 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "5)- Di dare atto che alla succitata Professionista sarà riconosciuto il compenso professionale di seguito analiticamente riportato:",
+      "kids" : [ {
+        "type" : "list",
+        "pdfua_tag" : "L",
+        "id" : 1,
+        "level" : "5",
+        "page number" : 3,
+        "bounding box" : [ 110.15, 523.586, 395.822, 564.451 ],
+        "numbering style" : "unordered",
+        "number of list items" : 3,
+        "list items" : [ {
+          "type" : "list item",
+          "pdfua_tag" : "LI",
+          "page number" : 3,
+          "bounding box" : [ 110.15, 551.162, 344.51, 564.451 ],
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "- €. 492,00 per Atto di significazione e diffida;",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "pdfua_tag" : "LI",
+          "page number" : 3,
+          "bounding box" : [ 110.15, 537.374, 395.822, 550.663 ],
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "- €. 808,88 per eventuale Ricorso per Decreto Ingiuntivo;",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "pdfua_tag" : "LI",
+          "page number" : 3,
+          "bounding box" : [ 110.15, 523.586, 322.178, 536.875 ],
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "- €. 276,12 per eventuale Atto di Precetto;",
+          "kids" : [ ]
+        } ]
+      }, {
+        "type" : "paragraph",
+        "pdfua_tag" : "P",
+        "id" : 2,
+        "page number" : 3,
+        "bounding box" : [ 92.15, 496.01, 552.746, 523.087 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 12.0,
+        "text color" : "[0.0]",
+        "content" : "il tutto per un ammontare massimo complessivo di €. 1.577,00 oltre spese per eventuale azione esecutiva mobiliare/immobiliare nei confronti del debitore;"
+      } ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 92.15, 440.858, 552.746, 481.723 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "6)- Di stanziare ed impegnare la suddetta somma a valere sul Bilancio di Previsione 2026, gestione competenza – Cap. 1058- Codice 01.11-1.10.05.04.001 ”Spese per liti, arbitraggi e risarcimenti”;",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 27,
+    "page number" : 3,
+    "bounding box" : [ 92.15, 385.688, 552.734, 426.571 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Di dichiarare con separata, favorevole e palese votazione, il presente provvedimento immediatamente eseguibile ai sensi e per gli effetti dell'articolo 134, comma 4, del D. Lgs. 18.08.2000 n. 267."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 30,
+    "page number" : 4,
+    "bounding box" : [ 42.55, 763.353, 182.62, 774.525 ],
+    "font" : "ArialMT",
+    "font size" : 10.0,
+    "text color" : "[0.0]",
+    "content" : "Letto, confermato e sottoscritto."
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H5",
+    "id" : 31,
+    "level" : "Subtitle",
+    "page number" : 4,
+    "bounding box" : [ 85.52, 728.856, 446.817, 751.527 ],
+    "heading level" : 5,
+    "font" : "Arial-BoldMT",
+    "font size" : 10.0,
+    "text color" : "[0.0]",
+    "content" : "IL Sindaco IL Segretario Comunale f.to Dott. Benedetto CARDILLO"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 33,
+    "page number" : 4,
+    "bounding box" : [ 307.277, 705.858, 474.117, 740.028 ],
+    "font" : "ArialMT",
+    "font size" : 10.0,
+    "text color" : "[0.0]",
+    "content" : "f.to Dott. Erminio VERNILE ______________________________"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 32,
+    "page number" : 4,
+    "bounding box" : [ 71.577, 705.858, 238.417, 717.03 ],
+    "font" : "ArialMT",
+    "font size" : 10.0,
+    "text color" : "[0.0]",
+    "content" : "______________________________"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 35,
+    "page number" : 4,
+    "bounding box" : [ 77.95, 646.863, 325.27, 658.035 ],
+    "font" : "ArialMT",
+    "font size" : 10.0,
+    "text color" : "[0.0]",
+    "content" : "Il sottoscritto Segretario Comunale, visti gli atti di ufficio:"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 36,
+    "page number" : 4,
+    "bounding box" : [ 42.55, 600.867, 295.906, 635.037 ],
+    "font" : "ArialMT",
+    "font size" : 10.0,
+    "text color" : "[0.0]",
+    "content" : "ATTESTA Che la presente deliberazione:"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 37,
+    "page number" : 4,
+    "bounding box" : [ 42.55, 566.37, 444.72, 577.542 ],
+    "font" : "ArialMT",
+    "font size" : 10.0,
+    "text color" : "[0.0]",
+    "content" : " viene dichiarata immediatamente eseguibile (art. 134, 4° comma del D. Lvo 267/2000)"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 38,
+    "level" : "6",
+    "page number" : 4,
+    "bounding box" : [ 42.55, 543.372, 216.17, 554.544 ],
+    "font" : "ArialMT",
+    "font size" : 10.0,
+    "text color" : "[0.0]",
+    "content" : " è divenuta esecutiva il 11-06-2026"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 39,
+    "page number" : 4,
+    "bounding box" : [ 42.55, 508.875, 336.77, 520.047 ],
+    "font" : "ArialMT",
+    "font size" : 10.0,
+    "text color" : "[0.0]",
+    "content" : " viene comunicata in elenco ai Capigruppo Consiliari (art. 125)"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 40,
+    "page number" : 4,
+    "bounding box" : [ 212.831, 474.378, 332.871, 497.049 ],
+    "font" : "ArialMT",
+    "font size" : 10.0,
+    "text color" : "[0.0]",
+    "content" : "IL Segretario Comunale f.to Dott. Erminio VERNILE"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 41,
+    "page number" : 4,
+    "bounding box" : [ 189.427, 451.38, 356.267, 462.552 ],
+    "font" : "ArialMT",
+    "font size" : 10.0,
+    "text color" : "[0.0]",
+    "content" : "______________________________"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 43,
+    "page number" : 4,
+    "bounding box" : [ 42.55, 369.387, 295.46, 403.557 ],
+    "font" : "ArialMT",
+    "font size" : 10.0,
+    "text color" : "[0.0]",
+    "content" : "Il sottoscritto responsabile del servizio delle pubblicazioni ATTESTA"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 44,
+    "page number" : 4,
+    "bounding box" : [ 42.55, 323.391, 503.15, 357.561 ],
+    "font" : "ArialMT",
+    "font size" : 10.0,
+    "text color" : "[0.0]",
+    "content" : "Che la presente deliberazione è stata pubblicata, in data odierna, per 15 giorni consecutivi dal 15-062026 al 30-06-2026 al numero 366 nel sito web istituzionale di questo Comune accessibile al pubblico al portale www.comunediausonia.it (art. 32, comma 1, della legge 18 giugno 2009, n. 69)."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 46,
+    "page number" : 4,
+    "bounding box" : [ 42.55, 288.894, 230.43, 300.066 ],
+    "font" : "ArialMT",
+    "font size" : 10.0,
+    "text color" : "[0.0]",
+    "content" : "Dalla Residenza Municipale, lì 15-06-2026"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H5",
+    "id" : 47,
+    "level" : "Subtitle",
+    "page number" : 4,
+    "bounding box" : [ 164.774, 254.397, 380.924, 277.068 ],
+    "heading level" : 5,
+    "font" : "Arial-BoldMT",
+    "font size" : 10.0,
+    "text color" : "[0.0]",
+    "content" : "IL Responsabile Procedimento Pubblicazione f.to Sig. Onofrio CORENO"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 48,
+    "page number" : 4,
+    "bounding box" : [ 189.427, 231.399, 356.267, 242.571 ],
+    "font" : "ArialMT",
+    "font size" : 10.0,
+    "text color" : "[0.0]",
+    "content" : "______________________________"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 49,
+    "page number" : 4,
+    "bounding box" : [ 42.55, 139.407, 498.59, 196.575 ],
+    "font" : "ArialMT",
+    "font size" : 10.0,
+    "text color" : "[0.0]",
+    "content" : "__________________________________________________________________________________ Copia conforme all’originale, in carta libera per uso amministrativo. Dalla Residenza Municipale, li 15-06-2026"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H5",
+    "id" : 50,
+    "level" : "Subtitle",
+    "page number" : 4,
+    "bounding box" : [ 266.402, 104.91, 378.642, 127.581 ],
+    "heading level" : 5,
+    "font" : "Arial-BoldMT",
+    "font size" : 10.0,
+    "text color" : "[0.0]",
+    "content" : "IL Segretario Comunale Dott. Erminio VERNILE"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 51,
+    "page number" : 4,
+    "bounding box" : [ 239.102, 81.912, 405.942, 93.084 ],
+    "font" : "ArialMT",
+    "font size" : 10.0,
+    "text color" : "[0.0]",
+    "content" : "______________________________"
+  } ]
+}

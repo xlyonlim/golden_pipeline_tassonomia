@@ -1,0 +1,4882 @@
+{
+  "file name" : "atto_50.pdf",
+  "number of pages" : 7,
+  "author" : "Giuseppe",
+  "title" : "Frontespizio",
+  "creation date" : "D:20210903131600+02'00'",
+  "modification date" : "D:20240806150400+02'00'",
+  "kids" : [ {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 9,
+    "page number" : 1,
+    "bounding box" : [ 60.25, 769.14, 104.47, 819.3 ],
+    "source" : "atto_50_images/imageFile1.png"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 10,
+    "level" : "Doctitle",
+    "page number" : 1,
+    "bounding box" : [ 208.42, 787.103, 421.78, 809.251 ],
+    "heading level" : 1,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 20.0,
+    "text color" : "[0.0]",
+    "content" : "COMUNE DI SELVINO"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 11,
+    "page number" : 1,
+    "bounding box" : [ 258.449, 773.304, 371.753, 786.593 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "(Provincia di Bergamo)"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 12,
+    "page number" : 1,
+    "bounding box" : [ 491.445, 722.202, 524.445, 734.383 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "COPIA"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H2",
+    "id" : 13,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 97.751, 618.712, 469.253, 638.646 ],
+    "heading level" : 2,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 18.0,
+    "text color" : "[0.0]",
+    "content" : "Verbale di deliberazione della Giunta Comunale"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H3",
+    "id" : 14,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 169.9, 602.613, 423.874, 618.117 ],
+    "heading level" : 3,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 14.0,
+    "text color" : "[0.0]",
+    "content" : "DELIBERAZIONE N. 54 DEL 23-06-2026"
+  }, {
+    "type" : "text block",
+    "id" : 15,
+    "page number" : 1,
+    "bounding box" : [ 36.6, 443.224, 530.4, 509.469 ],
+    "kids" : [ {
+      "type" : "heading",
+      "pdfua_tag" : "H6",
+      "id" : 3,
+      "level" : "Subtitle",
+      "page number" : 1,
+      "bounding box" : [ 42.55, 457.373, 524.449, 494.852 ],
+      "heading level" : 6,
+      "font" : "TimesNewRomanPS-BoldMT",
+      "font size" : 11.0,
+      "text color" : "[0.0]",
+      "content" : "OGGETTO:APPROVAZIONE PROGETTO ESECUTIVO: \"RIQUALIFICAZIONE E RIPRISTINO DELLE CONDIZIONI DI SICUREZZA DELLE STRADE COMUNALI ANNO 2026\" - CUP J37H26000500004"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 16,
+    "page number" : 1,
+    "bounding box" : [ 42.55, 389.178, 524.446, 416.266 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "L'anno duemilaventisei il giorno ventitre del mese di giugno alle ore 13:10, nella sede comunale, in seguito a convocazione, si è riunita la Giunta Comunale."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 17,
+    "page number" : 1,
+    "bounding box" : [ 42.55, 361.58, 152.53, 374.869 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Intervengono i signori:"
+  }, {
+    "type" : "table",
+    "pdfua_tag" : "Table",
+    "id" : 18,
+    "level" : "1",
+    "page number" : 1,
+    "bounding box" : [ 38.675, 289.585, 528.325, 333.982 ],
+    "number of rows" : 3,
+    "number of columns" : 3,
+    "rows" : [ {
+      "type" : "table row",
+      "row number" : 1,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 39.425, 319.058, 241.0, 333.232 ],
+        "row number" : 1,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 5,
+          "page number" : 1,
+          "bounding box" : [ 42.55, 319.433, 144.214, 332.722 ],
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "Andrea Santopietro"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 241.0, 319.058, 333.15, 333.232 ],
+        "row number" : 1,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 6,
+          "page number" : 1,
+          "bounding box" : [ 244.5, 319.433, 285.18, 332.722 ],
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "Sindaco"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 333.15, 319.058, 527.575, 333.232 ],
+        "row number" : 1,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 7,
+          "page number" : 1,
+          "bounding box" : [ 336.65, 319.433, 380.63, 332.722 ],
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "Presente"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 2,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 39.425, 304.509, 241.0, 319.058 ],
+        "row number" : 2,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 8,
+          "page number" : 1,
+          "bounding box" : [ 42.55, 304.884, 127.558, 318.173 ],
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "Claudio Ruggeri"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 241.0, 304.509, 333.15, 319.058 ],
+        "row number" : 2,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 9,
+          "page number" : 1,
+          "bounding box" : [ 244.5, 304.884, 293.832, 318.173 ],
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "Assessore"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 333.15, 304.509, 527.575, 319.058 ],
+        "row number" : 2,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 10,
+          "page number" : 1,
+          "bounding box" : [ 336.65, 304.884, 380.63, 318.173 ],
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "Presente"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 3,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 39.425, 290.335, 241.0, 304.509 ],
+        "row number" : 3,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 11,
+          "page number" : 1,
+          "bounding box" : [ 42.55, 290.335, 130.87, 303.624 ],
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "Angelo Bertocchi"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 241.0, 290.335, 333.15, 304.509 ],
+        "row number" : 3,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 12,
+          "page number" : 1,
+          "bounding box" : [ 244.5, 290.335, 293.832, 303.624 ],
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "Assessore"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 333.15, 290.335, 527.575, 304.509 ],
+        "row number" : 3,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 13,
+          "page number" : 1,
+          "bounding box" : [ 336.65, 290.335, 479.942, 303.624 ],
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "Presente in videoconferenza"
+        } ]
+      } ]
+    } ]
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H4",
+    "id" : 19,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 42.55, 261.987, 223.534, 275.276 ],
+    "heading level" : 4,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Totale Presenti 3 Assenti 0"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 20,
+    "page number" : 1,
+    "bounding box" : [ 42.55, 220.59, 483.082, 233.879 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Provvede alla redazione del presente verbale il Segretario Comunale Vincenzo De Filippis"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 21,
+    "page number" : 1,
+    "bounding box" : [ 42.55, 165.394, 524.446, 192.482 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Constatato il numero legale degli intervenuti, assume la presidenza il Sig. Dott. Andrea Santopietro nella sua qualità di Sindaco per la trattazione dell’oggetto sopraindicato."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 22,
+    "page number" : 2,
+    "bounding box" : [ 215.515, 757.308, 351.499, 770.597 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "LA GIUNTA COMUNALE"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 23,
+    "page number" : 2,
+    "bounding box" : [ 42.55, 688.368, 524.446, 743.021 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "PREMESSO che l’amministrazione Comunale di Selvino, nell’ambito di un programma generale di manutenzione del territorio comunale ha avviato il progetto di riqualificazione di alcuni tratti delle strade comunali nelle quali risulta compromessa la viabilità in sicurezza a causa di buche, crepe, piani sfalsati e danneggiamenti vari;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 24,
+    "page number" : 2,
+    "bounding box" : [ 42.55, 633.216, 524.446, 674.081 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "CONSIDERATO che, al fine di garantire la sicurezza stradale lungo alcuni punti critici della viabilità comunale, si rende necessario attuare sistemi limitatori di velocità quali dossi artificiali al fine di moderare la velocità delle auto;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 25,
+    "page number" : 2,
+    "bounding box" : [ 42.55, 564.276, 524.434, 618.929 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "PRESO ATTO che l’ufficio tecnico comunale ha predisposto il progetto esecutivo denominato “Riqualificazione e ripristino delle condizioni di sicurezza delle strade comunali – Anno 2026 – CUP J37H26000500004\", redigendo la seguente documentazione ai sensi dell’art. 22 comma 4 dell’allegato I.7 del D.Lgs. 36/2023:"
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 26,
+    "level" : "2",
+    "page number" : 2,
+    "bounding box" : [ 60.55, 457.08, 169.632, 550.496 ],
+    "numbering style" : "unordered",
+    "number of list items" : 6,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 60.55, 535.795, 162.96, 550.496 ],
+      "font" : "SymbolMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : " Relazione tecnica",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 60.55, 520.052, 169.632, 534.753 ],
+      "font" : "SymbolMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : " Quadro economico",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 60.55, 504.309, 162.324, 519.01 ],
+      "font" : "SymbolMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : " Computo metrico",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 60.55, 488.566, 111.324, 503.267 ],
+      "font" : "SymbolMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : " Tavola",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 60.55, 472.823, 150.336, 487.524 ],
+      "font" : "SymbolMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : " Relazione PSC",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 60.55, 457.08, 143.628, 471.781 ],
+      "font" : "SymbolMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : " Elenco prezzi",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 27,
+    "page number" : 2,
+    "bounding box" : [ 42.55, 406.666, 524.446, 447.531 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "VISTO che la spesa complessiva dei lavori ammonta ad € 70.000,00 di cui € 61.000,00 per lavori ed € 9.000,00 per somme a disposizione dell’amministrazione, come si evince dal quadro economico di seguito riportato:"
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 28,
+    "level" : "3",
+    "page number" : 2,
+    "bounding box" : [ 53.15, 197.496, 521.301, 392.372 ],
+    "numbering style" : "english letters",
+    "number of list items" : 3,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 53.15, 379.083, 518.552, 392.372 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "A) IMPORTO LAVORI A BASE D'ASTA (escluso importo per attuazione piani sicurezza):",
+      "kids" : [ {
+        "type" : "table",
+        "pdfua_tag" : "Table",
+        "id" : 5,
+        "level" : "4",
+        "page number" : 2,
+        "bounding box" : [ 49.15, 292.79, 525.5, 379.083 ],
+        "number of rows" : 4,
+        "number of columns" : 5,
+        "rows" : [ {
+          "type" : "table row",
+          "row number" : 1,
+          "cells" : [ {
+            "type" : "table cell",
+            "pdfua_tag" : "TD",
+            "page number" : 2,
+            "bounding box" : [ 49.9, 366.334, 80.1, 378.083 ],
+            "row number" : 1,
+            "column number" : 1,
+            "row span" : 1,
+            "column span" : 1,
+            "kids" : [ {
+              "type" : "paragraph",
+              "pdfua_tag" : "P",
+              "id" : 1,
+              "page number" : 2,
+              "bounding box" : [ 62.375, 366.584, 67.375, 377.658 ],
+              "font" : "TimesNewRomanPSMT",
+              "font size" : 10.0,
+              "text color" : "[0.0]",
+              "content" : "1"
+            } ]
+          }, {
+            "type" : "table cell",
+            "pdfua_tag" : "TD",
+            "page number" : 2,
+            "bounding box" : [ 80.1, 366.334, 152.85, 378.083 ],
+            "row number" : 1,
+            "column number" : 2,
+            "row span" : 1,
+            "column span" : 1,
+            "kids" : [ {
+              "type" : "paragraph",
+              "pdfua_tag" : "P",
+              "id" : 2,
+              "page number" : 2,
+              "bounding box" : [ 95.654, 366.584, 137.294, 377.658 ],
+              "font" : "TimesNewRomanPSMT",
+              "font size" : 10.0,
+              "text color" : "[0.0]",
+              "content" : "asfaltature"
+            } ]
+          }, {
+            "type" : "table cell",
+            "pdfua_tag" : "TD",
+            "page number" : 2,
+            "bounding box" : [ 152.85, 366.334, 356.7, 378.083 ],
+            "row number" : 1,
+            "column number" : 3,
+            "row span" : 1,
+            "column span" : 1,
+            "kids" : [ {
+              "type" : "paragraph",
+              "pdfua_tag" : "P",
+              "id" : 3,
+              "page number" : 2,
+              "bounding box" : [ 156.35, 366.584, 186.06, 377.658 ],
+              "font" : "TimesNewRomanPSMT",
+              "font size" : 10.0,
+              "text color" : "[0.0]",
+              "content" : "a corpo"
+            } ]
+          }, {
+            "type" : "table cell",
+            "pdfua_tag" : "TD",
+            "page number" : 2,
+            "bounding box" : [ 356.7, 366.334, 461.45, 378.083 ],
+            "row number" : 1,
+            "column number" : 4,
+            "row span" : 1,
+            "column span" : 1,
+            "kids" : [ {
+              "type" : "paragraph",
+              "pdfua_tag" : "P",
+              "id" : 4,
+              "page number" : 2,
+              "bounding box" : [ 421.95, 367.159, 457.95, 377.126 ],
+              "font" : "TimesNewRomanPSMT",
+              "font size" : 9.0,
+              "text color" : "[0.0]",
+              "content" : "52.700,00"
+            } ]
+          }, {
+            "type" : "table cell",
+            "pdfua_tag" : "TD",
+            "page number" : 2,
+            "bounding box" : [ 461.45, 366.334, 525.0, 378.083 ],
+            "row number" : 1,
+            "column number" : 5,
+            "row span" : 1,
+            "column span" : 1,
+            "kids" : [ ]
+          } ]
+        }, {
+          "type" : "table row",
+          "row number" : 2,
+          "cells" : [ {
+            "type" : "table cell",
+            "pdfua_tag" : "TD",
+            "page number" : 2,
+            "bounding box" : [ 49.9, 307.839, 80.1, 366.334 ],
+            "row number" : 2,
+            "column number" : 1,
+            "row span" : 2,
+            "column span" : 1,
+            "kids" : [ {
+              "type" : "list",
+              "pdfua_tag" : "L",
+              "id" : 5,
+              "level" : "1",
+              "page number" : 2,
+              "bounding box" : [ 62.375, 325.338, 67.375, 365.659 ],
+              "numbering style" : "arabic numbers",
+              "number of list items" : 2,
+              "list items" : [ {
+                "type" : "list item",
+                "pdfua_tag" : "LI",
+                "page number" : 2,
+                "bounding box" : [ 62.375, 354.585, 67.375, 365.659 ],
+                "font" : "TimesNewRomanPSMT",
+                "font size" : 10.0,
+                "text color" : "[0.0]",
+                "content" : "2",
+                "kids" : [ ]
+              }, {
+                "type" : "list item",
+                "pdfua_tag" : "LI",
+                "page number" : 2,
+                "bounding box" : [ 62.375, 325.338, 67.375, 336.412 ],
+                "font" : "TimesNewRomanPSMT",
+                "font size" : 10.0,
+                "text color" : "[0.0]",
+                "content" : "3",
+                "kids" : [ ]
+              } ]
+            } ]
+          }, {
+            "type" : "table cell",
+            "pdfua_tag" : "TD",
+            "page number" : 2,
+            "bounding box" : [ 80.1, 354.335, 152.85, 366.334 ],
+            "row number" : 2,
+            "column number" : 2,
+            "row span" : 1,
+            "column span" : 1,
+            "kids" : [ {
+              "type" : "paragraph",
+              "pdfua_tag" : "P",
+              "id" : 6,
+              "page number" : 2,
+              "bounding box" : [ 87.029, 354.585, 145.919, 365.659 ],
+              "font" : "TimesNewRomanPSMT",
+              "font size" : 10.0,
+              "text color" : "[0.0]",
+              "content" : "dosso via Osio"
+            } ]
+          }, {
+            "type" : "table cell",
+            "pdfua_tag" : "TD",
+            "page number" : 2,
+            "bounding box" : [ 152.85, 354.335, 356.7, 366.334 ],
+            "row number" : 2,
+            "column number" : 3,
+            "row span" : 1,
+            "column span" : 1,
+            "kids" : [ {
+              "type" : "paragraph",
+              "pdfua_tag" : "P",
+              "id" : 7,
+              "page number" : 2,
+              "bounding box" : [ 156.35, 354.585, 186.06, 365.659 ],
+              "font" : "TimesNewRomanPSMT",
+              "font size" : 10.0,
+              "text color" : "[0.0]",
+              "content" : "a corpo"
+            } ]
+          }, {
+            "type" : "table cell",
+            "pdfua_tag" : "TD",
+            "page number" : 2,
+            "bounding box" : [ 356.7, 354.335, 461.45, 366.334 ],
+            "row number" : 2,
+            "column number" : 4,
+            "row span" : 1,
+            "column span" : 1,
+            "kids" : [ {
+              "type" : "paragraph",
+              "pdfua_tag" : "P",
+              "id" : 8,
+              "page number" : 2,
+              "bounding box" : [ 426.45, 355.16, 457.95, 365.127 ],
+              "font" : "TimesNewRomanPSMT",
+              "font size" : 9.0,
+              "text color" : "[0.0]",
+              "content" : "1.400,00"
+            } ]
+          }, {
+            "type" : "table cell",
+            "pdfua_tag" : "TD",
+            "page number" : 2,
+            "bounding box" : [ 461.45, 354.335, 525.0, 366.334 ],
+            "row number" : 2,
+            "column number" : 5,
+            "row span" : 1,
+            "column span" : 1,
+            "kids" : [ ]
+          } ]
+        }, {
+          "type" : "table row",
+          "row number" : 3,
+          "cells" : [ {
+            "type" : "table cell",
+            "pdfua_tag" : "TD",
+            "page number" : 2,
+            "bounding box" : [ 80.1, 307.839, 152.85, 354.335 ],
+            "row number" : 3,
+            "column number" : 2,
+            "row span" : 1,
+            "column span" : 1,
+            "kids" : [ {
+              "type" : "paragraph",
+              "pdfua_tag" : "P",
+              "id" : 9,
+              "page number" : 2,
+              "bounding box" : [ 83.6, 308.089, 142.76, 353.66 ],
+              "font" : "TimesNewRomanPSMT",
+              "font size" : 10.0,
+              "text color" : "[0.0]",
+              "content" : "dossi Corso Milano, Corso M. Rosa, Via M. Bianco"
+            } ]
+          }, {
+            "type" : "table cell",
+            "pdfua_tag" : "TD",
+            "page number" : 2,
+            "bounding box" : [ 152.85, 307.839, 356.7, 354.335 ],
+            "row number" : 3,
+            "column number" : 3,
+            "row span" : 1,
+            "column span" : 1,
+            "kids" : [ {
+              "type" : "paragraph",
+              "pdfua_tag" : "P",
+              "id" : 10,
+              "page number" : 2,
+              "bounding box" : [ 156.35, 325.338, 186.06, 336.412 ],
+              "font" : "TimesNewRomanPSMT",
+              "font size" : 10.0,
+              "text color" : "[0.0]",
+              "content" : "a corpo"
+            } ]
+          }, {
+            "type" : "table cell",
+            "pdfua_tag" : "TD",
+            "page number" : 2,
+            "bounding box" : [ 356.7, 307.839, 461.45, 354.335 ],
+            "row number" : 3,
+            "column number" : 4,
+            "row span" : 1,
+            "column span" : 1,
+            "kids" : [ {
+              "type" : "paragraph",
+              "pdfua_tag" : "P",
+              "id" : 11,
+              "page number" : 2,
+              "bounding box" : [ 426.45, 325.913, 457.95, 335.88 ],
+              "font" : "TimesNewRomanPSMT",
+              "font size" : 9.0,
+              "text color" : "[0.0]",
+              "content" : "5.600,00"
+            } ]
+          }, {
+            "type" : "table cell",
+            "pdfua_tag" : "TD",
+            "page number" : 2,
+            "bounding box" : [ 461.45, 307.839, 525.0, 354.335 ],
+            "row number" : 3,
+            "column number" : 5,
+            "row span" : 1,
+            "column span" : 1,
+            "kids" : [ ]
+          } ]
+        }, {
+          "type" : "table row",
+          "row number" : 4,
+          "cells" : [ {
+            "type" : "table cell",
+            "pdfua_tag" : "TD",
+            "page number" : 2,
+            "bounding box" : [ 49.9, 293.79, 80.1, 307.839 ],
+            "row number" : 4,
+            "column number" : 1,
+            "row span" : 1,
+            "column span" : 1,
+            "kids" : [ {
+              "type" : "paragraph",
+              "pdfua_tag" : "P",
+              "id" : 12,
+              "page number" : 2,
+              "bounding box" : [ 62.375, 294.94, 67.375, 306.014 ],
+              "font" : "TimesNewRomanPSMT",
+              "font size" : 10.0,
+              "text color" : "[0.0]",
+              "content" : "4"
+            } ]
+          }, {
+            "type" : "table cell",
+            "pdfua_tag" : "TD",
+            "page number" : 2,
+            "bounding box" : [ 80.1, 293.79, 152.85, 307.839 ],
+            "row number" : 4,
+            "column number" : 2,
+            "row span" : 1,
+            "column span" : 1,
+            "kids" : [ ]
+          }, {
+            "type" : "table cell",
+            "pdfua_tag" : "TD",
+            "page number" : 2,
+            "bounding box" : [ 152.85, 293.79, 356.7, 307.839 ],
+            "row number" : 4,
+            "column number" : 3,
+            "row span" : 1,
+            "column span" : 1,
+            "kids" : [ ]
+          }, {
+            "type" : "table cell",
+            "pdfua_tag" : "TD",
+            "page number" : 2,
+            "bounding box" : [ 356.7, 293.79, 461.45, 307.839 ],
+            "row number" : 4,
+            "column number" : 4,
+            "row span" : 1,
+            "column span" : 1,
+            "kids" : [ {
+              "type" : "paragraph",
+              "pdfua_tag" : "P",
+              "id" : 13,
+              "page number" : 2,
+              "bounding box" : [ 398.206, 295.515, 457.948, 305.482 ],
+              "font" : "TimesNewRomanPS-BoldMT",
+              "font size" : 9.0,
+              "text color" : "[0.0]",
+              "content" : "sommano euro:"
+            } ]
+          }, {
+            "type" : "table cell",
+            "pdfua_tag" : "TD",
+            "page number" : 2,
+            "bounding box" : [ 461.45, 293.79, 525.0, 307.839 ],
+            "row number" : 4,
+            "column number" : 5,
+            "row span" : 1,
+            "column span" : 1,
+            "kids" : [ {
+              "type" : "paragraph",
+              "pdfua_tag" : "P",
+              "id" : 14,
+              "page number" : 2,
+              "bounding box" : [ 476.2, 293.79, 512.2, 303.757 ],
+              "font" : "TimesNewRomanPSMT",
+              "font size" : 9.0,
+              "text color" : "[0.0]",
+              "content" : "59.700,00"
+            } ]
+          } ]
+        } ]
+      } ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 53.15, 275.391, 521.301, 288.68 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "B) IMPORTO PER L'ATTUAZIONE DEI PIANI DI SICUREZZA (non soggetto a ribasso d'asta):",
+      "kids" : [ {
+        "type" : "table",
+        "pdfua_tag" : "Table",
+        "id" : 6,
+        "level" : "5",
+        "page number" : 2,
+        "bounding box" : [ 49.15, 247.593, 525.75, 275.391 ],
+        "number of rows" : 2,
+        "number of columns" : 5,
+        "rows" : [ {
+          "type" : "table row",
+          "row number" : 1,
+          "cells" : [ {
+            "type" : "table cell",
+            "pdfua_tag" : "TD",
+            "page number" : 2,
+            "bounding box" : [ 49.9, 262.642, 80.1, 274.391 ],
+            "row number" : 1,
+            "column number" : 1,
+            "row span" : 1,
+            "column span" : 1,
+            "kids" : [ {
+              "type" : "paragraph",
+              "pdfua_tag" : "P",
+              "id" : 15,
+              "page number" : 2,
+              "bounding box" : [ 62.375, 262.892, 67.375, 273.966 ],
+              "font" : "TimesNewRomanPSMT",
+              "font size" : 10.0,
+              "text color" : "[0.0]",
+              "content" : "1"
+            } ]
+          }, {
+            "type" : "table cell",
+            "pdfua_tag" : "TD",
+            "page number" : 2,
+            "bounding box" : [ 80.1, 262.642, 152.85, 274.391 ],
+            "row number" : 1,
+            "column number" : 2,
+            "row span" : 1,
+            "column span" : 1,
+            "kids" : [ ]
+          }, {
+            "type" : "table cell",
+            "pdfua_tag" : "TD",
+            "page number" : 2,
+            "bounding box" : [ 152.85, 262.642, 356.7, 274.391 ],
+            "row number" : 1,
+            "column number" : 3,
+            "row span" : 1,
+            "column span" : 1,
+            "kids" : [ {
+              "type" : "paragraph",
+              "pdfua_tag" : "P",
+              "id" : 16,
+              "page number" : 2,
+              "bounding box" : [ 156.35, 262.892, 186.06, 273.966 ],
+              "font" : "TimesNewRomanPSMT",
+              "font size" : 10.0,
+              "text color" : "[0.0]",
+              "content" : "a corpo"
+            } ]
+          }, {
+            "type" : "table cell",
+            "pdfua_tag" : "TD",
+            "page number" : 2,
+            "bounding box" : [ 356.7, 262.642, 461.2, 274.391 ],
+            "row number" : 1,
+            "column number" : 4,
+            "row span" : 1,
+            "column span" : 1,
+            "kids" : [ {
+              "type" : "paragraph",
+              "pdfua_tag" : "P",
+              "id" : 17,
+              "page number" : 2,
+              "bounding box" : [ 426.45, 263.467, 457.95, 273.434 ],
+              "font" : "TimesNewRomanPSMT",
+              "font size" : 9.0,
+              "text color" : "[0.0]",
+              "content" : "1.300,00"
+            } ]
+          }, {
+            "type" : "table cell",
+            "pdfua_tag" : "TD",
+            "page number" : 2,
+            "bounding box" : [ 461.2, 248.593, 525.25, 274.391 ],
+            "row number" : 1,
+            "column number" : 5,
+            "row span" : 2,
+            "column span" : 1,
+            "kids" : [ {
+              "type" : "paragraph",
+              "pdfua_tag" : "P",
+              "id" : 18,
+              "page number" : 2,
+              "bounding box" : [ 482.95, 248.593, 514.45, 258.56 ],
+              "font" : "TimesNewRomanPSMT",
+              "font size" : 9.0,
+              "text color" : "[0.0]",
+              "content" : "1.300,00"
+            } ]
+          } ]
+        }, {
+          "type" : "table row",
+          "row number" : 2,
+          "cells" : [ {
+            "type" : "table cell",
+            "pdfua_tag" : "TD",
+            "page number" : 2,
+            "bounding box" : [ 49.9, 248.593, 80.1, 262.642 ],
+            "row number" : 2,
+            "column number" : 1,
+            "row span" : 1,
+            "column span" : 1,
+            "kids" : [ {
+              "type" : "paragraph",
+              "pdfua_tag" : "P",
+              "id" : 19,
+              "page number" : 2,
+              "bounding box" : [ 62.375, 249.743, 67.375, 260.817 ],
+              "font" : "TimesNewRomanPSMT",
+              "font size" : 10.0,
+              "text color" : "[0.0]",
+              "content" : "2"
+            } ]
+          }, {
+            "type" : "table cell",
+            "pdfua_tag" : "TD",
+            "page number" : 2,
+            "bounding box" : [ 80.1, 248.593, 461.2, 262.642 ],
+            "row number" : 2,
+            "column number" : 2,
+            "row span" : 1,
+            "column span" : 3,
+            "kids" : [ {
+              "type" : "paragraph",
+              "pdfua_tag" : "P",
+              "id" : 20,
+              "page number" : 2,
+              "bounding box" : [ 398.206, 250.318, 457.948, 260.285 ],
+              "font" : "TimesNewRomanPS-BoldMT",
+              "font size" : 9.0,
+              "text color" : "[0.0]",
+              "content" : "sommano euro:"
+            } ]
+          } ]
+        } ]
+      }, {
+        "type" : "paragraph",
+        "pdfua_tag" : "P",
+        "id" : 7,
+        "page number" : 2,
+        "bounding box" : [ 53.15, 230.194, 507.962, 243.483 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 12.0,
+        "text color" : "[0.0]",
+        "content" : "A+B IMPORTO ESECUZIONE DEI LAVORI (compreso importo per attuazione piani sicurezza):"
+      }, {
+        "type" : "table",
+        "pdfua_tag" : "Table",
+        "id" : 8,
+        "level" : "6",
+        "page number" : 2,
+        "bounding box" : [ 49.15, 214.895, 525.75, 230.194 ],
+        "number of rows" : 1,
+        "number of columns" : 5,
+        "rows" : [ {
+          "type" : "table row",
+          "row number" : 1,
+          "cells" : [ {
+            "type" : "table cell",
+            "pdfua_tag" : "TD",
+            "page number" : 2,
+            "bounding box" : [ 49.65, 215.895, 80.1, 229.569 ],
+            "row number" : 1,
+            "column number" : 1,
+            "row span" : 1,
+            "column span" : 1,
+            "kids" : [ {
+              "type" : "paragraph",
+              "pdfua_tag" : "P",
+              "id" : 21,
+              "page number" : 2,
+              "bounding box" : [ 62.375, 217.045, 67.375, 228.119 ],
+              "font" : "TimesNewRomanPSMT",
+              "font size" : 10.0,
+              "text color" : "[0.0]",
+              "content" : "1"
+            } ]
+          }, {
+            "type" : "table cell",
+            "pdfua_tag" : "TD",
+            "page number" : 2,
+            "bounding box" : [ 80.1, 215.895, 152.85, 229.569 ],
+            "row number" : 1,
+            "column number" : 2,
+            "row span" : 1,
+            "column span" : 1,
+            "kids" : [ ]
+          }, {
+            "type" : "table cell",
+            "pdfua_tag" : "TD",
+            "page number" : 2,
+            "bounding box" : [ 152.85, 215.895, 356.7, 229.569 ],
+            "row number" : 1,
+            "column number" : 3,
+            "row span" : 1,
+            "column span" : 1,
+            "kids" : [ {
+              "type" : "paragraph",
+              "pdfua_tag" : "P",
+              "id" : 22,
+              "page number" : 2,
+              "bounding box" : [ 156.35, 215.895, 208.91, 226.969 ],
+              "font" : "TimesNewRomanPSMT",
+              "font size" : 10.0,
+              "text color" : "[0.0]",
+              "content" : "a corpo : a+b"
+            } ]
+          }, {
+            "type" : "table cell",
+            "pdfua_tag" : "TD",
+            "page number" : 2,
+            "bounding box" : [ 356.7, 215.895, 461.45, 229.569 ],
+            "row number" : 1,
+            "column number" : 4,
+            "row span" : 1,
+            "column span" : 1,
+            "kids" : [ {
+              "type" : "paragraph",
+              "pdfua_tag" : "P",
+              "id" : 23,
+              "page number" : 2,
+              "bounding box" : [ 398.206, 217.62, 457.948, 227.587 ],
+              "font" : "TimesNewRomanPS-BoldMT",
+              "font size" : 9.0,
+              "text color" : "[0.0]",
+              "content" : "sommano euro:"
+            } ]
+          }, {
+            "type" : "table cell",
+            "pdfua_tag" : "TD",
+            "page number" : 2,
+            "bounding box" : [ 461.45, 215.895, 525.25, 229.569 ],
+            "row number" : 1,
+            "column number" : 5,
+            "row span" : 1,
+            "column span" : 1,
+            "kids" : [ {
+              "type" : "paragraph",
+              "pdfua_tag" : "P",
+              "id" : 24,
+              "page number" : 2,
+              "bounding box" : [ 472.45, 215.895, 512.45, 226.969 ],
+              "font" : "TimesNewRomanPS-BoldMT",
+              "font size" : 10.0,
+              "text color" : "[0.0]",
+              "content" : "61.000,00"
+            } ]
+          } ]
+        } ]
+      } ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 53.15, 197.496, 479.011, 210.785 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "C) SOMME A DISPOSIZIONE DELLA STAZIONE APPALTANTE PER:",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "table",
+    "pdfua_tag" : "Table",
+    "id" : 29,
+    "level" : "7",
+    "page number" : 2,
+    "bounding box" : [ 49.15, 53.795, 525.75, 197.496 ],
+    "number of rows" : 6,
+    "number of columns" : 5,
+    "next table id" : 31,
+    "rows" : [ {
+      "type" : "table row",
+      "row number" : 1,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 2,
+        "bounding box" : [ 49.9, 184.747, 80.1, 196.496 ],
+        "row number" : 1,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 25,
+          "page number" : 2,
+          "bounding box" : [ 62.375, 184.997, 67.375, 196.071 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "1"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 2,
+        "bounding box" : [ 80.1, 184.747, 152.85, 196.496 ],
+        "row number" : 1,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 2,
+        "bounding box" : [ 152.85, 184.747, 356.7, 196.496 ],
+        "row number" : 1,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 26,
+          "page number" : 2,
+          "bounding box" : [ 156.35, 184.997, 222.44, 196.071 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "Arrotondamento"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 2,
+        "bounding box" : [ 356.7, 184.747, 461.2, 196.496 ],
+        "row number" : 1,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 2,
+        "bounding box" : [ 461.2, 54.42, 525.25, 196.496 ],
+        "row number" : 1,
+        "column number" : 5,
+        "row span" : 6,
+        "column span" : 1,
+        "kids" : [ ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 2,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 2,
+        "bounding box" : [ 49.9, 172.748, 80.1, 184.747 ],
+        "row number" : 2,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 27,
+          "page number" : 2,
+          "bounding box" : [ 62.375, 172.998, 67.375, 184.072 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "2"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 2,
+        "bounding box" : [ 80.1, 172.748, 152.85, 184.747 ],
+        "row number" : 2,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 2,
+        "bounding box" : [ 152.85, 172.748, 356.7, 184.747 ],
+        "row number" : 2,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 28,
+          "page number" : 2,
+          "bounding box" : [ 156.35, 172.998, 330.45, 184.072 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "Allacciamenti a pubblici servizi:acquedotto"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 2,
+        "bounding box" : [ 356.7, 172.748, 461.2, 184.747 ],
+        "row number" : 2,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 29,
+          "level" : "1",
+          "page number" : 2,
+          "bounding box" : [ 454.953, 173.573, 457.95, 183.54 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 9.0,
+          "text color" : "[0.0]",
+          "content" : "-"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 3,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 2,
+        "bounding box" : [ 49.9, 160.749, 80.1, 172.748 ],
+        "row number" : 3,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 30,
+          "page number" : 2,
+          "bounding box" : [ 62.375, 160.999, 67.375, 172.073 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "3"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 2,
+        "bounding box" : [ 80.1, 160.749, 152.85, 172.748 ],
+        "row number" : 3,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 2,
+        "bounding box" : [ 152.85, 160.749, 356.7, 172.748 ],
+        "row number" : 3,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 31,
+          "page number" : 2,
+          "bounding box" : [ 156.35, 160.999, 353.2, 172.073 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "Allacciamenti a pubblici servizi: energia elettrica"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 2,
+        "bounding box" : [ 356.7, 160.749, 461.2, 172.748 ],
+        "row number" : 3,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 4,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 2,
+        "bounding box" : [ 49.9, 148.179, 80.1, 160.749 ],
+        "row number" : 4,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 32,
+          "page number" : 2,
+          "bounding box" : [ 62.375, 148.715, 67.375, 159.789 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "4"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 2,
+        "bounding box" : [ 80.1, 148.179, 152.85, 160.749 ],
+        "row number" : 4,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 2,
+        "bounding box" : [ 152.85, 148.179, 356.7, 160.749 ],
+        "row number" : 4,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 33,
+          "page number" : 2,
+          "bounding box" : [ 156.35, 148.434, 291.97, 160.504 ],
+          "font" : "Tahoma",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "Imprevisti e lavori in economia"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 2,
+        "bounding box" : [ 356.7, 148.179, 461.2, 160.749 ],
+        "row number" : 4,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 34,
+          "page number" : 2,
+          "bounding box" : [ 433.2, 149.29, 457.95, 159.257 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 9.0,
+          "text color" : "[0.0]",
+          "content" : "441,15"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 5,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 2,
+        "bounding box" : [ 49.9, 123.539, 80.1, 148.179 ],
+        "row number" : 5,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 35,
+          "page number" : 2,
+          "bounding box" : [ 62.375, 130.11, 67.375, 141.184 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "5"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 2,
+        "bounding box" : [ 80.1, 123.539, 152.85, 148.179 ],
+        "row number" : 5,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 2,
+        "bounding box" : [ 152.85, 123.539, 356.7, 148.179 ],
+        "row number" : 5,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 36,
+          "page number" : 2,
+          "bounding box" : [ 156.35, 123.794, 336.76, 147.934 ],
+          "font" : "Tahoma",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "Spese geologo per compatibilità idraulica (cassa e iva comprese)"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 2,
+        "bounding box" : [ 356.7, 123.539, 461.2, 148.179 ],
+        "row number" : 5,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 6,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 2,
+        "bounding box" : [ 49.9, 54.42, 80.1, 123.539 ],
+        "row number" : 6,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 37,
+          "page number" : 2,
+          "bounding box" : [ 62.375, 83.043, 67.375, 94.117 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "6"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 2,
+        "bounding box" : [ 80.1, 54.42, 152.85, 123.539 ],
+        "row number" : 6,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 2,
+        "bounding box" : [ 152.85, 54.42, 356.7, 123.539 ],
+        "row number" : 6,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 38,
+          "page number" : 2,
+          "bounding box" : [ 156.35, 54.295, 349.62, 122.864 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "Fondo incentivante per attività di programmazione della spesa per investimenti, per la verifica preventiva dei progetti di predisposizione e di controllo delle procedure di bando e di esecuzione dei contratti pubblici, di responsabile unico del procedimento, di"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 2,
+        "bounding box" : [ 356.7, 54.42, 461.2, 123.539 ],
+        "row number" : 6,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 39,
+          "page number" : 2,
+          "bounding box" : [ 426.45, 83.618, 457.95, 93.585 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 9.0,
+          "text color" : "[0.0]",
+          "content" : "1.220,00"
+        } ]
+      } ]
+    } ]
+  }, {
+    "type" : "table",
+    "pdfua_tag" : "Table",
+    "id" : 31,
+    "level" : "7",
+    "page number" : 3,
+    "bounding box" : [ 49.15, 420.036, 525.75, 771.1 ],
+    "number of rows" : 14,
+    "number of columns" : 5,
+    "previous table id" : 29,
+    "rows" : [ {
+      "type" : "table row",
+      "row number" : 1,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 3,
+        "bounding box" : [ 49.9, 678.358, 80.1, 770.6 ],
+        "row number" : 1,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 3,
+        "bounding box" : [ 80.1, 678.358, 152.85, 770.6 ],
+        "row number" : 1,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 3,
+        "bounding box" : [ 152.85, 678.358, 356.7, 770.6 ],
+        "row number" : 1,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 1,
+          "page number" : 3,
+          "bounding box" : [ 156.35, 678.608, 349.89, 770.175 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "direzione dei lavori ovvero direzione dell’esecuzione e di collaudo tecnico amministrativo ovvero di verifica di conformità, di collaudatore statico ove necessario per consentire l’esecuzione del contratto nel rispetto dei documenti a base di gara, del progetto, dei tempi e costi prestabiliti (2% di A) Art. 113 D.Lgs. 50/2016"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 3,
+        "bounding box" : [ 356.7, 678.358, 461.2, 770.6 ],
+        "row number" : 1,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 3,
+        "bounding box" : [ 461.2, 421.036, 525.25, 770.6 ],
+        "row number" : 1,
+        "column number" : 5,
+        "row span" : 14,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 2,
+          "page number" : 3,
+          "bounding box" : [ 482.95, 421.036, 514.45, 431.003 ],
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 9.0,
+          "text color" : "[0.0]",
+          "content" : "9.000,00"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 2,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 3,
+        "bounding box" : [ 49.9, 666.359, 80.1, 678.358 ],
+        "row number" : 2,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 3,
+          "page number" : 3,
+          "bounding box" : [ 62.375, 666.609, 67.375, 677.683 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "7"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 3,
+        "bounding box" : [ 80.1, 666.359, 152.85, 678.358 ],
+        "row number" : 2,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 3,
+        "bounding box" : [ 152.85, 666.359, 356.7, 678.358 ],
+        "row number" : 2,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 4,
+          "page number" : 3,
+          "bounding box" : [ 156.35, 666.609, 318.82, 677.683 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "Spese per pubblicità e contributo ANAC"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 3,
+        "bounding box" : [ 356.7, 666.359, 461.2, 678.358 ],
+        "row number" : 2,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 5,
+          "page number" : 3,
+          "bounding box" : [ 437.7, 667.184, 457.95, 677.151 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 9.0,
+          "text color" : "[0.0]",
+          "content" : "35,00"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 3,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 3,
+        "bounding box" : [ 49.9, 617.579, 80.1, 666.359 ],
+        "row number" : 3,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 6,
+          "page number" : 3,
+          "bounding box" : [ 62.375, 636.22, 67.375, 647.294 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "8"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 3,
+        "bounding box" : [ 80.1, 617.579, 152.85, 666.359 ],
+        "row number" : 3,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 3,
+        "bounding box" : [ 152.85, 617.579, 356.7, 666.359 ],
+        "row number" : 3,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 7,
+          "page number" : 3,
+          "bounding box" : [ 156.35, 617.834, 347.84, 666.114 ],
+          "font" : "Tahoma",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "Spese per attività tecnico-amministrative connesse alla progettazione, di supporto al responsabile del procedimento, e di verifica e validazione"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 3,
+        "bounding box" : [ 356.7, 617.579, 461.2, 666.359 ],
+        "row number" : 3,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 4,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 3,
+        "bounding box" : [ 49.9, 605.58, 80.1, 617.579 ],
+        "row number" : 4,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 8,
+          "page number" : 3,
+          "bounding box" : [ 62.375, 605.83, 67.375, 616.904 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "9"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 3,
+        "bounding box" : [ 80.1, 605.58, 152.85, 617.579 ],
+        "row number" : 4,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 3,
+        "bounding box" : [ 152.85, 605.58, 356.7, 617.579 ],
+        "row number" : 4,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 9,
+          "page number" : 3,
+          "bounding box" : [ 156.35, 605.83, 262.71, 616.904 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "Occupazione suolo - stima"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 3,
+        "bounding box" : [ 356.7, 605.58, 461.2, 617.579 ],
+        "row number" : 4,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 5,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 3,
+        "bounding box" : [ 49.9, 593.01, 80.1, 605.58 ],
+        "row number" : 5,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 10,
+          "page number" : 3,
+          "bounding box" : [ 59.875, 593.546, 69.875, 604.62 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "10"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 3,
+        "bounding box" : [ 80.1, 555.8, 152.85, 605.58 ],
+        "row number" : 5,
+        "column number" : 2,
+        "row span" : 3,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 11,
+          "page number" : 3,
+          "bounding box" : [ 89.802, 569.191, 143.142, 591.764 ],
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "SPESE TECNICHE"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 3,
+        "bounding box" : [ 152.85, 593.01, 356.7, 605.58 ],
+        "row number" : 5,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 12,
+          "page number" : 3,
+          "bounding box" : [ 156.35, 593.265, 338.97, 605.335 ],
+          "font" : "Tahoma",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "Progetto architettonico e Direzione Lavori"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 3,
+        "bounding box" : [ 356.7, 555.8, 461.2, 605.58 ],
+        "row number" : 5,
+        "column number" : 4,
+        "row span" : 3,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 13,
+          "page number" : 3,
+          "bounding box" : [ 454.953, 594.121, 457.95, 604.088 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 9.0,
+          "text color" : "[0.0]",
+          "content" : "-"
+        }, {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 14,
+          "page number" : 3,
+          "bounding box" : [ 426.45, 562.946, 457.95, 572.913 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 9.0,
+          "text color" : "[0.0]",
+          "content" : "1.000,00"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 6,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 3,
+        "bounding box" : [ 49.9, 580.44, 80.1, 593.01 ],
+        "row number" : 6,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 15,
+          "page number" : 3,
+          "bounding box" : [ 59.875, 580.976, 69.875, 592.05 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "11"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 3,
+        "bounding box" : [ 152.85, 580.44, 356.7, 593.01 ],
+        "row number" : 6,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 16,
+          "page number" : 3,
+          "bounding box" : [ 156.35, 580.695, 236.42, 592.765 ],
+          "font" : "Tahoma",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "Calcolo strutturale"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 7,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 3,
+        "bounding box" : [ 49.9, 555.8, 80.1, 580.44 ],
+        "row number" : 7,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 17,
+          "page number" : 3,
+          "bounding box" : [ 59.875, 562.371, 69.875, 573.445 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "12"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 3,
+        "bounding box" : [ 152.85, 555.8, 356.7, 580.44 ],
+        "row number" : 7,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 18,
+          "page number" : 3,
+          "bounding box" : [ 156.35, 556.055, 345.32, 580.195 ],
+          "font" : "Tahoma",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "Coordinamento per la Sicurezza in fase di progettazione ed esecuzione - e contabilità"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 8,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 3,
+        "bounding box" : [ 49.9, 531.16, 80.1, 555.8 ],
+        "row number" : 8,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 19,
+          "page number" : 3,
+          "bounding box" : [ 59.875, 537.731, 69.875, 548.805 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "13"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 3,
+        "bounding box" : [ 80.1, 435.21, 152.85, 555.8 ],
+        "row number" : 8,
+        "column number" : 2,
+        "row span" : 6,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 20,
+          "page number" : 3,
+          "bounding box" : [ 97.727, 483.944, 135.217, 506.517 ],
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "Oneri ed imposte"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 3,
+        "bounding box" : [ 152.85, 531.16, 356.7, 555.8 ],
+        "row number" : 8,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 21,
+          "page number" : 3,
+          "bounding box" : [ 156.35, 531.415, 349.41, 555.555 ],
+          "font" : "Tahoma",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "Cassa previdenziale (4%) ed iva (22%)sulle spese tecniche"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 3,
+        "bounding box" : [ 356.7, 531.16, 461.2, 555.8 ],
+        "row number" : 8,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 22,
+          "page number" : 3,
+          "bounding box" : [ 437.7, 538.306, 457.95, 548.273 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 9.0,
+          "text color" : "[0.0]",
+          "content" : "40,00"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 9,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 3,
+        "bounding box" : [ 49.9, 506.52, 80.1, 531.16 ],
+        "row number" : 9,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 23,
+          "page number" : 3,
+          "bounding box" : [ 59.875, 513.091, 69.875, 524.165 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "14"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 3,
+        "bounding box" : [ 152.85, 506.52, 356.7, 531.16 ],
+        "row number" : 9,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 24,
+          "page number" : 3,
+          "bounding box" : [ 156.35, 506.775, 347.05, 530.915 ],
+          "font" : "Tahoma",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "Cassa previdenziale (4%) ed iva (22%) per assistenza al rup"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 3,
+        "bounding box" : [ 356.7, 506.52, 461.2, 531.16 ],
+        "row number" : 9,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 25,
+          "page number" : 3,
+          "bounding box" : [ 454.953, 513.666, 457.95, 523.633 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 9.0,
+          "text color" : "[0.0]",
+          "content" : "-"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 10,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 3,
+        "bounding box" : [ 49.9, 493.95, 80.1, 506.52 ],
+        "row number" : 10,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 26,
+          "page number" : 3,
+          "bounding box" : [ 59.875, 494.486, 69.875, 505.56 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "15"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 3,
+        "bounding box" : [ 152.85, 493.95, 356.7, 506.52 ],
+        "row number" : 10,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 27,
+          "page number" : 3,
+          "bounding box" : [ 156.35, 494.205, 312.12, 506.275 ],
+          "font" : "Tahoma",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "I.V.A. 10% sui lavori (10% di A+B)"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 3,
+        "bounding box" : [ 356.7, 493.95, 461.2, 506.52 ],
+        "row number" : 10,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 28,
+          "page number" : 3,
+          "bounding box" : [ 426.45, 495.061, 457.95, 505.028 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 9.0,
+          "text color" : "[0.0]",
+          "content" : "6.100,00"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 11,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 3,
+        "bounding box" : [ 49.9, 469.31, 80.1, 493.95 ],
+        "row number" : 11,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 29,
+          "page number" : 3,
+          "bounding box" : [ 59.875, 475.881, 69.875, 486.955 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "16"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 3,
+        "bounding box" : [ 152.85, 469.31, 356.7, 493.95 ],
+        "row number" : 11,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 30,
+          "page number" : 3,
+          "bounding box" : [ 156.35, 469.565, 311.64, 493.705 ],
+          "font" : "Tahoma",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "IVA al 22% su imprevisti e lavori in economia (22% di C4)"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 3,
+        "bounding box" : [ 356.7, 469.31, 461.2, 493.95 ],
+        "row number" : 11,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 31,
+          "page number" : 3,
+          "bounding box" : [ 437.7, 476.456, 457.95, 486.423 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 9.0,
+          "text color" : "[0.0]",
+          "content" : "97,05"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 12,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 3,
+        "bounding box" : [ 49.9, 447.084, 80.1, 469.31 ],
+        "row number" : 12,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 32,
+          "page number" : 3,
+          "bounding box" : [ 59.875, 452.448, 69.875, 463.522 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "17"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 3,
+        "bounding box" : [ 152.85, 447.084, 356.7, 469.31 ],
+        "row number" : 12,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 33,
+          "page number" : 3,
+          "bounding box" : [ 156.35, 447.338, 297.578, 469.064 ],
+          "font" : "Tahoma",
+          "font size" : 9.0,
+          "text color" : "[0.0]",
+          "content" : "IVA al 22% su accantonamento per maggiorazione prezzi (22% di C5)"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 3,
+        "bounding box" : [ 356.7, 447.084, 461.2, 469.31 ],
+        "row number" : 12,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 34,
+          "page number" : 3,
+          "bounding box" : [ 454.953, 453.023, 457.95, 462.99 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 9.0,
+          "text color" : "[0.0]",
+          "content" : "-"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 13,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 3,
+        "bounding box" : [ 49.9, 435.21, 80.1, 447.084 ],
+        "row number" : 13,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 35,
+          "page number" : 3,
+          "bounding box" : [ 59.875, 435.335, 69.875, 446.409 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "18"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 3,
+        "bounding box" : [ 152.85, 435.21, 356.7, 447.084 ],
+        "row number" : 13,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 36,
+          "page number" : 3,
+          "bounding box" : [ 156.35, 435.975, 260.795, 446.838 ],
+          "font" : "Tahoma",
+          "font size" : 9.0,
+          "text color" : "[0.0]",
+          "content" : "Irap su fondo incentivante"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 3,
+        "bounding box" : [ 356.7, 435.21, 461.2, 447.084 ],
+        "row number" : 13,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 37,
+          "page number" : 3,
+          "bounding box" : [ 437.7, 435.91, 457.95, 445.877 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 9.0,
+          "text color" : "[0.0]",
+          "content" : "66,80"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 14,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 3,
+        "bounding box" : [ 49.9, 421.036, 80.1, 435.21 ],
+        "row number" : 14,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 3,
+        "bounding box" : [ 80.1, 421.036, 461.2, 435.21 ],
+        "row number" : 14,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 3,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 38,
+          "page number" : 3,
+          "bounding box" : [ 398.206, 422.761, 457.948, 432.728 ],
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 9.0,
+          "text color" : "[0.0]",
+          "content" : "sommano euro:"
+        } ]
+      } ]
+    } ]
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H",
+    "id" : 32,
+    "level" : "Subtitle",
+    "page number" : 3,
+    "bounding box" : [ 360.2, 399.338, 512.2, 419.654 ],
+    "heading level" : 7,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 9.0,
+    "text color" : "[0.0]",
+    "content" : "TOTALE GENERALE PROGETTO: 70.000,00"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 33,
+    "page number" : 3,
+    "bounding box" : [ 42.55, 344.182, 524.446, 385.047 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "CONSIDERATO che la soluzione progettuale proposta determina in ogni dettaglio i lavori da realizzare ed il relativo costo previsto e che è sviluppata ad un livello di definizione tale che ogni elemento è identificabile in forma, tipologia, qualità, dimensione e prezzo;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 34,
+    "page number" : 3,
+    "bounding box" : [ 42.55, 289.03, 524.446, 329.895 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "PRESO ATTO che, ai sensi dell’art.37 comma 2 e dell’allegato I.5 art.9 del D.Lgs 36/2023, l’opera non deve essere inserita nel Programma Triennale delle Opere Pubbliche in quanto il quadro economico totale risulta inferiore ad € 150.000,00;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 35,
+    "page number" : 3,
+    "bounding box" : [ 42.55, 261.454, 81.214, 274.743 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "VISTO:"
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 36,
+    "level" : "2",
+    "page number" : 3,
+    "bounding box" : [ 60.55, 205.214, 524.448, 260.727 ],
+    "numbering style" : "unordered",
+    "number of list items" : 3,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 60.55, 247.034, 417.288, 260.727 ],
+      "font" : "Calibri",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "- il D.Lgs. 31 marzo 2023 n. 36 recante: “Codice dei Contratti Pubblici”",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 60.55, 219.634, 524.448, 246.711 ],
+      "font" : "Calibri",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "- il D.Lgs. 18 agosto 2000, n. 267, recante: “Testo unico delle leggi sull’ordinamento degli enti locali”;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 60.55, 205.214, 215.664, 218.907 ],
+      "font" : "Calibri",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "- il vigente Statuto Comunale;",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 37,
+    "page number" : 3,
+    "bounding box" : [ 42.55, 150.466, 480.814, 191.331 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "ACQUISITI i pareri espressi ai sensi dell’art. 49 del Decreto legislativo 18/08/2000 n. 267; CON VOTI favorevoli unanimi;"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H3",
+    "id" : 38,
+    "level" : "Subtitle",
+    "page number" : 3,
+    "bounding box" : [ 246.939, 120.592, 320.061, 136.096 ],
+    "heading level" : 3,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 14.0,
+    "text color" : "[0.0]",
+    "content" : "DELIBERA"
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 39,
+    "level" : "5",
+    "page number" : 3,
+    "bounding box" : [ 60.55, 49.354, 524.46, 104.007 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "next list id" : 45,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 60.55, 90.718, 424.56, 104.007 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "1. che le premesse formano parte integrante e sostanziale del presente atto;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 60.55, 49.354, 524.46, 76.431 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "2. di approvare il progetto esecutivo denominato: “RIQUALIFICAZIONE E RIPRISTINO DELLE CONDIZIONI DI SICUREZZA DELLE STRADE COMUNALI – ANNO 2026” –",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H5",
+    "id" : 40,
+    "level" : "Subtitle",
+    "page number" : 4,
+    "bounding box" : [ 78.55, 729.732, 524.446, 770.597 ],
+    "heading level" : 5,
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "CUP J37H26000500004\" redatto dall’ufficio tecnico comunale per un importo complessivo di € 70.000,00 di cui € 61.000,00 per lavori ed € 9.000,00 per somme a disposizione dell’amministrazione così suddiviso:"
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 41,
+    "level" : "6",
+    "page number" : 4,
+    "bounding box" : [ 78.0, 520.562, 516.379, 715.438 ],
+    "numbering style" : "english letters",
+    "number of list items" : 3,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 4,
+      "bounding box" : [ 78.0, 702.149, 508.837, 715.438 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "A) IMPORTO LAVORI A BASE D'ASTA (escluso importo per attuazione piani sicurezza):",
+      "kids" : [ {
+        "type" : "table",
+        "pdfua_tag" : "Table",
+        "id" : 1,
+        "level" : "7",
+        "page number" : 4,
+        "bounding box" : [ 74.0, 615.856, 529.3, 702.149 ],
+        "number of rows" : 4,
+        "number of columns" : 5,
+        "rows" : [ {
+          "type" : "table row",
+          "row number" : 1,
+          "cells" : [ {
+            "type" : "table cell",
+            "pdfua_tag" : "TD",
+            "page number" : 4,
+            "bounding box" : [ 74.75, 689.4, 104.95, 701.149 ],
+            "row number" : 1,
+            "column number" : 1,
+            "row span" : 1,
+            "column span" : 1,
+            "kids" : [ {
+              "type" : "paragraph",
+              "pdfua_tag" : "P",
+              "id" : 1,
+              "page number" : 4,
+              "bounding box" : [ 87.225, 689.65, 92.225, 700.724 ],
+              "font" : "TimesNewRomanPSMT",
+              "font size" : 10.0,
+              "text color" : "[0.0]",
+              "content" : "1"
+            } ]
+          }, {
+            "type" : "table cell",
+            "pdfua_tag" : "TD",
+            "page number" : 4,
+            "bounding box" : [ 104.95, 689.4, 174.05, 701.149 ],
+            "row number" : 1,
+            "column number" : 2,
+            "row span" : 1,
+            "column span" : 1,
+            "kids" : [ {
+              "type" : "paragraph",
+              "pdfua_tag" : "P",
+              "id" : 2,
+              "page number" : 4,
+              "bounding box" : [ 118.679, 689.65, 160.319, 700.724 ],
+              "font" : "TimesNewRomanPSMT",
+              "font size" : 10.0,
+              "text color" : "[0.0]",
+              "content" : "asfaltature"
+            } ]
+          }, {
+            "type" : "table cell",
+            "pdfua_tag" : "TD",
+            "page number" : 4,
+            "bounding box" : [ 174.05, 689.4, 367.0, 701.149 ],
+            "row number" : 1,
+            "column number" : 3,
+            "row span" : 1,
+            "column span" : 1,
+            "kids" : [ {
+              "type" : "paragraph",
+              "pdfua_tag" : "P",
+              "id" : 3,
+              "page number" : 4,
+              "bounding box" : [ 177.55, 689.65, 207.26, 700.724 ],
+              "font" : "TimesNewRomanPSMT",
+              "font size" : 10.0,
+              "text color" : "[0.0]",
+              "content" : "a corpo"
+            } ]
+          }, {
+            "type" : "table cell",
+            "pdfua_tag" : "TD",
+            "page number" : 4,
+            "bounding box" : [ 367.0, 689.4, 465.25, 701.149 ],
+            "row number" : 1,
+            "column number" : 4,
+            "row span" : 1,
+            "column span" : 1,
+            "kids" : [ {
+              "type" : "paragraph",
+              "pdfua_tag" : "P",
+              "id" : 4,
+              "page number" : 4,
+              "bounding box" : [ 425.75, 690.225, 461.75, 700.192 ],
+              "font" : "TimesNewRomanPSMT",
+              "font size" : 9.0,
+              "text color" : "[0.0]",
+              "content" : "52.700,00"
+            } ]
+          }, {
+            "type" : "table cell",
+            "pdfua_tag" : "TD",
+            "page number" : 4,
+            "bounding box" : [ 465.25, 689.4, 528.8, 701.149 ],
+            "row number" : 1,
+            "column number" : 5,
+            "row span" : 1,
+            "column span" : 1,
+            "kids" : [ ]
+          } ]
+        }, {
+          "type" : "table row",
+          "row number" : 2,
+          "cells" : [ {
+            "type" : "table cell",
+            "pdfua_tag" : "TD",
+            "page number" : 4,
+            "bounding box" : [ 74.75, 630.905, 104.95, 689.4 ],
+            "row number" : 2,
+            "column number" : 1,
+            "row span" : 2,
+            "column span" : 1,
+            "kids" : [ {
+              "type" : "list",
+              "pdfua_tag" : "L",
+              "id" : 5,
+              "level" : "1",
+              "page number" : 4,
+              "bounding box" : [ 87.225, 648.404, 92.225, 688.725 ],
+              "numbering style" : "arabic numbers",
+              "number of list items" : 2,
+              "list items" : [ {
+                "type" : "list item",
+                "pdfua_tag" : "LI",
+                "page number" : 4,
+                "bounding box" : [ 87.225, 677.651, 92.225, 688.725 ],
+                "font" : "TimesNewRomanPSMT",
+                "font size" : 10.0,
+                "text color" : "[0.0]",
+                "content" : "2",
+                "kids" : [ ]
+              }, {
+                "type" : "list item",
+                "pdfua_tag" : "LI",
+                "page number" : 4,
+                "bounding box" : [ 87.225, 648.404, 92.225, 659.478 ],
+                "font" : "TimesNewRomanPSMT",
+                "font size" : 10.0,
+                "text color" : "[0.0]",
+                "content" : "3",
+                "kids" : [ ]
+              } ]
+            } ]
+          }, {
+            "type" : "table cell",
+            "pdfua_tag" : "TD",
+            "page number" : 4,
+            "bounding box" : [ 104.95, 677.401, 174.05, 689.4 ],
+            "row number" : 2,
+            "column number" : 2,
+            "row span" : 1,
+            "column span" : 1,
+            "kids" : [ {
+              "type" : "paragraph",
+              "pdfua_tag" : "P",
+              "id" : 6,
+              "page number" : 4,
+              "bounding box" : [ 110.054, 677.651, 168.944, 688.725 ],
+              "font" : "TimesNewRomanPSMT",
+              "font size" : 10.0,
+              "text color" : "[0.0]",
+              "content" : "dosso via Osio"
+            } ]
+          }, {
+            "type" : "table cell",
+            "pdfua_tag" : "TD",
+            "page number" : 4,
+            "bounding box" : [ 174.05, 677.401, 367.0, 689.4 ],
+            "row number" : 2,
+            "column number" : 3,
+            "row span" : 1,
+            "column span" : 1,
+            "kids" : [ {
+              "type" : "paragraph",
+              "pdfua_tag" : "P",
+              "id" : 7,
+              "page number" : 4,
+              "bounding box" : [ 177.55, 677.651, 207.26, 688.725 ],
+              "font" : "TimesNewRomanPSMT",
+              "font size" : 10.0,
+              "text color" : "[0.0]",
+              "content" : "a corpo"
+            } ]
+          }, {
+            "type" : "table cell",
+            "pdfua_tag" : "TD",
+            "page number" : 4,
+            "bounding box" : [ 367.0, 677.401, 465.25, 689.4 ],
+            "row number" : 2,
+            "column number" : 4,
+            "row span" : 1,
+            "column span" : 1,
+            "kids" : [ {
+              "type" : "paragraph",
+              "pdfua_tag" : "P",
+              "id" : 8,
+              "page number" : 4,
+              "bounding box" : [ 430.25, 678.226, 461.75, 688.193 ],
+              "font" : "TimesNewRomanPSMT",
+              "font size" : 9.0,
+              "text color" : "[0.0]",
+              "content" : "1.400,00"
+            } ]
+          }, {
+            "type" : "table cell",
+            "pdfua_tag" : "TD",
+            "page number" : 4,
+            "bounding box" : [ 465.25, 677.401, 528.8, 689.4 ],
+            "row number" : 2,
+            "column number" : 5,
+            "row span" : 1,
+            "column span" : 1,
+            "kids" : [ ]
+          } ]
+        }, {
+          "type" : "table row",
+          "row number" : 3,
+          "cells" : [ {
+            "type" : "table cell",
+            "pdfua_tag" : "TD",
+            "page number" : 4,
+            "bounding box" : [ 104.95, 630.905, 174.05, 677.401 ],
+            "row number" : 3,
+            "column number" : 2,
+            "row span" : 1,
+            "column span" : 1,
+            "kids" : [ {
+              "type" : "paragraph",
+              "pdfua_tag" : "P",
+              "id" : 9,
+              "page number" : 4,
+              "bounding box" : [ 108.45, 631.155, 167.61, 676.726 ],
+              "font" : "TimesNewRomanPSMT",
+              "font size" : 10.0,
+              "text color" : "[0.0]",
+              "content" : "dossi Corso Milano, Corso M. Rosa, Via M. Bianco"
+            } ]
+          }, {
+            "type" : "table cell",
+            "pdfua_tag" : "TD",
+            "page number" : 4,
+            "bounding box" : [ 174.05, 630.905, 367.0, 677.401 ],
+            "row number" : 3,
+            "column number" : 3,
+            "row span" : 1,
+            "column span" : 1,
+            "kids" : [ {
+              "type" : "paragraph",
+              "pdfua_tag" : "P",
+              "id" : 10,
+              "page number" : 4,
+              "bounding box" : [ 177.55, 648.404, 207.26, 659.478 ],
+              "font" : "TimesNewRomanPSMT",
+              "font size" : 10.0,
+              "text color" : "[0.0]",
+              "content" : "a corpo"
+            } ]
+          }, {
+            "type" : "table cell",
+            "pdfua_tag" : "TD",
+            "page number" : 4,
+            "bounding box" : [ 367.0, 630.905, 465.25, 677.401 ],
+            "row number" : 3,
+            "column number" : 4,
+            "row span" : 1,
+            "column span" : 1,
+            "kids" : [ {
+              "type" : "paragraph",
+              "pdfua_tag" : "P",
+              "id" : 11,
+              "page number" : 4,
+              "bounding box" : [ 430.25, 648.979, 461.75, 658.946 ],
+              "font" : "TimesNewRomanPSMT",
+              "font size" : 9.0,
+              "text color" : "[0.0]",
+              "content" : "5.600,00"
+            } ]
+          }, {
+            "type" : "table cell",
+            "pdfua_tag" : "TD",
+            "page number" : 4,
+            "bounding box" : [ 465.25, 630.905, 528.8, 677.401 ],
+            "row number" : 3,
+            "column number" : 5,
+            "row span" : 1,
+            "column span" : 1,
+            "kids" : [ ]
+          } ]
+        }, {
+          "type" : "table row",
+          "row number" : 4,
+          "cells" : [ {
+            "type" : "table cell",
+            "pdfua_tag" : "TD",
+            "page number" : 4,
+            "bounding box" : [ 74.75, 616.856, 104.95, 630.905 ],
+            "row number" : 4,
+            "column number" : 1,
+            "row span" : 1,
+            "column span" : 1,
+            "kids" : [ {
+              "type" : "paragraph",
+              "pdfua_tag" : "P",
+              "id" : 12,
+              "page number" : 4,
+              "bounding box" : [ 87.225, 618.006, 92.225, 629.08 ],
+              "font" : "TimesNewRomanPSMT",
+              "font size" : 10.0,
+              "text color" : "[0.0]",
+              "content" : "4"
+            } ]
+          }, {
+            "type" : "table cell",
+            "pdfua_tag" : "TD",
+            "page number" : 4,
+            "bounding box" : [ 104.95, 616.856, 174.05, 630.905 ],
+            "row number" : 4,
+            "column number" : 2,
+            "row span" : 1,
+            "column span" : 1,
+            "kids" : [ ]
+          }, {
+            "type" : "table cell",
+            "pdfua_tag" : "TD",
+            "page number" : 4,
+            "bounding box" : [ 174.05, 616.856, 367.0, 630.905 ],
+            "row number" : 4,
+            "column number" : 3,
+            "row span" : 1,
+            "column span" : 1,
+            "kids" : [ ]
+          }, {
+            "type" : "table cell",
+            "pdfua_tag" : "TD",
+            "page number" : 4,
+            "bounding box" : [ 367.0, 616.856, 465.25, 630.905 ],
+            "row number" : 4,
+            "column number" : 4,
+            "row span" : 1,
+            "column span" : 1,
+            "kids" : [ {
+              "type" : "paragraph",
+              "pdfua_tag" : "P",
+              "id" : 13,
+              "page number" : 4,
+              "bounding box" : [ 402.006, 618.581, 461.748, 628.548 ],
+              "font" : "TimesNewRomanPS-BoldMT",
+              "font size" : 9.0,
+              "text color" : "[0.0]",
+              "content" : "sommano euro:"
+            } ]
+          }, {
+            "type" : "table cell",
+            "pdfua_tag" : "TD",
+            "page number" : 4,
+            "bounding box" : [ 465.25, 616.856, 528.8, 630.905 ],
+            "row number" : 4,
+            "column number" : 5,
+            "row span" : 1,
+            "column span" : 1,
+            "kids" : [ {
+              "type" : "paragraph",
+              "pdfua_tag" : "P",
+              "id" : 14,
+              "page number" : 4,
+              "bounding box" : [ 480.0, 616.856, 516.0, 626.823 ],
+              "font" : "TimesNewRomanPSMT",
+              "font size" : 9.0,
+              "text color" : "[0.0]",
+              "content" : "59.700,00"
+            } ]
+          } ]
+        } ]
+      } ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 4,
+      "bounding box" : [ 78.0, 598.457, 516.379, 611.746 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "B) IMPORTO PER L'ATTUAZIONE DEI PIANI DI SICUREZZA (non soggetto a ribasso d'asta):",
+      "kids" : [ {
+        "type" : "table",
+        "pdfua_tag" : "Table",
+        "id" : 2,
+        "level" : "8",
+        "page number" : 4,
+        "bounding box" : [ 74.0, 570.659, 529.55, 598.457 ],
+        "number of rows" : 2,
+        "number of columns" : 5,
+        "rows" : [ {
+          "type" : "table row",
+          "row number" : 1,
+          "cells" : [ {
+            "type" : "table cell",
+            "pdfua_tag" : "TD",
+            "page number" : 4,
+            "bounding box" : [ 74.75, 585.708, 104.95, 597.457 ],
+            "row number" : 1,
+            "column number" : 1,
+            "row span" : 1,
+            "column span" : 1,
+            "kids" : [ {
+              "type" : "paragraph",
+              "pdfua_tag" : "P",
+              "id" : 15,
+              "page number" : 4,
+              "bounding box" : [ 87.225, 585.958, 92.225, 597.032 ],
+              "font" : "TimesNewRomanPSMT",
+              "font size" : 10.0,
+              "text color" : "[0.0]",
+              "content" : "1"
+            } ]
+          }, {
+            "type" : "table cell",
+            "pdfua_tag" : "TD",
+            "page number" : 4,
+            "bounding box" : [ 104.95, 585.708, 174.05, 597.457 ],
+            "row number" : 1,
+            "column number" : 2,
+            "row span" : 1,
+            "column span" : 1,
+            "kids" : [ ]
+          }, {
+            "type" : "table cell",
+            "pdfua_tag" : "TD",
+            "page number" : 4,
+            "bounding box" : [ 174.05, 585.708, 367.0, 597.457 ],
+            "row number" : 1,
+            "column number" : 3,
+            "row span" : 1,
+            "column span" : 1,
+            "kids" : [ {
+              "type" : "paragraph",
+              "pdfua_tag" : "P",
+              "id" : 16,
+              "page number" : 4,
+              "bounding box" : [ 177.55, 585.958, 207.26, 597.032 ],
+              "font" : "TimesNewRomanPSMT",
+              "font size" : 10.0,
+              "text color" : "[0.0]",
+              "content" : "a corpo"
+            } ]
+          }, {
+            "type" : "table cell",
+            "pdfua_tag" : "TD",
+            "page number" : 4,
+            "bounding box" : [ 367.0, 585.708, 465.0, 597.457 ],
+            "row number" : 1,
+            "column number" : 4,
+            "row span" : 1,
+            "column span" : 1,
+            "kids" : [ {
+              "type" : "paragraph",
+              "pdfua_tag" : "P",
+              "id" : 17,
+              "page number" : 4,
+              "bounding box" : [ 430.25, 586.533, 461.75, 596.5 ],
+              "font" : "TimesNewRomanPSMT",
+              "font size" : 9.0,
+              "text color" : "[0.0]",
+              "content" : "1.300,00"
+            } ]
+          }, {
+            "type" : "table cell",
+            "pdfua_tag" : "TD",
+            "page number" : 4,
+            "bounding box" : [ 465.0, 571.659, 529.05, 597.457 ],
+            "row number" : 1,
+            "column number" : 5,
+            "row span" : 2,
+            "column span" : 1,
+            "kids" : [ {
+              "type" : "paragraph",
+              "pdfua_tag" : "P",
+              "id" : 18,
+              "page number" : 4,
+              "bounding box" : [ 486.75, 571.659, 518.25, 581.626 ],
+              "font" : "TimesNewRomanPSMT",
+              "font size" : 9.0,
+              "text color" : "[0.0]",
+              "content" : "1.300,00"
+            } ]
+          } ]
+        }, {
+          "type" : "table row",
+          "row number" : 2,
+          "cells" : [ {
+            "type" : "table cell",
+            "pdfua_tag" : "TD",
+            "page number" : 4,
+            "bounding box" : [ 74.75, 571.659, 104.95, 585.708 ],
+            "row number" : 2,
+            "column number" : 1,
+            "row span" : 1,
+            "column span" : 1,
+            "kids" : [ {
+              "type" : "paragraph",
+              "pdfua_tag" : "P",
+              "id" : 19,
+              "page number" : 4,
+              "bounding box" : [ 87.225, 572.809, 92.225, 583.883 ],
+              "font" : "TimesNewRomanPSMT",
+              "font size" : 10.0,
+              "text color" : "[0.0]",
+              "content" : "2"
+            } ]
+          }, {
+            "type" : "table cell",
+            "pdfua_tag" : "TD",
+            "page number" : 4,
+            "bounding box" : [ 104.95, 571.659, 465.0, 585.708 ],
+            "row number" : 2,
+            "column number" : 2,
+            "row span" : 1,
+            "column span" : 3,
+            "kids" : [ {
+              "type" : "paragraph",
+              "pdfua_tag" : "P",
+              "id" : 20,
+              "page number" : 4,
+              "bounding box" : [ 402.006, 573.384, 461.748, 583.351 ],
+              "font" : "TimesNewRomanPS-BoldMT",
+              "font size" : 9.0,
+              "text color" : "[0.0]",
+              "content" : "sommano euro:"
+            } ]
+          } ]
+        } ]
+      }, {
+        "type" : "paragraph",
+        "pdfua_tag" : "P",
+        "id" : 3,
+        "page number" : 4,
+        "bounding box" : [ 78.0, 553.26, 522.287, 566.549 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 12.0,
+        "text color" : "[0.0]",
+        "content" : "A+B IMPORTO ESECUZIONE DEI LAVORI (compreso importo per attuazione piani sicurezza):"
+      }, {
+        "type" : "table",
+        "pdfua_tag" : "Table",
+        "id" : 4,
+        "level" : "9",
+        "page number" : 4,
+        "bounding box" : [ 74.0, 537.961, 529.55, 553.26 ],
+        "number of rows" : 1,
+        "number of columns" : 5,
+        "rows" : [ {
+          "type" : "table row",
+          "row number" : 1,
+          "cells" : [ {
+            "type" : "table cell",
+            "pdfua_tag" : "TD",
+            "page number" : 4,
+            "bounding box" : [ 74.5, 538.961, 104.95, 552.635 ],
+            "row number" : 1,
+            "column number" : 1,
+            "row span" : 1,
+            "column span" : 1,
+            "kids" : [ {
+              "type" : "paragraph",
+              "pdfua_tag" : "P",
+              "id" : 21,
+              "page number" : 4,
+              "bounding box" : [ 87.225, 540.111, 92.225, 551.185 ],
+              "font" : "TimesNewRomanPSMT",
+              "font size" : 10.0,
+              "text color" : "[0.0]",
+              "content" : "1"
+            } ]
+          }, {
+            "type" : "table cell",
+            "pdfua_tag" : "TD",
+            "page number" : 4,
+            "bounding box" : [ 104.95, 538.961, 174.05, 552.635 ],
+            "row number" : 1,
+            "column number" : 2,
+            "row span" : 1,
+            "column span" : 1,
+            "kids" : [ ]
+          }, {
+            "type" : "table cell",
+            "pdfua_tag" : "TD",
+            "page number" : 4,
+            "bounding box" : [ 174.05, 538.961, 367.0, 552.635 ],
+            "row number" : 1,
+            "column number" : 3,
+            "row span" : 1,
+            "column span" : 1,
+            "kids" : [ {
+              "type" : "paragraph",
+              "pdfua_tag" : "P",
+              "id" : 22,
+              "page number" : 4,
+              "bounding box" : [ 177.55, 538.961, 230.11, 550.035 ],
+              "font" : "TimesNewRomanPSMT",
+              "font size" : 10.0,
+              "text color" : "[0.0]",
+              "content" : "a corpo : a+b"
+            } ]
+          }, {
+            "type" : "table cell",
+            "pdfua_tag" : "TD",
+            "page number" : 4,
+            "bounding box" : [ 367.0, 538.961, 465.25, 552.635 ],
+            "row number" : 1,
+            "column number" : 4,
+            "row span" : 1,
+            "column span" : 1,
+            "kids" : [ {
+              "type" : "paragraph",
+              "pdfua_tag" : "P",
+              "id" : 23,
+              "page number" : 4,
+              "bounding box" : [ 402.006, 540.686, 461.748, 550.653 ],
+              "font" : "TimesNewRomanPS-BoldMT",
+              "font size" : 9.0,
+              "text color" : "[0.0]",
+              "content" : "sommano euro:"
+            } ]
+          }, {
+            "type" : "table cell",
+            "pdfua_tag" : "TD",
+            "page number" : 4,
+            "bounding box" : [ 465.25, 538.961, 529.05, 552.635 ],
+            "row number" : 1,
+            "column number" : 5,
+            "row span" : 1,
+            "column span" : 1,
+            "kids" : [ {
+              "type" : "paragraph",
+              "pdfua_tag" : "P",
+              "id" : 24,
+              "page number" : 4,
+              "bounding box" : [ 476.25, 538.961, 516.25, 550.035 ],
+              "font" : "TimesNewRomanPS-BoldMT",
+              "font size" : 10.0,
+              "text color" : "[0.0]",
+              "content" : "61.000,00"
+            } ]
+          } ]
+        } ]
+      } ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 4,
+      "bounding box" : [ 78.0, 520.562, 493.336, 533.851 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "C) SOMME A DISPOSIZIONE DELLA STAZIONE APPALTANTE PER:",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "table",
+    "pdfua_tag" : "Table",
+    "id" : 42,
+    "level" : "10",
+    "page number" : 4,
+    "bounding box" : [ 74.0, 52.823, 529.55, 520.562 ],
+    "number of rows" : 16,
+    "number of columns" : 5,
+    "rows" : [ {
+      "type" : "table row",
+      "row number" : 1,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 74.75, 507.813, 104.825, 519.562 ],
+        "row number" : 1,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 25,
+          "page number" : 4,
+          "bounding box" : [ 87.225, 508.063, 92.225, 519.137 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "1"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 104.825, 507.813, 174.05, 519.562 ],
+        "row number" : 1,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 174.05, 507.813, 367.0, 519.562 ],
+        "row number" : 1,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 26,
+          "page number" : 4,
+          "bounding box" : [ 177.55, 508.063, 243.64, 519.137 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "Arrotondamento"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 367.0, 507.813, 465.0, 519.562 ],
+        "row number" : 1,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 465.0, 53.448, 529.05, 519.562 ],
+        "row number" : 1,
+        "column number" : 5,
+        "row span" : 16,
+        "column span" : 1,
+        "kids" : [ ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 2,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 74.75, 495.814, 104.825, 507.813 ],
+        "row number" : 2,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 27,
+          "page number" : 4,
+          "bounding box" : [ 87.225, 496.064, 92.225, 507.138 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "2"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 104.825, 495.814, 174.05, 507.813 ],
+        "row number" : 2,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 174.05, 495.814, 367.0, 507.813 ],
+        "row number" : 2,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 28,
+          "page number" : 4,
+          "bounding box" : [ 177.55, 496.064, 351.65, 507.138 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "Allacciamenti a pubblici servizi:acquedotto"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 367.0, 495.814, 465.0, 507.813 ],
+        "row number" : 2,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 29,
+          "level" : "1",
+          "page number" : 4,
+          "bounding box" : [ 458.753, 496.639, 461.75, 506.606 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 9.0,
+          "text color" : "[0.0]",
+          "content" : "-"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 3,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 74.75, 472.316, 104.825, 495.814 ],
+        "row number" : 3,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 30,
+          "page number" : 4,
+          "bounding box" : [ 87.225, 478.316, 92.225, 489.39 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "3"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 104.825, 472.316, 174.05, 495.814 ],
+        "row number" : 3,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 174.05, 472.316, 367.0, 495.814 ],
+        "row number" : 3,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 31,
+          "page number" : 4,
+          "bounding box" : [ 177.55, 472.566, 339.7, 495.139 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "Allacciamenti a pubblici servizi: energia elettrica"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 367.0, 472.316, 465.0, 495.814 ],
+        "row number" : 3,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 4,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 74.75, 459.746, 104.825, 472.316 ],
+        "row number" : 4,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 32,
+          "page number" : 4,
+          "bounding box" : [ 87.225, 460.282, 92.225, 471.356 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "4"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 104.825, 459.746, 174.05, 472.316 ],
+        "row number" : 4,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 174.05, 459.746, 367.0, 472.316 ],
+        "row number" : 4,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 33,
+          "page number" : 4,
+          "bounding box" : [ 177.55, 460.001, 313.17, 472.071 ],
+          "font" : "Tahoma",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "Imprevisti e lavori in economia"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 367.0, 459.746, 465.0, 472.316 ],
+        "row number" : 4,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 34,
+          "page number" : 4,
+          "bounding box" : [ 437.0, 460.857, 461.75, 470.824 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 9.0,
+          "text color" : "[0.0]",
+          "content" : "441,15"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 5,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 74.75, 435.106, 104.825, 459.746 ],
+        "row number" : 5,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 35,
+          "page number" : 4,
+          "bounding box" : [ 87.225, 441.677, 92.225, 452.751 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "5"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 104.825, 435.106, 174.05, 459.746 ],
+        "row number" : 5,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 174.05, 435.106, 367.0, 459.746 ],
+        "row number" : 5,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 36,
+          "page number" : 4,
+          "bounding box" : [ 177.55, 435.361, 357.96, 459.501 ],
+          "font" : "Tahoma",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "Spese geologo per compatibilità idraulica (cassa e iva comprese)"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 367.0, 435.106, 465.0, 459.746 ],
+        "row number" : 5,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 6,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 74.75, 262.121, 104.825, 435.106 ],
+        "row number" : 6,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 37,
+          "page number" : 4,
+          "bounding box" : [ 87.225, 342.864, 92.225, 353.938 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "6"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 104.825, 262.121, 174.05, 435.106 ],
+        "row number" : 6,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 174.05, 262.121, 367.0, 435.106 ],
+        "row number" : 6,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 38,
+          "page number" : 4,
+          "bounding box" : [ 177.55, 262.371, 361.1, 434.431 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "Fondo incentivante per attività di programmazione della spesa per investimenti, per la verifica preventiva dei progetti di predisposizione e di controllo delle procedure di bando e di esecuzione dei contratti pubblici, di responsabile unico del procedimento, di direzione dei lavori ovvero direzione dell’esecuzione e di collaudo tecnico amministrativo ovvero di verifica di conformità, di collaudatore statico ove necessario per consentire l’esecuzione del contratto nel rispetto dei documenti a base di gara, del progetto, dei tempi e costi prestabiliti (2% di A) Art. 113 D.Lgs. 50/2016"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 367.0, 262.121, 465.0, 435.106 ],
+        "row number" : 6,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 39,
+          "page number" : 4,
+          "bounding box" : [ 430.25, 343.439, 461.75, 353.406 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 9.0,
+          "text color" : "[0.0]",
+          "content" : "1.220,00"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 7,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 74.75, 250.122, 104.825, 262.121 ],
+        "row number" : 7,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 40,
+          "page number" : 4,
+          "bounding box" : [ 87.225, 250.372, 92.225, 261.446 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "7"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 104.825, 250.122, 174.05, 262.121 ],
+        "row number" : 7,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 174.05, 250.122, 367.0, 262.121 ],
+        "row number" : 7,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 41,
+          "page number" : 4,
+          "bounding box" : [ 177.55, 250.372, 340.02, 261.446 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "Spese per pubblicità e contributo ANAC"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 367.0, 250.122, 465.0, 262.121 ],
+        "row number" : 7,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 42,
+          "page number" : 4,
+          "bounding box" : [ 441.5, 250.947, 461.75, 260.914 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 9.0,
+          "text color" : "[0.0]",
+          "content" : "35,00"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 8,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 74.75, 201.342, 104.825, 250.122 ],
+        "row number" : 8,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 43,
+          "page number" : 4,
+          "bounding box" : [ 87.225, 219.983, 92.225, 231.057 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "8"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 104.825, 201.342, 174.05, 250.122 ],
+        "row number" : 8,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 174.05, 201.342, 367.0, 250.122 ],
+        "row number" : 8,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 44,
+          "page number" : 4,
+          "bounding box" : [ 177.55, 201.597, 356.96, 249.877 ],
+          "font" : "Tahoma",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "Spese per attività tecnico-amministrative connesse alla progettazione, di supporto al responsabile del procedimento, e di verifica e validazione"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 367.0, 201.342, 465.0, 250.122 ],
+        "row number" : 8,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 9,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 74.75, 189.343, 104.825, 201.342 ],
+        "row number" : 9,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 45,
+          "page number" : 4,
+          "bounding box" : [ 87.225, 189.593, 92.225, 200.667 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "9"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 104.825, 189.343, 174.05, 201.342 ],
+        "row number" : 9,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 174.05, 189.343, 367.0, 201.342 ],
+        "row number" : 9,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 46,
+          "page number" : 4,
+          "bounding box" : [ 177.55, 189.593, 283.91, 200.667 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "Occupazione suolo - stima"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 367.0, 189.343, 465.0, 201.342 ],
+        "row number" : 9,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 10,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 74.75, 176.773, 104.825, 189.343 ],
+        "row number" : 10,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 47,
+          "page number" : 4,
+          "bounding box" : [ 84.725, 177.309, 94.725, 188.383 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "10"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 104.825, 127.493, 174.05, 189.343 ],
+        "row number" : 10,
+        "column number" : 2,
+        "row span" : 3,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 48,
+          "page number" : 4,
+          "bounding box" : [ 112.827, 146.919, 166.167, 169.492 ],
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "SPESE TECNICHE"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 174.05, 176.773, 367.0, 189.343 ],
+        "row number" : 10,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 49,
+          "page number" : 4,
+          "bounding box" : [ 177.55, 177.028, 360.17, 189.098 ],
+          "font" : "Tahoma",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "Progetto architettonico e Direzione Lavori"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 367.0, 127.493, 465.0, 189.343 ],
+        "row number" : 10,
+        "column number" : 4,
+        "row span" : 3,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 50,
+          "level" : "1",
+          "page number" : 4,
+          "bounding box" : [ 440.25, 177.884, 443.247, 187.851 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 9.0,
+          "text color" : "[0.0]",
+          "content" : "-"
+        }, {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 51,
+          "page number" : 4,
+          "bounding box" : [ 430.25, 140.674, 461.75, 150.641 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 9.0,
+          "text color" : "[0.0]",
+          "content" : "1.000,00"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 11,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 74.75, 164.203, 104.825, 176.773 ],
+        "row number" : 11,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 52,
+          "page number" : 4,
+          "bounding box" : [ 84.725, 164.739, 94.725, 175.813 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "11"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 174.05, 164.203, 367.0, 176.773 ],
+        "row number" : 11,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 53,
+          "page number" : 4,
+          "bounding box" : [ 177.55, 164.458, 257.62, 176.528 ],
+          "font" : "Tahoma",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "Calcolo strutturale"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 12,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 74.75, 127.493, 104.825, 164.203 ],
+        "row number" : 12,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 54,
+          "page number" : 4,
+          "bounding box" : [ 84.725, 140.099, 94.725, 151.173 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "12"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 174.05, 127.493, 367.0, 164.203 ],
+        "row number" : 12,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 55,
+          "page number" : 4,
+          "bounding box" : [ 177.55, 127.748, 360.26, 163.958 ],
+          "font" : "Tahoma",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "Coordinamento per la Sicurezza in fase di progettazione ed esecuzione - e contabilità"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 13,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 74.75, 102.853, 104.825, 127.493 ],
+        "row number" : 13,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 56,
+          "page number" : 4,
+          "bounding box" : [ 84.725, 109.424, 94.725, 120.498 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "13"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 104.825, 53.448, 174.05, 127.493 ],
+        "row number" : 13,
+        "column number" : 2,
+        "row span" : 4,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 57,
+          "page number" : 4,
+          "bounding box" : [ 120.752, 78.784, 158.242, 101.357 ],
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "Oneri ed imposte"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 174.05, 102.853, 367.0, 127.493 ],
+        "row number" : 13,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 58,
+          "page number" : 4,
+          "bounding box" : [ 177.55, 103.108, 319.26, 127.248 ],
+          "font" : "Tahoma",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "Cassa previdenziale (4%) ed iva (22%)sulle spese tecniche"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 367.0, 102.853, 465.0, 127.493 ],
+        "row number" : 13,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 59,
+          "page number" : 4,
+          "bounding box" : [ 441.5, 109.999, 461.75, 119.966 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 9.0,
+          "text color" : "[0.0]",
+          "content" : "40,00"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 14,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 74.75, 78.213, 104.825, 102.853 ],
+        "row number" : 14,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 60,
+          "page number" : 4,
+          "bounding box" : [ 84.725, 84.784, 94.725, 95.858 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "14"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 174.05, 78.213, 367.0, 102.853 ],
+        "row number" : 14,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 61,
+          "page number" : 4,
+          "bounding box" : [ 177.55, 78.468, 350.73, 102.608 ],
+          "font" : "Tahoma",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "Cassa previdenziale (4%) ed iva (22%) per assistenza al rup"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 367.0, 78.213, 465.0, 102.853 ],
+        "row number" : 14,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 62,
+          "level" : "1",
+          "page number" : 4,
+          "bounding box" : [ 458.753, 85.359, 461.75, 95.326 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 9.0,
+          "text color" : "[0.0]",
+          "content" : "-"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 15,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 74.75, 65.643, 104.825, 78.213 ],
+        "row number" : 15,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 63,
+          "page number" : 4,
+          "bounding box" : [ 84.725, 66.179, 94.725, 77.253 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "15"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 174.05, 65.643, 367.0, 78.213 ],
+        "row number" : 15,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 64,
+          "level" : "1",
+          "page number" : 4,
+          "bounding box" : [ 177.55, 65.898, 333.32, 77.968 ],
+          "font" : "Tahoma",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "I.V.A. 10% sui lavori (10% di A+B)"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 367.0, 65.643, 465.0, 78.213 ],
+        "row number" : 15,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 65,
+          "page number" : 4,
+          "bounding box" : [ 430.25, 66.754, 461.75, 76.721 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 9.0,
+          "text color" : "[0.0]",
+          "content" : "6.100,00"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 16,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 74.75, 53.448, 104.825, 65.643 ],
+        "row number" : 16,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 66,
+          "page number" : 4,
+          "bounding box" : [ 84.725, 53.609, 94.725, 64.683 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "16"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 174.05, 53.448, 367.0, 65.643 ],
+        "row number" : 16,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 67,
+          "page number" : 4,
+          "bounding box" : [ 177.55, 53.328, 332.84, 65.398 ],
+          "font" : "Tahoma",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "IVA al 22% su imprevisti e lavori in"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 4,
+        "bounding box" : [ 367.0, 53.448, 465.0, 65.643 ],
+        "row number" : 16,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 68,
+          "page number" : 4,
+          "bounding box" : [ 441.5, 54.184, 461.75, 64.151 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 9.0,
+          "text color" : "[0.0]",
+          "content" : "97,05"
+        } ]
+      } ]
+    } ]
+  }, {
+    "type" : "table",
+    "pdfua_tag" : "Table",
+    "id" : 43,
+    "level" : "11",
+    "page number" : 5,
+    "bounding box" : [ 74.0, 709.006, 529.55, 771.1 ],
+    "number of rows" : 4,
+    "number of columns" : 5,
+    "rows" : [ {
+      "type" : "table row",
+      "row number" : 1,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 5,
+        "bounding box" : [ 74.75, 758.28, 104.95, 770.6 ],
+        "row number" : 1,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 5,
+        "bounding box" : [ 104.95, 724.18, 174.3, 770.6 ],
+        "row number" : 1,
+        "column number" : 2,
+        "row span" : 3,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 5,
+        "bounding box" : [ 174.3, 758.28, 367.0, 770.6 ],
+        "row number" : 1,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 1,
+          "page number" : 5,
+          "bounding box" : [ 177.55, 758.535, 276.83, 770.605 ],
+          "font" : "Tahoma",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "economia (22% di C4)"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 5,
+        "bounding box" : [ 367.0, 758.28, 465.0, 770.6 ],
+        "row number" : 1,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 5,
+        "bounding box" : [ 465.0, 710.006, 529.05, 770.6 ],
+        "row number" : 1,
+        "column number" : 5,
+        "row span" : 4,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 2,
+          "page number" : 5,
+          "bounding box" : [ 486.75, 710.006, 518.25, 719.973 ],
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 9.0,
+          "text color" : "[0.0]",
+          "content" : "9.000,00"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 2,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 5,
+        "bounding box" : [ 74.75, 736.054, 104.95, 758.28 ],
+        "row number" : 2,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 3,
+          "page number" : 5,
+          "bounding box" : [ 84.725, 741.418, 94.725, 752.492 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "17"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 5,
+        "bounding box" : [ 174.3, 736.054, 367.0, 758.28 ],
+        "row number" : 2,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 4,
+          "page number" : 5,
+          "bounding box" : [ 177.55, 736.308, 318.778, 758.034 ],
+          "font" : "Tahoma",
+          "font size" : 9.0,
+          "text color" : "[0.0]",
+          "content" : "IVA al 22% su accantonamento per maggiorazione prezzi (22% di C5)"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 5,
+        "bounding box" : [ 367.0, 736.054, 465.0, 758.28 ],
+        "row number" : 2,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 5,
+          "level" : "1",
+          "page number" : 5,
+          "bounding box" : [ 458.753, 741.993, 461.75, 751.96 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 9.0,
+          "text color" : "[0.0]",
+          "content" : "-"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 3,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 5,
+        "bounding box" : [ 74.75, 724.18, 104.95, 736.054 ],
+        "row number" : 3,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 6,
+          "page number" : 5,
+          "bounding box" : [ 84.725, 724.305, 94.725, 735.379 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.0,
+          "text color" : "[0.0]",
+          "content" : "18"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 5,
+        "bounding box" : [ 174.3, 724.18, 367.0, 736.054 ],
+        "row number" : 3,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 7,
+          "page number" : 5,
+          "bounding box" : [ 177.55, 724.945, 281.995, 735.808 ],
+          "font" : "Tahoma",
+          "font size" : 9.0,
+          "text color" : "[0.0]",
+          "content" : "Irap su fondo incentivante"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 5,
+        "bounding box" : [ 367.0, 724.18, 465.0, 736.054 ],
+        "row number" : 3,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 8,
+          "page number" : 5,
+          "bounding box" : [ 441.5, 724.88, 461.75, 734.847 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 9.0,
+          "text color" : "[0.0]",
+          "content" : "66,80"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 4,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 5,
+        "bounding box" : [ 74.75, 710.006, 104.95, 724.18 ],
+        "row number" : 4,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 5,
+        "bounding box" : [ 104.95, 710.006, 465.0, 724.18 ],
+        "row number" : 4,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 3,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 9,
+          "page number" : 5,
+          "bounding box" : [ 402.006, 711.731, 461.748, 721.698 ],
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 9.0,
+          "text color" : "[0.0]",
+          "content" : "sommano euro:"
+        } ]
+      } ]
+    } ]
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H",
+    "id" : 44,
+    "level" : "Subtitle",
+    "page number" : 5,
+    "bounding box" : [ 370.5, 688.308, 516.0, 708.624 ],
+    "heading level" : 7,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 9.0,
+    "text color" : "[0.0]",
+    "content" : "TOTALE GENERALE PROGETTO: 70.000,00"
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 45,
+    "level" : "5",
+    "page number" : 5,
+    "bounding box" : [ 60.55, 509.06, 524.448, 674.017 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 4,
+    "previous list id" : 39,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 5,
+      "bounding box" : [ 60.55, 660.728, 426.612, 674.017 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "3. di dare atto che il codice CUP assegnato all’opera è: J37H26000500004;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 5,
+      "bounding box" : [ 60.55, 619.364, 524.436, 646.441 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "4. di dare atto, inoltre, che l’opera trova copertura finanziaria al capitolo 3111.2 del bilancio pluriennale 2026/2028 annualità 2026;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 5,
+      "bounding box" : [ 60.55, 564.212, 524.436, 605.077 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "5. di demandare al Responsabile dell’Area Tecnica la successiva gestione delle procedure afferenti l’affidamento e l’esecuzione dei lavori, nel rispetto delle normative vigenti in materia;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 5,
+      "bounding box" : [ 60.55, 509.06, 524.448, 549.925 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "6. di rendere la presente deliberazione immediatamente eseguibile, ai sensi dell’art. 134, comma 4° del D.Lgs. 18/08/2000 n. 267, con separata votazione e con voti favorevoli unanimi.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H4",
+    "id" : 46,
+    "level" : "Subtitle",
+    "page number" : 6,
+    "bounding box" : [ 176.988, 729.703, 390.012, 742.992 ],
+    "heading level" : 4,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "PARERE DI REGOLARITA’ TECNICA"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 47,
+    "page number" : 6,
+    "bounding box" : [ 42.55, 674.507, 524.446, 715.394 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Il sottoscritto De Filippis Vincenzo in qualità di Responsabile di Settore, esaminata la proposta di deliberazione di cui all’oggetto esprime parere Favorevole per quanto di competenza ed in linea tecnica all’adozione dell’atto di cui sopra."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 48,
+    "page number" : 6,
+    "bounding box" : [ 42.55, 646.909, 438.341, 660.198 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Selvino, lì 23-06-2026 Il Responsabile del Settore"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 49,
+    "page number" : 6,
+    "bounding box" : [ 168.65, 605.512, 437.676, 646.399 ],
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "F.to Vincenzo De Filippis PARERE DI REGOLARITA’ CONTABILE"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 50,
+    "page number" : 6,
+    "bounding box" : [ 42.55, 550.316, 524.446, 591.203 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Il sottoscritto De Filippis Vincenzo in qualità di Responsabile del Settore Finanziario, esprime parere Favorevole in ordine alla regolarità contabile relativa alla proposta di cui all’oggetto ai sensi dell’art. 49 del T.U. D.L.gs. 267/2000"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 51,
+    "page number" : 6,
+    "bounding box" : [ 42.55, 508.919, 438.341, 536.007 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Selvino, lì 23-06-2026 Il Responsabile del Settore F.to Vincenzo De Filippis"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 52,
+    "page number" : 7,
+    "bounding box" : [ 42.55, 757.301, 196.174, 770.59 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Letto, confermato e sottoscritto."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 53,
+    "page number" : 7,
+    "bounding box" : [ 75.586, 715.904, 207.91, 742.992 ],
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "IL Segretario Comunale F.to Vincenzo De Filippis"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 54,
+    "page number" : 7,
+    "bounding box" : [ 328.6, 715.904, 482.248, 742.992 ],
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "IL Sindaco F.to Dott. Andrea Santopietro"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 56,
+    "page number" : 7,
+    "bounding box" : [ 42.55, 562.365, 527.242, 672.247 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "CERTIFICATO DI PUBBLICAZIONE Il sottoscritto Resp. della Pubblicazione attesta che: La presente deliberazione viene pubblicata all’Albo Pretorio per giorni 15 ai sensi dell’art. 124 del T.U. D.Lgs. n.267/2000. Selvino, lì 26-06-2026"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 57,
+    "page number" : 7,
+    "bounding box" : [ 315.137, 534.767, 453.761, 561.855 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "IL Resp. della Pubblicazione F.to Miriam Magoni"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H4",
+    "id" : 59,
+    "level" : "Subtitle",
+    "page number" : 7,
+    "bounding box" : [ 191.047, 491.62, 381.751, 504.909 ],
+    "heading level" : 4,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "CERTIFICATO DI ESECUTIVITA’"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 60,
+    "page number" : 7,
+    "bounding box" : [ 42.55, 436.424, 524.446, 477.311 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Visti gli atti d’ufficio si attesta che la presente deliberazione E’ DIVENUTA ESECUTIVA il giorno 23-06-2026, ai sensi dell’art. 134, comma 4, D.Lgs. 18 agosto 2000 n. 267, per dichiarazione di immediata eseguibilità."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 61,
+    "page number" : 7,
+    "bounding box" : [ 42.55, 408.826, 150.874, 422.115 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Selvino, lì 26-06-2026"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 62,
+    "page number" : 7,
+    "bounding box" : [ 320.62, 381.228, 448.276, 408.316 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "IL Segretario Comunale F.to Vincenzo De Filippis"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 64,
+    "page number" : 7,
+    "bounding box" : [ 42.55, 325.832, 498.61, 350.662 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "Copia analogica conforme al documento informatico firmato digitalmente ai sensi del D.Lgs. 82/2005 e rispettive norme collegate."
+  } ]
+}

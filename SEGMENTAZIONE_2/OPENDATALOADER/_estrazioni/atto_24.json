@@ -1,0 +1,726 @@
+{
+  "file name" : "atto_24.pdf",
+  "number of pages" : 5,
+  "author" : null,
+  "title" : null,
+  "creation date" : "D:20000804064600Z",
+  "modification date" : "D:20260629132300Z",
+  "kids" : [ {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 22,
+    "page number" : 1,
+    "bounding box" : [ 74.4, 662.096, 134.9, 749.096 ],
+    "source" : "atto_24_images/imageFile1.png"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 12,
+    "level" : "Doctitle",
+    "page number" : 1,
+    "bounding box" : [ 157.12, 727.369, 473.804, 758.752 ],
+    "heading level" : 1,
+    "font" : "Tahoma",
+    "font size" : 26.0,
+    "text color" : "[0.0]",
+    "content" : "COMUNE DI MOMPANTERO"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 13,
+    "page number" : 1,
+    "bounding box" : [ 233.326, 703.229, 397.582, 727.369 ],
+    "font" : "Tahoma",
+    "font size" : 10.0,
+    "text color" : "[0.0]",
+    "content" : "CITTA’ METROPOLITANA DI TORINO _______________"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H2",
+    "id" : 14,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 150.251, 613.236, 416.702, 634.963 ],
+    "heading level" : 2,
+    "font" : "Tahoma-Bold",
+    "font size" : 18.0,
+    "text color" : "[0.0]",
+    "content" : "VERBALE DI DELIBERAZIONE"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H3",
+    "id" : 15,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 172.857, 593.924, 394.094, 613.237 ],
+    "heading level" : 3,
+    "font" : "Tahoma-Bold",
+    "font size" : 16.0,
+    "text color" : "[0.0]",
+    "content" : "DELLA GIUNTA COMUNALE"
+  }, {
+    "type" : "text block",
+    "id" : 16,
+    "page number" : 1,
+    "bounding box" : [ 240.25, 566.784, 312.65, 581.854 ],
+    "kids" : [ {
+      "type" : "paragraph",
+      "pdfua_tag" : "P",
+      "id" : 1,
+      "page number" : 1,
+      "bounding box" : [ 258.808, 568.284, 294.097, 580.354 ],
+      "font" : "Tahoma-Bold",
+      "font size" : 10.0,
+      "text color" : "[0.0]",
+      "content" : "N. 45"
+    } ]
+  }, {
+    "type" : "text block",
+    "id" : 17,
+    "page number" : 1,
+    "bounding box" : [ 36.6, 507.446, 530.35, 542.644 ],
+    "kids" : [ {
+      "type" : "heading",
+      "pdfua_tag" : "H4",
+      "id" : 2,
+      "level" : "Subtitle",
+      "page number" : 1,
+      "bounding box" : [ 42.55, 508.946, 524.404, 540.686 ],
+      "heading level" : 4,
+      "font" : "Arial-BoldMT",
+      "font size" : 14.0,
+      "text color" : "[0.0]",
+      "content" : "OGGETTO : CONCESSIONE PATROCINIO PER LA MANIFESTAZIONE SPORTIVA \"VERTICAL DEL ROCCIAMELONE\" DEL 12 LUGLIO 2026"
+    } ]
+  }, {
+    "type" : "caption",
+    "id" : 18,
+    "page number" : 1,
+    "bounding box" : [ 42.55, 419.94, 524.404, 492.962 ],
+    "linked content id" : 19,
+    "font" : "Tahoma",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "L’anno duemilaventisei, addì ventinove, del mese di giugno, alle ore quindici e minuti zero, regolarmente convocata, si è riunita la Giunta Comunale. Presso la sala comunale è presente il Sindaco, Davide Gastaldo, che interviene con gli assessori della quale sono membri i Signori:"
+  }, {
+    "type" : "table",
+    "pdfua_tag" : "Table",
+    "id" : 19,
+    "level" : "1",
+    "page number" : 1,
+    "bounding box" : [ 61.875, 273.454, 505.075, 413.302 ],
+    "number of rows" : 2,
+    "number of columns" : 2,
+    "rows" : [ {
+      "type" : "table row",
+      "row number" : 1,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 62.625, 397.693, 432.4, 412.552 ],
+        "row number" : 1,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 3,
+          "page number" : 1,
+          "bounding box" : [ 194.323, 398.068, 300.325, 412.553 ],
+          "font" : "Tahoma-Bold",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "Cognome e Nome"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 432.4, 397.693, 504.325, 412.552 ],
+        "row number" : 1,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 4,
+          "page number" : 1,
+          "bounding box" : [ 441.895, 398.068, 495.211, 412.553 ],
+          "font" : "Tahoma-Bold",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "Presente"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 2,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 62.625, 274.204, 432.4, 397.693 ],
+        "row number" : 2,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "list",
+          "pdfua_tag" : "L",
+          "id" : 5,
+          "level" : "1",
+          "page number" : 1,
+          "bounding box" : [ 65.75, 324.898, 320.245, 382.835 ],
+          "numbering style" : "arabic numbers",
+          "number of list items" : 3,
+          "list items" : [ {
+            "type" : "list item",
+            "pdfua_tag" : "LI",
+            "page number" : 1,
+            "bounding box" : [ 65.75, 368.35, 260.034, 382.835 ],
+            "font" : "Tahoma-Bold",
+            "font size" : 12.0,
+            "text color" : "[0.0]",
+            "content" : "1. GASTALDO DAVIDE - Sindaco",
+            "kids" : [ ]
+          }, {
+            "type" : "list item",
+            "pdfua_tag" : "LI",
+            "page number" : 1,
+            "bounding box" : [ 65.75, 346.624, 320.245, 361.109 ],
+            "font" : "Tahoma-Bold",
+            "font size" : 12.0,
+            "text color" : "[0.0]",
+            "content" : "2. PESANDO MARIA LAURA - Vice Sindaco",
+            "kids" : [ ]
+          }, {
+            "type" : "list item",
+            "pdfua_tag" : "LI",
+            "page number" : 1,
+            "bounding box" : [ 65.75, 324.898, 254.834, 339.383 ],
+            "font" : "Tahoma-Bold",
+            "font size" : 12.0,
+            "text color" : "[0.0]",
+            "content" : "3. CHIOLERO LINO - Assessore",
+            "kids" : [ ]
+          } ]
+        }, {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 6,
+          "page number" : 1,
+          "bounding box" : [ 345.638, 274.204, 428.904, 303.173 ],
+          "font" : "Tahoma",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "Totale Presenti: Totale Assenti:"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 432.4, 274.204, 504.325, 397.693 ],
+        "row number" : 2,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 7,
+          "page number" : 1,
+          "bounding box" : [ 463.836, 324.898, 473.268, 382.835 ],
+          "font" : "Tahoma",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "Sì Sì Sì"
+        }, {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 8,
+          "page number" : 1,
+          "bounding box" : [ 465.274, 274.204, 471.826, 303.173 ],
+          "font" : "Tahoma",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "3 0"
+        } ]
+      } ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 20,
+    "page number" : 1,
+    "bounding box" : [ 42.55, 230.003, 327.927, 244.487 ],
+    "font" : "Tahoma",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Presiede la seduta il SINDACO – DAVIDE GASTALDO."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 21,
+    "page number" : 1,
+    "bounding box" : [ 42.55, 135.856, 524.402, 193.793 ],
+    "font" : "Tahoma",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Il Presidente, rilevata la partecipazione di tutti gli Assessori, dichiara validamente costituita l’adunanza con la partecipazione del Segretario dott.ssa Marietta CARCIONE in videoconferenza."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 25,
+    "page number" : 2,
+    "bounding box" : [ 42.55, 746.589, 524.392, 771.816 ],
+    "font" : "Tahoma",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "Si dà atto che l’Assessore CHIOLERO Lino partecipa alla seduta in videoconferenza ai sensi del vigente regolamento."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 26,
+    "page number" : 2,
+    "bounding box" : [ 42.55, 677.658, 173.311, 691.064 ],
+    "font" : "ArialMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Su proposta del Sindaco"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 27,
+    "page number" : 2,
+    "bounding box" : [ 216.13, 650.06, 350.814, 663.466 ],
+    "font" : "ArialMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "LA GIUNTA COMUNALE"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 28,
+    "page number" : 2,
+    "bounding box" : [ 42.55, 539.668, 524.402, 635.868 ],
+    "font" : "ArialMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Vista la lettera dell’Associazione sportiva dilettantistica PIOSSASCO TRAIL RUNNERS ASD, con sede legale a Piossasco (TO) in Via Magenta n.1, acclarata al prot.n.0002249 del 29.06.2026, in cui si richiede: di poter svolgere una competizione “Vertical del Rocciamelone” nella giornata di sabato 12 luglio 2026 o in caso di mal tempo domenica 13 luglio 2026, con partenza davanti al Rifugio La Riposa, di avere il patrocinio del Comune, di accordare autorizzazione all’accesso di strade interpoderali per approntare il percorso e garantirne la sicurezza;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 29,
+    "page number" : 2,
+    "bounding box" : [ 42.55, 484.472, 524.396, 525.476 ],
+    "font" : "ArialMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Atteso che la succitata associazione sportiva ha richiesto nulla osta per lo svolgimento della manifestazione all’Ente di Gestione Parchi Alpi Cozie e per quanto concerne responsabilità, sicurezza e gestione dell’evento dichiarando quanto segue:"
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 30,
+    "level" : "2",
+    "page number" : 2,
+    "bounding box" : [ 42.55, 194.693, 524.399, 484.079 ],
+    "numbering style" : "unordered",
+    "number of list items" : 10,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 42.55, 456.874, 524.395, 484.079 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "• La società sportiva è affiliata alla FISKY Federazione Italiana Skyrunning, ed ha iscritta nel calendario nazionale del Coni per il 2026 la competizione sportiva in oggetto;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 42.55, 443.075, 454.317, 456.481 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "• Il numero presunto dei partecipanti alla competizione sportiva è di 200 atleti;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 42.55, 429.276, 373.606, 442.682 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "• La competizione sportiva in oggetto ha carattere competitivo;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 42.55, 401.678, 524.393, 428.883 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "• Alla partenza, durante tutto il percorso e al traguardo, sarà assicurato il regolare svolgimento della competizione con proprio personale appositamente incaricato;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 42.55, 374.08, 524.388, 401.285 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "• Sarà assicurata una costante assistenza sanitaria con presenza di almeno un'ambulanza e di personale medico in grado di intervenire in caso di necessità;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 42.55, 360.281, 422.947, 373.687 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "• La sicurezza degli attraversamenti stradali, sarà garantita da volontari;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 42.55, 346.482, 464.981, 359.888 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "• La sicurezza lungo il tracciato sarà garantita dai volontari del Soccorso Alpino;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 42.55, 263.688, 524.399, 346.089 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "• L'Ente Organizzatore ha provveduto alla verifica dell'intero percorso di gara, con sopralluogo effettuato da proprio personale, e dalla guida alpina responsabile rilevando che le attuali condizioni delle strade interessate sono idonee allo svolgimento della competizione sportiva in oggetto, mantenendo sollevata ed indenne l'Amministrazione Comunale da qualsiasi responsabilità conseguente a sinistri, danni o altro, verificatesi durante o in conseguenza della competizione;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 42.55, 222.291, 524.396, 263.295 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "• La competizione in oggetto è regolarmente assicurata per la responsabilità civile verso terzi, nonché per eventuali danni a cose, comprese le strade e le relative attrezzature, con polizza della Federazione Italiana Skyrunning;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 42.55, 194.693, 524.387, 221.898 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "• La polizza assicurativa verrà attivata 5 giorni prima della data della manifestazione e verrà mandata copia via mail;",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 31,
+    "page number" : 2,
+    "bounding box" : [ 42.55, 84.301, 524.404, 180.501 ],
+    "font" : "ArialMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Rilevato che le linee di governo di questo Comune per il quinquennio 2021/2026 fanno emergere l'indirizzo di convogliare l'impiego delle risorse verso obiettivi tesi allo sviluppo del Paese e al miglioramento della vita dei suoi abitanti. Un reale sviluppo del Paese implica la rivalutazione del senso di comunità e lo sforzo congiunto di privati e istituzioni, con riconoscimento delle fondamenta delle identità storiche e culturali. La responsabilizzazione dei cittadini e delle associazioni è presupposto di servizio al Paese e lo rende compatto e collaborativo, creando solida trama sociale per garantire il futuro;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 32,
+    "page number" : 2,
+    "bounding box" : [ 42.55, 56.703, 522.816, 70.109 ],
+    "font" : "ArialMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Dato atto che l’iniziativa sopra menzionata riveste carattere di interesse pubblico generale;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 34,
+    "page number" : 3,
+    "bounding box" : [ 42.55, 743.803, 524.394, 771.008 ],
+    "font" : "ArialMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Ritenuto di dover contribuire alla realizzazione della iniziativa attraverso la concessione del proprio patrocinio e consentendo:"
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 35,
+    "level" : "2",
+    "page number" : 3,
+    "bounding box" : [ 42.55, 661.009, 524.395, 743.41 ],
+    "numbering style" : "unordered",
+    "number of list items" : 3,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 42.55, 730.004, 187.972, 743.41 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "- l’uso del logo del Comune",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 42.55, 702.406, 524.395, 729.611 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "- l’esenzione del pagamento dell’imposta sulle pubbliche affissioni per pubblicizzare l’evento",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 42.55, 661.009, 524.392, 702.013 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "- il permesso ad accedere a strade interpoderali, strade bianche nel Comune di Mompantero, con vari mezzi per poter preparare e mettere in sicurezza il tracciato di gara, con vari interventi di manutenzione dal 01/07/2026 al 27/07/2026;",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 36,
+    "page number" : 3,
+    "bounding box" : [ 42.55, 619.612, 524.392, 646.817 ],
+    "font" : "ArialMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Dato atto che la realizzazione dell’evento non comporta alcuna altra spesa diretta a carico del bilancio comunale;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 37,
+    "page number" : 3,
+    "bounding box" : [ 42.55, 564.416, 524.396, 605.42 ],
+    "font" : "ArialMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Dato atto altresì che la concessione del patrocinio non comporta il sorgere in capo all’Amministrazione di obblighi o responsabilità di qualsiasi genere in ordine all’evento patrocinato;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 38,
+    "page number" : 3,
+    "bounding box" : [ 42.55, 495.421, 524.396, 550.224 ],
+    "font" : "ArialMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Considerato che la proposta operativa ha ottenuto il parere favorevole espresso ai sensi dell’art. 49 del D.Lgs. 18.8.2000 n. 267, così come modificato dal D.L. n. 174/2012, in merito alla regolarità tecnica-contabile da parte del Responsabile dell’area amministrativacontabile;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 39,
+    "page number" : 3,
+    "bounding box" : [ 42.55, 454.024, 524.386, 481.229 ],
+    "font" : "ArialMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Visto l’art. 48 D.Lgs. 18.8.2000 n. 267 che demanda alla G.C. l’ordinaria amministrazione di funzioni e servizi;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 40,
+    "page number" : 3,
+    "bounding box" : [ 42.55, 398.828, 521.499, 439.832 ],
+    "font" : "ArialMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Con votazione unanime e favorevole espressa in forma palese mediante assenso verbale; DELIBERA"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 41,
+    "page number" : 3,
+    "bounding box" : [ 42.55, 357.431, 524.396, 384.636 ],
+    "font" : "ArialMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Per le motivazioni riportate nella premessa narrativa al presente dispositivo e richiamate a farne parte integrante e sostanziale."
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 42,
+    "level" : "3",
+    "page number" : 3,
+    "bounding box" : [ 42.55, 81.451, 524.403, 343.239 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 3,
+    "next list id" : 44,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 42.55, 316.034, 524.388, 343.239 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "1. Di contribuire alla realizzazione della iniziativa sportiva “Vertical del Rocciamelone” attraverso la concessione del proprio patrocinio e consentendo:",
+      "kids" : [ {
+        "type" : "list",
+        "pdfua_tag" : "L",
+        "id" : 11,
+        "level" : "2",
+        "page number" : 3,
+        "bounding box" : [ 42.55, 233.24, 524.395, 315.641 ],
+        "numbering style" : "unordered",
+        "number of list items" : 3,
+        "list items" : [ {
+          "type" : "list item",
+          "pdfua_tag" : "LI",
+          "page number" : 3,
+          "bounding box" : [ 42.55, 302.235, 187.972, 315.641 ],
+          "font" : "ArialMT",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "- l’uso del logo del Comune",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "pdfua_tag" : "LI",
+          "page number" : 3,
+          "bounding box" : [ 42.55, 274.637, 524.395, 301.842 ],
+          "font" : "ArialMT",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "- l’esenzione del pagamento dell’imposta sulle pubbliche affissioni per pubblicizzare l’evento",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "pdfua_tag" : "LI",
+          "page number" : 3,
+          "bounding box" : [ 42.55, 233.24, 524.392, 274.244 ],
+          "font" : "ArialMT",
+          "font size" : 12.0,
+          "text color" : "[0.0]",
+          "content" : "- il permesso ad accedere a strade interpoderali, strade bianche nel Comune di Mompantero, con vari mezzi per poter preparare e mettere in sicurezza il tracciato di gara, con vari interventi di manutenzione dal 01/07/2026 al 27/07/2026.",
+          "kids" : [ ]
+        } ]
+      } ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 42.55, 164.245, 524.391, 219.048 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "2. Di dare atto che la concessione del patrocinio non comporta il sorgere in capo al Comune di Mompantero di obblighi o responsabilità di qualsiasi genere in ordine alla manifestazione patrocinata intendendosi lo stesso comune manlevato da ogni coinvolgimento in merito.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 42.55, 81.451, 524.403, 150.053 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "3. Di dare atto che, ai fini della realizzazione della manifestazione sportiva “Vertical del Rocciamelone” che si terrà sabato 12 luglio 2026 o in caso di avverse condizioni meteorologiche domenica 13 luglio 2026, l’Associazione sportiva dilettantistica PIOSSASCO TRAIL RUNNERS ASD, con sede legale a Piossasco (TO) in Via Magenta n.1, deve aver ottenuto il nulla osta da parte dell’Ente di Gestione Parchi Alpi Cozie.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 44,
+    "level" : "3",
+    "page number" : 4,
+    "bounding box" : [ 42.55, 690.173, 524.4, 784.807 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "previous list id" : 42,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 4,
+      "bounding box" : [ 42.55, 743.803, 524.399, 784.807 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0]",
+      "content" : "4. Di inviare copia della presente deliberazione dell’Associazione sportiva dilettantistica PIOSSASCO TRAIL RUNNERS ASD, con sede legale a Piossasco (TO) in Via Magenta n. 1.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 4,
+      "bounding box" : [ 42.55, 690.173, 524.4, 730.004 ],
+      "font" : "Tahoma",
+      "font size" : 11.0,
+      "text color" : "[0.0]",
+      "content" : "5. Di dichiarare la presente deliberazione, con separata e successiva votazione favorevole unanime, palesemente espressa per alzata di mano, immediatamente eseguibile, art. 134 comma 4)del D.Lgs. 267/2000.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 46,
+    "page number" : 5,
+    "bounding box" : [ 42.55, 758.882, 213.246, 773.366 ],
+    "font" : "Tahoma",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Letto, confermato e sottoscritto."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 47,
+    "page number" : 5,
+    "bounding box" : [ 63.776, 693.702, 200.225, 734.258 ],
+    "font" : "Tahoma",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "IL PRESIDENTE Firmato digitalmente F.to : GASTALDO DAVIDE"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 48,
+    "page number" : 5,
+    "bounding box" : [ 338.006, 693.702, 510.787, 734.258 ],
+    "font" : "Tahoma",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "IL SEGRETARIO COMUNALE Firmato digitalmente F.to : Dr.ssa Marietta CARCIONE"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 50,
+    "page number" : 5,
+    "bounding box" : [ 42.55, 625.447, 517.883, 650.385 ],
+    "font" : "ArialMT",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "Copia conforme all'originale firmato digitalmente, per gli usi consentiti dalla Legge. lì, 30/06/2026 IL SEGRETARIO COMUNALEDr.ssa Marietta"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 51,
+    "page number" : 5,
+    "bounding box" : [ 376.694, 612.798, 434.752, 625.087 ],
+    "font" : "ArialMT",
+    "font size" : 11.0,
+    "text color" : "[0.0]",
+    "content" : "CARCIONE"
+  } ]
+}
