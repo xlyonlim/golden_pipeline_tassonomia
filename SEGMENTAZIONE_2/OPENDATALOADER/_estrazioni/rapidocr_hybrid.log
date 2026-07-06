@@ -1,3 +1,0 @@
-2026-07-06 03:29:58,298 - INFO - Loading plugin 'docling_defaults'
-2026-07-06 03:29:58,473 - INFO - Registered ocr engines: ['auto', 'easyocr', 'kserve_v2_ocr', 'ocrmac', 'rapidocr', 'tesserocr', 'tesseract']
-2026-07-06 03:29:58,475 - ERROR - OCR engine 'rapidocr' selected but `onnxruntime` is not installed. rapidocr's default backend requires it. Install with `pip install onnxruntime` (or, for GPU, `pip install onnxruntime-gpu`).

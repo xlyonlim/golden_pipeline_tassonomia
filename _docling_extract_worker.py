@@ -24,11 +24,20 @@ def needs_full_page_ocr(document_dict: dict) -> bool:
             if page is not None:
                 page_has_picture[int(page)] = True
 
-    for page in set(page_parts) | set(page_has_picture):
+    declared_pages = {
+        int(page_number)
+        for page_number in document_dict.get("pages", {})
+        if str(page_number).isdigit()
+    }
+    for page in declared_pages | set(page_parts) | set(page_has_picture):
         combined = " ".join(page_parts.get(page, []))
         letters = len(re.findall(r"[A-Za-zÀ-ÖØ-öø-ÿ]", combined))
         digits = len(re.findall(r"\d", combined))
-        if letters < 20 and (digits >= 2 or page_has_picture.get(page, False)):
+        # Una pagina dichiarata dal PDF ma completamente assente dall'output è
+        # tipicamente una scansione non rilevata come picture (atti 12/14).
+        if letters == 0 or (
+            letters < 20 and (digits >= 2 or page_has_picture.get(page, False))
+        ):
             return True
 
     return False

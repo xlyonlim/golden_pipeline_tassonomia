@@ -580,8 +580,25 @@ def detect_dispositive_stop(text: str, role: str = "") -> Optional[str]:
     if any(re.match(pattern, lowered) for pattern in proposal_patterns):
         return "PROPONE_DELIBERARE"
 
+    # OpenDataLoader può fondere formula di voto e marker nello stesso
+    # elemento: "Con votazione ... DELIBERA". In tale contesto DELIBERA è
+    # dispositivo anche se non si trova all'inizio della stringa.
+    inline_delibera = re.search(r"\bdelibera\b", lowered)
+    if inline_delibera is not None:
+        prefix = lowered[:inline_delibera.start()]
+        if re.search(
+            r"\b(?:con\s+vot(?:i|azione)|all['’]unanimit[aà]|"
+            r"voti?\s+(?:favorevol|unanim)|votazione\s+(?:favorevol|unanim))",
+            prefix,
+        ):
+            return "DELIBERA"
+
     # Formula autonoma o titolo: DELIBERA, DELIBERA CHE, DELIBERA QUANTO SEGUE.
     if re.match(r"^delibera(?:\s+che|\s+quanto\s+segue)?\s*[:;.-]?$", lowered):
+        return "DELIBERA"
+
+    # Dispositivo e primo comando possono essere estratti come una sola riga.
+    if re.match(r"^delibera\s+di\s+(?!giunta\b|consiglio\b)\w+", lowered):
         return "DELIBERA"
 
     # Formula con organo deliberante sulla stessa riga.
@@ -600,7 +617,10 @@ def detect_dispositive_stop(text: str, role: str = "") -> Optional[str]:
 
     # Formula autonoma di attestazione, normalmente successiva al dispositivo.
     # Non fermiamo invece frasi narrative come "ATTESTA che...".
-    if re.match(r"^attesta\s*[:;.-]?$", lowered):
+    if re.match(r"^attesta\b", lowered) and not re.search(
+        r"\b(?:affiss[ao]|pubblicat[ao]|albo\s+pretorio|quindici\s+giorni)\b",
+        lowered,
+    ):
         return "ATTESTA"
 
     return None
@@ -896,6 +916,57 @@ def extract_with_docling(pdf_paths: List[Path], extraction_dir: Path) -> List[Di
     return errors
 
 
+def extract_with_local_rapidocr(pdf_path: Path, extraction_dir: Path) -> None:
+    """Fallback autonomo OCR: produce JSON/Markdown compatibili con il reader."""
+    import fitz
+    import numpy as np
+    from rapidocr_onnxruntime import RapidOCR
+
+    engine = RapidOCR()
+    document = {
+        "file name": pdf_path.name,
+        "number of pages": 0,
+        "kids": [],
+    }
+    markdown_pages: List[str] = []
+    item_id = 0
+    with fitz.open(pdf_path) as pdf:
+        document["number of pages"] = len(pdf)
+        for page_number, page in enumerate(pdf, start=1):
+            pixmap = page.get_pixmap(
+                matrix=fitz.Matrix(2, 2), colorspace=fitz.csRGB, alpha=False
+            )
+            image = np.frombuffer(pixmap.samples, dtype=np.uint8).reshape(
+                pixmap.height, pixmap.width, 3
+            )
+            result, _ = engine(image)
+            page_lines: List[str] = []
+            for detection in result or []:
+                box, text = detection[0], str(detection[1]).strip()
+                if not text:
+                    continue
+                item_id += 1
+                xs = [float(point[0]) for point in box]
+                ys = [float(point[1]) for point in box]
+                document["kids"].append({
+                    "type": "paragraph",
+                    "id": item_id,
+                    "page number": page_number,
+                    "bounding box": [min(xs), min(ys), max(xs), max(ys)],
+                    "content": text,
+                })
+                page_lines.append(text)
+            markdown_pages.append("\n\n".join(page_lines))
+
+    extraction_dir.mkdir(parents=True, exist_ok=True)
+    (extraction_dir / f"{pdf_path.stem}.json").write_text(
+        json.dumps(document, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
+    (extraction_dir / f"{pdf_path.stem}.md").write_text(
+        "\n\n---\n\n".join(markdown_pages), encoding="utf-8"
+    )
+
+
 def extract_with_opendataloader(pdf_paths: List[Path], extraction_dir: Path) -> List[Dict[str, str]]:
     """Estrae in batch i PDF con OpenDataLoader nei formati JSON e Markdown."""
     try:
@@ -923,17 +994,31 @@ def extract_with_opendataloader(pdf_paths: List[Path], extraction_dir: Path) -> 
             page_has_image: Dict[Any, bool] = {}
             for kid in document.get("kids", []):
                 page = kid.get("page number")
-                content = str(kid.get("content") or kid.get("text") or "")
+                nested_items = kid.get("list items") or []
+                nested_text = " ".join(
+                    str(item.get("content") or item.get("text") or "")
+                    for item in nested_items
+                    if isinstance(item, dict)
+                )
+                content = " ".join(filter(None, [
+                    str(kid.get("content") or kid.get("text") or ""),
+                    nested_text,
+                ]))
                 page_parts.setdefault(page, []).append(content)
                 if str(kid.get("type", "")).lower() in {"image", "picture", "figure"}:
                     page_has_image[page] = True
 
             needs_ocr = False
-            for page, parts in page_parts.items():
+            declared_page_count = int(document.get("number of pages") or 0)
+            declared_pages = set(range(1, declared_page_count + 1))
+            for page in declared_pages | set(page_parts):
+                parts = page_parts.get(page, [])
                 combined = " ".join(parts)
                 letters = len(re.findall(r"[A-Za-zÀ-ÖØ-öø-ÿ]", combined))
                 digits = len(re.findall(r"\d", combined))
-                if letters < 20 and (digits >= 2 or page_has_image.get(page, False)):
+                if letters == 0 or (
+                    letters < 20 and (digits >= 2 or page_has_image.get(page, False))
+                ):
                     needs_ocr = True
                     break
 
@@ -993,6 +1078,17 @@ def extract_with_opendataloader(pdf_paths: List[Path], extraction_dir: Path) -> 
 
             for pdf_path in suspicious_pdfs:
                 try:
+                    # OpenDataLoader non sovrascrive sempre gli output già
+                    # presenti: eliminiamo soltanto quelli dell'atto sospetto
+                    # prima del secondo passaggio OCR.
+                    for old_output in (
+                        extraction_dir / f"{pdf_path.stem}.json",
+                        extraction_dir / f"{pdf_path.stem}.md",
+                    ):
+                        old_output.unlink(missing_ok=True)
+                    image_dir = extraction_dir / f"{pdf_path.stem}_images"
+                    if image_dir.exists():
+                        shutil.rmtree(image_dir)
                     opendataloader_pdf.convert(
                         input_path=[str(pdf_path)],
                         output_dir=str(extraction_dir),
@@ -1004,11 +1100,22 @@ def extract_with_opendataloader(pdf_paths: List[Path], extraction_dir: Path) -> 
                         hybrid_timeout="1800",
                     )
                 except Exception as exc:
-                    errors.append({"file": pdf_path.name, "errore": str(exc)})
+                    try:
+                        extract_with_local_rapidocr(pdf_path, extraction_dir)
+                    except Exception as fallback_exc:
+                        errors.append({
+                            "file": pdf_path.name,
+                            "errore": f"{exc}; fallback RapidOCR: {fallback_exc}",
+                        })
         except Exception as exc:
-            errors.extend(
-                {"file": path.name, "errore": str(exc)} for path in suspicious_pdfs
-            )
+            for path in suspicious_pdfs:
+                try:
+                    extract_with_local_rapidocr(path, extraction_dir)
+                except Exception as fallback_exc:
+                    errors.append({
+                        "file": path.name,
+                        "errore": f"{exc}; fallback RapidOCR: {fallback_exc}",
+                    })
         finally:
             server.terminate()
             try:
@@ -1139,11 +1246,28 @@ def build_blocks(elements: pd.DataFrame) -> pd.DataFrame:
         block_order = 0
         marker_counts: Dict[str, int] = {}
         skipping_proposal_device = False
+        awaiting_deliberation = False
+        has_deliberation_terminal = False
 
         for _, row in group.iterrows():
+            confirmed_waiting_delibera = False
             institutional_heading = is_institutional_heading(
                 row.get("text", ""), str(row.get("role_norm", ""))
             )
+
+            # La formula di votazione chiude la narrativa, ma non l'atto:
+            # continuiamo a cercare il DELIBERA terminale senza creare altri
+            # blocchi narrativi nel tratto intermedio.
+            if awaiting_deliberation:
+                waiting_stop = row.get("stop_detected")
+                if pd.isna(waiting_stop):
+                    waiting_stop = None
+                if waiting_stop == "ATTESTA":
+                    break
+                if waiting_stop != "DELIBERA":
+                    continue
+                awaiting_deliberation = False
+                confirmed_waiting_delibera = True
 
             # Dopo PROPONE raccogliamo il dispositivo in un blocco non
             # narrativo e riprendiamo dal successivo marker narrativo.
@@ -1158,13 +1282,13 @@ def build_blocks(elements: pd.DataFrame) -> pd.DataFrame:
                     if proposal_block is not None:
                         rows.append(proposal_block)
                         proposal_block = None
-                    break
+                    skipping_proposal_device = False
                 if next_marker not in {None, "DELIBERA", "PROPONE_DELIBERARE"}:
                     if proposal_block is not None:
                         rows.append(proposal_block)
                         proposal_block = None
                     skipping_proposal_device = False
-                else:
+                elif skipping_proposal_device:
                     is_table = row.get("role_norm") == "table" or row.get("label_raw") == "table"
                     if (
                         proposal_block is not None
@@ -1194,7 +1318,7 @@ def build_blocks(elements: pd.DataFrame) -> pd.DataFrame:
                     current_block = None
                 continue
 
-            if bool(row["is_noise"]):
+            if bool(row["is_noise"]) and not confirmed_waiting_delibera:
                 continue
 
             original_text = row["text"]
@@ -1261,12 +1385,52 @@ def build_blocks(elements: pd.DataFrame) -> pd.DataFrame:
                 if current_block is not None:
                     rows.append(current_block)
                     current_block = None
+                delibera_match = re.search(r"\bdelibera\b", original_text, flags=re.IGNORECASE)
+                terminal_text = (
+                    original_text[delibera_match.start():].strip()
+                    if delibera_match is not None
+                    else original_text
+                )
+                block_order += 1
+                rows.append({
+                    "id_atto": id_atto,
+                    "tool": tool,
+                    "source_format": source_format,
+                    "ordine_blocco": block_order,
+                    "tipo_blocco": "DISPOSITIVO_DELIBERA",
+                    "tipo_blocco_progressivo": "DISPOSITIVO_DELIBERA",
+                    "macro_sezione": "DISPOSITIVO_DELIBERA",
+                    "is_narrativa": 0,
+                    "testo_blocco": terminal_text,
+                    "page_start": row.get("page"),
+                    "page_end": row.get("page"),
+                    "bbox_start": row.get("bbox"),
+                    "n_elementi": 1,
+                })
+                has_deliberation_terminal = True
                 break
 
             if effective_stop == "ATTESTA":
                 if current_block is not None:
                     rows.append(current_block)
                     current_block = None
+                block_order += 1
+                rows.append({
+                    "id_atto": id_atto,
+                    "tool": tool,
+                    "source_format": source_format,
+                    "ordine_blocco": block_order,
+                    "tipo_blocco": "DISPOSITIVO_ATTESTA",
+                    "tipo_blocco_progressivo": "DISPOSITIVO_ATTESTA",
+                    "macro_sezione": "DISPOSITIVO_ATTESTA",
+                    "is_narrativa": 0,
+                    "testo_blocco": original_text,
+                    "page_start": row.get("page"),
+                    "page_end": row.get("page"),
+                    "bbox_start": row.get("bbox"),
+                    "n_elementi": 1,
+                })
+                has_deliberation_terminal = True
                 break
 
             # DELIBERA/PROPONE sono formule dispositive, non tipi di blocco
@@ -1309,7 +1473,8 @@ def build_blocks(elements: pd.DataFrame) -> pd.DataFrame:
                 if current_block is not None:
                     rows.append(current_block)
                     current_block = None
-                break
+                awaiting_deliberation = True
+                continue
 
             if proposal_after_row:
                 if current_block is not None:
@@ -1340,6 +1505,23 @@ def build_blocks(elements: pd.DataFrame) -> pd.DataFrame:
             rows.append(current_block)
         if proposal_block is not None:
             rows.append(proposal_block)
+        if not has_deliberation_terminal:
+            block_order += 1
+            rows.append({
+                "id_atto": id_atto,
+                "tool": tool,
+                "source_format": source_format,
+                "ordine_blocco": block_order,
+                "tipo_blocco": "DISPOSITIVO_DELIBERA",
+                "tipo_blocco_progressivo": "DISPOSITIVO_DELIBERA",
+                "macro_sezione": "DISPOSITIVO_DELIBERA",
+                "is_narrativa": 0,
+                "testo_blocco": "",
+                "page_start": None,
+                "page_end": None,
+                "bbox_start": None,
+                "n_elementi": 0,
+            })
 
     blocks = pd.DataFrame(rows)
 

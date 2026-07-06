@@ -36,16 +36,19 @@
         "$ref": "#/groups/0"
       },
       {
-        "$ref": "#/texts/6"
+        "$ref": "#/texts/5"
       },
       {
-        "$ref": "#/texts/7"
+        "$ref": "#/texts/6"
       },
       {
         "$ref": "#/tables/0"
       },
       {
         "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/8"
       },
       {
         "$ref": "#/texts/9"
@@ -57,16 +60,7 @@
         "$ref": "#/texts/11"
       },
       {
-        "$ref": "#/texts/12"
-      },
-      {
         "$ref": "#/groups/2"
-      },
-      {
-        "$ref": "#/texts/14"
-      },
-      {
-        "$ref": "#/texts/15"
       },
       {
         "$ref": "#/texts/16"
@@ -75,7 +69,10 @@
         "$ref": "#/texts/17"
       },
       {
-        "$ref": "#/groups/3"
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
       },
       {
         "$ref": "#/texts/20"
@@ -96,9 +93,6 @@
         "$ref": "#/texts/25"
       },
       {
-        "$ref": "#/pictures/1"
-      },
-      {
         "$ref": "#/texts/26"
       },
       {
@@ -117,9 +111,6 @@
         "$ref": "#/texts/31"
       },
       {
-        "$ref": "#/tables/1"
-      },
-      {
         "$ref": "#/texts/32"
       },
       {
@@ -129,10 +120,7 @@
         "$ref": "#/texts/34"
       },
       {
-        "$ref": "#/pictures/2"
-      },
-      {
-        "$ref": "#/texts/35"
+        "$ref": "#/groups/3"
       },
       {
         "$ref": "#/texts/36"
@@ -147,19 +135,13 @@
         "$ref": "#/texts/39"
       },
       {
-        "$ref": "#/tables/2"
-      },
-      {
-        "$ref": "#/texts/40"
-      },
-      {
         "$ref": "#/groups/4"
       },
       {
-        "$ref": "#/texts/43"
+        "$ref": "#/texts/42"
       },
       {
-        "$ref": "#/pictures/3"
+        "$ref": "#/texts/43"
       },
       {
         "$ref": "#/texts/44"
@@ -172,6 +154,9 @@
       },
       {
         "$ref": "#/texts/47"
+      },
+      {
+        "$ref": "#/pictures/1"
       },
       {
         "$ref": "#/texts/48"
@@ -187,6 +172,81 @@
       },
       {
         "$ref": "#/texts/52"
+      },
+      {
+        "$ref": "#/texts/53"
+      },
+      {
+        "$ref": "#/tables/1"
+      },
+      {
+        "$ref": "#/texts/54"
+      },
+      {
+        "$ref": "#/texts/55"
+      },
+      {
+        "$ref": "#/texts/56"
+      },
+      {
+        "$ref": "#/pictures/2"
+      },
+      {
+        "$ref": "#/texts/57"
+      },
+      {
+        "$ref": "#/texts/58"
+      },
+      {
+        "$ref": "#/texts/59"
+      },
+      {
+        "$ref": "#/texts/60"
+      },
+      {
+        "$ref": "#/texts/61"
+      },
+      {
+        "$ref": "#/texts/62"
+      },
+      {
+        "$ref": "#/tables/2"
+      },
+      {
+        "$ref": "#/texts/63"
+      },
+      {
+        "$ref": "#/groups/5"
+      },
+      {
+        "$ref": "#/texts/66"
+      },
+      {
+        "$ref": "#/pictures/3"
+      },
+      {
+        "$ref": "#/texts/67"
+      },
+      {
+        "$ref": "#/texts/68"
+      },
+      {
+        "$ref": "#/texts/69"
+      },
+      {
+        "$ref": "#/texts/70"
+      },
+      {
+        "$ref": "#/texts/71"
+      },
+      {
+        "$ref": "#/texts/72"
+      },
+      {
+        "$ref": "#/texts/73"
+      },
+      {
+        "$ref": "#/texts/74"
       }
     ],
     "content_layer": "body",
@@ -202,9 +262,6 @@
       "children": [
         {
           "$ref": "#/texts/4"
-        },
-        {
-          "$ref": "#/texts/5"
         }
       ],
       "content_layer": "body",
@@ -218,7 +275,7 @@
       },
       "children": [
         {
-          "$ref": "#/texts/8"
+          "$ref": "#/texts/7"
         }
       ],
       "content_layer": "body",
@@ -232,12 +289,21 @@
       },
       "children": [
         {
+          "$ref": "#/texts/12"
+        },
+        {
           "$ref": "#/texts/13"
+        },
+        {
+          "$ref": "#/texts/14"
+        },
+        {
+          "$ref": "#/texts/15"
         }
       ],
       "content_layer": "body",
-      "name": "group",
-      "label": "key_value_area"
+      "name": "list",
+      "label": "list"
     },
     {
       "self_ref": "#/groups/3",
@@ -246,15 +312,12 @@
       },
       "children": [
         {
-          "$ref": "#/texts/18"
-        },
-        {
-          "$ref": "#/texts/19"
+          "$ref": "#/texts/35"
         }
       ],
       "content_layer": "body",
       "name": "group",
-      "label": "form_area"
+      "label": "key_value_area"
     },
     {
       "self_ref": "#/groups/4",
@@ -263,10 +326,27 @@
       },
       "children": [
         {
-          "$ref": "#/texts/41"
+          "$ref": "#/texts/40"
         },
         {
-          "$ref": "#/texts/42"
+          "$ref": "#/texts/41"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "form_area"
+    },
+    {
+      "self_ref": "#/groups/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/64"
+        },
+        {
+          "$ref": "#/texts/65"
         }
       ],
       "content_layer": "body",
@@ -287,10 +367,10 @@
         {
           "page_no": 1,
           "bbox": {
-            "l": 204.361526481903,
-            "t": 691.6863932191693,
-            "r": 391.04447466544485,
-            "b": 678.5596174346566,
+            "l": 203.8001912434896,
+            "t": 693.3817342122396,
+            "r": 391.5331217447917,
+            "b": 679.376698811849,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
@@ -315,10 +395,10 @@
         {
           "page_no": 1,
           "bbox": {
-            "l": 247.317724079361,
-            "t": 660.6242767865508,
-            "r": 347.99746418780984,
-            "b": 650.7544840823086,
+            "l": 246.0823771158854,
+            "t": 662.8252766927084,
+            "r": 349.2509358723958,
+            "b": 650.0934244791666,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
@@ -343,10 +423,10 @@
         {
           "page_no": 1,
           "bbox": {
-            "l": 152.04083458306502,
-            "t": 620.9321117912824,
-            "r": 443.4134265077948,
-            "b": 609.3844058151898,
+            "l": 151.3702596028646,
+            "t": 622.5077514648438,
+            "r": 444.3858642578125,
+            "b": 609.7758992513021,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
@@ -371,10 +451,10 @@
         {
           "page_no": 1,
           "bbox": {
-            "l": 249.236182018341,
-            "t": 594.3557333511894,
-            "r": 346.1461579577205,
-            "b": 586.1638539187977,
+            "l": 247.7736612955729,
+            "t": 596.6196492513021,
+            "r": 345.022705078125,
+            "b": 585.5853678385417,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
@@ -398,692 +478,10 @@
         {
           "page_no": 1,
           "bbox": {
-            "l": 60.240401999999996,
-            "t": 559.6703073524495,
-            "r": 543.7160247139062,
-            "b": 549.4754429300717,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            61
-          ]
-        }
-      ],
-      "orig": "OGGETTO: APPROVAZIONE RELAZIONE SULLA PERFORMANCE P. O - ANNO",
-      "text": "OGGETTO: APPROVAZIONE RELAZIONE SULLA PERFORMANCE P. O - ANNO",
-      "level": 1
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "text",
-      "prov": [
-        {
-          "page_no": 1,
-          "bbox": {
-            "l": 147.357047862648,
-            "t": 545.5464499754088,
-            "r": 171.35698590995398,
-            "b": 535.6766572711667,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            4
-          ]
-        }
-      ],
-      "orig": "2025",
-      "text": "2025"
-    },
-    {
-      "self_ref": "#/texts/6",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "text",
-      "prov": [
-        {
-          "page_no": 1,
-          "bbox": {
-            "l": 56.759621931324,
-            "t": 508.82585088956273,
-            "r": 540.8383723454862,
-            "b": 471.35258601591767,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            255
-          ]
-        }
-      ],
-      "orig": "L'anno duemilaventisei addì diciotto del mese di Giugno, alle ore 18:45 nella sala della Casa Comunale, si è riunita la Giunta Comunale convocata nelle forme di legge. Presiede l'adunanza il Sindaco MARIANNA DELL'APROVITOLA e sono rispettivamente presenti",
-      "text": "L'anno duemilaventisei addì diciotto del mese di Giugno, alle ore 18:45 nella sala della Casa Comunale, si è riunita la Giunta Comunale convocata nelle forme di legge. Presiede l'adunanza il Sindaco MARIANNA DELL'APROVITOLA e sono rispettivamente presenti"
-    },
-    {
-      "self_ref": "#/texts/7",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "text",
-      "prov": [
-        {
-          "page_no": 1,
-          "bbox": {
-            "l": 56.759621931324,
-            "t": 467.42359309787577,
-            "r": 175.0793165045425,
-            "b": 457.55380039363365,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            26
-          ]
-        }
-      ],
-      "orig": "e assenti i seguenti Sigg.",
-      "text": "e assenti i seguenti Sigg."
-    },
-    {
-      "self_ref": "#/texts/8",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "text",
-      "prov": [
-        {
-          "page_no": 1,
-          "bbox": {
-            "l": 56.759621931324,
-            "t": 297.50948443897073,
-            "r": 276.71905413488355,
-            "b": 287.6396917347287,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            40
-          ]
-        }
-      ],
-      "orig": "Numero totale PRESENTI:  5-  ASSENTI:  0",
-      "text": "Numero totale PRESENTI:  5-  ASSENTI:  0"
-    },
-    {
-      "self_ref": "#/texts/9",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "text",
-      "prov": [
-        {
-          "page_no": 1,
-          "bbox": {
-            "l": 56.759621931324,
-            "t": 269.90458178006577,
-            "r": 540.2383738943034,
-            "b": 232.43718201591776,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            228
-          ]
-        }
-      ],
-      "orig": "Con la partecipazione del Segretario Generale SALVATORE CAPOLUONGO, il Presidente, constatato che gli intervenuti sono in numero legale, dichiara aperta la riunione ed invita i convocati a deliberare sull'oggetto sopra indicato.",
-      "text": "Con la partecipazione del Segretario Generale SALVATORE CAPOLUONGO, il Presidente, constatato che gli intervenuti sono in numero legale, dichiara aperta la riunione ed invita i convocati a deliberare sull'oggetto sopra indicato."
-    },
-    {
-      "self_ref": "#/texts/10",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "furniture",
-      "label": "page_header",
-      "prov": [
-        {
-          "page_no": 4,
-          "bbox": {
-            "l": 371.16240975,
-            "t": 776.0290511708166,
-            "r": 535.7692642688185,
-            "b": 766.9487933707845,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            34
-          ]
-        }
-      ],
-      "orig": "Deliberazione n. 51 DEL 18-06-2026",
-      "text": "Deliberazione n. 51 DEL 18-06-2026"
-    },
-    {
-      "self_ref": "#/texts/11",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "text",
-      "prov": [
-        {
-          "page_no": 4,
-          "bbox": {
-            "l": 56.7580490653725,
-            "t": 738.1058955027411,
-            "r": 200.3888456642876,
-            "b": 729.025637702709,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            33
-          ]
-        }
-      ],
-      "orig": "Letto, confermato e sottoscritto.",
-      "text": "Letto, confermato e sottoscritto."
-    },
-    {
-      "self_ref": "#/texts/12",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "text",
-      "prov": [
-        {
-          "page_no": 4,
-          "bbox": {
-            "l": 95.16096724617,
-            "t": 702.4683741258261,
-            "r": 258.7962990823821,
-            "b": 680.666202624027,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            35
-          ]
-        }
-      ],
-      "orig": "Il Sindaco MARIANNA DELL'APROVITOLA",
-      "text": "Il Sindaco MARIANNA DELL'APROVITOLA"
-    },
-    {
-      "self_ref": "#/texts/13",
-      "parent": {
-        "$ref": "#/groups/2"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "text",
-      "prov": [
-        {
-          "page_no": 4,
-          "bbox": {
-            "l": 339.47960253643805,
-            "t": 702.4683741258261,
-            "r": 496.4631973038665,
-            "b": 679.5532349300717,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            34
-          ]
-        }
-      ],
-      "orig": "Il Segretario SALVATORE CAPOLUONGO",
-      "text": "Il Segretario SALVATORE CAPOLUONGO"
-    },
-    {
-      "self_ref": "#/texts/14",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "section_header",
-      "prov": [
-        {
-          "page_no": 4,
-          "bbox": {
-            "l": 196.681144993515,
-            "t": 606.0267646278288,
-            "r": 401.3526166609406,
-            "b": 596.1569719235866,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            28
-          ]
-        }
-      ],
-      "orig": "CERTIFICATO DI PUBBLICAZIONE",
-      "text": "CERTIFICATO DI PUBBLICAZIONE",
-      "level": 1
-    },
-    {
-      "self_ref": "#/texts/15",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "section_header",
-      "prov": [
-        {
-          "page_no": 4,
-          "bbox": {
-            "l": 219.960370811142,
-            "t": 578.4233103660947,
-            "r": 375.23996997721184,
-            "b": 568.5535176618527,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            22
-          ]
-        }
-      ],
-      "orig": "IL SEGRETARIO GENERALE",
-      "text": "IL SEGRETARIO GENERALE",
-      "level": 1
-    },
-    {
-      "self_ref": "#/texts/16",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "section_header",
-      "prov": [
-        {
-          "page_no": 4,
-          "bbox": {
-            "l": 270.960245268219,
-            "t": 537.0269534260008,
-            "r": 324.2641076712857,
-            "b": 527.1571607217586,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            7
-          ]
-        }
-      ],
-      "orig": "ATTESTA",
-      "text": "ATTESTA",
-      "level": 1
-    },
-    {
-      "self_ref": "#/texts/17",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "text",
-      "prov": [
-        {
-          "page_no": 4,
-          "bbox": {
-            "l": 56.759621931324,
-            "t": 523.2223026942197,
-            "r": 541.3177177112541,
-            "b": 472.07402689363363,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            273
-          ]
-        }
-      ],
-      "orig": "Che la presente deliberazione è stata affissa all' albo pretorio del sito web dell' ente http://www.comune.carinaro.ce.it conforme all'originale in data 00-00-0000e resterà affissa per n. 15 giorni consecutivi ai sensi dell'art. 124, comma 1, del Dlgs 18 agosto 2000 n. 267",
-      "text": "Che la presente deliberazione è stata affissa all' albo pretorio del sito web dell' ente http://www.comune.carinaro.ce.it conforme all'originale in data 00-00-0000e resterà affissa per n. 15 giorni consecutivi ai sensi dell'art. 124, comma 1, del Dlgs 18 agosto 2000 n. 267"
-    },
-    {
-      "self_ref": "#/texts/18",
-      "parent": {
-        "$ref": "#/groups/3"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "text",
-      "prov": [
-        {
-          "page_no": 4,
-          "bbox": {
-            "l": 219.11662154292299,
-            "t": 440.5474626577817,
-            "r": 376.1002163103515,
-            "b": 416.87884851591764,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            43
-          ]
-        }
-      ],
-      "orig": "Il Segretario Generale SALVATORE CAPOLUONGO",
-      "text": "Il Segretario Generale SALVATORE CAPOLUONGO"
-    },
-    {
-      "self_ref": "#/texts/19",
-      "parent": {
-        "$ref": "#/groups/3"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "text",
-      "prov": [
-        {
-          "page_no": 4,
-          "bbox": {
-            "l": 57.597510594429,
-            "t": 399.14373859787577,
-            "r": 537.59627154055,
-            "b": 389.27394589363365,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            80
-          ]
-        }
-      ],
-      "orig": "********************************************************************************",
-      "text": "********************************************************************************"
-    },
-    {
-      "self_ref": "#/texts/20",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "text",
-      "prov": [
-        {
-          "page_no": 4,
-          "bbox": {
-            "l": 102.597397188858,
-            "t": 385.3449529389707,
-            "r": 492.59639045758126,
-            "b": 375.4751602347286,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            65
-          ]
-        }
-      ],
-      "orig": "*****************************************************************",
-      "text": "*****************************************************************"
-    },
-    {
-      "self_ref": "#/texts/21",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "section_header",
-      "prov": [
-        {
-          "page_no": 4,
-          "bbox": {
-            "l": 202.681123920639,
-            "t": 357.7473816577817,
-            "r": 392.72463334823163,
-            "b": 347.8775889535396,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            27
-          ]
-        }
-      ],
-      "orig": "CERTIFICATO DI ESECUTIVITA'",
-      "text": "CERTIFICATO DI ESECUTIVITA'",
-      "level": 1
-    },
-    {
-      "self_ref": "#/texts/22",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "text",
-      "prov": [
-        {
-          "page_no": 4,
-          "bbox": {
-            "l": 56.7580490653725,
-            "t": 316.5457313992025,
-            "r": 503.91744853006423,
-            "b": 294.86820857579403,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            122
-          ]
-        }
-      ],
-      "orig": "[ X ] Deliberazione dichiarata immediatamente eseguibile ai sensi dell' art. 134, comma 4, del D.Lgs. 267/2000 e.ss.mm.ii.",
-      "text": "[ X ] Deliberazione dichiarata immediatamente eseguibile ai sensi dell' art. 134, comma 4, del D.Lgs. 267/2000 e.ss.mm.ii."
-    },
-    {
-      "self_ref": "#/texts/23",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "text",
-      "prov": [
-        {
-          "page_no": 4,
-          "bbox": {
-            "l": 56.7580490653725,
-            "t": 278.629304125826,
-            "r": 508.8472973917046,
-            "b": 256.9450693491706,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            162
-          ]
-        }
-      ],
-      "orig": "[ ]Deliberazione esecutiva  ad ogni effetto di legge decorso il decimo giorno di pubblicazione, ai sensi dell'art. 134, comma 3, del D.Lgs n. 267/2000 e.ss.mm.ii.",
-      "text": "[ ]Deliberazione esecutiva  ad ogni effetto di legge decorso il decimo giorno di pubblicazione, ai sensi dell'art. 134, comma 3, del D.Lgs n. 267/2000 e.ss.mm.ii."
-    },
-    {
-      "self_ref": "#/texts/24",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "text",
-      "prov": [
-        {
-          "page_no": 4,
-          "bbox": {
-            "l": 337.797969072876,
-            "t": 229.18702787582606,
-            "r": 494.78156384030444,
-            "b": 206.3996510159177,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            34
-          ]
-        }
-      ],
-      "orig": "Il Segretario SALVATORE CAPOLUONGO",
-      "text": "Il Segretario SALVATORE CAPOLUONGO"
-    },
-    {
-      "self_ref": "#/texts/25",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "furniture",
-      "label": "page_footer",
-      "prov": [
-        {
-          "page_no": 4,
-          "bbox": {
-            "l": 56.758873584071246,
-            "t": 158.63857794001058,
-            "r": 490.6127843671521,
-            "b": 150.44669850761898,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            107
-          ]
-        }
-      ],
-      "orig": "Documento informatico sottoscritto con firma digitale ai sensi dell'art.24 del D.Lgs. n.82/2005 e ss.mm.ii.",
-      "text": "Documento informatico sottoscritto con firma digitale ai sensi dell'art.24 del D.Lgs. n.82/2005 e ss.mm.ii."
-    },
-    {
-      "self_ref": "#/texts/26",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "section_header",
-      "prov": [
-        {
-          "page_no": 5,
-          "bbox": {
-            "l": 204.361526481903,
-            "t": 656.2831514735391,
-            "r": 391.04447466544485,
-            "b": 643.1563756890264,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            18
-          ]
-        }
-      ],
-      "orig": "COMUNE DI CARINARO",
-      "text": "COMUNE DI CARINARO",
-      "level": 1
-    },
-    {
-      "self_ref": "#/texts/27",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "section_header",
-      "prov": [
-        {
-          "page_no": 5,
-          "bbox": {
-            "l": 220.798255006485,
-            "t": 625.2220158296568,
-            "r": 374.4338584163143,
-            "b": 615.3522231254146,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            27
-          ]
-        }
-      ],
-      "orig": "Proposta di Giunta Comunale",
-      "text": "Proposta di Giunta Comunale",
-      "level": 1
-    },
-    {
-      "self_ref": "#/texts/28",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "text",
-      "prov": [
-        {
-          "page_no": 5,
-          "bbox": {
-            "l": 435.837500158905,
-            "t": 597.6244445118468,
-            "r": 538.6772346916115,
-            "b": 573.9558482776516,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            35
-          ]
-        }
-      ],
-      "orig": "Affari Generali Proposta n° 51/2026",
-      "text": "Affari Generali Proposta n° 51/2026"
-    },
-    {
-      "self_ref": "#/texts/29",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "section_header",
-      "prov": [
-        {
-          "page_no": 5,
-          "bbox": {
-            "l": 56.759621931324,
-            "t": 542.4234010978757,
-            "r": 536.1583844262613,
-            "b": 532.5536083936336,
+            "l": 59.19507344563802,
+            "t": 561.8192342122395,
+            "r": 540.366455078125,
+            "b": 534.657938639323,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
@@ -1097,6 +495,692 @@
       "level": 1
     },
     {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 54.96685282389323,
+            "t": 510.89182535807294,
+            "r": 502.7353108723958,
+            "b": 498.1599527994792,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            93
+          ]
+        }
+      ],
+      "orig": "L'anno duemilaventisei addì diciotto del mese di Giugno, alle ore 18:45 nella sala della Casa",
+      "text": "L'anno duemilaventisei addì diciotto del mese di Giugno, alle ore 18:45 nella sala della Casa"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 54.54403177897135,
+            "t": 498.5843505859375,
+            "r": 539.5208333333334,
+            "b": 456.1448567708333,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            188
+          ]
+        }
+      ],
+      "orig": "Comunale, si è riunita la Giunta Comunale convocata nelle forme di legge. Presiede l'adunanza il Sindaco MARIANNA DELL'APROVITOLA e sono rispettivamente presenti e assenti i seguenti Sigg.",
+      "text": "Comunale, si è riunita la Giunta Comunale convocata nelle forme di legge. Presiede l'adunanza il Sindaco MARIANNA DELL'APROVITOLA e sono rispettivamente presenti e assenti i seguenti Sigg."
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 54.96685282389323,
+            "t": 299.54300944010413,
+            "r": 278.21685791015625,
+            "b": 287.23555501302087,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            37
+          ]
+        }
+      ],
+      "orig": "Numero totale PRESENTI: 5- ASSENTI: 0",
+      "text": "Numero totale PRESENTI: 5- ASSENTI: 0"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 54.96685282389323,
+            "t": 271.532958984375,
+            "r": 538.6751708984375,
+            "b": 231.63981119791663,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            228
+          ]
+        }
+      ],
+      "orig": "Con la partecipazione del Segretario Generale SALVATORE CAPOLUONGO, il Presidente, constatato che gli intervenuti sono in numero legale, dichiara aperta la riunione ed invita i convocati a deliberare sull'oggetto sopra indicato.",
+      "text": "Con la partecipazione del Segretario Generale SALVATORE CAPOLUONGO, il Presidente, constatato che gli intervenuti sono in numero legale, dichiara aperta la riunione ed invita i convocati a deliberare sull'oggetto sopra indicato."
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 229.16949462890625,
+            "t": 789.7194366455078,
+            "r": 366.163818359375,
+            "b": 778.6851654052734,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            18
+          ]
+        }
+      ],
+      "orig": "LA GIUNTA COMUNALE",
+      "text": "LA GIUNTA COMUNALE",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 54.12121073404948,
+            "t": 751.5238749186198,
+            "r": 540.7892659505209,
+            "b": 664.5228678385416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            502
+          ]
+        }
+      ],
+      "orig": "VISTO l'art. 10, comma 1, lettera b), del D.Lgs. 27 ottobre 2009, n. 150, che prevede che ogni amministrazione rediga annualmente un documento denominato \"Relazione sulla performance\", approvato dall'organo di indirizzo politico-amministrativo e validato dal Nucleo di Valutazione, che evidenzi, a consuntivo e con riferimento all'anno precedente, i risultati organizzativi e individuali raggiunti rispetto ai singoli obiettivi programmati e alle risorse assegnate, rilevando gli eventuali scostamenti;",
+      "text": "VISTO l'art. 10, comma 1, lettera b), del D.Lgs. 27 ottobre 2009, n. 150, che prevede che ogni amministrazione rediga annualmente un documento denominato \"Relazione sulla performance\", approvato dall'organo di indirizzo politico-amministrativo e validato dal Nucleo di Valutazione, che evidenzi, a consuntivo e con riferimento all'anno precedente, i risultati organizzativi e individuali raggiunti rispetto ai singoli obiettivi programmati e alle risorse assegnate, rilevando gli eventuali scostamenti;"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 55.389678955078125,
+            "t": 636.5127766927084,
+            "r": 134.03455607096353,
+            "b": 625.9029134114584,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            11
+          ]
+        }
+      ],
+      "orig": "RICHIAMATI:",
+      "text": "RICHIAMATI:",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 90.90671793619792,
+            "t": 616.9906005859375,
+            "r": 540.366455078125,
+            "b": 559.697265625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            305
+          ]
+        }
+      ],
+      "orig": "il Regolamento sull'ordinamento degli uffici e dei servizi, approvato con deliberazione di Giunta Comunale n. 87 del 12/07/2007, successivamente modificato con deliberazioni di Giunta Comunale n. 32 del 24/03/2011, n. 135 del 20/10/2011, n. 149 del 15/12/2015, n. 96 del 13/07/2017 e n. 12 del 18/07/2019;",
+      "text": "il Regolamento sull'ordinamento degli uffici e dei servizi, approvato con deliberazione di Giunta Comunale n. 87 del 12/07/2007, successivamente modificato con deliberazioni di Giunta Comunale n. 32 del 24/03/2011, n. 135 del 20/10/2011, n. 149 del 15/12/2015, n. 96 del 13/07/2017 e n. 12 del 18/07/2019;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 90.48389689127605,
+            "t": 553.3313395182292,
+            "r": 539.9436442057291,
+            "b": 525.3212483723958,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            128
+          ]
+        }
+      ],
+      "orig": "il Documento Unico di Programmazione (D.U.P.) 2025-2027, approvato con deliberazione del Consiglio Comunale n. 5 del 07/03/2025;",
+      "text": "il Documento Unico di Programmazione (D.U.P.) 2025-2027, approvato con deliberazione del Consiglio Comunale n. 5 del 07/03/2025;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 89.6382548014323,
+            "t": 518.5309244791667,
+            "r": 540.7892659505209,
+            "b": 490.096435546875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            128
+          ]
+        }
+      ],
+      "orig": "il Bilancio di previsione 2025-2027 e relativi allegati, approvato con deliberazione del Consiglio Comunale n. 6 del 07/03/2025;",
+      "text": "il Bilancio di previsione 2025-2027 e relativi allegati, approvato con deliberazione del Consiglio Comunale n. 6 del 07/03/2025;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 89.21543375651042,
+            "t": 483.7305094401042,
+            "r": 540.366455078125,
+            "b": 455.720458984375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            138
+          ]
+        }
+      ],
+      "orig": "il Piano Integrato di Attività e Organizzazione (P.I.A.O.) 2025-2027, approvato con deliberazione di Giunta Comunale n. 51 del 22.05.2025;",
+      "text": "il Piano Integrato di Attività e Organizzazione (P.I.A.O.) 2025-2027, approvato con deliberazione di Giunta Comunale n. 51 del 22.05.2025;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 54.54403177897135,
+            "t": 429.8323567708333,
+            "r": 540.366455078125,
+            "b": 386.9684244791667,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            195
+          ]
+        }
+      ],
+      "orig": "VISTO il Regolamento sul sistema di misurazione e valutazione della performance, approvato con deliberazione del Commissario Straordinario con i poteri della Giunta Comunale n. 27 del 12/03/2019;",
+      "text": "VISTO il Regolamento sul sistema di misurazione e valutazione della performance, approvato con deliberazione del Commissario Straordinario con i poteri della Giunta Comunale n. 27 del 12/03/2019;"
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 54.96685282389323,
+            "t": 360.2315266927083,
+            "r": 540.366455078125,
+            "b": 316.09444173177087,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            239
+          ]
+        }
+      ],
+      "orig": "ATTESO che il Nucleo di Valutazione ha concluso il processo di valutazione delle performance dei Responsabili di Area per l'anno 2025 con verbale n. 1 del 10/06/2026 e relative schede allegate, acquisite al protocollo dell'Ente al n. 6621;",
+      "text": "ATTESO che il Nucleo di Valutazione ha concluso il processo di valutazione delle performance dei Responsabili di Area per l'anno 2025 con verbale n. 1 del 10/06/2026 e relative schede allegate, acquisite al protocollo dell'Ente al n. 6621;"
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 55.389678955078125,
+            "t": 290.20633951822913,
+            "r": 539.9436442057291,
+            "b": 261.7718505859375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            159
+          ]
+        }
+      ],
+      "orig": "CONSIDERATO che il Segretario Comunale ha predisposto la Relazione sulla performance anno 2025, allegata al presente atto quale parte integrante e sostanziale;",
+      "text": "CONSIDERATO che il Segretario Comunale ha predisposto la Relazione sulla performance anno 2025, allegata al presente atto quale parte integrante e sostanziale;"
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 54.96685282389323,
+            "t": 236.7325439453125,
+            "r": 539.9436442057291,
+            "b": 207.02486165364587,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            184
+          ]
+        }
+      ],
+      "orig": "CONSIDERATO, inoltre, che la Relazione sulla performance, esercizio 2025, approvata dalla Giunta Comunale, sarà trasmessa al Nucleo di Valutazione per la prescritta validazione finale;",
+      "text": "CONSIDERATO, inoltre, che la Relazione sulla performance, esercizio 2025, approvata dalla Giunta Comunale, sarà trasmessa al Nucleo di Valutazione per la prescritta validazione finale;"
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 54.54403177897135,
+            "t": 181.5611572265625,
+            "r": 540.366455078125,
+            "b": 137.42403157552087,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            118
+          ]
+        }
+      ],
+      "orig": "ev v  d  v  n    o   Czao l  se  e ie as  sii n   o medesimo mediante la pubblicazione sul proprio sito istituzionale;",
+      "text": "ev v  d  v  n    o   Czao l  se  e ie as  sii n   o medesimo mediante la pubblicazione sul proprio sito istituzionale;"
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 56.235321044921875,
+            "t": 112.38472493489587,
+            "r": 196.6122029622396,
+            "b": 100.0772705078125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            26
+          ]
+        }
+      ],
+      "orig": "VISTO lo Statuto comunale;",
+      "text": "VISTO lo Statuto comunale;"
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 55.8125,
+            "t": 74.18916829427087,
+            "r": 279.0625,
+            "b": 60.18412272135413,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            44
+          ]
+        }
+      ],
+      "orig": "VISTO il vigente Regolamento di contabilità;",
+      "text": "VISTO il vigente Regolamento di contabilità;"
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 55.389678955078125,
+            "t": 786.3242797851562,
+            "r": 247.3508504231771,
+            "b": 771.8948415120443,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            39
+          ]
+        }
+      ],
+      "orig": "VISTO il D.Lgs. 18 agosto 2000, n. 267;",
+      "text": "VISTO il D.Lgs. 18 agosto 2000, n. 267;"
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 55.8125,
+            "t": 746.4311319986979,
+            "r": 539.9436442057291,
+            "b": 718.845448811849,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            121
+          ]
+        }
+      ],
+      "orig": "ACQUISITO il parere favorevole in ordine alla regolarità tecnica, ai sensi dell'art. 49, comma 1, del D.Lgs. n. 267/2000;",
+      "text": "ACQUISITO il parere favorevole in ordine alla regolarità tecnica, ai sensi dell'art. 49, comma 1, del D.Lgs. n. 267/2000;"
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 54.96685282389323,
+            "t": 713.3283081054688,
+            "r": 410.1372884114583,
+            "b": 698.4744771321615,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            71
+          ]
+        }
+      ],
+      "orig": "Con votazione unanime favorevole, resa nei modi e nelle forme di legge;",
+      "text": "Con votazione unanime favorevole, resa nei modi e nelle forme di legge;"
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 268.06911214192706,
+            "t": 672.1619771321615,
+            "r": 327.2642008463542,
+            "b": 660.7033081054688,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "DELIBERA",
+      "text": "DELIBERA",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 54.54403177897135,
+            "t": 634.8152058919271,
+            "r": 539.9436442057291,
+            "b": 606.3807373046875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            120
+          ]
+        }
+      ],
+      "orig": "DI APPROVARE la Relazione sulla performance – anno 2025, allegata al presente atto quale parte integrante e sostanziale.",
+      "text": "DI APPROVARE la Relazione sulla performance – anno 2025, allegata al presente atto quale parte integrante e sostanziale."
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 54.54403177897135,
+            "t": 600.0147908528646,
+            "r": 539.9436442057291,
+            "b": 571.1559244791667,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            153
+          ]
+        }
+      ],
+      "orig": "DI DARE ATTO che la Relazione sulla performance – anno 2025 sarà trasmessa tempestivamente al Nucleo di Valutazione per la prescritta validazione finale.",
+      "text": "DI DARE ATTO che la Relazione sulla performance – anno 2025 sarà trasmessa tempestivamente al Nucleo di Valutazione per la prescritta validazione finale."
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 54.96685282389323,
+            "t": 564.7899983723958,
+            "r": 540.366455078125,
+            "b": 535.5067342122395,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            193
+          ]
+        }
+      ],
+      "orig": "DI DISPORRE la pubblicazione del presente provvedimento all'Albo Pretorio on-line del Comune per quindici giorni consecutivi, ai sensi dell'art. 124, comma 1, del D.Lgs. 18 agosto 2000, n. 267.",
+      "text": "DI DISPORRE la pubblicazione del presente provvedimento all'Albo Pretorio on-line del Comune per quindici giorni consecutivi, ai sensi dell'art. 124, comma 1, del D.Lgs. 18 agosto 2000, n. 267."
+    },
+    {
       "self_ref": "#/texts/30",
       "parent": {
         "$ref": "#/body"
@@ -1106,22 +1190,22 @@
       "label": "text",
       "prov": [
         {
-          "page_no": 5,
+          "page_no": 3,
           "bbox": {
-            "l": 56.759621931324,
-            "t": 459.62332009787576,
-            "r": 257.0631048741399,
-            "b": 449.75352739363365,
+            "l": 54.96685282389323,
+            "t": 529.9896036783855,
+            "r": 539.9436442057291,
+            "b": 472.6962483723958,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
             0,
-            29
+            363
           ]
         }
       ],
-      "orig": "PARERE DI REGOLARITA' TECNICA",
-      "text": "PARERE DI REGOLARITA' TECNICA"
+      "orig": "DI DISPORRE che, a seguito della validazione da parte del Nucleo di Valutazione, la Relazione sulla performance – anno 2025 e il relativo documento di validazione siano pubblicati sul sito istituzionale dell'Ente, nella sezione \"Amministrazione Trasparente\", ai sensi dell'art. 10 del D.Lgs. 27 ottobre 2009, n. 150 e dell'art. 31 del D.Lgs. 14 marzo 2013, n. 33.",
+      "text": "DI DISPORRE che, a seguito della validazione da parte del Nucleo di Valutazione, la Relazione sulla performance – anno 2025 e il relativo documento di validazione siano pubblicati sul sito istituzionale dell'Ente, nella sezione \"Amministrazione Trasparente\", ai sensi dell'art. 10 del D.Lgs. 27 ottobre 2009, n. 150 e dell'art. 31 del D.Lgs. 14 marzo 2013, n. 33."
     },
     {
       "self_ref": "#/texts/31",
@@ -1133,22 +1217,22 @@
       "label": "text",
       "prov": [
         {
-          "page_no": 5,
+          "page_no": 3,
           "bbox": {
-            "l": 56.759621931324,
-            "t": 445.8245344389708,
-            "r": 363.9948288439118,
-            "b": 435.95474173472866,
+            "l": 55.389678955078125,
+            "t": 465.05712890625,
+            "r": 539.5208333333334,
+            "b": 437.0470377604167,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
             0,
-            65
+            125
           ]
         }
       ],
-      "orig": "(Articolo 147 bis del decreto legislativo 18 agosto 2000, n. 267)",
-      "text": "(Articolo 147 bis del decreto legislativo 18 agosto 2000, n. 267)"
+      "orig": "DI DICHIARARE il presente atto immediatamente eseguibile, ai sensi dell'art. 134, comma 4, del D.Lgs. 18 agosto 2000, n. 267.",
+      "text": "DI DICHIARARE il presente atto immediatamente eseguibile, ai sensi dell'art. 134, comma 4, del D.Lgs. 18 agosto 2000, n. 267."
     },
     {
       "self_ref": "#/texts/32",
@@ -1156,26 +1240,26 @@
         "$ref": "#/body"
       },
       "children": [],
-      "content_layer": "body",
-      "label": "text",
+      "content_layer": "furniture",
+      "label": "page_header",
       "prov": [
         {
-          "page_no": 5,
+          "page_no": 4,
           "bbox": {
-            "l": 59.759611394886,
-            "t": 225.3844249389707,
-            "r": 173.39931804887988,
-            "b": 215.51463223472865,
+            "l": 369.9691975911458,
+            "t": 777.8363749186198,
+            "r": 536.5610758463541,
+            "b": 766.8020985921224,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
             0,
-            23
+            34
           ]
         }
       ],
-      "orig": "Carinaro, lì 17-06-2026",
-      "text": "Carinaro, lì 17-06-2026"
+      "orig": "Deliberazione n. 51 DEL 18-06-2026",
+      "text": "Deliberazione n. 51 DEL 18-06-2026"
     },
     {
       "self_ref": "#/texts/33",
@@ -1187,22 +1271,22 @@
       "label": "text",
       "prov": [
         {
-          "page_no": 5,
+          "page_no": 4,
           "bbox": {
-            "l": 380.997552658905,
-            "t": 211.58560353796963,
-            "r": 455.3133608223882,
-            "b": 201.71581083372757,
+            "l": 58.34943135579427,
+            "t": 739.6408081054688,
+            "r": 200.8404337565104,
+            "b": 728.6065368652344,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
             0,
-            15
+            33
           ]
         }
       ],
-      "orig": "Il Responsabile",
-      "text": "Il Responsabile"
+      "orig": "Letto, confermato e sottoscritto.",
+      "text": "Letto, confermato e sottoscritto."
     },
     {
       "self_ref": "#/texts/34",
@@ -1214,25 +1298,52 @@
       "label": "text",
       "prov": [
         {
-          "page_no": 5,
+          "page_no": 4,
           "bbox": {
-            "l": 362.518610341095,
-            "t": 178.50102801603532,
-            "r": 473.84232297352395,
-            "b": 167.92063543842914,
+            "l": 93.86647542317708,
+            "t": 705.2648010253906,
+            "r": 259.1898600260417,
+            "b": 680.6498819986979,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
             0,
-            15
+            35
           ]
         }
       ],
-      "orig": "PICONE VINCENZO",
-      "text": "PICONE VINCENZO"
+      "orig": "Il Sindaco MARIANNA DELL'APROVITOLA",
+      "text": "Il Sindaco MARIANNA DELL'APROVITOLA"
     },
     {
       "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 338.6803792317708,
+            "t": 704.8404032389323,
+            "r": 496.8157958984375,
+            "b": 680.2254842122396,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            34
+          ]
+        }
+      ],
+      "orig": "Il Segretario SALVATORE CAPOLUONGO",
+      "text": "Il Segretario SALVATORE CAPOLUONGO"
+    },
+    {
+      "self_ref": "#/texts/36",
       "parent": {
         "$ref": "#/body"
       },
@@ -1241,12 +1352,340 @@
       "label": "section_header",
       "prov": [
         {
-          "page_no": 6,
+          "page_no": 4,
           "bbox": {
-            "l": 204.361526481903,
-            "t": 656.2831514735391,
-            "r": 391.04447466544485,
-            "b": 643.1563756890264,
+            "l": 196.18939208984375,
+            "t": 607.6539103190104,
+            "r": 402.1036783854167,
+            "b": 596.6196492513021,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            28
+          ]
+        }
+      ],
+      "orig": "CERTIFICATO DI PUBBLICAZIONE",
+      "text": "CERTIFICATO DI PUBBLICAZIONE",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 218.59895833333334,
+            "t": 580.0682373046875,
+            "r": 375.8887125651042,
+            "b": 569.033955891927,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            22
+          ]
+        }
+      ],
+      "orig": "IL SEGRETARIO GENERALE",
+      "text": "IL SEGRETARIO GENERALE",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 269.7604166666667,
+            "t": 538.4774983723958,
+            "r": 325.15008544921875,
+            "b": 527.0188395182292,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            7
+          ]
+        }
+      ],
+      "orig": "ATTESTA",
+      "text": "ATTESTA",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 54.54403177897135,
+            "t": 524.8968505859375,
+            "r": 539.5208333333334,
+            "b": 470.5742594401042,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            199
+          ]
+        }
+      ],
+      "orig": "Che la presente deliberazione è stata affissa all' albo pretorio del sito web dell' ente ht  od ae o -- a  ,  o /:is giorni consecutivi ai sensi dell'art. 124, comma 1, del Dlgs 18 agosto 2000 n. 267",
+      "text": "Che la presente deliberazione è stata affissa all' albo pretorio del sito web dell' ente ht  od ae o -- a  ,  o /:is giorni consecutivi ai sensi dell'art. 124, comma 1, del Dlgs 18 agosto 2000 n. 267"
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 218.1761271158854,
+            "t": 442.1398111979167,
+            "r": 376.734375,
+            "b": 417.1005045572917,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            43
+          ]
+        }
+      ],
+      "orig": "Il Segretario Generale SALVATORE CAPOLUONGO",
+      "text": "Il Segretario Generale SALVATORE CAPOLUONGO"
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 57.080963134765625,
+            "t": 400.9734700520833,
+            "r": 538.2523600260416,
+            "b": 392.9099527994792,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            80
+          ]
+        }
+      ],
+      "orig": "********************************************************************************",
+      "text": "********************************************************************************"
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 101.9000956217448,
+            "t": 386.9684244791667,
+            "r": 493.0104166666667,
+            "b": 378.9049072265625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            65
+          ]
+        }
+      ],
+      "orig": "*****************************************************************",
+      "text": "*****************************************************************"
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 202.5317179361979,
+            "t": 358.533935546875,
+            "r": 392.8015950520833,
+            "b": 348.7728678385417,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            27
+          ]
+        }
+      ],
+      "orig": "CERTIFICATO DI ESECUTIVITA'",
+      "text": "CERTIFICATO DI ESECUTIVITA'",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 54.54403177897135,
+            "t": 318.64078776041663,
+            "r": 501.4668375651042,
+            "b": 294.45027669270837,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            120
+          ]
+        }
+      ],
+      "orig": "[X] Deliberazione dichiarata immediatamente eseguibile ai sensi dell' art. 134, comma 4, del D.Lgs. 267/2000 e.ss.mm.ii.",
+      "text": "[X] Deliberazione dichiarata immediatamente eseguibile ai sensi dell' art. 134, comma 4, del D.Lgs. 267/2000 e.ss.mm.ii."
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 54.96685282389323,
+            "t": 280.44523111979163,
+            "r": 507.3863525390625,
+            "b": 255.40592447916663,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            161
+          ]
+        }
+      ],
+      "orig": "[ ]Deliberazione esecutiva ad ogni effetto di legge decorso il decimo giorno di pubblicazione, ai sensi dell'art. 134, comma 3, del D.Lgs n. 267/2000 e.ss.mm.ii.",
+      "text": "[ ]Deliberazione esecutiva ad ogni effetto di legge decorso il decimo giorno di pubblicazione, ai sensi dell'art. 134, comma 3, del D.Lgs n. 267/2000 e.ss.mm.ii."
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 336.9890950520833,
+            "t": 231.21541341145837,
+            "r": 495.12451171875,
+            "b": 207.02486165364587,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            34
+          ]
+        }
+      ],
+      "orig": "Il Segretario SALVATORE CAPOLUONGO",
+      "text": "Il Segretario SALVATORE CAPOLUONGO"
+    },
+    {
+      "self_ref": "#/texts/47",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 55.389678955078125,
+            "t": 160.76578776041663,
+            "r": 491.3191324869792,
+            "b": 148.4583740234375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            107
+          ]
+        }
+      ],
+      "orig": "Documento informatico sottoscritto con firma digitale ai sensi dell'art.24 del D.Lgs. n.82/2005 e ss.mm.ii.",
+      "text": "Documento informatico sottoscritto con firma digitale ai sensi dell'art.24 del D.Lgs. n.82/2005 e ss.mm.ii."
+    },
+    {
+      "self_ref": "#/texts/48",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 202.95454915364584,
+            "t": 659.0057373046875,
+            "r": 391.9559733072917,
+            "b": 643.7274983723959,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
@@ -1260,7 +1699,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/36",
+      "self_ref": "#/texts/49",
       "parent": {
         "$ref": "#/body"
       },
@@ -1269,12 +1708,12 @@
       "label": "section_header",
       "prov": [
         {
-          "page_no": 6,
+          "page_no": 5,
           "bbox": {
-            "l": 220.798255006485,
-            "t": 625.2220158296568,
-            "r": 374.4338584163143,
-            "b": 615.3522231254146,
+            "l": 219.02176920572916,
+            "t": 627.6004842122396,
+            "r": 376.3115234375,
+            "b": 613.5954386393229,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
@@ -1288,7 +1727,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/37",
+      "self_ref": "#/texts/50",
       "parent": {
         "$ref": "#/body"
       },
@@ -1297,12 +1736,12 @@
       "label": "text",
       "prov": [
         {
-          "page_no": 6,
+          "page_no": 5,
           "bbox": {
-            "l": 435.837500158905,
-            "t": 597.6244445118468,
-            "r": 538.6772346916115,
-            "b": 573.9558482776516,
+            "l": 434.2381591796875,
+            "t": 599.5904134114584,
+            "r": 540.366455078125,
+            "b": 572.853515625,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
@@ -1315,21 +1754,21 @@
       "text": "Affari Generali Proposta n° 51/2026"
     },
     {
-      "self_ref": "#/texts/38",
+      "self_ref": "#/texts/51",
       "parent": {
         "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "label": "text",
+      "label": "section_header",
       "prov": [
         {
-          "page_no": 6,
+          "page_no": 5,
           "bbox": {
-            "l": 56.759621931324,
-            "t": 542.4234010978757,
-            "r": 536.1583844262613,
-            "b": 532.5536083936336,
+            "l": 55.389678955078125,
+            "t": 544.8434244791667,
+            "r": 537.8295491536459,
+            "b": 532.5359700520833,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
@@ -1339,10 +1778,11 @@
         }
       ],
       "orig": "OGGETTO: APPROVAZIONE RELAZIONE SULLA PERFORMANCE P. O - ANNO 2025",
-      "text": "OGGETTO: APPROVAZIONE RELAZIONE SULLA PERFORMANCE P. O - ANNO 2025"
+      "text": "OGGETTO: APPROVAZIONE RELAZIONE SULLA PERFORMANCE P. O - ANNO 2025",
+      "level": 1
     },
     {
-      "self_ref": "#/texts/39",
+      "self_ref": "#/texts/52",
       "parent": {
         "$ref": "#/body"
       },
@@ -1351,25 +1791,25 @@
       "label": "text",
       "prov": [
         {
-          "page_no": 6,
+          "page_no": 5,
           "bbox": {
-            "l": 56.759621931324,
-            "t": 459.62332009787576,
-            "r": 363.9948288439118,
-            "b": 435.95474173472866,
+            "l": 54.96685282389323,
+            "t": 461.6619873046875,
+            "r": 257.92138671875,
+            "b": 449.3545328776042,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
             0,
-            97
+            29
           ]
         }
       ],
-      "orig": "PARERE DI REGOLARITA' CONTABILE (Articolo 147 bis del decreto legislativo 18 agosto 2000, n. 267)",
-      "text": "PARERE DI REGOLARITA' CONTABILE (Articolo 147 bis del decreto legislativo 18 agosto 2000, n. 267)"
+      "orig": "PARERE DI REGOLARITA' TECNICA",
+      "text": "PARERE DI REGOLARITA' TECNICA"
     },
     {
-      "self_ref": "#/texts/40",
+      "self_ref": "#/texts/53",
       "parent": {
         "$ref": "#/body"
       },
@@ -1378,12 +1818,39 @@
       "label": "text",
       "prov": [
         {
-          "page_no": 6,
+          "page_no": 5,
           "bbox": {
-            "l": 59.759611394886,
-            "t": 225.3844249389707,
-            "r": 173.39931804887988,
-            "b": 215.51463223472865,
+            "l": 55.389678955078125,
+            "t": 447.6569417317708,
+            "r": 364.4725341796875,
+            "b": 434.9250895182292,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            65
+          ]
+        }
+      ],
+      "orig": "(Articolo 147 bis del decreto legislativo 18 agosto 2000, n. 267)",
+      "text": "(Articolo 147 bis del decreto legislativo 18 agosto 2000, n. 267)"
+    },
+    {
+      "self_ref": "#/texts/54",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 58.77225240071615,
+            "t": 227.82023111979163,
+            "r": 174.6254679361979,
+            "b": 215.08837890625,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
@@ -1396,21 +1863,21 @@
       "text": "Carinaro, lì 17-06-2026"
     },
     {
-      "self_ref": "#/texts/41",
+      "self_ref": "#/texts/55",
       "parent": {
-        "$ref": "#/groups/4"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
       "label": "text",
       "prov": [
         {
-          "page_no": 6,
+          "page_no": 5,
           "bbox": {
-            "l": 380.997552658905,
-            "t": 211.58560353796963,
-            "r": 455.3133608223882,
-            "b": 201.71581083372757,
+            "l": 379.2712809244792,
+            "t": 214.23958333333337,
+            "r": 457.070556640625,
+            "b": 200.23453776041663,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
@@ -1419,13 +1886,96 @@
           ]
         }
       ],
-      "orig": "Il Responsabile",
-      "text": "Il Responsabile"
+      "orig": "I1 Responsabile",
+      "text": "I1 Responsabile"
     },
     {
-      "self_ref": "#/texts/42",
+      "self_ref": "#/texts/56",
       "parent": {
-        "$ref": "#/groups/4"
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 361.0899658203125,
+            "t": 180.71236165364587,
+            "r": 474.8290608723958,
+            "b": 167.98050944010413,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            15
+          ]
+        }
+      ],
+      "orig": "PICONE VINCENZO",
+      "text": "PICONE VINCENZO"
+    },
+    {
+      "self_ref": "#/texts/57",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 202.95454915364584,
+            "t": 659.0057373046875,
+            "r": 391.9559733072917,
+            "b": 643.7274983723959,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            17
+          ]
+        }
+      ],
+      "orig": "COMUNE DICARINARO",
+      "text": "COMUNE DICARINARO",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/58",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 219.02176920572916,
+            "t": 627.6004842122396,
+            "r": 376.3115234375,
+            "b": 613.5954386393229,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            27
+          ]
+        }
+      ],
+      "orig": "Proposta di Giunta Comunale",
+      "text": "Proposta di Giunta Comunale",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/59",
+      "parent": {
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
@@ -1434,10 +1984,172 @@
         {
           "page_no": 6,
           "bbox": {
-            "l": 352.44050400000003,
-            "t": 178.50102801603532,
-            "r": 483.7921649329056,
-            "b": 167.92063543842914,
+            "l": 434.2381591796875,
+            "t": 599.5904134114584,
+            "r": 540.366455078125,
+            "b": 572.853515625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            35
+          ]
+        }
+      ],
+      "orig": "Affari Generali Proposta n° 51/2026",
+      "text": "Affari Generali Proposta n° 51/2026"
+    },
+    {
+      "self_ref": "#/texts/60",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 55.389678955078125,
+            "t": 544.8434244791667,
+            "r": 537.8295491536459,
+            "b": 532.5359700520833,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            66
+          ]
+        }
+      ],
+      "orig": "OGGETTO: APPROVAZIONE RELAZIONE SULLA PERFORMANCE P. O - ANNO 2025",
+      "text": "OGGETTO: APPROVAZIONE RELAZIONE SULLA PERFORMANCE P. O - ANNO 2025"
+    },
+    {
+      "self_ref": "#/texts/61",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 54.54403177897135,
+            "t": 462.0863850911458,
+            "r": 274.4114583333333,
+            "b": 449.7789306640625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            30
+          ]
+        }
+      ],
+      "orig": "PARERE DI REGOLARITA'CONTABILE",
+      "text": "PARERE DI REGOLARITA'CONTABILE"
+    },
+    {
+      "self_ref": "#/texts/62",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 55.389678955078125,
+            "t": 447.6569417317708,
+            "r": 364.4725341796875,
+            "b": 434.9250895182292,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            65
+          ]
+        }
+      ],
+      "orig": "(Articolo 147 bis del decreto legislativo 18 agosto 2000, n. 267)",
+      "text": "(Articolo 147 bis del decreto legislativo 18 agosto 2000, n. 267)"
+    },
+    {
+      "self_ref": "#/texts/63",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 58.77225240071615,
+            "t": 227.82023111979163,
+            "r": 174.6254679361979,
+            "b": 215.08837890625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            23
+          ]
+        }
+      ],
+      "orig": "Carinaro, lì 17-06-2026",
+      "text": "Carinaro, lì 17-06-2026"
+    },
+    {
+      "self_ref": "#/texts/64",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 379.2712809244792,
+            "t": 214.23958333333337,
+            "r": 457.070556640625,
+            "b": 200.23453776041663,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            15
+          ]
+        }
+      ],
+      "orig": "I1 Responsabile",
+      "text": "I1 Responsabile"
+    },
+    {
+      "self_ref": "#/texts/65",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 350.9422200520833,
+            "t": 180.71236165364587,
+            "r": 484.976806640625,
+            "b": 167.98050944010413,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
@@ -1450,7 +2162,7 @@
       "text": "FATTORE SALVATORE"
     },
     {
-      "self_ref": "#/texts/43",
+      "self_ref": "#/texts/66",
       "parent": {
         "$ref": "#/body"
       },
@@ -1461,10 +2173,10 @@
         {
           "page_no": 7,
           "bbox": {
-            "l": 449.03937065890506,
-            "t": 775.8251541127607,
-            "r": 515.7111985543211,
-            "b": 765.9553614085187,
+            "l": 448.1912841796875,
+            "t": 777.8363749186198,
+            "r": 517.1112467447916,
+            "b": 766.3777058919271,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
@@ -1477,7 +2189,7 @@
       "text": "ORIGINALE"
     },
     {
-      "self_ref": "#/texts/44",
+      "self_ref": "#/texts/67",
       "parent": {
         "$ref": "#/body"
       },
@@ -1488,10 +2200,10 @@
         {
           "page_no": 7,
           "bbox": {
-            "l": 204.361526481903,
-            "t": 636.606040357742,
-            "r": 391.04447466544485,
-            "b": 623.4792645732293,
+            "l": 203.8001912434896,
+            "t": 638.2103678385416,
+            "r": 391.5331217447917,
+            "b": 624.205322265625,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
@@ -1505,7 +2217,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/45",
+      "self_ref": "#/texts/68",
       "parent": {
         "$ref": "#/body"
       },
@@ -1516,10 +2228,10 @@
         {
           "page_no": 7,
           "bbox": {
-            "l": 247.317724079361,
-            "t": 605.5462927865508,
-            "r": 347.99746418780984,
-            "b": 595.6765000823086,
+            "l": 246.0823771158854,
+            "t": 607.6539103190104,
+            "r": 349.6737467447917,
+            "b": 594.9220581054688,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
@@ -1532,7 +2244,7 @@
       "text": "Provincia di Caserta"
     },
     {
-      "self_ref": "#/texts/46",
+      "self_ref": "#/texts/69",
       "parent": {
         "$ref": "#/body"
       },
@@ -1543,10 +2255,10 @@
         {
           "page_no": 7,
           "bbox": {
-            "l": 56.759621931324,
-            "t": 582.5072849818937,
-            "r": 536.0383847360247,
-            "b": 545.1570974665096,
+            "l": 56.235321044921875,
+            "t": 583.8877766927083,
+            "r": 536.98388671875,
+            "b": 545.6922200520833,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
@@ -1560,7 +2272,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/47",
+      "self_ref": "#/texts/70",
       "parent": {
         "$ref": "#/body"
       },
@@ -1571,24 +2283,24 @@
         {
           "page_no": 7,
           "bbox": {
-            "l": 153.357035725296,
-            "t": 499.8258467201598,
-            "r": 445.0762826903004,
-            "b": 489.9560540159177,
+            "l": 151.79308064778647,
+            "t": 501.97951253255206,
+            "r": 440.1576741536458,
+            "b": 489.6720377604167,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
             0,
-            55
+            27
           ]
         }
       ],
-      "orig": "C E R T I F I C A T O   D I   P U B B L I C A Z I O N E",
-      "text": "C E R T I F I C A T O   D I   P U B B L I C A Z I O N E",
+      "orig": "CERTIFICATO DIPUBBLICAZIONE",
+      "text": "CERTIFICATO DIPUBBLICAZIONE",
       "level": 1
     },
     {
-      "self_ref": "#/texts/48",
+      "self_ref": "#/texts/71",
       "parent": {
         "$ref": "#/body"
       },
@@ -1599,23 +2311,23 @@
         {
           "page_no": 7,
           "bbox": {
-            "l": 56.759621931324,
-            "t": 472.22094409787576,
-            "r": 541.5628732519893,
-            "b": 434.7535800758236,
+            "l": 54.12121073404948,
+            "t": 475.2426350911458,
+            "r": 540.366455078125,
+            "b": 434.0762939453125,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
             0,
-            234
+            232
           ]
         }
       ],
-      "orig": "Il sottoscritto responsabile della pubblicazione OLIVA LORENZO certifica che copia della presente deliberazione viene pubblicata il giorno 19-06-2026 all'Albo Pretorio ove rimarrà affissa per 15 giorni consecutivi sino al 04-07-2026 ,",
-      "text": "Il sottoscritto responsabile della pubblicazione OLIVA LORENZO certifica che copia della presente deliberazione viene pubblicata il giorno 19-06-2026 all'Albo Pretorio ove rimarrà affissa per 15 giorni consecutivi sino al 04-07-2026 ,"
+      "orig": "Il sottoscritto responsabile della pubblicazione OLIVA LORENZO certifica che copia della presente deliberazione viene pubblicata il giorno 19-06-2026all'Albo Pretorio ove rimarrà affissa per 15 giorni consecutivi sino al 04-07-2026,",
+      "text": "Il sottoscritto responsabile della pubblicazione OLIVA LORENZO certifica che copia della presente deliberazione viene pubblicata il giorno 19-06-2026all'Albo Pretorio ove rimarrà affissa per 15 giorni consecutivi sino al 04-07-2026,"
     },
     {
-      "self_ref": "#/texts/49",
+      "self_ref": "#/texts/72",
       "parent": {
         "$ref": "#/body"
       },
@@ -1626,10 +2338,10 @@
         {
           "page_no": 7,
           "bbox": {
-            "l": 56.759621931324,
-            "t": 375.6257252201598,
-            "r": 163.43934655159913,
-            "b": 365.75593251591766,
+            "l": 56.235321044921875,
+            "t": 377.6317545572917,
+            "r": 164.47774251302084,
+            "b": 366.1730550130208,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
@@ -1642,7 +2354,7 @@
       "text": "Carinaro, 19-06-2026"
     },
     {
-      "self_ref": "#/texts/50",
+      "self_ref": "#/texts/73",
       "parent": {
         "$ref": "#/body"
       },
@@ -1653,23 +2365,23 @@
         {
           "page_no": 7,
           "bbox": {
-            "l": 357.71979307287603,
-            "t": 361.82693959787576,
-            "r": 528.635351876766,
-            "b": 351.95714689363365,
+            "l": 356.4389241536458,
+            "t": 363.626708984375,
+            "r": 529.7958984375,
+            "b": 338.5873616536458,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
             0,
-            35
+            49
           ]
         }
       ],
-      "orig": "Il Responsabile della pubblicazione",
-      "text": "Il Responsabile della pubblicazione"
+      "orig": "Il Responsabile della pubblicazione OLIVA LORENZO",
+      "text": "Il Responsabile della pubblicazione OLIVA LORENZO"
     },
     {
-      "self_ref": "#/texts/51",
+      "self_ref": "#/texts/74",
       "parent": {
         "$ref": "#/body"
       },
@@ -1680,47 +2392,20 @@
         {
           "page_no": 7,
           "bbox": {
-            "l": 391.921589781189,
-            "t": 348.0281539389707,
-            "r": 494.2453256458781,
-            "b": 338.1583612347286,
+            "l": 55.389678955078125,
+            "t": 270.259765625,
+            "r": 483.2854817708333,
+            "b": 257.95231119791663,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
             0,
-            13
+            108
           ]
         }
       ],
-      "orig": "OLIVA LORENZO",
-      "text": "OLIVA LORENZO"
-    },
-    {
-      "self_ref": "#/texts/52",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "text",
-      "prov": [
-        {
-          "page_no": 7,
-          "bbox": {
-            "l": 56.758873584071246,
-            "t": 268.07667556501065,
-            "r": 482.84405042751007,
-            "b": 259.88479613261904,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            107
-          ]
-        }
-      ],
-      "orig": "Documento informatico sottoscritto con firma digitale ai sensi dell'art.24 del D.Lgs. n.82/2005 e ss.mm.ii.",
-      "text": "Documento informatico sottoscritto con firma digitale ai sensi dell'art.24 del D.Lgs. n.82/2005 e ss.mm.ii."
+      "orig": "Documento informatico sottoscritto con firma digitale ai sensi dell''art.24 del D.Lgs. n.82/2005 e ss.mm.ii.",
+      "text": "Documento informatico sottoscritto con firma digitale ai sensi dell''art.24 del D.Lgs. n.82/2005 e ss.mm.ii."
     }
   ],
   "pictures": [
@@ -1873,10 +2558,10 @@
         "table_cells": [
           {
             "bbox": {
-              "l": 77.27937540455251,
-              "t": 418.0406603492273,
-              "r": 119.11169430611774,
-              "b": 424.6534699731988,
+              "l": 75.6851298014323,
+              "t": 415.9072672526042,
+              "r": 120.50426228841145,
+              "b": 426.0927327473958,
               "coord_origin": "TOPLEFT"
             },
             "row_span": 1,
@@ -1893,10 +2578,10 @@
           },
           {
             "bbox": {
-              "l": 203.9903778817134,
-              "t": 418.0406603492273,
-              "r": 232.39583294210746,
-              "b": 424.6534699731988,
+              "l": 202.5317179361979,
+              "t": 415.4828694661458,
+              "r": 234.24336751302084,
+              "b": 425.6683349609375,
               "coord_origin": "TOPLEFT"
             },
             "row_span": 1,
@@ -1913,10 +2598,10 @@
           },
           {
             "bbox": {
-              "l": 365.755947034028,
-              "t": 418.0406603492273,
-              "r": 391.18658794997094,
-              "b": 424.6534699731988,
+              "l": 364.4725341796875,
+              "t": 415.4828694661458,
+              "r": 393.2244059244792,
+              "b": 426.0927327473958,
               "coord_origin": "TOPLEFT"
             },
             "row_span": 1,
@@ -1933,10 +2618,10 @@
           },
           {
             "bbox": {
-              "l": 77.27937540455251,
-              "t": 433.28011565508973,
-              "r": 196.1593806474016,
-              "b": 439.8929252790612,
+              "l": 76.10795084635417,
+              "t": 431.60986328125,
+              "r": 197.0350341796875,
+              "b": 440.0977783203125,
               "coord_origin": "TOPLEFT"
             },
             "row_span": 1,
@@ -1953,10 +2638,10 @@
           },
           {
             "bbox": {
-              "l": 203.99037788171347,
-              "t": 433.28011565508973,
-              "r": 209.34504334172544,
-              "b": 439.8929252790612,
+              "l": 201.68607584635416,
+              "t": 431.1855061848958,
+              "r": 211.83380126953125,
+              "b": 440.9465738932292,
               "coord_origin": "TOPLEFT"
             },
             "row_span": 1,
@@ -1973,10 +2658,10 @@
           },
           {
             "bbox": {
-              "l": 77.27937540455251,
-              "t": 453.08086940508974,
-              "r": 154.43158224280356,
-              "b": 459.69367902906123,
+              "l": 75.26230875651042,
+              "t": 450.2832845052083,
+              "r": 155.1756591796875,
+              "b": 460.0443522135417,
               "coord_origin": "TOPLEFT"
             },
             "row_span": 1,
@@ -1993,10 +2678,10 @@
           },
           {
             "bbox": {
-              "l": 203.99037788171347,
-              "t": 453.08086940508974,
-              "r": 209.34504334172544,
-              "b": 459.69367902906123,
+              "l": 201.68607584635416,
+              "t": 449.85888671875,
+              "r": 212.25663248697916,
+              "b": 461.741943359375,
               "coord_origin": "TOPLEFT"
             },
             "row_span": 1,
@@ -2013,10 +2698,10 @@
           },
           {
             "bbox": {
-              "l": 77.27937540455251,
-              "t": 472.8791790992273,
-              "r": 141.0851187839148,
-              "b": 479.4919887231988,
+              "l": 76.10795084635417,
+              "t": 471.07861328125,
+              "r": 142.06817626953125,
+              "b": 479.5665283203125,
               "coord_origin": "TOPLEFT"
             },
             "row_span": 1,
@@ -2033,10 +2718,10 @@
           },
           {
             "bbox": {
-              "l": 203.9903778817134,
-              "t": 472.8791790992273,
-              "r": 209.34504334172541,
-              "b": 479.4919887231988,
+              "l": 201.68607584635416,
+              "t": 469.8054606119792,
+              "r": 212.679443359375,
+              "b": 481.2641194661458,
               "coord_origin": "TOPLEFT"
             },
             "row_span": 1,
@@ -2053,10 +2738,10 @@
           },
           {
             "bbox": {
-              "l": 77.27937540455251,
-              "t": 492.6799328492273,
-              "r": 148.16035242477147,
-              "b": 499.2927424731988,
+              "l": 76.53077697753906,
+              "t": 491.0251871744792,
+              "r": 148.83333333333334,
+              "b": 499.5131022135417,
               "coord_origin": "TOPLEFT"
             },
             "row_span": 1,
@@ -2073,10 +2758,10 @@
           },
           {
             "bbox": {
-              "l": 203.9903778817134,
-              "t": 492.6799328492273,
-              "r": 209.34504334172541,
-              "b": 499.2927424731988,
+              "l": 201.68607584635416,
+              "t": 489.32763671875,
+              "r": 212.679443359375,
+              "b": 501.210693359375,
               "coord_origin": "TOPLEFT"
             },
             "row_span": 1,
@@ -2093,10 +2778,10 @@
           },
           {
             "bbox": {
-              "l": 77.27937540455251,
-              "t": 512.478242567901,
-              "r": 154.43158224280356,
-              "b": 519.0910521918726,
+              "l": 76.10795084635417,
+              "t": 510.54736328125,
+              "r": 155.59848022460938,
+              "b": 519.0352783203125,
               "coord_origin": "TOPLEFT"
             },
             "row_span": 1,
@@ -2113,10 +2798,10 @@
           },
           {
             "bbox": {
-              "l": 203.99037788171347,
-              "t": 512.478242567901,
-              "r": 209.34504334172544,
-              "b": 519.0910521918726,
+              "l": 201.68607584635416,
+              "t": 509.2742106119792,
+              "r": 212.679443359375,
+              "b": 520.7328694661459,
               "coord_origin": "TOPLEFT"
             },
             "row_span": 1,
@@ -2139,10 +2824,10 @@
           [
             {
               "bbox": {
-                "l": 77.27937540455251,
-                "t": 418.0406603492273,
-                "r": 119.11169430611774,
-                "b": 424.6534699731988,
+                "l": 75.6851298014323,
+                "t": 415.9072672526042,
+                "r": 120.50426228841145,
+                "b": 426.0927327473958,
                 "coord_origin": "TOPLEFT"
               },
               "row_span": 1,
@@ -2159,10 +2844,10 @@
             },
             {
               "bbox": {
-                "l": 203.9903778817134,
-                "t": 418.0406603492273,
-                "r": 232.39583294210746,
-                "b": 424.6534699731988,
+                "l": 202.5317179361979,
+                "t": 415.4828694661458,
+                "r": 234.24336751302084,
+                "b": 425.6683349609375,
                 "coord_origin": "TOPLEFT"
               },
               "row_span": 1,
@@ -2179,10 +2864,10 @@
             },
             {
               "bbox": {
-                "l": 365.755947034028,
-                "t": 418.0406603492273,
-                "r": 391.18658794997094,
-                "b": 424.6534699731988,
+                "l": 364.4725341796875,
+                "t": 415.4828694661458,
+                "r": 393.2244059244792,
+                "b": 426.0927327473958,
                 "coord_origin": "TOPLEFT"
               },
               "row_span": 1,
@@ -2201,10 +2886,10 @@
           [
             {
               "bbox": {
-                "l": 77.27937540455251,
-                "t": 433.28011565508973,
-                "r": 196.1593806474016,
-                "b": 439.8929252790612,
+                "l": 76.10795084635417,
+                "t": 431.60986328125,
+                "r": 197.0350341796875,
+                "b": 440.0977783203125,
                 "coord_origin": "TOPLEFT"
               },
               "row_span": 1,
@@ -2221,10 +2906,10 @@
             },
             {
               "bbox": {
-                "l": 203.99037788171347,
-                "t": 433.28011565508973,
-                "r": 209.34504334172544,
-                "b": 439.8929252790612,
+                "l": 201.68607584635416,
+                "t": 431.1855061848958,
+                "r": 211.83380126953125,
+                "b": 440.9465738932292,
                 "coord_origin": "TOPLEFT"
               },
               "row_span": 1,
@@ -2256,10 +2941,10 @@
           [
             {
               "bbox": {
-                "l": 77.27937540455251,
-                "t": 453.08086940508974,
-                "r": 154.43158224280356,
-                "b": 459.69367902906123,
+                "l": 75.26230875651042,
+                "t": 450.2832845052083,
+                "r": 155.1756591796875,
+                "b": 460.0443522135417,
                 "coord_origin": "TOPLEFT"
               },
               "row_span": 1,
@@ -2276,10 +2961,10 @@
             },
             {
               "bbox": {
-                "l": 203.99037788171347,
-                "t": 453.08086940508974,
-                "r": 209.34504334172544,
-                "b": 459.69367902906123,
+                "l": 201.68607584635416,
+                "t": 449.85888671875,
+                "r": 212.25663248697916,
+                "b": 461.741943359375,
                 "coord_origin": "TOPLEFT"
               },
               "row_span": 1,
@@ -2311,10 +2996,10 @@
           [
             {
               "bbox": {
-                "l": 77.27937540455251,
-                "t": 472.8791790992273,
-                "r": 141.0851187839148,
-                "b": 479.4919887231988,
+                "l": 76.10795084635417,
+                "t": 471.07861328125,
+                "r": 142.06817626953125,
+                "b": 479.5665283203125,
                 "coord_origin": "TOPLEFT"
               },
               "row_span": 1,
@@ -2331,10 +3016,10 @@
             },
             {
               "bbox": {
-                "l": 203.9903778817134,
-                "t": 472.8791790992273,
-                "r": 209.34504334172541,
-                "b": 479.4919887231988,
+                "l": 201.68607584635416,
+                "t": 469.8054606119792,
+                "r": 212.679443359375,
+                "b": 481.2641194661458,
                 "coord_origin": "TOPLEFT"
               },
               "row_span": 1,
@@ -2366,10 +3051,10 @@
           [
             {
               "bbox": {
-                "l": 77.27937540455251,
-                "t": 492.6799328492273,
-                "r": 148.16035242477147,
-                "b": 499.2927424731988,
+                "l": 76.53077697753906,
+                "t": 491.0251871744792,
+                "r": 148.83333333333334,
+                "b": 499.5131022135417,
                 "coord_origin": "TOPLEFT"
               },
               "row_span": 1,
@@ -2386,10 +3071,10 @@
             },
             {
               "bbox": {
-                "l": 203.9903778817134,
-                "t": 492.6799328492273,
-                "r": 209.34504334172541,
-                "b": 499.2927424731988,
+                "l": 201.68607584635416,
+                "t": 489.32763671875,
+                "r": 212.679443359375,
+                "b": 501.210693359375,
                 "coord_origin": "TOPLEFT"
               },
               "row_span": 1,
@@ -2421,10 +3106,10 @@
           [
             {
               "bbox": {
-                "l": 77.27937540455251,
-                "t": 512.478242567901,
-                "r": 154.43158224280356,
-                "b": 519.0910521918726,
+                "l": 76.10795084635417,
+                "t": 510.54736328125,
+                "r": 155.59848022460938,
+                "b": 519.0352783203125,
                 "coord_origin": "TOPLEFT"
               },
               "row_span": 1,
@@ -2441,10 +3126,10 @@
             },
             {
               "bbox": {
-                "l": 203.99037788171347,
-                "t": 512.478242567901,
-                "r": 209.34504334172544,
-                "b": 519.0910521918726,
+                "l": 201.68607584635416,
+                "t": 509.2742106119792,
+                "r": 212.679443359375,
+                "b": 520.7328694661459,
                 "coord_origin": "TOPLEFT"
               },
               "row_span": 1,
@@ -2508,10 +3193,10 @@
         "table_cells": [
           {
             "bbox": {
-              "l": 214.32074575582126,
-              "t": 453.9999295906481,
-              "r": 226.76771362560532,
-              "b": 461.4022741188296,
+              "l": 211.83380126953125,
+              "t": 450.7076822916667,
+              "r": 228.7466837565104,
+              "b": 464.7126871744792,
               "coord_origin": "TOPLEFT"
             },
             "row_span": 1,
@@ -2528,30 +3213,10 @@
           },
           {
             "bbox": {
-              "l": 373.44033500946006,
-              "t": 453.9999295906481,
-              "r": 379.40731960647145,
-              "b": 461.4022741188296,
-              "coord_origin": "TOPLEFT"
-            },
-            "row_span": 1,
-            "col_span": 1,
-            "start_row_offset_idx": 0,
-            "end_row_offset_idx": 1,
-            "start_col_offset_idx": 1,
-            "end_col_offset_idx": 2,
-            "text": "[]",
-            "column_header": false,
-            "row_header": false,
-            "row_section": false,
-            "fillable": false
-          },
-          {
-            "bbox": {
-              "l": 204.83856000000003,
-              "t": 485.46516263518623,
-              "r": 236.38789119163363,
-              "b": 491.18959389151735,
+              "l": 202.95454915364584,
+              "t": 483.3861083984375,
+              "r": 237.62593587239584,
+              "b": 492.2983805338542,
               "coord_origin": "TOPLEFT"
             },
             "row_span": 1,
@@ -2568,10 +3233,10 @@
           },
           {
             "bbox": {
-              "l": 362.9680117259905,
-              "t": 485.46516263518623,
-              "r": 389.7637154735724,
-              "b": 491.18959389151735,
+              "l": 361.5127766927083,
+              "t": 483.3861083984375,
+              "r": 391.1103108723958,
+              "b": 492.2983805338542,
               "coord_origin": "TOPLEFT"
             },
             "row_span": 1,
@@ -2594,10 +3259,10 @@
           [
             {
               "bbox": {
-                "l": 214.32074575582126,
-                "t": 453.9999295906481,
-                "r": 226.76771362560532,
-                "b": 461.4022741188296,
+                "l": 211.83380126953125,
+                "t": 450.7076822916667,
+                "r": 228.7466837565104,
+                "b": 464.7126871744792,
                 "coord_origin": "TOPLEFT"
               },
               "row_span": 1,
@@ -2613,20 +3278,13 @@
               "fillable": false
             },
             {
-              "bbox": {
-                "l": 373.44033500946006,
-                "t": 453.9999295906481,
-                "r": 379.40731960647145,
-                "b": 461.4022741188296,
-                "coord_origin": "TOPLEFT"
-              },
               "row_span": 1,
               "col_span": 1,
               "start_row_offset_idx": 0,
               "end_row_offset_idx": 1,
               "start_col_offset_idx": 1,
               "end_col_offset_idx": 2,
-              "text": "[]",
+              "text": "",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -2636,10 +3294,10 @@
           [
             {
               "bbox": {
-                "l": 204.83856000000003,
-                "t": 485.46516263518623,
-                "r": 236.38789119163363,
-                "b": 491.18959389151735,
+                "l": 202.95454915364584,
+                "t": 483.3861083984375,
+                "r": 237.62593587239584,
+                "b": 492.2983805338542,
                 "coord_origin": "TOPLEFT"
               },
               "row_span": 1,
@@ -2656,10 +3314,10 @@
             },
             {
               "bbox": {
-                "l": 362.9680117259905,
-                "t": 485.46516263518623,
-                "r": 389.7637154735724,
-                "b": 491.18959389151735,
+                "l": 361.5127766927083,
+                "t": 483.3861083984375,
+                "r": 391.1103108723958,
+                "b": 492.2983805338542,
                 "coord_origin": "TOPLEFT"
               },
               "row_span": 1,
@@ -2710,10 +3368,10 @@
         "table_cells": [
           {
             "bbox": {
-              "l": 178.320832010685,
-              "t": 453.9999295906481,
-              "r": 190.76779988046906,
-              "b": 461.4022741188296,
+              "l": 175.8939412434896,
+              "t": 450.7076822916667,
+              "r": 192.80680338541666,
+              "b": 464.7126871744792,
               "coord_origin": "TOPLEFT"
             },
             "row_span": 1,
@@ -2730,10 +3388,10 @@
           },
           {
             "bbox": {
-              "l": 290.3705427690449,
-              "t": 453.9999295906481,
-              "r": 296.42752713373375,
-              "b": 461.4022741188296,
+              "l": 288.3645833333333,
+              "t": 451.5564371744792,
+              "r": 298.51230875651044,
+              "b": 464.2882893880208,
               "coord_origin": "TOPLEFT"
             },
             "row_span": 1,
@@ -2742,7 +3400,7 @@
             "end_row_offset_idx": 1,
             "start_col_offset_idx": 1,
             "end_col_offset_idx": 2,
-            "text": "[]",
+            "text": "II",
             "column_header": false,
             "row_header": false,
             "row_section": false,
@@ -2750,10 +3408,10 @@
           },
           {
             "bbox": {
-              "l": 403.59025050721095,
-              "t": 453.9999295906481,
-              "r": 409.5572351042224,
-              "b": 461.4022741188296,
+              "l": 402.1036783854167,
+              "t": 451.9808349609375,
+              "r": 410.9829508463542,
+              "b": 463.8639322916667,
               "coord_origin": "TOPLEFT"
             },
             "row_span": 1,
@@ -2762,7 +3420,7 @@
             "end_row_offset_idx": 1,
             "start_col_offset_idx": 2,
             "end_col_offset_idx": 3,
-            "text": "[]",
+            "text": "Il",
             "column_header": false,
             "row_header": false,
             "row_section": false,
@@ -2770,10 +3428,10 @@
           },
           {
             "bbox": {
-              "l": 168.83931128508002,
-              "t": 485.46516263518623,
-              "r": 200.38864247671364,
-              "b": 491.18959389151735,
+              "l": 167.0146687825521,
+              "t": 483.3861083984375,
+              "r": 201.68607584635416,
+              "b": 492.2983805338542,
               "coord_origin": "TOPLEFT"
             },
             "row_span": 1,
@@ -2790,10 +3448,10 @@
           },
           {
             "bbox": {
-              "l": 279.9892824146605,
-              "t": 485.46516263518623,
-              "r": 306.7153869317293,
-              "b": 491.18959389151735,
+              "l": 278.63966878255206,
+              "t": 483.3861083984375,
+              "r": 308.23720296223956,
+              "b": 492.2983805338542,
               "coord_origin": "TOPLEFT"
             },
             "row_span": 1,
@@ -2810,10 +3468,10 @@
           },
           {
             "bbox": {
-              "l": 384.2489297234341,
-              "t": 485.46516263518623,
-              "r": 428.7228380213687,
-              "b": 491.18959389151735,
+              "l": 382.6538899739583,
+              "t": 483.3861083984375,
+              "r": 430.0099283854167,
+              "b": 491.8739827473958,
               "coord_origin": "TOPLEFT"
             },
             "row_span": 1,
@@ -2836,10 +3494,10 @@
           [
             {
               "bbox": {
-                "l": 178.320832010685,
-                "t": 453.9999295906481,
-                "r": 190.76779988046906,
-                "b": 461.4022741188296,
+                "l": 175.8939412434896,
+                "t": 450.7076822916667,
+                "r": 192.80680338541666,
+                "b": 464.7126871744792,
                 "coord_origin": "TOPLEFT"
               },
               "row_span": 1,
@@ -2856,10 +3514,10 @@
             },
             {
               "bbox": {
-                "l": 290.3705427690449,
-                "t": 453.9999295906481,
-                "r": 296.42752713373375,
-                "b": 461.4022741188296,
+                "l": 288.3645833333333,
+                "t": 451.5564371744792,
+                "r": 298.51230875651044,
+                "b": 464.2882893880208,
                 "coord_origin": "TOPLEFT"
               },
               "row_span": 1,
@@ -2868,7 +3526,7 @@
               "end_row_offset_idx": 1,
               "start_col_offset_idx": 1,
               "end_col_offset_idx": 2,
-              "text": "[]",
+              "text": "II",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -2876,10 +3534,10 @@
             },
             {
               "bbox": {
-                "l": 403.59025050721095,
-                "t": 453.9999295906481,
-                "r": 409.5572351042224,
-                "b": 461.4022741188296,
+                "l": 402.1036783854167,
+                "t": 451.9808349609375,
+                "r": 410.9829508463542,
+                "b": 463.8639322916667,
                 "coord_origin": "TOPLEFT"
               },
               "row_span": 1,
@@ -2888,7 +3546,7 @@
               "end_row_offset_idx": 1,
               "start_col_offset_idx": 2,
               "end_col_offset_idx": 3,
-              "text": "[]",
+              "text": "Il",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -2898,10 +3556,10 @@
           [
             {
               "bbox": {
-                "l": 168.83931128508002,
-                "t": 485.46516263518623,
-                "r": 200.38864247671364,
-                "b": 491.18959389151735,
+                "l": 167.0146687825521,
+                "t": 483.3861083984375,
+                "r": 201.68607584635416,
+                "b": 492.2983805338542,
                 "coord_origin": "TOPLEFT"
               },
               "row_span": 1,
@@ -2918,10 +3576,10 @@
             },
             {
               "bbox": {
-                "l": 279.9892824146605,
-                "t": 485.46516263518623,
-                "r": 306.7153869317293,
-                "b": 491.18959389151735,
+                "l": 278.63966878255206,
+                "t": 483.3861083984375,
+                "r": 308.23720296223956,
+                "b": 492.2983805338542,
                 "coord_origin": "TOPLEFT"
               },
               "row_span": 1,
@@ -2938,10 +3596,10 @@
             },
             {
               "bbox": {
-                "l": 384.2489297234341,
-                "t": 485.46516263518623,
-                "r": 428.7228380213687,
-                "b": 491.18959389151735,
+                "l": 382.6538899739583,
+                "t": 483.3861083984375,
+                "r": 430.0099283854167,
+                "b": 491.8739827473958,
                 "coord_origin": "TOPLEFT"
               },
               "row_span": 1,

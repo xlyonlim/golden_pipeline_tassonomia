@@ -1,142 +1,401 @@
-![image 1](<atto_12_images/imageFile1.png>)
+COMUNEDICARINARO
 
-![image 2](<atto_12_images/imageFile2.png>)
+ProvinciadiCaserta
 
-# COMUNE DI CARINARO
+VerbalediDeliberazionedellaGiunta Comunale
 
-Provincia di Caserta
+N.53 DEL 18-06-2026
 
-## Verbale di Deliberazione della Giunta Comunale
+OGGETTO:
 
-N. 53 DEL 18-06-2026
+CONCESSIONEPATROCINIOMORALE,CONTRIBUTOECONOMICO
 
-OGGETTO: CONCESSIONE PATROCINIO MORALE, CONTRIBUTO ECONOMICO E OCCUPAZIONE DI SUOLO PUBBLICO ALL'A.S.D. LIBUR PER LO SVOLGIMENTO DELLE MANIFESTAZIONI SPORTIVE-CULTURALI "TORNEO AMATORIALE DEI GIOVANI SCACCHISTI DEL CORSO DI SCACCHI" E "PRIMA DELLE FACCIAMO UNA MOSSA INSIEME!".
+E OCCUPAZIONEDISUOLOPUBBLICOALL'A.S.D.LIBURPERLO
 
-L'anno duemilaventisei addì diciotto del mese di Giugno, alle ore 18:45 nella sala della Casa Comunale, si è riunita la Giunta Comunale convocata nelle forme di legge. Presiede l’adunanza il Sindaco MARIANNA DELL'APROVITOLA e sono rispettivamente presenti e assenti i seguenti Sigg.
+SVOLGIMENTODELLEMANIFESTAZIONISPORTIVE-CULTURALI
 
-|Componente|Presente|Assente|
-|---|---|---|
-|DELL'APROVITOLA MARIANNA|X| |
-|SARDO GIUSEPPINA|X| |
-|SGLAVO NICOLA|X| |
-|ESPOSITO NICOLA|X| |
-|BARBATO RACHELE|X| |
+"TORNEOAMATORIALEDEIGIOVANISCACCHISTIDELCORSOD]
 
+SCACCHI"E"PRIMADELLEVACANZEFACCIAMOUNAMOSSA
 
-Numero totale PRESENTI: 5– ASSENTI: 0 Con la partecipazione del Segretario Generale SALVATORE CAPOLUONGO, il Presidente, constatato che gli intervenuti sono in numero legale, dichiara aperta la riunione ed invita i convocati a deliberare sull'oggetto sopra indicato.
+INSIEME!".
 
-- 1.
+L'anno duemilaventisei addi diciotto del mese di Giugno, alle ore 18:45 nella sala della Casa
 
-- 2.
+Comunale, si e riunita la Giunta Comunale convocata nelle forme di legge.
 
-- 3.
+Presiede I'adunanza il Sindaco MARIANNA DELL'APROVITOLA e sono rispettivamente presenti
 
+e assenti i seguenti Sigg.
 
-- 4.
+Componente
 
-- 5.
+Presente
 
-- 6.
+Assente
 
-- 7.
+DELL'APROVITOLAMARIANNA
 
-- 8.
+X
 
-- 9.
+SARDOGIUSEPPINA
 
+X
 
-- 1.
+SGLAVONICOLA
 
-- 2.
+X
 
-- 3.
+ESPOSITONICOLA
 
-- 4.
+X
 
-- 5.
+BARBATORACHELE
 
-- 6.
+X
 
-- 7.
+Numero totalePRESENTI:5-ASSENTI:0
 
-- 8.
+Con la partecipazione del Segretario Generale SALVATORE CAPOLUONGO, il Presidente,
 
-- 9.
+constatato che gli intervenuti sono in numero legale, dichiara aperta la riunione ed invita i convocati
 
+a deliberare sull'oggetto sopra indicato.
 
-Deliberazione n. 53 DEL 18-06-2026
+---
 
-Letto, confermato e sottoscritto.
+Proponente: Il Sindaco, di concerto con la Delegata allo Sport Assunta Madonia
 
-Il Sindaco Il Segretario
+PREMESSOCHE
 
-MARIANNA DELL'APROVITOLA SALVATORE CAPOLUONGO
+qualita di Presidente e legale rappresentante dell'A.S.D. Libur, con sede in Carinaro alla Via
 
-### CERTIFICATO DI PUBBLICAZIONE IL SEGRETARIO GENERALE
+Croce n. 12, ha richiesto la concessione del patrocinio morale ed economico, nonché
 
-ATTESTA Che la presente deliberazione è stata affissa all’ albo pretorio del sito web dell’ ente http://www.comune.carinaro.ce.it conforme all’originale in data 00-00-0000e resterà affissa per n. 15 giorni consecutivi ai sensi dell’art. 124, comma 1, del Dlgs 18 agosto 2000 n. 267
+sportive-culturali denominate "Torneo Amatoriale dei Giovani Scacchisti del Corso di
 
-Il Segretario Generale SALVATORE CAPOLUONGO
+Scacchi" e "Prima delle vacanze... facciamo una mossa insieme!", previste per le giornate del
 
-******************************************************************************** *****************************************************************
+12 luglio 2026 e del 26 luglio 2026, dalle 0re 19:00 alle 0re 21:30;
 
-### CERTIFICATO DI ESECUTIVITA'
+· con la medesima istanza e stato richiesto un contributo economico pari ad  200,00 a
 
-[ X] Deliberazione dichiarata immediatamente eseguibile ai sensi dell’ art. 134, comma 4, del D.Lgs. 267/2000 e.ss.mm.ii.
+copertura delle spese di premiazione, cancelleria e materiale necessario allo svolgimento
 
-[ ]Deliberazione esecutiva ad ogni effetto di legge decorso il decimo giorno di pubblicazione, ai sensi dell’art. 134, comma 3, del D.Lgs n. 267/2000 e.ss.mm.ii.
+delle iniziative;
+
+CONSIDERATOCHE
+
+·le iniziative proposte perseguono finalita sportive, culturali, educative e aggregative,
+
+favorendo la socializzazione, l'inclusione e la partecipazione della cittadinanza;
+
+il gioco degli scacchi e della dama costituisce un importante strumento di crescita culturale e
+
+le manifestazioni risultano coerenti con gli indirizzi e le finalita istituzionali
+
+dell'AmministrazioneComunale;
+
+rientra tra gli obiettivi dell'Amministrazione comunale sostenere iniziative di interesse
+
+collettivo aventi finalita sportive, culturali, sociali e ricreative, promuovendo la
+
+partecipazione attiva della comunita locale;
+
+RITENUTO di accogliere favorevolmente la richiesta dell'A.S.D. Libur, concedendo il patrocinio
+
+sopra descritte;
+
+VISTI
+
+il D.Lgs. 18 agosto 2000, n. 267 ed in particolare gli artt. 48, 49, 107 e 134, comma 4;
+
+·lo Statuto Comunale;
+
+il Regolamento comunale per la concessione di contributi in favore di associazioni per finalita
+
+di promozione di attivita culturali, sportive e ricreative, approvato con deliberazione di
+
+Consiglio Comunale n. 27 del 30.06.2015;
+
+·il Bilancio di previsione vigente;
+
+SIPROPONEDIDELIBERARE
+
+1. DI APPROVARE le premesse quali parte integrante e sostanziale del presente
+
+provvedimento;
+
+2. DI CONCEDERE allA.S.D. Libur il patrocinio morale del Comune di Carinaro per lo
+
+svolgimento delle manifestazioni sportive-culturali denominate "Torneo Amatoriale dei
+
+Giovani Scacchisti del Corso di Scacchi" e "Prima delle vacanze... facciamo una mossa
+
+insieme!",previste peri giorni 12 e 26luglio 2026;
+
+3.DI CONCEDERE all'A.S.D. Libur un contributo economico straordinario pari ad E 200,00 ai
+
+sensi dell'art. 7 del Regolamento comunale approvato con deliberazione di Consiglio
+
+---
+
+Comunalen.27del30.06.2015;
+
+4. DI DARE ATTO che la relativa spesa trova copertura sul capitolo 1880.1 del Bilancio di
+
+previsione vigente, denominato "Spettacoli e/o manifestazioni culturali - contributi ad
+
+associazioni promotrici'";
+
+5. 1 CONCEDERE all'A.S.D. Libur l'occupazione gratuita del suolo pubblico in Piazzetta
+
+Trieste per le giornate del 12 e 26 luglio 2026, dalle ore 19:00 alle ore 21:30, limitatamente allo
+
+svolgimento delle iniziative indicate in premessa, demandando al competente ufficio il
+
+rilascio della relativa autorizzazione e l'espletamento degli adempimenti conseguenti.
+
+6. DI PRECISARE che la liquidazione del contributo concesso avverra previa presentazione di
+
+idonea rendicontazione delle spese effettivamente sostenute dall'Associazione beneficiaria;
+
+7. DI DARE ATTO che l'organizzazione e lo svolgimento delle manifestazioni avverranno
+
+sotto l'esclusiva responsabilita dell'Associazione organizzatrice, la quale dovra adottare
+
+tutte le misure necessarie a garantire il corretto svolgimento delle iniziative nel rispetto della
+
+normativavigente;
+
+8. DI DEMANDARE al Responsabile dell'Area Affari Generali e agli altri Responsabili dei
+
+servizi competenti, ciascuno per quanto di rispettiva competenza, l'adozione degli atti e degli
+
+adempimenti conseguenti al presente provvedimento.;
+
+9.DI DICHIARARE la presente deliberazione immediatamente eseguibile ai sensi dell'art. 134,
+
+comma 4, del D.Lgs.n.267/2000.
+
+---
+
+LAGIUNTACOMUNALE
+
+VISTAla proposta di deliberazione sopra riportata;
+
+n.267/2000;
+
+Con votazione unanime favorevole resa nei modi e termini di legge;
+
+DELIBERA
+
+intende integralmente richiamata e trascritta;
+
+2. DI CONCEDERE all'A.S.D. Libur il patrocinio morale del Comune di Carinaro per lo
+
+svolgimento delle manifestazioni sportive-culturali denominate "Torneo Amatoriale dei
+
+Giovani Scacchisti del Corso di Scacchi"e"Prima delle vacanze...facciamo una mossa
+
+insieme!", previste per i giorni 12 e 26 luglio 2026;
+
+3. DI CONCEDERE all'A.S.D. Libur un contributo economico straordinario pari ad E 200,00 ai
+
+sensi dellart. 7 del Regolamento comunale approvato con deliberazione di Consiglio
+
+Comunale n. 27 del 30.06.2015;
+
+4. DI DARE ATTO che la relativa spesa trova copertura sul capitolo 1880.1 del Bilancio di
+
+associazioni promotrici";
+
+5. DI CONCEDERE allA.S.D. Libur l'occupazione del suolo pubblico in Piazzetta Trieste per le
+
+giornate del 12 e 26 luglio 2026, dalle ore 19:00 alle ore 21:30, limitatamente allo svolgimento
+
+delle iniziative indicate in premessa, demandando al competente ufficio il rilascio della
+
+relativa autorizzazione ai sensi della normativa e dei regolamenti vigenti;
+
+6. DI PRECISARE che la liquidazione del contributo concesso avverra previa presentazione di
+
+idonea rendicontazione delle spese effettivamente sostenute dall'Associazione beneficiaria;
+
+7. DI DARE ATTO che l'organizzazione e lo svolgimento delle manifestazioni avverranno
+
+sotto l'esclusiva responsabilita dell'Associazione organizzatrice, la quale dovra adottare
+
+tutte le misure necessarie a garantire il corretto svolgimento delle iniziative nel rispetto della
+
+normativa vigente;
+
+8. DI DEMANDARE al Responsabile dellArea Affari Generali e agli altri Responsabili dei
+
+servizi competenti, ciascuno per quanto di rispettiva competenza, l'adozione degli atti e degli
+
+adempimenti conseguenti al presente provvedimento;
+
+9.DI DICHIARARE la presente deliberazione immediatamente eseguibile, con separata ed
+
+unanime votazione favorevole, ai sensi dell'art. 134, comma 4, del D.Lgs. n. 267/2000.
+
+---
+
+Deliberazione n.53 DEL 18-06-2026
+
+Letto,confermatoe sottoscritto.
+
+Il Sindaco
 
 Il Segretario
 
-### SALVATORE CAPOLUONGO
+MARIANNADELL'APROVITOLA
 
-Documento informatico sottoscritto con firma digitale ai sensi dell’art.24 del D.Lgs. n.82/2005 e ss.mm.ii.
+SALVATORECAPOLUONGO
 
-OGGETTO: CONCESSIONE PATROCINIO MORALE, CONTRIBUTO ECONOMICO E OCCUPAZIONE DI SUOLO PUBBLICO ALL'A.S.D. LIBUR PER LO SVOLGIMENTO DELLE MANIFESTAZIONI SPORTIVE-CULTURALI "TORNEO AMATORIALE DEI GIOVANI SCACCHISTI DEL CORSO DI SCACCHI" E "PRIMA DELLE FACCIAMO UNA MOSSA INSIEME!".
+CERTIFICATODIPUBBLICAZIONE
 
-PARERE DI REGOLARITA’ TECNICA (Articolo 147 bis del decreto legislativo 18 agosto 2000, n. 267)
+ILSEGRETARIOGENERALE
 
-|[X]|[]|
-|---|---|
-|Favorevole|Contrario|
+ATTESTA
 
+Che la presente deliberazione é stata affissa all' albo pretorio del sito web dell’ ente
 
-- Carinaro, lì 11-06-2026
+http://www.comune.carinaro.ce.it conforme all'originale in data 00-00-00o0e restera affissa per n. 15
 
+giorni
 
-### PICONE VINCENZO
+consecutivi ai sensi dell'art. 124, comma 1, del Dlgs 18 agosto 2000 n. 267
 
-OGGETTO: CONCESSIONE PATROCINIO MORALE, CONTRIBUTO ECONOMICO E OCCUPAZIONE DI SUOLO PUBBLICO ALL'A.S.D. LIBUR PER LO SVOLGIMENTO DELLE MANIFESTAZIONI SPORTIVE-CULTURALI "TORNEO AMATORIALE DEI GIOVANI SCACCHISTI DEL CORSO DI SCACCHI" E "PRIMA DELLE FACCIAMO UNA MOSSA INSIEME!".
+Il Segretario Generale
 
-PARERE DI REGOLARITA’ CONTABILE (Articolo 147 bis del decreto legislativo 18 agosto 2000, n. 267)
+SALVATORECAPOLUONGO
 
-|[X]|[]|[]|
-|---|---|---|
-|Favorevole|Contrario|Non Necessario|
+********************************************************************************
 
+CERTIFICATODIESECUTIVITA'
 
-- Carinaro, lì 12-06-2026
+[X] Deliberazione dichiarata immediatamente eseguibile ai sensi dell’ art. 134, comma 4, del D.Lgs.
 
+267/2000 e.ss.mm.ii.
 
-### FATTORE SALVATORE
+[ ]Deliberazione esecutiva ad ogni effetto di legge decorso il decimo giorno di pubblicazione, ai sensi
 
-![image 5](<atto_12_images/imageFile5.png>)
+dell'art. 134, comma 3, del D.Lgs n. 267/2000 e.ss.mm.ii.
+
+Il Segretario
+
+SALVATORECAPOLUONGO
+
+Documentoinformaticosottoscrittoconfirmadigitaleaisensidell'art.24delD.Lgs.n.82/2005ess.mm.ii.
+
+---
+
+COMUNEDICARINARO
+
+Proposta di Giunta Comunale
+
+Affari Generali
+
+Proposta n° 47/2026
+
+OGGETTO:CONCESSIONEPATROCINIOMORALE,CONTRIBUTOECONOMICOE
+
+OCCUPAZIONEDISUOLOPUBBLICOALL'A.S.D.LIBURPERLOSVOLGIMENTO
+
+DELLEMANIFESTAZIONISPORTIVE-CULTURALI"TORNEOAMATORIALEDEI
+
+GIOVANISCACCHISTIDELCORSODISCACCHI"E"PRIMADELLEVACANZE
+
+FACCIAMOUNAMOSSAINSIEME!"
+
+PAREREDIREGOLARITA'TECNICA
+
+(Articolo 147 bis del decreto legislativo 18 agosto 2000, n. 267)
+
+[x]
+
+Favorevole
+
+Contrario
+
+Carinaro,li 11-06-2026
+
+Il Responsabile
+
+---
+
+PICONE VINCENZO
+
+---
+
+COMUNE DI CARINARO
+
+Proposta di Giunta Comunale
+
+Affari Generali
+
+Proposta n° 47/2026
+
+OGGETTO:CONCESSIONEPATROCINIOMORALE,CONTRIBUTOECONOMICOE
+
+OCCUPAZIONEDISUOLOPUBBLICOALL'A.S.D.LIBURPERLOSVOLGIMENTO
+
+DELLEMANIFESTAZIONISPORTIVE-CULTURALI"TORNEOAMATORIALEDEI
+
+GIOVANISCACCHISTIDELCORSODISCACCHI"E"PRIMADELLEVACANZE
+
+FACCIAMOUNAMOSSAINSIEME!"
+
+PAREREDIREGOLARITA'CONTABILE
+
+(Articolo 147 bis del decreto legislativo 18 agosto 2000, n. 267)
+
+[X]
+
+Favorevole
+
+Contrario
+
+Non Necessario
+
+Carinaro,li 12-06-2026
+
+Il Responsabile
+
+---
+
+FATTORESALVATORE
+
+---
 
 ORIGINALE
 
-# COMUNE DI CARINARO
+COMUNEDICARINARO
 
-Provincia di Caserta DELIBERAZIONE DI GIUNTA COMUNALE N. 53 DEL 18-06-2026
+ProvinciadiCaserta
 
-OGGETTO: CONCESSIONE PATROCINIO MORALE, CONTRIBUTO ECONOMICO E OCCUPAZIONE DI SUOLO PUBBLICO ALL'A.S.D. LIBUR PER LO SVOLGIMENTO DELLE MANIFESTAZIONI SPORTIVE-CULTURALI "TORNEO AMATORIALE DEI GIOVANI SCACCHISTI DEL CORSO DI SCACCHI" E "PRIMA DELLE FACCIAMO UNA MOSSA INSIEME!".
+OGGETTO:CONCESSIONEPATROCINIOMORALE,CONTRIBUTOECONOMICOE
 
-C E R T I F I C A T O D I P U B B L I C A Z I O N E
+OCCUPAZIONEDISUOLOPUBBLICOALL'A.S.D.LIBURPERLOSVOLGIMENTO
 
-Il sottoscritto responsabile della pubblicazione OLIVA LORENZO certifica che copia della presente deliberazione viene pubblicata il giorno 19-06-2026all’Albo Pretorio ove rimarrà affissa per 15 giorni consecutivi sino al 04-07-2026,
+DELLEMANIFESTAZIONISPORTIVE-CULTURALI"TORNEOAMATORIALEDEI
 
-Carinaro, 19-06-2026
+FACCIAMOUNAMOSSAINSIEME!".
 
-Il Responsabile della pubblicazione OLIVA LORENZO
+CERTIFICATODIPUBBLICAZIONE
 
-Documento informatico sottoscritto con firma digitale ai sensi dell’art.24 del D.Lgs. n.82/2005 e ss.mm.ii.
+Il sottoscritto responsabile della pubblicazione OLIVA LORENZO certifica che copia della presente
 
+deliberazione viene pubblicata il giorno 19-06-2026all' Albo Pretorio ove rimarra affissa per 15 giorni
+
+consecutivi sino al 04-07-2026,
+
+Carinaro,19-06-2026
+
+Il Responsabile della pubblicazione
+
+OLIVALORENZO
+
+Documentoinformaticosottoscrittoconfirmadigitaleaisensidell'art.24delD.Lgs.n.82/2005ess.mm.ii.

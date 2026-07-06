@@ -1,0 +1,1484 @@
+{
+  "file name" : "atto_30.pdf",
+  "number of pages" : 5,
+  "author" : "Segr_sindaco1",
+  "title" : "                                                    ",
+  "creation date" : "D:20240520143203+02'00'",
+  "modification date" : null,
+  "kids" : [ {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 20,
+    "page number" : 1,
+    "bounding box" : [ 276.1, 741.3, 319.3, 806.1 ],
+    "source" : "atto_30_images/imageFile1.png"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 21,
+    "level" : "Doctitle",
+    "page number" : 1,
+    "bounding box" : [ 165.1, 711.276, 427.778, 740.069 ],
+    "heading level" : 1,
+    "font" : "TimesNewRomanPS-BoldItalicMT",
+    "font size" : 26.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Comune di Caltanissetta"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H2",
+    "id" : 22,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 106.2, 683.704, 489.3, 696.993 ],
+    "heading level" : 2,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "DELIBERAZIONE DELLA GIUNTA COMUNALE N. 65 DEL 20/05/2024"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 23,
+    "page number" : 1,
+    "bounding box" : [ 103.0, 607.821, 491.971, 670.602 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 11.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Direzione 7 - Politiche Sociali - Scuola - Servizi Demografici - Sport Cultura e Turismo DIRIGENTE INTILLA GIUSEPPE / InfoCamere S.C.p.A. RESPONSABILE DEL PROCEDIMENTO f.to Dott.ssa Angela Maria Di Gesu"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 24,
+    "page number" : 1,
+    "bounding box" : [ 56.8, 470.904, 538.716, 594.593 ],
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "OGGETTO: ELEZIONI DEL SINDACO E DEL CONSIGLIO COMUNALE DI CALTANISSETTA DI SABATO 8 GIUGNO 2024 E DOMENICA 9 GIUGNO 2024, CON EVENTUALE TURNO DI BALLOTTAGGIO DI DOMENICA 23 GIUGNO 2024 E LUNEDÌ 24 GIUGNO 2024 - ASSEGNAZIONE SPAZI PROPAGANDA ELETTORALE ELEZIONI DEL SINDACO E DEL CONSIGLIO COMUNALE DI CALTANISSETTA DI SABATO 8 E DOMENICA 9 GIUGNO 2024, CON EVENTUALE TURNO DI BALLOTTAGGIO DI DOMENICA 23 GIUGNO 2024 E LUNEDÌ 24 GIUGNO 2024 – ASSEGNAZIONE SPAZI PROPAGANDA ELETTORALE AI CANDIDATI ALLA CARICA DI SINDACO ."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 25,
+    "page number" : 1,
+    "bounding box" : [ 56.8, 433.021, 537.346, 457.802 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 11.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "L'anno 2024, il giorno venti, alle ore 12:45 e ss. del mese di Maggio, nella sala delle adunanze, si è riunita la Giunta Comunale sotto la presidenza del Sindaco Arch. Roberto Gambino."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 26,
+    "page number" : 1,
+    "bounding box" : [ 56.8, 407.721, 222.24, 419.902 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 11.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Eseguito l’appello, risultano i Sigg.ri:"
+  }, {
+    "type" : "table",
+    "pdfua_tag" : "Table",
+    "id" : 27,
+    "level" : "1",
+    "page number" : 1,
+    "bounding box" : [ 56.15, 293.35, 539.25, 407.75 ],
+    "number of rows" : 9,
+    "number of columns" : 4,
+    "rows" : [ {
+      "type" : "table row",
+      "row number" : 1,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 56.275, 394.95, 449.5, 407.625 ],
+        "row number" : 1,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 2,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 449.5, 394.95, 494.4, 407.625 ],
+        "row number" : 1,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 1,
+          "page number" : 1,
+          "bounding box" : [ 462.2, 396.137, 481.88, 407.211 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Pres."
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 494.4, 394.95, 539.175, 407.625 ],
+        "row number" : 1,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 2,
+          "page number" : 1,
+          "bounding box" : [ 508.2, 396.137, 525.68, 407.211 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Ass."
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 2,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 56.275, 382.3, 305.9, 394.95 ],
+        "row number" : 2,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 3,
+          "page number" : 1,
+          "bounding box" : [ 59.8, 382.321, 165.488, 394.502 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 11.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "GAMBINO ROBERTO"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 305.9, 382.3, 449.5, 394.95 ],
+        "row number" : 2,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 4,
+          "page number" : 1,
+          "bounding box" : [ 309.5, 383.437, 353.9, 394.511 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "SINDACO"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 449.5, 382.3, 494.4, 394.95 ],
+        "row number" : 2,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 5,
+          "page number" : 1,
+          "bounding box" : [ 468.1, 382.321, 476.042, 394.502 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 11.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "X"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 494.4, 382.3, 539.175, 394.95 ],
+        "row number" : 2,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 3,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 56.275, 369.6, 305.9, 382.3 ],
+        "row number" : 3,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 6,
+          "page number" : 1,
+          "bounding box" : [ 59.8, 369.621, 266.622, 381.802 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 11.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "ANDALORO CONCETTA GRAZIA FLAVIA"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 305.9, 369.6, 449.5, 382.3 ],
+        "row number" : 3,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 7,
+          "page number" : 1,
+          "bounding box" : [ 309.5, 370.737, 365.05, 381.811 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "ASSESSORE"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 449.5, 369.6, 494.4, 382.3 ],
+        "row number" : 3,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 8,
+          "page number" : 1,
+          "bounding box" : [ 468.1, 369.621, 476.042, 381.802 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 11.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "X"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 494.4, 369.6, 539.175, 382.3 ],
+        "row number" : 3,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 4,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 56.275, 356.9, 305.9, 369.6 ],
+        "row number" : 4,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 9,
+          "page number" : 1,
+          "bounding box" : [ 59.8, 356.921, 301.679, 369.102 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 11.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "FRANGIAMONE MARCELLO MARIA VINCENZO"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 305.9, 356.9, 449.5, 369.6 ],
+        "row number" : 4,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 10,
+          "page number" : 1,
+          "bounding box" : [ 309.5, 358.037, 365.05, 369.111 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "ASSESSORE"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 449.5, 356.9, 494.4, 369.6 ],
+        "row number" : 4,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 494.4, 356.9, 539.175, 369.6 ],
+        "row number" : 4,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 11,
+          "page number" : 1,
+          "bounding box" : [ 512.9, 356.921, 520.842, 369.102 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 11.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "X"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 5,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 56.275, 344.2, 305.9, 356.9 ],
+        "row number" : 5,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 12,
+          "page number" : 1,
+          "bounding box" : [ 59.8, 344.221, 232.764, 356.402 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 11.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "LA MENSA SALVATORE GIUSEPPE"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 305.9, 344.2, 449.5, 356.9 ],
+        "row number" : 5,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 13,
+          "page number" : 1,
+          "bounding box" : [ 309.5, 345.337, 365.05, 356.411 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "ASSESSORE"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 449.5, 344.2, 494.4, 356.9 ],
+        "row number" : 5,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 14,
+          "page number" : 1,
+          "bounding box" : [ 468.1, 344.221, 476.042, 356.402 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 11.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "X"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 494.4, 344.2, 539.175, 356.9 ],
+        "row number" : 5,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 6,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 56.275, 331.5, 305.9, 344.2 ],
+        "row number" : 6,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 15,
+          "page number" : 1,
+          "bounding box" : [ 59.8, 331.521, 184.672, 343.702 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 11.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "NICOLETTI FRANCESCO"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 305.9, 331.5, 449.5, 344.2 ],
+        "row number" : 6,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 16,
+          "page number" : 1,
+          "bounding box" : [ 309.5, 332.637, 365.05, 343.711 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "ASSESSORE"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 449.5, 331.5, 494.4, 344.2 ],
+        "row number" : 6,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 494.4, 331.5, 539.175, 344.2 ],
+        "row number" : 6,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 17,
+          "page number" : 1,
+          "bounding box" : [ 512.9, 331.521, 520.842, 343.702 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 11.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "X"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 7,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 56.275, 318.8, 305.9, 331.5 ],
+        "row number" : 7,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 18,
+          "page number" : 1,
+          "bounding box" : [ 59.8, 318.821, 171.274, 331.002 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 11.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "GIAMMUSSO GRAZIA"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 305.9, 318.8, 449.5, 331.5 ],
+        "row number" : 7,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 19,
+          "page number" : 1,
+          "bounding box" : [ 309.5, 319.937, 426.11, 331.011 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "ASSESSORE - Vice Sindaco"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 449.5, 318.8, 494.4, 331.5 ],
+        "row number" : 7,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 20,
+          "page number" : 1,
+          "bounding box" : [ 468.1, 318.821, 476.042, 331.002 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 11.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "X"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 494.4, 318.8, 539.175, 331.5 ],
+        "row number" : 7,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 8,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 56.275, 306.1, 305.9, 318.8 ],
+        "row number" : 8,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 21,
+          "page number" : 1,
+          "bounding box" : [ 59.8, 306.121, 158.195, 318.302 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 11.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "CARACAUSI FABIO"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 305.9, 306.1, 449.5, 318.8 ],
+        "row number" : 8,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 22,
+          "page number" : 1,
+          "bounding box" : [ 309.5, 307.237, 365.05, 318.311 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "ASSESSORE"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 449.5, 306.1, 494.4, 318.8 ],
+        "row number" : 8,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 23,
+          "page number" : 1,
+          "bounding box" : [ 468.1, 306.121, 476.042, 318.302 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 11.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "X"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 494.4, 306.1, 539.175, 318.8 ],
+        "row number" : 8,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 9,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 56.275, 293.425, 305.9, 306.1 ],
+        "row number" : 9,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 24,
+          "page number" : 1,
+          "bounding box" : [ 59.8, 293.421, 181.636, 305.602 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 11.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "RANDO IVAN GIUSEPPE"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 305.9, 293.425, 449.5, 306.1 ],
+        "row number" : 9,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 25,
+          "page number" : 1,
+          "bounding box" : [ 309.5, 294.537, 365.05, 305.611 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "ASSESSORE"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 449.5, 293.425, 494.4, 306.1 ],
+        "row number" : 9,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 26,
+          "page number" : 1,
+          "bounding box" : [ 468.1, 293.421, 476.042, 305.602 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 11.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "X"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 1,
+        "bounding box" : [ 494.4, 293.425, 539.175, 306.1 ],
+        "row number" : 9,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      } ]
+    } ]
+  }, {
+    "type" : "caption",
+    "id" : 28,
+    "page number" : 1,
+    "bounding box" : [ 56.8, 255.421, 518.6, 292.902 ],
+    "linked content id" : 27,
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 11.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "TOTALE 6 2 Partecipa alla seduta il Segretario Generale, Dott. Calogero Ferlisi."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 29,
+    "page number" : 1,
+    "bounding box" : [ 56.8, 192.121, 537.874, 242.302 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 11.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Il Presidente, riconosciuta la validità dell’adunanza, dichiara aperta la seduta e fa dare lettura della proposta di deliberazione predisposta dalla Direzione 7 - Politiche Sociali - Scuola - Servizi Demografici - Sport Cultura e Turismo, che risulta essere del seguente tenore e sulla quale sono stati espressi i pareri previsti dalla L.R. n. 48/91, di recepimento della Legge n. 142/90, e dall'art. 12 della L.R. n. 30/2000 e s.m.i."
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H3",
+    "id" : 30,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 248.9, 148.521, 325.482, 160.702 ],
+    "heading level" : 3,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 11.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "IL DIRIGENTE"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 31,
+    "page number" : 1,
+    "bounding box" : [ 56.8, 76.804, 516.688, 110.793 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Premesso che, con Decreto dell’Assessore Regionale delle Autonomie Locali e della Funzione Pubblica n. 69 del 10/04/2024, è stata fissata, per sabato 08 giugno 2024 e domenica 09 giugno"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 33,
+    "page number" : 2,
+    "bounding box" : [ 56.8, 750.804, 517.048, 805.493 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "2024, la data per le elezioni del Sindaco e del Consiglio Comunale di questo Comune. E’ stata fissata, altresì, per domenica 23 giugno 2024 e lunedì 24 giugno 2024, la data di svolgimento dell'eventuale secondo turno di votazione per l’elezione del sindaco;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 34,
+    "page number" : 2,
+    "bounding box" : [ 56.8, 692.504, 538.42, 719.593 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Dato Atto che il relativo manifesto sindacale di convocazione dei comizi elettorali è stato pubblicato all’Albo Pretorio di questo Comune ed in altri luoghi pubblici in data 25/04/2024;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 35,
+    "page number" : 2,
+    "bounding box" : [ 56.8, 613.504, 538.276, 668.193 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Richiamato l’art. 2 della Legge n. 212 del 04/04/1956 e s.m.i., secondo il quale, in ogni Comune, la Giunta Comunale, tra il 33° ed il 30° giorno precedente quello fissato per le consultazioni, è tenuta a stabilire, in ogni centro abitato, con popolazione residente superiore a 150 abitanti, speciali spazi da destinare all’affissione del materiale di propaganda;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 36,
+    "page number" : 2,
+    "bounding box" : [ 56.8, 575.904, 150.052, 589.193 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Richiamate, altresì:"
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 37,
+    "level" : "2",
+    "page number" : 2,
+    "bounding box" : [ 56.8, 72.104, 538.396, 570.393 ],
+    "numbering style" : "unordered",
+    "number of list items" : 5,
+    "next list id" : 39,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 56.8, 501.904, 538.396, 570.393 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- la Legge n. 147/2013, nella parte relativa alla modifica della normativa prevista sulla affissione manifesti elettorali, prevedendo l'abrogazione del 2° comma dell'art. 1 della Legge n. 212/1956, la quale prevedeva l'assegnazione degli spazi di propaganda elettorale ai fiancheggiatori ed una riduzione del numero di spazi da destinare alle liste che partecipano direttamente alla competizione elettorale;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 56.8, 469.304, 538.108, 496.393 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- le Leggi 10 dicembre 1993, n. 515 e 22 febbraio 2000, n 28, e loro successive modifiche ed integrazioni;",
+      "kids" : [ {
+        "type" : "paragraph",
+        "pdfua_tag" : "P",
+        "id" : 13,
+        "page number" : 2,
+        "bounding box" : [ 56.8, 335.104, 537.952, 444.993 ],
+        "font" : "TimesNewRomanPS-ItalicMT",
+        "font size" : 12.0,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "Vista la Circolare Prefettizia n. 21900 del 17 aprile 2024, avente ad oggetto “Elezioni amministrative 2024 - Propaganda elettorale e comunicazione politica”, nella quale si specifica che “le giunte comunali … stabiliscono e delimitano - in ogni centro abitato con popolazione superiore a 150 abitanti e distintamente per ciascuna elezione che avrà luogo nella stessa data - gli spazi da destinare alle affissioni di propaganda elettorale dei partiti o gruppi politici che partecipano alle elezioni con liste di candidati. Le giunte comunali dovranno provvedere alla ripartizione degli spazi in tante sezioni quante sono le liste che partecipano alle competizioni elettorali, entro i due giorni successivi alla ricezione delle liste ammesse”;"
+      }, {
+        "type" : "paragraph",
+        "pdfua_tag" : "P",
+        "id" : 14,
+        "page number" : 2,
+        "bounding box" : [ 56.8, 291.504, 498.988, 304.793 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 12.0,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "Visto l'art. 5 della Legge 4 aprile 1956, n. 212, modificata dalla Legge 24 aprile 1975, n. 13;"
+      }, {
+        "type" : "paragraph",
+        "pdfua_tag" : "P",
+        "id" : 15,
+        "page number" : 2,
+        "bounding box" : [ 56.8, 226.304, 538.096, 267.193 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 12.0,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "Vista la propria deliberazione n. 60 del 10/05/2024, con la quale sono stati stabiliti e delimitati, ai sensi delle succitate normative, gli spazi per la propaganda elettorale da assegnare alle candidature alla carica di sindaco;"
+      }, {
+        "type" : "paragraph",
+        "pdfua_tag" : "P",
+        "id" : 16,
+        "page number" : 2,
+        "bounding box" : [ 56.8, 179.904, 538.444, 220.793 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 12.0,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "Viste le candidature uninominali e le liste di candidati ammesse, secondo l’ordine risultante dal sorteggio, effettuato in data 17/05/2024, dalla Commissione Elettorale Circondariale di Caltanissetta, come da verbale n. 29, adottato in pari data;"
+      }, {
+        "type" : "paragraph",
+        "pdfua_tag" : "P",
+        "id" : 17,
+        "page number" : 2,
+        "bounding box" : [ 56.8, 142.304, 82.72, 155.593 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 12.0,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "Visti:"
+      } ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 56.8, 123.504, 314.968, 136.793 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- gli atti di Programmazione del Consiglio Comunale:",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 56.8, 90.904, 538.372, 117.993 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- il Bilancio di Previsione Annuale 2023 e Pluriennale 2023-2025, esecutivo, approvato con deliberazione consiliare n. 48 del 31/07/2023;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 2,
+      "bounding box" : [ 56.8, 72.104, 499.816, 85.393 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- il DUP 2023/2025, esecutivo, approvato con deliberazione consiliare n. 47 del 31/07/2023;",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 39,
+    "level" : "2",
+    "page number" : 3,
+    "bounding box" : [ 56.8, 745.804, 538.096, 805.493 ],
+    "numbering style" : "unordered",
+    "number of list items" : 2,
+    "previous list id" : 37,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 56.8, 778.404, 537.604, 805.493 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- il PIAO per il triennio 2024/2026, approvato con deliberazione di Giunta Comunale n. 50 del 15/05/2024;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 56.8, 745.804, 538.096, 772.893 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- la deliberazione di Giunta Comunale n. 85 del 21 agosto 2023, avente per oggetto: “Piano Esecutivo di Gestione PEG 2023/2025”;",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 40,
+    "page number" : 3,
+    "bounding box" : [ 56.8, 713.204, 538.144, 740.293 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "la deliberazione di Giunta Comunale n. 173 del 31 dicembre 2019, avente per oggetto: “Nuova struttura organizzativa”;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 41,
+    "page number" : 3,
+    "bounding box" : [ 56.8, 653.004, 538.084, 707.693 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "la Determinazione Sindacale n° 70 del 13/10/2021, recante in oggetto “Conferma funzioni dirigenziali afferenti la Direzione IV e la Direzione VII”, per effetto della quale l'incarico della Direzione Affari Demografici è stato conferito al Dott. Giuseppe Intilla, Dirigente della Direzione VII;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 42,
+    "page number" : 3,
+    "bounding box" : [ 56.8, 620.404, 538.216, 647.493 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "il Decreto Sindacale n. 123/2023, di conferimento dell'incarico dirigenziale della Direzione VII, comprendente ad interim i Servizi Demografici, al Dott. Giuseppe Intilla;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 43,
+    "page number" : 3,
+    "bounding box" : [ 56.8, 493.804, 537.664, 614.893 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "il vigente Statuto Comunale; l’art. 51 della L. n. 142/90 e s.m.i., così come recepito dalla L.R. n. 48/91 e s.m.i.; il Testo Unico delle Leggi sull’ordinamento degli Enti Locali, approvato con il citato D.Lgs. n. 267/2000 e s.m.i.; la L.R. n. 12/2011 e s.m.i.; il D.P.R. n. 207/2010; la L.R. n. 30/2000 e s.m.i.;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 44,
+    "page number" : 3,
+    "bounding box" : [ 56.8, 428.604, 537.856, 469.493 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Visto il parere di regolarità tecnica, attestante la regolarità tecnico-amministrativa, ai sensi degli artt. 49 e 147 bis del succitato D.Lgs. n. 267/2000 (vigente T.U.E.L.), siccome introdotto nell'Ordinamento Regionale, reso dal Responsabile del Servizio Elettorale;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 45,
+    "page number" : 3,
+    "bounding box" : [ 56.8, 363.404, 537.976, 404.293 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Rilevato che il presente provvedimento non necessita di attestazione della copertura finanziaria della spesa in quanto non comporta oneri riflessi diretti o indiretti sulla situazione economicofinanziaria o sul patrimonio dell'Ente,"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H3",
+    "id" : 46,
+    "level" : "Subtitle",
+    "page number" : 3,
+    "bounding box" : [ 270.9, 326.921, 324.602, 339.102 ],
+    "heading level" : 3,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 11.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "PROPONE"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 47,
+    "page number" : 3,
+    "bounding box" : [ 56.8, 247.904, 538.288, 302.593 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Assegnare gli spazi stabiliti con deliberazione di Giunta Comunale n. 60 del 10/05/2024, in sezioni delle dimensioni di mt. 0,70 di base per mt. 1,00 di altezza, sormontati dalla scritta “SINDACO”, alle seguenti candidature uninominali alla carica di Sindaco, elencate secondo l'ordine stabilito dal predetto sorteggio:"
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 48,
+    "level" : "3",
+    "page number" : 3,
+    "bounding box" : [ 74.8, 101.321, 407.488, 216.702 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 5,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 74.8, 204.521, 333.084, 216.702 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 11.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "1. FAILLA ANGELO, nato a Caltanissetta il 16/07/1964,",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 74.8, 178.721, 407.488, 190.902 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 11.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "2. TESAURO WALTER CALOGERO, nato a Caltanissetta il 27/02/1962,",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 74.8, 152.921, 334.338, 165.102 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 11.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "3. GAMBINO ROBERTO, nato a Palermo il 15/02/1962,",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 74.8, 127.121, 379.152, 139.302 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 11.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "4. RIGGI IGNAZIO ANTONIO, nato a Caltanissetta il 03/01/1966,",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 3,
+      "bounding box" : [ 74.8, 101.321, 366.722, 113.502 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 11.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "5. PETITTO ANNALISA MARIA, nata a Catania il 14/12/1977;",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 50,
+    "page number" : 4,
+    "bounding box" : [ 56.8, 764.604, 537.772, 805.493 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Dare atto che, qualora non fosse possibile destinare un unico spazio per comprendervi il tabellone o riquadro nelle misure prescritte, si procederà ai sensi dell’articolo 2, comma 3, della Legge n. 212 del 4 aprile 1956;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 51,
+    "page number" : 4,
+    "bounding box" : [ 56.8, 727.004, 103.396, 740.293 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Attestare:"
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 52,
+    "level" : "2",
+    "page number" : 4,
+    "bounding box" : [ 56.8, 526.404, 538.58, 721.493 ],
+    "numbering style" : "unordered",
+    "number of list items" : 5,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 4,
+      "bounding box" : [ 56.8, 694.404, 537.436, 721.493 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- la regolarità e la correttezza del presente atto, ai sensi e per gli effetti di quanto dispone l’art. 147 bis del D.Lgs. n. 267/2000 e s.m.i.;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 4,
+      "bounding box" : [ 56.8, 634.204, 538.58, 688.893 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- che, in merito al presente atto, non vi è conflitto di interessi, ai sensi dell’art. 6 della L.R. n. 7/2019 e dell’art. 6 del D.P.R. n. 62/2013, e che sono state osservate le misure di prevenzione della corruzione previste nella sezione 2.3 “Rischi corruttivi e trasparenza” del PIAO per il triennio 2024/2026, approvato con deliberazione di Giunta Comunale n. 50 del 15/04/2024;",
+      "kids" : [ {
+        "type" : "paragraph",
+        "pdfua_tag" : "P",
+        "id" : 12,
+        "page number" : 4,
+        "bounding box" : [ 56.8, 582.804, 538.096, 609.893 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 12.0,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "Dare mandato all'Ufficio Elettorale di trasmettere copia del presente provvedimento, per quanto di rispettiva competenza:"
+      } ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 4,
+      "bounding box" : [ 56.8, 564.004, 294.496, 577.293 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "-alla Direzione LL.PP. - Servizi Tecnici elettorali,",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 4,
+      "bounding box" : [ 56.8, 545.204, 225.304, 558.493 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "-alla Direzione Polizia Municipale,",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 4,
+      "bounding box" : [ 56.8, 526.404, 244.396, 539.693 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "-alla Prefettura/U.T.G. di Caltanissetta;",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 53,
+    "page number" : 4,
+    "bounding box" : [ 56.8, 461.204, 538.072, 502.093 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Provvedere, data l'urgenza di assegnare gli spazi elettorali alle liste dei candidati per l'elezione del Consiglio Comunale, a dichiarare la presente deliberazione immediatamente esecutiva, a norma dell'art. 12 della L.R. n. 44/91 e s.m.i.;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 54,
+    "page number" : 4,
+    "bounding box" : [ 56.8, 396.004, 538.192, 436.893 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Pubblicare il presente provvedimento all'Albo Pretorio e sul sito istituzionale del Comune, alla voce “Amministrazione Trasparente” - sezione provvedimenti - sottosezione provvedimenti organo ad indirizzo politico;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 55,
+    "page number" : 4,
+    "bounding box" : [ 56.8, 344.604, 537.808, 371.693 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Avvertire, ai sensi degli artt. 3, quarto comma, e 5, terzo comma, della Legge 7 agosto 1990, n. 241 e s.m.i., siccome introdotta nell'Ordinamento Regionale, che:"
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 56,
+    "level" : "3",
+    "page number" : 4,
+    "bounding box" : [ 56.8, 138.604, 538.048, 339.093 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 3,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 4,
+      "bounding box" : [ 56.8, 298.204, 538.048, 339.093 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "1. Il responsabile del presente procedimento è la dott.ssa Angela Maria Di Gesu - Responsabile della Posizione Organizzativa dei Servizi Demografici, e-mail: a.digesu@comune.caltanissetta.it, giusta D.D. n. 1704 del 19/11/2020;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 4,
+      "bounding box" : [ 56.8, 265.204, 417.568, 278.493 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "2. I soggetti titolari del potere sostitutivo del presente provvedimento sono:",
+      "kids" : [ {
+        "type" : "list",
+        "pdfua_tag" : "L",
+        "id" : 11,
+        "level" : "2",
+        "page number" : 4,
+        "bounding box" : [ 56.8, 171.604, 538.384, 245.493 ],
+        "numbering style" : "unordered",
+        "number of list items" : 2,
+        "list items" : [ {
+          "type" : "list item",
+          "pdfua_tag" : "LI",
+          "page number" : 4,
+          "bounding box" : [ 56.8, 218.404, 538.384, 245.493 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "- per il Responsabile del procedimento, il Dirigente dott. Giuseppe Intilla, e-mail: g.intilla@comune.caltanissetta.it, giusta D.S. n. 123 del 22/12/2023;",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "pdfua_tag" : "LI",
+          "page number" : 4,
+          "bounding box" : [ 56.8, 171.604, 537.952, 198.693 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "- per il Dirigente, il Segretario Generale dell'Ente, Avv. Calogero Ferlisi, e-mail: segretariogenerale@comune.caltanissetta.it, giusta D.S. n. 54 del 21/10/2022;",
+          "kids" : [ ]
+        } ]
+      } ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 4,
+      "bounding box" : [ 56.8, 138.604, 289.636, 151.893 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "3. Contro il presente provvedimento è ammesso:",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 57,
+    "level" : "2",
+    "page number" : 4,
+    "bounding box" : [ 56.8, 91.804, 538.012, 118.893 ],
+    "numbering style" : "unordered",
+    "number of list items" : 1,
+    "next list id" : 59,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 4,
+      "bounding box" : [ 56.8, 91.804, 538.012, 118.893 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- ricorso amministrativo in opposizione entro 30 giorni dall'avvenuta pubblicazione o notificazione se prevista;",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 59,
+    "level" : "2",
+    "page number" : 5,
+    "bounding box" : [ 56.8, 726.321, 537.808, 805.502 ],
+    "numbering style" : "unordered",
+    "number of list items" : 1,
+    "previous list id" : 57,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 5,
+      "bounding box" : [ 56.8, 726.321, 537.808, 805.502 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 11.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- ricorso giurisdizionale, nel termine di 60 giorni dalla data di scadenza di pubblicazione all’albo o dalla data di notificazione o comunicazione se prevista, al Tribunale Amministrativo Regionale di Palermo (D.Lgs. 2.7.2010, n. 104), oppure, in via alternativa, ricorso straordinario al Presidente della Regione Siciliana, da proporre entro 120 giorni dalla di scadenza di pubblicazione all’albo o dalla data di notificazione o comunicazione se prevista (art. 23, co. 4, dello Statuto Regionale, approvato con r.d.lgs. 15.5.1946, n. 455 e convertito in Legge Costituzionale 26.2.1948, n. 2).",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H3",
+    "id" : 60,
+    "level" : "Subtitle",
+    "page number" : 5,
+    "bounding box" : [ 223.2, 682.021, 351.163, 694.202 ],
+    "heading level" : 3,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 11.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "LA GIUNTA COMUNALE"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 61,
+    "page number" : 5,
+    "bounding box" : [ 56.8, 639.429, 537.809, 663.157 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.5,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "VISTA la proposta di deliberazione, come presentata e munita dei pareri favorevoli, previsti dalla L.R. n. 48/91 e dalla L.R. n. 30/2000;"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 62,
+    "page number" : 5,
+    "bounding box" : [ 56.8, 591.029, 422.182, 626.857 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.5,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "RITENUTO dover approvare l’atto nello schema predisposto senza alcuna variazione; CON VOTAZIONE unanime espressa palesemente:"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 63,
+    "page number" : 5,
+    "bounding box" : [ 56.8, 518.429, 498.136, 578.457 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.5,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "DELIBERA DI APPROVARE la proposta di deliberazione suestesa Reg. n° 69 del 18/05/2024; DI DICHIARARE, con separata e unanime votazione, il presente atto, immediatamente eseguibilecutivo."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 64,
+    "page number" : 5,
+    "bounding box" : [ 56.8, 445.829, 537.332, 481.657 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.5,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "L'originale del brogliaccio di Giunta Comunale è stato firmato da tutti i componenti della Giunta presenti alla seduta, ed è conservato agli atti dell'ufficio deliberazioni. Il presente verbale viene sottoscritto dal Segretario Generale, in qualità di segretario della seduta, e dal Sindaco."
+  }, {
+    "type" : "table",
+    "pdfua_tag" : "Table",
+    "id" : 65,
+    "level" : "3",
+    "page number" : 5,
+    "bounding box" : [ 56.65, 385.15, 538.65, 421.65 ],
+    "number of rows" : 2,
+    "number of columns" : 2,
+    "rows" : [ {
+      "type" : "table row",
+      "row number" : 1,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 5,
+        "bounding box" : [ 56.775, 403.4, 297.7, 421.525 ],
+        "row number" : 1,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 1,
+          "page number" : 5,
+          "bounding box" : [ 105.4, 406.121, 249.126, 418.302 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 11.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "IL SEGRETARIO GENERALE"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 5,
+        "bounding box" : [ 297.7, 403.4, 538.575, 421.525 ],
+        "row number" : 1,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 2,
+          "page number" : 5,
+          "bounding box" : [ 387.5, 406.121, 449.001, 418.302 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 11.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "IL SINDACO"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 2,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 5,
+        "bounding box" : [ 56.775, 385.225, 297.7, 403.4 ],
+        "row number" : 2,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 3,
+          "page number" : 5,
+          "bounding box" : [ 129.2, 387.921, 225.241, 400.102 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 11.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Dott. Calogero Ferlisi"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TD",
+        "page number" : 5,
+        "bounding box" : [ 297.7, 385.225, 538.575, 403.4 ],
+        "row number" : 2,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 4,
+          "page number" : 5,
+          "bounding box" : [ 364.9, 387.921, 471.402, 400.102 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 11.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Arch. Roberto Gambino"
+        } ]
+      } ]
+    } ]
+  } ]
+}

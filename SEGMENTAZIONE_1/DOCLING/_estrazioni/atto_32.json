@@ -1,0 +1,2424 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.10.0",
+  "name": "atto_32",
+  "origin": {
+    "mimetype": "application/pdf",
+    "binary_hash": 7476469344094101038,
+    "filename": "atto_32.pdf"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/pictures/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/33"
+      },
+      {
+        "$ref": "#/texts/34"
+      },
+      {
+        "$ref": "#/texts/35"
+      },
+      {
+        "$ref": "#/texts/36"
+      },
+      {
+        "$ref": "#/texts/37"
+      },
+      {
+        "$ref": "#/texts/38"
+      },
+      {
+        "$ref": "#/texts/39"
+      },
+      {
+        "$ref": "#/texts/40"
+      },
+      {
+        "$ref": "#/texts/41"
+      },
+      {
+        "$ref": "#/texts/42"
+      },
+      {
+        "$ref": "#/texts/43"
+      },
+      {
+        "$ref": "#/texts/44"
+      },
+      {
+        "$ref": "#/texts/45"
+      },
+      {
+        "$ref": "#/texts/46"
+      },
+      {
+        "$ref": "#/texts/47"
+      },
+      {
+        "$ref": "#/texts/48"
+      },
+      {
+        "$ref": "#/texts/49"
+      },
+      {
+        "$ref": "#/texts/50"
+      },
+      {
+        "$ref": "#/texts/51"
+      },
+      {
+        "$ref": "#/texts/52"
+      },
+      {
+        "$ref": "#/texts/53"
+      },
+      {
+        "$ref": "#/texts/54"
+      },
+      {
+        "$ref": "#/texts/55"
+      },
+      {
+        "$ref": "#/texts/56"
+      },
+      {
+        "$ref": "#/texts/57"
+      },
+      {
+        "$ref": "#/texts/58"
+      },
+      {
+        "$ref": "#/texts/59"
+      },
+      {
+        "$ref": "#/texts/60"
+      },
+      {
+        "$ref": "#/texts/61"
+      },
+      {
+        "$ref": "#/texts/62"
+      },
+      {
+        "$ref": "#/texts/63"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/68"
+      },
+      {
+        "$ref": "#/groups/2"
+      },
+      {
+        "$ref": "#/texts/72"
+      },
+      {
+        "$ref": "#/texts/73"
+      },
+      {
+        "$ref": "#/texts/74"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
+        },
+        {
+          "$ref": "#/texts/8"
+        },
+        {
+          "$ref": "#/texts/9"
+        },
+        {
+          "$ref": "#/texts/10"
+        },
+        {
+          "$ref": "#/texts/11"
+        },
+        {
+          "$ref": "#/texts/12"
+        },
+        {
+          "$ref": "#/texts/13"
+        },
+        {
+          "$ref": "#/texts/14"
+        },
+        {
+          "$ref": "#/texts/15"
+        },
+        {
+          "$ref": "#/texts/16"
+        },
+        {
+          "$ref": "#/texts/17"
+        },
+        {
+          "$ref": "#/texts/18"
+        },
+        {
+          "$ref": "#/texts/19"
+        },
+        {
+          "$ref": "#/texts/20"
+        },
+        {
+          "$ref": "#/texts/21"
+        },
+        {
+          "$ref": "#/texts/22"
+        },
+        {
+          "$ref": "#/texts/23"
+        },
+        {
+          "$ref": "#/texts/24"
+        },
+        {
+          "$ref": "#/texts/25"
+        },
+        {
+          "$ref": "#/texts/26"
+        },
+        {
+          "$ref": "#/texts/27"
+        },
+        {
+          "$ref": "#/texts/28"
+        },
+        {
+          "$ref": "#/texts/29"
+        },
+        {
+          "$ref": "#/texts/30"
+        },
+        {
+          "$ref": "#/texts/31"
+        },
+        {
+          "$ref": "#/texts/32"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "form_area"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/64"
+        },
+        {
+          "$ref": "#/texts/65"
+        },
+        {
+          "$ref": "#/texts/66"
+        },
+        {
+          "$ref": "#/texts/67"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/69"
+        },
+        {
+          "$ref": "#/texts/70"
+        },
+        {
+          "$ref": "#/texts/71"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 157.91099597,
+            "t": 724.6120029599999,
+            "r": 441.93299596999987,
+            "b": 709.8072756872726,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            36
+          ]
+        }
+      ],
+      "orig": "C I T TÀ   D I   C A M P O B A S S O",
+      "text": "C I T TÀ   D I   C A M P O B A S S O",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 176.65299607,
+            "t": 692.89400362,
+            "r": 421.69299607000005,
+            "b": 683.0241854381818,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            38
+          ]
+        }
+      ],
+      "orig": "DELIBERAZIONE  DELLA  GIUNTA  COMUNALE",
+      "text": "DELIBERAZIONE  DELLA  GIUNTA  COMUNALE",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 384.86999892999995,
+            "t": 643.0410065,
+            "r": 486.9829989299999,
+            "b": 633.9936731666667,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            19
+          ]
+        }
+      ],
+      "orig": "DELIBERAZIONE N. 84",
+      "text": "DELIBERAZIONE N. 84",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 47.94999934,
+            "t": 595.7660087900001,
+            "r": 515.6589962899998,
+            "b": 586.7186754566668,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            80
+          ]
+        }
+      ],
+      "orig": "OGGETTO: TERZA EDIZIONE DEL \"MUSICA ITALIA GRAND PRIZE\". CONCESSIONE CONTRIBUTO.",
+      "text": "OGGETTO: TERZA EDIZIONE DEL \"MUSICA ITALIA GRAND PRIZE\". CONCESSIONE CONTRIBUTO.",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 544.5660080300001,
+            "r": 555.5459992399999,
+            "b": 497.57267936666676,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            255
+          ]
+        }
+      ],
+      "orig": "L'anno  duemilaventisei il giorno  dieci del mese di aprile alle ore  9:12 in Campobasso, nella Sede Comunale. A  seguito  della  convocazione  disposta  dalla  Sindaca    Marialuisa  Forte  si  è  riunita  la  Giunta  Comunale  nelle persone dei Signori:",
+      "text": "L'anno  duemilaventisei il giorno  dieci del mese di aprile alle ore  9:12 in Campobasso, nella Sede Comunale. A  seguito  della  convocazione  disposta  dalla  Sindaca    Marialuisa  Forte  si  è  riunita  la  Giunta  Comunale  nelle persone dei Signori:"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 446.97300637000006,
+            "r": 111.41999924000001,
+            "b": 438.7481578851516,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            16
+          ]
+        }
+      ],
+      "orig": "Forte Marialuisa",
+      "text": "Forte Marialuisa"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 219.64999924000003,
+            "t": 446.97300637000006,
+            "r": 253.80999924000002,
+            "b": 438.7481578851516,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            7
+          ]
+        }
+      ],
+      "orig": "Sindaca",
+      "text": "Sindaca"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 304.69999924,
+            "t": 446.97300637000006,
+            "r": 341.07999923999995,
+            "b": 438.7481578851516,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "Presente",
+      "text": "Presente"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 429.47401345000003,
+            "r": 117.52999924,
+            "b": 421.2491649651516,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            17
+          ]
+        }
+      ],
+      "orig": "Chierchia Bibiana",
+      "text": "Chierchia Bibiana"
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 219.64999924,
+            "t": 429.47401345000003,
+            "r": 262.14999923999994,
+            "b": 421.2491649651516,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            9
+          ]
+        }
+      ],
+      "orig": "Assessore",
+      "text": "Assessore"
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 304.6999992399999,
+            "t": 429.47401345000003,
+            "r": 419.91999923999975,
+            "b": 421.2491649651516,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            27
+          ]
+        }
+      ],
+      "orig": "Presente in videoconferenza",
+      "text": "Presente in videoconferenza"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 411.97500527000005,
+            "r": 109.75999924000001,
+            "b": 403.7501567851516,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            15
+          ]
+        }
+      ],
+      "orig": "Cretella Simone",
+      "text": "Cretella Simone"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 219.64999924000003,
+            "t": 411.97500527000005,
+            "r": 262.13999923999995,
+            "b": 403.7501567851516,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            9
+          ]
+        }
+      ],
+      "orig": "Assessore",
+      "text": "Assessore"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 304.69999923999995,
+            "t": 411.97500527000005,
+            "r": 341.0799992399999,
+            "b": 403.7501567851516,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "Presente",
+      "text": "Presente"
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 394.4760123500001,
+            "r": 100.88999924000001,
+            "b": 386.2511638651516,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            10
+          ]
+        }
+      ],
+      "orig": "Maio Mimmo",
+      "text": "Maio Mimmo"
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 219.64999924,
+            "t": 394.4760123500001,
+            "r": 262.13999923999995,
+            "b": 386.2511638651516,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            9
+          ]
+        }
+      ],
+      "orig": "Assessore",
+      "text": "Assessore"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 304.69999923999995,
+            "t": 394.4760123500001,
+            "r": 419.9199992399998,
+            "b": 386.2511638651516,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            27
+          ]
+        }
+      ],
+      "orig": "Presente in videoconferenza",
+      "text": "Presente in videoconferenza"
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 376.9770041700001,
+            "r": 129.20999924,
+            "b": 368.75215568515165,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            19
+          ]
+        }
+      ],
+      "orig": "Trivisonno Giuseppe",
+      "text": "Trivisonno Giuseppe"
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 219.64999924,
+            "t": 376.9770041700001,
+            "r": 275.73999924,
+            "b": 368.75215568515165,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            12
+          ]
+        }
+      ],
+      "orig": "Vice Sindaco",
+      "text": "Vice Sindaco"
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 304.69999923999995,
+            "t": 376.9770041700001,
+            "r": 341.0799992399999,
+            "b": 368.75215568515165,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "Presente",
+      "text": "Presente"
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 359.47801125000007,
+            "r": 104.17999924,
+            "b": 351.2531627651516,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            14
+          ]
+        }
+      ],
+      "orig": "Fraracci Adele",
+      "text": "Fraracci Adele"
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 219.64999924,
+            "t": 359.47801125000007,
+            "r": 262.13999923999995,
+            "b": 351.2531627651516,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            9
+          ]
+        }
+      ],
+      "orig": "Assessore",
+      "text": "Assessore"
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 304.69999923999995,
+            "t": 359.47801125000007,
+            "r": 419.9199992399998,
+            "b": 351.2531627651516,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            27
+          ]
+        }
+      ],
+      "orig": "Presente in videoconferenza",
+      "text": "Presente in videoconferenza"
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 341.9790030700001,
+            "r": 132.51999924,
+            "b": 333.75415458515164,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            19
+          ]
+        }
+      ],
+      "orig": "Marcheggiani Angelo",
+      "text": "Marcheggiani Angelo"
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 219.64999924000003,
+            "t": 341.9790030700001,
+            "r": 262.13999923999995,
+            "b": 333.75415458515164,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            9
+          ]
+        }
+      ],
+      "orig": "Assessore",
+      "text": "Assessore"
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 304.69999923999995,
+            "t": 341.9790030700001,
+            "r": 419.9199992399998,
+            "b": 333.75415458515164,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            27
+          ]
+        }
+      ],
+      "orig": "Presente in videoconferenza",
+      "text": "Presente in videoconferenza"
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 324.47999489000006,
+            "r": 134.74999924,
+            "b": 316.25514640515166,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            21
+          ]
+        }
+      ],
+      "orig": "Panichella Giuseppina",
+      "text": "Panichella Giuseppina"
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 219.64999924000003,
+            "t": 324.47999489000006,
+            "r": 262.13999923999995,
+            "b": 316.25514640515166,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            9
+          ]
+        }
+      ],
+      "orig": "Assessore",
+      "text": "Assessore"
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 304.69999923999995,
+            "t": 324.47999489000006,
+            "r": 341.0799992399999,
+            "b": 316.25514640515166,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "Presente",
+      "text": "Presente"
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 306.9810019700001,
+            "r": 104.73999923999999,
+            "b": 298.7561534851516,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            14
+          ]
+        }
+      ],
+      "orig": "Bucci Raffaele",
+      "text": "Bucci Raffaele"
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 219.64999924,
+            "t": 306.9810019700001,
+            "r": 262.13999923999995,
+            "b": 298.7561534851516,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            9
+          ]
+        }
+      ],
+      "orig": "Assessore",
+      "text": "Assessore"
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 304.69999923999995,
+            "t": 306.9810019700001,
+            "r": 341.0799992399999,
+            "b": 298.7561534851516,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "Presente",
+      "text": "Presente"
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 280.9830161300001,
+            "r": 191.41999924,
+            "b": 272.7581676451516,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            39
+          ]
+        }
+      ],
+      "orig": "presenti num.    9 e assenti num.    0.",
+      "text": "presenti num.    9 e assenti num.    0."
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 257.71299976,
+            "r": 450.9829992400001,
+            "b": 248.6656664266668,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            87
+          ]
+        }
+      ],
+      "orig": "Con la partecipazione del Segretario Generale del Comune Dirigente Anna Maria Guglielmi",
+      "text": "Con la partecipazione del Segretario Generale del Comune Dirigente Anna Maria Guglielmi"
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 207.1170219700001,
+            "r": 516.59499924,
+            "b": 198.0696886366668,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            112
+          ]
+        }
+      ],
+      "orig": "Il Presidente, constatata la legalità dell'adunanza, invita la giunta alla trattazione dell'argomento in oggetto",
+      "text": "Il Presidente, constatata la legalità dell'adunanza, invita la giunta alla trattazione dell'argomento in oggetto"
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 137.20399857,
+            "t": 794.5619999099999,
+            "r": 462.64399857000006,
+            "b": 779.7572726372726,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            40
+          ]
+        }
+      ],
+      "orig": "Deliberazione Numero 84  del  10-04-2026",
+      "text": "Deliberazione Numero 84  del  10-04-2026",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 758.96499865,
+            "r": 510.4590007699999,
+            "b": 749.9176653166667,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            80
+          ]
+        }
+      ],
+      "orig": "OGGETTO: TERZA EDIZIONE DEL \"MUSICA ITALIA GRAND PRIZE\". CONCESSIONE CONTRIBUTO.",
+      "text": "OGGETTO: TERZA EDIZIONE DEL \"MUSICA ITALIA GRAND PRIZE\". CONCESSIONE CONTRIBUTO."
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 226.67100144,
+            "t": 706.19499849,
+            "r": 368.6790014399999,
+            "b": 696.3251803081818,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            18
+          ]
+        }
+      ],
+      "orig": "LA GIUNTA COMUNALE",
+      "text": "LA GIUNTA COMUNALE",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 678.59699892,
+            "r": 555.8019992399999,
+            "b": 627.3301823381818,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            390
+          ]
+        }
+      ],
+      "orig": "Su  proposta  dell'Assessore  alla  Cultura,  prof.ssa  Adele  Fraracci,  in  base  all'istruttoria  del  Dirigente dell'Area  Servizi  Culturali  e  Servizi  Demografici  -  Settore  Politiche  Culturali,  del  Turismo  e  della Pubblica  Istruzione,  avv.  Annamaria  Macchiarola,  ai  sensi  del  decreto  sindacale  n.  7  del  31/03/2026  Registro Generale Decreti n. 7 del 31/03/2026;",
+      "text": "Su  proposta  dell'Assessore  alla  Cultura,  prof.ssa  Adele  Fraracci,  in  base  all'istruttoria  del  Dirigente dell'Area  Servizi  Culturali  e  Servizi  Demografici  -  Settore  Politiche  Culturali,  del  Turismo  e  della Pubblica  Istruzione,  avv.  Annamaria  Macchiarola,  ai  sensi  del  decreto  sindacale  n.  7  del  31/03/2026  Registro Generale Decreti n. 7 del 31/03/2026;"
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 609.60199617,
+            "r": 555.8019992399999,
+            "b": 544.5361759781817,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            468
+          ]
+        }
+      ],
+      "orig": "Premesso che tra gli obiettivi strategici dell'Amministrazione Comunale vi è quello di incentivare ogni iniziativa/attività tesa alla promozione e alla valorizzazione del territorio, favorendo la crescita sociale e culturale della comunità locale, nella convinzione che le attività artistiche, culturali e musicali abbiano, oltre  che  una  marcata  valenza  di  attrazione  turistico-culturale,  anche  una  forte  valenza  sul  piano  dello sviluppo socio-economico;",
+      "text": "Premesso che tra gli obiettivi strategici dell'Amministrazione Comunale vi è quello di incentivare ogni iniziativa/attività tesa alla promozione e alla valorizzazione del territorio, favorendo la crescita sociale e culturale della comunità locale, nella convinzione che le attività artistiche, culturali e musicali abbiano, oltre  che  una  marcata  valenza  di  attrazione  turistico-culturale,  anche  una  forte  valenza  sul  piano  dello sviluppo socio-economico;"
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 526.8080050799999,
+            "r": 555.78999924,
+            "b": 461.74218488818167,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            509
+          ]
+        }
+      ],
+      "orig": "Considerato che  con  nota  acquisita  al  protocollo  generale  dell'Ente  in  data  01/04/2026  prot.  n.  24080 l'Associazione Culturale Musica Cultura e Territorio ha chiesto a questa Amministrazione un contributo economico di Euro 2.000,00 a parziale copertura delle spese occorrenti per la realizzazione della terza edizione  del  'Musica  Italia  Grand  Prize',  in  programma  a  Campobasso  dal  13  al  19  Aprile  2026,  da destinare a n. 2 borse di studio da assegnare nella sezione 'Grand Prize';",
+      "text": "Considerato che  con  nota  acquisita  al  protocollo  generale  dell'Ente  in  data  01/04/2026  prot.  n.  24080 l'Associazione Culturale Musica Cultura e Territorio ha chiesto a questa Amministrazione un contributo economico di Euro 2.000,00 a parziale copertura delle spese occorrenti per la realizzazione della terza edizione  del  'Musica  Italia  Grand  Prize',  in  programma  a  Campobasso  dal  13  al  19  Aprile  2026,  da destinare a n. 2 borse di studio da assegnare nella sezione 'Grand Prize';"
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 444.01399874,
+            "r": 555.80199924,
+            "b": 420.3451817281818,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            172
+          ]
+        }
+      ],
+      "orig": "Visto il  preventivo  spese  relativo  alla  realizzazione  della  predetta  iniziativa,  pari  all'importo  di  euro 50.000,00, di cui alla suindicata nota prot. n. 24080;",
+      "text": "Visto il  preventivo  spese  relativo  alla  realizzazione  della  predetta  iniziativa,  pari  all'importo  di  euro 50.000,00, di cui alla suindicata nota prot. n. 24080;"
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 402.61699555999996,
+            "r": 555.8019992400001,
+            "b": 365.1491787581818,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            239
+          ]
+        }
+      ],
+      "orig": "Dato atto che il 'Musica Italia Grand Prize' è un concorso internazionale di esecuzione musicale, aperto alla partecipazione di musicisti di tutte le età e nazionalità e a concorrenti di tutte le formazioni fino a un massimo di 6 elementi;",
+      "text": "Dato atto che il 'Musica Italia Grand Prize' è un concorso internazionale di esecuzione musicale, aperto alla partecipazione di musicisti di tutte le età e nazionalità e a concorrenti di tutte le formazioni fino a un massimo di 6 elementi;"
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 347.42101167999994,
+            "r": 555.78999924,
+            "b": 309.95319487818176,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            332
+          ]
+        }
+      ],
+      "orig": "Considerato che  la  manifestazione  è  volta  a  dare  un  forte  impulso  alla  crescita  tecnica,  artistica  e professionale sia dei giovani talent che dei musicisti professionisti della musica classica, in cerca di nuove possibilità e di nuovi circuiti in cui accreditarsi, aumentando l'ampiezza del loro network professionale;",
+      "text": "Considerato che  la  manifestazione  è  volta  a  dare  un  forte  impulso  alla  crescita  tecnica,  artistica  e professionale sia dei giovani talent che dei musicisti professionisti della musica classica, in cerca di nuove possibilità e di nuovi circuiti in cui accreditarsi, aumentando l'ampiezza del loro network professionale;"
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 292.2249972699999,
+            "r": 555.80199924,
+            "b": 254.7571804681818,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            305
+          ]
+        }
+      ],
+      "orig": "Tenuto  conto che  'Perfezione  tecnica,  qualità  interpretative,  capacità  di  fraseggio,  presenza  scenica, comunicativa, empatia, abilità nel concepire programmi musicali interessanti' sono le qualità principali su cui si baseranno le valutazioni tecniche delle prestigiose Giurie del Musica Italia;",
+      "text": "Tenuto  conto che  'Perfezione  tecnica,  qualità  interpretative,  capacità  di  fraseggio,  presenza  scenica, comunicativa, empatia, abilità nel concepire programmi musicali interessanti' sono le qualità principali su cui si baseranno le valutazioni tecniche delle prestigiose Giurie del Musica Italia;"
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 237.02901339000005,
+            "r": 555.80199924,
+            "b": 213.36019637818185,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            181
+          ]
+        }
+      ],
+      "orig": "Preso atto che il concorso si avvale del partenariato della Regione Molise, del Conservatorio Statale di Musica 'L. Perosi', del Convitto Nazionale 'M. Pagano' e di sponsor privati;",
+      "text": "Preso atto che il concorso si avvale del partenariato della Regione Molise, del Conservatorio Statale di Musica 'L. Perosi', del Convitto Nazionale 'M. Pagano' e di sponsor privati;"
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 195.63197968999998,
+            "r": 555.80199924,
+            "b": 171.9631626781818,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            144
+          ]
+        }
+      ],
+      "orig": "Dato atto della  rilevanza  culturale  e  artistica  dell'iniziativa  in  questione  avente  anche  una  funzione  di promozione del territorio;",
+      "text": "Dato atto della  rilevanza  culturale  e  artistica  dell'iniziativa  in  questione  avente  anche  una  funzione  di promozione del territorio;"
+    },
+    {
+      "self_ref": "#/texts/47",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 154.23500704000003,
+            "r": 555.80199924,
+            "b": 102.96819045818177,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            338
+          ]
+        }
+      ],
+      "orig": "Considerato che l'art. 5, lett. b ) , del Regolamento comunale per la concessione di sovvenzioni, contributi e attribuzioni di vantaggi economici consente l'intervento finanziario del Comune 'per l'effettuazione di manifestazioni, iniziative e progetti di interesse diretto del Comune o comunque relative alla cittadinanza del Capoluogo';",
+      "text": "Considerato che l'art. 5, lett. b ) , del Regolamento comunale per la concessione di sovvenzioni, contributi e attribuzioni di vantaggi economici consente l'intervento finanziario del Comune 'per l'effettuazione di manifestazioni, iniziative e progetti di interesse diretto del Comune o comunque relative alla cittadinanza del Capoluogo';"
+    },
+    {
+      "self_ref": "#/texts/48",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 85.24001192000003,
+            "r": 555.7899992400002,
+            "b": 61.57119490818184,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            223
+          ]
+        }
+      ],
+      "orig": "Visto l'art.  5,  lett.  e),  del  precitato  Regolamento  comunale,  modificato  con  delibera  di  C.C.  n.  51  del 9/10/2003, che prevede che l'intervento del Comune per le concessioni di cui alla suddetta lett. b) 'può",
+      "text": "Visto l'art.  5,  lett.  e),  del  precitato  Regolamento  comunale,  modificato  con  delibera  di  C.C.  n.  51  del 9/10/2003, che prevede che l'intervento del Comune per le concessioni di cui alla suddetta lett. b) 'può"
+    },
+    {
+      "self_ref": "#/texts/49",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 132.30800247,
+            "t": 54.85397320000004,
+            "r": 465.29000246999993,
+            "b": 47.45160956363634,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            75
+          ]
+        }
+      ],
+      "orig": "DELIBERA DI GIUNTA n. 84 del 10-04-2026  -  pag. 2  -  COMUNE DI CAMPOBASSO",
+      "text": "DELIBERA DI GIUNTA n. 84 del 10-04-2026  -  pag. 2  -  COMUNE DI CAMPOBASSO"
+    },
+    {
+      "self_ref": "#/texts/50",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 796.19100069,
+            "r": 555.78999924,
+            "b": 758.7231838881818,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            241
+          ]
+        }
+      ],
+      "orig": "riguardare massimo il 30% della spesa preventivata per la manifestazione, l'iniziativa o il progetto' e che 'il  contributo  non  può  in  ogni  caso  essere  superiore  alla  differenza  tra  le  spese  sostenute  ed  i  ricavi conseguiti';",
+      "text": "riguardare massimo il 30% della spesa preventivata per la manifestazione, l'iniziativa o il progetto' e che 'il  contributo  non  può  in  ogni  caso  essere  superiore  alla  differenza  tra  le  spese  sostenute  ed  i  ricavi conseguiti';"
+    },
+    {
+      "self_ref": "#/texts/51",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 740.99500154,
+            "r": 562.9419992400002,
+            "b": 675.9291813481817,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            461
+          ]
+        }
+      ],
+      "orig": "Ritenuto che  tale  iniziativa  rientra  nelle  finalità  istituzionali  dell'Ente  in  quanto  mira  a  conseguire l'interesse della collettività cittadina, conformemente all'art. 1, n. 5, dello Statuto Comunale, ai sensi del quale  il  Comune  si  impegna  a  promuovere  e  sviluppare  la  cultura  come  fattore  di  identità  cittadina  e regionale molisana ed è perfettamente coerente con gli scopi che si propone di realizzare l'Assessorato alla Cultura;",
+      "text": "Ritenuto che  tale  iniziativa  rientra  nelle  finalità  istituzionali  dell'Ente  in  quanto  mira  a  conseguire l'interesse della collettività cittadina, conformemente all'art. 1, n. 5, dello Statuto Comunale, ai sensi del quale  il  Comune  si  impegna  a  promuovere  e  sviluppare  la  cultura  come  fattore  di  identità  cittadina  e regionale molisana ed è perfettamente coerente con gli scopi che si propone di realizzare l'Assessorato alla Cultura;"
+    },
+    {
+      "self_ref": "#/texts/52",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 658.2009952000001,
+            "r": 562.9419992400001,
+            "b": 620.7331783981818,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            279
+          ]
+        }
+      ],
+      "orig": "Ritenuto ,  altresì,  che  la  partecipazione  dell'Ente  alla  realizzazione  di  iniziative  culturali  di  particolare rilievo artistico e mediatico rappresenta un efficace strumento di promozione dell'immagine della città e di sostegno alle attività culturali del territorio;",
+      "text": "Ritenuto ,  altresì,  che  la  partecipazione  dell'Ente  alla  realizzazione  di  iniziative  culturali  di  particolare rilievo artistico e mediatico rappresenta un efficace strumento di promozione dell'immagine della città e di sostegno alle attività culturali del territorio;"
+    },
+    {
+      "self_ref": "#/texts/53",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 603.00499605,
+            "r": 555.80199924,
+            "b": 565.5371792481818,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            300
+          ]
+        }
+      ],
+      "orig": "Ritenuto , in considerazione della rilevanza di detta iniziativa, di prevedere un contributo di euro 2.000,00 per la realizzazione della terza edizione del 'Musica Italia Grand Prize', in programma a Campobasso dal 13 al 19 Aprile 2026, a cura dell'Associazione Culturale Musica Cultura e Territorio;",
+      "text": "Ritenuto , in considerazione della rilevanza di detta iniziativa, di prevedere un contributo di euro 2.000,00 per la realizzazione della terza edizione del 'Musica Italia Grand Prize', in programma a Campobasso dal 13 al 19 Aprile 2026, a cura dell'Associazione Culturale Musica Cultura e Territorio;"
+    },
+    {
+      "self_ref": "#/texts/54",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 547.80899691,
+            "r": 555.78999924,
+            "b": 510.3411801081818,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            239
+          ]
+        }
+      ],
+      "orig": "Ritenuto , inoltre, di demandare al Responsabile del Servizio l'assunzione dell'impegno di spesa di euro 2.000,00 sul Capitolo 4660 - Bilancio 2026 - 'Contributi ad Enti Teatrali Istituti ed Associazioni per Finalità Culturali e Musicali';",
+      "text": "Ritenuto , inoltre, di demandare al Responsabile del Servizio l'assunzione dell'impegno di spesa di euro 2.000,00 sul Capitolo 4660 - Bilancio 2026 - 'Contributi ad Enti Teatrali Istituti ed Associazioni per Finalità Culturali e Musicali';"
+    },
+    {
+      "self_ref": "#/texts/55",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 492.6129977599999,
+            "r": 555.8019992399999,
+            "b": 468.94418074818174,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            147
+          ]
+        }
+      ],
+      "orig": "Ritenuto ,  poi,  di  erogare  la  predetta  somma  a  iniziativa  avvenuta  e  previa  presentazione  della rendicontazione delle spese sostenute;",
+      "text": "Ritenuto ,  poi,  di  erogare  la  predetta  somma  a  iniziativa  avvenuta  e  previa  presentazione  della rendicontazione delle spese sostenute;"
+    },
+    {
+      "self_ref": "#/texts/56",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 451.21599459,
+            "r": 555.8019992399998,
+            "b": 413.7481777881818,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            324
+          ]
+        }
+      ],
+      "orig": "Valutati gli  aspetti  sostanziali  della  presente  deliberazione,  il  Dirigente  del  Settore  competente  a rilasciare il parere di regolarità tecnica ai sensi dell'art. 49, comma 1, del D. Lgs. n.267/00, dichiara che la stessa comporta riflessi diretti sul bilancio e sulla situazione economica e finanziaria dell'Ente;",
+      "text": "Valutati gli  aspetti  sostanziali  della  presente  deliberazione,  il  Dirigente  del  Settore  competente  a rilasciare il parere di regolarità tecnica ai sensi dell'art. 49, comma 1, del D. Lgs. n.267/00, dichiara che la stessa comporta riflessi diretti sul bilancio e sulla situazione economica e finanziaria dell'Ente;"
+    },
+    {
+      "self_ref": "#/texts/57",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 396.02001069999994,
+            "r": 532.3899992400001,
+            "b": 386.15019251818177,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            107
+          ]
+        }
+      ],
+      "orig": "Visti i pareri favorevoli di regolarità tecnica e contabile resi ai sensi dell'art. 49 del D.Lgs. 267/2000;",
+      "text": "Visti i pareri favorevoli di regolarità tecnica e contabile resi ai sensi dell'art. 49 del D.Lgs. 267/2000;"
+    },
+    {
+      "self_ref": "#/texts/58",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 368.42198823999996,
+            "r": 210.18999924000005,
+            "b": 358.5521700581818,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            34
+          ]
+        }
+      ],
+      "orig": "Visto il vigente Statuto comunale;",
+      "text": "Visto il vigente Statuto comunale;"
+    },
+    {
+      "self_ref": "#/texts/59",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 340.8239963,
+            "r": 218.87799924000007,
+            "b": 330.9541781181818,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            37
+          ]
+        }
+      ],
+      "orig": "Visto il D.Lgs. n. 267/2000 e s.m.i.;",
+      "text": "Visto il D.Lgs. n. 267/2000 e s.m.i.;"
+    },
+    {
+      "self_ref": "#/texts/60",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 314.37599824999995,
+            "r": 552.9459992400001,
+            "b": 276.9081814481817,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            283
+          ]
+        }
+      ],
+      "orig": "Vista la Deliberazione di Giunta Comunale n. 105 del 13/04/2022 avente ad oggetto: \"Svolgimento delle sedute  di  Giunta  Comunale  in  audioconferenza,  videoconferenza  e/o  teleconferenza.  Aggiornamento linee guida approvate con Delibera di Giunta Comunale n. 59 del 09/03/2020\".",
+      "text": "Vista la Deliberazione di Giunta Comunale n. 105 del 13/04/2022 avente ad oggetto: \"Svolgimento delle sedute  di  Giunta  Comunale  in  audioconferenza,  videoconferenza  e/o  teleconferenza.  Aggiornamento linee guida approvate con Delibera di Giunta Comunale n. 59 del 09/03/2020\"."
+    },
+    {
+      "self_ref": "#/texts/61",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 259.18001435999986,
+            "r": 324.93799924000007,
+            "b": 249.31019617818174,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            57
+          ]
+        }
+      ],
+      "orig": "Con votazione unanime e palese, resa nelle forme di legge",
+      "text": "Con votazione unanime e palese, resa nelle forme di legge"
+    },
+    {
+      "self_ref": "#/texts/62",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 264.90800095,
+            "t": 231.58199190000005,
+            "r": 327.58400094999996,
+            "b": 221.71217371818182,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "DELIBERA",
+      "text": "DELIBERA",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/63",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 206.28401826999993,
+            "r": 434.16999924000004,
+            "b": 196.41420008818181,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            82
+          ]
+        }
+      ],
+      "orig": "Per i motivi espressi in narrativa, che qui si intendono integralmente richiamati:",
+      "text": "Per i motivi espressi in narrativa, che qui si intendono integralmente richiamati:"
+    },
+    {
+      "self_ref": "#/texts/64",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 60.54999924,
+            "t": 178.6859958099999,
+            "r": 555.8019992400001,
+            "b": 127.41917922818175,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            341
+          ]
+        }
+      ],
+      "orig": "-di  approvare la  concessione  di  un  contributo  di  euro 2.000,00 in  favore dell'Associazione Culturale Musica Cultura e Territorio per la realizzazione della terza edizione del 'Musica Italia Grand Prize', in programma a Campobasso dal 13 al 19 Aprile 2026, da destinare a n. 2 borse di studio da assegnare nella sezione 'Grand Prize';",
+      "text": "-di  approvare la  concessione  di  un  contributo  di  euro 2.000,00 in  favore dell'Associazione Culturale Musica Cultura e Territorio per la realizzazione della terza edizione del 'Musica Italia Grand Prize', in programma a Campobasso dal 13 al 19 Aprile 2026, da destinare a n. 2 borse di studio da assegnare nella sezione 'Grand Prize';",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/65",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 60.54999924,
+            "t": 123.49001192000003,
+            "r": 555.7899988599999,
+            "b": 99.82119490818184,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            157
+          ]
+        }
+      ],
+      "orig": "-di dare atto che l'iniziativa in parola rientra nelle finalità istituzionali dell'Ente in quanto mira a conseguire l'interesse della collettività cittadina;",
+      "text": "-di dare atto che l'iniziativa in parola rientra nelle finalità istituzionali dell'Ente in quanto mira a conseguire l'interesse della collettività cittadina;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/66",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 60.54999924,
+            "t": 95.89198945999999,
+            "r": 555.7899988600001,
+            "b": 72.2231724481818,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            195
+          ]
+        }
+      ],
+      "orig": "-di dare atto , altresì, che la suindicata spesa non si pone in contrasto con le norme di cui alla L. n. 94/2012, alla L. n. 135/2012, alla L. n. 89/2014 e di cui all'art. 6 della L. n. 122/2010;",
+      "text": "-di dare atto , altresì, che la suindicata spesa non si pone in contrasto con le norme di cui alla L. n. 94/2012, alla L. n. 135/2012, alla L. n. 89/2014 e di cui all'art. 6 della L. n. 122/2010;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/67",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 60.54999924,
+            "t": 68.29402803000005,
+            "r": 555.7899988600001,
+            "b": 47.45160956363634,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            175
+          ]
+        }
+      ],
+      "orig": "DELIBERA DI GIUNTA n. 84 del 10-04-2026  -  pag. 3  -  COMUNE DI CAMPOBASSO -di demandare al Dirigente del Settore Politiche Culturali, del Turismo e della Pubblica Istruzione",
+      "text": "DELIBERA DI GIUNTA n. 84 del 10-04-2026  -  pag. 3  -  COMUNE DI CAMPOBASSO -di demandare al Dirigente del Settore Politiche Culturali, del Turismo e della Pubblica Istruzione",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/68",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 78.54999924,
+            "t": 796.19100069,
+            "r": 555.8019992399999,
+            "b": 717.3261768981818,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            533
+          ]
+        }
+      ],
+      "orig": "l'adozione  dei  necessari  e  successivi  atti  amministrativi  e  gestionali  conseguenti  alla  presente deliberazione, ivi comprese  l'assunzione del relativo impegno  di spesa, per un importo complessivo di euro 2.000,00, sul Capitolo 4660 - Bilancio 2026 - 'Contributi ad Enti Teatrali Istituti ed Associazioni per Finalità Culturali e Musicali, ecc.', e la liquidazione del contributo in questione  a  iniziativa  avvenuta  e  previa  presentazione  della  relativa  rendicontazione  contabile inerente alle spese e ai ricavi;",
+      "text": "l'adozione  dei  necessari  e  successivi  atti  amministrativi  e  gestionali  conseguenti  alla  presente deliberazione, ivi comprese  l'assunzione del relativo impegno  di spesa, per un importo complessivo di euro 2.000,00, sul Capitolo 4660 - Bilancio 2026 - 'Contributi ad Enti Teatrali Istituti ed Associazioni per Finalità Culturali e Musicali, ecc.', e la liquidazione del contributo in questione  a  iniziativa  avvenuta  e  previa  presentazione  della  relativa  rendicontazione  contabile inerente alle spese e ai ricavi;"
+    },
+    {
+      "self_ref": "#/texts/69",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 60.54999924,
+            "t": 713.39700197,
+            "r": 555.78999886,
+            "b": 689.7281849581818,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            193
+          ]
+        }
+      ],
+      "orig": "-di stabilire che l'Associazione in questione, soggetto organizzatore della sopra indicata iniziativa, dovrà acquisire, prima dello svolgimento della stessa, tutte le necessarie autorizzazioni;",
+      "text": "-di stabilire che l'Associazione in questione, soggetto organizzatore della sopra indicata iniziativa, dovrà acquisire, prima dello svolgimento della stessa, tutte le necessarie autorizzazioni;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/70",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 60.54999924,
+            "t": 685.7990024000001,
+            "r": 555.8019992399996,
+            "b": 634.5321858181818,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            405
+          ]
+        }
+      ],
+      "orig": "-di  dare  atto che  l'Amministrazione Comunale è esonerata da ogni responsabilità per eventuali danni  alle  strutture,  a  persone  o  cose  che  abbiano  a  verificarsi  durante  lo  svolgimento  della suindicata iniziativa, per cui ogni responsabilità graverà sul soggetto organizzatore e realizzatore della stessa, che dovrà provvedere a tutti gli adempimenti, inclusi quelli inerenti alla sicurezza;",
+      "text": "-di  dare  atto che  l'Amministrazione Comunale è esonerata da ogni responsabilità per eventuali danni  alle  strutture,  a  persone  o  cose  che  abbiano  a  verificarsi  durante  lo  svolgimento  della suindicata iniziativa, per cui ogni responsabilità graverà sul soggetto organizzatore e realizzatore della stessa, che dovrà provvedere a tutti gli adempimenti, inclusi quelli inerenti alla sicurezza;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/71",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 60.54999924,
+            "t": 630.60300325,
+            "r": 555.7899992400002,
+            "b": 593.1351864481818,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            293
+          ]
+        }
+      ],
+      "orig": "-di  dichiarare ,  con  separata  ed  unanime  votazione  palese,  il  presente  atto  immediatamente eseguibile  ai  sensi  dell'articolo  134,  comma  4,  del  decreto  legislativo  18  agosto  2000,  n.  267, stante l'urgenza di provvedere, in considerazione dell'imminenza dell'iniziativa.",
+      "text": "-di  dichiarare ,  con  separata  ed  unanime  votazione  palese,  il  presente  atto  immediatamente eseguibile  ai  sensi  dell'articolo  134,  comma  4,  del  decreto  legislativo  18  agosto  2000,  n.  267, stante l'urgenza di provvedere, in considerazione dell'imminenza dell'iniziativa.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/72",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 42.54999924,
+            "t": 485.71401094,
+            "r": 310.78599924000014,
+            "b": 475.8441927581818,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            58
+          ]
+        }
+      ],
+      "orig": "Il presente verbale viene sottoscritto con firma digitale.",
+      "text": "Il presente verbale viene sottoscritto con firma digitale."
+    },
+    {
+      "self_ref": "#/texts/73",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 132.10200119,
+            "t": 458.11598847999994,
+            "r": 214.74600119000004,
+            "b": 434.4471705081818,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            27
+          ]
+        },
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 377.72199631,
+            "t": 458.11598847999994,
+            "r": 490.02999631,
+            "b": 434.4471705081818,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            28,
+            71
+          ]
+        }
+      ],
+      "orig": "La Sindaca Marialuisa Forte Il Segretario Generale Anna Maria Guglielmi",
+      "text": "La Sindaca Marialuisa Forte Il Segretario Generale Anna Maria Guglielmi"
+    },
+    {
+      "self_ref": "#/texts/74",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 132.30800247,
+            "t": 54.85397320000004,
+            "r": 465.29000246999993,
+            "b": 47.45160956363634,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            75
+          ]
+        }
+      ],
+      "orig": "DELIBERA DI GIUNTA n. 84 del 10-04-2026  -  pag. 4  -  COMUNE DI CAMPOBASSO",
+      "text": "DELIBERA DI GIUNTA n. 84 del 10-04-2026  -  pag. 4  -  COMUNE DI CAMPOBASSO"
+    }
+  ],
+  "pictures": [
+    {
+      "self_ref": "#/pictures/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/0"
+        }
+      ],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 157.11624145507812,
+            "t": 798.8749542236328,
+            "r": 437.1753845214844,
+            "b": 712.0492706298828,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    }
+  ],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {
+    "1": {
+      "size": {
+        "width": 595.3499755859375,
+        "height": 842.0
+      },
+      "page_no": 1
+    },
+    "2": {
+      "size": {
+        "width": 595.3499755859375,
+        "height": 842.0
+      },
+      "page_no": 2
+    },
+    "3": {
+      "size": {
+        "width": 595.3499755859375,
+        "height": 842.0
+      },
+      "page_no": 3
+    },
+    "4": {
+      "size": {
+        "width": 595.3499755859375,
+        "height": 842.0
+      },
+      "page_no": 4
+    }
+  }
+}
