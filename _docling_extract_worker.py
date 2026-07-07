@@ -46,7 +46,7 @@ def main() -> None:
     if len(sys.argv) != 3:
         print(
             "Questo è un worker interno e non va eseguito direttamente.\n"
-            "Avvia invece: python 01_segmentazione_blocchi_delibere.py"
+            "Avvia invece: python 01_estrazione_e_segmentazione.py"
         )
         return
 

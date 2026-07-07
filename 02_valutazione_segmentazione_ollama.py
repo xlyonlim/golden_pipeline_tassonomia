@@ -5,6 +5,7 @@ from __future__ import annotations
 import argparse
 import csv
 import json
+import random
 import re
 import shutil
 import subprocess
@@ -19,9 +20,12 @@ from typing import Any
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 DEFAULT_MODEL = "nemotron-3-super:cloud"
+DEFAULT_OUTPUT_ROOT = SCRIPT_DIR / "VALUTAZIONE_SEGMENTAZIONE_OLLAMA"
 OLLAMA_CHAT_URL = "http://127.0.0.1:11434/api/chat"
-MAX_REFERENCE_CHARS = 80_000
-MAX_CANDIDATE_CHARS = 25_000
+# I modelli cloud tollerano contesti ampi, ma richieste molto grandi e parallele
+# aumentano sensibilmente 502 e risposte JSON troncate.
+MAX_REFERENCE_CHARS = 45_000
+MAX_CANDIDATE_CHARS = 15_000
 _reference_lock = threading.Lock()
 _reference_cache: dict[str, tuple[str, str]] = {}
 
@@ -100,13 +104,46 @@ def blocks_as_text(rows: list[dict[str, str]]) -> str:
     )[:MAX_CANDIDATE_CHARS]
 
 
-def ollama_json(model: str, prompt: str, retries: int = 2) -> dict[str, Any]:
+def parse_model_json(content: str) -> dict[str, Any]:
+    """Legge anche JSON in code fence o con newline non escapati nelle stringhe."""
+    content = content.strip().lstrip("\ufeff")
+    if not content:
+        raise ValueError("Ollama ha restituito un contenuto vuoto")
+
+    fenced = re.fullmatch(r"```(?:json)?\s*(.*?)\s*```", content, re.DOTALL | re.IGNORECASE)
+    if fenced:
+        content = fenced.group(1).strip()
+
+    candidates = [content]
+    first_brace = content.find("{")
+    last_brace = content.rfind("}")
+    if first_brace >= 0 and last_brace > first_brace:
+        extracted = content[first_brace:last_brace + 1]
+        if extracted != content:
+            candidates.append(extracted)
+
+    errors = []
+    for candidate in candidates:
+        try:
+            result = json.loads(candidate, strict=False)
+            if not isinstance(result, dict):
+                raise ValueError("la radice JSON non è un oggetto")
+            evaluations = result.get("evaluations")
+            if not isinstance(evaluations, list) or not evaluations:
+                raise ValueError("campo 'evaluations' assente o vuoto")
+            return result
+        except (json.JSONDecodeError, ValueError) as exc:
+            errors.append(str(exc))
+    raise ValueError(f"JSON del modello non valido: {'; '.join(errors)}")
+
+
+def ollama_json(model: str, prompt: str, retries: int = 4) -> dict[str, Any]:
     payload = json.dumps({
         "model": model,
         "stream": False,
         "format": "json",
         "messages": [{"role": "user", "content": prompt}],
-        "options": {"temperature": 0},
+        "options": {"temperature": 0, "num_predict": 2_000},
     }).encode("utf-8")
 
     for attempt in range(retries + 1):
@@ -118,16 +155,43 @@ def ollama_json(model: str, prompt: str, retries: int = 2) -> dict[str, Any]:
                 method="POST",
             )
             with urllib.request.urlopen(request, timeout=900) as response:
-                body = json.loads(response.read().decode("utf-8"))
-            return json.loads(body["message"]["content"])
+                raw_body = response.read().decode("utf-8", errors="replace")
+            if not raw_body.strip():
+                raise ValueError("risposta HTTP 200 vuota da Ollama")
+            body = json.loads(raw_body, strict=False)
+            content = str(body.get("message", {}).get("content", ""))
+            return parse_model_json(content)
+        except urllib.error.HTTPError as exc:
+            try:
+                detail = exc.read().decode("utf-8", errors="replace").strip()
+            except Exception:
+                detail = ""
+            detail = re.sub(r"\s+", " ", detail)[:300]
+            error = f"HTTP {exc.code} {exc.reason}"
+            if detail:
+                error += f": {detail}"
+            # Credenziali mancanti o richiesta non valida non migliorano con retry.
+            if exc.code in {400, 401, 403, 404}:
+                raise RuntimeError(error) from exc
+            if attempt >= retries:
+                raise RuntimeError(error) from exc
+            delay = min(60, 5 * (2 ** attempt)) + random.uniform(0, 2)
+            print(
+                f"[OLLAMA] tentativo {attempt + 1}/{retries + 1} fallito: "
+                f"{error}; riprovo tra {delay:.1f}s...",
+                flush=True,
+            )
+            time.sleep(delay)
         except Exception as exc:
             if attempt >= retries:
                 raise
+            delay = min(60, 5 * (2 ** attempt)) + random.uniform(0, 2)
             print(
-                f"[OLLAMA] tentativo {attempt + 1} fallito: {exc}; nuovo tentativo...",
+                f"[OLLAMA] tentativo {attempt + 1}/{retries + 1} fallito: "
+                f"{exc}; riprovo tra {delay:.1f}s...",
                 flush=True,
             )
-            time.sleep(3 * (attempt + 1))
+            time.sleep(delay)
     raise RuntimeError("Risposta Ollama non disponibile")
 
 
@@ -257,14 +321,15 @@ def evaluate_tool(
     return results
 
 
-def next_evaluation_dir(segmentation_dir: Path) -> Path:
+def next_evaluation_dir(output_root: Path) -> Path:
     """Crea una nuova cartella numerata senza sovrascrivere valutazioni precedenti."""
+    output_root.mkdir(parents=True, exist_ok=True)
     numbers = []
-    for path in segmentation_dir.glob("VALUTAZIONE_LLM_*"):
+    for path in output_root.glob("VALUTAZIONE_LLM_*"):
         match = re.fullmatch(r"VALUTAZIONE_LLM_(\d+)", path.name, re.IGNORECASE)
         if path.is_dir() and match:
             numbers.append(int(match.group(1)))
-    output_dir = segmentation_dir / f"VALUTAZIONE_LLM_{max(numbers, default=0) + 1}"
+    output_dir = output_root / f"VALUTAZIONE_LLM_{max(numbers, default=0) + 1}"
     output_dir.mkdir(parents=True, exist_ok=False)
     return output_dir
 
@@ -319,8 +384,14 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Valuta la segmentazione tramite Ollama Cloud")
     parser.add_argument("--segmentazione", type=Path, help="Cartella SEGMENTAZIONE_N; default: ultima incompleta o più recente")
     parser.add_argument("--input", type=Path, default=SCRIPT_DIR / "Input")
+    parser.add_argument(
+        "--output",
+        type=Path,
+        default=DEFAULT_OUTPUT_ROOT,
+        help=f"Radice separata per le valutazioni (default: {DEFAULT_OUTPUT_ROOT})",
+    )
     parser.add_argument("--model", default=DEFAULT_MODEL)
-    parser.add_argument("--concorrenza", type=int, default=2)
+    parser.add_argument("--concorrenza", type=int, default=1)
     parser.add_argument("--timeout-attesa", type=int, default=7200)
     return parser.parse_args()
 
@@ -333,7 +404,7 @@ def main() -> None:
     if not 1 <= args.concorrenza <= 4:
         raise ValueError("--concorrenza deve essere compresa tra 1 e 4")
 
-    output_dir = next_evaluation_dir(segmentation_dir)
+    output_dir = next_evaluation_dir(args.output.expanduser().resolve())
     print(f"Risultati destinati a: {output_dir}", flush=True)
     all_results: list[dict[str, Any]] = []
     # Docling viene valutato appena pronto; intanto OpenDataLoader può continuare localmente.

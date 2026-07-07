@@ -1,5 +1,5 @@
 # ============================================================
-# 01_segmentazione_blocchi_delibere.py
+# 01_estrazione_e_segmentazione.py
 #
 # Obiettivo:
 # trasformare output Markdown/JSON da Docling o OpenDataLoader
@@ -54,8 +54,13 @@ def file_sha256(path: Path) -> str:
     return digest.hexdigest()
 
 
-def prepare_input_pdfs(input_root: Path) -> pd.DataFrame:
-    """Elimina i duplicati e rinomina in Input i PDF unici come atto_N.pdf."""
+def prepare_input_pdfs(input_root: Path, preserve_names: bool = False) -> pd.DataFrame:
+    """Censisce i PDF e, salvo richiesta, li deduplica e rinomina come atto_N.pdf.
+
+    ``preserve_names`` serve in particolare per un golden set già identificato
+    (per esempio ``atto_51.pdf`` ... ``atto_60.pdf``): non rinomina e non elimina
+    alcun file, evitando di rompere il collegamento con ``golden_delibere.csv``.
+    """
     pdfs = sorted(
         (path for path in input_root.rglob("*") if path.is_file() and path.suffix.lower() == ".pdf"),
         key=natural_sort_key,
@@ -67,9 +72,20 @@ def prepare_input_pdfs(input_root: Path) -> pd.DataFrame:
         sha256 = file_sha256(path)
         first = first_by_hash.get(sha256)
         if first is None:
-            unique_number = len(unique_items) + 1
-            id_delibera = f"ATTO_{unique_number:03d}"
-            assigned_name = f"atto_{unique_number}.pdf"
+            if preserve_names:
+                id_match = re.fullmatch(r"atto_(\d+)\.pdf", path.name, re.IGNORECASE)
+                if id_match is None:
+                    raise ValueError(
+                        "Con --preserva-nomi-pdf ogni PDF deve chiamarsi atto_N.pdf: "
+                        f"nome non valido {path.name!r}"
+                    )
+                unique_number = int(id_match.group(1))
+                id_delibera = f"ATTO_{unique_number:03d}"
+                assigned_name = path.name
+            else:
+                unique_number = len(unique_items) + 1
+                id_delibera = f"ATTO_{unique_number:03d}"
+                assigned_name = f"atto_{unique_number}.pdf"
         else:
             id_delibera = first["id_delibera"]
             assigned_name = None
@@ -87,10 +103,13 @@ def prepare_input_pdfs(input_root: Path) -> pd.DataFrame:
         if first is None:
             first_by_hash[sha256] = record.copy()
             unique_items.append((path, record))
-        else:
+        elif not preserve_names:
             path.unlink()
 
         records.append(record)
+
+    if preserve_names:
+        return pd.DataFrame(records)
 
     # Due passaggi evitano collisioni se alcuni file si chiamano già atto_N.pdf.
     temporary_paths = []
@@ -224,6 +243,11 @@ MARKERS = {
         r"(?:che|della|del|dei|degli|delle|dell['’]|in\s+ordine\s+a|relativamente\s+a)?"
     ),
 
+    "FATTO_PRESENTE": (
+        r"fatt(?:o\s+presente|a\s+presente|i\s+presenti|e\s+presenti)"
+        r"\s*(?:,|:|;)?\s*(?:che|la|il|lo|le|gli|i|l['’]|di|a|per)?"
+    ),
+
     "PRESO_ATTO": (
         r"pres[oaie]\s+atto\s*(?:,|:|;)?\s*"
         r"(?:altres[iì]\s*,?\s*)?"
@@ -247,6 +271,26 @@ MARKERS = {
 
     "ACCERTATO": (
         r"accertat[oaie]\s*(?:,|:|;)?\s*"
+        r"(?:che|la|il|lo|le|gli|i|l['’]|di|a|per)?"
+    ),
+
+    "CONSTATATO": (
+        r"constatat[oaie]\s*(?:,|:|;)?\s*"
+        r"(?:che|la|il|lo|le|gli|i|l['’]|di|a|per)?"
+    ),
+
+    "APPURATO": (
+        r"appurat[oaie]\s*(?:,|:|;)?\s*"
+        r"(?:che|la|il|lo|le|gli|i|l['’]|di|a|per)?"
+    ),
+
+    "RISCONTRATO": (
+        r"riscontrat[oaie]\s*(?:,|:|;)?\s*"
+        r"(?:che|la|il|lo|le|gli|i|l['’]|di|a|per)?"
+    ),
+
+    "AVVISATO": (
+        r"avvisat[oaie]\s*(?:,|:|;)?\s*"
         r"(?:che|la|il|lo|le|gli|i|l['’]|di|a|per)?"
     ),
 
@@ -292,6 +336,11 @@ MARKERS = {
         r"(?:che|la|il|lo|le|gli|i|l['’]|nel|nella|nei|nelle)?"
     ),
 
+    "INCARICATO": (
+        r"incaricat[oaie]\s*(?:,|:|;)?\s*"
+        r"(?:che|la|il|lo|le|gli|i|l['’]|di|a|per)?"
+    ),
+
     # ========================================================
     # Motivazione / valutazione
     # ========================================================
@@ -317,6 +366,16 @@ MARKERS = {
 
     "RILEVATO": (
         r"rilevat[oaie]\s*(?:,|:|;)?\s*"
+        r"(?:che|la|il|lo|le|gli|i|l['’]|di|a|per)?"
+    ),
+
+    "OSSERVATO": (
+        r"osservat[oaie]\s*(?:,|:|;)?\s*"
+        r"(?:che|la|il|lo|le|gli|i|l['’]|di|a|per)?"
+    ),
+
+    "POSTO": (
+        r"post[oaie]\s*(?:,|:|;)?\s*"
         r"(?:che|la|il|lo|le|gli|i|l['’]|di|a|per)?"
     ),
 
@@ -369,11 +428,16 @@ MACRO_SECTION = {
     "ATTESTATO": "PARERI_ATTESTAZIONI",
     "RILASCIATO": "ISTRUTTORIA_PARERI",
     "DATO_ATTO": "ISTRUTTORIA",
+    "FATTO_PRESENTE": "ISTRUTTORIA",
     "PRESO_ATTO": "ISTRUTTORIA",
     "TENUTO_CONTO": "ISTRUTTORIA_MOTIVAZIONE",
     "ASSUNTO": "ISTRUTTORIA",
     "UDITO": "ISTRUTTORIA",
     "ACCERTATO": "ISTRUTTORIA",
+    "CONSTATATO": "ISTRUTTORIA",
+    "APPURATO": "ISTRUTTORIA",
+    "RISCONTRATO": "ISTRUTTORIA",
+    "AVVISATO": "ISTRUTTORIA",
     "VERIFICATO": "ISTRUTTORIA",
     "LETTO_ESAMINATO": "ISTRUTTORIA_VALUTAZIONE",
     "LETTO": "ISTRUTTORIA",
@@ -382,11 +446,14 @@ MACRO_SECTION = {
     "PREDISPOSTO": "ISTRUTTORIA",
     "FORMULATO": "ISTRUTTORIA",
     "INDIVIDUATO": "ISTRUTTORIA",
+    "INCARICATO": "ISTRUTTORIA",
     "CONSIDERATO": "MOTIVAZIONE",
     "RITENUTO": "MOTIVAZIONE_VALUTAZIONE",
     "ATTESO": "MOTIVAZIONE",
     "RAVVISATO": "MOTIVAZIONE",
     "RILEVATO": "ISTRUTTORIA_MOTIVAZIONE",
+    "OSSERVATO": "ISTRUTTORIA_MOTIVAZIONE",
+    "POSTO": "NARRATIVA_PREMESSA",
     "VALUTATO": "MOTIVAZIONE_VALUTAZIONE",
     "EVIDENZIATO": "MOTIVAZIONE",
     "RIBADITO": "MOTIVAZIONE",
@@ -476,10 +543,16 @@ def compact_spaced_markers(text: str) -> str:
         "ATTESO", "ATTESA", "ATTESI", "ATTESE",
         "RAVVISATO", "RAVVISATA", "RAVVISATI", "RAVVISATE",
         "RILEVATO", "RILEVATA", "RILEVATI", "RILEVATE",
+        "OSSERVATO", "OSSERVATA", "OSSERVATI", "OSSERVATE",
+        "POSTO", "POSTA", "POSTI", "POSTE",
         "RICHIAMATO", "RICHIAMATA", "RICHIAMATI", "RICHIAMATE",
         "RICORDATO", "RICORDATA", "RICORDATI", "RICORDATE",
         "RICORDANDO",
         "ACCERTATO", "ACCERTATA", "ACCERTATI", "ACCERTATE",
+        "CONSTATATO", "CONSTATATA", "CONSTATATI", "CONSTATATE",
+        "APPURATO", "APPURATA", "APPURATI", "APPURATE",
+        "RISCONTRATO", "RISCONTRATA", "RISCONTRATI", "RISCONTRATE",
+        "AVVISATO", "AVVISATA", "AVVISATI", "AVVISATE",
         "VERIFICATO", "VERIFICATA", "VERIFICATI", "VERIFICATE",
         "VALUTATO", "VALUTATA", "VALUTATI", "VALUTATE",
         "EVIDENZIATO", "EVIDENZIATA", "EVIDENZIATI", "EVIDENZIATE",
@@ -494,8 +567,10 @@ def compact_spaced_markers(text: str) -> str:
         "RILASCIATO", "RILASCIATA", "RILASCIATI", "RILASCIATE",
         "STABILITO", "STABILITA", "STABILITI", "STABILITE",
         "INDIVIDUATO", "INDIVIDUATA", "INDIVIDUATI", "INDIVIDUATE",
+        "INCARICATO", "INCARICATA", "INCARICATI", "INCARICATE",
         "ACQUISITO", "ACQUISITA", "ACQUISITI", "ACQUISITE",
         "DATO", "DATA", "DATI", "DATE",
+        "FATTO", "FATTA", "FATTI", "FATTE", "PRESENTE", "PRESENTI",
         "PRESO", "PRESA", "PRESI", "PRESE",
         "TENUTO", "TENUTA", "TENUTI", "TENUTE",
         "ASSUNTO", "ASSUNTA", "ASSUNTI", "ASSUNTE",
@@ -1560,6 +1635,7 @@ def add_sequence_flags(blocks: pd.DataFrame) -> pd.DataFrame:
         "ATTESTA": 4,
         "RILASCIATO": 4,
         "DATO_ATTO": 5,
+        "FATTO_PRESENTE": 5,
         "PRESO_ATTO": 5,
         "TENUTO_CONTO": 5,
         "ASSUNTO": 5,
@@ -1569,13 +1645,20 @@ def add_sequence_flags(blocks: pd.DataFrame) -> pd.DataFrame:
         "PREDISPOSTO": 6,
         "FORMULATO": 6,
         "INDIVIDUATO": 6,
+        "INCARICATO": 6,
         "ACCERTATO": 6,
+        "CONSTATATO": 6,
+        "APPURATO": 6,
+        "RISCONTRATO": 6,
+        "AVVISATO": 6,
         "ATTESTATO": 6,
         "VERIFICATO": 6,
         "LETTO_ESAMINATO": 6,
         "LETTO": 6,
         "CONSIDERATO": 7,
         "RILEVATO": 7,
+        "OSSERVATO": 7,
+        "POSTO": 7,
         "ATTESO": 7,
         "RAVVISATO": 7,
         "EVIDENZIATO": 7,
@@ -1718,6 +1801,14 @@ def parse_args() -> argparse.Namespace:
         default=0,
         help="Numero massimo di PDF da elaborare per ciascun estrattore; 0 = tutti (default: tutti)",
     )
+    parser.add_argument(
+        "--preserva-nomi-pdf",
+        action="store_true",
+        help=(
+            "Non rinomina o elimina i PDF di input; richiede nomi atto_N.pdf. "
+            "Utile per mantenere gli ID di un golden set."
+        ),
+    )
     return parser.parse_args()
 
 
@@ -1730,7 +1821,7 @@ def main() -> None:
         print(f"Directory di input inesistente o non valida: {input_root}")
         return
 
-    pdf_audit = prepare_input_pdfs(input_root)
+    pdf_audit = prepare_input_pdfs(input_root, preserve_names=args.preserva_nomi_pdf)
     duplicates = pdf_audit[pdf_audit["duplicato"] == 1].copy()
     duplicate_report = input_root / "00_pdf_duplicati.csv"
     if not duplicates.empty:
@@ -1743,14 +1834,16 @@ def main() -> None:
         print(f"PDF duplicati rilevati: {n_duplicates}")
 
     if not duplicates.empty:
-        print("\nSono stati trovati ed eliminati questi PDF duplicati:")
+        action = "trovati (non eliminati)" if args.preserva_nomi_pdf else "trovati ed eliminati"
+        print(f"\nSono stati {action} questi PDF duplicati:")
         for _, duplicate in duplicates.iterrows():
             print(
                 f"- {duplicate['nome_originale']} era identico a "
                 f"{duplicate['duplicato_di']} (SHA-256: {duplicate['sha256']})"
             )
         print(f"\nReport salvato in: {duplicate_report}")
-        print("I PDF unici sono stati rinumerati; la segmentazione prosegue.")
+        if not args.preserva_nomi_pdf:
+            print("I PDF unici sono stati rinumerati; la segmentazione prosegue.")
 
     out_dir = next_segmentation_dir(output_root)
     unique_pdf_paths = [
