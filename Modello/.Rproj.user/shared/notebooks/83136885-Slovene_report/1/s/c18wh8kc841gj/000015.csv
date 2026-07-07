@@ -1,5 +1,0 @@
-"0",""
-"0","barplot(tab_das, add = TRUE,"
-"0","        col = adjustcolor(""#756BB1"", alpha.f = 0.18),"
-"0","        border = ""#756BB1"","
-"0","        axes = FALSE)"

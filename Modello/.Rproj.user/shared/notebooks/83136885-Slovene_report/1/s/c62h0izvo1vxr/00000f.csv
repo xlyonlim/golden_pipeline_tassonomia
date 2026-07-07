@@ -1,4 +1,0 @@
-"0","tab_early <- table(cognition_df$NumEarlyClass)"
-"0","bp2 <- barplot(tab_early, plot = FALSE)"
-"0",""
-"0","plot.new()"

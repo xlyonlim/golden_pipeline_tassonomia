@@ -1,4 +1,0 @@
-"0","tab_hap <- table(cognition_df$Happiness)"
-"0","bp4 <- barplot(tab_hap, plot = FALSE)"
-"0",""
-"0","plot.new()"

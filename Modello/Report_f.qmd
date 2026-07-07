@@ -79,7 +79,7 @@ La libreria Lock5Data definisce *CognitionZscore* come '*score on a test of cogn
 ```{r}
 options(scipen = 999) # evito la notazione esponenziale 
 
-y <- SleepStudy$CognitionZscore
+y = SleepStudy$CognitionZscore
 
 summary(y)
 range(y) # si può evitare na.rm = TRUE in quanto non vi sono missing values
@@ -93,7 +93,7 @@ Infatti, se l’indice fosse costruito come somma diretta di quattro variabili s
 
 $$Var(X+Y)=Var(X)+Var(Y)+2Cov(X,Y)$$
 
-Il senso è che non si sommano le singole varianze ma anche il contributo che.....?????
+Il senso è che non si sommano le singole varianze ma anche il contributo che ciascuna variabile fornisce all'altra attraverso la loro covarianza.
 
 **Nota a pie' di pagina \^3**: Rice, J. A. (2007). *Mathematical statistics and data analysis (3rd ed.)*. Cengage Learning.
 
@@ -103,7 +103,7 @@ $$Var(Z_1+Z_2+Z_3+Z_4)
 +
 2\sum_{i<j} Cov(Z_i,Z_j)$$
 
-Poichè ogni componente è stata standardizzata ed ha varianza pari a 1 pari a 1, variabili standardizzate la covarianza coincide con la correlazione, si ottiene:
+Poichè ogni componente è stata standardizzata ed ha varianza pari a 1, e la covarianza delle v.c standardizzate coincide con la correlazione, si ottiene:
 
 $$Var(Z_1+Z_2+Z_3+Z_4)
 =
@@ -147,7 +147,7 @@ max_y <- max(y)
 quantile(y, probs = c(0.01, 0.05, 0.25, 0.50, 0.75, 0.95, 0.99))
 ```
 
-L'output evidenzia che la distribuzione è ben concentrata intorno allo zero: il primo quartile è pari a -0.48, la mediana è pari a -0.01 e il terzo quartile è pari a 0.44. Considerando il range empirico, quello che desta maggiore interesse sono il primo e ultimo percentile, rispettivamente -1.4836 e 1.7388, sinonimo che i valori estremi sono lontani dal centro.
+L'output evidenzia che la distribuzione è ben concentrata intorno allo zero: il primo quartile è pari a -0.48, la mediana è pari a -0.01 e il terzo quartile è pari a 0.44. Considerando il range empirico, quello che desta maggiore interesse sono il primo e ultimo percentile, rispettivamente -1.4836 e 1.7388, sinonimo che **i valori estremi sono lontani dal centro**.
 
 Per valutare un eventuale accumulo è però necessario verificare quante osservazioni coincidano esattamente con il valore minimo e massimo osservato, per cui viene applicato il criterio proposto da Terwee et al. (2007)\^4, secondo cui la presenza di floor o ceiling effects è considerata problematica quando più del 15% dei soggetti ottiene il punteggio minimo o massimo possibile:
 
@@ -223,7 +223,7 @@ sum(is.na(SleepStudy))
 Ogni unità statistica rappresenta uno studente universitario, per il quale sono raccolte informazioni\^6 relative all’esperienza universitaria, tra cui status di salute mentale, abitudini quotidiane, andamento accademico e performance cognitiva. Nella tabella sottostante si cerca di offrire una panoramica completa delle variabili basandosi sia lo studio originario e la descrizione fornita dal pacchetto R sulle variabili:
 
 | Variabile | Descrizione sintetica |
-|----|----|
+|------------------------------------|------------------------------------|
 | `Gender` | Misura categoriale binaria indicante il genere dello studente: `1 = maschio`, `0 = femmina`. |
 | `ClassYear` | Misura categoriale ordinale indicante l’anno di frequenza dello studente: `1 = primo anno`, `2 = secondo anno`, `3 = terzo anno`, `4 = quarto anno`. |
 | `LarkOwl` | Misura categoriale ordinale e autoriferita della preferenza circadiana dello studente, cioè della tendenza a essere più “serale” o più “mattutino”. Deriva dalla *Owl Lark Scale*: punteggi più alti indicano maggiore preferenza per il mattino. Nel dataset è ricodificata in `Owl`, `Neither` e `Lark`. Lo score teorico sottostante varia da **16 a 86**; cut-off: `Owl = 16–41`, `Neither = 42–58`, `Lark = 59–86`. |
@@ -418,8 +418,8 @@ In sintesi, anche in tal caso emerge una certa eterogeneità distributiva con un
 ### NumEarlyClass
 
 ```{r}
-tab_early <- table(cognition_df$NumEarlyClass)
-bp2 <- barplot(tab_early, plot = FALSE)
+tab_early = table(cognition_df$NumEarlyClass)
+bp2 = barplot(tab_early, plot = FALSE)
 
 plot.new()
 plot.window(xlim = c(min(bp2) - 0.8, max(bp2) + 0.8),
@@ -476,7 +476,7 @@ In Figura 8 si passa all'analisi \`DASScore\`, entrando nei predittori appartene
 ### AnxietyScore, DepressionScore, StressScore
 
 ```{r}
-col_psy_sub <- c("DepressionScore" = "#7570B3",  # viola
+col_psy_sub = c("DepressionScore" = "#7570B3",  # viola
   "AnxietyScore"    = "#E7298A",  # rosa
   "StressScore"     = "#D95F02")   # arancio
 
@@ -596,6 +596,8 @@ to be continued...
 
 ## Variabili categoriche
 
+to be continued...
+
 # Analisi delle correlazioni
 
 L’analisi delle correlazioni consente di esplorare le correlazioni lineari esistenti tra le possibili variabili numeriche presenti all'interno del dataset.
@@ -604,11 +606,12 @@ L’analisi delle correlazioni consente di esplorare le correlazioni lineari esi
 
 ```{r}
 library(ppcor)
+library(ggplot2)
 
 plot_heatmap = function(mat, titolo = "", legenda = "r") {
   
 mat_long = as.data.frame(as.table(mat))
-colnames(mat_long) <- c("Var1", "Var2", "value")
+colnames(mat_long) = c("Var1", "Var2", "value")
   
 ggplot(mat_long, aes(x = Var2, y = Var1, fill = value)) + geom_tile(color = "white") + geom_text(aes(label = round(value, 2)), size = 3) +
     scale_fill_gradient2(
@@ -627,7 +630,7 @@ ggplot(mat_long, aes(x = Var2, y = Var1, fill = value)) + geom_tile(color = "whi
 
 dati_cor_psy = cognition_df[, c( "CognitionZscore","AverageSleep","SleepGap","PoorSleepQuality","NumEarlyClass","DepressionScore","AnxietyScore","StressScore","Happiness","Drinks","ClassesMissed","GPA")]
 
-cor_mat_psy <- cor(dati_cor_psy, method = "pearson")
+cor_mat_psy = cor(dati_cor_psy, method = "pearson")
 
 plot_heatmap(cor_mat_psy,titolo = "",legenda = "Correlazione
   globale")
@@ -651,11 +654,11 @@ La correlazione parziale può essere dunque intesa come una correlazione calcola
 
 ```{r}
 
-dati_cor_psy <- cognition_df[, c("CognitionZscore","AverageSleep","SleepGap","PoorSleepQuality","NumEarlyClass","DepressionScore","AnxietyScore","StressScore","Happiness","Drinks","ClassesMissed","GPA")]
+dati_cor_psy = cognition_df[, c("CognitionZscore","AverageSleep","SleepGap","PoorSleepQuality","NumEarlyClass","DepressionScore","AnxietyScore","StressScore","Happiness","Drinks","ClassesMissed","GPA")]
 
-pcor_psy <- pcor(dati_cor_psy, method = "pearson")
+pcor_psy = pcor(dati_cor_psy, method = "pearson")
 
-pcor_mat_psy <- pcor_psy$estimate
+pcor_mat_psy =pcor_psy$estimate
 
 plot_heatmap(pcor_mat_psy, titolo = "",legenda = "Correlazione
 parziale")
@@ -703,7 +706,7 @@ str(cognition_model)
 Il modello completo di partenza non risulta essere la specificazione finale, ma anzi costituisce la base per la successiva procedura di variable selection. La stima avviene tramite la funzione `lm()`, che di default applica il metodo dei minimi quadrati ordinari, che ha come scopo la stima il vettore dei coefficienti minimizzando la somma dei quadrati dei residui.
 
 ```{r}
-mod_cog_psy <- lm(CognitionZscore ~ AverageSleep_z + SleepGap_z + PoorSleepQuality_z + NumEarlyClass_z + DepressionScore_z + AnxietyScore_z + StressScore_z + Happiness_z + Drinks_z + ClassesMissed_z + GPA_z + Gender + ClassYear + LarkOwl + AllNighter, data = cognition_model, method = "qr")
+mod_cog_psy = lm(CognitionZscore ~ AverageSleep_z + SleepGap_z + PoorSleepQuality_z + NumEarlyClass_z + DepressionScore_z + AnxietyScore_z + StressScore_z + Happiness_z + Drinks_z + ClassesMissed_z + GPA_z + Gender + ClassYear + LarkOwl + AllNighter, data = cognition_model, method = "qr")
 
 summary(mod_cog_psy)
 ```
@@ -756,9 +759,105 @@ library(MASS)
 
 n = nobs(mod_cog_psy)
 
-step_psy <- stepAIC(mod_cog_psy,direction = "backward",
+step_psy = stepAIC(mod_cog_psy,direction = "backward",
   k = log(n), #IMPORTANTE PERCHE' DETERMINA LA PENALIZZAZIONE DEL BIC
   trace = TRUE)
 
 summary(step_psy)
+```
+
+Anche stavolta il modello finale risulta globalmente significativo, come indicato dal test F nella parte finale dell'output, ciònostante la capacità esplicativa, coronando le aspettative iniziali è aumentata lievemente (R\^2 = 0.1132), (R\^2 adjusted = 0.1025). Il modello è in grado di spiegare circa l’11% della variabilità osservata di `CognitionZscore`, confermando che la maggior parte della variabilità della performance cognitiva rimane non spiegata dai predittori disponibili.
+
+Ciò che appare lampante risulta l'assenza di tutti i predittori legati al sonno, che costituivano la maggior parte del dataset originale tanto da essere denominato 'SleepStudy'.
+
+## Diagnostica del modello
+
+Prima di commentare coefficiente per coefficiente, si intraprende una diagnostica più approfondita dei residui e l'esecuzione di diversi test, al fine di verificare che la specificazione finale non presenti violazioni rilevanti delle principali assunzioni del modello lineare.
+
+```{r}
+plot(step_psy, which = c(1, 2, 3,4, 5,6))
+```
+
+```{r}
+# Residui standardizzati & studentizzati
+res.std = scale(residuals(step_psy)) 
+res.stu = rstudent(step_psy)
+
+
+shapiro.test(res.std)
+
+library(tseries)
+jarque.bera.test(res.std)
+
+
+ks.test(res.stu, "pt", df = df.residual(step_psy) - 1)
+
+# OMOSCHEDASTICITA'
+library(lmtest)
+bptest(step_psy)
+
+library(car)
+ncvTest(step_psy)
+
+#vanno commentati così come la diagnostica soprastante
+```
+
+per arricchire:
+
+- finire descrizione di ciò che è incompleto,
+
+- analisi di più approfondita, magari di mediazione tra le variabili rimaste?
+
+- potrei provare altri criteri nella var sel? però se la normalità è soddisfatta non ha senso
+
+## Scatterplot 3D per genere
+
+```         
+
+WEWW
+```
+
+```{r}
+#COEFFICIENTI FINALI
+
+library(scatterplot3d)
+
+col_gender <- ifelse(cognition_model$Gender == "Male", "darkgreen", "orange")
+
+s3d <- scatterplot3d(
+  x = cognition_model$StressScore_z,
+  y = cognition_model$GPA_z,
+  z = cognition_model$CognitionZscore,
+  color = col_gender,
+  pch = 16,
+  angle = 45,
+  xlab = "StressScore_z",
+  ylab = "GPA_z",
+  zlab = "CognitionZscore",
+  main = "")
+
+# Coefficienti del modello finale
+coeff_finali =  coef(step_psy)
+
+#IPERPIANO PER FEMALE
+s3d$plane3d(
+  coeff_finali["(Intercept)"],
+  coeff_finali["StressScore_z"],
+  coeff_finali["GPA_z"],
+  col = "orange",
+  lty = 1)
+
+#IPERPIANO PER MALE
+s3d$plane3d(
+  coeff_finali["(Intercept)"] + b["GenderMale"],
+  coeff_finali["StressScore_z"],
+  coeff_finali["GPA_z"],
+  col = "darkgreen",
+  lty = 1)
+
+legend(
+  "bottomright",
+  legend = c("Ragazze", "Ragazi"),
+  text.col = c("orange", "darkgreen"),
+  bty = "n")
 ```

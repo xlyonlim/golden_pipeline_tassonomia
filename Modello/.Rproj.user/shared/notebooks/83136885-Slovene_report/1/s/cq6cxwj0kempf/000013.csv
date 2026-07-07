@@ -1,6 +1,0 @@
-"0",""
-"0","# uporabim jitter, ker gre za cela števila"
-"0","points(jitter(cognition_df$DASScore, amount = 0.40), "
-"0","       jitter(cognition_df$Happiness, amount = 0.40),"
-"0","       pch = 19,"
-"0","       col = adjustcolor(""#756BB1"", alpha.f = 0.35))"
