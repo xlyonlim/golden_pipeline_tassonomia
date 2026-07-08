@@ -223,7 +223,7 @@ sum(is.na(SleepStudy))
 Ogni unità statistica rappresenta uno studente universitario, per il quale sono raccolte informazioni\^6 relative all’esperienza universitaria, tra cui status di salute mentale, abitudini quotidiane, andamento accademico e performance cognitiva. Nella tabella sottostante si cerca di offrire una panoramica completa delle variabili basandosi sia lo studio originario e la descrizione fornita dal pacchetto R sulle variabili:
 
 | Variabile | Descrizione sintetica |
-|------------------------------|------------------------------------------|
+|----|----|
 | `Gender` | Misura categoriale binaria indicante il genere dello studente: `1 = maschio`, `0 = femmina`. |
 | `ClassYear` | Misura categoriale ordinale indicante l’anno di frequenza dello studente: `1 = primo anno`, `2 = secondo anno`, `3 = terzo anno`, `4 = quarto anno`. |
 | `LarkOwl` | Misura categoriale ordinale e autoriferita della preferenza circadiana dello studente, cioè della tendenza a essere più “serale” o più “mattutino”. Deriva dalla *Owl Lark Scale*: punteggi più alti indicano maggiore preferenza per il mattino. Nel dataset è ricodificata in `Owl`, `Neither` e `Lark`. Lo score teorico sottostante varia da **16 a 86**; cut-off: `Owl = 16–41`, `Neither = 42–58`, `Lark = 59–86`. |

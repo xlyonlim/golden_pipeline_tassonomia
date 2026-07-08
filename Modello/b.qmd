@@ -196,22 +196,18 @@ sum(is.na(SleepStudy))
 
 ```{r}
 # Riduzione del dataset
-  cognition_df <- SleepStudy[, c("SleepGap","CognitionZscore","AverageSleep","WeekdaySleep","WeekendSleep","WeekdayBed","WeekdayRise","WeekendBed","WeekendRise","PoorSleepQuality","NumEarlyClass","LarkOwl","AllNighter","DepressionScore","AnxietyScore","StressScore","Happiness","Drinks","ClassesMissed","GPA","Gender","ClassYear" )]
+  cognition_df <- SleepStudy[, c("CognitionZscore","AverageSleep","WeekdaySleep","WeekendSleep","WeekdayBed","WeekdayRise","WeekendBed","WeekendRise","PoorSleepQuality","NumEarlyClass","LarkOwl","AllNighter","DepressionScore","AnxietyScore","StressScore","Happiness","Drinks","ClassesMissed","GPA","Gender","ClassYear" )]
 ```
 
 ```{r}
 cognition_df$SleepGap = cognition_df$WeekendSleep - cognition_df$WeekdaySleep
 
-cognition_df$BedGap = cognition_df$WeekendBed - cognition_df$WeekdayBed
-cognition_df$RiseGap = cognition_df$WeekendRise - cognition_df$WeekdayRise
+
 
 cognition_df$WeekdaySleep = NULL
 cognition_df$WeekendSleep = NULL
 
-cognition_df$WeekdayBed = NULL
-cognition_df$WeekdayRise = NULL
-cognition_df$WeekendBed = NULL
-cognition_df$WeekendRise = NULL
+
 ```
 
 ```{r}
@@ -290,24 +286,25 @@ parziale")
 cognition_model = cognition_df
 
 # Predittori numerici da standardizzare
-var_scalate = c("CognitionZscore","AverageSleep","PoorSleepQuality","NumEarlyClass","DepressionScore","AnxietyScore","StressScore","Happiness","Drinks","ClassesMissed","GPA")
+var_scalate = c("CognitionZscore","AverageSleep","PoorSleepQuality","NumEarlyClass","DepressionScore","AnxietyScore","StressScore","Happiness","Drinks","ClassesMissed","GPA", "WeekendRise","WeekdayRise","AverageSleep","WeekdayBed", "WeekendBed")
 
 # STANDARDIZZAZIONE E ASSEGNAZIONE SUFFISSO "_z"
 cognition_model[paste0(var_scalate, "_z")] <- scale(cognition_model[var_scalate])
 
 # RIMOZIONE DELLE V.C NON STANDARDIZZATE
-cognition_model = cognition_model[, c("SleepGap","CognitionZscore_z","AverageSleep_z","PoorSleepQuality_z","NumEarlyClass_z","DepressionScore_z","AnxietyScore_z","StressScore_z","Happiness_z","Drinks_z","ClassesMissed_z","GPA_z",
+cognition_model = cognition_model[, c("SleepGap","CognitionZscore_z","AverageSleep_z","PoorSleepQuality_z","NumEarlyClass_z","DepressionScore_z","AnxietyScore_z","StressScore_z","Happiness_z","Drinks_z","ClassesMissed_z","GPA_z","WeekendRise_z","WeekdayRise_z","WeekendBed_z", "WeekdayBed_z",
                                       
 #CATEGORICHE AL DI FUORI DELLA STANDARDIZZAZIONE                                      
   "Gender",
   "ClassYear",
   "LarkOwl",
   "AllNighter")]
+
 str(cognition_model)
 ```
 
 ```{r}
-mod_sleep_psy = lm(SleepGap ~ CognitionZscore_z + AverageSleep_z + PoorSleepQuality_z + NumEarlyClass_z + DepressionScore_z + AnxietyScore_z + StressScore_z + Happiness_z + Drinks_z + ClassesMissed_z + GPA_z + Gender + ClassYear + LarkOwl + AllNighter, data = cognition_model, method = "qr")
+mod_sleep_psy = lm(SleepGap ~ WeekendRise_z + WeekdayRise_z + WeekendBed_z + WeekdayBed_z + CognitionZscore_z + AverageSleep_z + PoorSleepQuality_z + NumEarlyClass_z + DepressionScore_z + AnxietyScore_z + StressScore_z + Happiness_z + Drinks_z + ClassesMissed_z + GPA_z + Gender + ClassYear + LarkOwl + AllNighter, data = cognition_model, method = "qr")
 
 summary(mod_sleep_psy)
 ```
