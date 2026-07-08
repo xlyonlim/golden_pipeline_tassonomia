@@ -1,9 +1,0 @@
-data(camellia)
-
-range(camellia$pesosecco)
-summary(camellia$pesosecco)
-prova <- sqrt(camellia$pesosecco / 1000)
-
-range(prova)
-summary(y)
-rm("camellia")

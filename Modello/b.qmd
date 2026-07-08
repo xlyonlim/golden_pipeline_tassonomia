@@ -1,0 +1,378 @@
+```{r}
+library(Lock5Data)
+data(SleepStudy)
+options(scipen = 999) # evito la notazione esponenziale 
+
+SleepStudy$SleepGap = SleepStudy$WeekendSleep - SleepStudy$WeekdaySleep
+
+y = SleepStudy$SleepGap
+
+summary(y)
+range(y) # si può evitare na.rm = TRUE in quanto non vi sono missing values
+mean(y)
+sd(y)
+
+```
+```{r}
+
+densityPlot(SleepStudy$SleepGap)
+
+qqnorm(y,main = " ")
+
+qqline(y)
+
+shapiro.test(y)
+
+```
+
+```{r}
+library(car)
+
+# Creo SleepGap
+SleepStudy$SleepGap = SleepStudy$WeekendSleep - SleepStudy$WeekdaySleep
+
+# Stima Yeo-Johnson con powerTransform
+pt_yj = powerTransform(SleepGap ~ 1,
+                       data = SleepStudy,
+                       family = "yjPower")
+
+summary(pt_yj)
+
+lambda_yj_pt = coef(pt_yj)
+lambda_yj_pt
+```
+
+
+
+```{r}
+library(car)
+
+
+# Stima Box-Cox con negativi ammessi
+pt_bcn = powerTransform(SleepGap ~ 1,
+                        data = SleepStudy,
+                        family = "bcnPower")
+
+summary(pt_bcn)
+
+coef(pt_bcn)
+```
+```{r}
+library(car)
+# Funzione log-verosimiglianza per bcnPower
+loglik_bcn = function(y, lambda, gamma){
+  
+  if(gamma <= 0){
+    return(-Inf)
+  }
+  
+  n = length(y)
+  
+  s = sqrt(y^2 + gamma^2)
+  z = 0.5 * (y + s)
+  
+  # Trasformazione Box-Cox applicata a z
+  if(abs(lambda) < 0.001){
+    yt = log(z)
+  } else {
+    yt = (z^lambda - 1) / lambda
+  }
+  
+  rss = sum((yt - mean(yt))^2)
+  
+  # Jacobiano della trasformazione bcnPower
+  dz_du = 0.5 * (1 + y / s)
+  
+  log_jac = sum((lambda - 1) * log(z) + log(dz_du))
+  
+  ll = - n/2 * log(rss/n) + log_jac
+  
+  return(ll)
+}
+
+y = SleepStudy$SleepGap
+
+# Griglia per lambda
+lambda_bcn_grid = seq(-2, 2, 0.005)
+
+# Intervallo di ricerca per gamma
+gamma_lower = 0.001
+gamma_upper = max(abs(y)) * 10 + 10
+
+# Per ogni lambda, ottimizzo gamma
+prof_bcn = lapply(lambda_bcn_grid, function(lambda){
+  
+  opt = optimize(function(log_gamma){
+    
+    gamma = exp(log_gamma)
+    
+    -loglik_bcn(y = y,
+                lambda = lambda,
+                gamma = gamma)
+    
+  }, interval = c(log(gamma_lower), log(gamma_upper)))
+  
+  list(
+    loglik = -opt$objective,
+    gamma = exp(opt$minimum)
+  )
+})
+
+# Estraggo log-verosimiglianza profilo e gamma corrispondente
+pl_bcn = sapply(prof_bcn, function(x) x$loglik)
+gamma_bcn_profile = sapply(prof_bcn, function(x) x$gamma)
+
+# Stima ML di lambda dal profilo
+lambda_bcn_max = lambda_bcn_grid[which.max(pl_bcn)]
+lambda_bcn_max
+
+# Gamma corrispondente al massimo
+gamma_bcn_max = gamma_bcn_profile[which.max(pl_bcn)]
+gamma_bcn_max
+
+# Soglia per IC al 95% di lambda
+pl_bcn_max = max(pl_bcn)
+soglia_bcn = pl_bcn_max - qchisq(0.95, df = 1)/2
+
+# Intervallo di confidenza profilo per lambda
+IC_bcn = range(lambda_bcn_grid[pl_bcn >= soglia_bcn])
+IC_bcn
+```
+```{r}
+par(mar = c(6, 4, 4, 2))
+
+plot(lambda_bcn_grid, pl_bcn, type = "l",
+     col = "red",
+     lwd = 2,
+     xlab = expression(lambda),
+     ylab = "Log-verosimiglianza profilo",
+     main = bquote("Box-Cox con negativi ammessi: " ~
+                   hat(lambda) == .(round(lambda_bcn_max, 3)) ~
+                   ", " ~ hat(gamma) == .(round(gamma_bcn_max, 3)) ~
+                   "   [" ~ .(round(IC_bcn[1], 3)) ~ "," ~ .(round(IC_bcn[2], 3)) ~ "]"))
+
+# Soglia IC 95%
+abline(h = soglia_bcn, col = "blue", lty = 2, lwd = 2)
+
+# Lambda stimato
+abline(v = lambda_bcn_max, col = "red", lty = 3, lwd = 2)
+
+# Estremi IC
+abline(v = IC_bcn[1], col = "black", lty = 3, lwd = 2)
+abline(v = IC_bcn[2], col = "black", lty = 3, lwd = 2)
+
+# Lambda = 0: trasformazione di tipo logaritmico
+
+
+# Etichetta lambda stimato
+mtext(bquote(hat(lambda) == .(round(lambda_bcn_max, 3))),
+      side = 2,
+      at = lambda_bcn_max,
+      line = 2.5,
+      col = "red")
+
+```
+```{r}
+SleepStudy$SleepGap_bcn = as.numeric(
+  bcnPower(SleepStudy$SleepGap,
+           lambda = lambda_bcn_max,
+           gamma = gamma_bcn_max,
+           jacobian.adjusted = FALSE))
+
+summary(SleepStudy$SleepGap)
+summary(SleepStudy$SleepGap_bcn)
+shapiro.test(SleepStudy$SleepGap_bcn)
+
+plot(SleepStudy$SleepGap, SleepStudy$SleepGap_bcn,
+     xlab = "SleepGap originale",
+     ylab = "SleepGap trasformata con bcnPower",
+     main = "Confronto tra scala originale e trasformata",
+     pch = 19)
+```
+
+```{r}
+sum(is.na(SleepStudy))
+```
+
+```{r}
+# Riduzione del dataset
+  cognition_df <- SleepStudy[, c("SleepGap","CognitionZscore","AverageSleep","WeekdaySleep","WeekendSleep","WeekdayBed","WeekdayRise","WeekendBed","WeekendRise","PoorSleepQuality","NumEarlyClass","LarkOwl","AllNighter","DepressionScore","AnxietyScore","StressScore","Happiness","Drinks","ClassesMissed","GPA","Gender","ClassYear" )]
+```
+
+```{r}
+cognition_df$SleepGap = cognition_df$WeekendSleep - cognition_df$WeekdaySleep
+
+cognition_df$BedGap = cognition_df$WeekendBed - cognition_df$WeekdayBed
+cognition_df$RiseGap = cognition_df$WeekendRise - cognition_df$WeekdayRise
+
+cognition_df$WeekdaySleep = NULL
+cognition_df$WeekendSleep = NULL
+
+cognition_df$WeekdayBed = NULL
+cognition_df$WeekdayRise = NULL
+cognition_df$WeekendBed = NULL
+cognition_df$WeekendRise = NULL
+```
+
+```{r}
+
+cognition_df$Gender = factor(cognition_df$Gender,
+levels = c(0, 1),
+labels = c("Female", "Male"))
+
+cognition_df$AllNighter = factor(cognition_df$AllNighter,
+levels = c(0, 1),
+labels = c("No", "Yes"))
+
+cognition_df$ClassYear = factor(cognition_df$ClassYear,
+levels = c(1, 2, 3, 4),
+labels = c("1° Year", "2° Year", "3° Year", "4° Year"))
+
+#cambiare catecogria di riferimento
+cognition_df$LarkOwl = relevel(cognition_df$LarkOwl, ref = "Neither")
+
+str(cognition_df) #check sulla fattorizzazione
+```
+
+```{r}
+
+library(ggplot2)
+library(tidyr)
+```
+
+```{r}
+library(ppcor)
+library(ggplot2)
+
+plot_heatmap = function(mat, titolo = "", legenda = "r") {
+  
+mat_long = as.data.frame(as.table(mat))
+colnames(mat_long) = c("Var1", "Var2", "value")
+  
+ggplot(mat_long, aes(x = Var2, y = Var1, fill = value)) + geom_tile(color = "white") + geom_text(aes(label = round(value, 2)), size = 3) +
+    scale_fill_gradient2(
+    low = "#756BB1",
+    mid = "white",
+    high = "#1B9E77",
+    midpoint = 0,
+   limits = c(-1, 1),
+  name = legenda ) +
+  labs( title = titolo,x = "", y = "" ) +
+    theme_minimal() +
+    theme(
+      axis.text.x = element_text(angle = 45, hjust = 1),
+      axis.text.y = element_text(size = 10),
+      panel.grid = element_blank())}
+
+dati_cor_psy = cognition_df[, c( "SleepGap","CognitionZscore","AverageSleep","BedGap","RiseGap","PoorSleepQuality","NumEarlyClass","DepressionScore","AnxietyScore","StressScore","Happiness","Drinks","ClassesMissed","GPA")]
+
+cor_mat_psy = cor(dati_cor_psy, method = "pearson")
+
+plot_heatmap(cor_mat_psy,titolo = "",legenda = "Correlazione
+  globale")
+```
+
+```{r}
+
+dati_cor_psy = cognition_df[, c("SleepGap","CognitionZscore","AverageSleep","BedGap","RiseGap","PoorSleepQuality","NumEarlyClass","DepressionScore","AnxietyScore","StressScore","Happiness","Drinks","ClassesMissed","GPA")]
+
+pcor_psy = pcor(dati_cor_psy, method = "pearson")
+
+pcor_mat_psy =pcor_psy$estimate
+
+plot_heatmap(pcor_mat_psy, titolo = "",legenda = "Correlazione
+parziale")
+```
+
+
+```{r}
+# Si crea una copia del dataset per la modellistica
+cognition_model = cognition_df
+
+# Predittori numerici da standardizzare
+var_scalate = c("CognitionZscore","AverageSleep","PoorSleepQuality","NumEarlyClass","DepressionScore","AnxietyScore","StressScore","Happiness","Drinks","ClassesMissed","GPA")
+
+# STANDARDIZZAZIONE E ASSEGNAZIONE SUFFISSO "_z"
+cognition_model[paste0(var_scalate, "_z")] <- scale(cognition_model[var_scalate])
+
+# RIMOZIONE DELLE V.C NON STANDARDIZZATE
+cognition_model = cognition_model[, c("SleepGap","CognitionZscore_z","AverageSleep_z","PoorSleepQuality_z","NumEarlyClass_z","DepressionScore_z","AnxietyScore_z","StressScore_z","Happiness_z","Drinks_z","ClassesMissed_z","GPA_z",
+                                      
+#CATEGORICHE AL DI FUORI DELLA STANDARDIZZAZIONE                                      
+  "Gender",
+  "ClassYear",
+  "LarkOwl",
+  "AllNighter")]
+str(cognition_model)
+```
+
+```{r}
+mod_sleep_psy = lm(SleepGap ~ CognitionZscore_z + AverageSleep_z + PoorSleepQuality_z + NumEarlyClass_z + DepressionScore_z + AnxietyScore_z + StressScore_z + Happiness_z + Drinks_z + ClassesMissed_z + GPA_z + Gender + ClassYear + LarkOwl + AllNighter, data = cognition_model, method = "qr")
+
+summary(mod_sleep_psy)
+```
+
+```{r}
+# Diagnostica preliminare modello con sottoscale
+par(mfrow = c(2, 2))
+plot(mod_sleep_psy)
+par(mfrow = c(1, 1))
+
+library(lmtest)
+library(car)
+#controlliamo la normalità
+shapiro.test(rstandard(mod_sleep_psy))
+
+#per sicurezza, sebbene non ci sia una funnel shape  chiara, la lowess line non è orizzontale e si nota una leggera tendenza ad aumentare sui valori di x più alti
+bptest(mod_sleep_psy)  #per i valori di x
+ncvTest(mod_sleep_psy) #per i fitted values
+vif(mod_sleep_psy) #nessun vif sembra superare essere particolarmente il valore 1
+```
+
+```{r}
+res_std = rstandard(mod_sleep_psy)
+
+plot(density(res_std),main = "",
+  xlab = "Residui standardizzati",
+  ylab = "Densità",
+  lwd = 2)
+
+abline(v = 0, lty = 2, lwd = 2)
+```
+
+```{r}
+library(MASS)
+
+n = nobs(mod_sleep_psy)
+
+step_psy = stepAIC(mod_sleep_psy,direction = "backward",
+  k = log(n), #IMPORTANTE PERCHE' DETERMINA LA PENALIZZAZIONE DEL BIC
+  trace = TRUE)
+
+summary(step_psy)
+```
+
+```{r}
+# Residui standardizzati & studentizzati
+res.std = scale(residuals(step_psy)) 
+res.stu = rstudent(step_psy)
+
+
+shapiro.test(res.std)
+
+library(tseries)
+jarque.bera.test(res.std)
+
+
+ks.test(res.stu, "pt", df = df.residual(step_psy) - 1)
+
+# OMOSCHEDASTICITA'
+library(lmtest)
+bptest(step_psy)
+
+library(car)
+ncvTest(step_psy)
+
+#vanno commentati così come la diagnostica soprastante
+```
+
