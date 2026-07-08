@@ -1,4 +1,0 @@
-install.packages("Lock5Data")   # solo se non l'hai già installato
-library(Lock5Data)
-data("SleepStudy")
-head(sleepstudy)
