@@ -1,1 +1,0 @@
-Segmentazione completata con Docling e OpenDataLoader, JSON e Markdown.

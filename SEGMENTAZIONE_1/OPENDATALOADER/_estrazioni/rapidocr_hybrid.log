@@ -1,9 +1,0 @@
-Traceback (most recent call last):
-  File "<frozen runpy>", line 198, in _run_module_as_main
-  File "<frozen runpy>", line 88, in _run_code
-  File "C:\Users\Ciro\AppData\Local\Programs\Python\Python312\Scripts\opendataloader-pdf-hybrid.EXE\__main__.py", line 5, in <module>
-  File "C:\Users\Ciro\AppData\Local\Programs\Python\Python312\Lib\site-packages\opendataloader_pdf\hybrid_server.py", line 809, in main
-    _check_dependencies()
-  File "C:\Users\Ciro\AppData\Local\Programs\Python\Python312\Lib\site-packages\opendataloader_pdf\hybrid_server.py", line 301, in _check_dependencies
-    raise ImportError(
-ImportError: Missing dependencies: uvicorn, fastapi. Install with: pip install opendataloader-pdf[hybrid]

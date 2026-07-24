@@ -1,4 +1,19 @@
+---
+title: ""
+subtitle: ""
+author: "Ciro Esposito"
+format:
+  docx:
+    toc: true
+    number-sections: true
+editor: visual
+---
+
+
+
 ```{r}
+library(Lock5Data)
+data("SleepStudy")
 options(scipen = 999) # evito la notazione esponenziale 
 
 SleepStudy$SleepGap = SleepStudy$WeekendSleep - SleepStudy$WeekdaySleep
@@ -141,16 +156,15 @@ str(sleepgap_model)
 ```
 
 ```{r}
-mod_sleep_blank = lm(SleepGap ~ CognitionZscore_z + PoorSleepQuality_z + NumEarlyClass_z + DepressionScore_z + AnxietyScore_z + StressScore_z + Happiness_z + Drinks_z + ClassesMissed_z + GPA_z + Gender + ClassYear + LarkOwl + AllNighter, data = sleepgap_model2, method = "qr")
+mod_sleep_blank = lm(SleepGap ~ CognitionZscore_z  + NumEarlyClass_z + DepressionScore_z + AnxietyScore_z + StressScore_z + Happiness_z + Drinks_z + ClassesMissed_z + GPA_z + Gender + ClassYear + LarkOwl + AllNighter, data = sleepgap_model, method = "qr")
 
 summary(mod_sleep_blank)
-
 ```
 
 ```{r}
 # Diagnostica preliminare modello con sottoscale
 par(mfrow = c(2, 2))
-plot(mod_sleep_psy)
+plot(mod_sleep_blank)
 par(mfrow = c(1, 1))
 
 ```
@@ -166,7 +180,7 @@ res.stu = rstudent(mod_sleep_blank)
 library(tseries)
 shapiro.test(res.std)
 jarque.bera.test(res.std)
-ks.test(res.stu_bcn, "pt", df = df.residual(mod_sleep_bcn) - 1)
+ks.test(res.stu, "pt", df = df.residual(mod_sleep_blank) - 1)
 #I test di normalità non superati per veramente pochissimo, solo kolmogorv smirnov ma sappiamo che ragiona in termini di forma
 
 # OMOSCHEDASTICITA'
@@ -199,7 +213,7 @@ library(car)
 #Data i valori vicini alla normalità, ma la situazione di eteroschedasticità seria determinata dal test di breuschpagan, si procede all'utilizzo della trasformazione di boxcox per valori negativi bcPower dal pacchetto car
 
 # Stima Box-Cox con negativi ammessi
-trasformazione_bcn = powerTransform(SleepGap ~ 1,
+trasformazione_bcn = powerTransform(sleepgap_df$SleepGap ~ 1,
                         data = SleepStudy,
                         family = "bcnPower")
 
@@ -208,7 +222,7 @@ summary(trasformazione_bcn)
 
 coef(trasformazione_bcn)
 
-#Il p value risulta altissimo, motivo per cui non c'è evidenza empirica per non sostenere una trasformazione logaritmica
+#Il p value risulta altissimo, motivo per cui non si rifiuta H0 (applico la log)
 ```
 
 ```{r}
@@ -337,19 +351,22 @@ gamma_bcn <- 3.41785
 
 sleepgap_model2 = sleepgap_model # il 2 è senza bcn
 
-sleepgap_model$SleepGap_bcn <- bcnPower(
+
+sleepgap_model2$SleepGap_bcn <- bcnPower(
   sleepgap_model2$SleepGap,
   lambda = lambda_bcn,
   gamma = gamma_bcn,
   jacobian.adjusted = FALSE)
 
-sleepgap_model$SleepGap = NULL
+sleepgap_model2$SleepGap = NULL
+
+
 ```
 
 ```{r}
 #Ristimiamo il modello
 
-mod_sleep_bcn = lm(SleepGap_bcn ~ CognitionZscore_z + PoorSleepQuality_z + NumEarlyClass_z + DepressionScore_z + AnxietyScore_z + StressScore_z + Happiness_z + Drinks_z + ClassesMissed_z + GPA_z + Gender + ClassYear + LarkOwl + AllNighter, data = sleepgap_model, method = "qr")
+mod_sleep_bcn = lm(SleepGap_bcn ~ CognitionZscore_z  + NumEarlyClass_z + DepressionScore_z + AnxietyScore_z + StressScore_z + Happiness_z + Drinks_z + ClassesMissed_z + GPA_z + Gender + ClassYear + LarkOwl + AllNighter, data = sleepgap_model2, method = "qr")
 
 summary(mod_sleep_bcn)
 ```
@@ -389,16 +406,150 @@ vif(mod_sleep_bcn)
 ```{r}
 library(MASS)
 
-n = nobs(mod_sleep_blank)
+n = nobs(mod_sleep_bcn)
 
-step_psy = stepAIC(mod_sleep_blank,direction = "backward",
-  k = AIC, #IMPORTANTE PERCHE' DETERMINA LA PENALIZZAZIONE DEL BIC
+step_psy = stepAIC(mod_sleep_bcn,direction = "backward",
+  k = 2, #IMPORTANTE PERCHE' DETERMINA LA PENALIZZAZIONE DEL BIC
   trace = TRUE)
 
 summary(step_psy)
 ```
 
+
 ```{r}
-which(abs(res_stud) > 3)
+mod_sleep_bcn_bic = lm(SleepGap_bcn ~ NumEarlyClass_z + StressScore_z + 
+    Drinks_z + Gender , data = sleepgap_model2, method = "qr")
+```
+
+
+```{r}
+library(car)
+library(lmtest)
+
+# Modello finale selezionato con BIC
+summary(mod_sleep_bcn_bic)
+
+# Diagnostica eteroschedasticità sul modello finale
+bptest(mod_sleep_bcn_bic)
+ncvTest(mod_sleep_bcn_bic)
+
+# Correzione sandwich sul modello finale
+vcov_bcn_bic <- hccm(mod_sleep_bcn_bic)
+
+tab_bcn_bic_sand <- coeftest(
+  mod_sleep_bcn_bic,
+  vcov = vcov_bcn_bic
+)
+
+tab_bcn_bic_sand
+```
+```{r}
+library(car)
+
+linearHypothesis(
+  mod_sleep_bcn_bic,
+  c("LarkOwlLark = 0", "LarkOwlOwl = 0"),
+  vcov. = hccm(mod_sleep_bcn_bic)
+)
+```
+
+
+
+
+```{r}
+# ============================================================
+# Effetti medi riportati in ore per tutte le variabili
+# del modello finale bcnPower
+# ============================================================
+
+# Metti qui il nome del TUO modello finale
+mod_finale <- mod_sleep_bcn_bic
+# oppure, se si chiama diversamente:
+# mod_finale <- mod_sleep_bcn_bic
+
+# Uso esattamente le osservazioni usate dal modello
+dati_finale <- model.frame(mod_sleep_bcn_bic)
+
+# Variabili presenti a destra della formula
+vars_modello <- all.vars(delete.response(terms(mod_sleep_bcn_bic)))
+
+# Funzione per predire e tornare in ore
+predici_ore <- function(modello, nuovi_dati, lambda, gamma) {
+  pred_bcn <- predict(modello, newdata = nuovi_dati)
+  bcnPowerInverse(pred_bcn, lambda = lambda, gamma = gamma)
+}
+
+# Effetto per variabili continue:
+# aumento di 1 deviazione standard
+effetto_continuo <- function(var) {
+  
+  dati0 <- dati_finale
+  dati1 <- dati_finale
+  
+  dati1[[var]] <- dati1[[var]] + 1
+  
+  pred0_ore <- predici_ore(mod_finale, dati0, lambda_bcn, gamma_bcn)
+  pred1_ore <- predici_ore(mod_finale, dati1, lambda_bcn, gamma_bcn)
+  
+  effetto <- mean(pred1_ore - pred0_ore, na.rm = TRUE)
+  
+  data.frame(
+    Variabile = var,
+    Confronto = "+1 deviazione standard",
+    Effetto_medio_ore = effetto,
+    Effetto_medio_minuti = effetto * 60
+  )
+}
+
+# Effetto per variabili categoriali:
+# confronto di ogni livello contro il riferimento
+effetto_categorico <- function(var) {
+  
+  livelli <- levels(dati_finale[[var]])
+  livello_rif <- livelli[1]
+  
+  risultati <- lapply(livelli[-1], function(livello_altro) {
+    
+    dati0 <- dati_finale
+    dati1 <- dati_finale
+    
+    dati0[[var]] <- factor(livello_rif, levels = livelli)
+    dati1[[var]] <- factor(livello_altro, levels = livelli)
+    
+    pred0_ore <- predici_ore(mod_finale, dati0, lambda_bcn, gamma_bcn)
+    pred1_ore <- predici_ore(mod_finale, dati1, lambda_bcn, gamma_bcn)
+    
+    effetto <- mean(pred1_ore - pred0_ore, na.rm = TRUE)
+    
+    data.frame(
+      Variabile = var,
+      Confronto = paste(livello_altro, "vs", livello_rif),
+      Effetto_medio_ore = effetto,
+      Effetto_medio_minuti = effetto * 60
+    )
+  })
+  
+  do.call(rbind, risultati)
+}
+
+# Distinguo automaticamente continue e categoriali
+vars_continue <- vars_modello[sapply(dati_finale[vars_modello], is.numeric)]
+vars_categoriali <- vars_modello[sapply(dati_finale[vars_modello], is.factor)]
+
+# Calcolo effetti
+tab_continue <- do.call(rbind, lapply(vars_continue, effetto_continuo))
+tab_categoriali <- do.call(rbind, lapply(vars_categoriali, effetto_categorico))
+
+# Tabella finale
+tab_effetti_ore <- rbind(tab_continue, tab_categoriali)
+
+tab_effetti_ore$Effetto_medio_ore <- round(tab_effetti_ore$Effetto_medio_ore, 3)
+tab_effetti_ore$Effetto_medio_minuti <- round(tab_effetti_ore$Effetto_medio_minuti, 1)
+
+tab_effetti_ore
+```
+
+
+
 ```
 

@@ -2,7 +2,7 @@
 # 01_estrazione_e_segmentazione.py
 #
 # Obiettivo:
-# trasformare output Markdown/JSON da Docling o OpenDataLoader
+# trasformare output Markdown/JSON da Docling, OpenDataLoader o Marker
 # in un dataset di blocchi narrativi etichettati.
 #
 # Nota metodologica:
@@ -34,10 +34,12 @@ import pandas as pd
 # ============================================================
 
 SCRIPT_DIR = Path(__file__).resolve().parent
+SCRIPT_OUTPUT_ROOT = SCRIPT_DIR / Path(__file__).stem
 DEFAULT_INPUT_ROOT = SCRIPT_DIR / "Input"
-DEFAULT_OUT_ROOT = SCRIPT_DIR
+DEFAULT_OUT_ROOT = SCRIPT_OUTPUT_ROOT
 SELECTED_TOOL = "docling"
 SELECTED_FORMAT = "json"
+EXTRACTOR_TOOLS = ("docling", "opendataloader", "marker")
 
 
 def natural_sort_key(path: Path) -> List[Any]:
@@ -594,19 +596,21 @@ def guess_tool(path: Path) -> str:
         return "docling"
     if "opendataloader" in p or "open_data_loader" in p or "odl" in p:
         return "opendataloader"
+    if "marker" in p:
+        return "marker"
     return "unknown"
 
 
 def role_norm(label: str) -> str:
-    label = (label or "").lower()
+    label = (label or "").lower().replace("-", "_").replace(" ", "_")
 
-    if label in {"section_header", "heading", "title", "subtitle"}:
+    if label in {"section_header", "sectionheader", "heading", "title", "subtitle"}:
         return "heading"
-    if label in {"text", "paragraph"}:
+    if label in {"text", "paragraph", "textinline", "line", "span"}:
         return "text"
-    if label in {"list", "list_item"}:
+    if label in {"list", "list_item", "listitem", "bullet", "bulleted_list"}:
         return "list_item"
-    if label == "table":
+    if label in {"table", "tablecell", "table_cell"}:
         return "table"
     if label in {"picture", "image", "figure"}:
         return "figure"
@@ -1201,6 +1205,117 @@ def extract_with_opendataloader(pdf_paths: List[Path], extraction_dir: Path) -> 
     return errors
 
 
+def find_marker_output_file(output_root: Path, stem: str, suffixes: set[str]) -> Optional[Path]:
+    candidates = [
+        path
+        for path in output_root.rglob("*")
+        if path.is_file() and path.suffix.lower() in suffixes
+    ]
+    if not candidates:
+        return None
+
+    non_metadata = [
+        path
+        for path in candidates
+        if "metadata" not in path.name.lower() and "meta" not in path.name.lower()
+    ]
+    candidates = non_metadata or candidates
+    preferred = [path for path in candidates if path.stem.lower() == stem.lower()]
+    candidates = preferred or candidates
+    return max(candidates, key=lambda path: path.stat().st_size)
+
+
+def run_marker_single(
+    marker_executable: str,
+    pdf_path: Path,
+    extraction_dir: Path,
+    output_format: str,
+    disable_ocr: bool = False,
+) -> None:
+    suffixes = {"markdown": {".md", ".markdown"}, "json": {".json"}}[output_format]
+    destination = extraction_dir / f"{pdf_path.stem}{'.md' if output_format == 'markdown' else '.json'}"
+    if destination.exists():
+        return
+
+    temp_dir = extraction_dir / f"__marker_tmp_{pdf_path.stem}_{output_format}"
+    if temp_dir.exists():
+        shutil.rmtree(temp_dir)
+    temp_dir.mkdir(parents=True, exist_ok=True)
+
+    command = [
+        marker_executable,
+        str(pdf_path),
+        "--output_format",
+        output_format,
+        "--output_dir",
+        str(temp_dir),
+        "--mode",
+        "fast",
+        "--disable_image_extraction",
+    ]
+    if disable_ocr:
+        command.append("--disable_ocr")
+    try:
+        process = subprocess.run(
+            command,
+            capture_output=True,
+            text=True,
+            errors="replace",
+            timeout=1800,
+        )
+        if process.returncode != 0:
+            message = (process.stderr or process.stdout or "errore Marker").strip()
+            raise RuntimeError(message[-2000:])
+
+        produced = find_marker_output_file(temp_dir, pdf_path.stem, suffixes)
+        if produced is None:
+            raise RuntimeError(f"Marker non ha prodotto output {output_format}")
+        shutil.copy2(produced, destination)
+    finally:
+        shutil.rmtree(temp_dir, ignore_errors=True)
+
+
+def extract_with_marker(
+    pdf_paths: List[Path], extraction_dir: Path, disable_ocr: bool = False
+) -> List[Dict[str, str]]:
+    """Estrae i PDF con Marker, producendo Markdown e JSON locali."""
+    marker_executable = shutil.which("marker_single")
+    if marker_executable is None:
+        raise RuntimeError(
+            "Marker non e' installato o non e' nel PATH. "
+            "Installa 'marker-pdf' e verifica che il comando 'marker_single' sia disponibile."
+        )
+
+    extraction_dir.mkdir(parents=True, exist_ok=True)
+    errors: List[Dict[str, str]] = []
+    pdfs = sorted(pdf_paths, key=natural_sort_key)
+    for index, pdf_path in enumerate(pdfs, start=1):
+        if (extraction_dir / f"{pdf_path.stem}.md").exists() and (
+            extraction_dir / f"{pdf_path.stem}.json"
+        ).exists():
+            print(f"[MARKER {index}/{len(pdfs)}] gia' estratto: {pdf_path.name}")
+            continue
+
+        print(f"[MARKER {index}/{len(pdfs)}] {pdf_path.name}")
+        for output_format in ("markdown", "json"):
+            try:
+                run_marker_single(
+                    marker_executable,
+                    pdf_path,
+                    extraction_dir,
+                    output_format,
+                    disable_ocr=disable_ocr,
+                )
+            except Exception as exc:
+                errors.append({
+                    "file": pdf_path.name,
+                    "formato": output_format,
+                    "errore": str(exc),
+                })
+                print(f"[ERRORE MARKER {output_format.upper()}] {pdf_path.name}: {exc}")
+    return errors
+
+
 # ============================================================
 # 6. LETTURA JSON OPENDATALOADER / JSON SEMPLIFICATO
 # ============================================================
@@ -1235,9 +1350,130 @@ def read_opendataloader_json(path: Path, doc: Dict[str, Any]) -> pd.DataFrame:
     return pd.DataFrame(rows)
 
 
+def clean_marker_json_text(value: Any) -> str:
+    if isinstance(value, (dict, list)) or value is None:
+        return ""
+    text = str(value)
+    text = re.sub(r"<[^>]+>", " ", text)
+    return normalize_text(text)
+
+
+def marker_label(obj: Dict[str, Any]) -> str:
+    for key in ("block_type", "type", "label", "category", "role"):
+        value = obj.get(key)
+        if value:
+            return str(value)
+    return "paragraph"
+
+
+def marker_page(obj: Dict[str, Any]) -> Any:
+    for key in ("page", "page_id", "page_number", "page_idx"):
+        if key in obj:
+            return obj.get(key)
+    return None
+
+
+def marker_bbox(obj: Dict[str, Any]) -> Any:
+    for key in ("bbox", "bounding_box", "box", "polygon", "position"):
+        value = obj.get(key)
+        if value:
+            return value
+    return None
+
+
+def marker_text(obj: Dict[str, Any]) -> str:
+    for key in ("text", "content", "html", "markdown", "block_text", "block_html"):
+        text = clean_marker_json_text(obj.get(key))
+        if text:
+            return text
+    return ""
+
+
+def marker_children(obj: Dict[str, Any]) -> list[Any]:
+    children: list[Any] = []
+    for key in ("children", "blocks", "items", "lines", "spans"):
+        value = obj.get(key)
+        if isinstance(value, list):
+            children.extend(value)
+    return children
+
+
+def read_marker_json(path: Path, doc: Any) -> pd.DataFrame:
+    rows: List[Dict[str, Any]] = []
+    order = 0
+
+    def visit(node: Any, inherited_page: Any = None) -> None:
+        nonlocal order
+        if isinstance(node, list):
+            for item in node:
+                visit(item, inherited_page)
+            return
+        if not isinstance(node, dict):
+            return
+
+        page = marker_page(node)
+        if page is None:
+            page = inherited_page
+        text = marker_text(node)
+        children = marker_children(node)
+
+        if text and not children:
+            order += 1
+            label = marker_label(node)
+            bbox = marker_bbox(node)
+            rows.append({
+                "id_atto": path.stem,
+                "tool": guess_tool(path),
+                "source_format": "json",
+                "source_file": path.name,
+                "order": order,
+                "page": page,
+                "label_raw": label,
+                "role_norm": role_norm(label),
+                "text": text,
+                "bbox": json.dumps(bbox, ensure_ascii=False) if bbox else None,
+            })
+            return
+
+        for child in children:
+            visit(child, page)
+
+        if text and not any(isinstance(child, dict) and marker_text(child) for child in children):
+            order += 1
+            label = marker_label(node)
+            bbox = marker_bbox(node)
+            rows.append({
+                "id_atto": path.stem,
+                "tool": guess_tool(path),
+                "source_format": "json",
+                "source_file": path.name,
+                "order": order,
+                "page": page,
+                "label_raw": label,
+                "role_norm": role_norm(label),
+                "text": text,
+                "bbox": json.dumps(bbox, ensure_ascii=False) if bbox else None,
+            })
+
+    if isinstance(doc, dict):
+        for key in ("children", "blocks", "pages"):
+            if isinstance(doc.get(key), list):
+                visit(doc[key])
+                break
+        else:
+            visit(doc)
+    else:
+        visit(doc)
+
+    return pd.DataFrame(rows)
+
+
 def read_json_any(path: Path) -> pd.DataFrame:
     with path.open("r", encoding="utf-8", errors="ignore") as f:
         doc = json.load(f)
+
+    if guess_tool(path) == "marker":
+        return read_marker_json(path, doc)
 
     if doc.get("schema_name") == "DoclingDocument":
         return read_docling_json(path, doc)
@@ -1809,6 +2045,14 @@ def parse_args() -> argparse.Namespace:
             "Utile per mantenere gli ID di un golden set."
         ),
     )
+    parser.add_argument(
+        "--marker-disable-ocr",
+        action="store_true",
+        help=(
+            "Per Marker usa solo il testo incorporato nei PDF, evitando il backend OCR/VLM locale. "
+            "Piu' veloce e semplice, ma meno adatto ai PDF scansionati."
+        ),
+    )
     return parser.parse_args()
 
 
@@ -1857,7 +2101,8 @@ def main() -> None:
     selected_ids = {path.stem for path in unique_pdf_paths}
     print(f"PDF selezionati per l'elaborazione: {len(unique_pdf_paths)}")
 
-    for tool_name in ("docling", "opendataloader"):
+    completed_tools: List[str] = []
+    for tool_name in EXTRACTOR_TOOLS:
         tool_dir = out_dir / tool_name.upper()
         extraction_dir_for_tool = tool_dir / "_estrazioni"
         tool_dir.mkdir(parents=True, exist_ok=True)
@@ -1871,10 +2116,18 @@ def main() -> None:
                 extraction_errors = extract_with_docling(
                     unique_pdf_paths, extraction_dir_for_tool
                 )
-            else:
+            elif tool_name == "opendataloader":
                 extraction_errors = extract_with_opendataloader(
                     unique_pdf_paths, extraction_dir_for_tool
                 )
+            elif tool_name == "marker":
+                extraction_errors = extract_with_marker(
+                    unique_pdf_paths,
+                    extraction_dir_for_tool,
+                    disable_ocr=args.marker_disable_ocr,
+                )
+            else:
+                raise ValueError(f"Estrattore non supportato: {tool_name}")
         except Exception as exc:
             extraction_errors = [{"file": "BATCH", "errore": str(exc)}]
             print(f"[ERRORE {tool_name.upper()}] {exc}")
@@ -1887,6 +2140,7 @@ def main() -> None:
                 sep=";",
             )
 
+        tool_had_output = False
         for selected_format in ("json", "markdown"):
             elements_for_format = read_all_outputs(
                 extraction_dir_for_tool, selected_format
@@ -1918,16 +2172,23 @@ def main() -> None:
 
             format_dir = tool_dir / selected_format.upper()
             make_reports(elements_for_format, blocks_for_format, format_dir)
+            tool_had_output = True
             print(
                 f"{tool_name}/{selected_format}: "
                 f"{len(elements_for_format)} elementi, {len(blocks_for_format)} blocchi."
             )
 
-    print("Segmentazione completata per entrambi gli estrattori e i formati.")
+        if tool_had_output:
+            completed_tools.append(tool_name.upper())
+
+    print("Segmentazione completata per tutti gli estrattori disponibili e i formati.")
+    print("Estrattori con output: " + (", ".join(completed_tools) if completed_tools else "nessuno"))
     print(f"Input letto da: {input_root}")
     print(f"Output salvati in: {out_dir}")
     (out_dir / "00_COMPLETATA.txt").write_text(
-        "Segmentazione completata con Docling e OpenDataLoader, JSON e Markdown.\n",
+        "Segmentazione completata. Estrattori con output: "
+        + (", ".join(completed_tools) if completed_tools else "nessuno")
+        + ".\n",
         encoding="utf-8",
     )
     return

@@ -20,8 +20,11 @@ from typing import Any
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 DEFAULT_MODEL = "nemotron-3-super:cloud"
-DEFAULT_OUTPUT_ROOT = SCRIPT_DIR / "VALUTAZIONE_SEGMENTAZIONE_OLLAMA"
+SCRIPT_OUTPUT_ROOT = SCRIPT_DIR / Path(__file__).stem
+DEFAULT_SEGMENTATION_ROOT = SCRIPT_DIR / "01_estrazione_e_segmentazione"
+DEFAULT_OUTPUT_ROOT = SCRIPT_OUTPUT_ROOT
 OLLAMA_CHAT_URL = "http://127.0.0.1:11434/api/chat"
+EXTRACTOR_TOOLS = ("DOCLING", "OPENDATALOADER", "MARKER")
 # I modelli cloud tollerano contesti ampi, ma richieste molto grandi e parallele
 # aumentano sensibilmente 502 e risposte JSON troncate.
 MAX_REFERENCE_CHARS = 45_000
@@ -35,14 +38,23 @@ def natural_number(value: str) -> int:
     return int(match.group(1)) if match else 10**9
 
 
-def latest_segmentation(root: Path) -> Path:
+def segmentation_candidates(root: Path) -> list[tuple[int, Path]]:
     candidates = []
     for path in root.glob("SEGMENTAZIONE_*"):
         match = re.fullmatch(r"SEGMENTAZIONE_(\d+)", path.name, re.IGNORECASE)
         if path.is_dir() and match:
             candidates.append((int(match.group(1)), path))
+    return candidates
+
+
+def latest_segmentation(root: Path) -> Path:
+    candidates = segmentation_candidates(root)
+    if not candidates and root.resolve() != SCRIPT_DIR.resolve():
+        candidates = segmentation_candidates(SCRIPT_DIR)
     if not candidates:
-        raise FileNotFoundError("Nessuna cartella SEGMENTAZIONE_N trovata")
+        raise FileNotFoundError(
+            f"Nessuna cartella SEGMENTAZIONE_N trovata in {root} o nelle vecchie cartelle radice"
+        )
     incomplete = [item for item in candidates if not (item[1] / "00_COMPLETATA.txt").exists()]
     return max(incomplete or candidates, key=lambda item: item[0])[1]
 
@@ -270,6 +282,11 @@ def wait_for_tool(segmentation_dir: Path, tool: str, timeout: int) -> tuple[Path
     while time.time() < deadline:
         if json_path.exists() and markdown_path.exists():
             return json_path, markdown_path
+        if (segmentation_dir / "00_COMPLETATA.txt").exists():
+            raise FileNotFoundError(
+                f"Dataset {tool} non presenti in {segmentation_dir}. "
+                "Riesegui 01_estrazione_e_segmentazione.py dopo aver configurato l'estrattore."
+            )
         time.sleep(5)
     raise TimeoutError(f"Dataset {tool} non disponibili entro {timeout} secondi")
 
@@ -382,7 +399,14 @@ def save_results(output_dir: Path, rows: list[dict[str, Any]]) -> None:
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Valuta la segmentazione tramite Ollama Cloud")
-    parser.add_argument("--segmentazione", type=Path, help="Cartella SEGMENTAZIONE_N; default: ultima incompleta o più recente")
+    parser.add_argument(
+        "--segmentazione",
+        type=Path,
+        help=(
+            "Cartella SEGMENTAZIONE_N; default: ultima in "
+            f"{DEFAULT_SEGMENTATION_ROOT}, con fallback sulle vecchie cartelle radice"
+        ),
+    )
     parser.add_argument("--input", type=Path, default=SCRIPT_DIR / "Input")
     parser.add_argument(
         "--output",
@@ -399,7 +423,9 @@ def parse_args() -> argparse.Namespace:
 def main() -> None:
     args = parse_args()
     segmentation_dir = (
-        args.segmentazione.resolve() if args.segmentazione else latest_segmentation(SCRIPT_DIR)
+        args.segmentazione.resolve()
+        if args.segmentazione
+        else latest_segmentation(DEFAULT_SEGMENTATION_ROOT)
     )
     if not 1 <= args.concorrenza <= 4:
         raise ValueError("--concorrenza deve essere compresa tra 1 e 4")
@@ -407,18 +433,27 @@ def main() -> None:
     output_dir = next_evaluation_dir(args.output.expanduser().resolve())
     print(f"Risultati destinati a: {output_dir}", flush=True)
     all_results: list[dict[str, Any]] = []
-    # Docling viene valutato appena pronto; intanto OpenDataLoader può continuare localmente.
-    for tool in ("DOCLING", "OPENDATALOADER"):
-        all_results.extend(
-            evaluate_tool(
-                args.model,
-                args.input.resolve(),
-                segmentation_dir,
-                tool,
-                args.concorrenza,
-                args.timeout_attesa,
+    # Ogni estrattore viene valutato appena i suoi JSON/MARKDOWN sono disponibili.
+    for tool in EXTRACTOR_TOOLS:
+        try:
+            all_results.extend(
+                evaluate_tool(
+                    args.model,
+                    args.input.resolve(),
+                    segmentation_dir,
+                    tool,
+                    args.concorrenza,
+                    args.timeout_attesa,
+                )
             )
-        )
+        except (FileNotFoundError, TimeoutError) as exc:
+            print(f"[{tool}] saltato: {exc}", flush=True)
+            all_results.append({
+                "id_delibera": "",
+                "estrattore": tool,
+                "format": "ERRORE",
+                "notes": str(exc),
+            })
         save_results(output_dir, all_results)
 
     print(f"Valutazione completata: {output_dir}")
