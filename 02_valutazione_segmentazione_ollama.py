@@ -17,6 +17,8 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 from typing import Any
 
+from document_ids import canonical_document_id, document_filename
+
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 DEFAULT_MODEL = "nemotron-3-super:cloud"
@@ -74,12 +76,12 @@ def read_dataset(path: Path) -> dict[str, list[dict[str, str]]]:
 
 
 def pdf_reference(input_dir: Path, segmentation_dir: Path, id_delibera: str) -> tuple[str, str]:
+    document_id = canonical_document_id(id_delibera, default_prefix="INPUT")
     with _reference_lock:
-        if id_delibera in _reference_cache:
-            return _reference_cache[id_delibera]
+        if document_id in _reference_cache:
+            return _reference_cache[document_id]
 
-    number = natural_number(id_delibera)
-    pdf_path = input_dir / f"atto_{number}.pdf"
+    pdf_path = input_dir / document_filename(document_id)
     pdftotext = shutil.which("pdftotext")
     if pdftotext is None:
         winget_root = Path.home() / "AppData" / "Local" / "Microsoft" / "WinGet" / "Packages"
@@ -97,14 +99,19 @@ def pdf_reference(input_dir: Path, segmentation_dir: Path, id_delibera: str) -> 
         text = process.stdout.decode("utf-8", errors="replace")
 
     if len(re.findall(r"[A-Za-zÀ-ÖØ-öø-ÿ]", text)) < 500:
-        fallback = segmentation_dir / "DOCLING" / "_estrazioni" / f"atto_{number}.md"
+        fallback = (
+            segmentation_dir
+            / "DOCLING"
+            / "_estrazioni"
+            / f"{document_id}.md"
+        )
         if fallback.exists():
             text = fallback.read_text(encoding="utf-8", errors="replace")
             source = "docling_ocr_fallback"
 
     result = (text[:MAX_REFERENCE_CHARS], source)
     with _reference_lock:
-        _reference_cache[id_delibera] = result
+        _reference_cache[document_id] = result
     return result
 
 
@@ -250,7 +257,7 @@ Restituisci esclusivamente JSON valido con questa struttura:
 "boundary_accuracy":0,"text_fidelity":0,"noise_exclusion":0,"overall_score":0,
 "issues":["..."],"notes":"..."}},{{"format":"MARKDOWN", ...}}]}}
 
-ATTO: {id_delibera}
+DOCUMENTO: {id_delibera}
 ESTRATTORE: {tool}
 SORGENTE RIFERIMENTO: {reference_source}
 

@@ -28,6 +28,12 @@ from typing import Any, Dict, List, Optional
 
 import pandas as pd
 
+from document_ids import (
+    canonical_document_id,
+    infer_dataset_prefix,
+    normalize_prefix,
+)
+
 
 # ============================================================
 # 1. CONFIGURAZIONE
@@ -56,17 +62,44 @@ def file_sha256(path: Path) -> str:
     return digest.hexdigest()
 
 
-def prepare_input_pdfs(input_root: Path, preserve_names: bool = False) -> pd.DataFrame:
-    """Censisce i PDF e, salvo richiesta, li deduplica e rinomina come atto_N.pdf.
+def prepare_input_pdfs(
+    input_root: Path,
+    preserve_names: bool = False,
+    id_prefix: str = "INPUT",
+) -> pd.DataFrame:
+    """Censisce i PDF e li rinomina con un identificativo di insieme stabile.
 
     ``preserve_names`` serve in particolare per un golden set già identificato
-    (per esempio ``atto_51.pdf`` ... ``atto_60.pdf``): non rinomina e non elimina
-    alcun file, evitando di rompere il collegamento con ``golden_delibere.csv``.
+    (per esempio ``GOLD_0001.pdf``): non rinomina e non elimina alcun file,
+    evitando di rompere il collegamento con ``golden_delibere.csv``.
     """
+    id_prefix = normalize_prefix(id_prefix)
     pdfs = sorted(
         (path for path in input_root.rglob("*") if path.is_file() and path.suffix.lower() == ".pdf"),
         key=natural_sort_key,
     )
+    existing_ids: Dict[Path, str] = {}
+    for path in pdfs:
+        try:
+            existing_id = canonical_document_id(path.stem)
+        except ValueError:
+            continue
+        existing_prefix = existing_id.split("_", 1)[0]
+        if existing_prefix != id_prefix:
+            raise ValueError(
+                f"Il PDF {path.name!r} appartiene allo spazio {existing_prefix}, "
+                f"ma la cartella e' configurata come {id_prefix}."
+            )
+        existing_ids[path] = existing_id
+
+    used_numbers = {
+        int(document_id.split("_", 1)[1])
+        for document_id in existing_ids.values()
+    }
+    next_number = max(used_numbers, default=0) + 1
+    # Gli ID gia' assegnati hanno precedenza nel controllo dei duplicati.
+    pdfs.sort(key=lambda path: (path not in existing_ids, natural_sort_key(path)))
+
     records = []
     unique_items = []
     first_by_hash: Dict[str, Dict[str, str]] = {}
@@ -75,19 +108,29 @@ def prepare_input_pdfs(input_root: Path, preserve_names: bool = False) -> pd.Dat
         first = first_by_hash.get(sha256)
         if first is None:
             if preserve_names:
-                id_match = re.fullmatch(r"atto_(\d+)\.pdf", path.name, re.IGNORECASE)
-                if id_match is None:
+                try:
+                    id_delibera = canonical_document_id(path.stem)
+                except ValueError as exc:
                     raise ValueError(
-                        "Con --preserva-nomi-pdf ogni PDF deve chiamarsi atto_N.pdf: "
+                        "Con --preserva-nomi-pdf ogni PDF deve chiamarsi "
+                        "GOLD_####.pdf o INPUT_####.pdf: "
                         f"nome non valido {path.name!r}"
+                    ) from exc
+                if id_delibera.split("_", 1)[0] != id_prefix:
+                    raise ValueError(
+                        f"Il PDF {path.name!r} non appartiene allo spazio {id_prefix}."
                     )
-                unique_number = int(id_match.group(1))
-                id_delibera = f"ATTO_{unique_number:03d}"
-                assigned_name = path.name
+                assigned_name = f"{id_delibera}.pdf"
+            elif path in existing_ids:
+                id_delibera = existing_ids[path]
+                assigned_name = f"{id_delibera}.pdf"
             else:
-                unique_number = len(unique_items) + 1
-                id_delibera = f"ATTO_{unique_number:03d}"
-                assigned_name = f"atto_{unique_number}.pdf"
+                while next_number in used_numbers:
+                    next_number += 1
+                id_delibera = f"{id_prefix}_{next_number:04d}"
+                assigned_name = f"{id_delibera}.pdf"
+                used_numbers.add(next_number)
+                next_number += 1
         else:
             id_delibera = first["id_delibera"]
             assigned_name = None
@@ -113,14 +156,19 @@ def prepare_input_pdfs(input_root: Path, preserve_names: bool = False) -> pd.Dat
     if preserve_names:
         return pd.DataFrame(records)
 
-    # Due passaggi evitano collisioni se alcuni file si chiamano già atto_N.pdf.
+    # Due passaggi evitano collisioni se alcuni file hanno già il nome finale.
+    rename_items = [
+        (path, record)
+        for path, record in unique_items
+        if path.resolve() != (input_root / record["nome_assegnato"]).resolve()
+    ]
     temporary_paths = []
-    for path, _ in unique_items:
+    for path, _ in rename_items:
         temporary = path.with_name(f".__rename_{uuid.uuid4().hex}.pdf")
         path.rename(temporary)
         temporary_paths.append(temporary)
 
-    for temporary, (_, record) in zip(temporary_paths, unique_items):
+    for temporary, (_, record) in zip(temporary_paths, rename_items):
         temporary.rename(input_root / record["nome_assegnato"])
 
     return pd.DataFrame(records)
@@ -1963,7 +2011,7 @@ def make_reports(elements: pd.DataFrame, blocks: pd.DataFrame, out_dir: Path) ->
     else:
         final_blocks = blocks.copy()
         final_blocks["id_delibera"] = final_blocks["id_atto"].apply(
-            lambda value: f"ATTO_{int(re.search(r'(\d+)$', str(value)).group(1)):03d}"
+            lambda value: canonical_document_id(value, default_prefix="INPUT")
         )
         final_blocks["ordine_globale"] = final_blocks["ordine_blocco"]
         final_blocks["tipo_blocco"] = final_blocks["tipo_blocco_progressivo"]
@@ -2041,8 +2089,18 @@ def parse_args() -> argparse.Namespace:
         "--preserva-nomi-pdf",
         action="store_true",
         help=(
-            "Non rinomina o elimina i PDF di input; richiede nomi atto_N.pdf. "
+            "Non rinomina o elimina i PDF; richiede nomi GOLD_####.pdf "
+            "o INPUT_####.pdf. "
             "Utile per mantenere gli ID di un golden set."
+        ),
+    )
+    parser.add_argument(
+        "--prefisso-id",
+        choices=("GOLD", "INPUT"),
+        help=(
+            "Prefisso assegnato quando i PDF vengono rinumerati. "
+            "Se omesso viene dedotto dal percorso: GOLD per cartelle golden, "
+            "INPUT negli altri casi."
         ),
     )
     parser.add_argument(
@@ -2065,7 +2123,12 @@ def main() -> None:
         print(f"Directory di input inesistente o non valida: {input_root}")
         return
 
-    pdf_audit = prepare_input_pdfs(input_root, preserve_names=args.preserva_nomi_pdf)
+    id_prefix = args.prefisso_id or infer_dataset_prefix(input_root)
+    pdf_audit = prepare_input_pdfs(
+        input_root,
+        preserve_names=args.preserva_nomi_pdf,
+        id_prefix=id_prefix,
+    )
     duplicates = pdf_audit[pdf_audit["duplicato"] == 1].copy()
     duplicate_report = input_root / "00_pdf_duplicati.csv"
     if not duplicates.empty:
@@ -2074,7 +2137,10 @@ def main() -> None:
     if not pdf_audit.empty:
         n_duplicates = len(duplicates)
         n_unique = len(pdf_audit) - n_duplicates
-        print(f"PDF numerati in Input: {len(pdf_audit)}; PDF unici: {n_unique}")
+        print(
+            f"PDF censiti nell'insieme {id_prefix}: {len(pdf_audit)}; "
+            f"PDF unici: {n_unique}"
+        )
         print(f"PDF duplicati rilevati: {n_duplicates}")
 
     if not duplicates.empty:

@@ -601,7 +601,7 @@ def parse_args() -> argparse.Namespace:
         type=Path,
         help=(
             f"Cartella golden gia' pronta; default: {DEFAULT_RAW_GOLDEN_EXTRACTIONS}. "
-            "Puo' contenere direttamente atto_N.json/.md oppure i CSV normalizzati. "
+            "Puo' contenere direttamente GOLD_####.json/.md oppure i CSV normalizzati. "
             "Il 04 non esegue estrazioni."
         ),
     )

@@ -21,6 +21,12 @@ from difflib import SequenceMatcher
 from pathlib import Path
 from typing import Any, Iterable
 
+from document_ids import (
+    canonical_document_id,
+    document_filename,
+    document_sort_key,
+)
+
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 SCRIPT_OUTPUT_ROOT = SCRIPT_DIR / Path(__file__).stem
@@ -65,8 +71,8 @@ def natural_number(value: str) -> int:
     return int(match.group(1)) if match else 10**9
 
 
-def canonical_id(value: str) -> str:
-    return f"ATTO_{natural_number(value):03d}"
+def canonical_id(value: str, default_prefix: str = "GOLD") -> str:
+    return canonical_document_id(value, default_prefix=default_prefix)
 
 
 def base_type(value: str) -> str:
@@ -234,7 +240,7 @@ def label_document(
 
 
 def format_ids(ids: Iterable[str], max_items: int = 10) -> str:
-    ordered = sorted(ids, key=natural_number)
+    ordered = sorted(ids, key=document_sort_key)
     if len(ordered) <= max_items:
         return ", ".join(ordered)
     shown = ", ".join(ordered[:max_items])
@@ -347,8 +353,7 @@ def make_temp_dir(parent: Path, prefix: str) -> Path:
 
 
 def find_golden_pdf(doc_id: str) -> Path:
-    number = natural_number(doc_id)
-    expected = f"atto_{number}.pdf"
+    expected = document_filename(doc_id, default_prefix="GOLD")
     direct = DEFAULT_GOLDEN_INPUT / expected
     if direct.exists():
         return direct
@@ -356,7 +361,7 @@ def find_golden_pdf(doc_id: str) -> Path:
         path for path in DEFAULT_GOLDEN_INPUT.iterdir()
         if path.is_file()
         and path.suffix.lower() == ".pdf"
-        and path.name.lower() == expected.lower()
+        and canonical_id(path.stem, "GOLD") == canonical_id(doc_id, "GOLD")
     ]
     if matches:
         return matches[0]
@@ -367,8 +372,10 @@ def prepare_annotated_golden_input(root: Path, golden_ids: set[str]) -> Path:
     temp_input = make_temp_dir(root, "_tmp_golden_annotati")
     for doc_id in sorted(golden_ids, key=natural_number):
         source = find_golden_pdf(doc_id)
-        number = natural_number(doc_id)
-        shutil.copy2(source, temp_input / f"atto_{number}.pdf")
+        shutil.copy2(
+            source,
+            temp_input / document_filename(doc_id, default_prefix="GOLD"),
+        )
     return temp_input
 
 
@@ -421,6 +428,8 @@ def generate_golden_segmentation(
         "--output",
         str(temp_output_root),
         "--preserva-nomi-pdf",
+        "--prefisso-id",
+        "GOLD",
     ]
     if marker_disable_ocr:
         command.append("--marker-disable-ocr")
@@ -510,7 +519,7 @@ def load_condition(
         raise FileNotFoundError(f"File mancante: {path}")
     grouped: dict[str, list[dict[str, str]]] = {}
     for row in read_csv(path):
-        grouped.setdefault(canonical_id(row["id_atto"]), []).append(row)
+        grouped.setdefault(canonical_id(row["id_atto"], "GOLD"), []).append(row)
     missing = sorted(set(golden) - set(grouped), key=natural_number)
     if missing:
         present = sorted(set(grouped), key=natural_number)
@@ -538,7 +547,7 @@ def load_unlabeled_condition(
         raise FileNotFoundError(f"File input mancante: {path}")
     grouped: dict[str, list[dict[str, str]]] = {}
     for row in read_csv(path):
-        grouped.setdefault(canonical_id(row["id_atto"]), []).append(row)
+        grouped.setdefault(canonical_id(row["id_atto"], "INPUT"), []).append(row)
     documents = []
     for doc_id in sorted(grouped, key=natural_number):
         text, tokens = build_document(grouped[doc_id], doc_id)
