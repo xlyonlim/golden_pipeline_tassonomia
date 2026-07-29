@@ -221,6 +221,11 @@ MARKERS = {
     # ========================================================
     # Riferimenti / richiami
     # ========================================================
+    "VISTO_E_PRESO_ATTO": (
+        r"vist[oaie]\s+e\s+pres[oaie]\s+atto\s*(?:,|:|;)?\s*"
+        r"(?:che|della|del|dei|degli|delle|dell['’]|di|in\s+ordine\s+a)?"
+    ),
+
     "VISTI_PARERI": (
         r"vist[ioe]\s*(?:,|:|;)?\s*"
         r"(?:i\s+)?pareri|"
@@ -305,6 +310,11 @@ MARKERS = {
         r"(?:che|della|del|dei|degli|delle|dell['’]|in\s+ordine\s+a|relativamente\s+a)?"
     ),
 
+    "TENUTO_PRESENTE": (
+        r"tenut[oaie]\s+(?:altres[iì]\s+)?present[ei]\s*(?:,|:|;)?\s*"
+        r"(?:che|la|il|lo|le|gli|i|l['’]|della|del|dei|degli|delle|dell['’])?"
+    ),
+
     "ASSUNTO": (
         r"assunt[oaie]\s*(?:,|:|;)?\s*"
         r"(?:che|la|il|lo|le|gli|i|l['’]|agli\s+atti|come|quale)?"
@@ -313,6 +323,16 @@ MARKERS = {
     "UDITO": (
         r"udit[oaie]\s*(?:,|:|;)?\s*"
         r"(?:che|la|il|lo|le|gli|i|l['’]|la\s+proposta|il\s+relatore)?"
+    ),
+
+    "SU_INVITO": (
+        r"su\s+invito\s*(?:,|:|;)?\s*"
+        r"(?:del|della|di|dei|degli|delle|dell['’]|al|alla)?"
+    ),
+
+    "ADEMPIUTO": (
+        r"adempiut[oaie]\s*(?:,|:|;)?\s*"
+        r"(?:che|a|al|alla|ai|agli|alle|all['’]|il|la|i|gli|le|quanto)?"
     ),
 
     "ACCERTATO": (
@@ -395,6 +415,13 @@ MARKERS = {
         r"(?:che|la|il|lo|le|gli|i|l['’]|di|a|per)?"
     ),
 
+    "RITENUTO_OPPORTUNO": (
+        r"ritenut[oaie]\s*(?:,|:|;)?\s*"
+        r"(?:(?:altres[iì]|pertanto|quindi)\s*,?\s*)?"
+        r"opportun[oaie]\b\s*(?:,|:|;)?\s*"
+        r"(?:che|di|la|il|lo|le|gli|i|l['’]|procedere|approvare)?"
+    ),
+
     "RITENUTO": (
         r"ritenut[oaie]\s*(?:,|:|;)?\s*"
         r"(?:che|la|il|lo|le|gli|i|l['’]|di|a|per|necessari[oaie]|opportun[oaie])?"
@@ -464,6 +491,7 @@ STOP_MARKERS = {
 
 MACRO_SECTION = {
     "PREMESSO": "NARRATIVA_PREMESSA",
+    "VISTO_E_PRESO_ATTO": "ISTRUTTORIA",
     "VISTO": "PREAMBOLO_RIFERIMENTI",
     "VISTI_PARERI": "PARERI_ATTESTAZIONI",
     "RICHIAMATO": "PREAMBOLO_RIFERIMENTI",
@@ -478,8 +506,11 @@ MACRO_SECTION = {
     "FATTO_PRESENTE": "ISTRUTTORIA",
     "PRESO_ATTO": "ISTRUTTORIA",
     "TENUTO_CONTO": "ISTRUTTORIA_MOTIVAZIONE",
+    "TENUTO_PRESENTE": "ISTRUTTORIA_MOTIVAZIONE",
     "ASSUNTO": "ISTRUTTORIA",
     "UDITO": "ISTRUTTORIA",
+    "SU_INVITO": "ISTRUTTORIA",
+    "ADEMPIUTO": "ISTRUTTORIA",
     "ACCERTATO": "ISTRUTTORIA",
     "CONSTATATO": "ISTRUTTORIA",
     "APPURATO": "ISTRUTTORIA",
@@ -495,6 +526,7 @@ MACRO_SECTION = {
     "INDIVIDUATO": "ISTRUTTORIA",
     "INCARICATO": "ISTRUTTORIA",
     "CONSIDERATO": "MOTIVAZIONE",
+    "RITENUTO_OPPORTUNO": "MOTIVAZIONE_VALUTAZIONE",
     "RITENUTO": "MOTIVAZIONE_VALUTAZIONE",
     "ATTESO": "MOTIVAZIONE",
     "RAVVISATO": "MOTIVAZIONE",
@@ -825,6 +857,12 @@ POST_DEVICE_PROCEDURAL_PATTERN = re.compile(
 )
 
 
+POST_DEVICE_NARRATIVE_RESTART_PATTERN = re.compile(
+    r"(?:^|(?<=[.;:]))\s*(?:vist[oaie]|richiamat[oaie])\b",
+    flags=re.IGNORECASE,
+)
+
+
 POST_DELIBERA_MATTER_PATTERN = re.compile(
     r"\b(?:"
     r"(?:fatto\s*,?\s*)?"
@@ -869,9 +907,17 @@ POST_DELIBERA_ROW_PATTERN = re.compile(
 
 def trim_post_delibera_matter(text: str) -> str:
     """Esclude firme, pareri e certificazioni collocati dopo il dispositivo."""
-    match = POST_DELIBERA_MATTER_PATTERN.search(text)
-    if match is None:
+    matches = [
+        match
+        for match in (
+            POST_DELIBERA_MATTER_PATTERN.search(text),
+            POST_DEVICE_NARRATIVE_RESTART_PATTERN.search(text),
+        )
+        if match is not None
+    ]
+    if not matches:
         return text.strip()
+    match = min(matches, key=lambda item: item.start())
     trimmed = text[:match.start()].rstrip()
     return trimmed or text.strip()
 
@@ -938,7 +984,10 @@ def collect_terminal_device_text(
             continue
 
         normalized_following = normalize_text(following_text)
-        if POST_DELIBERA_ROW_PATTERN.match(normalized_following):
+        if (
+            POST_DELIBERA_ROW_PATTERN.match(normalized_following)
+            or POST_DEVICE_NARRATIVE_RESTART_PATTERN.match(normalized_following)
+        ):
             break
         if (
             following_row.get("role_norm") == "table"
@@ -952,7 +1001,19 @@ def collect_terminal_device_text(
         if bool(following_row.get("is_noise", False)):
             continue
 
-        boundary = POST_DELIBERA_MATTER_PATTERN.search(following_text)
+        boundaries = [
+            match
+            for match in (
+                POST_DELIBERA_MATTER_PATTERN.search(following_text),
+                POST_DEVICE_NARRATIVE_RESTART_PATTERN.search(following_text),
+            )
+            if match is not None
+        ]
+        boundary = (
+            min(boundaries, key=lambda item: item.start())
+            if boundaries
+            else None
+        )
         text_before_boundary = (
             following_text[:boundary.start()].strip()
             if boundary is not None
@@ -2179,9 +2240,13 @@ def add_sequence_flags(blocks: pd.DataFrame) -> pd.DataFrame:
         "DATO_ATTO": 5,
         "FATTO_PRESENTE": 5,
         "PRESO_ATTO": 5,
+        "VISTO_E_PRESO_ATTO": 5,
         "TENUTO_CONTO": 5,
+        "TENUTO_PRESENTE": 5,
         "ASSUNTO": 5,
         "UDITO": 6,
+        "SU_INVITO": 6,
+        "ADEMPIUTO": 6,
         "ESAMINATO": 6,
         "ANALIZZATO": 6,
         "PREDISPOSTO": 6,
@@ -2207,6 +2272,7 @@ def add_sequence_flags(blocks: pd.DataFrame) -> pd.DataFrame:
         "RIBADITO": 7,
         "VALUTATO": 8,
         "RICONOSCIUTO": 8,
+        "RITENUTO_OPPORTUNO": 9,
         "RITENUTO": 9,
         "PRECISATO": 9,
         "STABILITO": 9,

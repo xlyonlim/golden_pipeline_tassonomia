@@ -283,6 +283,8 @@ Vincoli metodologici obbligatori:
 - firme, certificati, pubblicazione, pareri e allegati successivi,
   intestazioni e liste presenze devono essere esclusi: non considerarli
   omissioni e non ridurre recall o text_fidelity;
+- VISTO/VISTA/VISTI/VISTE e le varianti di RICHIAMATO, se collocati dopo
+  un dispositivo, ne delimitano la fine e non devono esservi accodati;
 - DELIBERA, ATTESTA, PROPONE e DICHIARA possono presentarsi con lettere
   separate da spazi per effetto dell'OCR e devono essere considerati equivalenti;
 - VISTO è un'etichetta canonica che comprende VISTO/VISTA/VISTI/VISTE: non
@@ -290,6 +292,8 @@ Vincoli metodologici obbligatori:
 - i suffissi progressivi _1, _2, ... sono previsti dal dataset e non sono errori;
 - VISTI_PARERI e ACQUISITI_PARERI sono etichette semantiche ammesse e distinte
   dai richiami normativi generici;
+- SU_INVITO, TENUTO_PRESENTE, ADEMPIUTO, VISTO_E_PRESO_ATTO e
+  RITENUTO_OPPORTUNO sono marker narrativi validi;
 - le sezioni CANDIDATO JSON e CANDIDATO MARKDOWN sono rappresentazioni testuali
   dei blocchi estratti: non valutarne la sintassi come JSON o Markdown;
 - concentra issues e punteggi su marker realmente mancanti/spuri, confini dei
