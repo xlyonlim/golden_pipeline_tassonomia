@@ -1,10 +1,11 @@
-"""Valuta i dataset di segmentazione con Nemotron 3 Super su Ollama Cloud."""
+"""Valuta i dataset di segmentazione con Nemotron 3 Super tramite API NVIDIA."""
 
 from __future__ import annotations
 
 import argparse
 import csv
 import json
+import os
 import random
 import re
 import shutil
@@ -21,11 +22,12 @@ from document_ids import canonical_document_id, document_filename
 
 
 SCRIPT_DIR = Path(__file__).resolve().parent
-DEFAULT_MODEL = "nemotron-3-super:cloud"
+DEFAULT_MODEL = "nvidia/nemotron-3-super-120b-a12b"
 SCRIPT_OUTPUT_ROOT = SCRIPT_DIR / Path(__file__).stem
 DEFAULT_SEGMENTATION_ROOT = SCRIPT_DIR / "01_estrazione_e_segmentazione"
 DEFAULT_OUTPUT_ROOT = SCRIPT_OUTPUT_ROOT
-OLLAMA_CHAT_URL = "http://127.0.0.1:11434/api/chat"
+NVIDIA_CHAT_URL = "https://integrate.api.nvidia.com/v1/chat/completions"
+DEFAULT_API_KEY_ENV = "NVIDIA_API_KEY"
 EXTRACTOR_TOOLS = ("DOCLING", "OPENDATALOADER", "MARKER")
 # I modelli cloud tollerano contesti ampi, ma richieste molto grandi e parallele
 # aumentano sensibilmente 502 e risposte JSON troncate.
@@ -127,7 +129,7 @@ def parse_model_json(content: str) -> dict[str, Any]:
     """Legge anche JSON in code fence o con newline non escapati nelle stringhe."""
     content = content.strip().lstrip("\ufeff")
     if not content:
-        raise ValueError("Ollama ha restituito un contenuto vuoto")
+        raise ValueError("L'API NVIDIA ha restituito un contenuto vuoto")
 
     fenced = re.fullmatch(r"```(?:json)?\s*(.*?)\s*```", content, re.DOTALL | re.IGNORECASE)
     if fenced:
@@ -156,29 +158,52 @@ def parse_model_json(content: str) -> dict[str, Any]:
     raise ValueError(f"JSON del modello non valido: {'; '.join(errors)}")
 
 
-def ollama_json(model: str, prompt: str, retries: int = 4) -> dict[str, Any]:
+def nvidia_json(
+    model: str,
+    prompt: str,
+    api_key: str,
+    retries: int = 4,
+) -> dict[str, Any]:
     payload = json.dumps({
         "model": model,
         "stream": False,
-        "format": "json",
         "messages": [{"role": "user", "content": prompt}],
-        "options": {"temperature": 0, "num_predict": 2_000},
+        "temperature": 1.0,
+        "top_p": 0.95,
+        "max_tokens": 2_500,
+        "seed": 0,
+        "chat_template_kwargs": {"enable_thinking": False},
     }).encode("utf-8")
 
     for attempt in range(retries + 1):
         try:
             request = urllib.request.Request(
-                OLLAMA_CHAT_URL,
+                NVIDIA_CHAT_URL,
                 data=payload,
-                headers={"Content-Type": "application/json"},
+                headers={
+                    "Accept": "application/json",
+                    "Authorization": f"Bearer {api_key}",
+                    "Content-Type": "application/json",
+                },
                 method="POST",
             )
             with urllib.request.urlopen(request, timeout=900) as response:
                 raw_body = response.read().decode("utf-8", errors="replace")
             if not raw_body.strip():
-                raise ValueError("risposta HTTP 200 vuota da Ollama")
+                raise ValueError("risposta HTTP 200 vuota dall'API NVIDIA")
             body = json.loads(raw_body, strict=False)
-            content = str(body.get("message", {}).get("content", ""))
+            choices = body.get("choices")
+            if not isinstance(choices, list) or not choices:
+                raise ValueError("risposta NVIDIA priva del campo 'choices'")
+            message = choices[0].get("message", {})
+            content = message.get("content", "")
+            if isinstance(content, list):
+                content = "".join(
+                    str(item.get("text", ""))
+                    for item in content
+                    if isinstance(item, dict)
+                )
+            content = str(content)
             return parse_model_json(content)
         except urllib.error.HTTPError as exc:
             try:
@@ -190,13 +215,20 @@ def ollama_json(model: str, prompt: str, retries: int = 4) -> dict[str, Any]:
             if detail:
                 error += f": {detail}"
             # Credenziali mancanti o richiesta non valida non migliorano con retry.
-            if exc.code in {400, 401, 403, 404}:
+            if exc.code in {400, 401, 403, 404, 422}:
                 raise RuntimeError(error) from exc
             if attempt >= retries:
                 raise RuntimeError(error) from exc
-            delay = min(60, 5 * (2 ** attempt)) + random.uniform(0, 2)
+            retry_after = (
+                exc.headers.get("Retry-After") if exc.headers is not None else None
+            )
+            delay = (
+                float(retry_after)
+                if retry_after and retry_after.replace(".", "", 1).isdigit()
+                else min(60, 5 * (2 ** attempt)) + random.uniform(0, 2)
+            )
             print(
-                f"[OLLAMA] tentativo {attempt + 1}/{retries + 1} fallito: "
+                f"[NVIDIA API] tentativo {attempt + 1}/{retries + 1} fallito: "
                 f"{error}; riprovo tra {delay:.1f}s...",
                 flush=True,
             )
@@ -206,16 +238,17 @@ def ollama_json(model: str, prompt: str, retries: int = 4) -> dict[str, Any]:
                 raise
             delay = min(60, 5 * (2 ** attempt)) + random.uniform(0, 2)
             print(
-                f"[OLLAMA] tentativo {attempt + 1}/{retries + 1} fallito: "
+                f"[NVIDIA API] tentativo {attempt + 1}/{retries + 1} fallito: "
                 f"{exc}; riprovo tra {delay:.1f}s...",
                 flush=True,
             )
             time.sleep(delay)
-    raise RuntimeError("Risposta Ollama non disponibile")
+    raise RuntimeError("Risposta NVIDIA non disponibile")
 
 
 def evaluate_document(
     model: str,
+    api_key: str,
     input_dir: Path,
     segmentation_dir: Path,
     tool: str,
@@ -223,25 +256,35 @@ def evaluate_document(
     json_rows: list[dict[str, str]],
     markdown_rows: list[dict[str, str]],
 ) -> list[dict[str, Any]]:
-    print(f"[{tool}] invio {id_delibera} a Ollama...", flush=True)
+    print(f"[{tool}] invio {id_delibera} all'API NVIDIA...", flush=True)
     reference, reference_source = pdf_reference(input_dir, segmentation_dir, id_delibera)
     prompt = f"""
 Sei un valutatore rigoroso di segmentazioni di deliberazioni amministrative italiane.
 Confronta i due dataset candidati con il testo di riferimento del PDF.
 
 Valuta separatamente JSON e MARKDOWN da 0 a 100 su:
-- marker_precision: correttezza delle etichette PREMESSO, VISTO, RITENUTO ecc.;
-- marker_recall: marker narrativi presenti nel riferimento e recuperati;
-- boundary_accuracy: inizio/fine dei blocchi e stop prima di votazione, tabelle e dispositivo;
+- marker_precision: correttezza delle etichette narrative e dispositive;
+- marker_recall: marker narrativi e dispositivi presenti nel riferimento e recuperati;
+- boundary_accuracy: inizio/fine dei blocchi, separazione di dispositivi autonomi
+  e arresto prima di firme, pareri, certificazioni e testo a pie' di pagina;
 - text_fidelity: fedeltà del testo, ordine e assenza di omissioni/allucinazioni;
-- noise_exclusion: esclusione di certificati, firme, pubblicazione e dispositivo;
+- noise_exclusion: esclusione di certificati, firme, pubblicazione, pareri e
+  allegati successivi al dispositivo e testo a pie' di pagina;
 - overall_score: giudizio complessivo coerente con le metriche precedenti.
 
 Vincoli metodologici obbligatori:
-- si valuta esclusivamente la NARRATIVA precedente al dispositivo;
-- DELIBERA, PROPONE/PROPONE DI DELIBERARE, votazioni, punti dispositivi,
-  firme, certificati, pubblicazione, intestazioni e liste presenze devono essere
-  esclusi: non considerarli omissioni e non ridurre recall o text_fidelity;
+- si valutano sia la NARRATIVA sia i DISPOSITIVI PROPONE, DELIBERA e ATTESTA;
+- più proposte o deliberazioni autonome devono restare in blocchi distinti
+  con suffissi progressivi _1, _2, ...;
+- una nuova votazione apre un secondo dispositivo soltanto quando introduce
+  una decisione autonoma; le formule procedurali non costituiscono etichette;
+- i punti numerati, alfabetici o puntati appartenenti al dispositivo devono
+  essere conservati fino alla conclusione dell'elenco;
+- firme, certificati, pubblicazione, pareri e allegati successivi,
+  intestazioni e liste presenze devono essere esclusi: non considerarli
+  omissioni e non ridurre recall o text_fidelity;
+- DELIBERA, ATTESTA, PROPONE e DICHIARA possono presentarsi con lettere
+  separate da spazi per effetto dell'OCR e devono essere considerati equivalenti;
 - VISTO è un'etichetta canonica che comprende VISTO/VISTA/VISTI/VISTE: non
   penalizzare genere o numero grammaticale;
 - i suffissi progressivi _1, _2, ... sono previsti dal dataset e non sono errori;
@@ -270,7 +313,7 @@ CANDIDATO JSON:
 CANDIDATO MARKDOWN:
 {blocks_as_text(markdown_rows)}
 """
-    response = ollama_json(model, prompt)
+    response = nvidia_json(model, prompt, api_key)
     results = []
     for evaluation in response.get("evaluations", []):
         evaluation.update({
@@ -300,6 +343,7 @@ def wait_for_tool(segmentation_dir: Path, tool: str, timeout: int) -> tuple[Path
 
 def evaluate_tool(
     model: str,
+    api_key: str,
     input_dir: Path,
     segmentation_dir: Path,
     tool: str,
@@ -321,6 +365,7 @@ def evaluate_tool(
             executor.submit(
                 evaluate_document,
                 model,
+                api_key,
                 input_dir,
                 segmentation_dir,
                 tool,
@@ -405,7 +450,9 @@ def save_results(output_dir: Path, rows: list[dict[str, Any]]) -> None:
 
 
 def parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description="Valuta la segmentazione tramite Ollama Cloud")
+    parser = argparse.ArgumentParser(
+        description="Valuta la segmentazione tramite API NVIDIA"
+    )
     parser.add_argument(
         "--segmentazione",
         type=Path,
@@ -422,6 +469,14 @@ def parse_args() -> argparse.Namespace:
         help=f"Radice separata per le valutazioni (default: {DEFAULT_OUTPUT_ROOT})",
     )
     parser.add_argument("--model", default=DEFAULT_MODEL)
+    parser.add_argument(
+        "--api-key-env",
+        default=DEFAULT_API_KEY_ENV,
+        help=(
+            "Variabile d'ambiente contenente la chiave API NVIDIA "
+            f"(default: {DEFAULT_API_KEY_ENV})"
+        ),
+    )
     parser.add_argument("--concorrenza", type=int, default=1)
     parser.add_argument("--timeout-attesa", type=int, default=7200)
     return parser.parse_args()
@@ -429,6 +484,13 @@ def parse_args() -> argparse.Namespace:
 
 def main() -> None:
     args = parse_args()
+    api_key = os.environ.get(args.api_key_env, "").strip()
+    if not api_key:
+        raise RuntimeError(
+            f"Chiave API NVIDIA mancante. Imposta la variabile "
+            f"{args.api_key_env}, ad esempio in PowerShell:\n"
+            f'  $env:{args.api_key_env}="<CHIAVE_NVIDIA>"'
+        )
     segmentation_dir = (
         args.segmentazione.resolve()
         if args.segmentazione
@@ -446,6 +508,7 @@ def main() -> None:
             all_results.extend(
                 evaluate_tool(
                     args.model,
+                    api_key,
                     args.input.resolve(),
                     segmentation_dir,
                     tool,

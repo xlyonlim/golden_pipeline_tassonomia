@@ -5,10 +5,6 @@
 # trasformare output Markdown/JSON da Docling, OpenDataLoader o Marker
 # in un dataset di blocchi narrativi etichettati.
 #
-# Nota metodologica:
-# per ora il dispositivo NON viene analizzato. Quando lo script incontra
-# DELIBERA chiude la narrativa; PROPONE conserva il proprio dispositivo in un
-# blocco non narrativo e la segmentazione riprende dal marker successivo.
 # ============================================================
 
 from pathlib import Path
@@ -201,7 +197,7 @@ def next_segmentation_dir(output_root: Path) -> Path:
 
 MARKERS = {
     # ========================================================
-    # STOP: inizio dispositivo. Per ora non lo analizziamo.
+    # STOP: inizio dispositivo
     # ========================================================
     "PROPONE_DELIBERARE": (
         r"(?:si\s+)?propone\s+di\s+deliberare|"
@@ -475,6 +471,7 @@ MACRO_SECTION = {
     "RICORDANDO": "PREAMBOLO_RIFERIMENTI",
     "ACQUISITI_PARERI": "PARERI_ATTESTAZIONI",
     "ACQUISITO": "ISTRUTTORIA",
+    "ATTESTA": "PARERI_ATTESTAZIONI",
     "ATTESTATO": "PARERI_ATTESTAZIONI",
     "RILASCIATO": "ISTRUTTORIA_PARERI",
     "DATO_ATTO": "ISTRUTTORIA",
@@ -516,9 +513,14 @@ MACRO_SECTION = {
 NOISE_PATTERNS = [
     r"documento\s+sottoscritto\s+con\s+firma\s+digitale",
     r"atto\s+sottoscritto\s+digitalmente",
-    r"letto,\s*confermato\s+e\s+sottoscritto",
+    r"(?:fatto,\s*)?(?:il\s+presente\s+(?:atto|verbale)\s+viene\s+)?"
+    r"letto,?\s*(?:approvato|confermato)\s+e\s+sottoscritto",
     r"pubblicazione\s+all['’]albo",
     r"certificato\s+di\s+pubblicazione",
+    r"firmato\s+da\s*:.*codice\s+fiscale",
+    r"(?:delibera(?:zione)?\s+(?:di|della)\s+giunta|"
+    r"delibera\s+g\.?\s*c\.?).*pag\.\s*\d+",
+    r"comune\s+di\s+.*[-\u2013]\s*deliberazione\s+n\.\s*\d+.*\b\d+\s*$",
     r"pag\.\s*\d+",
     r"pagina\s+\d+",
     r"presenti\s*:\s*\d+",
@@ -567,8 +569,7 @@ def normalize_text(text: Any) -> str:
     text = compact_spaced_markers(text)
     text = re.sub(r"\s+", " ", text).strip()
 
-    # Rimuove brevi code OCR chiaramente corrotte dopo una frase completa,
-    # senza intervenire sulla normale morfologia o sul contenuto amministrativo.
+
     trailing = re.search(r"([;:.])\s+([^;:.]{1,80})$", text)
     if trailing:
         tokens = re.findall(r"[A-Za-zÀ-ÖØ-öø-ÿ]+", trailing.group(2))
@@ -628,12 +629,21 @@ def compact_spaced_markers(text: str) -> str:
         "ATTO", "CONTO",
         "ATTESTA", "ATTESTANO",
         "ATTESTATO", "ATTESTATA", "ATTESTATI", "ATTESTATE",
-        "DELIBERA", "DELIBERARE",
+        "PROPONE", "PROPONGONO",
+        "DELIBERA", "DELIBERANO", "DELIBERARE",
+        "DICHIARA", "DICHIARANO", "DICHIARARE",
     ]
 
     for kw in keywords:
         pattern = r"\b" + r"\s*".join(list(kw)) + r"\b"
         text = re.sub(pattern, kw, text, flags=re.IGNORECASE)
+
+    text = re.sub(
+        r"\b(PROPONE|DELIBERA)\s+D\s+I\s+(DELIBERARE|DICHIARARE)\b",
+        r"\1 DI \2",
+        text,
+        flags=re.IGNORECASE,
+    )
 
     return text
 
@@ -701,8 +711,8 @@ def detect_dispositive_stop(text: str, role: str = "") -> Optional[str]:
     lowered = normalized.lower()
 
     proposal_patterns = (
-        r"^(?:si\s+)?propone\s+di\s+deliberare\b",
-        r"^propone\s+alla\s+g\.?\s*c\.?\s+di\s+deliberare\b",
+        r"^(?:si\s+)?propone\s+d\s*i\s+deliberare\b",
+        r"^propone\s+alla\s+g\.?\s*c\.?\s+d\s*i\s+deliberare\b",
     )
     if any(re.match(pattern, lowered) for pattern in proposal_patterns):
         return "PROPONE_DELIBERARE"
@@ -725,7 +735,9 @@ def detect_dispositive_stop(text: str, role: str = "") -> Optional[str]:
         return "DELIBERA"
 
     # Dispositivo e primo comando possono essere estratti come una sola riga.
-    if re.match(r"^delibera\s+di\s+(?!giunta\b|consiglio\b)\w+", lowered):
+    if re.match(
+        r"^delibera\s+d\s*i\s+(?!giunta\b|consiglio\b)\w+", lowered
+    ):
         return "DELIBERA"
 
     # Formula con organo deliberante sulla stessa riga.
@@ -739,18 +751,222 @@ def detect_dispositive_stop(text: str, role: str = "") -> Optional[str]:
     # Nei titoli Docling/Markdown accettiamo DELIBERA seguito da testo dispositivo,
     # ma non DELIBERA DI/DEL N., tipiche citazioni amministrative.
     if role == "heading" and re.match(r"^delibera\b", lowered):
-        if not re.match(r"^delibera\s+(?:di|del|della|n\.?|nr\.?)\b", lowered):
+        if not re.match(
+            r"^delibera\s+(?:d\s*i|del|della|n\.?|nr\.?)\b", lowered
+        ):
             return "DELIBERA"
 
-    # Formula autonoma di attestazione, normalmente successiva al dispositivo.
-    # Non fermiamo invece frasi narrative come "ATTESTA che...".
-    if re.match(r"^attesta\b", lowered) and not re.search(
-        r"\b(?:affiss[ao]|pubblicat[ao]|albo\s+pretorio|quindici\s+giorni)\b",
-        lowered,
+    # Candidato dispositivo di attestazione. La presenza di un DELIBERA nello
+    # stesso documento e le formule di certificazione vengono verificate in
+    # segment_elements_to_blocks().
+    attestation_prefix = lowered[:300]
+    if (
+        re.match(r"^(?:attestazione|attestato)\s+di\b", lowered)
+        or re.search(r"\b(?:si\s+)?attesta\b", attestation_prefix)
     ):
         return "ATTESTA"
 
     return None
+
+
+ATTESTATION_CERTIFICATE_PATTERN = re.compile(
+    r"\b(?:"
+    r"affiss[aoe]|pubblicat[aoe]|pubblicazione|albo\s+pretorio|"
+    r"quindici\s+giorni|esecutiv(?:a|o|ita)|copia\s+conforme|"
+    r"certificat[oa]\s+di|attestazione\s+di\s+pubblicazione|"
+    r"attestato\s+di\s+esecutivita|copertura\s+finanziaria"
+    r")\b",
+    flags=re.IGNORECASE,
+)
+
+
+def is_attestation_certificate(text: str) -> bool:
+    """Distingue le certificazioni accessorie dal dispositivo ATTESTA."""
+    normalized = normalize_text(text)
+    return bool(ATTESTATION_CERTIFICATE_PATTERN.search(normalized))
+
+
+SECONDARY_DELIBERA_PATTERN = re.compile(
+    r"(?P<transition>"
+    r"(?:"
+    r"\b(?:infine|successivamente|indi|quindi)\b|"
+    r"\bcon\s+(?:"
+    r"successiva\s+votazione|"
+    r"voti\s+(?:unanimi|favorevoli)|"
+    r"votazione\s+(?:unanime|favorevole)"
+    r")\b"
+    r").{0,1200}?"
+    r"|"
+    r"\b(?:la\s+giunta|il\s+consiglio)(?:\s+comunale)?\b"
+    r".{0,600}?"
+    r"|"
+    r"\r?\n\s*(?=delibera\b)"
+    r")"
+    r"(?P<verb>\b(?:dichiara|delibera)\b)"
+    r"(?=\s+(?:la\s+presente|d\s*i\s+dichiarare)\b)",
+    flags=re.IGNORECASE | re.DOTALL,
+)
+
+
+NUMBERED_SECONDARY_DEVICE_PATTERN = re.compile(
+    r"(?P<item>(?<!\w)(?:\(?\d+\)?|[a-z])[\.)]\s+)"
+    r"(?="
+    r"d\s*i\s+dichiarare\b.{0,500}?"
+    r"\bimmediatamente\s+eseguibil[ei]\b.{0,300}?"
+    r"\b(?:separat[ae]|successiv[ae])\b.{0,120}?\bvotazion"
+    r")",
+    flags=re.IGNORECASE | re.DOTALL,
+)
+
+
+POST_DEVICE_PROCEDURAL_PATTERN = re.compile(
+    r"\b(?:con\s+successiva\s+votazione|successivamente)\b",
+    flags=re.IGNORECASE,
+)
+
+
+POST_DELIBERA_MATTER_PATTERN = re.compile(
+    r"\b(?:"
+    r"(?:fatto\s*,?\s*)?"
+    r"(?:(?:il\s+presente\s+(?:atto|verbale)\s+(?:viene\s+)?)?)"
+    r"letto\s*,?\s*(?:approvato|confermato)(?:\s*,?\s*e)?\s+sottoscritto|"
+    r"(?:il\s+presidente|il\s+sindaco).{0,250}?"
+    r"(?:il\s+segretario(?:\s+comunale)?)|"
+    r"(?:certificat[oa]|referto|attestazione)\s+di\s+pubblicazione|"
+    r"attestato\s+di\s+esecutivita|"
+    r"allegato\s+alla\s+proposta|"
+    r"visto\s*,?\s*si\s+esprime\s+parere|"
+    r"firmato\s+da\s*:?.{0,180}?codice\s+fiscale|"
+    r"(?:delibera(?:zione)?\s+(?:di|della)\s+giunta|"
+    r"delibera\s+g\.?\s*c\.?).{0,140}?\bpag\.?\s*\d+|"
+    r"comune\s+di\s+.{0,120}?[-\u2013]\s*deliberazione\s+n\.?\s*\d+"
+    r".{0,100}?\b\d+\s*$"
+    r")\b",
+    flags=re.IGNORECASE | re.DOTALL,
+)
+
+
+POST_DELIBERA_ROW_PATTERN = re.compile(
+    r"^(?:"
+    r"(?:fatto\s*,?\s*)?"
+    r"(?:(?:il\s+presente\s+(?:atto|verbale)\s+(?:viene\s+)?)?)"
+    r"letto\s*,?\s*(?:approvato|confermato)(?:\s*,?\s*e)?\s+sottoscritto|"
+    r"il\s+(?:presidente|sindaco|segretario(?:\s+comunale)?)\b|"
+    r"(?:certificat[oa]|referto|attestazione)\s+di\s+pubblicazione|"
+    r"attestato\s+di\s+esecutivita|"
+    r"allegato\s+alla\s+proposta|"
+    r"(?:si\s+)?attesta\b|"
+    r"visto\s*,?\s*si\s+esprime\s+parere|"
+    r"parere\s+(?:di|in\s+ordine\s+alla)\s+regolarita|"
+    r"firmato\s+da\s*:|"
+    r"(?:delibera(?:zione)?\s+(?:di|della)\s+giunta|"
+    r"delibera\s+g\.?\s*c\.?).*?\bpag\.?\s*\d+|"
+    r"comune\s+di\s+.*?[-\u2013]\s*deliberazione\s+n\.?\s*\d+"
+    r")",
+    flags=re.IGNORECASE,
+)
+
+
+def trim_post_delibera_matter(text: str) -> str:
+    """Esclude firme, pareri e certificazioni collocati dopo il dispositivo."""
+    match = POST_DELIBERA_MATTER_PATTERN.search(text)
+    if match is None:
+        return text.strip()
+    trimmed = text[:match.start()].rstrip()
+    return trimmed or text.strip()
+
+
+def split_delibera_devices(text: str) -> list[str]:
+    """Chiude il dispositivo e separa eventuali decisioni autonome successive."""
+    device_text = trim_post_delibera_matter(text)
+    boundaries = [
+        (match.start("transition"), match.start("verb"))
+        for match in SECONDARY_DELIBERA_PATTERN.finditer(device_text)
+    ]
+    boundaries.extend(
+        (match.start("item"), match.start("item"))
+        for match in NUMBERED_SECONDARY_DEVICE_PATTERN.finditer(device_text)
+    )
+    boundaries.sort()
+    if not boundaries:
+        procedural_tail = POST_DEVICE_PROCEDURAL_PATTERN.search(device_text)
+        if procedural_tail is not None:
+            device_text = device_text[:procedural_tail.start()].rstrip()
+        return [device_text]
+
+    devices = [device_text[:boundaries[0][0]].strip()]
+    for index, (_, device_start) in enumerate(boundaries):
+        end = (
+            boundaries[index + 1][0]
+            if index + 1 < len(boundaries)
+            else len(device_text)
+        )
+        devices.append(device_text[device_start:end].strip())
+
+    if any(not device for device in devices):
+        return [device_text]
+    return devices
+
+
+def collect_terminal_device_text(
+    group_rows: list[tuple[Any, pd.Series]],
+    start_position: int,
+    device_marker: str,
+) -> tuple[str, Any, int]:
+    """Raccoglie un dispositivo terminale fino alle formule di chiusura."""
+    first_row = group_rows[start_position][1]
+    first_text = str(first_row.get("text", "")).strip()
+    marker_match = re.search(
+        rf"\b{re.escape(device_marker)}\b", first_text, flags=re.IGNORECASE
+    )
+    first_device_text = (
+        first_text[marker_match.start():].strip()
+        if marker_match is not None
+        else first_text
+    )
+
+    parts = [first_device_text] if first_device_text else []
+    page_end = first_row.get("page")
+    element_count = 1 if first_device_text else 0
+
+    if trim_post_delibera_matter(first_device_text) != first_device_text:
+        return trim_post_delibera_matter(first_device_text), page_end, element_count
+
+    for _, following_row in group_rows[start_position + 1:]:
+        following_text = str(following_row.get("text", "")).strip()
+        if not following_text:
+            continue
+
+        normalized_following = normalize_text(following_text)
+        if POST_DELIBERA_ROW_PATTERN.match(normalized_following):
+            break
+        if (
+            following_row.get("role_norm") == "table"
+            or following_row.get("label_raw") == "table"
+        ):
+            break
+        if is_institutional_heading(
+            following_text, str(following_row.get("role_norm", ""))
+        ):
+            continue
+        if bool(following_row.get("is_noise", False)):
+            continue
+
+        boundary = POST_DELIBERA_MATTER_PATTERN.search(following_text)
+        text_before_boundary = (
+            following_text[:boundary.start()].strip()
+            if boundary is not None
+            else following_text
+        )
+        if text_before_boundary:
+            parts.append(text_before_boundary)
+            element_count += 1
+            if pd.notna(following_row.get("page")):
+                page_end = following_row.get("page")
+        if boundary is not None:
+            break
+
+    return "\n".join(parts).strip(), page_end, element_count
 
 
 PROCEDURAL_STOP_PATTERN = re.compile(
@@ -1607,26 +1823,29 @@ def build_blocks(elements: pd.DataFrame) -> pd.DataFrame:
         skipping_proposal_device = False
         awaiting_deliberation = False
         has_deliberation_terminal = False
+        has_explicit_delibera = (
+            "stop_detected" in group.columns
+            and group["stop_detected"].eq("DELIBERA").any()
+        )
+        group_rows = list(group.iterrows())
 
-        for _, row in group.iterrows():
-            confirmed_waiting_delibera = False
+        for row_position, (_, row) in enumerate(group_rows):
+            confirmed_waiting_terminal = False
             institutional_heading = is_institutional_heading(
                 row.get("text", ""), str(row.get("role_norm", ""))
             )
 
             # La formula di votazione chiude la narrativa, ma non l'atto:
-            # continuiamo a cercare il DELIBERA terminale senza creare altri
-            # blocchi narrativi nel tratto intermedio.
+            # continuiamo a cercare il DELIBERA o l'ATTESTA terminale senza
+            # creare altri blocchi narrativi nel tratto intermedio.
             if awaiting_deliberation:
                 waiting_stop = row.get("stop_detected")
                 if pd.isna(waiting_stop):
                     waiting_stop = None
-                if waiting_stop == "ATTESTA":
-                    break
-                if waiting_stop != "DELIBERA":
+                if waiting_stop not in {"DELIBERA", "ATTESTA"}:
                     continue
                 awaiting_deliberation = False
-                confirmed_waiting_delibera = True
+                confirmed_waiting_terminal = True
 
             # Dopo PROPONE raccogliamo il dispositivo in un blocco non
             # narrativo e riprendiamo dal successivo marker narrativo.
@@ -1677,7 +1896,7 @@ def build_blocks(elements: pd.DataFrame) -> pd.DataFrame:
                     current_block = None
                 continue
 
-            if bool(row["is_noise"]) and not confirmed_waiting_delibera:
+            if bool(row["is_noise"]) and not confirmed_waiting_terminal:
                 continue
 
             original_text = row["text"]
@@ -1712,6 +1931,24 @@ def build_blocks(elements: pd.DataFrame) -> pd.DataFrame:
             # intestazioni, non l'inizio del dispositivo. Lo stop deve essere
             # confermato da detect_dispositive_stop().
             effective_stop = stop_marker if stop_marker in STOP_MARKERS else None
+            attestation_certificate = (
+                effective_stop == "ATTESTA"
+                and is_attestation_certificate(original_text)
+            )
+            if (
+                effective_stop == "ATTESTA"
+                and (
+                    has_explicit_delibera
+                    or attestation_certificate
+                )
+            ):
+                effective_stop = None
+
+            if attestation_certificate:
+                if current_block is not None:
+                    rows.append(current_block)
+                    current_block = None
+                continue
 
             # Il dispositivo della proposta viene conservato separatamente
             # fino al successivo marker narrativo.
@@ -1744,35 +1981,56 @@ def build_blocks(elements: pd.DataFrame) -> pd.DataFrame:
                 if current_block is not None:
                     rows.append(current_block)
                     current_block = None
-                delibera_match = re.search(r"\bdelibera\b", original_text, flags=re.IGNORECASE)
-                terminal_text = (
-                    original_text[delibera_match.start():].strip()
-                    if delibera_match is not None
-                    else original_text
+                terminal_text, terminal_page_end, terminal_elements = (
+                    collect_terminal_device_text(
+                        group_rows, row_position, "DELIBERA"
+                    )
                 )
-                block_order += 1
-                rows.append({
-                    "id_atto": id_atto,
-                    "tool": tool,
-                    "source_format": source_format,
-                    "ordine_blocco": block_order,
-                    "tipo_blocco": "DISPOSITIVO_DELIBERA",
-                    "tipo_blocco_progressivo": "DISPOSITIVO_DELIBERA",
-                    "macro_sezione": "DISPOSITIVO_DELIBERA",
-                    "is_narrativa": 0,
-                    "testo_blocco": terminal_text,
-                    "page_start": row.get("page"),
-                    "page_end": row.get("page"),
-                    "bbox_start": row.get("bbox"),
-                    "n_elementi": 1,
-                })
+                device_texts = split_delibera_devices(terminal_text)
+                for device_index, device_text in enumerate(device_texts, start=1):
+                    block_order += 1
+                    progressive = (
+                        f"DISPOSITIVO_DELIBERA_{device_index}"
+                        if len(device_texts) > 1
+                        else "DISPOSITIVO_DELIBERA"
+                    )
+                    rows.append({
+                        "id_atto": id_atto,
+                        "tool": tool,
+                        "source_format": source_format,
+                        "ordine_blocco": block_order,
+                        "tipo_blocco": "DISPOSITIVO_DELIBERA",
+                        "tipo_blocco_progressivo": progressive,
+                        "macro_sezione": "DISPOSITIVO_DELIBERA",
+                        "is_narrativa": 0,
+                        "testo_blocco": device_text,
+                        "page_start": row.get("page"),
+                        "page_end": terminal_page_end,
+                        "bbox_start": row.get("bbox"),
+                        "n_elementi": terminal_elements,
+                    })
                 has_deliberation_terminal = True
                 break
 
+            # In alcuni modelli ATTESTA sostituisce DELIBERA come dispositivo
+            # principale. Non vale per pubblicazione, esecutivita', conformita'
+            # o pareri, filtrati sopra.
             if effective_stop == "ATTESTA":
                 if current_block is not None:
                     rows.append(current_block)
                     current_block = None
+                terminal_text, terminal_page_end, terminal_elements = (
+                    collect_terminal_device_text(
+                        group_rows, row_position, "ATTESTA"
+                    )
+                )
+                procedural_tail = POST_DEVICE_PROCEDURAL_PATTERN.search(
+                    terminal_text
+                )
+                if procedural_tail is not None:
+                    terminal_text = terminal_text[
+                        :procedural_tail.start()
+                    ].rstrip()
                 block_order += 1
                 rows.append({
                     "id_atto": id_atto,
@@ -1783,11 +2041,11 @@ def build_blocks(elements: pd.DataFrame) -> pd.DataFrame:
                     "tipo_blocco_progressivo": "DISPOSITIVO_ATTESTA",
                     "macro_sezione": "DISPOSITIVO_ATTESTA",
                     "is_narrativa": 0,
-                    "testo_blocco": original_text,
+                    "testo_blocco": terminal_text,
                     "page_start": row.get("page"),
-                    "page_end": row.get("page"),
+                    "page_end": terminal_page_end,
                     "bbox_start": row.get("bbox"),
-                    "n_elementi": 1,
+                    "n_elementi": terminal_elements,
                 })
                 has_deliberation_terminal = True
                 break
