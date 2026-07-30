@@ -294,6 +294,11 @@ MARKERS = {
         r"(?:che|della|del|dei|degli|delle|dell['’]|in\s+ordine\s+a|relativamente\s+a)?"
     ),
 
+    "FATTO_PROPRIO": (
+        r"fatt[oaie]\s+propri(?:o|a|e)?\s*(?:,|:|;)?\s*"
+        r"(?:che|la|il|lo|le|gli|i|l['’]|della|del|dei|degli|delle|dell['’])?"
+    ),
+
     "FATTO_PRESENTE": (
         r"fatt(?:o\s+presente|a\s+presente|i\s+presenti|e\s+presenti)"
         r"\s*(?:,|:|;)?\s*(?:che|la|il|lo|le|gli|i|l['’]|di|a|per)?"
@@ -415,6 +420,13 @@ MARKERS = {
         r"(?:che|la|il|lo|le|gli|i|l['’]|di|a|per)?"
     ),
 
+    "RITENUTO_NECESSARIO": (
+        r"ritenut[oaie]\s*(?:,|:|;)?\s*"
+        r"(?:(?:altres[iì]|pertanto|quindi)\s*,?\s*)?"
+        r"necessari(?:o|a|e)?\b\s*(?:,|:|;)?\s*"
+        r"(?:che|di|la|il|lo|le|gli|i|l['’]|procedere|approvare)?"
+    ),
+
     "RITENUTO_OPPORTUNO": (
         r"ritenut[oaie]\s*(?:,|:|;)?\s*"
         r"(?:(?:altres[iì]|pertanto|quindi)\s*,?\s*)?"
@@ -503,6 +515,7 @@ MACRO_SECTION = {
     "ATTESTATO": "PARERI_ATTESTAZIONI",
     "RILASCIATO": "ISTRUTTORIA_PARERI",
     "DATO_ATTO": "ISTRUTTORIA",
+    "FATTO_PROPRIO": "ISTRUTTORIA",
     "FATTO_PRESENTE": "ISTRUTTORIA",
     "PRESO_ATTO": "ISTRUTTORIA",
     "TENUTO_CONTO": "ISTRUTTORIA_MOTIVAZIONE",
@@ -526,6 +539,7 @@ MACRO_SECTION = {
     "INDIVIDUATO": "ISTRUTTORIA",
     "INCARICATO": "ISTRUTTORIA",
     "CONSIDERATO": "MOTIVAZIONE",
+    "RITENUTO_NECESSARIO": "MOTIVAZIONE_VALUTAZIONE",
     "RITENUTO_OPPORTUNO": "MOTIVAZIONE_VALUTAZIONE",
     "RITENUTO": "MOTIVAZIONE_VALUTAZIONE",
     "ATTESO": "MOTIVAZIONE",
@@ -868,6 +882,7 @@ POST_DELIBERA_MATTER_PATTERN = re.compile(
     r"(?:fatto\s*,?\s*)?"
     r"(?:(?:il\s+presente\s+(?:atto|verbale)\s+(?:viene\s+)?)?)"
     r"letto\s*,?\s*(?:approvato|confermato)(?:\s*,?\s*e)?\s+sottoscritto|"
+    r"il\s+proponente\b|"
     r"(?:il\s+presidente|il\s+sindaco).{0,250}?"
     r"(?:il\s+segretario(?:\s+comunale)?)|"
     r"(?:certificat[oa]|referto|attestazione)\s+di\s+pubblicazione|"
@@ -889,7 +904,7 @@ POST_DELIBERA_ROW_PATTERN = re.compile(
     r"(?:fatto\s*,?\s*)?"
     r"(?:(?:il\s+presente\s+(?:atto|verbale)\s+(?:viene\s+)?)?)"
     r"letto\s*,?\s*(?:approvato|confermato)(?:\s*,?\s*e)?\s+sottoscritto|"
-    r"il\s+(?:presidente|sindaco|segretario(?:\s+comunale)?)\b|"
+    r"il\s+(?:proponente|presidente|sindaco|segretario(?:\s+comunale)?)\b|"
     r"(?:certificat[oa]|referto|attestazione)\s+di\s+pubblicazione|"
     r"attestato\s+di\s+esecutivita|"
     r"allegato\s+alla\s+proposta|"
@@ -958,7 +973,8 @@ def collect_terminal_device_text(
     group_rows: list[tuple[Any, pd.Series]],
     start_position: int,
     device_marker: str,
-) -> tuple[str, Any, int]:
+    stop_before_position: Optional[int] = None,
+) -> tuple[str, Any, int, int]:
     """Raccoglie un dispositivo terminale fino alle formule di chiusura."""
     first_row = group_rows[start_position][1]
     first_text = str(first_row.get("text", "")).strip()
@@ -974,11 +990,25 @@ def collect_terminal_device_text(
     parts = [first_device_text] if first_device_text else []
     page_end = first_row.get("page")
     element_count = 1 if first_device_text else 0
+    last_consumed_position = start_position
 
     if trim_post_delibera_matter(first_device_text) != first_device_text:
-        return trim_post_delibera_matter(first_device_text), page_end, element_count
+        return (
+            trim_post_delibera_matter(first_device_text),
+            page_end,
+            element_count,
+            last_consumed_position,
+        )
 
-    for _, following_row in group_rows[start_position + 1:]:
+    for following_position, (_, following_row) in enumerate(
+        group_rows[start_position + 1:], start=start_position + 1
+    ):
+        if (
+            stop_before_position is not None
+            and following_position >= stop_before_position
+        ):
+            break
+
         following_text = str(following_row.get("text", "")).strip()
         if not following_text:
             continue
@@ -1022,12 +1052,18 @@ def collect_terminal_device_text(
         if text_before_boundary:
             parts.append(text_before_boundary)
             element_count += 1
+            last_consumed_position = following_position
             if pd.notna(following_row.get("page")):
                 page_end = following_row.get("page")
         if boundary is not None:
             break
 
-    return "\n".join(parts).strip(), page_end, element_count
+    return (
+        "\n".join(parts).strip(),
+        page_end,
+        element_count,
+        last_consumed_position,
+    )
 
 
 PROCEDURAL_STOP_PATTERN = re.compile(
@@ -1862,8 +1898,9 @@ def build_blocks(elements: pd.DataFrame) -> pd.DataFrame:
     Ogni nuovo marker apre un nuovo blocco.
     Gli elementi successivi senza marker vengono accodati al blocco corrente.
 
-    DELIBERA chiude la narrativa; PROPONE_DELIBERARE conserva il dispositivo
-    in un blocco separato e la lettura riprende dal marker narrativo successivo.
+    DELIBERA chiude normalmente la narrativa. Se nello stesso atto è presente
+    un PROPONE terminale successivo, conserva anche la narrativa della proposta
+    allegata e chiude definitivamente dopo il relativo dispositivo.
     """
     rows = []
 
@@ -1889,8 +1926,21 @@ def build_blocks(elements: pd.DataFrame) -> pd.DataFrame:
             and group["stop_detected"].eq("DELIBERA").any()
         )
         group_rows = list(group.iterrows())
+        proposal_device_positions = [
+            position
+            for position, (_, candidate_row) in enumerate(group_rows)
+            if (
+                pd.notna(candidate_row.get("proposal_stop_pos"))
+                or candidate_row.get("stop_detected") == "PROPONE_DELIBERARE"
+            )
+        ]
+        skip_through_position = -1
+        continue_to_followup_proposal = False
 
         for row_position, (_, row) in enumerate(group_rows):
+            if row_position <= skip_through_position:
+                continue
+
             confirmed_waiting_terminal = False
             institutional_heading = is_institutional_heading(
                 row.get("text", ""), str(row.get("role_norm", ""))
@@ -2017,6 +2067,39 @@ def build_blocks(elements: pd.DataFrame) -> pd.DataFrame:
                 if current_block is not None:
                     rows.append(current_block)
                     current_block = None
+                if continue_to_followup_proposal:
+                    (
+                        proposal_text,
+                        proposal_page_end,
+                        proposal_elements,
+                        _,
+                    ) = collect_terminal_device_text(
+                        group_rows, row_position, "PROPONE"
+                    )
+                    block_order += 1
+                    marker_counts["DISPOSITIVO_PROPOSTA"] = (
+                        marker_counts.get("DISPOSITIVO_PROPOSTA", 0) + 1
+                    )
+                    rows.append({
+                        "id_atto": id_atto,
+                        "tool": tool,
+                        "source_format": source_format,
+                        "ordine_blocco": block_order,
+                        "tipo_blocco": "DISPOSITIVO_PROPOSTA",
+                        "tipo_blocco_progressivo": (
+                            "DISPOSITIVO_PROPOSTA_"
+                            f"{marker_counts['DISPOSITIVO_PROPOSTA']}"
+                        ),
+                        "macro_sezione": "DISPOSITIVO_PROPOSTA",
+                        "is_narrativa": 0,
+                        "testo_blocco": proposal_text,
+                        "page_start": row.get("page"),
+                        "page_end": proposal_page_end,
+                        "bbox_start": row.get("bbox"),
+                        "n_elementi": proposal_elements,
+                    })
+                    continue_to_followup_proposal = False
+                    break
                 block_order += 1
                 marker_counts["DISPOSITIVO_PROPOSTA"] = marker_counts.get("DISPOSITIVO_PROPOSTA", 0) + 1
                 proposal_block = {
@@ -2042,10 +2125,89 @@ def build_blocks(elements: pd.DataFrame) -> pd.DataFrame:
                 if current_block is not None:
                     rows.append(current_block)
                     current_block = None
-                terminal_text, terminal_page_end, terminal_elements = (
-                    collect_terminal_device_text(
-                        group_rows, row_position, "DELIBERA"
+                later_proposal_position = next(
+                    (
+                        position
+                        for position in proposal_device_positions
+                        if position > row_position
+                    ),
+                    None,
+                )
+                followup_start_position = later_proposal_position
+                if later_proposal_position is not None:
+                    proposal_heading_position = next(
+                        (
+                            position
+                            for position in range(
+                                row_position + 1, later_proposal_position
+                            )
+                            if re.match(
+                                r"^(?:proposta\s+di\s+deliberazione|"
+                                r"il\s+proponente)\b",
+                                normalize_text(
+                                    group_rows[position][1].get("text", "")
+                                ).lower(),
+                            )
+                        ),
+                        None,
                     )
+                    if proposal_heading_position is not None:
+                        followup_start_position = proposal_heading_position
+                        heading_page = group_rows[
+                            proposal_heading_position
+                        ][1].get("page")
+                        delibera_page = row.get("page")
+                        if (
+                            pd.notna(heading_page)
+                            and pd.notna(delibera_page)
+                            and heading_page != delibera_page
+                        ):
+                            followup_start_position = next(
+                                (
+                                    position
+                                    for position in range(
+                                        row_position + 1,
+                                        proposal_heading_position + 1,
+                                    )
+                                    if group_rows[position][1].get("page")
+                                    == heading_page
+                                ),
+                                proposal_heading_position,
+                            )
+                    else:
+                        followup_start_position = next(
+                            (
+                                position
+                                for position in range(
+                                    row_position + 1, later_proposal_position
+                                )
+                                if (
+                                    pd.notna(
+                                        group_rows[position][1].get(
+                                            "marker_detected"
+                                        )
+                                    )
+                                    and group_rows[position][1].get(
+                                        "marker_detected"
+                                    )
+                                    not in {
+                                        "DELIBERA",
+                                        "PROPONE_DELIBERARE",
+                                    }
+                                )
+                            ),
+                            later_proposal_position,
+                        )
+                (
+                    terminal_text,
+                    terminal_page_end,
+                    terminal_elements,
+                    terminal_end_position,
+                ) = collect_terminal_device_text(
+                    group_rows,
+                    row_position,
+                    "DELIBERA",
+                    stop_before_position=followup_start_position,
                 )
                 device_texts = split_delibera_devices(terminal_text)
                 for device_index, device_text in enumerate(device_texts, start=1):
@@ -2071,6 +2233,12 @@ def build_blocks(elements: pd.DataFrame) -> pd.DataFrame:
                         "n_elementi": terminal_elements,
                     })
                 has_deliberation_terminal = True
+                if later_proposal_position is not None:
+                    continue_to_followup_proposal = True
+                    skip_through_position = max(
+                        skip_through_position, terminal_end_position
+                    )
+                    continue
                 break
 
             # In alcuni modelli ATTESTA sostituisce DELIBERA come dispositivo
@@ -2080,10 +2248,13 @@ def build_blocks(elements: pd.DataFrame) -> pd.DataFrame:
                 if current_block is not None:
                     rows.append(current_block)
                     current_block = None
-                terminal_text, terminal_page_end, terminal_elements = (
-                    collect_terminal_device_text(
-                        group_rows, row_position, "ATTESTA"
-                    )
+                (
+                    terminal_text,
+                    terminal_page_end,
+                    terminal_elements,
+                    _,
+                ) = collect_terminal_device_text(
+                    group_rows, row_position, "ATTESTA"
                 )
                 procedural_tail = POST_DEVICE_PROCEDURAL_PATTERN.search(
                     terminal_text
@@ -2158,6 +2329,39 @@ def build_blocks(elements: pd.DataFrame) -> pd.DataFrame:
                 if current_block is not None:
                     rows.append(current_block)
                     current_block = None
+                if continue_to_followup_proposal:
+                    (
+                        proposal_text,
+                        proposal_page_end,
+                        proposal_elements,
+                        _,
+                    ) = collect_terminal_device_text(
+                        group_rows, row_position, "PROPONE"
+                    )
+                    block_order += 1
+                    marker_counts["DISPOSITIVO_PROPOSTA"] = (
+                        marker_counts.get("DISPOSITIVO_PROPOSTA", 0) + 1
+                    )
+                    rows.append({
+                        "id_atto": id_atto,
+                        "tool": tool,
+                        "source_format": source_format,
+                        "ordine_blocco": block_order,
+                        "tipo_blocco": "DISPOSITIVO_PROPOSTA",
+                        "tipo_blocco_progressivo": (
+                            "DISPOSITIVO_PROPOSTA_"
+                            f"{marker_counts['DISPOSITIVO_PROPOSTA']}"
+                        ),
+                        "macro_sezione": "DISPOSITIVO_PROPOSTA",
+                        "is_narrativa": 0,
+                        "testo_blocco": proposal_text,
+                        "page_start": row.get("page"),
+                        "page_end": proposal_page_end,
+                        "bbox_start": row.get("bbox"),
+                        "n_elementi": proposal_elements,
+                    })
+                    continue_to_followup_proposal = False
+                    break
                 block_order += 1
                 marker_counts["DISPOSITIVO_PROPOSTA"] = marker_counts.get("DISPOSITIVO_PROPOSTA", 0) + 1
                 proposal_text = original_text[int(proposal_pos):].strip()
@@ -2238,6 +2442,7 @@ def add_sequence_flags(blocks: pd.DataFrame) -> pd.DataFrame:
         "ATTESTA": 4,
         "RILASCIATO": 4,
         "DATO_ATTO": 5,
+        "FATTO_PROPRIO": 5,
         "FATTO_PRESENTE": 5,
         "PRESO_ATTO": 5,
         "VISTO_E_PRESO_ATTO": 5,
@@ -2272,6 +2477,7 @@ def add_sequence_flags(blocks: pd.DataFrame) -> pd.DataFrame:
         "RIBADITO": 7,
         "VALUTATO": 8,
         "RICONOSCIUTO": 8,
+        "RITENUTO_NECESSARIO": 9,
         "RITENUTO_OPPORTUNO": 9,
         "RITENUTO": 9,
         "PRECISATO": 9,

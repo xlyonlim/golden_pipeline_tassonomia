@@ -276,6 +276,9 @@ Vincoli metodologici obbligatori:
 - si valutano sia la NARRATIVA sia i DISPOSITIVI PROPONE, DELIBERA e ATTESTA;
 - più proposte o deliberazioni autonome devono restare in blocchi distinti
   con suffissi progressivi _1, _2, ...;
+- se a un DISPOSITIVO_DELIBERA segue nello stesso atto una proposta allegata
+  dotata di DISPOSITIVO_PROPOSTA, entrambi vanno conservati e la segmentazione
+  deve fermarsi alla fine del PROPONE, prima di firme e pareri successivi;
 - una nuova votazione apre un secondo dispositivo soltanto quando introduce
   una decisione autonoma; le formule procedurali non costituiscono etichette;
 - i punti numerati, alfabetici o puntati appartenenti al dispositivo devono
@@ -292,8 +295,9 @@ Vincoli metodologici obbligatori:
 - i suffissi progressivi _1, _2, ... sono previsti dal dataset e non sono errori;
 - VISTI_PARERI e ACQUISITI_PARERI sono etichette semantiche ammesse e distinte
   dai richiami normativi generici;
-- SU_INVITO, TENUTO_PRESENTE, ADEMPIUTO, VISTO_E_PRESO_ATTO e
-  RITENUTO_OPPORTUNO sono marker narrativi validi;
+- SU_INVITO, TENUTO_PRESENTE, ADEMPIUTO, VISTO_E_PRESO_ATTO,
+  RITENUTO_OPPORTUNO, RITENUTO_NECESSARIO e FATTO_PROPRIO sono marker
+  narrativi validi;
 - le sezioni CANDIDATO JSON e CANDIDATO MARKDOWN sono rappresentazioni testuali
   dei blocchi estratti: non valutarne la sintassi come JSON o Markdown;
 - concentra issues e punteggi su marker realmente mancanti/spuri, confini dei
