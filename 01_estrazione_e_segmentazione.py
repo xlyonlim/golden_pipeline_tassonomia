@@ -213,6 +213,12 @@ MARKERS = {
     # ========================================================
     # Premesse
     # ========================================================
+    "PREMESSO_E_RILEVATO": (
+        r"premess[oaie]\s+(?:ed|e\s+d|e)\s+rilevat[oaie]"
+        r"\s*(?:,|:|;)?\s*"
+        r"(?:che|la|il|lo|le|gli|i|l['’]|di|a|per)?"
+    ),
+
     "PREMESSO": (
         r"premess[oaie]\s*(?:,|:|;)?\s*"
         r"(?:che|la|il|lo|le|gli|i|l['’])?"
@@ -221,6 +227,16 @@ MARKERS = {
     # ========================================================
     # Riferimenti / richiami
     # ========================================================
+    "VISTI_ED_ACQUISITI": (
+        r"vist[oaie]\s+(?:ed|e\s+d|e)\s+acquisit[oaie]\s*(?:,|:|;)?\s*"
+        r"(?:che|la|il|lo|le|gli|i|l['’]|i\s+pareri|il\s+parere)?"
+    ),
+
+    "VISTA_E_CONDIVISA": (
+        r"vist[oaie]\s+e\s+condivis[oaie]\s*(?:,|:|;)?\s*"
+        r"(?:che|la|il|lo|le|gli|i|l['’]|della|del|dei|degli|delle|dell['’])?"
+    ),
+
     "VISTO_E_PRESO_ATTO": (
         r"vist[oaie]\s+e\s+pres[oaie]\s+atto\s*(?:,|:|;)?\s*"
         r"(?:che|della|del|dei|degli|delle|dell['’]|di|in\s+ordine\s+a)?"
@@ -243,6 +259,11 @@ MARKERS = {
         r"(?:che|la|il|lo|le|gli|i|l['’]|altres[iì]|il\s+provvedimento|la\s+deliberazione)?"
     ),
 
+    "RAMMENTATO": (
+        r"rammentat[oaie]\s*(?:,|:|;)?\s*"
+        r"(?:che|la|il|lo|le|gli|i|l['’]|altres[iì])?"
+    ),
+
     "RICORDATO": (
         r"ricordat[oaie]\s*(?:,|:|;)?\s*"
         r"(?:che|la|il|lo|le|gli|i|l['’])?"
@@ -256,6 +277,11 @@ MARKERS = {
     # ========================================================
     # Pareri / attestazioni / acquisizioni
     # ========================================================
+    "AI_SENSI": (
+        r"a\s*i\s+sensi\b\s*(?:,|:|;)?\s*"
+        r"(?:dell['’]?|del|della|dei|degli|delle|di|d['’])?"
+    ),
+
     "ACQUISITI_PARERI": (
         r"acquisit[oaie]\s*(?:,|:|;)?\s*"
         r"(?:sulla\s+(?:predetta\s+)?proposta\s*,?\s*)?"
@@ -289,7 +315,7 @@ MARKERS = {
     # Presupposti / istruttoria
     # ========================================================
     "DATO_ATTO": (
-        r"dat[oaie]\s+atto\s*(?:,|:|;)?\s*"
+        r"dat[oaie]\s+(?:ancora\s+)?atto\s*(?:,|:|;)?\s*"
         r"(?:altres[iì]\s*,?\s*)?"
         r"(?:che|della|del|dei|degli|delle|dell['’]|in\s+ordine\s+a|relativamente\s+a)?"
     ),
@@ -304,10 +330,20 @@ MARKERS = {
         r"\s*(?:,|:|;)?\s*(?:che|la|il|lo|le|gli|i|l['’]|di|a|per)?"
     ),
 
+    "PRESA_VISIONE": (
+        r"pres[oaie]\s+visione\s*(?:,|:|;)?\s*"
+        r"(?:che|della|del|dei|degli|delle|dell['’]|di|la|il|le|gli|i)?"
+    ),
+
     "PRESO_ATTO": (
         r"pres[oaie]\s+atto\s*(?:,|:|;)?\s*"
         r"(?:altres[iì]\s*,?\s*)?"
         r"(?:che|della|del|dei|degli|delle|dell['’]|in\s+ordine\s+a|relativamente\s+a)?"
+    ),
+
+    "AVUTO_RIGUARDO": (
+        r"avut[oaie]\s+riguardo\s*(?:,|:|;)?\s*"
+        r"(?:a|al|alla|ai|agli|alle|all['’]|che|la|il|le|gli|i|quanto)?"
     ),
 
     "TENUTO_CONTO": (
@@ -328,6 +364,11 @@ MARKERS = {
     "UDITO": (
         r"udit[oaie]\s*(?:,|:|;)?\s*"
         r"(?:che|la|il|lo|le|gli|i|l['’]|la\s+proposta|il\s+relatore)?"
+    ),
+
+    "DOPO": (
+        r"dopo\b\s*(?:,|:|;)?\s*"
+        r"(?:che|aver|avere|ampia|approfondita|breve|la|il|lo|le|gli|i|l['’])?"
     ),
 
     "SU_INVITO": (
@@ -392,6 +433,11 @@ MARKERS = {
         r"(?:che|la|il|lo|le|gli|i|l['’]|di|a|per|attentamente|la\s+documentazione|gli\s+atti)?"
     ),
 
+    "DEPOSITATO": (
+        r"depositat[oaie]\s*(?:,|:|;)?\s*"
+        r"(?:che|la|il|lo|le|gli|i|l['’]|agli\s+atti|presso|in|al|alla)?"
+    ),
+
     "PREDISPOSTO": (
         r"predispost[oaie]\s*(?:,|:|;)?\s*"
         r"(?:che|la|il|lo|le|gli|i|l['’]|lo\s+schema|la\s+proposta|gli\s+atti)?"
@@ -415,6 +461,11 @@ MARKERS = {
     # ========================================================
     # Motivazione / valutazione
     # ========================================================
+    "STANTE": (
+        r"stante\b\s*(?:,|:|;)?\s*"
+        r"(?:che|la|il|lo|le|gli|i|l['’]|quanto|la\s+necessit[aà])?"
+    ),
+
     "CONSIDERATO": (
         r"considerat[oaie]\s*(?:,|:|;)?\s*"
         r"(?:che|la|il|lo|le|gli|i|l['’]|di|a|per)?"
@@ -464,6 +515,13 @@ MARKERS = {
         r"(?:che|la|il|lo|le|gli|i|l['’]|di|a|per)?"
     ),
 
+    "VALUTATO_OPPORTUNO": (
+        r"valutat[oaie]\s*(?:,|:|;)?\s*"
+        r"(?:(?:altres[iì]|pertanto|quindi)\s*,?\s*)?"
+        r"opportun[oaie]\b\s*(?:,|:|;)?\s*"
+        r"(?:che|di|la|il|lo|le|gli|i|l['’]|procedere|approvare)?"
+    ),
+
     "VALUTATO": (
         r"valutat[oaie]\s*(?:,|:|;)?\s*"
         r"(?:che|la|il|lo|le|gli|i|l['’]|di|a|per)?"
@@ -484,6 +542,11 @@ MARKERS = {
         r"(?:che|la|il|lo|le|gli|i|l['’]|di|a|per|necessario|opportuno|i\s+requisiti)?"
     ),
 
+    "SPECIFICATO": (
+        r"specificat[oaie]\s*(?:,|:|;)?\s*"
+        r"(?:che|la|il|lo|le|gli|i|l['’]|quanto|in\s+merito\s+a)?"
+    ),
+
     "PRECISATO": (
         r"precisat[oaie]\s*(?:,|:|;)?\s*"
         r"(?:che|la|il|lo|le|gli|i|l['’]|quanto|in\s+merito\s+a)?"
@@ -502,13 +565,18 @@ STOP_MARKERS = {
 }
 
 MACRO_SECTION = {
+    "PREMESSO_E_RILEVATO": "NARRATIVA_PREMESSA_MOTIVAZIONE",
     "PREMESSO": "NARRATIVA_PREMESSA",
+    "VISTI_ED_ACQUISITI": "PARERI_ATTESTAZIONI",
+    "VISTA_E_CONDIVISA": "ISTRUTTORIA_MOTIVAZIONE",
     "VISTO_E_PRESO_ATTO": "ISTRUTTORIA",
     "VISTO": "PREAMBOLO_RIFERIMENTI",
     "VISTI_PARERI": "PARERI_ATTESTAZIONI",
     "RICHIAMATO": "PREAMBOLO_RIFERIMENTI",
+    "RAMMENTATO": "PREAMBOLO_RIFERIMENTI",
     "RICORDATO": "PREAMBOLO_RIFERIMENTI",
     "RICORDANDO": "PREAMBOLO_RIFERIMENTI",
+    "AI_SENSI": "PREAMBOLO_RIFERIMENTI",
     "ACQUISITI_PARERI": "PARERI_ATTESTAZIONI",
     "ACQUISITO": "ISTRUTTORIA",
     "ATTESTA": "PARERI_ATTESTAZIONI",
@@ -517,11 +585,14 @@ MACRO_SECTION = {
     "DATO_ATTO": "ISTRUTTORIA",
     "FATTO_PROPRIO": "ISTRUTTORIA",
     "FATTO_PRESENTE": "ISTRUTTORIA",
+    "PRESA_VISIONE": "ISTRUTTORIA",
     "PRESO_ATTO": "ISTRUTTORIA",
+    "AVUTO_RIGUARDO": "ISTRUTTORIA_MOTIVAZIONE",
     "TENUTO_CONTO": "ISTRUTTORIA_MOTIVAZIONE",
     "TENUTO_PRESENTE": "ISTRUTTORIA_MOTIVAZIONE",
     "ASSUNTO": "ISTRUTTORIA",
     "UDITO": "ISTRUTTORIA",
+    "DOPO": "ISTRUTTORIA",
     "SU_INVITO": "ISTRUTTORIA",
     "ADEMPIUTO": "ISTRUTTORIA",
     "ACCERTATO": "ISTRUTTORIA",
@@ -534,10 +605,12 @@ MACRO_SECTION = {
     "LETTO": "ISTRUTTORIA",
     "ESAMINATO": "ISTRUTTORIA_VALUTAZIONE",
     "ANALIZZATO": "ISTRUTTORIA_VALUTAZIONE",
+    "DEPOSITATO": "ISTRUTTORIA",
     "PREDISPOSTO": "ISTRUTTORIA",
     "FORMULATO": "ISTRUTTORIA",
     "INDIVIDUATO": "ISTRUTTORIA",
     "INCARICATO": "ISTRUTTORIA",
+    "STANTE": "MOTIVAZIONE",
     "CONSIDERATO": "MOTIVAZIONE",
     "RITENUTO_NECESSARIO": "MOTIVAZIONE_VALUTAZIONE",
     "RITENUTO_OPPORTUNO": "MOTIVAZIONE_VALUTAZIONE",
@@ -547,10 +620,12 @@ MACRO_SECTION = {
     "RILEVATO": "ISTRUTTORIA_MOTIVAZIONE",
     "OSSERVATO": "ISTRUTTORIA_MOTIVAZIONE",
     "POSTO": "NARRATIVA_PREMESSA",
+    "VALUTATO_OPPORTUNO": "MOTIVAZIONE_VALUTAZIONE",
     "VALUTATO": "MOTIVAZIONE_VALUTAZIONE",
     "EVIDENZIATO": "MOTIVAZIONE",
     "RIBADITO": "MOTIVAZIONE",
     "RICONOSCIUTO": "MOTIVAZIONE_VALUTAZIONE",
+    "SPECIFICATO": "ISTRUTTORIA_MOTIVAZIONE",
     "PRECISATO": "ISTRUTTORIA_MOTIVAZIONE",
     "STABILITO": "MOTIVAZIONE_VALUTAZIONE",
 }
@@ -634,15 +709,18 @@ def compact_spaced_markers(text: str) -> str:
     """
     keywords = [
         "VISTO", "VISTA", "VISTI", "VISTE",
+        "CONDIVISO", "CONDIVISA", "CONDIVISI", "CONDIVISE",
         "CONSIDERATO", "CONSIDERATA", "CONSIDERATI", "CONSIDERATE",
         "PREMESSO", "PREMESSA", "PREMESSI", "PREMESSE",
         "RITENUTO", "RITENUTA", "RITENUTI", "RITENUTE",
+        "STANTE",
         "ATTESO", "ATTESA", "ATTESI", "ATTESE",
         "RAVVISATO", "RAVVISATA", "RAVVISATI", "RAVVISATE",
         "RILEVATO", "RILEVATA", "RILEVATI", "RILEVATE",
         "OSSERVATO", "OSSERVATA", "OSSERVATI", "OSSERVATE",
         "POSTO", "POSTA", "POSTI", "POSTE",
         "RICHIAMATO", "RICHIAMATA", "RICHIAMATI", "RICHIAMATE",
+        "RAMMENTATO", "RAMMENTATA", "RAMMENTATI", "RAMMENTATE",
         "RICORDATO", "RICORDATA", "RICORDATI", "RICORDATE",
         "RICORDANDO",
         "ACCERTATO", "ACCERTATA", "ACCERTATI", "ACCERTATE",
@@ -652,12 +730,15 @@ def compact_spaced_markers(text: str) -> str:
         "AVVISATO", "AVVISATA", "AVVISATI", "AVVISATE",
         "VERIFICATO", "VERIFICATA", "VERIFICATI", "VERIFICATE",
         "VALUTATO", "VALUTATA", "VALUTATI", "VALUTATE",
+        "SENSI",
         "EVIDENZIATO", "EVIDENZIATA", "EVIDENZIATI", "EVIDENZIATE",
         "RIBADITO", "RIBADITA", "RIBADITI", "RIBADITE",
         "RICONOSCIUTO", "RICONOSCIUTA", "RICONOSCIUTI", "RICONOSCIUTE",
         "ANALIZZATO", "ANALIZZATA", "ANALIZZATI", "ANALIZZATE",
+        "DEPOSITATO", "DEPOSITATA", "DEPOSITATI", "DEPOSITATE",
         "LETTO", "LETTA", "LETTI", "LETTE",
         "ESAMINATO", "ESAMINATA", "ESAMINATI", "ESAMINATE",
+        "SPECIFICATO", "SPECIFICATA", "SPECIFICATI", "SPECIFICATE",
         "PRECISATO", "PRECISATA", "PRECISATI", "PRECISATE",
         "FORMULATO", "FORMULATA", "FORMULATI", "FORMULATE",
         "PREDISPOSTO", "PREDISPOSTA", "PREDISPOSTI", "PREDISPOSTE",
@@ -668,10 +749,12 @@ def compact_spaced_markers(text: str) -> str:
         "ACQUISITO", "ACQUISITA", "ACQUISITI", "ACQUISITE",
         "DATO", "DATA", "DATI", "DATE",
         "FATTO", "FATTA", "FATTI", "FATTE", "PRESENTE", "PRESENTI",
-        "PRESO", "PRESA", "PRESI", "PRESE",
+        "PRESO", "PRESA", "PRESI", "PRESE", "VISIONE",
         "TENUTO", "TENUTA", "TENUTI", "TENUTE",
+        "AVUTO", "AVUTA", "AVUTI", "AVUTE", "RIGUARDO",
         "ASSUNTO", "ASSUNTA", "ASSUNTI", "ASSUNTE",
         "UDITO", "UDITA", "UDITI", "UDITE",
+        "DOPO",
         "ATTO", "CONTO",
         "ATTESTA", "ATTESTANO",
         "ATTESTATO", "ATTESTATA", "ATTESTATI", "ATTESTATE",
@@ -2431,12 +2514,16 @@ def add_sequence_flags(blocks: pd.DataFrame) -> pd.DataFrame:
     )
 
     expected_order = {
+        "PREMESSO_E_RILEVATO": 1,
         "PREMESSO": 1,
         "RICHIAMATO": 2,
+        "RAMMENTATO": 2,
         "RICORDATO": 2,
         "RICORDANDO": 2,
         "VISTO": 3,
         "VISTI_PARERI": 3,
+        "AI_SENSI": 3,
+        "VISTI_ED_ACQUISITI": 4,
         "ACQUISITO": 4,
         "ACQUISITI_PARERI": 4,
         "ATTESTA": 4,
@@ -2444,16 +2531,21 @@ def add_sequence_flags(blocks: pd.DataFrame) -> pd.DataFrame:
         "DATO_ATTO": 5,
         "FATTO_PROPRIO": 5,
         "FATTO_PRESENTE": 5,
+        "PRESA_VISIONE": 5,
         "PRESO_ATTO": 5,
+        "VISTA_E_CONDIVISA": 5,
         "VISTO_E_PRESO_ATTO": 5,
+        "AVUTO_RIGUARDO": 5,
         "TENUTO_CONTO": 5,
         "TENUTO_PRESENTE": 5,
         "ASSUNTO": 5,
         "UDITO": 6,
+        "DOPO": 6,
         "SU_INVITO": 6,
         "ADEMPIUTO": 6,
         "ESAMINATO": 6,
         "ANALIZZATO": 6,
+        "DEPOSITATO": 6,
         "PREDISPOSTO": 6,
         "FORMULATO": 6,
         "INDIVIDUATO": 6,
@@ -2468,6 +2560,7 @@ def add_sequence_flags(blocks: pd.DataFrame) -> pd.DataFrame:
         "LETTO_ESAMINATO": 6,
         "LETTO": 6,
         "CONSIDERATO": 7,
+        "STANTE": 7,
         "RILEVATO": 7,
         "OSSERVATO": 7,
         "POSTO": 7,
@@ -2476,10 +2569,12 @@ def add_sequence_flags(blocks: pd.DataFrame) -> pd.DataFrame:
         "EVIDENZIATO": 7,
         "RIBADITO": 7,
         "VALUTATO": 8,
+        "VALUTATO_OPPORTUNO": 8,
         "RICONOSCIUTO": 8,
         "RITENUTO_NECESSARIO": 9,
         "RITENUTO_OPPORTUNO": 9,
         "RITENUTO": 9,
+        "SPECIFICATO": 9,
         "PRECISATO": 9,
         "STABILITO": 9,
     }

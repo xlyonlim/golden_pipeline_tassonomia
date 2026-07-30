@@ -298,6 +298,17 @@ Vincoli metodologici obbligatori:
 - SU_INVITO, TENUTO_PRESENTE, ADEMPIUTO, VISTO_E_PRESO_ATTO,
   RITENUTO_OPPORTUNO, RITENUTO_NECESSARIO e FATTO_PROPRIO sono marker
   narrativi validi;
+- RAMMENTATO è un marker autonomo di richiamo narrativo;
+- DOPO è un marker narrativo procedurale quando apre un blocco;
+- SPECIFICATO è un marker narrativo istruttorio-motivazionale;
+- VISTA_E_CONDIVISA è un marker composto narrativo valido;
+- VISTI_ED_ACQUISITI è un marker composto valido per pareri e acquisizioni;
+- PREMESSO_E_RILEVATO è un marker composto narrativo valido;
+- PRESA_VISIONE è un marker narrativo istruttorio valido;
+- STANTE è un marker narrativo motivazionale quando apre un blocco;
+- VALUTATO_OPPORTUNO e AI_SENSI sono marker narrativi validi;
+- AVUTO_RIGUARDO è un marker narrativo istruttorio-motivazionale;
+- DEPOSITATO è un marker narrativo istruttorio valido;
 - le sezioni CANDIDATO JSON e CANDIDATO MARKDOWN sono rappresentazioni testuali
   dei blocchi estratti: non valutarne la sintassi come JSON o Markdown;
 - concentra issues e punteggi su marker realmente mancanti/spuri, confini dei
