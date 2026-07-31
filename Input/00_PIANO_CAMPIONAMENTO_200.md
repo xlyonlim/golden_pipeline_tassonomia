@@ -14,34 +14,47 @@ comunale o municipale:
 Il Trentino-Alto Adige e considerato come una sola regione. Non sono previste
 quote separate per le province autonome di Trento e Bolzano.
 
-## Situazione attuale
+## Situazione attuale - 31 luglio 2026
 
-Il campione principale contiene 20 delibere provenienti da 20 comuni distinti.
-Occorre raccogliere altri 180 PDF.
+La cartella `Input` contiene 159 PDF. `Trivento.pdf` e una deliberazione del
+Consiglio comunale e non puo essere conteggiata. Inoltre,
+`delibera copia conforme (8).pdf` e un duplicato binario di
+`Fara Filiorum Petri.pdf`. Restano quindi 157 deliberazioni di Giunta uniche e
+potenzialmente valide.
 
-| Regione | Attuali | Da raccogliere | Totale finale |
-|---|---:|---:|---:|
-| Valle d'Aosta | 0 | 10 | 10 |
-| Piemonte | 3 | 7 | 10 |
-| Liguria | 0 | 10 | 10 |
-| Lombardia | 2 | 8 | 10 |
-| Trentino-Alto Adige | 0 | 10 | 10 |
-| Veneto | 0 | 10 | 10 |
-| Friuli-Venezia Giulia | 1 | 9 | 10 |
-| Emilia-Romagna | 0 | 10 | 10 |
-| Toscana | 3 | 7 | 10 |
-| Umbria | 0 | 10 | 10 |
-| Marche | 0 | 10 | 10 |
-| Lazio | 1 | 9 | 10 |
-| Abruzzo | 0 | 10 | 10 |
-| Molise | 3 | 7 | 10 |
-| Campania | 3 | 7 | 10 |
-| Puglia | 1 | 9 | 10 |
-| Basilicata | 0 | 10 | 10 |
-| Calabria | 0 | 10 | 10 |
-| Sicilia | 1 | 9 | 10 |
-| Sardegna | 2 | 8 | 10 |
-| **Totale** | **20** | **180** | **200** |
+Valle d'Aosta ha un documento eccedente, il Piemonte ne ha due, la Liguria ne
+ha uno e il Lazio ne ha uno. Gli eccedenti non sono necessariamente da
+eliminare: vanno conservati fuori dal campione principale dopo il controllo
+qualitativo finale. Ai fini delle quote regionali risultano 152 documenti
+conteggiabili e occorre raccoglierne altri 48.
+
+`Casalbordino.pdf` contiene in realta una deliberazione del Comune di Casoli.
+Il documento e valido e appartiene comunque all'Abruzzo, ma il nome del file va
+corretto prima della rinumerazione definitiva.
+
+| Regione | PDF presenti | Non validi | Duplicati | Conteggiabili | Eccedenti | Da raccogliere | Totale finale |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| Valle d'Aosta | 11 | 0 | 0 | 10 | 1 | 0 | 10 |
+| Piemonte | 12 | 0 | 0 | 10 | 2 | 0 | 10 |
+| Liguria | 11 | 0 | 0 | 10 | 1 | 0 | 10 |
+| Lombardia | 10 | 0 | 0 | 10 | 0 | 0 | 10 |
+| Trentino-Alto Adige | 10 | 0 | 0 | 10 | 0 | 0 | 10 |
+| Veneto | 10 | 0 | 0 | 10 | 0 | 0 | 10 |
+| Friuli-Venezia Giulia | 10 | 0 | 0 | 10 | 0 | 0 | 10 |
+| Emilia-Romagna | 10 | 0 | 0 | 10 | 0 | 0 | 10 |
+| Toscana | 10 | 0 | 0 | 10 | 0 | 0 | 10 |
+| Umbria | 10 | 0 | 0 | 10 | 0 | 0 | 10 |
+| Marche | 9 | 0 | 0 | 9 | 0 | 1 | 10 |
+| Lazio | 11 | 0 | 0 | 10 | 1 | 0 | 10 |
+| Abruzzo | 10 | 0 | 1 | 9 | 0 | 1 | 10 |
+| Molise | 8 | 1 | 0 | 7 | 0 | 3 | 10 |
+| Campania | 3 | 0 | 0 | 3 | 0 | 7 | 10 |
+| Puglia | 1 | 0 | 0 | 1 | 0 | 9 | 10 |
+| Basilicata | 0 | 0 | 0 | 0 | 0 | 10 | 10 |
+| Calabria | 10 | 0 | 0 | 10 | 0 | 0 | 10 |
+| Sicilia | 1 | 0 | 0 | 1 | 0 | 9 | 10 |
+| Sardegna | 2 | 0 | 0 | 2 | 0 | 8 | 10 |
+| **Totale** | **159** | **1** | **1** | **152** | **5** | **48** | **200** |
 
 ## Input mantenuti
 

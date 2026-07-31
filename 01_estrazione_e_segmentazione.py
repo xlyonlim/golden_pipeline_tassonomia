@@ -42,6 +42,7 @@ DEFAULT_OUT_ROOT = SCRIPT_OUTPUT_ROOT
 SELECTED_TOOL = "docling"
 SELECTED_FORMAT = "json"
 EXTRACTOR_TOOLS = ("docling", "opendataloader", "marker")
+TWO_UP_LAYOUT_MODES = ("auto", "nessuno", "sequenziale", "libretto")
 
 
 def natural_sort_key(path: Path) -> List[Any]:
@@ -192,6 +193,307 @@ def next_segmentation_dir(output_root: Path) -> Path:
 
 
 # ============================================================
+# 1A. NORMALIZZAZIONE PDF CON PAGINE AFFIANCATE
+# ============================================================
+
+TWO_UP_START_CUES = (
+    (re.compile(r"\boriginale\s+della\s+deliberazione\b", re.IGNORECASE), 4),
+    (re.compile(r"\bdeliberazione\s+della\s+giunta\b", re.IGNORECASE), 4),
+    (re.compile(r"\bgiunta\s+(?:comunale|municipale)\b", re.IGNORECASE), 3),
+    (re.compile(r"\boggetto\s*:", re.IGNORECASE), 2),
+    (re.compile(r"\bl['\u2019]?anno\b", re.IGNORECASE), 1),
+)
+TWO_UP_END_CUES = (
+    (re.compile(r"\bapprovato\s+e\s+sottoscritto\b", re.IGNORECASE), 4),
+    (re.compile(r"\battestat[oa]\s+di\s+pubblicazione\b", re.IGNORECASE), 4),
+    (re.compile(r"\bcertificazioni?\b", re.IGNORECASE), 2),
+    (re.compile(r"\bdivenuta\s+esecutiva\b", re.IGNORECASE), 2),
+)
+
+
+def pdf_info(path: Path, first_page: int = 0, last_page: int = 0) -> str:
+    executable = shutil.which("pdfinfo")
+    if executable is None:
+        raise RuntimeError(
+            "Per riconoscere le pagine affiancate serve 'pdfinfo' (Poppler)."
+        )
+    command = [executable]
+    if first_page and last_page:
+        command.extend(["-f", str(first_page), "-l", str(last_page)])
+    command.append(str(path))
+    result = subprocess.run(command, check=True, capture_output=True)
+    return result.stdout.decode("utf-8", errors="ignore")
+
+
+def pdf_page_count_and_first_size(path: Path) -> tuple[int, float, float]:
+    info = pdf_info(path)
+    pages_match = re.search(r"^Pages:\s+(\d+)", info, flags=re.MULTILINE)
+    size_match = re.search(
+        r"^Page(?:\s+\d+)?\s+size:\s+([\d.]+)\s+x\s+([\d.]+)\s+pts",
+        info,
+        flags=re.MULTILINE,
+    )
+    if pages_match is None or size_match is None:
+        raise RuntimeError(f"Geometria PDF non riconosciuta: {path.name}")
+    return int(pages_match.group(1)), float(size_match.group(1)), float(size_match.group(2))
+
+
+def pdf_page_sizes(path: Path, page_count: int) -> List[tuple[float, float]]:
+    info = pdf_info(path, 1, page_count)
+    matches = re.findall(
+        r"^Page\s+\d+\s+size:\s+([\d.]+)\s+x\s+([\d.]+)\s+pts",
+        info,
+        flags=re.MULTILINE,
+    )
+    if len(matches) != page_count:
+        raise RuntimeError(f"Dimensioni pagina incomplete per {path.name}")
+    return [(float(width), float(height)) for width, height in matches]
+
+
+def crop_pdf_half(
+    source: Path,
+    page_number: int,
+    width: float,
+    height: float,
+    side: str,
+    destination: Path,
+) -> None:
+    executable = shutil.which("pdftocairo")
+    if executable is None:
+        raise RuntimeError(
+            "Per separare le pagine affiancate serve 'pdftocairo' (Poppler)."
+        )
+    half_width = int(round(width / 2))
+    x_offset = 0 if side == "left" else half_width
+    crop_width = half_width if side == "left" else int(round(width)) - half_width
+    command = [
+        executable,
+        "-f", str(page_number),
+        "-l", str(page_number),
+        "-pdf",
+        "-r", "72",
+        "-x", str(x_offset),
+        "-y", "0",
+        "-W", str(crop_width),
+        "-H", str(int(round(height))),
+        str(source),
+        str(destination),
+    ]
+    subprocess.run(command, check=True, capture_output=True)
+
+
+def pdf_text(path: Path) -> str:
+    executable = shutil.which("pdftotext")
+    if executable is None:
+        raise RuntimeError(
+            "Per riconoscere le pagine affiancate serve 'pdftotext' (Poppler)."
+        )
+    result = subprocess.run(
+        [executable, "-enc", "UTF-8", str(path), "-"],
+        check=True,
+        capture_output=True,
+    )
+    return normalize_text(result.stdout.decode("utf-8", errors="ignore"))
+
+
+def informative_character_count(text: str) -> int:
+    return len(re.findall(r"[A-Za-z0-9À-ÖØ-öø-ÿ]", text))
+
+
+def cue_score(text: str, cues: tuple[tuple[re.Pattern[str], int], ...]) -> int:
+    return sum(weight for pattern, weight in cues if pattern.search(text))
+
+
+def detect_two_up_mode(left_text: str, right_text: str) -> Optional[str]:
+    left_start = cue_score(left_text, TWO_UP_START_CUES)
+    right_start = cue_score(right_text, TWO_UP_START_CUES)
+    left_end = cue_score(left_text, TWO_UP_END_CUES)
+    right_end = cue_score(right_text, TWO_UP_END_CUES)
+
+    # Imposizione tipografica: ultima pagina a sinistra, copertina a destra.
+    if right_start >= 5 and right_start > left_start and left_end >= 4:
+        return "libretto"
+
+    # Due pagine logiche consecutive sulla stessa pagina fisica.
+    if left_start >= 5 and left_start >= right_start + 2:
+        return "sequenziale"
+
+    return None
+
+
+def booklet_order(
+    spreads: List[tuple[Path, Path, int, int]],
+) -> List[tuple[Path, int]]:
+    logical_page_count = len(spreads) * 2
+    ordered: List[Optional[tuple[Path, int]]] = [None] * logical_page_count
+    for spread_index, (left, right, left_chars, right_chars) in enumerate(spreads):
+        if spread_index % 2 == 0:
+            left_page = logical_page_count - spread_index
+            right_page = spread_index + 1
+        else:
+            left_page = spread_index + 1
+            right_page = logical_page_count - spread_index
+        ordered[left_page - 1] = (left, left_chars)
+        ordered[right_page - 1] = (right, right_chars)
+    return [part for part in ordered if part is not None]
+
+
+def normalize_two_up_pdf(
+    source: Path,
+    destination_dir: Path,
+    requested_mode: str,
+) -> tuple[Path, Dict[str, Any]]:
+    record: Dict[str, Any] = {
+        "nome_assegnato": source.name,
+        "layout_rilevato": "nessuno",
+        "pagine_fisiche": None,
+        "pagine_logiche": None,
+        "pdf_elaborato": str(source),
+        "nota_layout": "",
+    }
+    if requested_mode == "nessuno":
+        record["nota_layout"] = "Rilevamento disabilitato"
+        return source, record
+
+    try:
+        page_count, first_width, first_height = pdf_page_count_and_first_size(source)
+    except Exception as exc:
+        record["nota_layout"] = f"Controllo geometria non riuscito: {exc}"
+        return source, record
+
+    record["pagine_fisiche"] = page_count
+    if first_width < first_height * 1.25:
+        record["nota_layout"] = "Formato non panoramico"
+        return source, record
+
+    destination_dir.mkdir(parents=True, exist_ok=True)
+    temporary_dir = destination_dir / f".__layout_{source.stem}_{uuid.uuid4().hex}"
+    temporary_dir.mkdir(parents=False, exist_ok=False)
+    try:
+        page_sizes = pdf_page_sizes(source, page_count)
+        first_left = temporary_dir / "spread_0001_left.pdf"
+        first_right = temporary_dir / "spread_0001_right.pdf"
+        crop_pdf_half(
+            source, 1, first_width, first_height, "left", first_left
+        )
+        crop_pdf_half(
+            source, 1, first_width, first_height, "right", first_right
+        )
+        first_left_text = pdf_text(first_left)
+        first_right_text = pdf_text(first_right)
+
+        mode = requested_mode
+        if requested_mode == "auto":
+            mode = detect_two_up_mode(first_left_text, first_right_text) or "nessuno"
+        if mode == "nessuno":
+            record["nota_layout"] = "Pagina panoramica senza indizi sufficienti"
+            return source, record
+
+        spreads: List[tuple[Path, Path, int, int]] = []
+        for page_number, (width, height) in enumerate(page_sizes, start=1):
+            if width < height * 1.25:
+                raise RuntimeError(
+                    f"pagina {page_number} non panoramica in un PDF affiancato"
+                )
+            if page_number == 1:
+                left = first_left
+                right = first_right
+                left_text = first_left_text
+                right_text = first_right_text
+            else:
+                left = temporary_dir / f"spread_{page_number:04d}_left.pdf"
+                right = temporary_dir / f"spread_{page_number:04d}_right.pdf"
+                crop_pdf_half(source, page_number, width, height, "left", left)
+                crop_pdf_half(source, page_number, width, height, "right", right)
+                left_text = pdf_text(left)
+                right_text = pdf_text(right)
+            left_chars = informative_character_count(left_text)
+            right_chars = informative_character_count(right_text)
+            if max(left_chars, right_chars) >= 120 or requested_mode != "auto":
+                spreads.append((left, right, left_chars, right_chars))
+
+        if not spreads:
+            record["nota_layout"] = "Nessuna coppia di pagine con testo sufficiente"
+            return source, record
+
+        if mode == "libretto":
+            ordered_parts = booklet_order(spreads)
+        else:
+            ordered_parts = [
+                part
+                for left, right, left_chars, right_chars in spreads
+                for part in ((left, left_chars), (right, right_chars))
+            ]
+
+        # Elimina soltanto le meta' completamente vuote; una pagina con poco
+        # testo puo contenere firme o una breve chiusura significativa.
+        if requested_mode == "auto":
+            useful_parts = [path for path, chars in ordered_parts if chars >= 12]
+        else:
+            # In modalita' forzata il PDF puo' essere una scansione senza
+            # livello testuale: le pagine vuote saranno gestite dall'OCR.
+            useful_parts = [path for path, _ in ordered_parts]
+        if len(useful_parts) < 2:
+            record["nota_layout"] = "Separazione annullata: meno di due pagine utili"
+            return source, record
+
+        executable = shutil.which("pdfunite")
+        if executable is None:
+            raise RuntimeError(
+                "Per ricomporre le pagine affiancate serve 'pdfunite' (Poppler)."
+            )
+        destination = destination_dir / source.name
+        if destination.exists():
+            destination.unlink()
+        subprocess.run(
+            [executable, *[str(path) for path in useful_parts], str(destination)],
+            check=True,
+            capture_output=True,
+        )
+        record.update(
+            {
+                "layout_rilevato": mode,
+                "pagine_logiche": len(useful_parts),
+                "pdf_elaborato": str(destination),
+                "nota_layout": "PDF originale non modificato",
+            }
+        )
+        return destination, record
+    except Exception as exc:
+        record["nota_layout"] = f"Normalizzazione non riuscita: {exc}"
+        return source, record
+    finally:
+        if temporary_dir.exists():
+            for temporary_file in temporary_dir.iterdir():
+                if temporary_file.is_file():
+                    temporary_file.unlink()
+            temporary_dir.rmdir()
+
+
+def normalize_pdf_layouts(
+    pdf_paths: List[Path],
+    destination_dir: Path,
+    requested_mode: str,
+) -> tuple[List[Path], pd.DataFrame]:
+    processed_paths: List[Path] = []
+    records: List[Dict[str, Any]] = []
+    for index, source in enumerate(pdf_paths, start=1):
+        processed, record = normalize_two_up_pdf(
+            source, destination_dir, requested_mode
+        )
+        processed_paths.append(processed)
+        records.append(record)
+        if record["layout_rilevato"] != "nessuno":
+            print(
+                f"[LAYOUT {index}/{len(pdf_paths)}] {source.name}: "
+                f"{record['layout_rilevato']}, "
+                f"{record['pagine_fisiche']} fisiche -> "
+                f"{record['pagine_logiche']} logiche"
+            )
+    return processed_paths, pd.DataFrame(records)
+
+
+# ============================================================
 # 2. MARKER NARRATIVI / ISTRUTTORI / MOTIVAZIONALI
 # ============================================================
 
@@ -295,6 +597,12 @@ MARKERS = {
         r"(?:che|la|il|lo|le|gli|i|l['’]|agli\s+atti|al\s+protocollo|il\s+parere|i\s+pareri)?"
     ),
 
+    "CONTATTATO": (
+        r"contattat[oaie]\s*(?:,|:|;)?\s*"
+        r"(?:che|la|il|lo|le|gli|i|l['’]|telefonicamente|"
+        r"per\s+le\s+vie\s+brevi|in\s+data)?"
+    ),
+
     "ATTESTA": (
         r"(?:si\s+)?attest(?:a|ano)\b\s*(?:,|:|;)?\s*"
         r"(?:che|la|il|lo|le|gli|i|l['’]|ai\s+sensi|per)?"
@@ -314,9 +622,16 @@ MARKERS = {
     # ========================================================
     # Presupposti / istruttoria
     # ========================================================
+    "DI_DARE_ATTO": (
+        r"d\s*i\s+d\s*a\s*r\s*e\s+atto\s*(?:,|:|;)?\s*"
+        r"(?:che|la|il|lo|le|gli|i|l['’]|della|del|dei|degli|delle|dell['’])?"
+    ),
+
     "DATO_ATTO": (
-        r"dat[oaie]\s+(?:ancora\s+)?atto\s*(?:,|:|;)?\s*"
-        r"(?:altres[iì]\s*,?\s*)?"
+        r"dat[oaie]\s*(?:,|:|;)?\s*"
+        r"(?:(?:inoltre|altres[iì]|anche|ancora|parimenti|nuovamente|ulteriormente)\s*,?\s*)?"
+        r"atto\s*(?:,|:|;)?\s*"
+        r"(?:(?:inoltre|altres[iì]|anche|ancora|parimenti|nuovamente|ulteriormente)\s*,?\s*)?"
         r"(?:che|della|del|dei|degli|delle|dell['’]|in\s+ordine\s+a|relativamente\s+a)?"
     ),
 
@@ -330,14 +645,26 @@ MARKERS = {
         r"\s*(?:,|:|;)?\s*(?:che|la|il|lo|le|gli|i|l['’]|di|a|per)?"
     ),
 
+    "PRESO_E_DATO_CHE": (
+        r"pres[oaie]\s+(?:ed|e\s+d|e)\s+dat[oaie]\s+c\s*h\s*e\b"
+        r"\s*(?:,|:|;)?\s*"
+    ),
+
+    "PRESO_IN_CONSIDERAZIONE": (
+        r"pres[oaie]\s+i\s*n\s+considerazione\s*(?:,|:|;)?\s*"
+        r"(?:che|la|il|lo|le|gli|i|l['’]|della|del|dei|degli|delle|dell['’])?"
+    ),
+
     "PRESA_VISIONE": (
         r"pres[oaie]\s+visione\s*(?:,|:|;)?\s*"
         r"(?:che|della|del|dei|degli|delle|dell['’]|di|la|il|le|gli|i)?"
     ),
 
     "PRESO_ATTO": (
-        r"pres[oaie]\s+atto\s*(?:,|:|;)?\s*"
-        r"(?:altres[iì]\s*,?\s*)?"
+        r"pres[oaie]\s*(?:,|:|;)?\s*"
+        r"(?:(?:inoltre|altres[iì]|anche|ancora|parimenti|nuovamente|ulteriormente)\s*,?\s*)?"
+        r"atto\s*(?:,|:|;)?\s*"
+        r"(?:(?:inoltre|altres[iì]|anche|ancora|parimenti|nuovamente|ulteriormente)\s*,?\s*)?"
         r"(?:che|della|del|dei|degli|delle|dell['’]|in\s+ordine\s+a|relativamente\s+a)?"
     ),
 
@@ -579,12 +906,16 @@ MACRO_SECTION = {
     "AI_SENSI": "PREAMBOLO_RIFERIMENTI",
     "ACQUISITI_PARERI": "PARERI_ATTESTAZIONI",
     "ACQUISITO": "ISTRUTTORIA",
+    "CONTATTATO": "ISTRUTTORIA",
     "ATTESTA": "PARERI_ATTESTAZIONI",
     "ATTESTATO": "PARERI_ATTESTAZIONI",
     "RILASCIATO": "ISTRUTTORIA_PARERI",
+    "DI_DARE_ATTO": "ISTRUTTORIA",
     "DATO_ATTO": "ISTRUTTORIA",
     "FATTO_PROPRIO": "ISTRUTTORIA",
     "FATTO_PRESENTE": "ISTRUTTORIA",
+    "PRESO_E_DATO_CHE": "ISTRUTTORIA",
+    "PRESO_IN_CONSIDERAZIONE": "ISTRUTTORIA_MOTIVAZIONE",
     "PRESA_VISIONE": "ISTRUTTORIA",
     "PRESO_ATTO": "ISTRUTTORIA",
     "AVUTO_RIGUARDO": "ISTRUTTORIA_MOTIVAZIONE",
@@ -747,9 +1078,10 @@ def compact_spaced_markers(text: str) -> str:
         "INDIVIDUATO", "INDIVIDUATA", "INDIVIDUATI", "INDIVIDUATE",
         "INCARICATO", "INCARICATA", "INCARICATI", "INCARICATE",
         "ACQUISITO", "ACQUISITA", "ACQUISITI", "ACQUISITE",
-        "DATO", "DATA", "DATI", "DATE",
+        "CONTATTATO", "CONTATTATA", "CONTATTATI", "CONTATTATE",
+        "DATO", "DATA", "DATI", "DATE", "DARE",
         "FATTO", "FATTA", "FATTI", "FATTE", "PRESENTE", "PRESENTI",
-        "PRESO", "PRESA", "PRESI", "PRESE", "VISIONE",
+        "PRESO", "PRESA", "PRESI", "PRESE", "VISIONE", "CONSIDERAZIONE",
         "TENUTO", "TENUTA", "TENUTI", "TENUTE",
         "AVUTO", "AVUTA", "AVUTI", "AVUTE", "RIGUARDO",
         "ASSUNTO", "ASSUNTA", "ASSUNTI", "ASSUNTE",
@@ -2009,6 +2341,11 @@ def build_blocks(elements: pd.DataFrame) -> pd.DataFrame:
             and group["stop_detected"].eq("DELIBERA").any()
         )
         group_rows = list(group.iterrows())
+        delibera_device_positions = [
+            position
+            for position, (_, candidate_row) in enumerate(group_rows)
+            if candidate_row.get("stop_detected") == "DELIBERA"
+        ]
         proposal_device_positions = [
             position
             for position, (_, candidate_row) in enumerate(group_rows)
@@ -2050,6 +2387,8 @@ def build_blocks(elements: pd.DataFrame) -> pd.DataFrame:
                     next_marker = None
                 if pd.isna(next_stop):
                     next_stop = None
+                if next_marker == "DI_DARE_ATTO":
+                    next_marker = None
                 if next_stop == "DELIBERA":
                     if proposal_block is not None:
                         rows.append(proposal_block)
@@ -2100,6 +2439,14 @@ def build_blocks(elements: pd.DataFrame) -> pd.DataFrame:
             procedural_pos = row.get("procedural_stop_pos")
             proposal_pos = row.get("proposal_stop_pos")
             if pd.isna(marker):
+                marker = None
+            if (
+                marker == "DI_DARE_ATTO"
+                and not any(
+                    position > row_position
+                    for position in delibera_device_positions
+                )
+            ):
                 marker = None
             if pd.isna(stop_marker):
                 stop_marker = None
@@ -2525,12 +2872,16 @@ def add_sequence_flags(blocks: pd.DataFrame) -> pd.DataFrame:
         "AI_SENSI": 3,
         "VISTI_ED_ACQUISITI": 4,
         "ACQUISITO": 4,
+        "CONTATTATO": 4,
         "ACQUISITI_PARERI": 4,
         "ATTESTA": 4,
         "RILASCIATO": 4,
+        "DI_DARE_ATTO": 5,
         "DATO_ATTO": 5,
         "FATTO_PROPRIO": 5,
         "FATTO_PRESENTE": 5,
+        "PRESO_E_DATO_CHE": 5,
+        "PRESO_IN_CONSIDERAZIONE": 5,
         "PRESA_VISIONE": 5,
         "PRESO_ATTO": 5,
         "VISTA_E_CONDIVISA": 5,
@@ -2736,6 +3087,16 @@ def parse_args() -> argparse.Namespace:
             "Piu' veloce e semplice, ma meno adatto ai PDF scansionati."
         ),
     )
+    parser.add_argument(
+        "--layout-pagine-affiancate",
+        choices=TWO_UP_LAYOUT_MODES,
+        default="auto",
+        help=(
+            "Normalizza i PDF panoramici che contengono due pagine logiche. "
+            "'auto' distingue i layout sequenziali dall'imposizione a libretto; "
+            "'nessuno' disabilita il controllo (default: auto)."
+        ),
+    )
     return parser.parse_args()
 
 
@@ -2789,6 +3150,21 @@ def main() -> None:
         raise ValueError("--max-documenti non può essere negativo")
     if args.max_documenti > 0:
         unique_pdf_paths = unique_pdf_paths[:args.max_documenti]
+
+    normalized_pdf_dir = out_dir / "_pdf_normalizzati"
+    unique_pdf_paths, layout_audit = normalize_pdf_layouts(
+        unique_pdf_paths,
+        normalized_pdf_dir,
+        args.layout_pagine_affiancate,
+    )
+    layout_audit.to_csv(
+        out_dir / "00_audit_layout_pdf.csv",
+        index=False,
+        encoding="utf-8-sig",
+        sep=";",
+    )
+    pdf_audit = pdf_audit.merge(layout_audit, on="nome_assegnato", how="left")
+
     selected_ids = {path.stem for path in unique_pdf_paths}
     print(f"PDF selezionati per l'elaborazione: {len(unique_pdf_paths)}")
 

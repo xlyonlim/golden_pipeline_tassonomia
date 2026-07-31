@@ -309,6 +309,10 @@ Vincoli metodologici obbligatori:
 - VALUTATO_OPPORTUNO e AI_SENSI sono marker narrativi validi;
 - AVUTO_RIGUARDO è un marker narrativo istruttorio-motivazionale;
 - DEPOSITATO è un marker narrativo istruttorio valido;
+- PRESO_IN_CONSIDERAZIONE è un marker istruttorio-motivazionale valido;
+- DI_DARE_ATTO è un marker istruttorio valido soltanto quando precede un
+  successivo DISPOSITIVO_DELIBERA; dentro i dispositivi non apre nuovi blocchi;
+- PRESO_E_DATO_CHE è un marker composto istruttorio valido;
 - le sezioni CANDIDATO JSON e CANDIDATO MARKDOWN sono rappresentazioni testuali
   dei blocchi estratti: non valutarne la sintassi come JSON o Markdown;
 - concentra issues e punteggi su marker realmente mancanti/spuri, confini dei
